@@ -1,0 +1,975 @@
+﻿turkish_language = {
+	color = color_language_turkish
+	family = turkic_language_family
+	male_names = {
+		name_aaron name_abdulaziz name_abdulhamid name_abdullah name_abdulmajid name_abdulrahman name_abraham
+		name_afsin name_ahmad Aksonqor name_ala.name_al_din name_alexander name_ali name_alikhan name_alim Alp_Arslan
+		Alp_Yurek Alptigin name_amin name_arif name_artuk Ayaz name_aydin Aydogan Aytekin name_bahador Basbuga Batuhan
+		Baturay name_baybars Bayezid Baytas Belek Berkan Berkiyaruk Boru Bozan Bugra Bulend Burak Cagri Caka
+		name_candar Cuneyd Danismend name_david name_dilmac Dogan Dogukan Dukak name_dulkadir Dundar Dursun name_elias
+		Erdem name_eretna Ertan Ertekin name_ertugrul name_farhad name_genghis name_germiyan name_ghiyath.name_al_din
+		name_hamid name_hasan name_husayn Ilgazi name_inanc name_isaac name_ishmael name_izz.name_al_din name_jahangir
+		name_jalal.name_al_din name_jam name_jamal name_james name_jesus name_jonas name_joseph Kaikaus Kaikhusraw
+		Kaiqobad name_kamal Kara name_karaman Kaya Kaytun name_khalil name_khayr.name_al_din name_khidr name_kilic
+		Korkut name_kubad Kurboga Kutalmis Kutay Kutlug name_mahmud name_malik name_malik.name_shah name_masud
+		Mengucek name_moses name_muhammad name_murad name_mustafa name_nizam.name_al_din Ogulcan name_omar name_orhan
+		name_osman Porsuk name_qamar name_qasim name_rajab name_ramazan name_ridwan name_rostam Saim name_salih
+		name_salim name_salomon Saltuk Saruca Savtekin Savur name_sayf.name_al_din Sehinsah Selcuk Sencer name_sinan
+		Sobuk Sokmen Sonmez Tanrivermis Tekin name_timur name_timur.name_tash Togay Togtekin Toktamis Tolun Toruntay
+		Tugrul Tunga Turgut Turhan Tutus Uluc Umur Yaman Yasar Yinal name_tr_yakub name_tr_suleyman_shah
+		name_tr_tursun name_tr_yahya name_tr_malkoc name_tr_evrenos name_tr_mihal
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 165
+		}
+		Aksonqor
+		Alp_Arslan
+		Alp_Yurek
+		Alptigin
+		Ayaz
+		Aydogan
+		Aytekin
+		Basbuga
+		Batuhan
+		Baturay
+		Bayezid
+		Belek
+		Berkan
+		Berkiyaruk
+		Boru
+		Bozan
+		Bugra
+		Cagri
+		Caka
+		Danismend
+		Dukak
+		Dundar
+		Ilgazi
+		Kara
+		Kaya
+		Korkut
+		Kutalmis
+		Kutlug
+		Saltuk
+		Savtekin
+		Selcuk
+		Sencer
+		Sobuk
+		Sokmen
+		Togtekin
+		Tugrul
+		Tunga
+		Yinal
+		name_jonas
+		name_om_tr_mevlana
+		name_om_tr_saru
+		name_tr_malkoc
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_ahmad
+		name_ali
+		name_hasan
+		name_husayn
+		name_jalal.name_al_din
+		name_ghiyath.name_al_din
+		name_khayr.name_al_din
+		name_malik
+		name_mahmud
+		name_masud
+		name_muhammad
+		name_murad
+		name_mustafa
+		name_orhan
+		name_osman
+		name_salih
+		name_salim
+		name_sinan
+		name_jam
+		name_alexander
+		name_om_tr_sinan_pasa
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 155
+		}
+		name_salomon
+		name_muhammad
+		name_abraham
+		name_alexander
+		name_joseph
+		name_tr_yakub
+		name_jesus
+		name_tr_tursun
+		name_tr_yahya
+		name_tr_malkoc
+		name_tr_evrenos
+		name_tr_mihal
+		name_abdulhamid
+		name_abdulmajid
+		name_abdulaziz
+		name_om_tr_mahmud
+		name_osman
+		name_salim
+	}
+	female_names = {
+		name_aisha name_amina name_asli name_asli.name_khan Ayasun Ayla name_ayneh Ayten Azize Bahar Banu Bozcin Canan
+		Ceylan Cicek Cilen Ciltanesi name_daphne name_darya Dilek name_dunya Esin name_fatima name_firuzeh
+		name_golbahar Gulay Gulcicek Gulfem Gundes Gunes Handan name_homa name_huriya Ilknur Ipek Ipekel Irge Karacik
+		name_khadija name_khorram Kosem name_kulthum name_kumus name_laleh name_leyla name_mansura name_marwa Mihrimah
+		Mutlu Nagihan Nergis Neslihan name_niloufar name_nur Nurbanu Ozgul Ozlem Peksen name_safiya Samur Sarica
+		name_sati name_shahnaz name_sharifa Serap Sevilay Sevindik Sibel Sirin Songul Sumru name_sybil Tekce Terkhen
+		Tura Umay Usunbike Yakut Yeldem Yildiz name_zahra name_zuhal Akgul Alime name_tr_hafsa name_tr_hundi
+		name_tr_devlet name_tr_sitti name_tr_hundishah name_anna name_mary name_sara name_sophia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 125
+		}
+		Akgul
+		Alime
+		Ayasun
+		Ayla
+		Ayten
+		Banu
+		Cicek
+		Terkhen
+		Umay
+		Usunbike
+		Yakut
+		Yeldem
+		Yildiz
+		name_tr_devlet
+		name_tr_sitti
+		name_om_tr_selcuk
+		name_om_tr_melek
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_aisha
+		name_amina
+		name_asli
+		name_asli.name_khan
+		name_fatima
+		name_khadija
+		name_laleh
+		name_leyla
+		name_safiya
+		name_zahra
+		name_tr_hafsa
+		name_khorram
+		Mihrimah
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_aisha
+		name_tr_hafsa
+		name_homa
+		name_tr_hundi
+		name_tr_devlet
+		name_tr_sitti
+		name_tr_hundishah
+		Mihrimah
+		Nurbanu
+		Kosem
+		name_sophia
+		name_mary
+		name_om_tr_mahpeyker
+		name_om_tr_turhan
+		name_om_tr_gulnus
+		name_om_tr_naksidil
+	}
+	dynasty_names = {
+		tr_dyn_osmanoglu tr_dyn_karamanoglu tr_dyn_dulkadir tr_dyn_germiyan tr_dyn_candar tr_dyn_ramazan
+		tr_dyn_mentese tr_dyn_saruhan tr_dyn_aydin tr_dyn_karasi tr_dyn_eretna tr_dyn_danismendid tr_dyn_saltukid
+		tr_dyn_artuqid tr_dyn_mengucekid tr_dyn_hamid tr_dyn_taceddin tr_dyn_pervane tr_dyn_sahibata tr_dyn_chobanid
+		om_dyn_tr_candarli om_dyn_tr_koprulu om_dyn_tr_sokollu om_dyn_tr_karaosmanoglu om_dyn_tr_capanoglu
+		om_dyn_tr_nevsehirli
+	}
+	lowborn = {
+		Aydogdu Balaban name_ertugrul Gunduz Ipek Karatay name_kilic Sonmez Yasar tr_low_demirci tr_low_yazici
+		tr_low_aksoy tr_low_karaca tr_low_arslan tr_low_dogan tr_low_sari tr_low_kara tr_low_kaya tr_low_celik
+		tr_low_turan tr_low_kose tr_low_cakir tr_low_beyoglu om_low_tr_akinci om_low_tr_bakirci om_low_tr_celebi
+		om_low_tr_hacioglu om_low_tr_kadioglu om_low_tr_i_mamoglu om_low_tr_uzun om_low_tr_demirtas
+	}
+	patronym_suffix = "patronym_suffix_turkish"
+	patronym_suffix_son = "patronym_suffix_turkish_son"
+	patronym_suffix_daughter = "patronym_suffix_turkish_daughter"
+	descendant_suffix_male = "descendant_suffix_turkish_male"
+	descendant_suffix_female = "descendant_suffix_turkish_female"
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NUMBER_NAME_SUFFIX"
+	character_name_order = "CHARACTER_NAME_ORDER_TURKISH"
+	ship_names = {
+		om7_ship_turkish_language_001 om7_ship_turkish_language_002 om7_ship_turkish_language_003
+		om7_ship_turkish_language_004 om7_ship_turkish_language_005 om7_ship_turkish_language_006
+		om7_ship_turkish_language_007 om7_ship_turkish_language_008 om7_ship_turkish_language_009
+		om7_ship_turkish_language_010 om7_ship_turkish_language_011 om7_ship_turkish_language_012
+		om7_ship_turkish_language_013 om7_ship_turkish_language_014 om7_ship_turkish_language_015
+		om7_ship_turkish_language_016 om7_ship_turkish_language_017 om7_ship_turkish_language_018
+		om7_ship_turkish_language_019 om7_ship_turkish_language_020 om7_ship_turkish_language_021
+		om7_ship_turkish_language_022 om7_ship_turkish_language_023 om7_ship_turkish_language_024
+		om7_ship_turkish_language_025 om7_ship_turkish_language_026 om7_ship_turkish_language_027
+		om7_ship_turkish_language_028 om7_ship_turkish_language_029 om7_ship_turkish_language_030
+		om7_ship_turkish_language_031 om7_ship_turkish_language_032 om7_ship_turkish_language_033
+		om7_ship_turkish_language_034 om7_ship_turkish_language_035 om7_ship_turkish_language_036
+		om7_ship_turkish_language_037 om7_ship_turkish_language_038 om7_ship_turkish_language_039
+		om7_ship_turkish_language_040 om7_ship_turkish_language_041 om7_ship_turkish_language_042
+		om7_ship_turkish_language_043 om7_ship_turkish_language_044 om7_ship_turkish_language_045
+		om7_ship_turkish_language_046 om7_ship_turkish_language_047 om7_ship_turkish_language_048
+		om7_ship_turkish_language_049 om7_ship_turkish_language_050 om7_ship_turkish_language_051
+		om7_ship_turkish_language_052 om7_ship_turkish_language_053 om7_ship_turkish_language_054
+		om7_ship_turkish_language_055 om7_ship_turkish_language_056 om7_ship_turkish_language_057
+		om7_ship_turkish_language_058 om7_ship_turkish_language_059 om7_ship_turkish_language_060
+		om7_ship_turkish_language_061 om7_ship_turkish_language_062 om7_ship_turkish_language_063
+		om7_ship_turkish_language_064 om7_ship_turkish_language_065 om7_ship_turkish_language_066
+		om7_ship_turkish_language_067 om7_ship_turkish_language_068 om7_ship_turkish_language_069
+		om7_ship_turkish_language_070 om7_ship_turkish_language_071 om7_ship_turkish_language_072
+		om7_ship_turkish_language_073 om7_ship_turkish_language_074 om7_ship_turkish_language_075
+		om7_ship_turkish_language_076 om7_ship_turkish_language_077 om7_ship_turkish_language_078
+		om7_ship_turkish_language_079 om7_ship_turkish_language_080 om7_ship_turkish_language_081
+		om7_ship_turkish_language_082 om7_ship_turkish_language_083 om7_ship_turkish_language_084
+		om7_ship_turkish_language_085 om7_ship_turkish_language_086 om7_ship_turkish_language_087
+		om7_ship_turkish_language_088 om7_ship_turkish_language_089 om7_ship_turkish_language_090
+		om7_ship_turkish_language_091 om7_ship_turkish_language_092 om7_ship_turkish_language_093
+		om7_ship_turkish_language_094 om7_ship_turkish_language_095 om7_ship_turkish_language_096
+		om7_ship_turkish_language_097 om7_ship_turkish_language_098 om7_ship_turkish_language_099
+		om7_ship_turkish_language_100 om7_ship_turkish_language_101 om7_ship_turkish_language_102
+		om7_ship_turkish_language_103 om7_ship_turkish_language_104 om7_ship_turkish_language_105
+		om7_ship_turkish_language_106 om7_ship_turkish_language_107 om7_ship_turkish_language_108
+		om7_ship_turkish_language_109 om7_ship_turkish_language_110 om7_ship_turkish_language_111
+		om7_ship_turkish_language_112 om7_ship_turkish_language_113 om7_ship_turkish_language_114
+		om7_ship_turkish_language_115 om7_ship_turkish_language_116 om7_ship_turkish_language_117
+		om7_ship_turkish_language_118 om7_ship_turkish_language_119 om7_ship_turkish_language_120
+		om7_ship_turkish_language_121 om7_ship_turkish_language_122 om7_ship_turkish_language_123
+		om7_ship_turkish_language_124 om7_ship_turkish_language_125 om7_ship_turkish_language_126
+		om7_ship_turkish_language_127 om7_ship_turkish_language_128
+	}
+	dialects = {
+		turkish_dialect = {
+			male_names = {
+				name_aaron name_abdulaziz name_abdulhamid name_abdullah name_abdulmajid name_abdulrahman name_abraham
+				name_afsin name_ahmad Aksonqor name_ala.name_al_din name_alexander name_ali name_alikhan name_alim
+				Alp_Arslan Alp_Yurek Alptigin name_amin name_arif name_artuk Ayaz name_aydin Aydogan Aytekin name_bahador
+				Basbuga Batuhan Baturay name_baybars Bayezid Baytas Belek Berkan Berkiyaruk Boru Bozan Bugra Bulend Burak
+				Cagri Caka name_candar Cuneyd Danismend name_david name_dilmac Dogan Dogukan Dukak name_dulkadir Dundar
+				Dursun name_elias Erdem name_eretna Ertan Ertekin name_ertugrul name_farhad name_genghis name_germiyan
+				name_ghiyath.name_al_din name_hamid name_hasan name_husayn Ilgazi name_inanc name_isaac name_ishmael
+				name_izz.name_al_din name_jahangir name_jalal.name_al_din name_jam name_jamal name_james name_jesus
+				name_jonas name_joseph Kaikaus Kaikhusraw Kaiqobad name_kamal Kara name_karaman Kaya Kaytun name_khalil
+				name_khayr.name_al_din name_khidr name_kilic Korkut name_kubad Kurboga Kutalmis Kutay Kutlug name_mahmud
+				name_malik name_malik.name_shah name_masud Mengucek name_moses name_muhammad name_murad name_mustafa
+				name_nizam.name_al_din Ogulcan name_omar name_orhan name_osman Porsuk name_qamar name_qasim name_rajab
+				name_ramazan name_ridwan name_rostam Saim name_salih name_salim name_salomon Saltuk Saruca Savtekin Savur
+				name_sayf.name_al_din Sehinsah Selcuk Sencer name_sinan Sobuk Sokmen Sonmez Tanrivermis Tekin name_timur
+				name_timur.name_tash Togay Togtekin Toktamis Tolun Toruntay Tugrul Tunga Turgut Turhan Tutus Uluc Umur Yaman
+				Yasar Yinal name_tr_yakub name_tr_suleyman_shah name_tr_tursun name_tr_yahya name_tr_malkoc name_tr_evrenos
+				name_tr_mihal
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				Aksonqor
+				Alp_Arslan
+				Alp_Yurek
+				Alptigin
+				Ayaz
+				Aydogan
+				Aytekin
+				Basbuga
+				Batuhan
+				Baturay
+				Bayezid
+				Belek
+				Berkan
+				Berkiyaruk
+				Boru
+				Bozan
+				Bugra
+				Cagri
+				Caka
+				Danismend
+				Dukak
+				Dundar
+				Ilgazi
+				Kara
+				Kaya
+				Korkut
+				Kutalmis
+				Kutlug
+				Saltuk
+				Savtekin
+				Selcuk
+				Sencer
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_ahmad
+				name_ali
+				name_hasan
+				name_husayn
+				name_jalal.name_al_din
+				name_ghiyath.name_al_din
+				name_khayr.name_al_din
+				name_malik
+				name_mahmud
+				name_masud
+				name_muhammad
+				name_murad
+				name_mustafa
+				name_orhan
+				name_osman
+				name_salih
+				name_salim
+				name_sinan
+				name_jam
+				name_alexander
+				name_elias
+				Erdem
+				name_eretna
+				Ertan
+				Ertekin
+				name_ertugrul
+				name_farhad
+				name_genghis
+				name_germiyan
+				name_hamid
+				Ilgazi
+				name_inanc
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_salomon
+				name_muhammad
+				name_abraham
+				name_alexander
+				name_joseph
+				name_tr_yakub
+				name_jesus
+				name_tr_tursun
+				name_tr_yahya
+				name_tr_malkoc
+				name_tr_evrenos
+				name_tr_mihal
+				name_abdulhamid
+				name_abdulmajid
+				name_abdulaziz
+				name_osman
+				name_salim
+				name_nizam.name_al_din
+				Ogulcan
+				name_omar
+				name_orhan
+				Porsuk
+				name_qamar
+				name_qasim
+				name_rajab
+				name_ramazan
+				name_ridwan
+				name_rostam
+				Saim
+				name_salih
+				Saltuk
+				Saruca
+			}
+			female_names = {
+				name_aisha name_amina name_asli name_asli.name_khan Ayasun Ayla name_ayneh Ayten Azize Bahar Banu Bozcin
+				Canan Ceylan Cicek Cilen Ciltanesi name_daphne name_darya Dilek name_dunya Esin name_fatima name_firuzeh
+				name_golbahar Gulay Gulcicek Gulfem Gundes Gunes Handan name_homa name_huriya Ilknur Ipek Ipekel Irge
+				Karacik name_khadija name_khorram Kosem name_kulthum name_kumus name_laleh name_leyla name_mansura
+				name_marwa Mihrimah Mutlu Nagihan Nergis Neslihan name_niloufar name_nur Nurbanu Ozgul Ozlem Peksen
+				name_safiya Samur Sarica name_sati name_shahnaz name_sharifa Serap Sevilay Sevindik Sibel Sirin Songul Sumru
+				name_sybil Tekce Terkhen Tura Umay Usunbike Yakut Yeldem Yildiz name_zahra name_zuhal Akgul Alime
+				name_tr_hafsa name_tr_hundi name_tr_devlet name_tr_sitti name_tr_hundishah name_anna name_mary name_sara
+				name_sophia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				Akgul
+				Alime
+				Ayasun
+				Ayla
+				Ayten
+				Banu
+				Cicek
+				Terkhen
+				Umay
+				Usunbike
+				Yakut
+				Yeldem
+				Yildiz
+				name_tr_devlet
+				name_tr_sitti
+				name_aisha
+				name_amina
+				name_asli
+				name_asli.name_khan
+				name_ayneh
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_aisha
+				name_amina
+				name_asli
+				name_asli.name_khan
+				name_fatima
+				name_khadija
+				name_laleh
+				name_leyla
+				name_safiya
+				name_zahra
+				name_khorram
+				Mihrimah
+				name_tr_hafsa
+				name_homa
+				name_huriya
+				Ilknur
+				Ipek
+				Ipekel
+				Irge
+				Karacik
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_aisha
+				name_tr_hafsa
+				name_homa
+				name_tr_hundi
+				name_tr_devlet
+				name_tr_sitti
+				name_tr_hundishah
+				Mihrimah
+				Nurbanu
+				Kosem
+				name_sophia
+				name_mary
+				name_shahnaz
+				name_sharifa
+				Serap
+				Sevilay
+				Sevindik
+				Sibel
+				Sirin
+				Songul
+			}
+			dynasty_names = {
+				tr_dyn_osmanoglu tr_dyn_karamanoglu tr_dyn_dulkadir tr_dyn_germiyan tr_dyn_candar tr_dyn_ramazan
+				tr_dyn_mentese tr_dyn_saruhan tr_dyn_aydin tr_dyn_karasi tr_dyn_eretna tr_dyn_danismendid tr_dyn_saltukid
+				tr_dyn_artuqid tr_dyn_mengucekid tr_dyn_hamid tr_dyn_taceddin tr_dyn_pervane tr_dyn_sahibata tr_dyn_chobanid
+			}
+			lowborn = {
+				Aydogdu Balaban name_ertugrul Gunduz Ipek Karatay name_kilic Sonmez Yasar tr_low_demirci tr_low_yazici
+				tr_low_aksoy tr_low_karaca tr_low_arslan tr_low_dogan tr_low_sari tr_low_kara tr_low_kaya tr_low_celik
+				tr_low_turan tr_low_kose tr_low_cakir tr_low_beyoglu
+			}
+			ship_names = {
+				om7_ship_turkish_dialect_001 om7_ship_turkish_dialect_002 om7_ship_turkish_dialect_003
+				om7_ship_turkish_dialect_004 om7_ship_turkish_dialect_005 om7_ship_turkish_dialect_006
+				om7_ship_turkish_dialect_007 om7_ship_turkish_dialect_008 om7_ship_turkish_dialect_009
+				om7_ship_turkish_dialect_010 om7_ship_turkish_dialect_011 om7_ship_turkish_dialect_012
+				om7_ship_turkish_dialect_013 om7_ship_turkish_dialect_014 om7_ship_turkish_dialect_015
+				om7_ship_turkish_dialect_016 om7_ship_turkish_dialect_017 om7_ship_turkish_dialect_018
+				om7_ship_turkish_dialect_019 om7_ship_turkish_dialect_020 om7_ship_turkish_dialect_021
+				om7_ship_turkish_dialect_022 om7_ship_turkish_dialect_023 om7_ship_turkish_dialect_024
+				om7_ship_turkish_dialect_025 om7_ship_turkish_dialect_026 om7_ship_turkish_dialect_027
+				om7_ship_turkish_dialect_028 om7_ship_turkish_dialect_029 om7_ship_turkish_dialect_030
+				om7_ship_turkish_dialect_031 om7_ship_turkish_dialect_032 om7_ship_turkish_dialect_033
+				om7_ship_turkish_dialect_034 om7_ship_turkish_dialect_035 om7_ship_turkish_dialect_036
+				om7_ship_turkish_dialect_037 om7_ship_turkish_dialect_038 om7_ship_turkish_dialect_039
+				om7_ship_turkish_dialect_040 om7_ship_turkish_dialect_041 om7_ship_turkish_dialect_042
+				om7_ship_turkish_dialect_043 om7_ship_turkish_dialect_044 om7_ship_turkish_dialect_045
+				om7_ship_turkish_dialect_046 om7_ship_turkish_dialect_047 om7_ship_turkish_dialect_048
+				om7_ship_turkish_dialect_049 om7_ship_turkish_dialect_050 om7_ship_turkish_dialect_051
+				om7_ship_turkish_dialect_052 om7_ship_turkish_dialect_053 om7_ship_turkish_dialect_054
+				om7_ship_turkish_dialect_055 om7_ship_turkish_dialect_056 om7_ship_turkish_dialect_057
+				om7_ship_turkish_dialect_058 om7_ship_turkish_dialect_059 om7_ship_turkish_dialect_060
+				om7_ship_turkish_dialect_061 om7_ship_turkish_dialect_062 om7_ship_turkish_dialect_063
+				om7_ship_turkish_dialect_064 om7_ship_turkish_dialect_065 om7_ship_turkish_dialect_066
+				om7_ship_turkish_dialect_067 om7_ship_turkish_dialect_068 om7_ship_turkish_dialect_069
+				om7_ship_turkish_dialect_070 om7_ship_turkish_dialect_071 om7_ship_turkish_dialect_072
+				om7_ship_turkish_dialect_073 om7_ship_turkish_dialect_074 om7_ship_turkish_dialect_075
+				om7_ship_turkish_dialect_076 om7_ship_turkish_dialect_077 om7_ship_turkish_dialect_078
+				om7_ship_turkish_dialect_079 om7_ship_turkish_dialect_080 om7_ship_turkish_dialect_081
+				om7_ship_turkish_dialect_082 om7_ship_turkish_dialect_083 om7_ship_turkish_dialect_084
+				om7_ship_turkish_dialect_085 om7_ship_turkish_dialect_086 om7_ship_turkish_dialect_087
+				om7_ship_turkish_dialect_088 om7_ship_turkish_dialect_089 om7_ship_turkish_dialect_090
+				om7_ship_turkish_dialect_091 om7_ship_turkish_dialect_092 om7_ship_turkish_dialect_093
+				om7_ship_turkish_dialect_094 om7_ship_turkish_dialect_095 om7_ship_turkish_dialect_096
+				om7_ship_turkish_dialect_097 om7_ship_turkish_dialect_098 om7_ship_turkish_dialect_099
+				om7_ship_turkish_dialect_100 om7_ship_turkish_dialect_101 om7_ship_turkish_dialect_102
+				om7_ship_turkish_dialect_103 om7_ship_turkish_dialect_104 om7_ship_turkish_dialect_105
+				om7_ship_turkish_dialect_106 om7_ship_turkish_dialect_107 om7_ship_turkish_dialect_108
+				om7_ship_turkish_dialect_109 om7_ship_turkish_dialect_110 om7_ship_turkish_dialect_111
+				om7_ship_turkish_dialect_112 om7_ship_turkish_dialect_113 om7_ship_turkish_dialect_114
+				om7_ship_turkish_dialect_115 om7_ship_turkish_dialect_116 om7_ship_turkish_dialect_117
+				om7_ship_turkish_dialect_118 om7_ship_turkish_dialect_119 om7_ship_turkish_dialect_120
+				om7_ship_turkish_dialect_121 om7_ship_turkish_dialect_122 om7_ship_turkish_dialect_123
+				om7_ship_turkish_dialect_124 om7_ship_turkish_dialect_125 om7_ship_turkish_dialect_126
+				om7_ship_turkish_dialect_127 om7_ship_turkish_dialect_128
+			}
+		}
+		turkmen_dialect = {
+			male_names = {
+				Aly Aman Atajan Azat Basim Batyr Baymuhammet Begenc Berdi Berdimyrat Dayanc Deniz name_didar Dowlet Dowran
+				Durdy Eymir Eziz Ezizjan Gadyr Gapbar Gurban Gurbanguly Gurbanmyrat Gylyc Hemra Intizar name_job name_jonas
+				Kadyr name_karim Kasym Kurban name_mahdi Maksat Mekan Merdan Mergen Meylis Murgen Myrat Nadyr Nasyr
+				name_nazar Nedir Nepes Nurik Nurmyrat Nury Oraz Orazgeldi Owez Parahat Rahat Rahym Rasit Rowsen name_ruslan
+				Sadyk name_salomon Salyh Sapar Saparmyrat Saylaw Serdar Sirli Sohbet Soyeg Tagan Torgay Wepa Yagmyr Yhlas
+				Yusup Yyldyrym name_tm_bayram name_tm_garaja name_tm_yazgeldi name_tm_myratberdi name_tr_yusuf
+				name_tr_ibrahim name_om_tk_bekbolat name_om_tk_nurberdi
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 160
+				}
+				Alp_Arslan
+				Alptigin
+				Ayaz
+				Baturay
+				Bugra
+				Cagri
+				Kara
+				Kaya
+				Kutalmis
+				Kutlug
+				Selcuk
+				Sencer
+				Togtekin
+				Tugrul
+				Yinal
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 120
+				}
+				name_ahmad
+				name_ali
+				name_hasan
+				name_husayn
+				name_mahmud
+				name_masud
+				name_muhammad
+				name_salih
+				name_salim
+				name_timur
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 110
+				}
+				name_abdulrahman
+				name_abdullah
+				name_omar
+				name_osman
+				name_ramazan
+			}
+			female_names = {
+				Abadan Akgyz Akja Aknur Annagul Ayjan Aynabat Aynagozel Bahargul Cynar Deniz name_didar Dildara Dileg
+				Dilfuza Doyduk name_dunya Dzhamilya Gowher Gozel Gulalek Gulya Gunca Hatja Hesel Humay Hurma Huyri Intizar
+				name_jahan Jahanay Jemal Jennet Julyen Keyik name_laleh Mahri Mahym Mayabibi name_maysa Merjen Miwe
+				name_nafisa Nartach Nurgozel Nyazik Ogulgerek Orazgul Owadan Owlak Patma Rabyga Rahat Reyhan Ryzwan Sacly
+				Sadap Saher Saryya Seker Selbi Semsat name_sophia Sona Sulgun Tawus Tazegul Toty Tylla Tyllagozel Yildyz
+				Yupek name_zahida Zohre Zyba Zybagozel name_tm_ogulbike name_tm_maral name_tm_gulbahar name_aisha
+				name_om_tk_ayna name_om_tk_gulalek
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 135
+				}
+				Akgul
+				Akgyz
+				Alime
+				Almaz
+				Gulay
+				Gunes
+				Umay
+				Yildiz
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 110
+				}
+				name_aisha
+				name_amina
+				name_fatima
+				name_khadija
+				name_leyla
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 110
+				}
+				name_zahra
+				name_safiya
+				name_mary
+				name_sophia
+			}
+			dynasty_names = {
+				Bayandur Begdili Chowdur Ersari Kayi Qiniq Teke Yiwa tm_dyn_salyr tm_dyn_yomut tm_dyn_goklen tm_dyn_saryk
+				tm_dyn_salor tm_dyn_alili tm_dyn_qarqin tm_dyn_yazir om_dyn_tk_ersary
+			}
+			lowborn = {
+				Kul tm_low_berdiev tm_low_myradov tm_low_geldiyev tm_low_orazov tm_low_annayev tm_low_bayramov
+				tm_low_durdyyev tm_low_meredov om_low_tk_atayew om_low_tk_annayew om_low_tk_berdiyew
+			}
+			ship_names = {
+				om7_ship_turkmen_dialect_001 om7_ship_turkmen_dialect_002 om7_ship_turkmen_dialect_003
+				om7_ship_turkmen_dialect_004 om7_ship_turkmen_dialect_005 om7_ship_turkmen_dialect_006
+				om7_ship_turkmen_dialect_007 om7_ship_turkmen_dialect_008 om7_ship_turkmen_dialect_009
+				om7_ship_turkmen_dialect_010 om7_ship_turkmen_dialect_011 om7_ship_turkmen_dialect_012
+				om7_ship_turkmen_dialect_013 om7_ship_turkmen_dialect_014 om7_ship_turkmen_dialect_015
+				om7_ship_turkmen_dialect_016 om7_ship_turkmen_dialect_017 om7_ship_turkmen_dialect_018
+				om7_ship_turkmen_dialect_019 om7_ship_turkmen_dialect_020 om7_ship_turkmen_dialect_021
+				om7_ship_turkmen_dialect_022 om7_ship_turkmen_dialect_023 om7_ship_turkmen_dialect_024
+				om7_ship_turkmen_dialect_025 om7_ship_turkmen_dialect_026 om7_ship_turkmen_dialect_027
+				om7_ship_turkmen_dialect_028 om7_ship_turkmen_dialect_029 om7_ship_turkmen_dialect_030
+				om7_ship_turkmen_dialect_031 om7_ship_turkmen_dialect_032 om7_ship_turkmen_dialect_033
+				om7_ship_turkmen_dialect_034 om7_ship_turkmen_dialect_035 om7_ship_turkmen_dialect_036
+				om7_ship_turkmen_dialect_037 om7_ship_turkmen_dialect_038 om7_ship_turkmen_dialect_039
+				om7_ship_turkmen_dialect_040 om7_ship_turkmen_dialect_041 om7_ship_turkmen_dialect_042
+				om7_ship_turkmen_dialect_043 om7_ship_turkmen_dialect_044 om7_ship_turkmen_dialect_045
+				om7_ship_turkmen_dialect_046 om7_ship_turkmen_dialect_047 om7_ship_turkmen_dialect_048
+				om7_ship_turkmen_dialect_049 om7_ship_turkmen_dialect_050 om7_ship_turkmen_dialect_051
+				om7_ship_turkmen_dialect_052 om7_ship_turkmen_dialect_053 om7_ship_turkmen_dialect_054
+				om7_ship_turkmen_dialect_055 om7_ship_turkmen_dialect_056 om7_ship_turkmen_dialect_057
+				om7_ship_turkmen_dialect_058 om7_ship_turkmen_dialect_059 om7_ship_turkmen_dialect_060
+				om7_ship_turkmen_dialect_061 om7_ship_turkmen_dialect_062 om7_ship_turkmen_dialect_063
+				om7_ship_turkmen_dialect_064 om7_ship_turkmen_dialect_065 om7_ship_turkmen_dialect_066
+				om7_ship_turkmen_dialect_067 om7_ship_turkmen_dialect_068 om7_ship_turkmen_dialect_069
+				om7_ship_turkmen_dialect_070 om7_ship_turkmen_dialect_071 om7_ship_turkmen_dialect_072
+				om7_ship_turkmen_dialect_073 om7_ship_turkmen_dialect_074 om7_ship_turkmen_dialect_075
+				om7_ship_turkmen_dialect_076 om7_ship_turkmen_dialect_077 om7_ship_turkmen_dialect_078
+				om7_ship_turkmen_dialect_079 om7_ship_turkmen_dialect_080 om7_ship_turkmen_dialect_081
+				om7_ship_turkmen_dialect_082 om7_ship_turkmen_dialect_083 om7_ship_turkmen_dialect_084
+				om7_ship_turkmen_dialect_085 om7_ship_turkmen_dialect_086 om7_ship_turkmen_dialect_087
+				om7_ship_turkmen_dialect_088 om7_ship_turkmen_dialect_089 om7_ship_turkmen_dialect_090
+				om7_ship_turkmen_dialect_091 om7_ship_turkmen_dialect_092 om7_ship_turkmen_dialect_093
+				om7_ship_turkmen_dialect_094 om7_ship_turkmen_dialect_095 om7_ship_turkmen_dialect_096
+				om7_ship_turkmen_dialect_097 om7_ship_turkmen_dialect_098 om7_ship_turkmen_dialect_099
+				om7_ship_turkmen_dialect_100 om7_ship_turkmen_dialect_101 om7_ship_turkmen_dialect_102
+				om7_ship_turkmen_dialect_103 om7_ship_turkmen_dialect_104 om7_ship_turkmen_dialect_105
+				om7_ship_turkmen_dialect_106 om7_ship_turkmen_dialect_107 om7_ship_turkmen_dialect_108
+				om7_ship_turkmen_dialect_109 om7_ship_turkmen_dialect_110 om7_ship_turkmen_dialect_111
+				om7_ship_turkmen_dialect_112 om7_ship_turkmen_dialect_113
+			}
+		}
+		azeri_dialect = {
+			male_names = {
+				Abid Aebulfaez Aedalaet Aehaed Aehmaed Aelaaeddin Aelaekbar Aeli Aelif Aelirza Aemir Aemiraslan Aenvaer
+				Aesaed Aesgaer Aesraef Aezim Aeziz Afiq Aftandil Agbala Akif Allahverdi Allahyar Almaz Amil Anar Artogrul
+				Aslan Ayxan Azad Baba Babaek Baehruz Baesir Baextiyar Bughaj Caebrayil Caefaer Caelal Caemil Caemsid Caesur
+				Canpolad Cavad Cavansir Cavid Ceyhun Ceykob Cibril Cingiz Conatan Corc Cosqun Dadas Davud Dzhalal Elbrus
+				Elcin Eldaeniz Eldar Elkhan Elnur Elsad Elsaen Elshad Elvin Elxan Elyar Eyyub Faerhad Faerid Faerman
+				Faexraeddin Faexri Faiq Farkhad Fazil Fikraet Firidun Firudin Gasim Gunay Hacibala Haebib Haesaen Heydaer
+				Hicran Hikmaet Huseyn Ibish Ildirim Ilham Ilkin Ilqar Iltimas Iman Inayaet Iqnati name_iris Isfaendiyar
+				Isgaendaer Islam Ismayil Istfan Jeyhun name_job Kaemal Kaenan Kaerim Kamran Kazim Maecid Maehaebbaet
+				name_muhammad Maelaek Maelik Maemmaed Maerdan Maesud Masallah Mayis Mehman Mikayil Mirali name_mirza Movlan
+				name_mubariz Muraz Muslum Muxtar Naebi Naeriman Naesib Namiq Natiq Nazim Nicat Nizami Omaer Orxan Paehlivan
+				Paenah Paerviz Polad Qaehraeman Qaelbinur Qaezaenfaer Qafur Qalib Qara Qorxmaz Qudraet Qulam Qulu Qurban
+				Raehim Raesaed Raesid Raesul Rafiq Ramil Ramin Ramiz Rasim Rizvan Rovsaen Rufaet name_ruslan Rustaem Rza
+				name_shabah Sabir Sabit Saefa Saefaer Saehaer Saehriyar Saemaed Saemaendaer Saemsi Saerdar Saervaer
+				name_sahar Sahbaz Sahil Samil Seymur Shamil name_sherali Sokrat name_subhan Sufyan Sukur Taebriz Taerlan
+				Tagi name_tahir Taleh Taran Tariyel Tofiq Toghrul Tural Turan Ulduz Ulvi Usub Uzeyir Vaefa Vaeli Vagif Vahid
+				Vaqif Vugar Vuqar Vusal Xaelil Xaeyal Xariton Xvica Yagub Yaqubun Yeremya Yunis Yusae Yusif Zaelimxan
+				Zaerdust Zakir Zaur Zelimhan Zeynalabdin Zohrab name_az_shirvanshah name_az_akhsitan name_az_manuchehr
+				name_tr_yusuf name_tr_ibrahim name_tr_yakub name_om_az_sahverdi name_om_az_huseynqulu
+				name_om_az_mehemmedqulu name_om_az_feteli
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 130
+				}
+				Alp_Arslan
+				Kara
+				Kaya
+				Kutlug
+				Tugrul
+				name_ali
+				name_hasan
+				name_husayn
+				name_muhammad
+				name_osman
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 140
+				}
+				Aebulfaez
+				Aehmaed
+				Aelaaeddin
+				Aelaekbar
+				Aeli
+				Aemir
+				Aenvaer
+				Aesgaer
+				Aeziz
+				name_abdullah
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 130
+				}
+				name_alexander
+				name_ali
+				name_mirza
+				name_om_az_aga_mehemmed
+				name_om_az_abbasqulu
+				name_om_az_ceferqulu
+			}
+			female_names = {
+				name_amina Aezizae Afaet Aise Ajabnaz Akasma Almaz Arifae Artemida Arzu Aybaeniz Aygul Aygun Aylin Aynur
+				Aynurae Aysel Aytaen Aytaj Azadae Bacigul Bacinur Badamgul Baehaer Baestae Baesti Bagca Balaca Balaxanim
+				name_bali Balsari Banovsha Billurae Bilqeys Bircae Bircaecicaek Busaegul Caelaliyyae Caemaengul Caemilae
+				Canalae Canbaci Cesmae Ceyran Cicaek Daefnae Daerya Dilaek Dilarae Dilbaer Dinarae name_dunya Durna Elmira
+				Elnara Esmira Faeraeh Faeranaek Faeridae Fatimae Fidan Firuza Gozael Gulara Gulcohrae Gulnar Gulnarae
+				Gulsaen Gulya Gulzar Gumru Gunaes Gunay Gunel Haecaer Haelimae Haeqiqaet Haevva Hicran Ilahae Ilhamae
+				Ilqarae Iman Inarae Inayaet Iradae name_iris Jalae Kaemalae Kaerima Khanim Kifayaet Konul Kovsaer Laeman
+				Laetif Laetifae Maedina Maehaebbaet Maelaek Maelahaet Maeryaem Maerziyyae Maetanaet Mahirae name_mansura
+				Maral Marqaret Marqarita Mayis Mehparae Mehriban Mirvarid Moruq Naergiz Naermin Naerminae Naesibae
+				Naezaekaet Nailae Nataevan Nigar Ofeliya Paervanae Paervin Pakiza Parla Qaemaer Qalina Qumru Raehilae
+				Raexsaendae Rafiqae Rovshana Rubabae name_shabah Saeadaet Saebinae Saebnaem Saedaqaet Saefa Saefurae Saehaer
+				Saehla Saeidae Saekina Saelalae Saemayae name_sahar name_samira Sarila Sevda Sevinc Sippora Sofiya Solmaz
+				Taehminae Taeranae Tahirae Tamam Tunzalae Turan Ulduz Ulviyyae Vaefa Validae Vusalae Xaedicae Xalidae Xanim
+				Xatirae Yazgul Yeganae Zaehra Zaeminae Zaerifae Zaernigar Zahirae Zalikae Zalxa Zemfira Zenobiya Zeybae
+				Zeynaeb Zohrae Zuleykha Zuleyxa Zulfiyyae Zumrud name_az_garagoz name_az_khurshid name_az_mahsati
+				name_tr_ayse name_om_az_govher name_om_az_tuti name_om_az_sehrebanu
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 115
+				}
+				Akgul
+				Aise
+				name_fatima
+				name_khadija
+				name_leyla
+				name_zahra
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 130
+				}
+				Aezizae
+				Afaet
+				Afiq
+				Aise
+				Alime
+				Annagul
+				name_shahnaz
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 120
+				}
+				name_sara
+				name_sophia
+				name_mary
+				name_nur
+			}
+			dynasty_names = {
+				Ayrum Afshar Bayat Qaradaghi Qarapapaq Terekeme Qajar az_dyn_shirvanshah az_dyn_kesranid az_dyn_mihranid
+				az_dyn_shaddadid az_dyn_rawadid az_dyn_ildenizid az_dyn_safavid az_dyn_qaraqoyunlu az_dyn_aqqoyunlu
+				az_dyn_javanshir om_dyn_az_qacar om_dyn_az_afsar om_dyn_az_ziyadoglu om_dyn_az_samli om_dyn_az_tekeli
+			}
+			lowborn = {
+				Gul_azeri az_low_aliyev az_low_hasanov az_low_mammadov az_low_ismayilov az_low_safarli az_low_shiraliyev
+				az_low_zeynalov az_low_qarayev om_low_az_huseynov om_low_az_ehmedov om_low_az_quliyev om_low_az_ceferov
+			}
+			ship_names = {
+				om7_ship_azeri_dialect_001 om7_ship_azeri_dialect_002 om7_ship_azeri_dialect_003 om7_ship_azeri_dialect_004
+				om7_ship_azeri_dialect_005 om7_ship_azeri_dialect_006 om7_ship_azeri_dialect_007 om7_ship_azeri_dialect_008
+				om7_ship_azeri_dialect_009 om7_ship_azeri_dialect_010 om7_ship_azeri_dialect_011 om7_ship_azeri_dialect_012
+				om7_ship_azeri_dialect_013 om7_ship_azeri_dialect_014 om7_ship_azeri_dialect_015 om7_ship_azeri_dialect_016
+				om7_ship_azeri_dialect_017 om7_ship_azeri_dialect_018 om7_ship_azeri_dialect_019 om7_ship_azeri_dialect_020
+				om7_ship_azeri_dialect_021 om7_ship_azeri_dialect_022 om7_ship_azeri_dialect_023 om7_ship_azeri_dialect_024
+				om7_ship_azeri_dialect_025 om7_ship_azeri_dialect_026 om7_ship_azeri_dialect_027 om7_ship_azeri_dialect_028
+				om7_ship_azeri_dialect_029 om7_ship_azeri_dialect_030 om7_ship_azeri_dialect_031 om7_ship_azeri_dialect_032
+				om7_ship_azeri_dialect_033 om7_ship_azeri_dialect_034 om7_ship_azeri_dialect_035 om7_ship_azeri_dialect_036
+				om7_ship_azeri_dialect_037 om7_ship_azeri_dialect_038 om7_ship_azeri_dialect_039 om7_ship_azeri_dialect_040
+				om7_ship_azeri_dialect_041 om7_ship_azeri_dialect_042 om7_ship_azeri_dialect_043 om7_ship_azeri_dialect_044
+				om7_ship_azeri_dialect_045 om7_ship_azeri_dialect_046 om7_ship_azeri_dialect_047 om7_ship_azeri_dialect_048
+				om7_ship_azeri_dialect_049 om7_ship_azeri_dialect_050 om7_ship_azeri_dialect_051 om7_ship_azeri_dialect_052
+				om7_ship_azeri_dialect_053 om7_ship_azeri_dialect_054 om7_ship_azeri_dialect_055 om7_ship_azeri_dialect_056
+				om7_ship_azeri_dialect_057 om7_ship_azeri_dialect_058 om7_ship_azeri_dialect_059 om7_ship_azeri_dialect_060
+				om7_ship_azeri_dialect_061 om7_ship_azeri_dialect_062 om7_ship_azeri_dialect_063 om7_ship_azeri_dialect_064
+				om7_ship_azeri_dialect_065 om7_ship_azeri_dialect_066 om7_ship_azeri_dialect_067 om7_ship_azeri_dialect_068
+				om7_ship_azeri_dialect_069 om7_ship_azeri_dialect_070 om7_ship_azeri_dialect_071 om7_ship_azeri_dialect_072
+				om7_ship_azeri_dialect_073 om7_ship_azeri_dialect_074 om7_ship_azeri_dialect_075 om7_ship_azeri_dialect_076
+				om7_ship_azeri_dialect_077 om7_ship_azeri_dialect_078 om7_ship_azeri_dialect_079 om7_ship_azeri_dialect_080
+				om7_ship_azeri_dialect_081 om7_ship_azeri_dialect_082 om7_ship_azeri_dialect_083 om7_ship_azeri_dialect_084
+				om7_ship_azeri_dialect_085 om7_ship_azeri_dialect_086 om7_ship_azeri_dialect_087 om7_ship_azeri_dialect_088
+				om7_ship_azeri_dialect_089 om7_ship_azeri_dialect_090 om7_ship_azeri_dialect_091 om7_ship_azeri_dialect_092
+				om7_ship_azeri_dialect_093 om7_ship_azeri_dialect_094 om7_ship_azeri_dialect_095 om7_ship_azeri_dialect_096
+				om7_ship_azeri_dialect_097 om7_ship_azeri_dialect_098 om7_ship_azeri_dialect_099 om7_ship_azeri_dialect_100
+				om7_ship_azeri_dialect_101 om7_ship_azeri_dialect_102 om7_ship_azeri_dialect_103 om7_ship_azeri_dialect_104
+				om7_ship_azeri_dialect_105 om7_ship_azeri_dialect_106 om7_ship_azeri_dialect_107 om7_ship_azeri_dialect_108
+				om7_ship_azeri_dialect_109 om7_ship_azeri_dialect_110 om7_ship_azeri_dialect_111 om7_ship_azeri_dialect_112
+				om7_ship_azeri_dialect_113 om7_ship_azeri_dialect_114 om7_ship_azeri_dialect_115 om7_ship_azeri_dialect_116
+				om7_ship_azeri_dialect_117 om7_ship_azeri_dialect_118 om7_ship_azeri_dialect_119 om7_ship_azeri_dialect_120
+				om7_ship_azeri_dialect_121 om7_ship_azeri_dialect_122 om7_ship_azeri_dialect_123 om7_ship_azeri_dialect_124
+				om7_ship_azeri_dialect_125 om7_ship_azeri_dialect_126 om7_ship_azeri_dialect_127 om7_ship_azeri_dialect_128
+			}
+		}
+	}
+}

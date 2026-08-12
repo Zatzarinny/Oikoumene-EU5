@@ -1,0 +1,2412 @@
+﻿west_slavic_language = {
+	color = map_POL
+	family = slavic_language_family
+	male_names = {
+		name_albert name_alexander name_alexis name_andrew name_august name_bartholomew name_bogomil name_boleslav
+		name_boniface name_borislav name_adeodatus name_bronislav name_budimir name_casimir name_charles
+		name_christian name_christopher name_conrad name_ctibor name_daniel name_david name_dalimir name_dobromir
+		name_dobroslav name_dominic name_eugene name_emil name_felix name_ferdinand name_frederick name_frank
+		name_george name_gerald name_godimir name_gustav name_henry name_hyacinth name_ignatius name_igor name_james
+		name_john name_joseph name_lambert name_laurence name_lech name_lucas name_lucius name_louis name_marius
+		name_martin name_matthias name_maximus name_michael name_mieszko name_milos name_miroslav name_milorad
+		name_nicholas name_nicodemus name_oscar name_otto name_patrick name_paul name_peter name_premysl name_raphael
+		name_siemowit name_sigfrid name_silvester name_sigmund name_spycimir name_stanislav name_stephen
+		name_sviatopolk name_svyatoslav name_strahomir name_thomas name_tomislav name_wenceslas name_wido name_vincent
+		name_vitazoslav name_vitus name_vladislav name_vratislav name_vojnomir name_yaromir name_yaroslav
+		name_waldemar name_wojciech name_zbygnev name_zdzislaw Bezprym Boguchwal Dobieslaw Dobrogost Domawuj Gaudenty
+		Goszczon Malowuj Maslaw Msciwoj Mszczuj Nadbor Niezamysl Przybor Sambor Sedziej Sieciech Siemomysl Skarbimir
+		Stoigniew Sulislaw Sulistryj Trojden Twardomir Wszebor Zelibrat Sedzimir Gosciwuj Janislaw Imram name_msciwoj
+		name_absalon name_adam name_anthony name_baldwin name_barnabas name_benedict name_blahoslav name_bogdan
+		name_bohuslav name_burchard name_cyril name_dobrynya name_dragomir name_dragoslav name_eberhard name_emilian
+		name_eustathius name_gabriel name_gideon name_herman name_jeremiah name_joachim name_karp name_methodius
+		name_moses name_radomir name_radoslav name_roman name_rostislav name_salomon name_samuel name_sobeslav
+		name_svetozar name_theodore name_theodosius name_vojislav name_volodar name_vseslav name_vsevolod name_bolko
+		name_racibor name_wojslaw name_zbyszko name_leszek name_zawisza
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 160
+		}
+		name_boleslav
+		name_borislav
+		name_bronislav
+		name_budimir
+		name_casimir
+		name_ctibor
+		name_dobromir
+		name_dobroslav
+		name_godimir
+		name_lech
+		name_mieszko
+		name_milos
+		name_miroslav
+		name_premysl
+		name_siemowit
+		name_spycimir
+		name_stanislav
+		name_wenceslas
+		name_wojciech
+		name_yaromir
+		name_zbygnev
+		name_zdzislaw
+		Bezprym
+		Boguchwal
+		Dobieslaw
+		Dobrogost
+		Domawuj
+		Goszczon
+		Maslaw
+		Msciwoj
+		Mszczuj
+		Przybor
+		Sambor
+		Sieciech
+		Siemomysl
+		Skarbimir
+		name_vladislav
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_adam
+		name_albert
+		name_andrew
+		name_benedict
+		name_casimir
+		name_christopher
+		name_daniel
+		name_david
+		name_john
+		name_joseph
+		name_michael
+		name_nicholas
+		name_paul
+		name_peter
+		name_stanislav
+		name_wenceslas
+		name_wojciech
+		name_vitazoslav
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 145
+		}
+		name_alexander
+		name_august
+		name_charles
+		name_ferdinand
+		name_frederick
+		name_frank
+		name_george
+		name_henry
+		name_joseph
+		name_louis
+		name_oscar
+		name_otto
+		name_sigmund
+		name_vincent
+		name_zbyszko
+		name_stephen
+		name_michael
+	}
+	female_names = {
+		name_adela name_adelaide name_agatha name_agnes name_anastasia name_anna name_antonia name_barbara name_beata
+		name_bozena name_bogdana name_casimira name_catherine name_christiana name_constance name_danuta name_dobrava
+		name_dobroniega name_dobroslava name_elizabeth name_eugenie name_euphemia name_euphrosyne name_gremislava
+		name_hedwig name_helen name_jarmila name_judith name_kunigunde name_lucia name_lillian name_madeleine
+		name_matilda name_margaret name_mary name_milena name_miroslava name_hope name_pelagia name_premyslava
+		name_salome name_scholastica name_silvia name_stanislava name_svyatoslava name_vaclava name_voislava
+		name_yolande name_yaroslava name_xenia Aldona Nawoja Samboja Smiechna Wszebora Wszemila Zwinislawa name_nadia
+		name_smiechna name_zwinislawa name_alice name_apollonia name_daria name_eve name_eudokia name_galina
+		name_irene name_kinga name_ludmila name_martha name_natalia name_olga name_ricarda name_sara name_tatiana
+		name_theresa name_vasilisa name_sophia name_zlata name_boleslava name_boguslava name_mstislava
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_dobrava
+		name_dobroniega
+		name_dobroslava
+		name_gremislava
+		name_premyslava
+		name_stanislava
+		name_svyatoslava
+		name_vaclava
+		name_voislava
+		name_yaroslava
+		Aldona
+		Nawoja
+		Samboja
+		Wszebora
+		Wszemila
+		Zwinislawa
+		name_hedwig
+		name_anna
+		name_catherine
+		name_elizabeth
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_agatha
+		name_agnes
+		name_anna
+		name_barbara
+		name_catherine
+		name_elizabeth
+		name_hedwig
+		name_helen
+		name_judith
+		name_mary
+		name_salome
+		name_yolande
+		name_sophia
+		name_om_pl_dorota
+		name_constance
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_adela
+		name_adelaide
+		name_alice
+		name_casimira
+		name_danuta
+		name_kinga
+		name_ludmila
+		name_natalia
+		name_olga
+		name_xenia
+		name_theresa
+		name_om_pl_marianna
+		name_madeleine
+		name_helen
+	}
+	dynasty_names = {
+		Wisniowiecki Leszczynski Poniatowski Radziwill Potocki Lubomirski Premyslovci Prendota Strasz Chodkiewicz
+		Czartoryski Lanckoronski Mielzynski Oginski Ostrogski ostrorog_dynasty Pac Sapieha Sanguszko Tarnowski
+		Teczynski Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski Zamoyski Ossolinski Branicki Raczynski
+		Pulaski pl_dyn_piast pl_dyn_gryfici pl_dyn_odrowaz pl_dyn_labedz pl_dyn_topor pl_dyn_leliva pl_dyn_jastrzebiec
+		pl_dyn_abdank pl_dyn_godzienba pl_dyn_doliwa pl_dyn_rawicz om_dyn_pl_jagiellon om_dyn_pl_piast
+	}
+	lowborn = {
+		nowak jurek wojcik kowalczyk wlodarczyk krawczyk marzec mlynaz name_milorad Msciwoj Mszczuj Nadbor Niezamysl
+		Brzeczyszykiewicz Przybor Sambor Sedziej Sieciech Siemomysl Skarbimir Snowid Dolas name_msciwoj pl_low_kowal
+		pl_low_krawiec pl_low_piekarz pl_low_ciesla pl_low_garncarz om_low_pl_kowalski om_low_pl_wisniewski
+		om_low_pl_kaminski om_low_pl_lewandowski om_low_pl_zielinski
+	}
+	location_prefix = "location_prefix_west_slavic"
+	require_genitive_location_names = yes
+	ship_names = {
+		om7_ship_west_slavic_language_001 om7_ship_west_slavic_language_002 om7_ship_west_slavic_language_003
+		om7_ship_west_slavic_language_004 om7_ship_west_slavic_language_005 om7_ship_west_slavic_language_006
+		om7_ship_west_slavic_language_007 om7_ship_west_slavic_language_008 om7_ship_west_slavic_language_009
+		om7_ship_west_slavic_language_010 om7_ship_west_slavic_language_011 om7_ship_west_slavic_language_012
+		om7_ship_west_slavic_language_013 om7_ship_west_slavic_language_014 om7_ship_west_slavic_language_015
+		om7_ship_west_slavic_language_016 om7_ship_west_slavic_language_017 om7_ship_west_slavic_language_018
+		om7_ship_west_slavic_language_019 om7_ship_west_slavic_language_020 om7_ship_west_slavic_language_021
+		om7_ship_west_slavic_language_022 om7_ship_west_slavic_language_023 om7_ship_west_slavic_language_024
+		om7_ship_west_slavic_language_025 om7_ship_west_slavic_language_026 om7_ship_west_slavic_language_027
+		om7_ship_west_slavic_language_028 om7_ship_west_slavic_language_029 om7_ship_west_slavic_language_030
+		om7_ship_west_slavic_language_031 om7_ship_west_slavic_language_032 om7_ship_west_slavic_language_033
+		om7_ship_west_slavic_language_034 om7_ship_west_slavic_language_035 om7_ship_west_slavic_language_036
+		om7_ship_west_slavic_language_037 om7_ship_west_slavic_language_038 om7_ship_west_slavic_language_039
+		om7_ship_west_slavic_language_040 om7_ship_west_slavic_language_041 om7_ship_west_slavic_language_042
+		om7_ship_west_slavic_language_043 om7_ship_west_slavic_language_044 om7_ship_west_slavic_language_045
+		om7_ship_west_slavic_language_046 om7_ship_west_slavic_language_047 om7_ship_west_slavic_language_048
+		om7_ship_west_slavic_language_049 om7_ship_west_slavic_language_050 om7_ship_west_slavic_language_051
+		om7_ship_west_slavic_language_052 om7_ship_west_slavic_language_053 om7_ship_west_slavic_language_054
+		om7_ship_west_slavic_language_055 om7_ship_west_slavic_language_056 om7_ship_west_slavic_language_057
+		om7_ship_west_slavic_language_058 om7_ship_west_slavic_language_059 om7_ship_west_slavic_language_060
+		om7_ship_west_slavic_language_061 om7_ship_west_slavic_language_062 om7_ship_west_slavic_language_063
+		om7_ship_west_slavic_language_064 om7_ship_west_slavic_language_065 om7_ship_west_slavic_language_066
+		om7_ship_west_slavic_language_067 om7_ship_west_slavic_language_068 om7_ship_west_slavic_language_069
+		om7_ship_west_slavic_language_070 om7_ship_west_slavic_language_071 om7_ship_west_slavic_language_072
+		om7_ship_west_slavic_language_073 om7_ship_west_slavic_language_074 om7_ship_west_slavic_language_075
+		om7_ship_west_slavic_language_076 om7_ship_west_slavic_language_077 om7_ship_west_slavic_language_078
+		om7_ship_west_slavic_language_079 om7_ship_west_slavic_language_080 om7_ship_west_slavic_language_081
+		om7_ship_west_slavic_language_082 om7_ship_west_slavic_language_083 om7_ship_west_slavic_language_084
+		om7_ship_west_slavic_language_085 om7_ship_west_slavic_language_086 om7_ship_west_slavic_language_087
+		om7_ship_west_slavic_language_088 om7_ship_west_slavic_language_089 om7_ship_west_slavic_language_090
+		om7_ship_west_slavic_language_091 om7_ship_west_slavic_language_092 om7_ship_west_slavic_language_093
+		om7_ship_west_slavic_language_094 om7_ship_west_slavic_language_095 om7_ship_west_slavic_language_096
+		om7_ship_west_slavic_language_097 om7_ship_west_slavic_language_098 om7_ship_west_slavic_language_099
+		om7_ship_west_slavic_language_100 om7_ship_west_slavic_language_101 om7_ship_west_slavic_language_102
+		om7_ship_west_slavic_language_103 om7_ship_west_slavic_language_104 om7_ship_west_slavic_language_105
+		om7_ship_west_slavic_language_106 om7_ship_west_slavic_language_107 om7_ship_west_slavic_language_108
+		om7_ship_west_slavic_language_109 om7_ship_west_slavic_language_110 om7_ship_west_slavic_language_111
+		om7_ship_west_slavic_language_112 om7_ship_west_slavic_language_113 om7_ship_west_slavic_language_114
+		om7_ship_west_slavic_language_115 om7_ship_west_slavic_language_116 om7_ship_west_slavic_language_117
+		om7_ship_west_slavic_language_118 om7_ship_west_slavic_language_119 om7_ship_west_slavic_language_120
+		om7_ship_west_slavic_language_121 om7_ship_west_slavic_language_122 om7_ship_west_slavic_language_123
+		om7_ship_west_slavic_language_124 om7_ship_west_slavic_language_125 om7_ship_west_slavic_language_126
+		om7_ship_west_slavic_language_127 om7_ship_west_slavic_language_128
+	}
+	dialects = {
+		kashubian_dialect = {
+			male_names = {
+				name_albert name_alexander name_alexis name_andrew name_august name_bartholomew name_bogomil name_boleslav
+				name_boniface name_borislav name_bozidar name_bronislav name_budimir name_casimir name_charles
+				name_christian name_christopher name_conrad name_ctibor name_daniel name_david name_dalimir name_dobromir
+				name_dobroslav name_dominic name_eugene name_emil name_felix name_ferdinand name_frederick name_frank
+				name_george name_gerald name_godimir name_gustav name_henry name_hyacinth name_ignatius name_igor name_james
+				name_john name_joseph name_lambert name_laurence name_lech name_lucas name_lucius name_louis name_marius
+				name_martin name_matthias name_maximus name_michael name_mieszko name_milos name_miroslav name_milorad
+				name_nicholas name_nicodemus name_oscar name_otto name_patrick name_paul name_peter name_premysl
+				name_raphael name_siemowit name_sigfrid name_silvester name_sigmund name_spycimir name_stanislav
+				name_stephen name_sviatopolk name_svyatoslav name_strahomir name_thomas name_tomislav name_wenceslas
+				name_wido name_vincent name_vitazoslav name_vitus name_vladislav name_vratislav name_vojnomir name_yaromir
+				name_yaroslav name_waldemar name_wojciech name_zbygnev name_zdzislaw name_bezprym name_boguchwal
+				name_dobieslaw name_dobrogost name_domawuj name_gaudenty name_goszczon name_malowuj name_maslaw name_msciwoj
+				name_mszczuj name_nadbor name_niezamysl name_przybor name_sambor name_sedziej name_sieciech name_siemomysl
+				name_skarbimir name_stoigniew name_sulislaw name_sulistryj name_trojden name_twardomir name_wszebor
+				name_zelibrat name_sedzimir name_gosciwuj name_janislaw name_imram name_absalon name_adam name_anthony
+				name_baldwin name_barnabas name_benedict name_blahoslav name_bogdan name_bohuslav name_burchard name_cyril
+				name_dobrynya name_dragomir name_dragoslav name_eberhard name_emilian name_eustathius name_gabriel
+				name_gideon name_herman name_jeremiah name_joachim name_karp name_methodius name_moses name_radomir
+				name_radoslav name_roman name_rostislav name_salomon name_samuel name_sobeslav name_svetozar name_theodore
+				name_theodosius name_vojislav name_volodar name_vseslav name_vsevolod name_bolko name_racibor name_wojslaw
+				name_zbyszko name_leszek name_zawisza name_mestwin name_subislav name_bogislav name_barnim name_wartislav
+				name_pribislav
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_boleslav
+				name_borislav
+				name_bronislav
+				name_budimir
+				name_casimir
+				name_ctibor
+				name_dobromir
+				name_dobroslav
+				name_godimir
+				name_lech
+				name_mieszko
+				name_milos
+				name_miroslav
+				name_premysl
+				name_siemowit
+				name_spycimir
+				name_stanislav
+				name_wenceslas
+				name_wojciech
+				name_yaromir
+				name_zbygnev
+				name_zdzislaw
+				name_vladislav
+				name_bezprym
+				name_boguchwal
+				name_dobieslaw
+				name_dobrogost
+				name_domawuj
+				name_goszczon
+				name_maslaw
+				name_mszczuj
+				name_przybor
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_adam
+				name_albert
+				name_andrew
+				name_benedict
+				name_casimir
+				name_christopher
+				name_daniel
+				name_david
+				name_john
+				name_joseph
+				name_michael
+				name_nicholas
+				name_paul
+				name_peter
+				name_stanislav
+				name_wenceslas
+				name_wojciech
+				name_vitazoslav
+				name_nicodemus
+				name_oscar
+				name_otto
+				name_patrick
+				name_premysl
+				name_raphael
+				name_siemowit
+				name_sigfrid
+				name_silvester
+				name_sigmund
+				name_spycimir
+				name_stephen
+				name_sviatopolk
+				name_svyatoslav
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_august
+				name_charles
+				name_ferdinand
+				name_frederick
+				name_frank
+				name_george
+				name_henry
+				name_joseph
+				name_louis
+				name_oscar
+				name_otto
+				name_sigmund
+				name_vincent
+				name_zbyszko
+				name_stephen
+				name_michael
+				name_trojden
+				name_twardomir
+				name_wszebor
+				name_zelibrat
+				name_sedzimir
+				name_gosciwuj
+				name_janislaw
+				name_imram
+				name_absalon
+				name_adam
+				name_anthony
+				name_baldwin
+				name_barnabas
+				name_benedict
+				name_blahoslav
+			}
+			female_names = {
+				name_adela name_adelaide name_agatha name_agnes name_anastasia name_anna name_antonia name_barbara
+				name_beata name_bozena name_bogdana name_casimira name_catherine name_christiana name_constance name_danuta
+				name_dobrava name_dobroniega name_dobroslava name_elizabeth name_eugenie name_euphemia name_euphrosyne
+				name_gremislava name_hedwig name_helen name_jarmila name_judith name_kunigunde name_lucia name_lillian
+				name_madeleine name_matilda name_margaret name_mary name_milena name_miroslava name_nadia name_pelagia
+				name_premyslava name_salome name_scholastica name_silvia name_stanislava name_svyatoslava name_vaclava
+				name_voislava name_yolande name_yaroslava name_xenia name_aldona name_nawoja name_samboja name_smiechna
+				name_wszebora name_wszemila name_zwinislawa name_alice name_apollonia name_daria name_eve name_eudokia
+				name_galina name_irene name_kinga name_ludmila name_martha name_natalia name_olga name_ricarda name_sara
+				name_tatiana name_theresa name_vasilisa name_sophia name_zlata name_boleslava name_boguslava name_mstislava
+				name_damroka name_sobieslava name_sambora
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_dobrava
+				name_dobroniega
+				name_dobroslava
+				name_gremislava
+				name_premyslava
+				name_stanislava
+				name_svyatoslava
+				name_vaclava
+				name_voislava
+				name_yaroslava
+				name_hedwig
+				name_anna
+				name_catherine
+				name_elizabeth
+				name_aldona
+				name_nawoja
+				name_samboja
+				name_wszebora
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agatha
+				name_agnes
+				name_anna
+				name_barbara
+				name_catherine
+				name_elizabeth
+				name_hedwig
+				name_helen
+				name_judith
+				name_mary
+				name_salome
+				name_yolande
+				name_sophia
+				name_constance
+				name_kunigunde
+				name_lucia
+				name_lillian
+				name_madeleine
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_adela
+				name_adelaide
+				name_alice
+				name_casimira
+				name_danuta
+				name_kinga
+				name_ludmila
+				name_natalia
+				name_olga
+				name_xenia
+				name_theresa
+				name_madeleine
+				name_helen
+				name_wszebora
+				name_wszemila
+				name_zwinislawa
+				name_apollonia
+				name_daria
+			}
+			dynasty_names = {
+				Wisniowiecki Leszczynski Poniatowski Radziwill Potocki Lubomirski Premyslovci Prendota Strasz Chodkiewicz
+				Czartoryski Lanckoronski Mielzynski Oginski Ostrogski ostrorog_dynasty Pac Sapieha Sanguszko Tarnowski
+				Teczynski Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski Zamoyski Ossolinski Branicki Raczynski
+				Pulaski pl_dyn_piast pl_dyn_gryfici pl_dyn_odrowaz pl_dyn_labedz pl_dyn_topor pl_dyn_leliva
+				pl_dyn_jastrzebiec pl_dyn_abdank pl_dyn_godzienba pl_dyn_doliwa pl_dyn_rawicz ks_dyn_samborides
+				ks_dyn_sobieslawice ks_dyn_swiencowie ks_dyn_borkowice ks_dyn_krokow
+			}
+			lowborn = {
+				nowak jurek wojcik kowalczyk wlodarczyk krawczyk marzec mlynaz name_milorad name_msciwoj name_mszczuj
+				name_nadbor name_niezamysl Brzeczyszykiewicz name_przybor name_sambor name_sedziej name_sieciech
+				name_siemomysl name_skarbimir name_snowid Dolas pl_low_kowal pl_low_krawiec pl_low_piekarz pl_low_ciesla
+				pl_low_garncarz ks_low_kaszuba ks_low_rybak ks_low_borowy ks_low_karczmarz ks_low_stolnik
+			}
+			ship_names = {
+				om7_ship_kashubian_dialect_001 om7_ship_kashubian_dialect_002 om7_ship_kashubian_dialect_003
+				om7_ship_kashubian_dialect_004 om7_ship_kashubian_dialect_005 om7_ship_kashubian_dialect_006
+				om7_ship_kashubian_dialect_007 om7_ship_kashubian_dialect_008 om7_ship_kashubian_dialect_009
+				om7_ship_kashubian_dialect_010 om7_ship_kashubian_dialect_011 om7_ship_kashubian_dialect_012
+				om7_ship_kashubian_dialect_013 om7_ship_kashubian_dialect_014 om7_ship_kashubian_dialect_015
+				om7_ship_kashubian_dialect_016 om7_ship_kashubian_dialect_017 om7_ship_kashubian_dialect_018
+				om7_ship_kashubian_dialect_019 om7_ship_kashubian_dialect_020 om7_ship_kashubian_dialect_021
+				om7_ship_kashubian_dialect_022 om7_ship_kashubian_dialect_023 om7_ship_kashubian_dialect_024
+				om7_ship_kashubian_dialect_025 om7_ship_kashubian_dialect_026 om7_ship_kashubian_dialect_027
+				om7_ship_kashubian_dialect_028 om7_ship_kashubian_dialect_029 om7_ship_kashubian_dialect_030
+				om7_ship_kashubian_dialect_031 om7_ship_kashubian_dialect_032 om7_ship_kashubian_dialect_033
+				om7_ship_kashubian_dialect_034 om7_ship_kashubian_dialect_035 om7_ship_kashubian_dialect_036
+				om7_ship_kashubian_dialect_037 om7_ship_kashubian_dialect_038 om7_ship_kashubian_dialect_039
+				om7_ship_kashubian_dialect_040 om7_ship_kashubian_dialect_041 om7_ship_kashubian_dialect_042
+				om7_ship_kashubian_dialect_043 om7_ship_kashubian_dialect_044 om7_ship_kashubian_dialect_045
+				om7_ship_kashubian_dialect_046 om7_ship_kashubian_dialect_047 om7_ship_kashubian_dialect_048
+				om7_ship_kashubian_dialect_049 om7_ship_kashubian_dialect_050 om7_ship_kashubian_dialect_051
+				om7_ship_kashubian_dialect_052 om7_ship_kashubian_dialect_053 om7_ship_kashubian_dialect_054
+				om7_ship_kashubian_dialect_055 om7_ship_kashubian_dialect_056 om7_ship_kashubian_dialect_057
+				om7_ship_kashubian_dialect_058 om7_ship_kashubian_dialect_059 om7_ship_kashubian_dialect_060
+				om7_ship_kashubian_dialect_061 om7_ship_kashubian_dialect_062 om7_ship_kashubian_dialect_063
+				om7_ship_kashubian_dialect_064 om7_ship_kashubian_dialect_065 om7_ship_kashubian_dialect_066
+				om7_ship_kashubian_dialect_067 om7_ship_kashubian_dialect_068 om7_ship_kashubian_dialect_069
+				om7_ship_kashubian_dialect_070 om7_ship_kashubian_dialect_071 om7_ship_kashubian_dialect_072
+				om7_ship_kashubian_dialect_073 om7_ship_kashubian_dialect_074 om7_ship_kashubian_dialect_075
+				om7_ship_kashubian_dialect_076 om7_ship_kashubian_dialect_077 om7_ship_kashubian_dialect_078
+				om7_ship_kashubian_dialect_079 om7_ship_kashubian_dialect_080 om7_ship_kashubian_dialect_081
+				om7_ship_kashubian_dialect_082 om7_ship_kashubian_dialect_083 om7_ship_kashubian_dialect_084
+				om7_ship_kashubian_dialect_085 om7_ship_kashubian_dialect_086 om7_ship_kashubian_dialect_087
+				om7_ship_kashubian_dialect_088 om7_ship_kashubian_dialect_089 om7_ship_kashubian_dialect_090
+				om7_ship_kashubian_dialect_091 om7_ship_kashubian_dialect_092 om7_ship_kashubian_dialect_093
+				om7_ship_kashubian_dialect_094 om7_ship_kashubian_dialect_095 om7_ship_kashubian_dialect_096
+				om7_ship_kashubian_dialect_097 om7_ship_kashubian_dialect_098 om7_ship_kashubian_dialect_099
+				om7_ship_kashubian_dialect_100 om7_ship_kashubian_dialect_101 om7_ship_kashubian_dialect_102
+				om7_ship_kashubian_dialect_103 om7_ship_kashubian_dialect_104 om7_ship_kashubian_dialect_105
+				om7_ship_kashubian_dialect_106 om7_ship_kashubian_dialect_107 om7_ship_kashubian_dialect_108
+				om7_ship_kashubian_dialect_109 om7_ship_kashubian_dialect_110 om7_ship_kashubian_dialect_111
+				om7_ship_kashubian_dialect_112 om7_ship_kashubian_dialect_113 om7_ship_kashubian_dialect_114
+				om7_ship_kashubian_dialect_115 om7_ship_kashubian_dialect_116 om7_ship_kashubian_dialect_117
+				om7_ship_kashubian_dialect_118 om7_ship_kashubian_dialect_119 om7_ship_kashubian_dialect_120
+				om7_ship_kashubian_dialect_121 om7_ship_kashubian_dialect_122 om7_ship_kashubian_dialect_123
+				om7_ship_kashubian_dialect_124 om7_ship_kashubian_dialect_125 om7_ship_kashubian_dialect_126
+				om7_ship_kashubian_dialect_127 om7_ship_kashubian_dialect_128
+			}
+		}
+		polabian_dialect = {
+			male_names = {
+				name_albert name_alexander name_alexis name_andrew name_august name_bartholomew name_bogomil name_boleslav
+				name_boniface name_borislav name_bozidar name_bronislav name_budimir name_casimir name_charles
+				name_christian name_christopher name_conrad name_ctibor name_daniel name_david name_dalimir name_dobromir
+				name_dobroslav name_dominic name_eugene name_emil name_felix name_ferdinand name_frederick name_frank
+				name_george name_gerald name_godimir name_gustav name_henry name_hyacinth name_ignatius name_igor name_james
+				name_john name_joseph name_lambert name_laurence name_lech name_lucas name_lucius name_louis name_marius
+				name_martin name_matthias name_maximus name_michael name_mieszko name_milos name_miroslav name_milorad
+				name_nicholas name_nicodemus name_oscar name_otto name_patrick name_paul name_peter name_premysl
+				name_raphael name_siemowit name_sigfrid name_silvester name_sigmund name_spycimir name_stanislav
+				name_stephen name_sviatopolk name_svyatoslav name_strahomir name_thomas name_tomislav name_wenceslas
+				name_wido name_vincent name_vitazoslav name_vitus name_vladislav name_vratislav name_vojnomir name_yaromir
+				name_yaroslav name_waldemar name_wojciech name_zbygnev name_zdzislaw name_bezprym name_boguchwal
+				name_dobieslaw name_dobrogost name_domawuj name_gaudenty name_goszczon name_malowuj name_maslaw name_msciwoj
+				name_mszczuj name_nadbor name_niezamysl name_przybor name_sambor name_sedziej name_sieciech name_siemomysl
+				name_skarbimir name_stoigniew name_sulislaw name_sulistryj name_trojden name_twardomir name_wszebor
+				name_zelibrat name_sedzimir name_gosciwuj name_janislaw name_imram name_absalon name_adam name_anthony
+				name_baldwin name_barnabas name_benedict name_blahoslav name_bogdan name_bohuslav name_burchard name_cyril
+				name_dobrynya name_dragomir name_dragoslav name_eberhard name_emilian name_eustathius name_gabriel
+				name_gideon name_herman name_jeremiah name_joachim name_karp name_methodius name_moses name_radomir
+				name_radoslav name_roman name_rostislav name_salomon name_samuel name_sobeslav name_svetozar name_theodore
+				name_theodosius name_vojislav name_volodar name_vseslav name_vsevolod name_bolko name_racibor name_wojslaw
+				name_zbyszko name_leszek name_zawisza name_niklot name_pribislav name_dragovit name_radegast name_kruto
+				name_budivoj name_tetislav name_chociebud name_vyshan name_stoignev name_mstilav name_gottschalk name_magnus
+				name_svantibor name_zvenislav
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_boleslav
+				name_borislav
+				name_bronislav
+				name_budimir
+				name_casimir
+				name_ctibor
+				name_dobromir
+				name_dobroslav
+				name_godimir
+				name_lech
+				name_mieszko
+				name_milos
+				name_miroslav
+				name_premysl
+				name_siemowit
+				name_spycimir
+				name_stanislav
+				name_wenceslas
+				name_wojciech
+				name_yaromir
+				name_zbygnev
+				name_zdzislaw
+				name_vladislav
+				name_bezprym
+				name_boguchwal
+				name_dobieslaw
+				name_dobrogost
+				name_domawuj
+				name_goszczon
+				name_maslaw
+				name_mszczuj
+				name_przybor
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_adam
+				name_albert
+				name_andrew
+				name_benedict
+				name_casimir
+				name_christopher
+				name_daniel
+				name_david
+				name_john
+				name_joseph
+				name_michael
+				name_nicholas
+				name_paul
+				name_peter
+				name_stanislav
+				name_wenceslas
+				name_wojciech
+				name_vitazoslav
+				name_otto
+				name_patrick
+				name_premysl
+				name_raphael
+				name_siemowit
+				name_sigfrid
+				name_silvester
+				name_sigmund
+				name_spycimir
+				name_stephen
+				name_sviatopolk
+				name_svyatoslav
+				name_strahomir
+				name_thomas
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_august
+				name_charles
+				name_ferdinand
+				name_frederick
+				name_frank
+				name_george
+				name_henry
+				name_joseph
+				name_louis
+				name_oscar
+				name_otto
+				name_sigmund
+				name_vincent
+				name_zbyszko
+				name_stephen
+				name_michael
+				name_janislaw
+				name_imram
+				name_absalon
+				name_adam
+				name_anthony
+				name_baldwin
+				name_barnabas
+				name_benedict
+				name_blahoslav
+				name_bogdan
+				name_bohuslav
+				name_burchard
+				name_cyril
+				name_dobrynya
+				name_dragomir
+			}
+			female_names = {
+				name_adela name_adelaide name_agatha name_agnes name_anastasia name_anna name_antonia name_barbara
+				name_beata name_bozena name_bogdana name_casimira name_catherine name_christiana name_constance name_danuta
+				name_dobrava name_dobroniega name_dobroslava name_elizabeth name_eugenie name_euphemia name_euphrosyne
+				name_gremislava name_hedwig name_helen name_jarmila name_judith name_kunigunde name_lucia name_lillian
+				name_madeleine name_matilda name_margaret name_mary name_milena name_miroslava name_nadia name_pelagia
+				name_premyslava name_salome name_scholastica name_silvia name_stanislava name_svyatoslava name_vaclava
+				name_voislava name_yolande name_yaroslava name_xenia name_aldona name_nawoja name_samboja name_smiechna
+				name_wszebora name_wszemila name_zwinislawa name_alice name_apollonia name_daria name_eve name_eudokia
+				name_galina name_irene name_kinga name_ludmila name_martha name_natalia name_olga name_ricarda name_sara
+				name_tatiana name_theresa name_vasilisa name_sophia name_zlata name_boleslava name_boguslava name_mstislava
+				name_pribislava name_radomila
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_dobrava
+				name_dobroniega
+				name_dobroslava
+				name_gremislava
+				name_premyslava
+				name_stanislava
+				name_svyatoslava
+				name_vaclava
+				name_voislava
+				name_yaroslava
+				name_hedwig
+				name_anna
+				name_catherine
+				name_elizabeth
+				name_aldona
+				name_nawoja
+				name_samboja
+				name_wszebora
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agatha
+				name_agnes
+				name_anna
+				name_barbara
+				name_catherine
+				name_elizabeth
+				name_hedwig
+				name_helen
+				name_judith
+				name_mary
+				name_salome
+				name_yolande
+				name_sophia
+				name_constance
+				name_kunigunde
+				name_lucia
+				name_lillian
+				name_madeleine
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_adela
+				name_adelaide
+				name_alice
+				name_casimira
+				name_danuta
+				name_kinga
+				name_ludmila
+				name_natalia
+				name_olga
+				name_xenia
+				name_theresa
+				name_madeleine
+				name_helen
+				name_wszebora
+				name_wszemila
+				name_zwinislawa
+				name_apollonia
+				name_daria
+			}
+			dynasty_names = {
+				Wisniowiecki Leszczynski Poniatowski Radziwill Potocki Lubomirski Premyslovci Prendota Strasz Chodkiewicz
+				Czartoryski Lanckoronski Mielzynski Oginski Ostrogski ostrorog_dynasty Pac Sapieha Sanguszko Tarnowski
+				Teczynski Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski Zamoyski Ossolinski Branicki Raczynski
+				Pulaski pl_dyn_piast pl_dyn_gryfici pl_dyn_odrowaz pl_dyn_labedz pl_dyn_topor pl_dyn_leliva
+				pl_dyn_jastrzebiec pl_dyn_abdank pl_dyn_godzienba pl_dyn_doliwa pl_dyn_rawicz po_dyn_nikloting
+				po_dyn_obotrite po_dyn_lutici po_dyn_hevelli po_dyn_rani po_dyn_drevani po_dyn_redarii
+			}
+			lowborn = {
+				nowak jurek wojcik kowalczyk wlodarczyk krawczyk marzec mlynaz name_milorad name_msciwoj name_mszczuj
+				name_nadbor name_niezamysl Brzeczyszykiewicz name_przybor name_sambor name_sedziej name_sieciech
+				name_siemomysl name_skarbimir name_snowid Dolas pl_low_kowal pl_low_krawiec pl_low_piekarz pl_low_ciesla
+				pl_low_garncarz po_low_wend po_low_drevane po_low_lutic po_low_rybar po_low_smolarz
+			}
+			ship_names = {
+				om7_ship_polabian_dialect_001 om7_ship_polabian_dialect_002 om7_ship_polabian_dialect_003
+				om7_ship_polabian_dialect_004 om7_ship_polabian_dialect_005 om7_ship_polabian_dialect_006
+				om7_ship_polabian_dialect_007 om7_ship_polabian_dialect_008 om7_ship_polabian_dialect_009
+				om7_ship_polabian_dialect_010 om7_ship_polabian_dialect_011 om7_ship_polabian_dialect_012
+				om7_ship_polabian_dialect_013 om7_ship_polabian_dialect_014 om7_ship_polabian_dialect_015
+				om7_ship_polabian_dialect_016 om7_ship_polabian_dialect_017 om7_ship_polabian_dialect_018
+				om7_ship_polabian_dialect_019 om7_ship_polabian_dialect_020 om7_ship_polabian_dialect_021
+				om7_ship_polabian_dialect_022 om7_ship_polabian_dialect_023 om7_ship_polabian_dialect_024
+				om7_ship_polabian_dialect_025 om7_ship_polabian_dialect_026 om7_ship_polabian_dialect_027
+				om7_ship_polabian_dialect_028 om7_ship_polabian_dialect_029 om7_ship_polabian_dialect_030
+				om7_ship_polabian_dialect_031 om7_ship_polabian_dialect_032 om7_ship_polabian_dialect_033
+				om7_ship_polabian_dialect_034 om7_ship_polabian_dialect_035 om7_ship_polabian_dialect_036
+				om7_ship_polabian_dialect_037 om7_ship_polabian_dialect_038 om7_ship_polabian_dialect_039
+				om7_ship_polabian_dialect_040 om7_ship_polabian_dialect_041 om7_ship_polabian_dialect_042
+				om7_ship_polabian_dialect_043 om7_ship_polabian_dialect_044 om7_ship_polabian_dialect_045
+				om7_ship_polabian_dialect_046 om7_ship_polabian_dialect_047 om7_ship_polabian_dialect_048
+				om7_ship_polabian_dialect_049 om7_ship_polabian_dialect_050 om7_ship_polabian_dialect_051
+				om7_ship_polabian_dialect_052 om7_ship_polabian_dialect_053 om7_ship_polabian_dialect_054
+				om7_ship_polabian_dialect_055 om7_ship_polabian_dialect_056 om7_ship_polabian_dialect_057
+				om7_ship_polabian_dialect_058 om7_ship_polabian_dialect_059 om7_ship_polabian_dialect_060
+				om7_ship_polabian_dialect_061 om7_ship_polabian_dialect_062 om7_ship_polabian_dialect_063
+				om7_ship_polabian_dialect_064 om7_ship_polabian_dialect_065 om7_ship_polabian_dialect_066
+				om7_ship_polabian_dialect_067 om7_ship_polabian_dialect_068 om7_ship_polabian_dialect_069
+				om7_ship_polabian_dialect_070 om7_ship_polabian_dialect_071 om7_ship_polabian_dialect_072
+				om7_ship_polabian_dialect_073 om7_ship_polabian_dialect_074 om7_ship_polabian_dialect_075
+				om7_ship_polabian_dialect_076 om7_ship_polabian_dialect_077 om7_ship_polabian_dialect_078
+				om7_ship_polabian_dialect_079 om7_ship_polabian_dialect_080 om7_ship_polabian_dialect_081
+				om7_ship_polabian_dialect_082 om7_ship_polabian_dialect_083 om7_ship_polabian_dialect_084
+				om7_ship_polabian_dialect_085 om7_ship_polabian_dialect_086 om7_ship_polabian_dialect_087
+				om7_ship_polabian_dialect_088 om7_ship_polabian_dialect_089 om7_ship_polabian_dialect_090
+				om7_ship_polabian_dialect_091 om7_ship_polabian_dialect_092 om7_ship_polabian_dialect_093
+				om7_ship_polabian_dialect_094 om7_ship_polabian_dialect_095 om7_ship_polabian_dialect_096
+				om7_ship_polabian_dialect_097 om7_ship_polabian_dialect_098 om7_ship_polabian_dialect_099
+				om7_ship_polabian_dialect_100 om7_ship_polabian_dialect_101 om7_ship_polabian_dialect_102
+				om7_ship_polabian_dialect_103 om7_ship_polabian_dialect_104 om7_ship_polabian_dialect_105
+				om7_ship_polabian_dialect_106 om7_ship_polabian_dialect_107 om7_ship_polabian_dialect_108
+				om7_ship_polabian_dialect_109 om7_ship_polabian_dialect_110 om7_ship_polabian_dialect_111
+				om7_ship_polabian_dialect_112 om7_ship_polabian_dialect_113 om7_ship_polabian_dialect_114
+				om7_ship_polabian_dialect_115 om7_ship_polabian_dialect_116 om7_ship_polabian_dialect_117
+				om7_ship_polabian_dialect_118 om7_ship_polabian_dialect_119 om7_ship_polabian_dialect_120
+				om7_ship_polabian_dialect_121 om7_ship_polabian_dialect_122 om7_ship_polabian_dialect_123
+				om7_ship_polabian_dialect_124 om7_ship_polabian_dialect_125 om7_ship_polabian_dialect_126
+				om7_ship_polabian_dialect_127 om7_ship_polabian_dialect_128
+			}
+		}
+		polish_dialect = {
+			male_names = {
+				name_albert name_alexander name_alexis name_andrew name_august name_bartholomew name_bogomil name_boleslav
+				name_boniface name_borislav name_bozidar name_bronislav name_budimir name_casimir name_charles
+				name_christian name_christopher name_conrad name_ctibor name_daniel name_david name_dalimir name_dobromir
+				name_dobroslav name_dominic name_eugene name_emil name_felix name_ferdinand name_frederick name_frank
+				name_george name_gerald name_godimir name_gustav name_henry name_hyacinth name_ignatius name_igor name_james
+				name_john name_joseph name_lambert name_laurence name_lech name_lucas name_lucius name_louis name_marius
+				name_martin name_matthias name_maximus name_michael name_mieszko name_milos name_miroslav name_milorad
+				name_nicholas name_nicodemus name_oscar name_otto name_patrick name_paul name_peter name_premysl
+				name_raphael name_siemowit name_sigfrid name_silvester name_sigmund name_spycimir name_stanislav
+				name_stephen name_sviatopolk name_svyatoslav name_strahomir name_thomas name_tomislav name_wenceslas
+				name_wido name_vincent name_vitazoslav name_vitus name_vladislav name_vratislav name_vojnomir name_yaromir
+				name_yaroslav name_waldemar name_wojciech name_zbygnev name_zdzislaw name_bezprym name_boguchwal
+				name_dobieslaw name_dobrogost name_domawuj name_gaudenty name_goszczon name_malowuj name_maslaw name_msciwoj
+				name_mszczuj name_nadbor name_niezamysl name_przybor name_sambor name_sedziej name_sieciech name_siemomysl
+				name_skarbimir name_stoigniew name_sulislaw name_sulistryj name_trojden name_twardomir name_wszebor
+				name_zelibrat name_sedzimir name_gosciwuj name_janislaw name_imram name_absalon name_adam name_anthony
+				name_baldwin name_barnabas name_benedict name_blahoslav name_bogdan name_bohuslav name_burchard name_cyril
+				name_dobrynya name_dragomir name_dragoslav name_eberhard name_emilian name_eustathius name_gabriel
+				name_gideon name_herman name_jeremiah name_joachim name_karp name_methodius name_moses name_radomir
+				name_radoslav name_roman name_rostislav name_salomon name_samuel name_sobeslav name_svetozar name_theodore
+				name_theodosius name_vojislav name_volodar name_vseslav name_vsevolod name_bolko name_racibor name_wojslaw
+				name_zbyszko name_leszek name_zawisza name_adalbert name_clement name_floryan name_janusz name_boguslav
+				name_krzeslaw name_pakoslaw name_derslaw name_sobek
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_boleslav
+				name_borislav
+				name_bronislav
+				name_budimir
+				name_casimir
+				name_ctibor
+				name_dobromir
+				name_dobroslav
+				name_godimir
+				name_lech
+				name_mieszko
+				name_milos
+				name_miroslav
+				name_premysl
+				name_siemowit
+				name_spycimir
+				name_stanislav
+				name_wenceslas
+				name_wojciech
+				name_yaromir
+				name_zbygnev
+				name_zdzislaw
+				name_vladislav
+				name_bezprym
+				name_boguchwal
+				name_dobieslaw
+				name_dobrogost
+				name_domawuj
+				name_goszczon
+				name_maslaw
+				name_mszczuj
+				name_przybor
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_adam
+				name_albert
+				name_andrew
+				name_benedict
+				name_casimir
+				name_christopher
+				name_daniel
+				name_david
+				name_john
+				name_joseph
+				name_michael
+				name_nicholas
+				name_paul
+				name_peter
+				name_stanislav
+				name_wenceslas
+				name_wojciech
+				name_vitazoslav
+				name_nicodemus
+				name_oscar
+				name_otto
+				name_patrick
+				name_premysl
+				name_raphael
+				name_siemowit
+				name_sigfrid
+				name_silvester
+				name_sigmund
+				name_spycimir
+				name_stephen
+				name_sviatopolk
+				name_svyatoslav
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_august
+				name_charles
+				name_ferdinand
+				name_frederick
+				name_frank
+				name_george
+				name_henry
+				name_joseph
+				name_louis
+				name_oscar
+				name_otto
+				name_sigmund
+				name_vincent
+				name_zbyszko
+				name_stephen
+				name_michael
+				name_wszebor
+				name_zelibrat
+				name_sedzimir
+				name_gosciwuj
+				name_janislaw
+				name_imram
+				name_absalon
+				name_adam
+				name_anthony
+				name_baldwin
+				name_barnabas
+				name_benedict
+				name_blahoslav
+				name_bogdan
+				name_bohuslav
+			}
+			female_names = {
+				name_adela name_adelaide name_agatha name_agnes name_anastasia name_anna name_antonia name_barbara
+				name_beata name_bozena name_bogdana name_casimira name_catherine name_christiana name_constance name_danuta
+				name_dobrava name_dobroniega name_dobroslava name_elizabeth name_eugenie name_euphemia name_euphrosyne
+				name_gremislava name_hedwig name_helen name_jarmila name_judith name_kunigunde name_lucia name_lillian
+				name_madeleine name_matilda name_margaret name_mary name_milena name_miroslava name_nadia name_pelagia
+				name_premyslava name_salome name_scholastica name_silvia name_stanislava name_svyatoslava name_vaclava
+				name_voislava name_yolande name_yaroslava name_xenia name_aldona name_nawoja name_samboja name_smiechna
+				name_wszebora name_wszemila name_zwinislawa name_alice name_apollonia name_daria name_eve name_eudokia
+				name_galina name_irene name_kinga name_ludmila name_martha name_natalia name_olga name_ricarda name_sara
+				name_tatiana name_theresa name_vasilisa name_sophia name_zlata name_boleslava name_boguslava name_mstislava
+				name_gryfina name_fenenna name_ofka
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_dobrava
+				name_dobroniega
+				name_dobroslava
+				name_gremislava
+				name_premyslava
+				name_stanislava
+				name_svyatoslava
+				name_vaclava
+				name_voislava
+				name_yaroslava
+				name_hedwig
+				name_anna
+				name_catherine
+				name_elizabeth
+				name_aldona
+				name_nawoja
+				name_samboja
+				name_wszebora
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agatha
+				name_agnes
+				name_anna
+				name_barbara
+				name_catherine
+				name_elizabeth
+				name_hedwig
+				name_helen
+				name_judith
+				name_mary
+				name_salome
+				name_yolande
+				name_sophia
+				name_constance
+				name_kunigunde
+				name_lucia
+				name_lillian
+				name_madeleine
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_adela
+				name_adelaide
+				name_alice
+				name_casimira
+				name_danuta
+				name_kinga
+				name_ludmila
+				name_natalia
+				name_olga
+				name_xenia
+				name_theresa
+				name_madeleine
+				name_helen
+				name_wszebora
+				name_wszemila
+				name_zwinislawa
+				name_apollonia
+				name_daria
+			}
+			dynasty_names = {
+				Wisniowiecki Leszczynski Poniatowski Radziwill Potocki Lubomirski Premyslovci Prendota Strasz Chodkiewicz
+				Czartoryski Lanckoronski Mielzynski Oginski Ostrogski ostrorog_dynasty Pac Sapieha Sanguszko Tarnowski
+				Teczynski Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski Zamoyski Ossolinski Branicki Raczynski
+				Pulaski pl_dyn_piast pl_dyn_gryfici pl_dyn_odrowaz pl_dyn_labedz pl_dyn_topor pl_dyn_leliva
+				pl_dyn_jastrzebiec pl_dyn_abdank pl_dyn_godzienba pl_dyn_doliwa pl_dyn_rawicz pl_dyn_zaremba pl_dyn_nalecz
+				pl_dyn_poraj pl_dyn_sreniawa pl_dyn_awdaniec
+			}
+			lowborn = {
+				nowak jurek wojcik kowalczyk wlodarczyk krawczyk marzec mlynaz name_milorad name_msciwoj name_mszczuj
+				name_nadbor name_niezamysl Brzeczyszykiewicz name_przybor name_sambor name_sedziej name_sieciech
+				name_siemomysl name_skarbimir name_snowid Dolas pl_low_kowal pl_low_krawiec pl_low_piekarz pl_low_ciesla
+				pl_low_garncarz pl_low_mazur pl_low_lach pl_low_dlugosz pl_low_chmiel
+			}
+			ship_names = {
+				om7_ship_polish_dialect_001 om7_ship_polish_dialect_002 om7_ship_polish_dialect_003
+				om7_ship_polish_dialect_004 om7_ship_polish_dialect_005 om7_ship_polish_dialect_006
+				om7_ship_polish_dialect_007 om7_ship_polish_dialect_008 om7_ship_polish_dialect_009
+				om7_ship_polish_dialect_010 om7_ship_polish_dialect_011 om7_ship_polish_dialect_012
+				om7_ship_polish_dialect_013 om7_ship_polish_dialect_014 om7_ship_polish_dialect_015
+				om7_ship_polish_dialect_016 om7_ship_polish_dialect_017 om7_ship_polish_dialect_018
+				om7_ship_polish_dialect_019 om7_ship_polish_dialect_020 om7_ship_polish_dialect_021
+				om7_ship_polish_dialect_022 om7_ship_polish_dialect_023 om7_ship_polish_dialect_024
+				om7_ship_polish_dialect_025 om7_ship_polish_dialect_026 om7_ship_polish_dialect_027
+				om7_ship_polish_dialect_028 om7_ship_polish_dialect_029 om7_ship_polish_dialect_030
+				om7_ship_polish_dialect_031 om7_ship_polish_dialect_032 om7_ship_polish_dialect_033
+				om7_ship_polish_dialect_034 om7_ship_polish_dialect_035 om7_ship_polish_dialect_036
+				om7_ship_polish_dialect_037 om7_ship_polish_dialect_038 om7_ship_polish_dialect_039
+				om7_ship_polish_dialect_040 om7_ship_polish_dialect_041 om7_ship_polish_dialect_042
+				om7_ship_polish_dialect_043 om7_ship_polish_dialect_044 om7_ship_polish_dialect_045
+				om7_ship_polish_dialect_046 om7_ship_polish_dialect_047 om7_ship_polish_dialect_048
+				om7_ship_polish_dialect_049 om7_ship_polish_dialect_050 om7_ship_polish_dialect_051
+				om7_ship_polish_dialect_052 om7_ship_polish_dialect_053 om7_ship_polish_dialect_054
+				om7_ship_polish_dialect_055 om7_ship_polish_dialect_056 om7_ship_polish_dialect_057
+				om7_ship_polish_dialect_058 om7_ship_polish_dialect_059 om7_ship_polish_dialect_060
+				om7_ship_polish_dialect_061 om7_ship_polish_dialect_062 om7_ship_polish_dialect_063
+				om7_ship_polish_dialect_064 om7_ship_polish_dialect_065 om7_ship_polish_dialect_066
+				om7_ship_polish_dialect_067 om7_ship_polish_dialect_068 om7_ship_polish_dialect_069
+				om7_ship_polish_dialect_070 om7_ship_polish_dialect_071 om7_ship_polish_dialect_072
+				om7_ship_polish_dialect_073 om7_ship_polish_dialect_074 om7_ship_polish_dialect_075
+				om7_ship_polish_dialect_076 om7_ship_polish_dialect_077 om7_ship_polish_dialect_078
+				om7_ship_polish_dialect_079 om7_ship_polish_dialect_080 om7_ship_polish_dialect_081
+				om7_ship_polish_dialect_082 om7_ship_polish_dialect_083 om7_ship_polish_dialect_084
+				om7_ship_polish_dialect_085 om7_ship_polish_dialect_086 om7_ship_polish_dialect_087
+				om7_ship_polish_dialect_088 om7_ship_polish_dialect_089 om7_ship_polish_dialect_090
+				om7_ship_polish_dialect_091 om7_ship_polish_dialect_092 om7_ship_polish_dialect_093
+				om7_ship_polish_dialect_094 om7_ship_polish_dialect_095 om7_ship_polish_dialect_096
+				om7_ship_polish_dialect_097 om7_ship_polish_dialect_098 om7_ship_polish_dialect_099
+				om7_ship_polish_dialect_100 om7_ship_polish_dialect_101 om7_ship_polish_dialect_102
+				om7_ship_polish_dialect_103 om7_ship_polish_dialect_104 om7_ship_polish_dialect_105
+				om7_ship_polish_dialect_106 om7_ship_polish_dialect_107 om7_ship_polish_dialect_108
+				om7_ship_polish_dialect_109 om7_ship_polish_dialect_110 om7_ship_polish_dialect_111
+				om7_ship_polish_dialect_112 om7_ship_polish_dialect_113 om7_ship_polish_dialect_114
+				om7_ship_polish_dialect_115 om7_ship_polish_dialect_116 om7_ship_polish_dialect_117
+				om7_ship_polish_dialect_118 om7_ship_polish_dialect_119 om7_ship_polish_dialect_120
+				om7_ship_polish_dialect_121 om7_ship_polish_dialect_122 om7_ship_polish_dialect_123
+				om7_ship_polish_dialect_124 om7_ship_polish_dialect_125 om7_ship_polish_dialect_126
+				om7_ship_polish_dialect_127 om7_ship_polish_dialect_128
+			}
+		}
+		silesian_dialect = {
+			male_names = {
+				name_albert name_alexander name_alexis name_andrew name_august name_bartholomew name_bogomil name_boleslav
+				name_boniface name_borislav name_bozidar name_bronislav name_budimir name_casimir name_charles
+				name_christian name_christopher name_conrad name_ctibor name_daniel name_david name_dalimir name_dobromir
+				name_dobroslav name_dominic name_eugene name_emil name_felix name_ferdinand name_frederick name_frank
+				name_george name_gerald name_godimir name_gustav name_henry name_hyacinth name_ignatius name_igor name_james
+				name_john name_joseph name_lambert name_laurence name_lech name_lucas name_lucius name_louis name_marius
+				name_martin name_matthias name_maximus name_michael name_mieszko name_milos name_miroslav name_milorad
+				name_nicholas name_nicodemus name_oscar name_otto name_patrick name_paul name_peter name_premysl
+				name_raphael name_siemowit name_sigfrid name_silvester name_sigmund name_spycimir name_stanislav
+				name_stephen name_sviatopolk name_svyatoslav name_strahomir name_thomas name_tomislav name_wenceslas
+				name_wido name_vincent name_vitazoslav name_vitus name_vladislav name_vratislav name_vojnomir name_yaromir
+				name_yaroslav name_waldemar name_wojciech name_zbygnev name_zdzislaw name_bezprym name_boguchwal
+				name_dobieslaw name_dobrogost name_domawuj name_gaudenty name_goszczon name_malowuj name_maslaw name_msciwoj
+				name_mszczuj name_nadbor name_niezamysl name_przybor name_sambor name_sedziej name_sieciech name_siemomysl
+				name_skarbimir name_stoigniew name_sulislaw name_sulistryj name_trojden name_twardomir name_wszebor
+				name_zelibrat name_sedzimir name_gosciwuj name_janislaw name_imram name_absalon name_adam name_anthony
+				name_baldwin name_barnabas name_benedict name_blahoslav name_bogdan name_bohuslav name_burchard name_cyril
+				name_dobrynya name_dragomir name_dragoslav name_eberhard name_emilian name_eustathius name_gabriel
+				name_gideon name_herman name_jeremiah name_joachim name_karp name_methodius name_moses name_radomir
+				name_radoslav name_roman name_rostislav name_salomon name_samuel name_sobeslav name_svetozar name_theodore
+				name_theodosius name_vojislav name_volodar name_vseslav name_vsevolod name_bolko name_racibor name_wojslaw
+				name_zbyszko name_leszek name_zawisza name_janusz
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_boleslav
+				name_borislav
+				name_bronislav
+				name_budimir
+				name_casimir
+				name_ctibor
+				name_dobromir
+				name_dobroslav
+				name_godimir
+				name_lech
+				name_mieszko
+				name_milos
+				name_miroslav
+				name_premysl
+				name_siemowit
+				name_spycimir
+				name_stanislav
+				name_wenceslas
+				name_wojciech
+				name_yaromir
+				name_zbygnev
+				name_zdzislaw
+				name_vladislav
+				name_bezprym
+				name_boguchwal
+				name_dobieslaw
+				name_dobrogost
+				name_domawuj
+				name_goszczon
+				name_maslaw
+				name_mszczuj
+				name_przybor
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_adam
+				name_albert
+				name_andrew
+				name_benedict
+				name_casimir
+				name_christopher
+				name_daniel
+				name_david
+				name_john
+				name_joseph
+				name_michael
+				name_nicholas
+				name_paul
+				name_peter
+				name_stanislav
+				name_wenceslas
+				name_wojciech
+				name_vitazoslav
+				name_milorad
+				name_nicodemus
+				name_oscar
+				name_otto
+				name_patrick
+				name_premysl
+				name_raphael
+				name_siemowit
+				name_sigfrid
+				name_silvester
+				name_sigmund
+				name_spycimir
+				name_stephen
+				name_sviatopolk
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_august
+				name_charles
+				name_ferdinand
+				name_frederick
+				name_frank
+				name_george
+				name_henry
+				name_joseph
+				name_louis
+				name_oscar
+				name_otto
+				name_sigmund
+				name_vincent
+				name_zbyszko
+				name_stephen
+				name_michael
+				name_sulislaw
+				name_sulistryj
+				name_trojden
+				name_twardomir
+				name_wszebor
+				name_zelibrat
+				name_sedzimir
+				name_gosciwuj
+				name_janislaw
+				name_imram
+				name_absalon
+				name_adam
+				name_anthony
+				name_baldwin
+				name_barnabas
+			}
+			female_names = {
+				name_adela name_adelaide name_agatha name_agnes name_anastasia name_anna name_antonia name_barbara
+				name_beata name_bozena name_bogdana name_casimira name_catherine name_christiana name_constance name_danuta
+				name_dobrava name_dobroniega name_dobroslava name_elizabeth name_eugenie name_euphemia name_euphrosyne
+				name_gremislava name_hedwig name_helen name_jarmila name_judith name_kunigunde name_lucia name_lillian
+				name_madeleine name_matilda name_margaret name_mary name_milena name_miroslava name_nadia name_pelagia
+				name_premyslava name_salome name_scholastica name_silvia name_stanislava name_svyatoslava name_vaclava
+				name_voislava name_yolande name_yaroslava name_xenia name_aldona name_nawoja name_samboja name_smiechna
+				name_wszebora name_wszemila name_zwinislawa name_alice name_apollonia name_daria name_eve name_eudokia
+				name_galina name_irene name_kinga name_ludmila name_martha name_natalia name_olga name_ricarda name_sara
+				name_tatiana name_theresa name_vasilisa name_sophia name_zlata name_boleslava name_boguslava name_mstislava
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_dobrava
+				name_dobroniega
+				name_dobroslava
+				name_gremislava
+				name_premyslava
+				name_stanislava
+				name_svyatoslava
+				name_vaclava
+				name_voislava
+				name_yaroslava
+				name_hedwig
+				name_anna
+				name_catherine
+				name_elizabeth
+				name_aldona
+				name_nawoja
+				name_samboja
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agatha
+				name_agnes
+				name_anna
+				name_barbara
+				name_catherine
+				name_elizabeth
+				name_hedwig
+				name_helen
+				name_judith
+				name_mary
+				name_salome
+				name_yolande
+				name_sophia
+				name_constance
+				name_jarmila
+				name_kunigunde
+				name_lucia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_adela
+				name_adelaide
+				name_alice
+				name_casimira
+				name_danuta
+				name_kinga
+				name_ludmila
+				name_natalia
+				name_olga
+				name_xenia
+				name_theresa
+				name_madeleine
+				name_helen
+				name_samboja
+				name_smiechna
+				name_wszebora
+				name_wszemila
+			}
+			dynasty_names = {
+				Wisniowiecki Leszczynski Poniatowski Radziwill Potocki Lubomirski Premyslovci Prendota Strasz Chodkiewicz
+				Czartoryski Lanckoronski Mielzynski Oginski Ostrogski ostrorog_dynasty Pac Sapieha Sanguszko Tarnowski
+				Teczynski Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski Zamoyski Ossolinski Branicki Raczynski
+				Pulaski pl_dyn_piast pl_dyn_gryfici pl_dyn_odrowaz pl_dyn_labedz pl_dyn_topor pl_dyn_leliva
+				pl_dyn_jastrzebiec pl_dyn_abdank pl_dyn_godzienba pl_dyn_doliwa pl_dyn_rawicz sli_dyn_piast_slaski
+				sli_dyn_opolski sli_dyn_cieszynski sli_dyn_olesnicki sli_dyn_glogowski sli_dyn_ziebicki sli_dyn_raciborski
+			}
+			lowborn = {
+				nowak jurek wojcik kowalczyk wlodarczyk krawczyk marzec mlynaz name_milorad name_msciwoj name_mszczuj
+				name_nadbor name_niezamysl Brzeczyszykiewicz name_przybor name_sambor name_sedziej name_sieciech
+				name_siemomysl name_skarbimir name_snowid Dolas pl_low_kowal pl_low_krawiec pl_low_piekarz pl_low_ciesla
+				pl_low_garncarz sli_low_kowol sli_low_mlynorz sli_low_gornik sli_low_szewc sli_low_piekorz
+			}
+			ship_names = {
+				om7_ship_silesian_dialect_001 om7_ship_silesian_dialect_002 om7_ship_silesian_dialect_003
+				om7_ship_silesian_dialect_004 om7_ship_silesian_dialect_005 om7_ship_silesian_dialect_006
+				om7_ship_silesian_dialect_007 om7_ship_silesian_dialect_008 om7_ship_silesian_dialect_009
+				om7_ship_silesian_dialect_010 om7_ship_silesian_dialect_011 om7_ship_silesian_dialect_012
+				om7_ship_silesian_dialect_013 om7_ship_silesian_dialect_014 om7_ship_silesian_dialect_015
+				om7_ship_silesian_dialect_016 om7_ship_silesian_dialect_017 om7_ship_silesian_dialect_018
+				om7_ship_silesian_dialect_019 om7_ship_silesian_dialect_020 om7_ship_silesian_dialect_021
+				om7_ship_silesian_dialect_022 om7_ship_silesian_dialect_023 om7_ship_silesian_dialect_024
+				om7_ship_silesian_dialect_025 om7_ship_silesian_dialect_026 om7_ship_silesian_dialect_027
+				om7_ship_silesian_dialect_028 om7_ship_silesian_dialect_029 om7_ship_silesian_dialect_030
+				om7_ship_silesian_dialect_031 om7_ship_silesian_dialect_032 om7_ship_silesian_dialect_033
+				om7_ship_silesian_dialect_034 om7_ship_silesian_dialect_035 om7_ship_silesian_dialect_036
+				om7_ship_silesian_dialect_037 om7_ship_silesian_dialect_038 om7_ship_silesian_dialect_039
+				om7_ship_silesian_dialect_040 om7_ship_silesian_dialect_041 om7_ship_silesian_dialect_042
+				om7_ship_silesian_dialect_043 om7_ship_silesian_dialect_044 om7_ship_silesian_dialect_045
+				om7_ship_silesian_dialect_046 om7_ship_silesian_dialect_047 om7_ship_silesian_dialect_048
+				om7_ship_silesian_dialect_049 om7_ship_silesian_dialect_050 om7_ship_silesian_dialect_051
+				om7_ship_silesian_dialect_052 om7_ship_silesian_dialect_053 om7_ship_silesian_dialect_054
+				om7_ship_silesian_dialect_055 om7_ship_silesian_dialect_056 om7_ship_silesian_dialect_057
+				om7_ship_silesian_dialect_058 om7_ship_silesian_dialect_059 om7_ship_silesian_dialect_060
+				om7_ship_silesian_dialect_061 om7_ship_silesian_dialect_062 om7_ship_silesian_dialect_063
+				om7_ship_silesian_dialect_064 om7_ship_silesian_dialect_065 om7_ship_silesian_dialect_066
+				om7_ship_silesian_dialect_067 om7_ship_silesian_dialect_068 om7_ship_silesian_dialect_069
+				om7_ship_silesian_dialect_070 om7_ship_silesian_dialect_071 om7_ship_silesian_dialect_072
+				om7_ship_silesian_dialect_073 om7_ship_silesian_dialect_074 om7_ship_silesian_dialect_075
+				om7_ship_silesian_dialect_076 om7_ship_silesian_dialect_077 om7_ship_silesian_dialect_078
+				om7_ship_silesian_dialect_079 om7_ship_silesian_dialect_080 om7_ship_silesian_dialect_081
+				om7_ship_silesian_dialect_082 om7_ship_silesian_dialect_083 om7_ship_silesian_dialect_084
+				om7_ship_silesian_dialect_085 om7_ship_silesian_dialect_086 om7_ship_silesian_dialect_087
+				om7_ship_silesian_dialect_088 om7_ship_silesian_dialect_089 om7_ship_silesian_dialect_090
+				om7_ship_silesian_dialect_091 om7_ship_silesian_dialect_092 om7_ship_silesian_dialect_093
+				om7_ship_silesian_dialect_094 om7_ship_silesian_dialect_095 om7_ship_silesian_dialect_096
+				om7_ship_silesian_dialect_097 om7_ship_silesian_dialect_098 om7_ship_silesian_dialect_099
+				om7_ship_silesian_dialect_100 om7_ship_silesian_dialect_101 om7_ship_silesian_dialect_102
+				om7_ship_silesian_dialect_103 om7_ship_silesian_dialect_104 om7_ship_silesian_dialect_105
+				om7_ship_silesian_dialect_106 om7_ship_silesian_dialect_107 om7_ship_silesian_dialect_108
+				om7_ship_silesian_dialect_109 om7_ship_silesian_dialect_110 om7_ship_silesian_dialect_111
+				om7_ship_silesian_dialect_112 om7_ship_silesian_dialect_113 om7_ship_silesian_dialect_114
+				om7_ship_silesian_dialect_115 om7_ship_silesian_dialect_116 om7_ship_silesian_dialect_117
+				om7_ship_silesian_dialect_118 om7_ship_silesian_dialect_119 om7_ship_silesian_dialect_120
+				om7_ship_silesian_dialect_121 om7_ship_silesian_dialect_122 om7_ship_silesian_dialect_123
+				om7_ship_silesian_dialect_124 om7_ship_silesian_dialect_125 om7_ship_silesian_dialect_126
+				om7_ship_silesian_dialect_127 om7_ship_silesian_dialect_128
+			}
+		}
+	}
+}
+
+czechslovak_language = {
+	color = map_BOH
+	family = slavic_language_family
+	male_names = {
+		name_amadeus name_anthony name_blahoslav name_bohuslav name_bogomil name_bronislav name_cyril name_charles
+		name_ctibor name_dalimir name_dobroslav name_dragomir name_dragoslav name_emil name_hugh name_henry
+		name_ignatius name_yaromir name_george name_casimir name_constantine name_levoslav name_lubomir name_luboslav
+		name_louis name_lucas name_matthew name_methodius name_nicholas name_moymar name_maurice name_andrew name_paul
+		name_peter name_premysl name_prokop name_radomir name_radoslav name_svetozar name_tihomir name_thomas
+		name_william name_vitazoslav name_vlastimil name_vratislav name_waldemar name_wenceslas name_wojciech
+		name_adalbert name_albert name_alexander name_bartholomew name_benedict name_boleslav name_borivoj
+		name_bretislav name_budimir name_daniel name_david name_dobromir name_eugene name_felix name_ferdinand
+		name_john name_joseph name_laurence name_martin name_matthias name_michael name_otto name_roman name_rostislav
+		name_sobeslav name_spytihnev name_stephen name_ulrick name_zechariah name_oldrich name_zavis
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_bogomil
+		name_boleslav
+		name_borislav
+		name_bretislav
+		name_ctibor
+		name_dobromir
+		name_dragomir
+		name_miroslav
+		name_premysl
+		name_sobeslav
+		name_stanislav
+		name_wenceslas
+		name_vladislav
+		name_vratislav
+		name_yaromir
+		name_oldrich
+		name_prokop
+		name_om_cz_ladislav
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_adam
+		name_albert
+		name_andrew
+		name_benedict
+		name_charles
+		name_christopher
+		name_john
+		name_joseph
+		name_michael
+		name_nicholas
+		name_paul
+		name_peter
+		name_wenceslas
+		name_vitazoslav
+		name_george
+		name_ferdinand
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_alexander
+		name_ferdinand
+		name_frank
+		name_george
+		name_joseph
+		name_louis
+		name_martin
+		name_matthias
+		name_otto
+		name_vincent
+		name_om_cz_josef
+		name_om_cz_frantisek
+		name_anthony
+		name_om_cz_alois
+	}
+	female_names = {
+		name_amelia name_beata name_bozena name_catherine name_danuta name_dobrava name_dobroslava name_elizabeth
+		name_eve name_anna name_yaroslava name_jarmila name_judith name_ludmila name_margaret name_milena name_hope
+		name_premyslava name_stanislava name_svetlana name_svyatoslava name_vaclava name_adela name_adelaide
+		name_agatha name_agnes name_anastasia name_antonia name_barbara name_constance name_daria name_dorothy
+		name_euphemia name_euphrosyne name_helen name_irene name_martha name_mary name_matilda name_olga name_salome
+		name_xenia name_zdislava name_kunigunde
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_bozena
+		name_dobrava
+		name_dobroslava
+		name_jarmila
+		name_ludmila
+		name_milena
+		name_miroslava
+		name_stanislava
+		name_vaclava
+		name_voislava
+		name_om_cz_anezka
+		name_om_cz_eliska
+		name_catherine
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_agnes
+		name_anna
+		name_barbara
+		name_catherine
+		name_elizabeth
+		name_hedwig
+		name_judith
+		name_mary
+		name_salome
+		name_margaret
+		name_om_cz_barbora
+		name_om_cz_marie
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_alice
+		name_antonia
+		name_apollonia
+		name_eve
+		name_irene
+		name_natalia
+		name_olga
+		name_sophia
+		name_om_cz_terezie
+		name_om_cz_josefa
+		name_om_cz_karolina
+		name_om_cz_frantiska
+	}
+	lowborn = {
+		kovac Varga balaz lukac novak mlynar ctvrtnik horak hrabik hudek hornik kopecki novotny pesek repasky reznik
+		ryba volner vrba zeman cz_low_kovar cz_low_mlynar cz_low_pisar cz_low_krejci cz_low_hrncir cz_low_svec
+		om_low_cz_novak om_low_cz_svoboda om_low_cz_dvorak om_low_cz_cerny om_low_cz_prochazka
+	}
+	dynasty_names = {
+		dynasty_lobkowicz dynasty_kinsky dynasty_kolowrat dynasty_nostic dynasty_csaky dynasty_rakoczi dynasty_apponyi
+		dynasty_forgach cz_dyn_premyslovci cz_dyn_rosenberg cz_dyn_sternberk cz_dyn_podebrady cz_dyn_pernstejn
+		cz_dyn_vartenberk om_dyn_cz_premyslid om_dyn_cz_rozmberk om_dyn_cz_pernstejn om_dyn_cz_sternberg
+		om_dyn_cz_pod_brad om_dyn_cz_thun_hohenstein
+	}
+	ship_names = {
+		om7_ship_czechslovak_language_001 om7_ship_czechslovak_language_002 om7_ship_czechslovak_language_003
+		om7_ship_czechslovak_language_004 om7_ship_czechslovak_language_005 om7_ship_czechslovak_language_006
+		om7_ship_czechslovak_language_007 om7_ship_czechslovak_language_008 om7_ship_czechslovak_language_009
+		om7_ship_czechslovak_language_010 om7_ship_czechslovak_language_011 om7_ship_czechslovak_language_012
+		om7_ship_czechslovak_language_013 om7_ship_czechslovak_language_014 om7_ship_czechslovak_language_015
+		om7_ship_czechslovak_language_016 om7_ship_czechslovak_language_017 om7_ship_czechslovak_language_018
+		om7_ship_czechslovak_language_019 om7_ship_czechslovak_language_020 om7_ship_czechslovak_language_021
+		om7_ship_czechslovak_language_022 om7_ship_czechslovak_language_023 om7_ship_czechslovak_language_024
+		om7_ship_czechslovak_language_025 om7_ship_czechslovak_language_026 om7_ship_czechslovak_language_027
+		om7_ship_czechslovak_language_028 om7_ship_czechslovak_language_029 om7_ship_czechslovak_language_030
+		om7_ship_czechslovak_language_031 om7_ship_czechslovak_language_032 om7_ship_czechslovak_language_033
+		om7_ship_czechslovak_language_034 om7_ship_czechslovak_language_035 om7_ship_czechslovak_language_036
+		om7_ship_czechslovak_language_037 om7_ship_czechslovak_language_038 om7_ship_czechslovak_language_039
+		om7_ship_czechslovak_language_040 om7_ship_czechslovak_language_041 om7_ship_czechslovak_language_042
+		om7_ship_czechslovak_language_043 om7_ship_czechslovak_language_044 om7_ship_czechslovak_language_045
+		om7_ship_czechslovak_language_046 om7_ship_czechslovak_language_047 om7_ship_czechslovak_language_048
+		om7_ship_czechslovak_language_049 om7_ship_czechslovak_language_050 om7_ship_czechslovak_language_051
+		om7_ship_czechslovak_language_052 om7_ship_czechslovak_language_053 om7_ship_czechslovak_language_054
+		om7_ship_czechslovak_language_055 om7_ship_czechslovak_language_056 om7_ship_czechslovak_language_057
+		om7_ship_czechslovak_language_058 om7_ship_czechslovak_language_059 om7_ship_czechslovak_language_060
+		om7_ship_czechslovak_language_061 om7_ship_czechslovak_language_062 om7_ship_czechslovak_language_063
+		om7_ship_czechslovak_language_064 om7_ship_czechslovak_language_065 om7_ship_czechslovak_language_066
+		om7_ship_czechslovak_language_067 om7_ship_czechslovak_language_068 om7_ship_czechslovak_language_069
+		om7_ship_czechslovak_language_070 om7_ship_czechslovak_language_071 om7_ship_czechslovak_language_072
+		om7_ship_czechslovak_language_073 om7_ship_czechslovak_language_074 om7_ship_czechslovak_language_075
+		om7_ship_czechslovak_language_076 om7_ship_czechslovak_language_077 om7_ship_czechslovak_language_078
+		om7_ship_czechslovak_language_079 om7_ship_czechslovak_language_080 om7_ship_czechslovak_language_081
+		om7_ship_czechslovak_language_082 om7_ship_czechslovak_language_083 om7_ship_czechslovak_language_084
+		om7_ship_czechslovak_language_085 om7_ship_czechslovak_language_086 om7_ship_czechslovak_language_087
+		om7_ship_czechslovak_language_088 om7_ship_czechslovak_language_089 om7_ship_czechslovak_language_090
+		om7_ship_czechslovak_language_091
+	}
+	dialects = {
+		czech_dialect = {
+			male_names = {
+				name_amadeus name_anthony name_blahoslav name_bohuslav name_bogomil name_bronislav name_cyril name_charles
+				name_ctibor name_dalimir name_dobroslav name_dragomir name_dragoslav name_emil name_hugh name_henry
+				name_ignatius name_yaromir name_george name_casimir name_constantine name_levoslav name_lubomir
+				name_luboslav name_louis name_lucas name_matthew name_methodius name_nicholas name_moymar name_maurice
+				name_andrew name_paul name_peter name_premysl name_prokop name_radomir name_radoslav name_svetozar
+				name_tihomir name_thomas name_william name_vitazoslav name_vlastimil name_vratislav name_waldemar
+				name_wenceslas name_wojciech name_adalbert name_albert name_alexander name_bartholomew name_benedict
+				name_boleslav name_borivoj name_bretislav name_budimir name_daniel name_david name_dobromir name_eugene
+				name_felix name_ferdinand name_john name_joseph name_laurence name_martin name_matthias name_michael
+				name_otto name_roman name_rostislav name_sobeslav name_spytihnev name_stephen name_ulrick name_zechariah
+				name_oldrich name_zavis name_bohemir name_hynek
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_bogomil
+				name_boleslav
+				name_bretislav
+				name_ctibor
+				name_dobromir
+				name_dragomir
+				name_premysl
+				name_sobeslav
+				name_vratislav
+				name_yaromir
+				name_prokop
+				name_wenceslas
+				name_oldrich
+				name_amadeus
+				name_anthony
+				name_blahoslav
+				name_bohuslav
+				name_bronislav
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_albert
+				name_andrew
+				name_benedict
+				name_charles
+				name_john
+				name_joseph
+				name_michael
+				name_nicholas
+				name_paul
+				name_peter
+				name_vitazoslav
+				name_george
+				name_ferdinand
+				name_wenceslas
+				name_methodius
+				name_moymar
+				name_maurice
+				name_premysl
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_ferdinand
+				name_george
+				name_joseph
+				name_louis
+				name_martin
+				name_matthias
+				name_otto
+				name_anthony
+				name_borivoj
+				name_bretislav
+				name_budimir
+				name_daniel
+				name_david
+				name_dobromir
+				name_eugene
+				name_felix
+				name_john
+			}
+			female_names = {
+				name_amelia name_beata name_bozena name_catherine name_danuta name_dobrava name_dobroslava name_elizabeth
+				name_eve name_anna name_yaroslava name_jarmila name_judith name_ludmila name_margaret name_milena name_nadia
+				name_premyslava name_stanislava name_svetlana name_svyatoslava name_vaclava name_adela name_adelaide
+				name_agatha name_agnes name_anastasia name_antonia name_barbara name_constance name_daria name_dorothy
+				name_euphemia name_euphrosyne name_helen name_irene name_martha name_mary name_matilda name_olga name_salome
+				name_xenia name_zdislava name_kunigunde name_drahomira name_kunhuta
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_bozena
+				name_dobrava
+				name_dobroslava
+				name_jarmila
+				name_ludmila
+				name_milena
+				name_stanislava
+				name_vaclava
+				name_catherine
+				name_amelia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agnes
+				name_anna
+				name_barbara
+				name_catherine
+				name_elizabeth
+				name_judith
+				name_mary
+				name_salome
+				name_margaret
+				name_milena
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_antonia
+				name_eve
+				name_irene
+				name_olga
+				name_daria
+				name_dorothy
+				name_euphemia
+				name_euphrosyne
+				name_helen
+				name_martha
+			}
+			dynasty_names = {
+				dynasty_lobkowicz dynasty_kinsky dynasty_kolowrat dynasty_nostic dynasty_csaky dynasty_rakoczi
+				dynasty_apponyi dynasty_forgach cz_dyn_premyslovci cz_dyn_rosenberg cz_dyn_sternberk cz_dyn_podebrady
+				cz_dyn_pernstejn cz_dyn_vartenberk cz_dyn_kunstadt cz_dyn_hradec cz_dyn_duba cz_dyn_michalovice
+			}
+			lowborn = {
+				kovac Varga balaz lukac novak mlynar ctvrtnik horak hrabik hudek hornik kopecki novotny pesek repasky reznik
+				ryba volner vrba zeman cz_low_kovar cz_low_mlynar cz_low_pisar cz_low_krejci cz_low_hrncir cz_low_svec
+				cz_low_dvorak cz_low_sedlak cz_low_hajek cz_low_vlcek
+			}
+			ship_names = {
+				om7_ship_czech_dialect_001 om7_ship_czech_dialect_002 om7_ship_czech_dialect_003 om7_ship_czech_dialect_004
+				om7_ship_czech_dialect_005 om7_ship_czech_dialect_006 om7_ship_czech_dialect_007 om7_ship_czech_dialect_008
+				om7_ship_czech_dialect_009 om7_ship_czech_dialect_010 om7_ship_czech_dialect_011 om7_ship_czech_dialect_012
+				om7_ship_czech_dialect_013 om7_ship_czech_dialect_014 om7_ship_czech_dialect_015 om7_ship_czech_dialect_016
+				om7_ship_czech_dialect_017 om7_ship_czech_dialect_018 om7_ship_czech_dialect_019 om7_ship_czech_dialect_020
+				om7_ship_czech_dialect_021 om7_ship_czech_dialect_022 om7_ship_czech_dialect_023 om7_ship_czech_dialect_024
+				om7_ship_czech_dialect_025 om7_ship_czech_dialect_026 om7_ship_czech_dialect_027 om7_ship_czech_dialect_028
+				om7_ship_czech_dialect_029 om7_ship_czech_dialect_030 om7_ship_czech_dialect_031 om7_ship_czech_dialect_032
+				om7_ship_czech_dialect_033 om7_ship_czech_dialect_034 om7_ship_czech_dialect_035 om7_ship_czech_dialect_036
+				om7_ship_czech_dialect_037 om7_ship_czech_dialect_038 om7_ship_czech_dialect_039 om7_ship_czech_dialect_040
+				om7_ship_czech_dialect_041 om7_ship_czech_dialect_042 om7_ship_czech_dialect_043 om7_ship_czech_dialect_044
+				om7_ship_czech_dialect_045 om7_ship_czech_dialect_046 om7_ship_czech_dialect_047 om7_ship_czech_dialect_048
+				om7_ship_czech_dialect_049 om7_ship_czech_dialect_050 om7_ship_czech_dialect_051 om7_ship_czech_dialect_052
+				om7_ship_czech_dialect_053 om7_ship_czech_dialect_054 om7_ship_czech_dialect_055 om7_ship_czech_dialect_056
+				om7_ship_czech_dialect_057 om7_ship_czech_dialect_058 om7_ship_czech_dialect_059 om7_ship_czech_dialect_060
+				om7_ship_czech_dialect_061 om7_ship_czech_dialect_062 om7_ship_czech_dialect_063 om7_ship_czech_dialect_064
+				om7_ship_czech_dialect_065 om7_ship_czech_dialect_066 om7_ship_czech_dialect_067 om7_ship_czech_dialect_068
+				om7_ship_czech_dialect_069 om7_ship_czech_dialect_070 om7_ship_czech_dialect_071 om7_ship_czech_dialect_072
+				om7_ship_czech_dialect_073 om7_ship_czech_dialect_074 om7_ship_czech_dialect_075 om7_ship_czech_dialect_076
+				om7_ship_czech_dialect_077 om7_ship_czech_dialect_078 om7_ship_czech_dialect_079 om7_ship_czech_dialect_080
+				om7_ship_czech_dialect_081
+			}
+		}
+		slovak_dialect = {
+			male_names = {
+				name_amadeus name_anthony name_blahoslav name_bohuslav name_bogomil name_bronislav name_cyril name_charles
+				name_ctibor name_dalimir name_dobroslav name_dragomir name_dragoslav name_emil name_hugh name_henry
+				name_ignatius name_yaromir name_george name_casimir name_constantine name_levoslav name_lubomir
+				name_luboslav name_louis name_lucas name_matthew name_methodius name_nicholas name_moymar name_maurice
+				name_andrew name_paul name_peter name_premysl name_prokop name_radomir name_radoslav name_svetozar
+				name_tihomir name_thomas name_william name_vitazoslav name_vlastimil name_vratislav name_waldemar
+				name_wenceslas name_wojciech name_adalbert name_albert name_alexander name_bartholomew name_benedict
+				name_boleslav name_borivoj name_bretislav name_budimir name_daniel name_david name_dobromir name_eugene
+				name_felix name_ferdinand name_john name_joseph name_laurence name_martin name_matthias name_michael
+				name_otto name_roman name_rostislav name_sobeslav name_spytihnev name_stephen name_ulrick name_zechariah
+				name_oldrich name_zavis name_sviatopolk name_pribina name_rastislav name_vladislav
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_bogomil
+				name_boleslav
+				name_bretislav
+				name_ctibor
+				name_dobromir
+				name_dragomir
+				name_premysl
+				name_sobeslav
+				name_vladislav
+				name_vratislav
+				name_yaromir
+				name_prokop
+				name_wenceslas
+				name_oldrich
+				name_amadeus
+				name_anthony
+				name_blahoslav
+				name_bohuslav
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_albert
+				name_andrew
+				name_benedict
+				name_charles
+				name_john
+				name_joseph
+				name_michael
+				name_nicholas
+				name_paul
+				name_peter
+				name_vitazoslav
+				name_george
+				name_ferdinand
+				name_wenceslas
+				name_methodius
+				name_moymar
+				name_maurice
+				name_premysl
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_ferdinand
+				name_george
+				name_joseph
+				name_louis
+				name_martin
+				name_matthias
+				name_otto
+				name_anthony
+				name_borivoj
+				name_bretislav
+				name_budimir
+				name_daniel
+				name_david
+				name_dobromir
+				name_eugene
+				name_felix
+				name_john
+			}
+			female_names = {
+				name_amelia name_beata name_bozena name_catherine name_danuta name_dobrava name_dobroslava name_elizabeth
+				name_eve name_anna name_yaroslava name_jarmila name_judith name_ludmila name_margaret name_milena name_nadia
+				name_premyslava name_stanislava name_svetlana name_svyatoslava name_vaclava name_adela name_adelaide
+				name_agatha name_agnes name_anastasia name_antonia name_barbara name_constance name_daria name_dorothy
+				name_euphemia name_euphrosyne name_helen name_irene name_martha name_mary name_matilda name_olga name_salome
+				name_xenia name_zdislava name_kunigunde name_drahomira name_milica name_eufrozina name_sophia name_kinga
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_bozena
+				name_dobrava
+				name_dobroslava
+				name_jarmila
+				name_ludmila
+				name_milena
+				name_stanislava
+				name_vaclava
+				name_catherine
+				name_amelia
+				name_beata
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agnes
+				name_anna
+				name_barbara
+				name_catherine
+				name_elizabeth
+				name_judith
+				name_mary
+				name_salome
+				name_margaret
+				name_nadia
+				name_premyslava
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_antonia
+				name_eve
+				name_irene
+				name_olga
+				name_sophia
+				name_euphemia
+				name_euphrosyne
+				name_helen
+				name_martha
+				name_mary
+				name_matilda
+			}
+			dynasty_names = {
+				dynasty_lobkowicz dynasty_kinsky dynasty_kolowrat dynasty_nostic dynasty_csaky dynasty_rakoczi
+				dynasty_apponyi dynasty_forgach cz_dyn_premyslovci cz_dyn_rosenberg cz_dyn_sternberk cz_dyn_podebrady
+				cz_dyn_pernstejn cz_dyn_vartenberk sk_dyn_csak sk_dyn_forgach sk_dyn_zapolya sk_dyn_thurzo sk_dyn_bathory
+				sk_dyn_palffy sk_dyn_illeszazy
+			}
+			lowborn = {
+				kovac Varga balaz lukac novak mlynar ctvrtnik horak hrabik hudek hornik kopecki novotny pesek repasky reznik
+				ryba volner vrba zeman cz_low_kovar cz_low_mlynar cz_low_pisar cz_low_krejci cz_low_hrncir cz_low_svec
+				sk_low_kovac sk_low_mlynar sk_low_pisar sk_low_sedliak sk_low_hrnciar sk_low_bednar sk_low_hajduk
+			}
+			ship_names = {
+				om7_ship_slovak_dialect_001 om7_ship_slovak_dialect_002 om7_ship_slovak_dialect_003
+				om7_ship_slovak_dialect_004 om7_ship_slovak_dialect_005 om7_ship_slovak_dialect_006
+				om7_ship_slovak_dialect_007 om7_ship_slovak_dialect_008 om7_ship_slovak_dialect_009
+				om7_ship_slovak_dialect_010 om7_ship_slovak_dialect_011 om7_ship_slovak_dialect_012
+				om7_ship_slovak_dialect_013 om7_ship_slovak_dialect_014 om7_ship_slovak_dialect_015
+				om7_ship_slovak_dialect_016 om7_ship_slovak_dialect_017 om7_ship_slovak_dialect_018
+				om7_ship_slovak_dialect_019 om7_ship_slovak_dialect_020 om7_ship_slovak_dialect_021
+				om7_ship_slovak_dialect_022 om7_ship_slovak_dialect_023 om7_ship_slovak_dialect_024
+				om7_ship_slovak_dialect_025 om7_ship_slovak_dialect_026 om7_ship_slovak_dialect_027
+				om7_ship_slovak_dialect_028 om7_ship_slovak_dialect_029 om7_ship_slovak_dialect_030
+				om7_ship_slovak_dialect_031 om7_ship_slovak_dialect_032 om7_ship_slovak_dialect_033
+				om7_ship_slovak_dialect_034 om7_ship_slovak_dialect_035 om7_ship_slovak_dialect_036
+				om7_ship_slovak_dialect_037 om7_ship_slovak_dialect_038 om7_ship_slovak_dialect_039
+				om7_ship_slovak_dialect_040 om7_ship_slovak_dialect_041 om7_ship_slovak_dialect_042
+				om7_ship_slovak_dialect_043 om7_ship_slovak_dialect_044 om7_ship_slovak_dialect_045
+				om7_ship_slovak_dialect_046 om7_ship_slovak_dialect_047 om7_ship_slovak_dialect_048
+				om7_ship_slovak_dialect_049 om7_ship_slovak_dialect_050 om7_ship_slovak_dialect_051
+				om7_ship_slovak_dialect_052 om7_ship_slovak_dialect_053 om7_ship_slovak_dialect_054
+				om7_ship_slovak_dialect_055 om7_ship_slovak_dialect_056 om7_ship_slovak_dialect_057
+				om7_ship_slovak_dialect_058 om7_ship_slovak_dialect_059 om7_ship_slovak_dialect_060
+				om7_ship_slovak_dialect_061 om7_ship_slovak_dialect_062 om7_ship_slovak_dialect_063
+				om7_ship_slovak_dialect_064 om7_ship_slovak_dialect_065 om7_ship_slovak_dialect_066
+				om7_ship_slovak_dialect_067 om7_ship_slovak_dialect_068 om7_ship_slovak_dialect_069
+				om7_ship_slovak_dialect_070 om7_ship_slovak_dialect_071 om7_ship_slovak_dialect_072
+				om7_ship_slovak_dialect_073 om7_ship_slovak_dialect_074 om7_ship_slovak_dialect_075
+				om7_ship_slovak_dialect_076 om7_ship_slovak_dialect_077 om7_ship_slovak_dialect_078
+				om7_ship_slovak_dialect_079 om7_ship_slovak_dialect_080 om7_ship_slovak_dialect_081
+				om7_ship_slovak_dialect_082 om7_ship_slovak_dialect_083
+			}
+		}
+		sorbian_dialect = {
+			male_names = {
+				name_amadeus name_anthony name_blahoslav name_bohuslav name_bogomil name_bronislav name_cyril name_charles
+				name_ctibor name_dalimir name_dobroslav name_dragomir name_dragoslav name_emil name_hugh name_henry
+				name_ignatius name_yaromir name_george name_casimir name_constantine name_levoslav name_lubomir
+				name_luboslav name_louis name_lucas name_matthew name_methodius name_nicholas name_moymar name_maurice
+				name_andrew name_paul name_peter name_premysl name_prokop name_radomir name_radoslav name_svetozar
+				name_tihomir name_thomas name_william name_vitazoslav name_vlastimil name_vratislav name_waldemar
+				name_wenceslas name_wojciech name_adalbert name_albert name_alexander name_bartholomew name_benedict
+				name_boleslav name_borivoj name_bretislav name_budimir name_daniel name_david name_dobromir name_eugene
+				name_felix name_ferdinand name_john name_joseph name_laurence name_martin name_matthias name_michael
+				name_otto name_roman name_rostislav name_sobeslav name_spytihnev name_stephen name_ulrick name_zechariah
+				name_oldrich name_zavis name_boguslav name_budislav name_chociebud name_milos name_miloslav name_radibor
+				name_witislav name_james name_hanc
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_bogomil
+				name_boleslav
+				name_bretislav
+				name_ctibor
+				name_dobromir
+				name_dragomir
+				name_premysl
+				name_sobeslav
+				name_vratislav
+				name_yaromir
+				name_prokop
+				name_wenceslas
+				name_oldrich
+				name_amadeus
+				name_anthony
+				name_blahoslav
+				name_bohuslav
+				name_bronislav
+				name_cyril
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_albert
+				name_andrew
+				name_benedict
+				name_charles
+				name_john
+				name_joseph
+				name_michael
+				name_nicholas
+				name_paul
+				name_peter
+				name_vitazoslav
+				name_george
+				name_ferdinand
+				name_wenceslas
+				name_moymar
+				name_maurice
+				name_premysl
+				name_prokop
+				name_radomir
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_ferdinand
+				name_george
+				name_joseph
+				name_louis
+				name_martin
+				name_matthias
+				name_otto
+				name_anthony
+				name_david
+				name_dobromir
+				name_eugene
+				name_felix
+				name_john
+				name_laurence
+				name_michael
+				name_roman
+				name_rostislav
+				name_sobeslav
+			}
+			female_names = {
+				name_amelia name_beata name_bozena name_catherine name_danuta name_dobrava name_dobroslava name_elizabeth
+				name_eve name_anna name_yaroslava name_jarmila name_judith name_ludmila name_margaret name_milena name_nadia
+				name_premyslava name_stanislava name_svetlana name_svyatoslava name_vaclava name_adela name_adelaide
+				name_agatha name_agnes name_anastasia name_antonia name_barbara name_constance name_daria name_dorothy
+				name_euphemia name_euphrosyne name_helen name_irene name_martha name_mary name_matilda name_olga name_salome
+				name_xenia name_zdislava name_kunigunde name_bozenka name_hanka name_magdala name_zlata name_radomila
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_bozena
+				name_dobrava
+				name_dobroslava
+				name_jarmila
+				name_ludmila
+				name_milena
+				name_stanislava
+				name_vaclava
+				name_catherine
+				name_amelia
+				name_beata
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agnes
+				name_anna
+				name_barbara
+				name_catherine
+				name_elizabeth
+				name_judith
+				name_mary
+				name_salome
+				name_margaret
+				name_nadia
+				name_premyslava
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_antonia
+				name_eve
+				name_irene
+				name_olga
+				name_euphemia
+				name_euphrosyne
+				name_helen
+				name_martha
+				name_mary
+				name_matilda
+				name_salome
+			}
+			dynasty_names = {
+				dynasty_lobkowicz dynasty_kinsky dynasty_kolowrat dynasty_nostic dynasty_csaky dynasty_rakoczi
+				dynasty_apponyi dynasty_forgach cz_dyn_premyslovci cz_dyn_rosenberg cz_dyn_sternberk cz_dyn_podebrady
+				cz_dyn_pernstejn cz_dyn_vartenberk so_dyn_budysin so_dyn_luzici so_dyn_milceni so_dyn_glomaci so_dyn_zagost
+				so_dyn_hvozdec
+			}
+			lowborn = {
+				kovac Varga balaz lukac novak mlynar ctvrtnik horak hrabik hudek hornik kopecki novotny pesek repasky reznik
+				ryba volner vrba zeman cz_low_kovar cz_low_mlynar cz_low_pisar cz_low_krejci cz_low_hrncir cz_low_svec
+				so_low_kowar so_low_mlynk so_low_rybar so_low_krawc so_low_nowak so_low_bednar
+			}
+			ship_names = {
+				om7_ship_sorbian_dialect_001 om7_ship_sorbian_dialect_002 om7_ship_sorbian_dialect_003
+				om7_ship_sorbian_dialect_004 om7_ship_sorbian_dialect_005 om7_ship_sorbian_dialect_006
+				om7_ship_sorbian_dialect_007 om7_ship_sorbian_dialect_008 om7_ship_sorbian_dialect_009
+				om7_ship_sorbian_dialect_010 om7_ship_sorbian_dialect_011 om7_ship_sorbian_dialect_012
+				om7_ship_sorbian_dialect_013 om7_ship_sorbian_dialect_014 om7_ship_sorbian_dialect_015
+				om7_ship_sorbian_dialect_016 om7_ship_sorbian_dialect_017 om7_ship_sorbian_dialect_018
+				om7_ship_sorbian_dialect_019 om7_ship_sorbian_dialect_020 om7_ship_sorbian_dialect_021
+				om7_ship_sorbian_dialect_022 om7_ship_sorbian_dialect_023 om7_ship_sorbian_dialect_024
+				om7_ship_sorbian_dialect_025 om7_ship_sorbian_dialect_026 om7_ship_sorbian_dialect_027
+				om7_ship_sorbian_dialect_028 om7_ship_sorbian_dialect_029 om7_ship_sorbian_dialect_030
+				om7_ship_sorbian_dialect_031 om7_ship_sorbian_dialect_032 om7_ship_sorbian_dialect_033
+				om7_ship_sorbian_dialect_034 om7_ship_sorbian_dialect_035 om7_ship_sorbian_dialect_036
+				om7_ship_sorbian_dialect_037 om7_ship_sorbian_dialect_038 om7_ship_sorbian_dialect_039
+				om7_ship_sorbian_dialect_040 om7_ship_sorbian_dialect_041 om7_ship_sorbian_dialect_042
+				om7_ship_sorbian_dialect_043 om7_ship_sorbian_dialect_044 om7_ship_sorbian_dialect_045
+				om7_ship_sorbian_dialect_046 om7_ship_sorbian_dialect_047 om7_ship_sorbian_dialect_048
+				om7_ship_sorbian_dialect_049 om7_ship_sorbian_dialect_050 om7_ship_sorbian_dialect_051
+				om7_ship_sorbian_dialect_052 om7_ship_sorbian_dialect_053 om7_ship_sorbian_dialect_054
+				om7_ship_sorbian_dialect_055 om7_ship_sorbian_dialect_056 om7_ship_sorbian_dialect_057
+				om7_ship_sorbian_dialect_058 om7_ship_sorbian_dialect_059 om7_ship_sorbian_dialect_060
+				om7_ship_sorbian_dialect_061 om7_ship_sorbian_dialect_062 om7_ship_sorbian_dialect_063
+				om7_ship_sorbian_dialect_064 om7_ship_sorbian_dialect_065 om7_ship_sorbian_dialect_066
+				om7_ship_sorbian_dialect_067 om7_ship_sorbian_dialect_068 om7_ship_sorbian_dialect_069
+				om7_ship_sorbian_dialect_070 om7_ship_sorbian_dialect_071 om7_ship_sorbian_dialect_072
+				om7_ship_sorbian_dialect_073 om7_ship_sorbian_dialect_074 om7_ship_sorbian_dialect_075
+				om7_ship_sorbian_dialect_076 om7_ship_sorbian_dialect_077 om7_ship_sorbian_dialect_078
+				om7_ship_sorbian_dialect_079 om7_ship_sorbian_dialect_080 om7_ship_sorbian_dialect_081
+				om7_ship_sorbian_dialect_082 om7_ship_sorbian_dialect_083 om7_ship_sorbian_dialect_084
+				om7_ship_sorbian_dialect_085 om7_ship_sorbian_dialect_086 om7_ship_sorbian_dialect_087
+				om7_ship_sorbian_dialect_088
+			}
+		}
+	}
+	location_prefix = "location_prefix_czech"
+}

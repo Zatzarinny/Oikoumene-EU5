@@ -1,0 +1,41 @@
+﻿coptic_language = {
+	color = color_language_coptic
+	male_names = {
+		Abanoub Abraam Awel name_adam name_adelphus Aleksanaros Androus name_anthony name_aaron name_ashraf Wasile
+		Beniamin Bishoi Boutros Chael Khristophoros Danyal Daueid Evanderos Ezra Gabri_el Gerges Hanri name_elias Isac
+		Ioseb Istafanus Jerjer Khail Kosma Krystafer Ksystous Lot Lukianous Lukious Maurikious Matta Mikail Mikhael
+		Mina Mouses Myronous Pamin Roufos Sarabion Tadros Thaodoros Touma Yakobas Yared Yeshak Youssef Zaia
+	}
+	female_names = {
+		name_anastasia name_anna Demiana name_diana Elpis name_eve Hanna Herewekka Hrakhel name_iris name_irene
+		name_elizabeth Kattrin Khroustina Lea Leksandria Loukia Mariam name_marine Marta Maysoon Paisi Piama Piamun
+		Potamina Roufina name_samiya Sappeira name_sara name_sophia Talida Virina
+	}
+	dynasty_names = {
+		Bassily Boutros Ghali Ebeid Fanous El_Gohary Habib Hinein name_isaac Kellini Shukrallah Stino Wahba
+		name_khalil
+	}
+	lowborn = {
+		Botros Salib Tadros Tedros Fakhri Fanous Lawandy Mina Mourice Moussa Pishay Pishoy Ramsis Tafida Wisa
+	}
+	ship_names = {
+		om7_ship_coptic_language_001 om7_ship_coptic_language_002 om7_ship_coptic_language_003
+		om7_ship_coptic_language_004 om7_ship_coptic_language_005 om7_ship_coptic_language_006
+		om7_ship_coptic_language_007 om7_ship_coptic_language_008 om7_ship_coptic_language_009
+		om7_ship_coptic_language_010 om7_ship_coptic_language_011 om7_ship_coptic_language_012
+		om7_ship_coptic_language_013 om7_ship_coptic_language_014 om7_ship_coptic_language_015
+		om7_ship_coptic_language_016 om7_ship_coptic_language_017 om7_ship_coptic_language_018
+		om7_ship_coptic_language_019 om7_ship_coptic_language_020 om7_ship_coptic_language_021
+		om7_ship_coptic_language_022 om7_ship_coptic_language_023 om7_ship_coptic_language_024
+		om7_ship_coptic_language_025 om7_ship_coptic_language_026 om7_ship_coptic_language_027
+		om7_ship_coptic_language_028 om7_ship_coptic_language_029 om7_ship_coptic_language_030
+		om7_ship_coptic_language_031 om7_ship_coptic_language_032 om7_ship_coptic_language_033
+		om7_ship_coptic_language_034 om7_ship_coptic_language_035 om7_ship_coptic_language_036
+		om7_ship_coptic_language_037 om7_ship_coptic_language_038 om7_ship_coptic_language_039
+		om7_ship_coptic_language_040 om7_ship_coptic_language_041 om7_ship_coptic_language_042
+		om7_ship_coptic_language_043 om7_ship_coptic_language_044 om7_ship_coptic_language_045
+		om7_ship_coptic_language_046 om7_ship_coptic_language_047 om7_ship_coptic_language_048
+		om7_ship_coptic_language_049 om7_ship_coptic_language_050 om7_ship_coptic_language_051
+		om7_ship_coptic_language_052 om7_ship_coptic_language_053
+	}
+}

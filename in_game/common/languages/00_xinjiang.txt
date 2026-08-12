@@ -1,0 +1,170 @@
+﻿karluk_language = {
+	color = map_CHG
+	family = turkic_language_family
+	male_names = {
+		Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai
+		Bagaridai Bala Barghujin name_bartan Batu Bedugun Begter name_belgutei Belgunutei Bilge name_berke Bodonchar
+		Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan name_buri Burkhan
+		Burundai Chagatai Chaghagan Chanai Chigu Chidukhul Chilagun Chiledu Chormakhan Chulgetei Dagun Daritai Dayir
+		Dodai Duua Eljigedei name_ghazan Ghunan Guchu Gughlug Guyug Harghasun Horkhudagh name_hulegu Husun Inalchi
+		Inancha Iturgen Jajiradai Jamugha Jebe Jochi Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal
+		Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin Menggei name_mongke
+		Morokha Munglig Nakhu Narin Nayaga Nogai Odchigin Ogodei Okhotur name_oljaitu Oronartai Shiraghul Shirgugetu
+		Subetei Suyiketu Taghai Tamachi Targhutai name_temuge Temujin name_temur Todogen Toghoril Toghtoga Tokhtamis
+		Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan name_kadan Godan Celgil Aba
+		Baitzas Balgor Batan Batas Bator Bayca Bickili Bizel Boru Bula Giazis Ildey Ipa Ipaos Kabuksin Karaca Kaydum
+		Kegen Konel Korkutan Kortan Kostas Kourkoutai Kuerci Kugel Kure Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi
+		Cilbu Aepak Asalup Asep Atrak Bonek Bachman Begluk Blush Bonyak Borc Eldecyuk Etrek Girgen Gzi Itlar Ituk
+		Koncek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan name_pulad Saru Sevenc Sircan Sokal Sotan Sugr
+		Tortogul Togli Tolun Tugor Uzluk Uzur Almish Alp Alzek Anzi Apskhih Araslan name_arslan Asparukh Bagha
+		Baghatur Balambar Barjik Bars Barsbek Bashtwa Bastu Bataul Batbayan Batoya Batulia name_bayan Belkermak Bezmer
+		Bihor Boyan Bugha Bughra Bulan Bulger Bulcan Busir name_buzan Buzer Balgici Bori Chepa Chinialush Dengizikh
+		Dizeng Dometa Dristar Drong name_dukum Elemag Ellak Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Ilik Iltabar
+		Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh name_karan Karaton name_kardam Kayghalagh
+		Kharaton Khatir Khinialon Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat name_krum
+		Kuber Kubrat Kundac Kundaciq Kurt Kutrigur Kalac Labertam Magotin Malamir Mugel Manar Manas Menumarot Odolgan
+		Okhsi Okhsun Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar Bakhtiar Papacyz Paval
+		Praksa Rassate Rugila Sabin Samsam Sandil Sandilkh Sarkhan Sartac Savin Sevar Shilki Simsam Sondoke Tabghac
+		Tarasiy Taridin Tarkhan Tarmac Tatra Telec Telerig Tervel Timer name_timur Timerec Timerpalat Tingiz Tiradin
+		Toghan Toghril Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Tabar Tahtaman Umor Uturgur Vakrim Venda Vetam
+		Vinekh Yabghu Yani Yavantey Yencepi Yerneslu Yectirek Yilig Zabergan Zenti Cat Catn Corpan Otemis
+	}
+	female_names = {
+		Al_Alta name_alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei
+		Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Mandukhai Mongoljin
+		Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Toregene Yesugun Yesui Hoelun Cicek Cilen Ciltanesi
+		Ozgul Ozlem Akgul name_asli Ayasun Ayten Bozcin Dilek Esin Gulcicek Gulay Gunduz Gundes Gunes Ilkay Ipek
+		Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica name_sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekce
+		Tura Umay Usunbike Yasar Yeldem Yildiz Cicak Ceceppi Cecki Cectilet Gulcicak Ikalay Katyarikka Kelnissa
+		Kelyamal Khatun Larkka Lyukha Maturkka Naca Parsbit Patiyer Paykelti Puyantay Sarantay Sara_karluk Sarikel
+		Savacka Savkelti Savtilek Savilay Savintik Shurkka Tahtani Yartilek
+	}
+	dynasty_names = {}
+	lowborn = {}
+	ship_names = {
+		om7_ship_karluk_language_001 om7_ship_karluk_language_002 om7_ship_karluk_language_003
+		om7_ship_karluk_language_004 om7_ship_karluk_language_005 om7_ship_karluk_language_006
+		om7_ship_karluk_language_007 om7_ship_karluk_language_008 om7_ship_karluk_language_009
+		om7_ship_karluk_language_010 om7_ship_karluk_language_011 om7_ship_karluk_language_012
+		om7_ship_karluk_language_013 om7_ship_karluk_language_014 om7_ship_karluk_language_015
+		om7_ship_karluk_language_016 om7_ship_karluk_language_017 om7_ship_karluk_language_018
+		om7_ship_karluk_language_019 om7_ship_karluk_language_020 om7_ship_karluk_language_021
+		om7_ship_karluk_language_022 om7_ship_karluk_language_023 om7_ship_karluk_language_024
+		om7_ship_karluk_language_025 om7_ship_karluk_language_026 om7_ship_karluk_language_027
+		om7_ship_karluk_language_028 om7_ship_karluk_language_029 om7_ship_karluk_language_030
+		om7_ship_karluk_language_031 om7_ship_karluk_language_032 om7_ship_karluk_language_033
+		om7_ship_karluk_language_034 om7_ship_karluk_language_035 om7_ship_karluk_language_036
+		om7_ship_karluk_language_037 om7_ship_karluk_language_038 om7_ship_karluk_language_039
+		om7_ship_karluk_language_040 om7_ship_karluk_language_041 om7_ship_karluk_language_042
+		om7_ship_karluk_language_043 om7_ship_karluk_language_044 om7_ship_karluk_language_045
+		om7_ship_karluk_language_046 om7_ship_karluk_language_047 om7_ship_karluk_language_048
+		om7_ship_karluk_language_049 om7_ship_karluk_language_050 om7_ship_karluk_language_051
+		om7_ship_karluk_language_052 om7_ship_karluk_language_053 om7_ship_karluk_language_054
+		om7_ship_karluk_language_055 om7_ship_karluk_language_056 om7_ship_karluk_language_057
+		om7_ship_karluk_language_058 om7_ship_karluk_language_059 om7_ship_karluk_language_060
+		om7_ship_karluk_language_061 om7_ship_karluk_language_062 om7_ship_karluk_language_063
+		om7_ship_karluk_language_064 om7_ship_karluk_language_065 om7_ship_karluk_language_066
+		om7_ship_karluk_language_067 om7_ship_karluk_language_068 om7_ship_karluk_language_069
+		om7_ship_karluk_language_070 om7_ship_karluk_language_071 om7_ship_karluk_language_072
+		om7_ship_karluk_language_073 om7_ship_karluk_language_074 om7_ship_karluk_language_075
+		om7_ship_karluk_language_076 om7_ship_karluk_language_077 om7_ship_karluk_language_078
+		om7_ship_karluk_language_079 om7_ship_karluk_language_080 om7_ship_karluk_language_081
+		om7_ship_karluk_language_082 om7_ship_karluk_language_083 om7_ship_karluk_language_084
+		om7_ship_karluk_language_085 om7_ship_karluk_language_086 om7_ship_karluk_language_087
+		om7_ship_karluk_language_088 om7_ship_karluk_language_089 om7_ship_karluk_language_090
+		om7_ship_karluk_language_091 om7_ship_karluk_language_092 om7_ship_karluk_language_093
+		om7_ship_karluk_language_094 om7_ship_karluk_language_095 om7_ship_karluk_language_096
+		om7_ship_karluk_language_097 om7_ship_karluk_language_098 om7_ship_karluk_language_099
+		om7_ship_karluk_language_100 om7_ship_karluk_language_101 om7_ship_karluk_language_102
+		om7_ship_karluk_language_103 om7_ship_karluk_language_104 om7_ship_karluk_language_105
+		om7_ship_karluk_language_106 om7_ship_karluk_language_107 om7_ship_karluk_language_108
+		om7_ship_karluk_language_109 om7_ship_karluk_language_110 om7_ship_karluk_language_111
+		om7_ship_karluk_language_112 om7_ship_karluk_language_113 om7_ship_karluk_language_114
+		om7_ship_karluk_language_115 om7_ship_karluk_language_116 om7_ship_karluk_language_117
+		om7_ship_karluk_language_118 om7_ship_karluk_language_119 om7_ship_karluk_language_120
+		om7_ship_karluk_language_121 om7_ship_karluk_language_122 om7_ship_karluk_language_123
+		om7_ship_karluk_language_124 om7_ship_karluk_language_125 om7_ship_karluk_language_126
+		om7_ship_karluk_language_127 om7_ship_karluk_language_128
+	}
+}
+
+turkic_language = {
+	color = map_turkic
+	family = turkic_language_family
+	male_names = {
+		Aysen Nyurgun Elley Aytal Manchaary Ayaal Michil Keskil Ayhal Uygulaan Aisien Aiy Alaas name_alban Aldan Algyr
+		Aldyn Aman Anii Anys Arbay Archyn Arylkhan Atalamy Atyrdakh Ay Ayaan Ayantay Ayastaan Ayatas Aydarkhan Aykhaal
+		Aykhal Aynan Badeey Baltuga Barakhsan Baroon Barylan name_bayan Bayanay Baydam Bergen Bert Biebey Biyaman
+		Bootur Byyang Culusxan Culuur Dabaan Dalan Dalbar Darkhaan Darkhan Dayan Delegey Dobun Dokhsun Dolgan Dolun
+		Doydu Duley Dulus Duluskhaan Duluur Duolan Dupsun Durustaan Erchim Erel Ergis Erkhaan Erkin Kenceeri Kencheeri
+		Keremen Kharyskhaan Khohuun Khomus Khomustaan Khotoy Kintey Kuday Kuduk Kundul Kundumen Kuobakh Kusteekh
+		Kustuk Kytaanakh Kyunnyay Modun Munnan Nuolan Nurgun Odun Oktom Orduk Oyuun Saaryn Sallaat Sargi Sargyn Saydam
+		Serge Sulus Sulustaan Surex Taragay Tolbon Tuluy Tuluykhaan Tumen Tuskul Tygyn Uolan Uraan Uruy Uygun Misir
+		Pathir Sukhir Alip Altin_arig Chash_kook Kara_molot Kartiga Kilish Kymysh Kyren Olen Pergen Salgin Abdira
+		Apcakh Ayas Aydas Aymakh Kizil_ool Koley Kodes Turgun Tyulgyu Aldar Aldin_caa Artysh Arzylan Ay_das Ay_demir
+		Aydyn Aydys Baygay_ool Belek Bezen_ool Brat_ool Buyan Chechen_ool Coygan_ool Dalay_ool Kaigal_ool Kezhik
+		Kusas_ool Kyzyl_ool Maadir_ool Omak Opey_ool Sarig_ool Sherig_ool Sholban Sooca Su_xem Syldys Tay_mir Uyanmas
+		Xures_ool
+	}
+	female_names = {
+		Tuyaara Sardaana Kunney Sayyyna Nyurguyaana Karachaane Uruydaana Sayaana Sahayaana Tuskulaana Kaskilaane
+		Naryyanaa Saskylaana Ayta Alaapiya Aldaana Algystaana Amaana Archiina Ayaana Aygylaana Ayiina Barakhsaana
+		Bayaana Comcuune Dalaana Dalbara Dalbaray Dayaana Dolguuna Doyduuna Kerecheene Keskileene Khaarchaana Kiyaara
+		Kuobakhaya Kuoregey Kuoregeyceene Kustuktaana Kydaana Namiina Nariyaana Nurguhuna Nyurguyana Sakhaaya Sandaara
+		Sandaman Sargylaana Sargylana Sariada Sayiina Saynaara Sayyna Sulustaana Tuluktaana Tupsuuna Turuya Uygulaana
+		Uyguuna Xomus Ayjis Khunjis Norjis Rinjin Sutjis Yaghjis Yinsinjis Qarligas Sinma Abakhay name_amir Araga
+		Arcin Cabas Cacakh Cacan Capsikh Carba Chadzhakh Chakhayakh Chibek Chokhyray Chyustyuk Cucun Irkemes Izenca
+		Kara_kis Kodes Keen Khastakh Khirlas Khiyga Khizicakh Khoos Khozan Khubagan Khucuray Khuragan Khuruskha
+		Khuskhacakh Kilin Kobirgen Koolbek Kozege Markha Moncikh Ninci Nomza Orke Ortek Parcikh Payakh Payinca Payram
+		Piris Pora Porco Pozirakh Purba Purcuk Saaskhan Simalcikh Simdakh Sirilcakh Sukhsun Surmes Surnakh Taan Tabakh
+		Tiin Torgi Tuban Tulun Ugu Yzyrga Aldynay Anay Anay_kis Azhaana Belek_maa Borbak_kis Choduraa Choygana Cudur
+		Dan_xayaa Kara_kat Kok_kis Saylyk Saylykmaa Taraa Ucastak Urana Uynug_maa Uzun_kaday Xayana Xoptak Xundus
+	}
+	dynasty_names = {}
+	lowborn = {}
+	ship_names = {
+		om7_ship_turkic_language_001 om7_ship_turkic_language_002 om7_ship_turkic_language_003
+		om7_ship_turkic_language_004 om7_ship_turkic_language_005 om7_ship_turkic_language_006
+		om7_ship_turkic_language_007 om7_ship_turkic_language_008 om7_ship_turkic_language_009
+		om7_ship_turkic_language_010 om7_ship_turkic_language_011 om7_ship_turkic_language_012
+		om7_ship_turkic_language_013 om7_ship_turkic_language_014 om7_ship_turkic_language_015
+		om7_ship_turkic_language_016 om7_ship_turkic_language_017 om7_ship_turkic_language_018
+		om7_ship_turkic_language_019 om7_ship_turkic_language_020 om7_ship_turkic_language_021
+		om7_ship_turkic_language_022 om7_ship_turkic_language_023 om7_ship_turkic_language_024
+		om7_ship_turkic_language_025 om7_ship_turkic_language_026 om7_ship_turkic_language_027
+		om7_ship_turkic_language_028 om7_ship_turkic_language_029 om7_ship_turkic_language_030
+		om7_ship_turkic_language_031 om7_ship_turkic_language_032 om7_ship_turkic_language_033
+		om7_ship_turkic_language_034 om7_ship_turkic_language_035 om7_ship_turkic_language_036
+		om7_ship_turkic_language_037 om7_ship_turkic_language_038 om7_ship_turkic_language_039
+		om7_ship_turkic_language_040 om7_ship_turkic_language_041 om7_ship_turkic_language_042
+		om7_ship_turkic_language_043 om7_ship_turkic_language_044 om7_ship_turkic_language_045
+		om7_ship_turkic_language_046 om7_ship_turkic_language_047 om7_ship_turkic_language_048
+		om7_ship_turkic_language_049 om7_ship_turkic_language_050 om7_ship_turkic_language_051
+		om7_ship_turkic_language_052 om7_ship_turkic_language_053 om7_ship_turkic_language_054
+		om7_ship_turkic_language_055 om7_ship_turkic_language_056 om7_ship_turkic_language_057
+		om7_ship_turkic_language_058 om7_ship_turkic_language_059 om7_ship_turkic_language_060
+		om7_ship_turkic_language_061 om7_ship_turkic_language_062 om7_ship_turkic_language_063
+		om7_ship_turkic_language_064 om7_ship_turkic_language_065 om7_ship_turkic_language_066
+		om7_ship_turkic_language_067 om7_ship_turkic_language_068 om7_ship_turkic_language_069
+		om7_ship_turkic_language_070 om7_ship_turkic_language_071 om7_ship_turkic_language_072
+		om7_ship_turkic_language_073 om7_ship_turkic_language_074 om7_ship_turkic_language_075
+		om7_ship_turkic_language_076 om7_ship_turkic_language_077 om7_ship_turkic_language_078
+		om7_ship_turkic_language_079 om7_ship_turkic_language_080 om7_ship_turkic_language_081
+		om7_ship_turkic_language_082 om7_ship_turkic_language_083 om7_ship_turkic_language_084
+		om7_ship_turkic_language_085 om7_ship_turkic_language_086 om7_ship_turkic_language_087
+		om7_ship_turkic_language_088 om7_ship_turkic_language_089 om7_ship_turkic_language_090
+		om7_ship_turkic_language_091 om7_ship_turkic_language_092 om7_ship_turkic_language_093
+		om7_ship_turkic_language_094 om7_ship_turkic_language_095 om7_ship_turkic_language_096
+		om7_ship_turkic_language_097 om7_ship_turkic_language_098 om7_ship_turkic_language_099
+		om7_ship_turkic_language_100 om7_ship_turkic_language_101 om7_ship_turkic_language_102
+		om7_ship_turkic_language_103 om7_ship_turkic_language_104 om7_ship_turkic_language_105
+		om7_ship_turkic_language_106 om7_ship_turkic_language_107 om7_ship_turkic_language_108
+		om7_ship_turkic_language_109 om7_ship_turkic_language_110 om7_ship_turkic_language_111
+		om7_ship_turkic_language_112 om7_ship_turkic_language_113 om7_ship_turkic_language_114
+		om7_ship_turkic_language_115 om7_ship_turkic_language_116 om7_ship_turkic_language_117
+		om7_ship_turkic_language_118 om7_ship_turkic_language_119 om7_ship_turkic_language_120
+		om7_ship_turkic_language_121 om7_ship_turkic_language_122 om7_ship_turkic_language_123
+		om7_ship_turkic_language_124 om7_ship_turkic_language_125 om7_ship_turkic_language_126
+		om7_ship_turkic_language_127 om7_ship_turkic_language_128
+	}
+}

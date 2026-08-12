@@ -1,0 +1,1704 @@
+﻿scandinavian_language = {
+	color = map_swedish
+	family = germanic_language_family
+	male_names = {
+		name_albert name_algoth name_arnold name_absalon name_andrew name_benedict name_birger name_berthold name_bo
+		name_bjorn name_charles name_canute name_christopher name_cornificius name_dag name_dane name_egil name_eric
+		name_egilhard name_frederick name_fulk name_gregory name_gunther name_gustav name_hacon name_harold name_henry
+		name_holger name_halfdane name_hakan name_ivor name_igor name_inge name_james name_john name_laurence
+		name_leonard name_magnus name_matthias name_maurice name_michael name_nicholas name_olaf name_peter
+		name_philip name_sten name_sven name_sture name_sviatopolk name_thore name_ulrick name_waldemar name_abraham
+		name_adam name_brynolf name_christian name_david name_einar name_esbjorn name_eskil name_folke name_george
+		name_gudmund name_guthrum name_halsten name_joseph name_mark name_martin name_matthew name_paul name_rayner
+		name_sigfrid name_sigurd name_thomas name_torbjorn name_torquil name_ulf name_werner
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 160
+		}
+		name_algoth
+		name_absalon
+		name_birger
+		name_bo
+		name_bjorn
+		name_canute
+		name_dag
+		name_egil
+		name_eric
+		name_hacon
+		name_harold
+		name_holger
+		name_halfdane
+		name_hakan
+		name_ivor
+		name_magnus
+		name_olaf
+		name_sigurd
+		name_sven
+		name_thore
+		name_torbjorn
+		name_torquil
+		name_ulf
+		name_om_sv_arvid
+		name_om_sv_kettil
+		name_om_sv_ragnvald
+		name_om_sv_torsten
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_andrew
+		name_benedict
+		name_christian
+		name_christopher
+		name_james
+		name_john
+		name_laurence
+		name_michael
+		name_nicholas
+		name_peter
+		name_philip
+		name_sigfrid
+		name_thomas
+		name_waldemar
+		name_om_sv_nils
+		name_om_sv_kristian
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_albert
+		name_charles
+		name_frederick
+		name_gustav
+		name_henry
+		name_joseph
+		name_oscar
+		name_ulrick
+		name_william
+		name_om_sv_fredrik
+		name_om_sv_adolf
+	}
+	female_names = {
+		name_anna name_astrid name_beata name_bridget name_cecile name_catherine name_christine name_elizabeth
+		name_eleanor name_frederica name_hedwig name_helen name_ingeborg name_inge name_matilda name_margaret
+		name_olga name_sophia name_sara name_sigrid name_ulrike Asta Bothild Elin Gunhild Ingegerd name_ingrid Karin
+		Marta name_ragnhild name_agnes name_asa name_bodil name_gertrude name_joanna name_julianne name_lucia
+		name_mary name_susanna name_valborg name_ragnfrid
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 145
+		}
+		name_astrid
+		name_asa
+		Asta
+		Bothild
+		Gunhild
+		Ingegerd
+		name_ingeborg
+		name_ingrid
+		name_ragnhild
+		name_sigrid
+		name_ragnfrid
+		name_om_sv_gydha
+		name_om_sv_holmfrid
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_anna
+		name_beata
+		name_bridget
+		name_catherine
+		name_christine
+		name_elizabeth
+		name_helen
+		name_margaret
+		name_mary
+		name_sara
+		name_sophia
+		Karin
+		name_om_sv_margareta
+		name_om_sv_katarina
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_caroline
+		name_frederica
+		name_julianne
+		name_lucia
+		name_susanna
+		name_ulrike
+		name_valborg
+		name_om_sv_ulrika
+		name_om_sv_lovisa
+		name_om_sv_charlotta
+		name_om_sv_hedvig
+	}
+	patronym_suffix_son = "patronym_suffix_swedish_son"
+	patronym_suffix_daughter = "patronym_suffix_swedish_daughter"
+	location_prefix = "location_prefix_swedish"
+	descendant_suffix = "descendant_suffix_swedish_male"
+	dynasty_names = {
+		om_dyn_sv_vasa om_dyn_sv_bonde om_dyn_sv_oxenstierna om_dyn_sv_stenbock om_dyn_sv_brahe
+	}
+	lowborn = {
+		om_low_sv_larsson om_low_sv_nilsson om_low_sv_bengtsson om_low_sv_hakansson om_low_sv_mattsson
+	}
+	ship_names = {
+		om7_ship_scandinavian_language_001 om7_ship_scandinavian_language_002 om7_ship_scandinavian_language_003
+		om7_ship_scandinavian_language_004 om7_ship_scandinavian_language_005 om7_ship_scandinavian_language_006
+		om7_ship_scandinavian_language_007 om7_ship_scandinavian_language_008 om7_ship_scandinavian_language_009
+		om7_ship_scandinavian_language_010 om7_ship_scandinavian_language_011 om7_ship_scandinavian_language_012
+		om7_ship_scandinavian_language_013 om7_ship_scandinavian_language_014 om7_ship_scandinavian_language_015
+		om7_ship_scandinavian_language_016 om7_ship_scandinavian_language_017 om7_ship_scandinavian_language_018
+		om7_ship_scandinavian_language_019 om7_ship_scandinavian_language_020 om7_ship_scandinavian_language_021
+		om7_ship_scandinavian_language_022 om7_ship_scandinavian_language_023 om7_ship_scandinavian_language_024
+		om7_ship_scandinavian_language_025 om7_ship_scandinavian_language_026 om7_ship_scandinavian_language_027
+		om7_ship_scandinavian_language_028 om7_ship_scandinavian_language_029 om7_ship_scandinavian_language_030
+		om7_ship_scandinavian_language_031 om7_ship_scandinavian_language_032 om7_ship_scandinavian_language_033
+		om7_ship_scandinavian_language_034 om7_ship_scandinavian_language_035 om7_ship_scandinavian_language_036
+		om7_ship_scandinavian_language_037 om7_ship_scandinavian_language_038 om7_ship_scandinavian_language_039
+		om7_ship_scandinavian_language_040 om7_ship_scandinavian_language_041 om7_ship_scandinavian_language_042
+		om7_ship_scandinavian_language_043 om7_ship_scandinavian_language_044 om7_ship_scandinavian_language_045
+		om7_ship_scandinavian_language_046 om7_ship_scandinavian_language_047 om7_ship_scandinavian_language_048
+		om7_ship_scandinavian_language_049 om7_ship_scandinavian_language_050 om7_ship_scandinavian_language_051
+		om7_ship_scandinavian_language_052 om7_ship_scandinavian_language_053 om7_ship_scandinavian_language_054
+		om7_ship_scandinavian_language_055 om7_ship_scandinavian_language_056 om7_ship_scandinavian_language_057
+		om7_ship_scandinavian_language_058 om7_ship_scandinavian_language_059 om7_ship_scandinavian_language_060
+		om7_ship_scandinavian_language_061 om7_ship_scandinavian_language_062 om7_ship_scandinavian_language_063
+		om7_ship_scandinavian_language_064 om7_ship_scandinavian_language_065 om7_ship_scandinavian_language_066
+		om7_ship_scandinavian_language_067 om7_ship_scandinavian_language_068 om7_ship_scandinavian_language_069
+		om7_ship_scandinavian_language_070 om7_ship_scandinavian_language_071 om7_ship_scandinavian_language_072
+		om7_ship_scandinavian_language_073 om7_ship_scandinavian_language_074 om7_ship_scandinavian_language_075
+		om7_ship_scandinavian_language_076 om7_ship_scandinavian_language_077 om7_ship_scandinavian_language_078
+		om7_ship_scandinavian_language_079 om7_ship_scandinavian_language_080 om7_ship_scandinavian_language_081
+		om7_ship_scandinavian_language_082 om7_ship_scandinavian_language_083 om7_ship_scandinavian_language_084
+		om7_ship_scandinavian_language_085 om7_ship_scandinavian_language_086 om7_ship_scandinavian_language_087
+		om7_ship_scandinavian_language_088
+	}
+	dialects = {
+		swedish_dialect = {
+			male_names = {
+				name_albert name_algoth name_arnold name_absalon name_andrew name_benedict name_birger name_berthold name_bo
+				name_bjorn name_charles name_canute name_christopher name_cornificius name_dag name_dane name_egil name_eric
+				name_egilhard name_frederick name_fulk name_gregory name_gunther name_gustav name_hacon name_harold
+				name_henry name_holger name_halfdane name_hakan name_ivor name_igor name_inge name_james name_john
+				name_laurence name_leonard name_magnus name_matthias name_maurice name_michael name_nicholas name_olaf
+				name_peter name_philip name_sten name_sven name_sture name_sviatopolk name_thore name_ulrick name_waldemar
+				name_george name_abraham name_adam name_brynolf name_christian name_david name_einar name_esbjorn name_eskil
+				name_folke name_gudmund name_guthrum name_halsten name_joseph name_mark name_martin name_matthew name_paul
+				name_rayner name_sigfrid name_sigurd name_thomas name_torbjorn name_torquil name_ulf name_werner name_arvid
+				name_botvid name_gotskalk name_ketil name_ragnvald name_torsten
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_algoth
+				name_absalon
+				name_birger
+				name_bo
+				name_bjorn
+				name_canute
+				name_dag
+				name_egil
+				name_eric
+				name_hacon
+				name_harold
+				name_holger
+				name_halfdane
+				name_hakan
+				name_ivor
+				name_magnus
+				name_olaf
+				name_sigurd
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_benedict
+				name_christian
+				name_christopher
+				name_james
+				name_john
+				name_laurence
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_sigfrid
+				name_thomas
+				name_waldemar
+				name_halfdane
+				name_hakan
+				name_ivor
+				name_igor
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_albert
+				name_charles
+				name_frederick
+				name_gustav
+				name_henry
+				name_joseph
+				name_ulrick
+				name_christian
+				name_david
+				name_einar
+				name_esbjorn
+				name_eskil
+				name_folke
+				name_gudmund
+				name_guthrum
+				name_halsten
+				name_mark
+				name_martin
+			}
+			female_names = {
+				name_anna name_astrid name_beata name_bridget name_cecile name_catherine name_christine name_elizabeth
+				name_eleanor name_frederica name_hedwig name_helen name_ingeborg name_inge name_matilda name_margaret
+				name_olga name_sophia name_sara name_sigrid name_ulrike Asta Elin Gunhild Ingegerd name_ingrid Karin Marta
+				name_ragnhild name_walburga name_agnes name_asa name_bodil name_gertrude name_joanna name_julianne
+				name_lucia name_mary name_susanna name_ragnfrid name_gydha name_gyrid name_hafrid name_holmfrid name_ingirun
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_astrid
+				name_asa
+				Asta
+				Gunhild
+				Ingegerd
+				name_ingeborg
+				name_ingrid
+				name_ragnhild
+				name_sigrid
+				name_ragnfrid
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_beata
+				name_bridget
+				name_catherine
+				name_christine
+				name_elizabeth
+				name_helen
+				name_margaret
+				name_mary
+				name_sara
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_frederica
+				name_julianne
+				name_lucia
+				name_susanna
+				name_ulrike
+				name_walburga
+				name_agnes
+				name_asa
+				name_bodil
+				name_gertrude
+			}
+			dynasty_names = {
+				Vasa Rehnskold Bonde Natt_Och_Dag Bielke name_sture tre_rosor tott trolle horn_surname skytte baner fleming
+				leijonhufvud eka porse sjoblad bagge bratt bure grip stenbock sw_dyn_folkunga sw_dyn_bjalbo sw_dyn_sparre
+				sw_dyn_oxenstierna sw_dyn_baat sw_dyn_leijonansikte sw_dyn_gyllenstierna sw_dyn_tre_sjoeblad
+			}
+			lowborn = {
+				Persson Mjolnare Andersson Olsson Eriksson Johansson Jakobsson Karlsson Smed Knutsson Svensson Svantesson
+				Axelsson sw_low_larsson sw_low_nilsson sw_low_bengtsson sw_low_hakansson sw_low_mattsson sw_low_bjornsson
+				sw_low_ulfsson sw_low_torstensson sw_low_skraeddare sw_low_bonde
+			}
+			ship_names = {
+				om7_ship_swedish_dialect_001 om7_ship_swedish_dialect_002 om7_ship_swedish_dialect_003
+				om7_ship_swedish_dialect_004 om7_ship_swedish_dialect_005 om7_ship_swedish_dialect_006
+				om7_ship_swedish_dialect_007 om7_ship_swedish_dialect_008 om7_ship_swedish_dialect_009
+				om7_ship_swedish_dialect_010 om7_ship_swedish_dialect_011 om7_ship_swedish_dialect_012
+				om7_ship_swedish_dialect_013 om7_ship_swedish_dialect_014 om7_ship_swedish_dialect_015
+				om7_ship_swedish_dialect_016 om7_ship_swedish_dialect_017 om7_ship_swedish_dialect_018
+				om7_ship_swedish_dialect_019 om7_ship_swedish_dialect_020 om7_ship_swedish_dialect_021
+				om7_ship_swedish_dialect_022 om7_ship_swedish_dialect_023 om7_ship_swedish_dialect_024
+				om7_ship_swedish_dialect_025 om7_ship_swedish_dialect_026 om7_ship_swedish_dialect_027
+				om7_ship_swedish_dialect_028 om7_ship_swedish_dialect_029 om7_ship_swedish_dialect_030
+				om7_ship_swedish_dialect_031 om7_ship_swedish_dialect_032 om7_ship_swedish_dialect_033
+				om7_ship_swedish_dialect_034 om7_ship_swedish_dialect_035 om7_ship_swedish_dialect_036
+				om7_ship_swedish_dialect_037 om7_ship_swedish_dialect_038 om7_ship_swedish_dialect_039
+				om7_ship_swedish_dialect_040 om7_ship_swedish_dialect_041 om7_ship_swedish_dialect_042
+				om7_ship_swedish_dialect_043 om7_ship_swedish_dialect_044 om7_ship_swedish_dialect_045
+				om7_ship_swedish_dialect_046 om7_ship_swedish_dialect_047 om7_ship_swedish_dialect_048
+				om7_ship_swedish_dialect_049 om7_ship_swedish_dialect_050 om7_ship_swedish_dialect_051
+				om7_ship_swedish_dialect_052 om7_ship_swedish_dialect_053 om7_ship_swedish_dialect_054
+				om7_ship_swedish_dialect_055 om7_ship_swedish_dialect_056 om7_ship_swedish_dialect_057
+				om7_ship_swedish_dialect_058 om7_ship_swedish_dialect_059 om7_ship_swedish_dialect_060
+				om7_ship_swedish_dialect_061 om7_ship_swedish_dialect_062 om7_ship_swedish_dialect_063
+				om7_ship_swedish_dialect_064 om7_ship_swedish_dialect_065 om7_ship_swedish_dialect_066
+				om7_ship_swedish_dialect_067 om7_ship_swedish_dialect_068 om7_ship_swedish_dialect_069
+				om7_ship_swedish_dialect_070 om7_ship_swedish_dialect_071 om7_ship_swedish_dialect_072
+				om7_ship_swedish_dialect_073 om7_ship_swedish_dialect_074 om7_ship_swedish_dialect_075
+				om7_ship_swedish_dialect_076 om7_ship_swedish_dialect_077 om7_ship_swedish_dialect_078
+				om7_ship_swedish_dialect_079 om7_ship_swedish_dialect_080 om7_ship_swedish_dialect_081
+				om7_ship_swedish_dialect_082 om7_ship_swedish_dialect_083 om7_ship_swedish_dialect_084
+			}
+		}
+		norwegian_dialect = {
+			male_names = {
+				name_albert name_algoth name_arnold name_absalon name_andrew name_benedict name_birger name_berthold name_bo
+				name_bjorn name_charles name_canute name_christopher name_cornificius name_dag name_dane name_egil name_eric
+				name_egilhard name_frederick name_fulk name_gregory name_gunther name_gustav name_hacon name_harold
+				name_henry name_holger name_halfdane name_hakan name_ivor name_igor name_inge name_james name_john
+				name_laurence name_leonard name_magnus name_matthias name_maurice name_michael name_nicholas name_olaf
+				name_peter name_philip name_sten name_sven name_sture name_sviatopolk name_thore name_ulrick name_waldemar
+				name_halsten name_sigfrid name_abraham name_adam name_brynolf name_christian name_david name_einar
+				name_esbjorn name_eskil name_folke name_george name_gudmund name_guthrum name_joseph name_mark name_martin
+				name_matthew name_paul name_rayner name_sigurd name_thomas name_torbjorn name_torquil name_ulf name_werner
+				name_aslak name_bardi name_erlend name_guttorm name_hallvard name_ketil name_orm name_torsten name_thorgeir
+				name_thorvald name_om_no_eirik
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_algoth
+				name_absalon
+				name_birger
+				name_bo
+				name_bjorn
+				name_canute
+				name_dag
+				name_egil
+				name_eric
+				name_hacon
+				name_harold
+				name_holger
+				name_halfdane
+				name_hakan
+				name_ivor
+				name_magnus
+				name_olaf
+				name_sigurd
+				name_sven
+				name_thore
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_benedict
+				name_christian
+				name_christopher
+				name_james
+				name_john
+				name_laurence
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_sigfrid
+				name_thomas
+				name_waldemar
+				name_hakan
+				name_ivor
+				name_igor
+				name_inge
+				name_leonard
+				name_magnus
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_albert
+				name_charles
+				name_frederick
+				name_gustav
+				name_henry
+				name_joseph
+				name_ulrick
+				name_david
+				name_einar
+				name_esbjorn
+				name_eskil
+				name_folke
+				name_george
+				name_gudmund
+				name_guthrum
+				name_mark
+				name_martin
+				name_matthew
+				name_paul
+				name_rayner
+			}
+			female_names = {
+				name_anna name_astrid name_beata name_bridget name_cecile name_catherine name_christine name_elizabeth
+				name_eleanor name_frederica name_hedwig name_helen name_ingeborg name_inge name_matilda name_margaret
+				name_olga name_sophia name_sara name_sigrid name_ulrike Asta Bothild Elin Gunhild Ingegerd name_ingrid Karin
+				Marta name_ragnhild name_ada name_agnes name_asa name_bodil name_gertrude name_joanna name_julianne
+				name_lucia name_mary name_susanna name_valborg name_ragnfrid name_borghild name_gudrun name_gydha name_gyrid
+				name_jorunn name_ragnheid name_sigridur name_thora name_thordis name_thorunn name_valgerd
+				name_om_no_ingebjorg name_om_no_gunnhild
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_astrid
+				name_asa
+				Asta
+				Bothild
+				Gunhild
+				Ingegerd
+				name_ingeborg
+				name_ingrid
+				name_ragnhild
+				name_sigrid
+				name_ragnfrid
+				name_sigridur
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_beata
+				name_bridget
+				name_catherine
+				name_christine
+				name_elizabeth
+				name_helen
+				name_margaret
+				name_mary
+				name_sara
+				name_sophia
+				Karin
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_frederica
+				name_julianne
+				name_lucia
+				name_susanna
+				name_ulrike
+				name_valborg
+				name_mary
+				name_ragnfrid
+				name_borghild
+				name_gudrun
+				name_gydha
+				name_gyrid
+			}
+			dynasty_names = {
+				no_dyn_giske no_dyn_bjarkoy no_dyn_sudreim no_dyn_bolt no_dyn_smor no_dyn_kane no_dyn_galte
+				no_dyn_rosensverd om_dyn_no_rosenkrantz om_dyn_no_gyldenlove
+			}
+			lowborn = {
+				no_low_eiriksson no_low_olavsson no_low_hakonsson no_low_sigurdsson no_low_torsteinsson no_low_bjornsson
+				no_low_gunnarsson no_low_ivarsson no_low_smed no_low_bonde om_low_no_hansen om_low_no_johansen
+				om_low_no_olsen om_low_no_berg
+			}
+			patronym_suffix_son = "patronym_suffix_danish_son"
+			patronym_suffix_daughter = "patronym_suffix_danish_daughter"
+			ship_names = {
+				om7_ship_norwegian_dialect_001 om7_ship_norwegian_dialect_002 om7_ship_norwegian_dialect_003
+				om7_ship_norwegian_dialect_004 om7_ship_norwegian_dialect_005 om7_ship_norwegian_dialect_006
+				om7_ship_norwegian_dialect_007 om7_ship_norwegian_dialect_008 om7_ship_norwegian_dialect_009
+				om7_ship_norwegian_dialect_010 om7_ship_norwegian_dialect_011 om7_ship_norwegian_dialect_012
+				om7_ship_norwegian_dialect_013 om7_ship_norwegian_dialect_014 om7_ship_norwegian_dialect_015
+				om7_ship_norwegian_dialect_016 om7_ship_norwegian_dialect_017 om7_ship_norwegian_dialect_018
+				om7_ship_norwegian_dialect_019 om7_ship_norwegian_dialect_020 om7_ship_norwegian_dialect_021
+				om7_ship_norwegian_dialect_022 om7_ship_norwegian_dialect_023 om7_ship_norwegian_dialect_024
+				om7_ship_norwegian_dialect_025 om7_ship_norwegian_dialect_026 om7_ship_norwegian_dialect_027
+				om7_ship_norwegian_dialect_028 om7_ship_norwegian_dialect_029 om7_ship_norwegian_dialect_030
+				om7_ship_norwegian_dialect_031 om7_ship_norwegian_dialect_032 om7_ship_norwegian_dialect_033
+				om7_ship_norwegian_dialect_034 om7_ship_norwegian_dialect_035 om7_ship_norwegian_dialect_036
+				om7_ship_norwegian_dialect_037 om7_ship_norwegian_dialect_038 om7_ship_norwegian_dialect_039
+				om7_ship_norwegian_dialect_040 om7_ship_norwegian_dialect_041 om7_ship_norwegian_dialect_042
+				om7_ship_norwegian_dialect_043 om7_ship_norwegian_dialect_044 om7_ship_norwegian_dialect_045
+				om7_ship_norwegian_dialect_046 om7_ship_norwegian_dialect_047 om7_ship_norwegian_dialect_048
+				om7_ship_norwegian_dialect_049 om7_ship_norwegian_dialect_050 om7_ship_norwegian_dialect_051
+				om7_ship_norwegian_dialect_052 om7_ship_norwegian_dialect_053 om7_ship_norwegian_dialect_054
+				om7_ship_norwegian_dialect_055 om7_ship_norwegian_dialect_056 om7_ship_norwegian_dialect_057
+				om7_ship_norwegian_dialect_058 om7_ship_norwegian_dialect_059 om7_ship_norwegian_dialect_060
+				om7_ship_norwegian_dialect_061 om7_ship_norwegian_dialect_062 om7_ship_norwegian_dialect_063
+				om7_ship_norwegian_dialect_064 om7_ship_norwegian_dialect_065 om7_ship_norwegian_dialect_066
+				om7_ship_norwegian_dialect_067 om7_ship_norwegian_dialect_068 om7_ship_norwegian_dialect_069
+				om7_ship_norwegian_dialect_070 om7_ship_norwegian_dialect_071 om7_ship_norwegian_dialect_072
+				om7_ship_norwegian_dialect_073 om7_ship_norwegian_dialect_074 om7_ship_norwegian_dialect_075
+				om7_ship_norwegian_dialect_076 om7_ship_norwegian_dialect_077 om7_ship_norwegian_dialect_078
+				om7_ship_norwegian_dialect_079 om7_ship_norwegian_dialect_080 om7_ship_norwegian_dialect_081
+				om7_ship_norwegian_dialect_082 om7_ship_norwegian_dialect_083 om7_ship_norwegian_dialect_084
+				om7_ship_norwegian_dialect_085 om7_ship_norwegian_dialect_086 om7_ship_norwegian_dialect_087
+				om7_ship_norwegian_dialect_088 om7_ship_norwegian_dialect_089
+			}
+		}
+		danish_dialect = {
+			male_names = {
+				name_albert name_algoth name_arnold name_absalon name_andrew name_benedict name_birger name_berthold name_bo
+				name_bjorn name_charles name_canute name_christopher name_cornificius name_dag name_dane name_egil name_eric
+				name_egilhard name_frederick name_fulk name_gregory name_gunther name_gustav name_hacon name_harold
+				name_henry name_holger name_halfdane name_hakan name_ivor name_igor name_inge name_james name_john
+				name_laurence name_leonard name_magnus name_matthias name_maurice name_michael name_nicholas name_olaf
+				name_peter name_philip name_sten name_sven name_sture name_sviatopolk name_thore name_ulrick name_waldemar
+				name_guthrum name_sigfrid name_abraham name_adam name_brynolf name_christian name_david name_einar
+				name_esbjorn name_eskil name_folke name_george name_gudmund name_gunnar name_halsten name_joseph name_mark
+				name_martin name_matthew name_paul name_rayner name_sigurd name_thomas name_torbjorn name_torquil name_ulf
+				name_werner name_asser name_aage name_gotskalk name_jens name_ketil name_tage name_tyge
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_algoth
+				name_absalon
+				name_birger
+				name_bo
+				name_bjorn
+				name_canute
+				name_dag
+				name_egil
+				name_eric
+				name_hacon
+				name_harold
+				name_holger
+				name_halfdane
+				name_hakan
+				name_ivor
+				name_magnus
+				name_olaf
+				name_sigurd
+				name_sven
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_benedict
+				name_christian
+				name_christopher
+				name_james
+				name_john
+				name_laurence
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_sigfrid
+				name_thomas
+				name_waldemar
+				name_halfdane
+				name_hakan
+				name_ivor
+				name_igor
+				name_inge
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_albert
+				name_charles
+				name_frederick
+				name_gustav
+				name_henry
+				name_joseph
+				name_ulrick
+				name_brynolf
+				name_christian
+				name_david
+				name_einar
+				name_esbjorn
+				name_eskil
+				name_folke
+				name_george
+				name_gudmund
+				name_gunnar
+				name_halsten
+				name_mark
+			}
+			female_names = {
+				name_agnes name_anna name_astrid Asta name_asa name_beata name_bodil name_bridget name_cecile name_catherine
+				name_christine name_elizabeth name_eleanor name_frederica name_gertrude name_hedwig name_helen name_ingeborg
+				name_inge name_ingrid name_joanna name_julianne name_lucia name_margaret name_mary name_matilda name_olga
+				name_sara name_sigrid name_sophia name_susanna name_ulrike name_valborg Gunhild name_ragnhild name_ragnfrid
+				Ingegerd Karin Marta name_dagmar name_dorothy name_else name_gydha name_gudrun name_johanne name_kirsten
+				name_maren name_thora name_tove name_om_da_mette name_om_da_anne name_om_da_birgitte
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_astrid
+				name_asa
+				Asta
+				Gunhild
+				Ingegerd
+				name_ingeborg
+				name_ingrid
+				name_ragnhild
+				name_sigrid
+				name_ragnfrid
+				name_agnes
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_beata
+				name_bridget
+				name_catherine
+				name_christine
+				name_elizabeth
+				name_helen
+				name_margaret
+				name_mary
+				name_sara
+				name_sophia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_frederica
+				name_julianne
+				name_lucia
+				name_susanna
+				name_ulrike
+				name_valborg
+				name_ragnhild
+				name_ragnfrid
+				Ingegerd
+				Karin
+				Marta
+			}
+			dynasty_names = {
+				dk_dyn_estridsen dk_dyn_hvide dk_dyn_galen dk_dyn_bille dk_dyn_brahe dk_dyn_rosenkrantz dk_dyn_gyldenstierne
+				dk_dyn_munk dk_dyn_goye dk_dyn_lykke dk_dyn_ulfstand dk_dyn_ronnow om_dyn_da_oldenburg om_dyn_da_ulfeldt
+			}
+			lowborn = {
+				dk_low_nielsen dk_low_pedersen dk_low_jensen dk_low_andersen dk_low_sorensen dk_low_knudsen dk_low_madsen
+				dk_low_lauridsen dk_low_moller dk_low_smed
+			}
+			location_prefix = "location_prefix_danish"
+			patronym_suffix_daughter = "patronym_suffix_danish_daughter"
+			patronym_suffix_son = "patronym_suffix_danish_son"
+			ship_names = {
+				om7_ship_danish_dialect_001 om7_ship_danish_dialect_002 om7_ship_danish_dialect_003
+				om7_ship_danish_dialect_004 om7_ship_danish_dialect_005 om7_ship_danish_dialect_006
+				om7_ship_danish_dialect_007 om7_ship_danish_dialect_008 om7_ship_danish_dialect_009
+				om7_ship_danish_dialect_010 om7_ship_danish_dialect_011 om7_ship_danish_dialect_012
+				om7_ship_danish_dialect_013 om7_ship_danish_dialect_014 om7_ship_danish_dialect_015
+				om7_ship_danish_dialect_016 om7_ship_danish_dialect_017 om7_ship_danish_dialect_018
+				om7_ship_danish_dialect_019 om7_ship_danish_dialect_020 om7_ship_danish_dialect_021
+				om7_ship_danish_dialect_022 om7_ship_danish_dialect_023 om7_ship_danish_dialect_024
+				om7_ship_danish_dialect_025 om7_ship_danish_dialect_026 om7_ship_danish_dialect_027
+				om7_ship_danish_dialect_028 om7_ship_danish_dialect_029 om7_ship_danish_dialect_030
+				om7_ship_danish_dialect_031 om7_ship_danish_dialect_032 om7_ship_danish_dialect_033
+				om7_ship_danish_dialect_034 om7_ship_danish_dialect_035 om7_ship_danish_dialect_036
+				om7_ship_danish_dialect_037 om7_ship_danish_dialect_038 om7_ship_danish_dialect_039
+				om7_ship_danish_dialect_040 om7_ship_danish_dialect_041 om7_ship_danish_dialect_042
+				om7_ship_danish_dialect_043 om7_ship_danish_dialect_044 om7_ship_danish_dialect_045
+				om7_ship_danish_dialect_046 om7_ship_danish_dialect_047 om7_ship_danish_dialect_048
+				om7_ship_danish_dialect_049 om7_ship_danish_dialect_050 om7_ship_danish_dialect_051
+				om7_ship_danish_dialect_052 om7_ship_danish_dialect_053 om7_ship_danish_dialect_054
+				om7_ship_danish_dialect_055 om7_ship_danish_dialect_056 om7_ship_danish_dialect_057
+				om7_ship_danish_dialect_058 om7_ship_danish_dialect_059 om7_ship_danish_dialect_060
+				om7_ship_danish_dialect_061 om7_ship_danish_dialect_062 om7_ship_danish_dialect_063
+				om7_ship_danish_dialect_064 om7_ship_danish_dialect_065 om7_ship_danish_dialect_066
+				om7_ship_danish_dialect_067 om7_ship_danish_dialect_068 om7_ship_danish_dialect_069
+				om7_ship_danish_dialect_070 om7_ship_danish_dialect_071 om7_ship_danish_dialect_072
+				om7_ship_danish_dialect_073 om7_ship_danish_dialect_074 om7_ship_danish_dialect_075
+				om7_ship_danish_dialect_076 om7_ship_danish_dialect_077 om7_ship_danish_dialect_078
+				om7_ship_danish_dialect_079 om7_ship_danish_dialect_080 om7_ship_danish_dialect_081
+				om7_ship_danish_dialect_082 om7_ship_danish_dialect_083 om7_ship_danish_dialect_084
+				om7_ship_danish_dialect_085 om7_ship_danish_dialect_086
+			}
+		}
+		icelandic_dialect = {
+			location_prefix = "location_prefix_danish"
+			patronym_suffix_daughter = "patronym_suffix_icelandic_daughter"
+			fallback = norwegian_dialect
+			male_names = {
+				name_andrew name_birger name_bjorn name_christian name_egil name_einar name_eric name_eystein name_gudmund
+				name_hacon name_halldor name_john name_magnus name_leif name_leod name_peter name_olaf name_orm name_raven
+				name_robert name_sigurd name_snorre name_sven name_torvid name_ari name_arni name_arnor name_asgeir
+				name_asmund name_bardi name_bjarni name_brand name_erlend name_eyjolf name_gizur name_grim name_gunnar
+				name_hallgrim name_hallvard name_harold name_ketil name_kolbein name_loft name_nicholas name_odd name_pal
+				name_ragnvald name_saemund name_sigmund name_sturla name_thord name_thorgeir name_thorgils name_thorgrim
+				name_thorkell name_thorlak name_torsten name_thorvald name_thorir name_ulf
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_bjorn
+				name_egil
+				name_einar
+				name_eric
+				name_eystein
+				name_gudmund
+				name_hacon
+				name_halldor
+				name_magnus
+				name_leif
+				name_olaf
+				name_orm
+				name_raven
+				name_sigurd
+				name_snorre
+				name_sven
+				name_torvid
+				name_ari
+				name_arni
+				name_asgeir
+				name_asmund
+				name_bjarni
+				name_gunnar
+				name_harold
+				name_thord
+				name_thorgeir
+				name_thorkell
+				name_torsten
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_birger
+				name_bjorn
+				name_christian
+				name_einar
+				name_eric
+				name_gudmund
+				name_hacon
+				name_john
+				name_magnus
+				name_peter
+				name_olaf
+				name_robert
+				name_nicholas
+				name_pal
+				name_sigurd
+				name_sven
+				name_thorlak
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_andrew
+				name_christian
+				name_eric
+				name_gudmund
+				name_hacon
+				name_john
+				name_magnus
+				name_nicholas
+				name_pal
+				name_peter
+				name_robert
+			}
+			female_names = {
+				name_anna name_arnora name_asa name_asdis name_astrid name_bergthora name_bjorg name_groa name_gudrun
+				name_gudrid Gunhild name_halldora name_hallbera name_helga name_herdis name_ingeborg name_jorunn name_katrin
+				name_ragnheid name_ragnhild name_sigridur name_steinunn name_thora name_thorgerd name_thorbjorg name_thordis
+				name_thorunn name_valgerd name_vigdis name_yngvild
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_arnora
+				name_asa
+				name_asdis
+				name_astrid
+				name_bergthora
+				name_bjorg
+				name_groa
+				name_gudrun
+				name_gudrid
+				Gunhild
+				name_halldora
+				name_hallbera
+				name_helga
+				name_herdis
+				name_ingeborg
+				name_jorunn
+				name_ragnheid
+				name_ragnhild
+				name_sigridur
+				name_steinunn
+				name_thora
+				name_thorgerd
+				name_thorbjorg
+				name_thordis
+				name_thorunn
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_astrid
+				name_gudrun
+				name_gudrid
+				Gunhild
+				name_helga
+				name_ingeborg
+				name_katrin
+				name_ragnhild
+				name_sigridur
+				name_thora
+				name_thordis
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_anna
+				name_astrid
+				name_gudrun
+				name_helga
+				name_ingeborg
+				name_katrin
+				name_ragnhild
+				name_sigridur
+				name_thordis
+			}
+			dynasty_names = {
+				isl_dyn_sturlungar isl_dyn_haukdaelir isl_dyn_oddaverjar isl_dyn_asbirningar isl_dyn_svinfellingar
+				isl_dyn_vatnsfirdingar om_dyn_is_haukadalur
+			}
+			lowborn = {
+				om_low_is_jonsson om_low_is_gudmundsson om_low_is_thorsteinsson om_low_is_magnusson
+			}
+			ship_names = {
+				om7_ship_icelandic_dialect_001 om7_ship_icelandic_dialect_002 om7_ship_icelandic_dialect_003
+				om7_ship_icelandic_dialect_004 om7_ship_icelandic_dialect_005 om7_ship_icelandic_dialect_006
+				om7_ship_icelandic_dialect_007 om7_ship_icelandic_dialect_008 om7_ship_icelandic_dialect_009
+				om7_ship_icelandic_dialect_010 om7_ship_icelandic_dialect_011 om7_ship_icelandic_dialect_012
+				om7_ship_icelandic_dialect_013 om7_ship_icelandic_dialect_014 om7_ship_icelandic_dialect_015
+				om7_ship_icelandic_dialect_016 om7_ship_icelandic_dialect_017 om7_ship_icelandic_dialect_018
+				om7_ship_icelandic_dialect_019 om7_ship_icelandic_dialect_020 om7_ship_icelandic_dialect_021
+				om7_ship_icelandic_dialect_022 om7_ship_icelandic_dialect_023 om7_ship_icelandic_dialect_024
+				om7_ship_icelandic_dialect_025 om7_ship_icelandic_dialect_026 om7_ship_icelandic_dialect_027
+				om7_ship_icelandic_dialect_028 om7_ship_icelandic_dialect_029 om7_ship_icelandic_dialect_030
+				om7_ship_icelandic_dialect_031 om7_ship_icelandic_dialect_032 om7_ship_icelandic_dialect_033
+				om7_ship_icelandic_dialect_034 om7_ship_icelandic_dialect_035 om7_ship_icelandic_dialect_036
+				om7_ship_icelandic_dialect_037 om7_ship_icelandic_dialect_038 om7_ship_icelandic_dialect_039
+				om7_ship_icelandic_dialect_040 om7_ship_icelandic_dialect_041 om7_ship_icelandic_dialect_042
+				om7_ship_icelandic_dialect_043 om7_ship_icelandic_dialect_044 om7_ship_icelandic_dialect_045
+				om7_ship_icelandic_dialect_046 om7_ship_icelandic_dialect_047 om7_ship_icelandic_dialect_048
+				om7_ship_icelandic_dialect_049 om7_ship_icelandic_dialect_050 om7_ship_icelandic_dialect_051
+				om7_ship_icelandic_dialect_052 om7_ship_icelandic_dialect_053 om7_ship_icelandic_dialect_054
+				om7_ship_icelandic_dialect_055 om7_ship_icelandic_dialect_056 om7_ship_icelandic_dialect_057
+				om7_ship_icelandic_dialect_058 om7_ship_icelandic_dialect_059 om7_ship_icelandic_dialect_060
+			}
+		}
+	}
+}
+
+finnish_language = {
+	color = map_finnish
+	family = uralic_language_family
+	male_names = {
+		name_arnold name_eric name_henry name_holger name_john name_matthias name_michael name_olaf name_peter
+		name_thore name_thomas Aatos Ahma Aimo Armas Arvo Asikko Aatso Ahvo name_arthur Asko Ensio Havu Hintsa Ihanti
+		Into Jalo Jurva name_james Kaleva Kalevi Kettu Kolli Kauro Kuuti name_charles Lalli name_laurence Lemetti
+		Mielitty Miemo name_matthew Oiva Onni Otso Pyry paivio name_benedict name_paul Pekko name_gregory
+		name_christopher name_richard Rieti Sampo Satajalka Satatieto Seppo Susi name_sven name_stephen Terho Toivo
+		Taisto Tuokko Tommo Tohmas Ukko Uoti Urho vaino Valta name_waldemar Veli Vesa Voitto Valteri name_george
+		name_abraham name_adam name_albert name_alexander name_alexis name_andrew name_antti name_clement name_david
+		name_heikki name_jaakko name_juhani name_joseph name_martin name_nicholas name_pekka
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_adam
+		name_andrew
+		name_eric
+		name_henry
+		name_john
+		name_laurence
+		name_michael
+		name_nicholas
+		name_peter
+		name_thomas
+		name_pekka
+		name_matthias
+		name_om_fi_juhana
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_albert
+		name_alexander
+		name_charles
+		name_frederick
+		name_gustav
+		name_joseph
+		name_victor
+		name_om_fi_kustaa
+		name_om_fi_eerik
+		name_om_fi_fredrik
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_olaf
+		name_heikki
+		name_jaakko
+		name_antti
+	}
+	female_names = {
+		name_ada name_elizabeth name_eve name_helen name_irene Aamu Aino Auni hella name_willelma Hertta Ilta
+		name_ingrid Ilmatar name_catherine kapy Kielo Kukka name_christine Kivutar Lauha Lempi name_louise Liekko
+		Lemmikki Lyylikki Mahla name_mary Mesi Metta Mielikki paivio paivi Pihla Pilvi Rauha Sisko Suoma name_sophia
+		Salme Taimi Terhi Tuija Tuovi Tuuli Tuulikki Tyyne Tyyni Talvikki Tuulitar Vanamo name_wendel name_agnes
+		name_anna name_aune name_beata name_bridget name_piritta name_kaisa name_katariina name_liisa name_margaret
+		name_market name_matilda name_valborg
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 145
+		}
+		Aamu
+		Aino
+		name_catherine
+		name_om_fi_kerttu
+		name_om_fi_helena
+		name_om_fi_margareeta
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_anna
+		name_catherine
+		name_christine
+		name_elizabeth
+		name_helen
+		name_margaret
+		name_mary
+		name_sophia
+		name_liisa
+		name_om_fi_sofia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_alexandra
+		name_emma
+		name_victoria
+		name_om_fi_lovisa
+		name_om_fi_ulrika
+		name_om_fi_karoliina
+		name_willelma
+	}
+	dynasty_names = {
+		Tuure Harviala Lalli Isotalo Tavast Kangas Sarvilahti Kurki Lauri Maunu fin_dyn_bitz fin_dyn_djakn
+		fin_dyn_frille fin_dyn_fleming fin_dyn_horn om_dyn_fi_stalarm om_dyn_fi_creutz
+	}
+	lowborn = {
+		Rova Suensaari Tammpere Nieminen Hannus Jaakkola Ilkka Akseli Haapa Lahtinen Sepp Laine jarvinen Anttonen
+		Karpela sarkilahti name_karp Lepo sydanmaa makela Koskinen Lankinen Bottii Lonooen Markonen fin_low_hamalainen
+		fin_low_savolainen fin_low_karjalainen fin_low_ikonen fin_low_kettunen fin_low_korhonen fin_low_ronkainen
+		fin_low_rautiainen fin_low_heiskanen fin_low_tirkkonen fin_low_paakkanen fin_low_toivonen om_low_fi_virtanen
+		om_low_fi_makinen om_low_fi_heikkinen
+	}
+	patronym_suffix_son = "patronym_suffix_finnish_son"
+	patronym_suffix_daughter = "patronym_suffix_finnish_daughter"
+	ship_names = {
+		om7_ship_finnish_language_001 om7_ship_finnish_language_002 om7_ship_finnish_language_003
+		om7_ship_finnish_language_004 om7_ship_finnish_language_005 om7_ship_finnish_language_006
+		om7_ship_finnish_language_007 om7_ship_finnish_language_008 om7_ship_finnish_language_009
+		om7_ship_finnish_language_010 om7_ship_finnish_language_011 om7_ship_finnish_language_012
+		om7_ship_finnish_language_013 om7_ship_finnish_language_014 om7_ship_finnish_language_015
+		om7_ship_finnish_language_016 om7_ship_finnish_language_017 om7_ship_finnish_language_018
+		om7_ship_finnish_language_019 om7_ship_finnish_language_020 om7_ship_finnish_language_021
+		om7_ship_finnish_language_022 om7_ship_finnish_language_023 om7_ship_finnish_language_024
+		om7_ship_finnish_language_025 om7_ship_finnish_language_026 om7_ship_finnish_language_027
+		om7_ship_finnish_language_028 om7_ship_finnish_language_029 om7_ship_finnish_language_030
+		om7_ship_finnish_language_031 om7_ship_finnish_language_032 om7_ship_finnish_language_033
+		om7_ship_finnish_language_034 om7_ship_finnish_language_035 om7_ship_finnish_language_036
+		om7_ship_finnish_language_037 om7_ship_finnish_language_038 om7_ship_finnish_language_039
+		om7_ship_finnish_language_040 om7_ship_finnish_language_041 om7_ship_finnish_language_042
+		om7_ship_finnish_language_043 om7_ship_finnish_language_044 om7_ship_finnish_language_045
+		om7_ship_finnish_language_046 om7_ship_finnish_language_047 om7_ship_finnish_language_048
+		om7_ship_finnish_language_049 om7_ship_finnish_language_050 om7_ship_finnish_language_051
+		om7_ship_finnish_language_052 om7_ship_finnish_language_053 om7_ship_finnish_language_054
+		om7_ship_finnish_language_055 om7_ship_finnish_language_056 om7_ship_finnish_language_057
+		om7_ship_finnish_language_058 om7_ship_finnish_language_059 om7_ship_finnish_language_060
+		om7_ship_finnish_language_061 om7_ship_finnish_language_062 om7_ship_finnish_language_063
+		om7_ship_finnish_language_064 om7_ship_finnish_language_065 om7_ship_finnish_language_066
+		om7_ship_finnish_language_067 om7_ship_finnish_language_068 om7_ship_finnish_language_069
+		om7_ship_finnish_language_070 om7_ship_finnish_language_071 om7_ship_finnish_language_072
+		om7_ship_finnish_language_073 om7_ship_finnish_language_074 om7_ship_finnish_language_075
+		om7_ship_finnish_language_076 om7_ship_finnish_language_077 om7_ship_finnish_language_078
+		om7_ship_finnish_language_079 om7_ship_finnish_language_080 om7_ship_finnish_language_081
+		om7_ship_finnish_language_082 om7_ship_finnish_language_083 om7_ship_finnish_language_084
+		om7_ship_finnish_language_085 om7_ship_finnish_language_086 om7_ship_finnish_language_087
+		om7_ship_finnish_language_088 om7_ship_finnish_language_089 om7_ship_finnish_language_090
+		om7_ship_finnish_language_091 om7_ship_finnish_language_092 om7_ship_finnish_language_093
+		om7_ship_finnish_language_094 om7_ship_finnish_language_095 om7_ship_finnish_language_096
+		om7_ship_finnish_language_097 om7_ship_finnish_language_098 om7_ship_finnish_language_099
+		om7_ship_finnish_language_100 om7_ship_finnish_language_101
+	}
+	dialects = {
+		finnish_dialect = {
+			ship_names = {
+				om7_ship_finnish_dialect_001 om7_ship_finnish_dialect_002 om7_ship_finnish_dialect_003
+				om7_ship_finnish_dialect_004 om7_ship_finnish_dialect_005 om7_ship_finnish_dialect_006
+				om7_ship_finnish_dialect_007 om7_ship_finnish_dialect_008 om7_ship_finnish_dialect_009
+				om7_ship_finnish_dialect_010 om7_ship_finnish_dialect_011 om7_ship_finnish_dialect_012
+				om7_ship_finnish_dialect_013 om7_ship_finnish_dialect_014 om7_ship_finnish_dialect_015
+				om7_ship_finnish_dialect_016 om7_ship_finnish_dialect_017 om7_ship_finnish_dialect_018
+				om7_ship_finnish_dialect_019 om7_ship_finnish_dialect_020 om7_ship_finnish_dialect_021
+				om7_ship_finnish_dialect_022 om7_ship_finnish_dialect_023 om7_ship_finnish_dialect_024
+				om7_ship_finnish_dialect_025 om7_ship_finnish_dialect_026 om7_ship_finnish_dialect_027
+				om7_ship_finnish_dialect_028 om7_ship_finnish_dialect_029 om7_ship_finnish_dialect_030
+				om7_ship_finnish_dialect_031 om7_ship_finnish_dialect_032 om7_ship_finnish_dialect_033
+				om7_ship_finnish_dialect_034 om7_ship_finnish_dialect_035 om7_ship_finnish_dialect_036
+				om7_ship_finnish_dialect_037 om7_ship_finnish_dialect_038 om7_ship_finnish_dialect_039
+				om7_ship_finnish_dialect_040 om7_ship_finnish_dialect_041 om7_ship_finnish_dialect_042
+				om7_ship_finnish_dialect_043 om7_ship_finnish_dialect_044 om7_ship_finnish_dialect_045
+				om7_ship_finnish_dialect_046 om7_ship_finnish_dialect_047 om7_ship_finnish_dialect_048
+				om7_ship_finnish_dialect_049 om7_ship_finnish_dialect_050 om7_ship_finnish_dialect_051
+				om7_ship_finnish_dialect_052 om7_ship_finnish_dialect_053 om7_ship_finnish_dialect_054
+				om7_ship_finnish_dialect_055 om7_ship_finnish_dialect_056 om7_ship_finnish_dialect_057
+				om7_ship_finnish_dialect_058 om7_ship_finnish_dialect_059 om7_ship_finnish_dialect_060
+				om7_ship_finnish_dialect_061 om7_ship_finnish_dialect_062 om7_ship_finnish_dialect_063
+				om7_ship_finnish_dialect_064 om7_ship_finnish_dialect_065 om7_ship_finnish_dialect_066
+				om7_ship_finnish_dialect_067 om7_ship_finnish_dialect_068 om7_ship_finnish_dialect_069
+				om7_ship_finnish_dialect_070 om7_ship_finnish_dialect_071 om7_ship_finnish_dialect_072
+				om7_ship_finnish_dialect_073 om7_ship_finnish_dialect_074 om7_ship_finnish_dialect_075
+				om7_ship_finnish_dialect_076 om7_ship_finnish_dialect_077 om7_ship_finnish_dialect_078
+				om7_ship_finnish_dialect_079 om7_ship_finnish_dialect_080 om7_ship_finnish_dialect_081
+				om7_ship_finnish_dialect_082 om7_ship_finnish_dialect_083 om7_ship_finnish_dialect_084
+				om7_ship_finnish_dialect_085 om7_ship_finnish_dialect_086 om7_ship_finnish_dialect_087
+				om7_ship_finnish_dialect_088 om7_ship_finnish_dialect_089 om7_ship_finnish_dialect_090
+				om7_ship_finnish_dialect_091 om7_ship_finnish_dialect_092 om7_ship_finnish_dialect_093
+				om7_ship_finnish_dialect_094 om7_ship_finnish_dialect_095
+			}
+		}
+		estonian_dialect = {
+			male_names = {
+				name_adam name_andrew name_david name_hans name_hannos name_henry name_hinrick name_james name_john
+				name_joseph name_laurence name_martin name_matthew name_michael name_nicholas name_peter name_thomas
+				name_george name_anthony name_om_et_madis name_paul name_simon name_stephen name_philip name_bartholomew
+				name_benedict
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adam
+				name_andrew
+				name_david
+				name_hans
+				name_hannos
+				name_henry
+				name_hinrick
+				name_james
+				name_john
+				name_laurence
+				name_martin
+				name_matthew
+				name_michael
+				name_nicholas
+				name_peter
+				name_thomas
+				name_om_et_madis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_adam
+				name_andrew
+				name_david
+				name_george
+				name_hans
+				name_henry
+				name_james
+				name_john
+				name_joseph
+				name_laurence
+				name_martin
+				name_matthew
+				name_michael
+				name_nicholas
+				name_peter
+				name_thomas
+				name_anthony
+				name_bartholomew
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_andrew
+				name_david
+				name_george
+				name_henry
+				name_james
+				name_john
+				name_joseph
+				name_martin
+				name_matthew
+				name_michael
+				name_nicholas
+				name_paul
+				name_peter
+				name_simon
+				name_stephen
+				name_philip
+				name_benedict
+				name_anthony
+			}
+			female_names = {
+				name_anna name_anne name_bridget name_catherine name_christine name_elizabeth name_liis name_margaret
+				name_maret name_mary name_mari name_sophia name_irene name_om_et_liisa name_om_et_ann name_madeleine
+				name_dorothy name_gertrude name_helen name_barbara name_susanna name_cecile name_agnes name_eve name_judith
+				name_sara
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_anna
+				name_anne
+				name_bridget
+				name_catherine
+				name_christine
+				name_elizabeth
+				name_mary
+				name_sophia
+				name_om_et_liisa
+				name_om_et_ann
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_anne
+				name_bridget
+				name_catherine
+				name_christine
+				name_elizabeth
+				name_margaret
+				name_maret
+				name_mary
+				name_mari
+				name_sophia
+				name_irene
+				name_madeleine
+				name_dorothy
+				name_gertrude
+				name_helen
+				name_barbara
+				name_agnes
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_anna
+				name_catherine
+				name_christine
+				name_elizabeth
+				name_margaret
+				name_maret
+				name_mary
+				name_mari
+				name_sophia
+				name_irene
+				name_madeleine
+				name_helen
+				name_barbara
+				name_susanna
+				name_cecile
+				name_eve
+				name_judith
+				name_sara
+			}
+			dynasty_names = {
+				om_dyn_et_tiesenhausen om_dyn_et_uexkull om_dyn_et_fersen om_dyn_et_lode
+			}
+			lowborn = {
+				est_low_metsz est_low_mege est_low_mets est_low_magi est_low_rebane est_low_saar est_low_tamm est_low_kurg
+				est_low_muddenkull est_low_pagenkurgell est_low_janick om_low_et_sepp om_low_et_kask
+			}
+			ship_names = {
+				om7_ship_estonian_dialect_001 om7_ship_estonian_dialect_002 om7_ship_estonian_dialect_003
+				om7_ship_estonian_dialect_004 om7_ship_estonian_dialect_005 om7_ship_estonian_dialect_006
+				om7_ship_estonian_dialect_007 om7_ship_estonian_dialect_008 om7_ship_estonian_dialect_009
+				om7_ship_estonian_dialect_010 om7_ship_estonian_dialect_011 om7_ship_estonian_dialect_012
+				om7_ship_estonian_dialect_013 om7_ship_estonian_dialect_014 om7_ship_estonian_dialect_015
+				om7_ship_estonian_dialect_016 om7_ship_estonian_dialect_017 om7_ship_estonian_dialect_018
+				om7_ship_estonian_dialect_019 om7_ship_estonian_dialect_020 om7_ship_estonian_dialect_021
+				om7_ship_estonian_dialect_022 om7_ship_estonian_dialect_023 om7_ship_estonian_dialect_024
+				om7_ship_estonian_dialect_025 om7_ship_estonian_dialect_026
+			}
+		}
+	}
+}
+
+sami_language = {
+	color = map_sapmi
+	family = uralic_language_family
+	fallback = finnish_language
+	male_names = {
+		name_andrew name_aslak name_bjarni name_david name_gabriel name_hans name_john name_joseph name_matthew
+		name_michael name_nicholas name_olaf name_peter name_paul name_ailu name_begas name_nigu name_om_smi_bieras
+		name_om_smi_pelle name_om_smi_petta
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		name_andrew
+		name_aslak
+		name_bjarni
+		name_david
+		name_hans
+		name_john
+		name_matthew
+		name_michael
+		name_nicholas
+		name_olaf
+		name_peter
+		name_ailu
+		name_begas
+		name_nigu
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		name_andrew
+		name_aslak
+		name_david
+		name_gabriel
+		name_hans
+		name_john
+		name_joseph
+		name_matthew
+		name_michael
+		name_nicholas
+		name_olaf
+		name_peter
+		name_paul
+		name_ailu
+		name_begas
+		name_nigu
+		name_om_smi_bieras
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_andrew
+		name_aslak
+		name_david
+		name_gabriel
+		name_hans
+		name_john
+		name_joseph
+		name_matthew
+		name_michael
+		name_nicholas
+		name_peter
+		name_paul
+		name_ailu
+		name_om_smi_pelle
+		name_om_smi_petta
+	}
+	female_names = {
+		name_anna name_bridget name_catherine name_elizabeth name_elle name_ingrid name_innga name_margaret name_mary
+		name_billa name_malu name_christine name_om_smi_binna name_om_smi_bio name_om_smi_bigge name_om_smi_bikkul
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		name_anna
+		name_bridget
+		name_catherine
+		name_elizabeth
+		name_elle
+		name_ingrid
+		name_innga
+		name_margaret
+		name_mary
+		name_billa
+		name_malu
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		name_anna
+		name_bridget
+		name_catherine
+		name_christine
+		name_elizabeth
+		name_elle
+		name_ingrid
+		name_innga
+		name_margaret
+		name_mary
+		name_billa
+		name_malu
+		name_om_smi_binna
+		name_om_smi_bio
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_anna
+		name_bridget
+		name_christine
+		name_elizabeth
+		name_elle
+		name_ingrid
+		name_innga
+		name_margaret
+		name_mary
+		name_billa
+		name_malu
+		name_om_smi_bigge
+		name_om_smi_bikkul
+	}
+	dynasty_names = {
+		om_dyn_smi_gaup om_dyn_smi_haetta om_dyn_smi_eira om_dyn_smi_somby
+	}
+	lowborn = {
+		sami_low_valkeapaa sami_low_laula sami_low_kappfjell sami_low_somby sami_low_haetta sami_low_turi
+		sami_low_aikio sami_low_beive om_low_smi_sara om_low_smi_utsi om_low_smi_kemi om_low_smi_labba
+	}
+	ship_names = {
+		om7_ship_sami_language_001 om7_ship_sami_language_002 om7_ship_sami_language_003 om7_ship_sami_language_004
+		om7_ship_sami_language_005 om7_ship_sami_language_006 om7_ship_sami_language_007 om7_ship_sami_language_008
+		om7_ship_sami_language_009 om7_ship_sami_language_010 om7_ship_sami_language_011 om7_ship_sami_language_012
+		om7_ship_sami_language_013 om7_ship_sami_language_014 om7_ship_sami_language_015 om7_ship_sami_language_016
+		om7_ship_sami_language_017 om7_ship_sami_language_018 om7_ship_sami_language_019 om7_ship_sami_language_020
+	}
+}

@@ -1,0 +1,2628 @@
+﻿german_language = {
+	color = map_german
+	family = germanic_language_family
+	patronym_suffix_son = "patronym_suffix_german_son"
+	patronym_suffix_daughter = "patronym_suffix_german_son"
+	male_names = {
+		name_alexander name_alfred name_albert name_abraham name_alphonse name_andrew name_anthony name_baldwin
+		name_balthazar name_bernard.name_sigmund name_bernard name_berthold name_casper name_charles name_christopher
+		name_conrad name_constantine name_christian name_erwin name_emmanuel name_ernest name_everard name_frederick
+		name_felix name_george name_gerard name_godfrey name_gregory name_henry name_hector name_james name_john
+		name_john.name_albert name_john.name_george name_lambert name_leonard name_leopold name_laurence name_mark
+		name_matthias name_maurice name_maximilian name_nicholas name_philip name_peter name_reginar name_richard
+		name_robert name_reginald name_rappold name_simeon name_stephen name_sigfrid name_theodoric name_thomas
+		name_theobald name_victor name_walter name_adolf name_adalhard name_adelmo name_alberic name_amalric
+		name_archibald name_arnold name_arnulf name_august name_augustine name_bartholomew name_benedict name_boniface
+		name_burchard name_casimir name_conon name_daniel name_david name_dominic name_edmond name_egilhard
+		name_engelbert name_enguerrand name_gilbert name_gottschalk name_gunther name_hartmann name_herbert
+		name_herman name_hieronymus name_hubert name_hugh name_jobst name_jeremiah name_joseph name_lothar name_louis
+		name_ludolf name_martin name_meinhard name_michael name_milon name_otto name_paul name_roger name_rudolf
+		name_sebastian name_seraphin name_sigmund name_ulrick name_vitus name_waleram name_wenceslas name_werner
+		name_wido name_william name_wolfgang name_adalbert name_adalbero name_hartwig
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_adalbert
+		name_adalbero
+		name_adolf
+		name_albert
+		name_arnold
+		name_berthold
+		name_conrad
+		name_everard
+		name_emmerich
+		name_frederick
+		name_godfrey
+		name_henry
+		name_leopold
+		name_louis
+		name_otto
+		name_rudolf
+		name_sigfrid
+		name_sigmund
+		name_wolfgang
+		name_om_de_hans
+		name_ulrick
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_andrew
+		name_christian
+		name_christopher
+		name_george
+		name_john
+		name_joseph
+		name_martin
+		name_matthias
+		name_michael
+		name_peter
+		name_philip
+		name_frederick
+		name_william
+		name_james
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 145
+		}
+		name_albert
+		name_alexander
+		name_charles
+		name_ferdinand
+		name_francis
+		name_frank
+		name_frederick
+		name_gustav
+		name_leopold
+		name_maximilian
+		name_oscar
+		name_victor
+		name_william
+		name_om_de_franz
+		name_om_de_joseph
+	}
+	female_names = {
+		name_adelaide name_amelia name_adela name_adriana name_angela name_alexandra name_anna name_ava name_agnes
+		name_agatha name_anna.name_lisa name_bridget name_barbara name_catherine name_cecile name_claire name_clarice
+		name_constance name_dorothy name_eleanor name_elisa name_elizabeth name_emily name_ester name_frances
+		name_frederica name_gertrude name_helen name_joanna name_judith name_julianne name_laura name_lisa name_louise
+		name_madeleine name_margaret name_matilda name_mary name_mary.name_madeleine name_martha name_petra
+		name_sophia name_susan name_theresa name_ursula name_ulrike name_victoria name_waltrude name_ada
+		name_albertina name_apollonia name_beatrix name_benedicta name_bertha name_blanche name_christiana
+		name_christine name_edith name_emma name_ermengard name_gisela name_hedwig name_heilwig name_hildegard
+		name_ida name_irene name_josephine name_kunigunde name_liutgard name_oda name_philippa name_petronilla
+		name_ricarda name_richilda name_rosa name_theodora name_walburga name_willelma name_wulfhild name_yvonne
+		name_mechthild
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_adelaide
+		name_adelinda
+		name_agnes
+		name_anna
+		name_beatrix
+		name_catherine
+		name_elizabeth
+		name_gertrude
+		name_hedwig
+		name_kunigunde
+		name_matilda
+		name_om_de_margaretha
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_barbara
+		name_caroline
+		name_christine
+		name_dorothy
+		name_eleanor
+		name_margaret
+		name_mary
+		name_sophia
+		name_susanna
+		name_theresa
+		name_madeleine
+		name_joanna
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_alexandra
+		name_augusta
+		name_caroline
+		name_charlotte
+		name_frederica
+		name_josephine
+		name_louise
+		name_victoria
+		name_sophia
+		name_amelia
+		name_theresa
+	}
+	dynasty_names = {
+		ge_dyn_von_habsburg ge_dyn_von_wittelsbach ge_dyn_von_luxemburg ge_dyn_von_hohenzollern ge_dyn_von_wettin
+		ge_dyn_von_askanien ge_dyn_von_nassau ge_dyn_von_hohenlohe ge_dyn_von_reuss ge_dyn_von_zahringen
+		om_dyn_de_habsburg om_dyn_de_hohenzollern om_dyn_de_wittelsbach om_dyn_de_wettin om_dyn_de_nassau
+		om_dyn_de_holstein om_dyn_de_fugger om_dyn_de_thurn_und_taxis
+	}
+	lowborn = {
+		Brenner Bohmer bach bartisch Busekke Bussacker celtes cuspinian cruger cranach Dientzenhofer Dinglinger Erhart
+		faber Fichte Gaismair Giese Gesiter Gothan name_hubert Hegel Hasse name_jonas Jacobs Jauert kubel kepler Kant
+		Karlstadt Klatt Langhans Laudan muller Maler Meincke Nicolai Notke Niemann pfauser Panck Porepp Reinhold
+		Reuchlin Reinike Siebenburger schlick Strauss Solms Schluter Sudermann schiller Silbermann Schiner Schultz
+		Schuhr Seeland Steinkopp Schlien Sass Schliechting tetzel turing Tannstetter Therbusch Thess wertheimer Wolff
+		Wilcke Zwicker ge_low_schmidt ge_low_schneider ge_low_weber ge_low_fischer ge_low_becker ge_low_wagner
+		ge_low_hoffmann ge_low_zimmermann ge_low_bauer ge_low_kramer om_low_de_schulz
+	}
+	location_prefix = "location_prefix_german"
+	ship_names = {
+		om7_ship_german_language_001 om7_ship_german_language_002 om7_ship_german_language_003
+		om7_ship_german_language_004 om7_ship_german_language_005 om7_ship_german_language_006
+		om7_ship_german_language_007 om7_ship_german_language_008 om7_ship_german_language_009
+		om7_ship_german_language_010 om7_ship_german_language_011 om7_ship_german_language_012
+		om7_ship_german_language_013 om7_ship_german_language_014 om7_ship_german_language_015
+		om7_ship_german_language_016 om7_ship_german_language_017 om7_ship_german_language_018
+		om7_ship_german_language_019 om7_ship_german_language_020 om7_ship_german_language_021
+		om7_ship_german_language_022 om7_ship_german_language_023 om7_ship_german_language_024
+		om7_ship_german_language_025 om7_ship_german_language_026 om7_ship_german_language_027
+		om7_ship_german_language_028 om7_ship_german_language_029 om7_ship_german_language_030
+		om7_ship_german_language_031 om7_ship_german_language_032 om7_ship_german_language_033
+		om7_ship_german_language_034 om7_ship_german_language_035 om7_ship_german_language_036
+		om7_ship_german_language_037 om7_ship_german_language_038 om7_ship_german_language_039
+		om7_ship_german_language_040 om7_ship_german_language_041 om7_ship_german_language_042
+		om7_ship_german_language_043 om7_ship_german_language_044 om7_ship_german_language_045
+		om7_ship_german_language_046 om7_ship_german_language_047 om7_ship_german_language_048
+		om7_ship_german_language_049 om7_ship_german_language_050 om7_ship_german_language_051
+		om7_ship_german_language_052 om7_ship_german_language_053 om7_ship_german_language_054
+		om7_ship_german_language_055 om7_ship_german_language_056 om7_ship_german_language_057
+		om7_ship_german_language_058 om7_ship_german_language_059 om7_ship_german_language_060
+		om7_ship_german_language_061 om7_ship_german_language_062 om7_ship_german_language_063
+		om7_ship_german_language_064 om7_ship_german_language_065 om7_ship_german_language_066
+		om7_ship_german_language_067 om7_ship_german_language_068 om7_ship_german_language_069
+		om7_ship_german_language_070 om7_ship_german_language_071 om7_ship_german_language_072
+		om7_ship_german_language_073 om7_ship_german_language_074 om7_ship_german_language_075
+		om7_ship_german_language_076 om7_ship_german_language_077 om7_ship_german_language_078
+		om7_ship_german_language_079 om7_ship_german_language_080 om7_ship_german_language_081
+		om7_ship_german_language_082 om7_ship_german_language_083 om7_ship_german_language_084
+		om7_ship_german_language_085 om7_ship_german_language_086 om7_ship_german_language_087
+		om7_ship_german_language_088 om7_ship_german_language_089 om7_ship_german_language_090
+		om7_ship_german_language_091 om7_ship_german_language_092 om7_ship_german_language_093
+		om7_ship_german_language_094 om7_ship_german_language_095 om7_ship_german_language_096
+		om7_ship_german_language_097 om7_ship_german_language_098 om7_ship_german_language_099
+		om7_ship_german_language_100 om7_ship_german_language_101 om7_ship_german_language_102
+		om7_ship_german_language_103 om7_ship_german_language_104 om7_ship_german_language_105
+		om7_ship_german_language_106 om7_ship_german_language_107 om7_ship_german_language_108
+		om7_ship_german_language_109 om7_ship_german_language_110 om7_ship_german_language_111
+		om7_ship_german_language_112 om7_ship_german_language_113 om7_ship_german_language_114
+		om7_ship_german_language_115 om7_ship_german_language_116 om7_ship_german_language_117
+		om7_ship_german_language_118 om7_ship_german_language_119 om7_ship_german_language_120
+		om7_ship_german_language_121 om7_ship_german_language_122 om7_ship_german_language_123
+		om7_ship_german_language_124 om7_ship_german_language_125 om7_ship_german_language_126
+		om7_ship_german_language_127
+	}
+	dialects = {
+		dutch_dialect = {
+			male_names = {
+				name_alexander name_alfred name_albert name_abraham name_alphonse name_andrew name_anthony name_baldwin
+				name_balthazar name_bernard.name_sigmund name_bernard name_berthold name_casper name_charles
+				name_christopher name_conrad name_constantine name_christian name_erwin name_emmanuel name_ernest
+				name_everard name_frederick name_felix name_george name_gerard name_godfrey name_gregory name_henry
+				name_hector name_james name_john name_john.name_albert name_john.name_george name_lambert name_leonard
+				name_leopold name_laurence name_mark name_matthias name_maurice name_maximilian name_nicholas name_philip
+				name_peter name_reginar name_richard name_robert name_reginald name_simeon name_stephen name_sigfrid
+				name_theodoric name_thomas name_theobald name_victor name_walter name_adrian name_agmund name_alvin
+				name_ambrose name_arnold name_arnulf name_alberic name_balderick name_bartholomew name_bavo name_cornelius
+				name_david name_daniel name_douwe name_edward name_egbert name_emmo name_engelbert name_edwin name_eggricus
+				name_florence name_fulbert name_francis name_gerald name_gerulf name_gisbert name_gilbert name_gottschalk
+				name_godwin name_gabriel name_gerben name_herman name_hubert name_hugh name_hieronymus name_isbrand
+				name_isaac name_joseph name_louis name_leutwin name_leutbert name_martin name_michael name_oliver name_otto
+				name_paul name_rudolf name_roland name_roger name_sebastian name_sixtus name_sten name_theudulf name_vincent
+				name_wido name_walderam name_william name_zechariah name_rappold name_adolf name_adalhard name_adelmo
+				name_amalric name_archibald name_august name_augustine name_benedict name_boniface name_burchard
+				name_casimir name_conon name_dominic name_edmond name_egilhard name_enguerrand name_gottfried name_gunther
+				name_hartmann name_herbert name_jobst name_jeremiah name_lothar name_ludolf name_meinhard name_milon
+				name_seraphin name_sigmund name_ulrick name_vitus name_waleram name_wenceslas name_werner name_wolfgang
+				name_adalbert name_adalbero name_giselbert name_hartwig name_boson name_lamoral
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adalbert
+				name_adalbero
+				name_adolf
+				name_albert
+				name_arnold
+				name_berthold
+				name_conrad
+				name_everard
+				name_frederick
+				name_godfrey
+				name_henry
+				name_leopold
+				name_louis
+				name_otto
+				name_rudolf
+				name_sigfrid
+				name_sigmund
+				name_wolfgang
+				name_ulrick
+				name_gottfried
+				name_alexander
+				name_alfred
+				name_abraham
+				name_alphonse
+				name_andrew
+				name_anthony
+				name_baldwin
+				name_balthazar
+				name_bernard.name_sigmund
+				name_bernard
+				name_casper
+				name_charles
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_christian
+				name_christopher
+				name_george
+				name_john
+				name_joseph
+				name_martin
+				name_matthias
+				name_michael
+				name_peter
+				name_philip
+				name_frederick
+				name_william
+				name_james
+				name_theodoric
+				name_thomas
+				name_theobald
+				name_victor
+				name_walter
+				name_adrian
+				name_agmund
+				name_alvin
+				name_ambrose
+				name_arnold
+				name_arnulf
+				name_alberic
+				name_balderick
+				name_bartholomew
+				name_bavo
+				name_cornelius
+				name_david
+				name_daniel
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_albert
+				name_alexander
+				name_charles
+				name_francis
+				name_frederick
+				name_leopold
+				name_maximilian
+				name_victor
+				name_william
+				name_roland
+				name_roger
+				name_sebastian
+				name_sixtus
+				name_sten
+				name_theudulf
+				name_vincent
+				name_wido
+				name_walderam
+				name_zechariah
+				name_rappold
+				name_adolf
+				name_adalhard
+				name_adelmo
+				name_amalric
+				name_archibald
+				name_august
+				name_augustine
+				name_benedict
+				name_boniface
+				name_burchard
+				name_casimir
+				name_conon
+			}
+			female_names = {
+				name_adelaide name_amelia name_adela name_adriana name_angela name_alexandra name_anna name_ava name_agnes
+				name_agatha name_anna.name_lisa name_bridget name_barbara name_catherine name_cecile name_claire
+				name_clarice name_constance name_dorothy name_eleanor name_elisa name_elizabeth name_emily name_ester
+				name_frances name_frederica name_gertrude name_helen name_joanna name_judith name_julianne name_laura
+				name_lisa name_louise name_madeleine name_margaret name_matilda name_mary name_mary.name_madeleine
+				name_martha name_petra name_sophia name_susan name_theresa name_ursula name_ulrike name_victoria
+				name_waltrude name_ada name_aechte name_alice name_beatrix name_benedicta name_blanchefleur name_clemence
+				name_emma name_ermengard name_ferdinanda name_frieda name_gerda name_gudula name_hildegard name_ida
+				name_irene name_jacqueline name_jasmine name_josephine name_ludwina name_oda name_philippa name_pieternelle
+				name_petronilla name_reinhild name_rosa.name_anna name_rosa name_sigrid name_tamara name_tiburge name_wendel
+				name_willelma name_wineke name_yolande name_yvonne name_albertina name_apollonia name_bertha name_blanche
+				name_christiana name_christine name_edith name_gisela name_hedwig name_heilwig name_kunigunde name_liutgard
+				name_ricarda name_richilda name_theodora name_walburga name_wulfhild name_mechthild name_zoe
+				name_om_nl_geertruid name_om_nl_neeltje name_om_nl_annetje name_om_nl_catharina
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adelaide
+				name_agnes
+				name_anna
+				name_beatrix
+				name_catherine
+				name_elizabeth
+				name_gertrude
+				name_hedwig
+				name_kunigunde
+				name_matilda
+				name_margaret
+				name_amelia
+				name_adela
+				name_adriana
+				name_angela
+				name_alexandra
+				name_ava
+				name_agatha
+				name_anna.name_lisa
+				name_bridget
+				name_barbara
+				name_cecile
+				name_claire
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_barbara
+				name_christine
+				name_dorothy
+				name_eleanor
+				name_margaret
+				name_mary
+				name_sophia
+				name_theresa
+				name_madeleine
+				name_joanna
+				name_matilda
+				name_mary.name_madeleine
+				name_martha
+				name_petra
+				name_susan
+				name_ursula
+				name_ulrike
+				name_victoria
+				name_waltrude
+				name_ada
+				name_aechte
+				name_alice
+				name_beatrix
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexandra
+				name_frederica
+				name_josephine
+				name_louise
+				name_victoria
+				name_sophia
+				name_amelia
+				name_theresa
+				name_pieternelle
+				name_petronilla
+				name_reinhild
+				name_rosa.name_anna
+				name_rosa
+				name_sigrid
+				name_tamara
+				name_tiburge
+				name_wendel
+				name_willelma
+				name_wineke
+				name_yolande
+				name_yvonne
+				name_albertina
+				name_apollonia
+			}
+			dynasty_names = {
+				van_oranje van_wassenberg van_henegouwen van_haspinga van_limburg van_lotharingen van_leuven van_brabant
+				van_egmont de_reginar van_julich_hengebach van_loon von_geldern van_sulzbach van_heinsberg van_de_veluwe
+				de_graeff van_brederode van_breda van_heemskerk van_glymes van_grimberghe van_renesse van_wassenaer
+				van_bronckhorst van_keppel van_voorst_tot_voorst van_wisch van_kamerijk cirksena van_diest van_montfoort
+				Grelle_dynasty ge_dyn_von_habsburg ge_dyn_von_wittelsbach ge_dyn_von_luxemburg ge_dyn_von_hohenzollern
+				ge_dyn_von_wettin ge_dyn_von_askanien ge_dyn_von_nassau ge_dyn_von_hohenlohe ge_dyn_von_reuss
+				ge_dyn_von_zahringen ge_dyn_van_arkel ge_dyn_van_borselen ge_dyn_van_culemborg ge_dyn_van_nassau_dillenburg
+				ge_dyn_van_horne ge_dyn_van_putten ge_dyn_van_strijen ge_dyn_van_amstel ge_dyn_van_voorne ge_dyn_van_lippe
+				om_dyn_nl_oranje_nassau om_dyn_nl_egmond om_dyn_nl_borselen om_dyn_nl_brederode om_dyn_nl_de_witt
+			}
+			lowborn = {
+				Bruegel Bogerman Stevin Elzevir Liorne name_erasmus Grotius de_witt heinsius Arminius Gomarus Post
+				leeghwater van_leeuwenhoek de_ruyter Uiterwijk de_ouden Sas de_jong janssen bakker van_dijk van_bergh visser
+				smid meijer Brenner Bohmer bach bartisch Busekke Bussacker celtes cuspinian cruger cranach Dientzenhofer
+				Dinglinger Erhart faber Fichte Gaismair Giese Gesiter Gothan Hubert Hegel Hasse Jonas Jacobs Jauert kubel
+				kepler Kant Karlstadt Klatt Langhans Laudan muller Maler Meincke Nicolai Notke Niemann pfauser Panck Porepp
+				Reinhold Reuchlin Reinike Siebenburger schlick Strauss Solms Schluter Sudermann schiller Silbermann Schiner
+				Schultz Schuhr Seeland Steinkopp Schlien Sass Schliechting tetzel turing Tannstetter Therbusch Thess
+				wertheimer Wolff Wilcke Zwicker ge_low_schmidt ge_low_schneider ge_low_weber ge_low_fischer ge_low_becker
+				ge_low_wagner ge_low_hoffmann ge_low_zimmermann ge_low_bauer ge_low_kramer ge_low_de_vries
+				ge_low_van_der_meer ge_low_van_der_veen ge_low_koster ge_low_molenaar ge_low_schouten ge_low_de_boer
+				ge_low_timmerman ge_low_schrijver om_low_nl_jansen
+			}
+			location_prefix = "location_prefix_dutch"
+			patronym_suffix_son = "patronym_suffix_dutch_son"
+			patronym_suffix_daughter = "patronym_suffix_dutch_daughter"
+			ship_names = {
+				om7_ship_dutch_dialect_001 om7_ship_dutch_dialect_002 om7_ship_dutch_dialect_003 om7_ship_dutch_dialect_004
+				om7_ship_dutch_dialect_005 om7_ship_dutch_dialect_006 om7_ship_dutch_dialect_007 om7_ship_dutch_dialect_008
+				om7_ship_dutch_dialect_009 om7_ship_dutch_dialect_010 om7_ship_dutch_dialect_011 om7_ship_dutch_dialect_012
+				om7_ship_dutch_dialect_013 om7_ship_dutch_dialect_014 om7_ship_dutch_dialect_015 om7_ship_dutch_dialect_016
+				om7_ship_dutch_dialect_017 om7_ship_dutch_dialect_018 om7_ship_dutch_dialect_019 om7_ship_dutch_dialect_020
+				om7_ship_dutch_dialect_021 om7_ship_dutch_dialect_022 om7_ship_dutch_dialect_023 om7_ship_dutch_dialect_024
+				om7_ship_dutch_dialect_025 om7_ship_dutch_dialect_026 om7_ship_dutch_dialect_027 om7_ship_dutch_dialect_028
+				om7_ship_dutch_dialect_029 om7_ship_dutch_dialect_030 om7_ship_dutch_dialect_031 om7_ship_dutch_dialect_032
+				om7_ship_dutch_dialect_033 om7_ship_dutch_dialect_034 om7_ship_dutch_dialect_035 om7_ship_dutch_dialect_036
+				om7_ship_dutch_dialect_037 om7_ship_dutch_dialect_038 om7_ship_dutch_dialect_039 om7_ship_dutch_dialect_040
+				om7_ship_dutch_dialect_041 om7_ship_dutch_dialect_042 om7_ship_dutch_dialect_043 om7_ship_dutch_dialect_044
+				om7_ship_dutch_dialect_045 om7_ship_dutch_dialect_046 om7_ship_dutch_dialect_047 om7_ship_dutch_dialect_048
+				om7_ship_dutch_dialect_049 om7_ship_dutch_dialect_050 om7_ship_dutch_dialect_051 om7_ship_dutch_dialect_052
+				om7_ship_dutch_dialect_053 om7_ship_dutch_dialect_054 om7_ship_dutch_dialect_055 om7_ship_dutch_dialect_056
+				om7_ship_dutch_dialect_057 om7_ship_dutch_dialect_058 om7_ship_dutch_dialect_059 om7_ship_dutch_dialect_060
+				om7_ship_dutch_dialect_061 om7_ship_dutch_dialect_062 om7_ship_dutch_dialect_063 om7_ship_dutch_dialect_064
+				om7_ship_dutch_dialect_065 om7_ship_dutch_dialect_066 om7_ship_dutch_dialect_067 om7_ship_dutch_dialect_068
+				om7_ship_dutch_dialect_069 om7_ship_dutch_dialect_070 om7_ship_dutch_dialect_071 om7_ship_dutch_dialect_072
+				om7_ship_dutch_dialect_073 om7_ship_dutch_dialect_074 om7_ship_dutch_dialect_075 om7_ship_dutch_dialect_076
+				om7_ship_dutch_dialect_077 om7_ship_dutch_dialect_078 om7_ship_dutch_dialect_079 om7_ship_dutch_dialect_080
+				om7_ship_dutch_dialect_081 om7_ship_dutch_dialect_082 om7_ship_dutch_dialect_083 om7_ship_dutch_dialect_084
+				om7_ship_dutch_dialect_085 om7_ship_dutch_dialect_086 om7_ship_dutch_dialect_087 om7_ship_dutch_dialect_088
+				om7_ship_dutch_dialect_089 om7_ship_dutch_dialect_090 om7_ship_dutch_dialect_091 om7_ship_dutch_dialect_092
+				om7_ship_dutch_dialect_093 om7_ship_dutch_dialect_094 om7_ship_dutch_dialect_095 om7_ship_dutch_dialect_096
+				om7_ship_dutch_dialect_097 om7_ship_dutch_dialect_098 om7_ship_dutch_dialect_099 om7_ship_dutch_dialect_100
+				om7_ship_dutch_dialect_101 om7_ship_dutch_dialect_102 om7_ship_dutch_dialect_103 om7_ship_dutch_dialect_104
+				om7_ship_dutch_dialect_105 om7_ship_dutch_dialect_106 om7_ship_dutch_dialect_107 om7_ship_dutch_dialect_108
+				om7_ship_dutch_dialect_109 om7_ship_dutch_dialect_110 om7_ship_dutch_dialect_111 om7_ship_dutch_dialect_112
+				om7_ship_dutch_dialect_113 om7_ship_dutch_dialect_114 om7_ship_dutch_dialect_115 om7_ship_dutch_dialect_116
+				om7_ship_dutch_dialect_117 om7_ship_dutch_dialect_118 om7_ship_dutch_dialect_119 om7_ship_dutch_dialect_120
+				om7_ship_dutch_dialect_121 om7_ship_dutch_dialect_122 om7_ship_dutch_dialect_123 om7_ship_dutch_dialect_124
+				om7_ship_dutch_dialect_125 om7_ship_dutch_dialect_126 om7_ship_dutch_dialect_127 om7_ship_dutch_dialect_128
+			}
+		}
+		low_german_dialect = {
+			male_names = {
+				name_alexander name_alfred name_albert name_abraham name_alphonse name_andrew name_anthony name_baldwin
+				name_balthazar name_bernard.name_sigmund name_bernard name_berthold name_casper name_charles
+				name_christopher name_conrad name_constantine name_christian name_erwin name_emmanuel name_ernest
+				name_everard name_frederick name_felix name_george name_gerard name_godfrey name_gregory name_henry
+				name_hector name_james name_john name_john.name_albert name_john.name_george name_lambert name_leonard
+				name_leopold name_laurence name_mark name_matthias name_maurice name_maximilian name_nicholas name_philip
+				name_peter name_reginar name_richard name_robert name_reginald name_simeon name_stephen name_sigfrid
+				name_theodoric name_thomas name_theobald name_victor name_walter name_adolf name_adolf.name_frederick
+				name_adolf.name_ernest name_alaric name_alberic name_barnabas name_burchard name_eric name_eugene
+				name_frederick.name_william name_gerben name_gustav.name_rudolf name_gustav.name_william name_gunther
+				name_henry.name_william name_jobst name_lothar name_magnus name_meinhard name_olaf name_otto.name_henry
+				name_otto name_sigmund name_tilman name_ulrick name_vitus name_vladislav name_waldemar name_wenceslas
+				name_wigbald name_william name_wolfgang name_rappold name_adalhard name_adelmo name_amalric name_archibald
+				name_arnold name_arnulf name_august name_augustine name_bartholomew name_benedict name_boniface name_casimir
+				name_conon name_daniel name_david name_dominic name_edmond name_egilhard name_engelbert name_enguerrand
+				name_gilbert name_gottschalk name_hartmann name_herbert name_herman name_hieronymus name_hubert name_hugh
+				name_jeremiah name_joseph name_louis name_ludolf name_martin name_michael name_milon name_paul name_roger
+				name_rudolf name_sebastian name_seraphin name_waleram name_werner name_wido name_adalbert name_adalbero
+				name_giselbert name_hartwig name_wibrand name_wighard name_pribislav name_vratislav name_sviatopolk
+				name_torbjorn name_om_nds_hinrik name_om_nds_claus name_om_nds_cord name_om_nds_detlev
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adalbert
+				name_adalbero
+				name_adolf
+				name_albert
+				name_arnold
+				name_berthold
+				name_conrad
+				name_everard
+				name_frederick
+				name_godfrey
+				name_henry
+				name_leopold
+				name_louis
+				name_otto
+				name_rudolf
+				name_sigfrid
+				name_sigmund
+				name_wolfgang
+				name_ulrick
+				name_alexander
+				name_alfred
+				name_abraham
+				name_alphonse
+				name_andrew
+				name_anthony
+				name_baldwin
+				name_balthazar
+				name_bernard.name_sigmund
+				name_bernard
+				name_casper
+				name_charles
+				name_christopher
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_christian
+				name_christopher
+				name_george
+				name_john
+				name_joseph
+				name_martin
+				name_matthias
+				name_michael
+				name_peter
+				name_philip
+				name_frederick
+				name_william
+				name_james
+				name_simeon
+				name_stephen
+				name_sigfrid
+				name_theodoric
+				name_thomas
+				name_theobald
+				name_victor
+				name_walter
+				name_adolf
+				name_adolf.name_frederick
+				name_adolf.name_ernest
+				name_alaric
+				name_alberic
+				name_barnabas
+				name_burchard
+				name_eric
+				name_eugene
+				name_frederick.name_william
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_albert
+				name_alexander
+				name_charles
+				name_frederick
+				name_leopold
+				name_maximilian
+				name_victor
+				name_william
+				name_bartholomew
+				name_benedict
+				name_boniface
+				name_casimir
+				name_conon
+				name_daniel
+				name_david
+				name_dominic
+				name_edmond
+				name_egilhard
+				name_engelbert
+				name_enguerrand
+				name_gilbert
+				name_gottschalk
+				name_hartmann
+				name_herbert
+				name_herman
+				name_hieronymus
+				name_hubert
+				name_hugh
+				name_jeremiah
+				name_joseph
+				name_louis
+				name_ludolf
+			}
+			female_names = {
+				name_adelaide name_amelia name_adela name_adriana name_angela name_alexandra name_anna name_ava name_agnes
+				name_agatha name_anna.name_lisa name_bridget name_barbara name_catherine name_cecile name_claire
+				name_clarice name_constance name_dorothy name_eleanor name_elisa name_elizabeth name_emily name_ester
+				name_frances name_frederica name_gertrude name_helen name_joanna name_judith name_julianne name_laura
+				name_lisa name_louise name_madeleine name_margaret name_matilda name_mary name_mary.name_madeleine
+				name_martha name_petra name_sophia name_susan name_theresa name_ursula name_ulrike name_victoria
+				name_waltrude name_ada name_aechte name_bertha name_beatrix name_blanche name_christine name_christiana
+				name_edith name_ermengard name_gisela name_hedwig name_heilwig name_hildegard name_ida name_olga
+				name_ricarda name_wineke name_wulfhild name_walburga name_willelma name_yvonne name_albertina name_apollonia
+				name_benedicta name_emma name_irene name_josephine name_kunigunde name_liutgard name_oda name_philippa
+				name_petronilla name_richilda name_rosa name_theodora name_mechthild name_rikissa name_om_nds_gesche
+				name_om_nds_metta name_om_nds_trine name_om_nds_elsabe
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adelaide
+				name_agnes
+				name_anna
+				name_beatrix
+				name_catherine
+				name_elizabeth
+				name_gertrude
+				name_hedwig
+				name_kunigunde
+				name_matilda
+				name_amelia
+				name_adela
+				name_adriana
+				name_angela
+				name_alexandra
+				name_ava
+				name_agatha
+				name_anna.name_lisa
+				name_bridget
+				name_barbara
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_barbara
+				name_christine
+				name_dorothy
+				name_eleanor
+				name_margaret
+				name_mary
+				name_sophia
+				name_theresa
+				name_madeleine
+				name_joanna
+				name_judith
+				name_julianne
+				name_laura
+				name_lisa
+				name_louise
+				name_matilda
+				name_mary.name_madeleine
+				name_martha
+				name_petra
+				name_susan
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexandra
+				name_frederica
+				name_josephine
+				name_louise
+				name_victoria
+				name_sophia
+				name_amelia
+				name_theresa
+				name_hedwig
+				name_heilwig
+				name_hildegard
+				name_ida
+				name_olga
+				name_ricarda
+				name_wineke
+				name_wulfhild
+				name_walburga
+				name_willelma
+				name_yvonne
+				name_albertina
+			}
+			dynasty_names = {
+				von_Slesvig_dynasty von_Westernhagen von_Arnim von_Baudissin von_Haslang von_Pudewels von_Waldow
+				von_Silesia_Glogau_dynasty Boeselager_dynasty Jaworski_dynasty von_Utlede_dynasty von_Bardewik_dynasty
+				Warendorp_dynasty Wittenborg_dynasty von_Parchim_dynasty von_Rugen_dynasty von_Werle_dynasty
+				von_Wittenberg_dynasty von_Brandenburg_dynasty von_Glogau_dynasty von_Rendsburg_dynasty von_Pommern_dynasty
+				von_Wickerode_dynasty von_Winzenburg_dynasty von_Stade_dynasty von_Haldensleben_dynasty
+				von_Ringelheim_dynasty von_Nordheim_dynasty witte_dynasty von_Hagen_dynasty von_Goslar_dynasty
+				von_Wunstorf_dynasty von_Goltern_dynasty von_Holte_dynasty von_Wippra_dynasty von_tanneberg_dynasty
+				von_kriebstein_dynasty von_beerwalde_dynasty von_schwetzingen von_Loningen_dynasty von_Corvey_dynasty
+				von_Tecklenburg_dynasty von_Weyhe_dynasty von_Kerpen_dynasty von_Nauen_dynasty suerbeer_dynasty
+				von_Lunen_dynasty von_Vechta_dynasty von_Dorpat_dynasty von_Haseldorf_dynasty von_Vyshusen_dynasty
+				von_Friesack_dynasty von_Hildesheim_dynasty von_Dinslaken_dynasty von_Scharfenberg_dynasty
+				von_Badewide_dynasty von_Wassel_dynasty von_Dassel_dynasty von_Sigmaringen_dynasty von_Magdeburg_dynasty
+				von_Arneburg_dynasty von_Seeburg_dynasty von_Bocksberg_dynasty valkenburg_dynasty von_Ratzeburg_dynasty
+				von_Schlawe_dynasty von_Rostock_dynasty von_Gustrow_dynasty von_Segeberg_dynasty von_Friedenthal_dynasty
+				von_Osnabruck_dynasty von_Munster_dynasty von_neindorf_dynasty von_Celle_dynasty von_Amsberg_dynasty
+				von_Wolgast_dynasty von_Altmark_dynasty von_Anhalt_dynasty von_Stettin_dynasty von_Beetzen_dynasty
+				von_Walbeck_dynasty von_Knuth von_Plessen von_Kanitz von_Falkenhayn von_Nostitz von_Meerheimb
+				aus_dem_winckel von_Bock von_Bomsdorff von_Bose von_Bunau von_Hoym Holtzendorff von_Harling von_Gfug
+				von_Gersdorff von_Flanss von_Dyhrn von_Creytzen von_Rackel Senfft_von_Pilsach von_Sternberg von_Liebenau
+				von_Loeben von_Logau von_Tettau Wohrmann von_Wackerbarth von_Bredow Echter Gabelkofen Griespek von_Laiming
+				von_Thurn_und_Taxis von_Bodeck_dynasty Brauchitsch_dynasty von_Bulow_dynasty von_Cham_dynasty
+				von_Steutzlingen_dynasty von_Venis_dynasty von_Arbon_dynasty von_Dolen_dynasty von_Liebnitz_dynasty
+				Rubsamen_dynasty Vorrade_dynasty von_Sulzbach_dynasty von_Versfleth_dynasty von_Puteledorg_dynasty
+				von_Sommerchenberg_dynasty von_Sachsen_dynasty von_Beilstein_dynasty von_Stad_dynasty prochaska_dynasty
+				asperger_dynasty runese_dynasty pleskow_dynasty von_Russel_dynasty von_Leistenberg_dynasty
+				von_Leibrechtskirchen_dynasty gualch_dynasty von_Schweipunt_dynasty von_Stolzenberg_dynasty
+				von_Chalons_dynasty von_Schwelz_dynasty von_Liebschau_dynasty von_Neuhaus_dynasty von_Assel_dynasty
+				von_Pfalz_dynasty von_Scheidingen von_Stolberg von_Taube von_Moor ge_dyn_von_habsburg ge_dyn_von_wittelsbach
+				ge_dyn_von_luxemburg ge_dyn_von_hohenzollern ge_dyn_von_wettin ge_dyn_von_askanien ge_dyn_von_nassau
+				ge_dyn_von_hohenlohe ge_dyn_von_reuss ge_dyn_von_zahringen ge_dyn_von_oldenburg ge_dyn_von_hoya
+				ge_dyn_von_diepholz ge_dyn_von_schwerin ge_dyn_von_mecklenburg ge_dyn_von_lauenburg ge_dyn_von_holstein
+				ge_dyn_von_lubeck om_dyn_nds_oldenburg om_dyn_nds_schauenburg om_dyn_nds_brockdorff om_dyn_nds_rantzau
+			}
+			lowborn = {
+				Brenner Bohmer bach bartisch Busekke Bussacker celtes cuspinian cruger cranach Dientzenhofer Dinglinger
+				Erhart faber Fichte Gaismair Giese Gesiter Gothan name_hubert Hegel Hasse name_jonas Jacobs Jauert kubel
+				kepler Kant Karlstadt Klatt Langhans Laudan muller Maler Meincke Nicolai Notke Niemann pfauser Panck Porepp
+				Reinhold Reuchlin Reinike Siebenburger schlick Strauss Solms Schluter Sudermann schiller Silbermann Schiner
+				Schultz Schuhr Seeland Steinkopp Schlien Sass Schliechting tetzel turing Tannstetter Therbusch Thess
+				wertheimer Wolff Wilcke Zwicker agricola Mendelssohn Lessing leibniz name_werner Wacker Warncke
+				ge_low_schmidt ge_low_schneider ge_low_weber ge_low_fischer ge_low_becker ge_low_wagner ge_low_hoffmann
+				ge_low_zimmermann ge_low_bauer ge_low_kramer ge_low_schroder ge_low_bode ge_low_knappe ge_low_meyer_low
+				ge_low_bartels ge_low_dreyer ge_low_hinrichs om_low_nds_petersen om_low_nds_luders om_low_nds_kroger
+			}
+			location_prefix = "location_prefix_german"
+			ship_names = {
+				om7_ship_low_german_dialect_001 om7_ship_low_german_dialect_002 om7_ship_low_german_dialect_003
+				om7_ship_low_german_dialect_004 om7_ship_low_german_dialect_005 om7_ship_low_german_dialect_006
+				om7_ship_low_german_dialect_007 om7_ship_low_german_dialect_008 om7_ship_low_german_dialect_009
+				om7_ship_low_german_dialect_010 om7_ship_low_german_dialect_011 om7_ship_low_german_dialect_012
+				om7_ship_low_german_dialect_013 om7_ship_low_german_dialect_014 om7_ship_low_german_dialect_015
+				om7_ship_low_german_dialect_016 om7_ship_low_german_dialect_017 om7_ship_low_german_dialect_018
+				om7_ship_low_german_dialect_019 om7_ship_low_german_dialect_020 om7_ship_low_german_dialect_021
+				om7_ship_low_german_dialect_022 om7_ship_low_german_dialect_023 om7_ship_low_german_dialect_024
+				om7_ship_low_german_dialect_025 om7_ship_low_german_dialect_026 om7_ship_low_german_dialect_027
+				om7_ship_low_german_dialect_028 om7_ship_low_german_dialect_029 om7_ship_low_german_dialect_030
+				om7_ship_low_german_dialect_031 om7_ship_low_german_dialect_032 om7_ship_low_german_dialect_033
+				om7_ship_low_german_dialect_034 om7_ship_low_german_dialect_035 om7_ship_low_german_dialect_036
+				om7_ship_low_german_dialect_037 om7_ship_low_german_dialect_038 om7_ship_low_german_dialect_039
+				om7_ship_low_german_dialect_040 om7_ship_low_german_dialect_041 om7_ship_low_german_dialect_042
+				om7_ship_low_german_dialect_043 om7_ship_low_german_dialect_044 om7_ship_low_german_dialect_045
+				om7_ship_low_german_dialect_046 om7_ship_low_german_dialect_047 om7_ship_low_german_dialect_048
+				om7_ship_low_german_dialect_049 om7_ship_low_german_dialect_050 om7_ship_low_german_dialect_051
+				om7_ship_low_german_dialect_052 om7_ship_low_german_dialect_053 om7_ship_low_german_dialect_054
+				om7_ship_low_german_dialect_055 om7_ship_low_german_dialect_056 om7_ship_low_german_dialect_057
+				om7_ship_low_german_dialect_058 om7_ship_low_german_dialect_059 om7_ship_low_german_dialect_060
+				om7_ship_low_german_dialect_061 om7_ship_low_german_dialect_062 om7_ship_low_german_dialect_063
+				om7_ship_low_german_dialect_064 om7_ship_low_german_dialect_065 om7_ship_low_german_dialect_066
+				om7_ship_low_german_dialect_067 om7_ship_low_german_dialect_068 om7_ship_low_german_dialect_069
+				om7_ship_low_german_dialect_070 om7_ship_low_german_dialect_071 om7_ship_low_german_dialect_072
+				om7_ship_low_german_dialect_073 om7_ship_low_german_dialect_074 om7_ship_low_german_dialect_075
+				om7_ship_low_german_dialect_076 om7_ship_low_german_dialect_077 om7_ship_low_german_dialect_078
+				om7_ship_low_german_dialect_079 om7_ship_low_german_dialect_080 om7_ship_low_german_dialect_081
+				om7_ship_low_german_dialect_082 om7_ship_low_german_dialect_083 om7_ship_low_german_dialect_084
+				om7_ship_low_german_dialect_085 om7_ship_low_german_dialect_086 om7_ship_low_german_dialect_087
+				om7_ship_low_german_dialect_088 om7_ship_low_german_dialect_089 om7_ship_low_german_dialect_090
+				om7_ship_low_german_dialect_091 om7_ship_low_german_dialect_092 om7_ship_low_german_dialect_093
+				om7_ship_low_german_dialect_094 om7_ship_low_german_dialect_095 om7_ship_low_german_dialect_096
+				om7_ship_low_german_dialect_097 om7_ship_low_german_dialect_098 om7_ship_low_german_dialect_099
+				om7_ship_low_german_dialect_100 om7_ship_low_german_dialect_101 om7_ship_low_german_dialect_102
+				om7_ship_low_german_dialect_103 om7_ship_low_german_dialect_104 om7_ship_low_german_dialect_105
+				om7_ship_low_german_dialect_106 om7_ship_low_german_dialect_107 om7_ship_low_german_dialect_108
+				om7_ship_low_german_dialect_109 om7_ship_low_german_dialect_110 om7_ship_low_german_dialect_111
+				om7_ship_low_german_dialect_112 om7_ship_low_german_dialect_113 om7_ship_low_german_dialect_114
+				om7_ship_low_german_dialect_115 om7_ship_low_german_dialect_116 om7_ship_low_german_dialect_117
+				om7_ship_low_german_dialect_118 om7_ship_low_german_dialect_119 om7_ship_low_german_dialect_120
+				om7_ship_low_german_dialect_121 om7_ship_low_german_dialect_122 om7_ship_low_german_dialect_123
+				om7_ship_low_german_dialect_124 om7_ship_low_german_dialect_125 om7_ship_low_german_dialect_126
+				om7_ship_low_german_dialect_127 om7_ship_low_german_dialect_128
+			}
+		}
+		central_german_dialect = {
+			male_names = {
+				name_alexander name_alfred name_albert name_abraham name_alphonse name_andrew name_anthony name_baldwin
+				name_balthazar name_bernard.name_sigmund name_bernard name_berthold name_casper name_charles
+				name_christopher name_conrad name_constantine name_christian name_erwin name_emmanuel name_ernest
+				name_everard name_frederick name_felix name_george name_gerard name_godfrey name_gregory name_henry
+				name_hector name_james name_john name_john.name_albert name_john.name_george name_lambert name_leonard
+				name_leopold name_laurence name_mark name_matthias name_maurice name_maximilian name_nicholas name_philip
+				name_peter name_reginar name_richard name_robert name_reginald name_rappold name_simeon name_stephen
+				name_sigfrid name_theodoric name_thomas name_theobald name_victor name_walter name_adolf
+				name_adolf.name_frederick name_adolf.name_ernest name_august name_barnabas name_burchard
+				name_christian.name_louis name_charles.name_leopold name_eugene name_frederick.name_william
+				name_gustav.name_rudolf name_gustav.name_william name_herman name_jobst name_lothar name_meinhard
+				name_otto.name_henry name_otto name_philip.name_louis name_sigmund name_sigmund.name_august name_ulrick
+				name_vitus name_vladislav name_waldemar name_wenceslas name_william name_wolfgang name_adalhard name_adelmo
+				name_alberic name_amalric name_archibald name_arnold name_arnulf name_augustine name_bartholomew
+				name_benedict name_boniface name_casimir name_conon name_daniel name_david name_dominic name_edmond
+				name_egilhard name_engelbert name_enguerrand name_gilbert name_gottschalk name_gunther name_hartmann
+				name_herbert name_hieronymus name_hubert name_hugh name_jeremiah name_joseph name_louis name_ludolf
+				name_martin name_michael name_milon name_paul name_roger name_rudolf name_sebastian name_seraphin
+				name_waleram name_werner name_wido name_adalbert name_adalbero name_hartwig name_pribislav name_vratislav
+				name_sviatopolk
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adalbert
+				name_adalbero
+				name_adolf
+				name_albert
+				name_arnold
+				name_berthold
+				name_conrad
+				name_everard
+				name_frederick
+				name_godfrey
+				name_henry
+				name_leopold
+				name_louis
+				name_otto
+				name_rudolf
+				name_sigfrid
+				name_sigmund
+				name_wolfgang
+				name_ulrick
+				name_alexander
+				name_alfred
+				name_abraham
+				name_alphonse
+				name_andrew
+				name_anthony
+				name_baldwin
+				name_balthazar
+				name_bernard.name_sigmund
+				name_bernard
+				name_casper
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_christian
+				name_christopher
+				name_george
+				name_john
+				name_joseph
+				name_martin
+				name_matthias
+				name_michael
+				name_peter
+				name_philip
+				name_frederick
+				name_william
+				name_james
+				name_reginar
+				name_richard
+				name_robert
+				name_reginald
+				name_rappold
+				name_simeon
+				name_stephen
+				name_sigfrid
+				name_theodoric
+				name_thomas
+				name_theobald
+				name_victor
+				name_walter
+				name_adolf
+				name_adolf.name_frederick
+				name_adolf.name_ernest
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_albert
+				name_alexander
+				name_charles
+				name_frederick
+				name_leopold
+				name_maximilian
+				name_victor
+				name_william
+				name_archibald
+				name_arnold
+				name_arnulf
+				name_augustine
+				name_bartholomew
+				name_benedict
+				name_boniface
+				name_casimir
+				name_conon
+				name_daniel
+				name_david
+				name_dominic
+				name_edmond
+				name_egilhard
+				name_engelbert
+				name_enguerrand
+				name_gilbert
+				name_gottschalk
+				name_gunther
+				name_hartmann
+				name_herbert
+				name_hieronymus
+			}
+			female_names = {
+				name_adelaide name_amelia name_adela name_adriana name_angela name_alexandra name_anna name_ava name_agnes
+				name_agatha name_anna.name_lisa name_bridget name_barbara name_catherine name_cecile name_claire
+				name_clarice name_constance name_dorothy name_eleanor name_elisa name_elizabeth name_emily name_ester
+				name_frances name_frederica name_gertrude name_helen name_joanna name_judith name_julianne name_laura
+				name_lisa name_louise name_madeleine name_margaret name_matilda name_mary name_mary.name_madeleine
+				name_martha name_petra name_sophia name_susan name_theresa name_ursula name_ulrike name_victoria
+				name_waltrude name_blanche name_christine name_christiana name_hildegard name_willelma name_ada
+				name_albertina name_apollonia name_beatrix name_benedicta name_bertha name_edith name_emma name_ermengard
+				name_gisela name_hedwig name_heilwig name_ida name_irene name_josephine name_kunigunde name_liutgard
+				name_oda name_philippa name_petronilla name_ricarda name_richilda name_rosa name_theodora name_walburga
+				name_wulfhild name_yvonne name_mechthild
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adelaide
+				name_agnes
+				name_anna
+				name_beatrix
+				name_catherine
+				name_elizabeth
+				name_gertrude
+				name_hedwig
+				name_kunigunde
+				name_matilda
+				name_amelia
+				name_adela
+				name_adriana
+				name_angela
+				name_alexandra
+				name_ava
+				name_agatha
+				name_anna.name_lisa
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_barbara
+				name_christine
+				name_dorothy
+				name_eleanor
+				name_margaret
+				name_mary
+				name_sophia
+				name_theresa
+				name_madeleine
+				name_joanna
+				name_helen
+				name_judith
+				name_julianne
+				name_laura
+				name_lisa
+				name_louise
+				name_matilda
+				name_mary.name_madeleine
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexandra
+				name_frederica
+				name_josephine
+				name_louise
+				name_victoria
+				name_sophia
+				name_amelia
+				name_theresa
+				name_albertina
+				name_apollonia
+				name_beatrix
+				name_benedicta
+				name_bertha
+				name_edith
+				name_emma
+				name_ermengard
+				name_gisela
+				name_hedwig
+			}
+			dynasty_names = {
+				von_Westernhagen von_Flemming von_Arnim von_Baudissin zu_Eulenburg von_Etzdorff_dynasty von_Bibra von_Closen
+				von_Degenberg von_Durkheim von_Gebsattel von_Gravenreuth von_Trockau von_Guttenberg von_Grumbach
+				von_Quirnheim Notthafft von_Raumer von_Reitzenstein Rotenhan von_Collenberg von_der_Tann_dynasty
+				von_Thuengen von_Silesia_Glogau_dynasty Boeselager_dynasty von_Calw_dynasty von_Wetterau_dynasty
+				von_Katzenelnbogen_dynasty von_Altena_dynasty von_Virneberg_dynasty von_Wittenberg_dynasty
+				von_Glogau_dynasty von_Formbach_dynasty von_Wickerode_dynasty von_thuringen von_Meissen_dynasty
+				von_Genf_dynasty von_Arnstein_dynasty von_Landsberg_dynasty von_Berg_dynasty von_Saarbrucken_dynasty
+				von_Heimbach_dynasty von_Metz_dynasty von_Hornes_dynasty orlamunde_dynasty von_Schweinfurt_dynasty
+				von_Ringelheim_dynasty von_Boulogne_dynasty von_Supplingenburg_dynasty von_Plotzkau_dynasty
+				von_Katlenburg_dynasty von_Goslar_dynasty von_Wolpe_dynasty von_Wippra_dynasty von_Bassenheim_dynasty
+				von_Tunna_dynasty von_Salza von_Malberg_dynasty von_Wullersleben_dynasty von_Osterna_dynasty
+				von_Sangershausen_dynasty von_Heldrungen_dynasty von_Orseln_dynasty von_Lechsgmund_dynasty
+				von_Stahleck_dynasty von_Dinslaken_dynasty von_Pluyvoise_dynasty von_Grunberg_dynasty
+				von_Lichtenberg_dynasty von_Gudensberg_dynasty von_Groitzsch_dynasty gross_dynasty von_Saffenberg_dynasty
+				von_Norvenich_dynasty von_Naumburg_dynasty von_Schrapelnau von_Magdeburg_dynasty von_Seeburg_dynasty
+				von_Schmidtburg_dynasty von_Bamberg_dynasty von_Kyrburg_dynasty von_Baumberg_dynasty
+				von_Altenbaumberg_dynasty von_Vinstingen_dynasty von_Schoenecken_dynasty von_Blankenheim_dynasty
+				von_Brunshorn_dynasty von_Stein_dynasty von_Bikkenbach_dynasty valkenburg_dynasty von_Muhlhausen_dynasty
+				von_Lovenstein_dynasty von_Landau_dynasty von_Andernach_dynasty von_Nordgau_dynasty von_Furstenberg_dynasty
+				Weimar_dynasty von_Ansbach_dynasty von_Lausitz_dynasty von_Schonburg von_Schlotheim von_Kospoth von_Erffa
+				von_Bodungen von_Eckersberg von_Brandenstein von_Wiehe von_Jena von_Trutzschler von_Haugwitz von_Kanitz
+				von_Falkenhayn von_Nostitz von_Bieberstein von_Meerheimb von_Freiberg von_Neitschutz von_Minckwitz
+				von_Arnswaldt von_Auerswald von_Beichlingen von_Bendeleben von_Berbisdorf von_Bissingen von_Bomsdorff
+				von_Bose von_Breitenbach von_Breitenbuch von_Bunau von_Hoym von_Hohenthal von_Heynitz von_Hessler
+				von_Helldorff von_Gorschen von_Glaubitz von_Gfug von_Gersdorff von_Germar von_Fritsch von_Friesen von_Flanss
+				von_Erdmannsdorff von_Einsiedel von_Dyhrn von_Dieskau von_Carlowitz von_Maltitz von_Miltitz von_Mucheln
+				von_Pflugk von_Polnitz von_Ponickau von_Rackel von_Rechenberg von_Rex Sack von_Schleinitzstrasse
+				von_Schonberg Senfft_von_Pilsach von_Kannewurf Karras von_Kirchbach von_Sternberg von_Leisnig von_Liebenau
+				von_Loeben von_Logau von_Luttichau von_Tettau von_Wolffersdorff Wohrmann von_Werthern von_Brandt Echter
+				Gabelkofen Griespek von_Laiming von_Thurn_und_Taxis von_Bodeck_dynasty Brauchitsch_dynasty von_Bulow_dynasty
+				von_Cham_dynasty von_Steutzlingen_dynasty von_Venis_dynasty von_Arbon_dynasty von_Dolen_dynasty
+				von_Liebnitz_dynasty Rubsamen_dynasty Vorrade_dynasty von_Sulzbach_dynasty von_Versfleth_dynasty
+				von_Puteledorg_dynasty von_Sommerchenberg_dynasty von_Sachsen_dynasty von_Beilstein_dynasty von_Stad_dynasty
+				prochaska_dynasty asperger_dynasty runese_dynasty pleskow_dynasty von_Russel_dynasty von_Leistenberg_dynasty
+				von_Leibrechtskirchen_dynasty gualch_dynasty von_Schweipunt_dynasty von_Stolzenberg_dynasty
+				von_Chalons_dynasty von_Schwelz_dynasty von_Liebschau_dynasty von_Neuhaus_dynasty von_Assel_dynasty
+				von_Pfalz_dynasty von_Scheidingen von_Stolberg von_Taube von_Moor ge_dyn_von_habsburg ge_dyn_von_wittelsbach
+				ge_dyn_von_luxemburg ge_dyn_von_hohenzollern ge_dyn_von_wettin ge_dyn_von_askanien ge_dyn_von_nassau
+				ge_dyn_von_hohenlohe ge_dyn_von_reuss ge_dyn_von_zahringen ge_dyn_von_hessen ge_dyn_von_waldeck
+				ge_dyn_von_henneberg ge_dyn_von_isenburg ge_dyn_von_solms ge_dyn_von_erbach ge_dyn_von_sayn
+			}
+			lowborn = {
+				Brenner Bohmer bach bartisch Busekke Bussacker celtes cuspinian cruger cranach Dientzenhofer Dinglinger
+				Erhart faber Fichte Gaismair Giese Gesiter Gothan name_hubert Hegel Hasse name_jonas Jacobs Jauert kubel
+				kepler Kant Karlstadt Klatt Langhans Laudan muller Maler Meincke Nicolai Notke Niemann pfauser Panck Porepp
+				Reinhold Reuchlin Reinike Siebenburger schlick Strauss Solms Schluter Sudermann schiller Silbermann Schiner
+				Schultz Schuhr Seeland Steinkopp Schlien Sass Schliechting tetzel turing Tannstetter Therbusch Thess
+				wertheimer Wolff Wilcke Zwicker Lessing leibniz Melanchton oppenheimer ge_low_schmidt ge_low_schneider
+				ge_low_weber ge_low_fischer ge_low_becker ge_low_wagner ge_low_hoffmann ge_low_zimmermann ge_low_bauer
+				ge_low_kramer
+			}
+			ship_names = {
+				om7_ship_central_german_dialect_001 om7_ship_central_german_dialect_002 om7_ship_central_german_dialect_003
+				om7_ship_central_german_dialect_004 om7_ship_central_german_dialect_005 om7_ship_central_german_dialect_006
+				om7_ship_central_german_dialect_007 om7_ship_central_german_dialect_008 om7_ship_central_german_dialect_009
+				om7_ship_central_german_dialect_010 om7_ship_central_german_dialect_011 om7_ship_central_german_dialect_012
+				om7_ship_central_german_dialect_013 om7_ship_central_german_dialect_014 om7_ship_central_german_dialect_015
+				om7_ship_central_german_dialect_016 om7_ship_central_german_dialect_017 om7_ship_central_german_dialect_018
+				om7_ship_central_german_dialect_019 om7_ship_central_german_dialect_020 om7_ship_central_german_dialect_021
+				om7_ship_central_german_dialect_022 om7_ship_central_german_dialect_023 om7_ship_central_german_dialect_024
+				om7_ship_central_german_dialect_025 om7_ship_central_german_dialect_026 om7_ship_central_german_dialect_027
+				om7_ship_central_german_dialect_028 om7_ship_central_german_dialect_029 om7_ship_central_german_dialect_030
+				om7_ship_central_german_dialect_031 om7_ship_central_german_dialect_032 om7_ship_central_german_dialect_033
+				om7_ship_central_german_dialect_034 om7_ship_central_german_dialect_035 om7_ship_central_german_dialect_036
+				om7_ship_central_german_dialect_037 om7_ship_central_german_dialect_038 om7_ship_central_german_dialect_039
+				om7_ship_central_german_dialect_040 om7_ship_central_german_dialect_041 om7_ship_central_german_dialect_042
+				om7_ship_central_german_dialect_043 om7_ship_central_german_dialect_044 om7_ship_central_german_dialect_045
+				om7_ship_central_german_dialect_046 om7_ship_central_german_dialect_047 om7_ship_central_german_dialect_048
+				om7_ship_central_german_dialect_049 om7_ship_central_german_dialect_050 om7_ship_central_german_dialect_051
+				om7_ship_central_german_dialect_052 om7_ship_central_german_dialect_053 om7_ship_central_german_dialect_054
+				om7_ship_central_german_dialect_055 om7_ship_central_german_dialect_056 om7_ship_central_german_dialect_057
+				om7_ship_central_german_dialect_058 om7_ship_central_german_dialect_059 om7_ship_central_german_dialect_060
+				om7_ship_central_german_dialect_061 om7_ship_central_german_dialect_062 om7_ship_central_german_dialect_063
+				om7_ship_central_german_dialect_064 om7_ship_central_german_dialect_065 om7_ship_central_german_dialect_066
+				om7_ship_central_german_dialect_067 om7_ship_central_german_dialect_068 om7_ship_central_german_dialect_069
+				om7_ship_central_german_dialect_070 om7_ship_central_german_dialect_071 om7_ship_central_german_dialect_072
+				om7_ship_central_german_dialect_073 om7_ship_central_german_dialect_074 om7_ship_central_german_dialect_075
+				om7_ship_central_german_dialect_076 om7_ship_central_german_dialect_077 om7_ship_central_german_dialect_078
+				om7_ship_central_german_dialect_079 om7_ship_central_german_dialect_080 om7_ship_central_german_dialect_081
+				om7_ship_central_german_dialect_082 om7_ship_central_german_dialect_083 om7_ship_central_german_dialect_084
+				om7_ship_central_german_dialect_085 om7_ship_central_german_dialect_086 om7_ship_central_german_dialect_087
+				om7_ship_central_german_dialect_088 om7_ship_central_german_dialect_089 om7_ship_central_german_dialect_090
+				om7_ship_central_german_dialect_091 om7_ship_central_german_dialect_092 om7_ship_central_german_dialect_093
+				om7_ship_central_german_dialect_094 om7_ship_central_german_dialect_095 om7_ship_central_german_dialect_096
+				om7_ship_central_german_dialect_097 om7_ship_central_german_dialect_098 om7_ship_central_german_dialect_099
+				om7_ship_central_german_dialect_100 om7_ship_central_german_dialect_101 om7_ship_central_german_dialect_102
+				om7_ship_central_german_dialect_103 om7_ship_central_german_dialect_104 om7_ship_central_german_dialect_105
+				om7_ship_central_german_dialect_106 om7_ship_central_german_dialect_107 om7_ship_central_german_dialect_108
+				om7_ship_central_german_dialect_109 om7_ship_central_german_dialect_110 om7_ship_central_german_dialect_111
+				om7_ship_central_german_dialect_112 om7_ship_central_german_dialect_113 om7_ship_central_german_dialect_114
+				om7_ship_central_german_dialect_115 om7_ship_central_german_dialect_116 om7_ship_central_german_dialect_117
+				om7_ship_central_german_dialect_118 om7_ship_central_german_dialect_119 om7_ship_central_german_dialect_120
+				om7_ship_central_german_dialect_121 om7_ship_central_german_dialect_122 om7_ship_central_german_dialect_123
+				om7_ship_central_german_dialect_124 om7_ship_central_german_dialect_125 om7_ship_central_german_dialect_126
+				om7_ship_central_german_dialect_127 om7_ship_central_german_dialect_128
+			}
+		}
+		upper_german_dialect = {
+			male_names = {
+				name_alexander name_alfred name_albert name_abraham name_alphonse name_andrew name_anthony name_baldwin
+				name_balthazar name_bernard.name_sigmund name_bernard name_berthold name_casper name_charles
+				name_christopher name_conrad name_constantine name_christian name_erwin name_emmanuel name_ernest
+				name_everard name_frederick name_felix name_george name_gerard name_godfrey name_gregory name_henry
+				name_hector name_james name_john name_john.name_albert name_john.name_george name_lambert name_leonard
+				name_leopold name_laurence name_mark name_matthias name_maurice name_maximilian name_nicholas name_philip
+				name_peter name_reginar name_richard name_robert name_reginald name_rappold name_simeon name_stephen
+				name_sigfrid name_theodoric name_thomas name_theobald name_victor name_walter name_adolf
+				name_adolf.name_frederick name_adolf.name_ernest name_barnabas name_benedict name_burchard
+				name_christian.name_louis name_charles.name_leopold name_clement name_eugene name_frederick.name_francis
+				name_francis name_ferdinand name_gustav.name_rudolf name_jobst name_joseph name_lothar name_louis
+				name_meinhard name_philip.name_louis name_sigmund name_ulrick name_waldemar name_wenceslas name_william
+				name_wolfgang name_xavier name_adalhard name_adelmo name_alberic name_amalric name_archibald name_arnold
+				name_arnulf name_august name_augustine name_bartholomew name_boniface name_casimir name_conon name_daniel
+				name_david name_dominic name_edmond name_egilhard name_engelbert name_enguerrand name_gilbert
+				name_gottschalk name_gunther name_hartmann name_herbert name_herman name_hieronymus name_hubert name_hugh
+				name_jeremiah name_ludolf name_martin name_michael name_milon name_otto name_paul name_roger name_rudolf
+				name_sebastian name_seraphin name_vitus name_waleram name_werner name_wido name_adalbert name_adalbero
+				name_hartwig name_luitpold
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adalbert
+				name_adalbero
+				name_adolf
+				name_albert
+				name_arnold
+				name_berthold
+				name_conrad
+				name_everard
+				name_frederick
+				name_godfrey
+				name_henry
+				name_leopold
+				name_louis
+				name_otto
+				name_rudolf
+				name_sigfrid
+				name_sigmund
+				name_wolfgang
+				name_ulrick
+				name_alexander
+				name_alfred
+				name_abraham
+				name_alphonse
+				name_andrew
+				name_anthony
+				name_baldwin
+				name_balthazar
+				name_bernard.name_sigmund
+				name_bernard
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_christian
+				name_christopher
+				name_george
+				name_john
+				name_joseph
+				name_martin
+				name_matthias
+				name_michael
+				name_peter
+				name_philip
+				name_frederick
+				name_william
+				name_james
+				name_reginar
+				name_richard
+				name_robert
+				name_reginald
+				name_rappold
+				name_simeon
+				name_stephen
+				name_sigfrid
+				name_theodoric
+				name_thomas
+				name_theobald
+				name_victor
+				name_walter
+				name_adolf
+				name_adolf.name_frederick
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_albert
+				name_alexander
+				name_charles
+				name_ferdinand
+				name_francis
+				name_frederick
+				name_leopold
+				name_maximilian
+				name_victor
+				name_william
+				name_amalric
+				name_archibald
+				name_arnold
+				name_arnulf
+				name_august
+				name_augustine
+				name_bartholomew
+				name_boniface
+				name_casimir
+				name_conon
+				name_daniel
+				name_david
+				name_dominic
+				name_edmond
+				name_egilhard
+				name_engelbert
+				name_enguerrand
+				name_gilbert
+				name_gottschalk
+			}
+			female_names = {
+				name_adelaide name_amelia name_adela name_adriana name_angela name_alexandra name_anna name_ava name_agnes
+				name_agatha name_anna.name_lisa name_bridget name_barbara name_catherine name_cecile name_claire
+				name_clarice name_constance name_dorothy name_eleanor name_elisa name_elizabeth name_emily name_ester
+				name_frances name_frederica name_gertrude name_helen name_joanna name_judith name_julianne name_laura
+				name_lisa name_louise name_madeleine name_margaret name_matilda name_mary name_mary.name_madeleine
+				name_martha name_petra name_sophia name_susan name_theresa name_ursula name_ulrike name_victoria
+				name_waltrude name_blanche name_mary.name_theresa name_ada name_albertina name_apollonia name_beatrix
+				name_benedicta name_bertha name_christiana name_christine name_edith name_emma name_ermengard name_gisela
+				name_hedwig name_heilwig name_hildegard name_ida name_irene name_josephine name_kunigunde name_liutgard
+				name_oda name_philippa name_petronilla name_ricarda name_richilda name_rosa name_theodora name_walburga
+				name_willelma name_wulfhild name_yvonne name_mechthild
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adelaide
+				name_agnes
+				name_anna
+				name_beatrix
+				name_catherine
+				name_elizabeth
+				name_gertrude
+				name_hedwig
+				name_kunigunde
+				name_matilda
+				name_amelia
+				name_adela
+				name_adriana
+				name_angela
+				name_alexandra
+				name_ava
+				name_agatha
+				name_anna.name_lisa
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_barbara
+				name_christine
+				name_dorothy
+				name_eleanor
+				name_margaret
+				name_mary
+				name_sophia
+				name_theresa
+				name_madeleine
+				name_joanna
+				name_helen
+				name_judith
+				name_julianne
+				name_laura
+				name_lisa
+				name_louise
+				name_matilda
+				name_mary.name_madeleine
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexandra
+				name_frederica
+				name_josephine
+				name_louise
+				name_victoria
+				name_sophia
+				name_amelia
+				name_theresa
+				name_benedicta
+				name_bertha
+				name_christiana
+				name_christine
+				name_edith
+				name_emma
+				name_ermengard
+				name_gisela
+				name_hedwig
+				name_heilwig
+			}
+			dynasty_names = {
+				von_Pappenheim von_Keller_dynasty von_Aham von_Arco von_Armansperg von_Bibra von_Chlingensperg von_Closen
+				von_Degenberg von_Durkheim von_Fraunberg von_Freundsberg von_Gaisberg von_Griespach von_Gumppenberg
+				von_Hackledt von_Haslang Hofer von_Lobenstein von_Holnstein von_Knoringen von_Leublfing Pfaffinger
+				von_Pienzenau von_Raumer von_Rehlinger von_Rohr von_Waldow von_Sandizell von_Sinzendorf von_Tattenbach
+				von_Thurheim von_Toerring von_Koenigsegg von_Calw_dynasty von_Helffenstein_dynasty von_Urach_dynasty
+				von_Bucheck_dynasty von_Klingenberg_dynasty von_Karnten_dynasty von_Neuenburg_dynasty von_Plain_dynasty
+				von_Wasserburg_dynasty von_Lengenfeld_dynasty von_Eberstein_dynasty von_Bogen_dynasty von_Arstein_dynasty
+				von_Babenberg_dynasty von_Kirchberg_dynasty von_Raabs_dynasty von_Metz_dynasty von_Eppenstein_dynasty
+				von_Rheinfelden_dynasty von_Boulogne_dynasty von_Egisheim_dynasty hunfriding_dynasty von_Molln_dynasty
+				von_Nellenburg_dynasty pernstein_dynasty von_Lechsgmund_dynasty von_Komburg_dynasty von_Lambach_dynasty
+				von_Greyerz_dynasty von_Grenchen_dynasty von_Abensberg_dynasty von_Lichtenberg_dynasty von_Hachberg_dynasty
+				von_Wartenberg von_Wolfach_dynasty von_Gerhausen_dynasty von_Signau_dynasty von_Frickingen_dynasty
+				von_Sigmaringen_dynasty von_Regensburg_dynasty von_Lurngau_dynasty von_Meran_dynasty von_Treven_dynasty
+				beck_dynasty von_Attems_dynasty von_Eschenloch_dynasty von_Hardegg_dynasty von_Wangen_dynasty
+				von_Frontenhausen_dynasty von_Eurasburg_dynasty von_Hohenfels_dynasty von_Hunolstein_dynasty
+				von_Veringen_dynasty von_Gruningen_dynasty von_Eselsberg_dynasty von_Tschudi_dynasty von_Glarus_dynasty
+				von_Friedenthal_dynasty von_Waldenstein_dynasty von_Urslingen_dynasty von_Sundgau_dynasty von_Bern_dynasty
+				von_Schwyz_dynasty von_Aargau_dynasty von_Breisgau_dynasty von_Kempten_dynasty von_Trent_dynasty
+				von_Innsbruck_dynasty von_Berlichingen_dynasty sieghardinger_dynasty von_Beneckendorff von_Bunau
+				von_Rechenberg Sack Echter Gabelkofen Griespek von_Laiming von_Thurn_und_Taxis von_Bodeck_dynasty
+				Brauchitsch_dynasty von_Bulow_dynasty von_Cham_dynasty von_Steutzlingen_dynasty von_Venis_dynasty
+				von_Arbon_dynasty von_Dolen_dynasty von_Liebnitz_dynasty Rubsamen_dynasty Vorrade_dynasty
+				von_Sulzbach_dynasty von_Versfleth_dynasty von_Puteledorg_dynasty von_Sommerchenberg_dynasty
+				von_Sachsen_dynasty von_Beilstein_dynasty von_Stad_dynasty prochaska_dynasty asperger_dynasty runese_dynasty
+				pleskow_dynasty von_Russel_dynasty von_Leistenberg_dynasty von_Leibrechtskirchen_dynasty gualch_dynasty
+				von_Schweipunt_dynasty von_Stolzenberg_dynasty von_Chalons_dynasty von_Schwelz_dynasty von_Liebschau_dynasty
+				von_Neuhaus_dynasty von_Assel_dynasty von_Pfalz_dynasty von_Scheidingen von_Stolberg von_Taube von_Moor
+				ge_dyn_von_habsburg ge_dyn_von_wittelsbach ge_dyn_von_luxemburg ge_dyn_von_hohenzollern ge_dyn_von_wettin
+				ge_dyn_von_askanien ge_dyn_von_nassau ge_dyn_von_hohenlohe ge_dyn_von_reuss ge_dyn_von_zahringen
+				ge_dyn_von_bayern ge_dyn_von_wurttemberg ge_dyn_von_baden ge_dyn_von_tirol ge_dyn_von_gorizia
+				ge_dyn_von_montfort ge_dyn_von_freiburg
+			}
+			lowborn = {
+				Brenner Bohmer bach bartisch Busekke Bussacker celtes cuspinian cruger cranach Dientzenhofer Dinglinger
+				Erhart faber Fichte Gaismair Giese Gesiter Gothan name_hubert Hegel Hasse name_jonas Jacobs Jauert kubel
+				kepler Kant Karlstadt Klatt Langhans Laudan muller Maler Meincke Nicolai Notke Niemann pfauser Panck Porepp
+				Reinhold Reuchlin Reinike Siebenburger schlick Strauss Solms Schluter Sudermann schiller Silbermann Schiner
+				Schultz Schuhr Seeland Steinkopp Schlien Sass Schliechting tetzel turing Tannstetter Therbusch Thess
+				wertheimer Wolff Wilcke Zwicker Apian Aventinus Bullinger Egkelzain Grillparzer Wisso Zwingli ge_low_schmidt
+				ge_low_schneider ge_low_weber ge_low_fischer ge_low_becker ge_low_wagner ge_low_hoffmann ge_low_zimmermann
+				ge_low_bauer ge_low_kramer ge_low_huber ge_low_egger ge_low_moser ge_low_schwaiger ge_low_hofer
+				ge_low_lechner ge_low_gruber
+			}
+			ship_names = {
+				om7_ship_upper_german_dialect_001 om7_ship_upper_german_dialect_002 om7_ship_upper_german_dialect_003
+				om7_ship_upper_german_dialect_004 om7_ship_upper_german_dialect_005 om7_ship_upper_german_dialect_006
+				om7_ship_upper_german_dialect_007 om7_ship_upper_german_dialect_008 om7_ship_upper_german_dialect_009
+				om7_ship_upper_german_dialect_010 om7_ship_upper_german_dialect_011 om7_ship_upper_german_dialect_012
+				om7_ship_upper_german_dialect_013 om7_ship_upper_german_dialect_014 om7_ship_upper_german_dialect_015
+				om7_ship_upper_german_dialect_016 om7_ship_upper_german_dialect_017 om7_ship_upper_german_dialect_018
+				om7_ship_upper_german_dialect_019 om7_ship_upper_german_dialect_020 om7_ship_upper_german_dialect_021
+				om7_ship_upper_german_dialect_022 om7_ship_upper_german_dialect_023 om7_ship_upper_german_dialect_024
+				om7_ship_upper_german_dialect_025 om7_ship_upper_german_dialect_026 om7_ship_upper_german_dialect_027
+				om7_ship_upper_german_dialect_028 om7_ship_upper_german_dialect_029 om7_ship_upper_german_dialect_030
+				om7_ship_upper_german_dialect_031 om7_ship_upper_german_dialect_032 om7_ship_upper_german_dialect_033
+				om7_ship_upper_german_dialect_034 om7_ship_upper_german_dialect_035 om7_ship_upper_german_dialect_036
+				om7_ship_upper_german_dialect_037 om7_ship_upper_german_dialect_038 om7_ship_upper_german_dialect_039
+				om7_ship_upper_german_dialect_040 om7_ship_upper_german_dialect_041 om7_ship_upper_german_dialect_042
+				om7_ship_upper_german_dialect_043 om7_ship_upper_german_dialect_044 om7_ship_upper_german_dialect_045
+				om7_ship_upper_german_dialect_046 om7_ship_upper_german_dialect_047 om7_ship_upper_german_dialect_048
+				om7_ship_upper_german_dialect_049 om7_ship_upper_german_dialect_050 om7_ship_upper_german_dialect_051
+				om7_ship_upper_german_dialect_052 om7_ship_upper_german_dialect_053 om7_ship_upper_german_dialect_054
+				om7_ship_upper_german_dialect_055 om7_ship_upper_german_dialect_056 om7_ship_upper_german_dialect_057
+				om7_ship_upper_german_dialect_058 om7_ship_upper_german_dialect_059 om7_ship_upper_german_dialect_060
+				om7_ship_upper_german_dialect_061 om7_ship_upper_german_dialect_062 om7_ship_upper_german_dialect_063
+				om7_ship_upper_german_dialect_064 om7_ship_upper_german_dialect_065 om7_ship_upper_german_dialect_066
+				om7_ship_upper_german_dialect_067 om7_ship_upper_german_dialect_068 om7_ship_upper_german_dialect_069
+				om7_ship_upper_german_dialect_070 om7_ship_upper_german_dialect_071 om7_ship_upper_german_dialect_072
+				om7_ship_upper_german_dialect_073 om7_ship_upper_german_dialect_074 om7_ship_upper_german_dialect_075
+				om7_ship_upper_german_dialect_076 om7_ship_upper_german_dialect_077 om7_ship_upper_german_dialect_078
+				om7_ship_upper_german_dialect_079 om7_ship_upper_german_dialect_080 om7_ship_upper_german_dialect_081
+				om7_ship_upper_german_dialect_082 om7_ship_upper_german_dialect_083 om7_ship_upper_german_dialect_084
+				om7_ship_upper_german_dialect_085 om7_ship_upper_german_dialect_086 om7_ship_upper_german_dialect_087
+				om7_ship_upper_german_dialect_088 om7_ship_upper_german_dialect_089 om7_ship_upper_german_dialect_090
+				om7_ship_upper_german_dialect_091 om7_ship_upper_german_dialect_092 om7_ship_upper_german_dialect_093
+				om7_ship_upper_german_dialect_094 om7_ship_upper_german_dialect_095 om7_ship_upper_german_dialect_096
+				om7_ship_upper_german_dialect_097 om7_ship_upper_german_dialect_098 om7_ship_upper_german_dialect_099
+				om7_ship_upper_german_dialect_100 om7_ship_upper_german_dialect_101 om7_ship_upper_german_dialect_102
+				om7_ship_upper_german_dialect_103 om7_ship_upper_german_dialect_104 om7_ship_upper_german_dialect_105
+				om7_ship_upper_german_dialect_106 om7_ship_upper_german_dialect_107 om7_ship_upper_german_dialect_108
+				om7_ship_upper_german_dialect_109 om7_ship_upper_german_dialect_110 om7_ship_upper_german_dialect_111
+				om7_ship_upper_german_dialect_112 om7_ship_upper_german_dialect_113 om7_ship_upper_german_dialect_114
+				om7_ship_upper_german_dialect_115 om7_ship_upper_german_dialect_116 om7_ship_upper_german_dialect_117
+				om7_ship_upper_german_dialect_118 om7_ship_upper_german_dialect_119 om7_ship_upper_german_dialect_120
+				om7_ship_upper_german_dialect_121 om7_ship_upper_german_dialect_122 om7_ship_upper_german_dialect_123
+				om7_ship_upper_german_dialect_124 om7_ship_upper_german_dialect_125 om7_ship_upper_german_dialect_126
+				om7_ship_upper_german_dialect_127 om7_ship_upper_german_dialect_128
+			}
+		}
+		alemannic_dialect = {
+			fallback = upper_german_dialect
+			male_names = {
+				name_alexander name_alfred name_albert name_abraham name_alphonse name_andrew name_anthony name_baldwin
+				name_balthazar name_bernard.name_sigmund name_bernard name_berthold name_casper name_charles
+				name_christopher name_conrad name_constantine name_christian name_erwin name_emmanuel name_ernest
+				name_everard name_frederick name_felix name_george name_gerard name_godfrey name_gregory name_henry
+				name_hector name_james name_john name_john.name_albert name_john.name_george name_lambert name_leonard
+				name_leopold name_laurence name_mark name_matthias name_maurice name_maximilian name_nicholas name_philip
+				name_peter name_reginar name_richard name_robert name_reginald name_rappold name_simeon name_stephen
+				name_sigfrid name_theodoric name_thomas name_theobald name_victor name_walter name_adolf name_adalhard
+				name_adelmo name_alberic name_amalric name_archibald name_arnold name_arnulf name_august name_augustine
+				name_bartholomew name_benedict name_boniface name_burchard name_casimir name_conon name_daniel name_david
+				name_dominic name_edmond name_egilhard name_engelbert name_enguerrand name_gilbert name_gottschalk
+				name_gunther name_hartmann name_herbert name_herman name_hieronymus name_hubert name_hugh name_jobst
+				name_jeremiah name_joseph name_lothar name_louis name_ludolf name_martin name_meinhard name_michael
+				name_milon name_otto name_paul name_roger name_rudolf name_sebastian name_seraphin name_sigmund name_ulrick
+				name_vitus name_waleram name_wenceslas name_werner name_wido name_william name_wolfgang name_adalbert
+				name_adalbero name_hartwig name_adolf.name_frederick name_adolf.name_ernest name_barnabas
+				name_christian.name_louis name_charles.name_leopold name_clement name_eugene name_frederick.name_francis
+				name_francis name_ferdinand name_gustav.name_rudolf name_philip.name_louis name_waldemar name_xavier
+				name_luitpold name_haimo name_notker
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adalbert
+				name_adalbero
+				name_adolf
+				name_albert
+				name_arnold
+				name_berthold
+				name_conrad
+				name_everard
+				name_frederick
+				name_godfrey
+				name_henry
+				name_leopold
+				name_louis
+				name_otto
+				name_rudolf
+				name_sigfrid
+				name_sigmund
+				name_wolfgang
+				name_ulrick
+				name_alexander
+				name_alfred
+				name_abraham
+				name_alphonse
+				name_andrew
+				name_anthony
+				name_baldwin
+				name_balthazar
+				name_bernard.name_sigmund
+				name_bernard
+				name_casper
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_andrew
+				name_christian
+				name_christopher
+				name_george
+				name_john
+				name_joseph
+				name_martin
+				name_matthias
+				name_michael
+				name_peter
+				name_philip
+				name_frederick
+				name_william
+				name_james
+				name_reginar
+				name_richard
+				name_robert
+				name_reginald
+				name_rappold
+				name_simeon
+				name_stephen
+				name_sigfrid
+				name_theodoric
+				name_thomas
+				name_theobald
+				name_victor
+				name_walter
+				name_adolf
+				name_adalhard
+				name_adelmo
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_albert
+				name_alexander
+				name_charles
+				name_ferdinand
+				name_francis
+				name_frederick
+				name_leopold
+				name_maximilian
+				name_victor
+				name_william
+				name_jobst
+				name_jeremiah
+				name_joseph
+				name_lothar
+				name_louis
+				name_ludolf
+				name_martin
+				name_meinhard
+				name_michael
+				name_milon
+				name_otto
+				name_paul
+				name_roger
+				name_rudolf
+				name_sebastian
+				name_seraphin
+				name_sigmund
+				name_ulrick
+				name_vitus
+				name_waleram
+			}
+			female_names = {
+				name_adelaide name_amelia name_adela name_adriana name_angela name_alexandra name_anna name_ava name_agnes
+				name_agatha name_anna.name_lisa name_bridget name_barbara name_catherine name_cecile name_claire
+				name_clarice name_constance name_dorothy name_eleanor name_elisa name_elizabeth name_emily name_ester
+				name_frances name_frederica name_gertrude name_helen name_joanna name_judith name_julianne name_laura
+				name_lisa name_louise name_madeleine name_margaret name_matilda name_mary name_mary.name_madeleine
+				name_martha name_petra name_sophia name_susan name_theresa name_ursula name_ulrike name_victoria
+				name_waltrude name_ada name_albertina name_apollonia name_beatrix name_benedicta name_bertha name_blanche
+				name_christiana name_christine name_edith name_emma name_ermengard name_gisela name_hedwig name_heilwig
+				name_hildegard name_ida name_irene name_josephine name_kunigunde name_liutgard name_oda name_philippa
+				name_petronilla name_ricarda name_richilda name_rosa name_theodora name_walburga name_willelma name_wulfhild
+				name_yvonne name_mechthild name_mary.name_theresa
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adelaide
+				name_agnes
+				name_anna
+				name_beatrix
+				name_catherine
+				name_elizabeth
+				name_gertrude
+				name_hedwig
+				name_kunigunde
+				name_matilda
+				name_amelia
+				name_adela
+				name_adriana
+				name_angela
+				name_alexandra
+				name_ava
+				name_agatha
+				name_anna.name_lisa
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_barbara
+				name_christine
+				name_dorothy
+				name_eleanor
+				name_margaret
+				name_mary
+				name_sophia
+				name_theresa
+				name_madeleine
+				name_joanna
+				name_helen
+				name_judith
+				name_julianne
+				name_laura
+				name_lisa
+				name_louise
+				name_matilda
+				name_mary.name_madeleine
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexandra
+				name_frederica
+				name_josephine
+				name_louise
+				name_victoria
+				name_sophia
+				name_amelia
+				name_theresa
+				name_blanche
+				name_christiana
+				name_christine
+				name_edith
+				name_emma
+				name_ermengard
+				name_gisela
+				name_hedwig
+				name_heilwig
+				name_hildegard
+			}
+			dynasty_names = {
+				ge_dyn_von_habsburg ge_dyn_von_wittelsbach ge_dyn_von_luxemburg ge_dyn_von_hohenzollern ge_dyn_von_wettin
+				ge_dyn_von_askanien ge_dyn_von_nassau ge_dyn_von_hohenlohe ge_dyn_von_reuss ge_dyn_von_zahringen
+				von_Pappenheim von_Keller_dynasty von_Aham von_Arco von_Armansperg von_Bibra von_Chlingensperg von_Closen
+				von_Degenberg von_Durkheim von_Fraunberg von_Freundsberg von_Gaisberg von_Griespach von_Gumppenberg
+				von_Hackledt von_Haslang Hofer von_Lobenstein von_Holnstein von_Knoringen von_Leublfing Pfaffinger
+				von_Pienzenau von_Raumer von_Rehlinger von_Rohr von_Waldow von_Sandizell von_Sinzendorf von_Tattenbach
+				von_Thurheim von_Toerring von_Koenigsegg von_Calw_dynasty von_Helffenstein_dynasty von_Urach_dynasty
+				von_Bucheck_dynasty von_Klingenberg_dynasty von_Karnten_dynasty von_Neuenburg_dynasty von_Plain_dynasty
+				von_Wasserburg_dynasty von_Lengenfeld_dynasty von_Eberstein_dynasty von_Bogen_dynasty von_Arstein_dynasty
+				von_Babenberg_dynasty von_Kirchberg_dynasty von_Raabs_dynasty von_Metz_dynasty von_Eppenstein_dynasty
+				von_Rheinfelden_dynasty von_Boulogne_dynasty von_Egisheim_dynasty hunfriding_dynasty von_Molln_dynasty
+				von_Nellenburg_dynasty pernstein_dynasty von_Lechsgmund_dynasty von_Komburg_dynasty von_Lambach_dynasty
+				von_Greyerz_dynasty von_Grenchen_dynasty von_Abensberg_dynasty von_Lichtenberg_dynasty von_Hachberg_dynasty
+				von_Wartenberg von_Wolfach_dynasty von_Gerhausen_dynasty von_Signau_dynasty von_Frickingen_dynasty
+				von_Sigmaringen_dynasty von_Regensburg_dynasty von_Lurngau_dynasty von_Meran_dynasty von_Treven_dynasty
+				beck_dynasty von_Attems_dynasty von_Eschenloch_dynasty von_Hardegg_dynasty von_Wangen_dynasty
+				von_Frontenhausen_dynasty von_Eurasburg_dynasty von_Hohenfels_dynasty von_Hunolstein_dynasty
+				von_Veringen_dynasty von_Gruningen_dynasty von_Eselsberg_dynasty von_Tschudi_dynasty von_Glarus_dynasty
+				von_Friedenthal_dynasty von_Waldenstein_dynasty von_Urslingen_dynasty von_Sundgau_dynasty von_Bern_dynasty
+				von_Schwyz_dynasty von_Aargau_dynasty von_Breisgau_dynasty von_Kempten_dynasty von_Trent_dynasty
+				von_Innsbruck_dynasty von_Berlichingen_dynasty sieghardinger_dynasty von_Beneckendorff von_Bunau
+				von_Rechenberg Sack Echter Gabelkofen Griespek von_Laiming von_Thurn_und_Taxis von_Bodeck_dynasty
+				Brauchitsch_dynasty von_Bulow_dynasty von_Cham_dynasty von_Steutzlingen_dynasty von_Venis_dynasty
+				von_Arbon_dynasty von_Dolen_dynasty von_Liebnitz_dynasty Rubsamen_dynasty Vorrade_dynasty
+				von_Sulzbach_dynasty von_Versfleth_dynasty von_Puteledorg_dynasty von_Sommerchenberg_dynasty
+				von_Sachsen_dynasty von_Beilstein_dynasty von_Stad_dynasty prochaska_dynasty asperger_dynasty runese_dynasty
+				pleskow_dynasty von_Russel_dynasty von_Leistenberg_dynasty von_Leibrechtskirchen_dynasty gualch_dynasty
+				von_Schweipunt_dynasty von_Stolzenberg_dynasty von_Chalons_dynasty von_Schwelz_dynasty von_Liebschau_dynasty
+				von_Neuhaus_dynasty von_Assel_dynasty von_Pfalz_dynasty von_Scheidingen von_Stolberg von_Taube von_Moor
+				ge_dyn_von_bayern ge_dyn_von_wurttemberg ge_dyn_von_baden ge_dyn_von_tirol ge_dyn_von_gorizia
+				ge_dyn_von_montfort ge_dyn_von_freiburg ge_dyn_von_rapperswil ge_dyn_von_toggenburg ge_dyn_von_kyburg
+				ge_dyn_von_lenzburg ge_dyn_von_thierstein ge_dyn_von_falkenstein_ch ge_dyn_von_hallwyl
+			}
+			lowborn = {
+				Brenner Bohmer bach bartisch Busekke Bussacker celtes cuspinian cruger cranach Dientzenhofer Dinglinger
+				Erhart faber Fichte Gaismair Giese Gesiter Gothan Hubert Hegel Hasse Jonas Jacobs Jauert kubel kepler Kant
+				Karlstadt Klatt Langhans Laudan muller Maler Meincke Nicolai Notke Niemann pfauser Panck Porepp Reinhold
+				Reuchlin Reinike Siebenburger schlick Strauss Solms Schluter Sudermann schiller Silbermann Schiner Schultz
+				Schuhr Seeland Steinkopp Schlien Sass Schliechting tetzel turing Tannstetter Therbusch Thess wertheimer
+				Wolff Wilcke Zwicker ge_low_schmidt ge_low_schneider ge_low_weber ge_low_fischer ge_low_becker ge_low_wagner
+				ge_low_hoffmann ge_low_zimmermann ge_low_bauer ge_low_kramer Apian Aventinus Bullinger Egkelzain Grillparzer
+				Wisso Zwingli ge_low_huber ge_low_egger ge_low_moser ge_low_schwaiger ge_low_hofer ge_low_lechner
+				ge_low_gruber ge_low_suter ge_low_amman ge_low_baumann ge_low_meier_alem ge_low_keller ge_low_ziegler
+				ge_low_zeller ge_low_brunner
+			}
+			ship_names = {
+				om7_ship_alemannic_dialect_001 om7_ship_alemannic_dialect_002 om7_ship_alemannic_dialect_003
+				om7_ship_alemannic_dialect_004 om7_ship_alemannic_dialect_005 om7_ship_alemannic_dialect_006
+				om7_ship_alemannic_dialect_007 om7_ship_alemannic_dialect_008 om7_ship_alemannic_dialect_009
+				om7_ship_alemannic_dialect_010 om7_ship_alemannic_dialect_011 om7_ship_alemannic_dialect_012
+				om7_ship_alemannic_dialect_013 om7_ship_alemannic_dialect_014 om7_ship_alemannic_dialect_015
+				om7_ship_alemannic_dialect_016 om7_ship_alemannic_dialect_017 om7_ship_alemannic_dialect_018
+				om7_ship_alemannic_dialect_019 om7_ship_alemannic_dialect_020 om7_ship_alemannic_dialect_021
+				om7_ship_alemannic_dialect_022 om7_ship_alemannic_dialect_023 om7_ship_alemannic_dialect_024
+				om7_ship_alemannic_dialect_025 om7_ship_alemannic_dialect_026 om7_ship_alemannic_dialect_027
+				om7_ship_alemannic_dialect_028 om7_ship_alemannic_dialect_029 om7_ship_alemannic_dialect_030
+				om7_ship_alemannic_dialect_031 om7_ship_alemannic_dialect_032 om7_ship_alemannic_dialect_033
+				om7_ship_alemannic_dialect_034 om7_ship_alemannic_dialect_035 om7_ship_alemannic_dialect_036
+				om7_ship_alemannic_dialect_037 om7_ship_alemannic_dialect_038 om7_ship_alemannic_dialect_039
+				om7_ship_alemannic_dialect_040 om7_ship_alemannic_dialect_041 om7_ship_alemannic_dialect_042
+				om7_ship_alemannic_dialect_043 om7_ship_alemannic_dialect_044 om7_ship_alemannic_dialect_045
+				om7_ship_alemannic_dialect_046 om7_ship_alemannic_dialect_047 om7_ship_alemannic_dialect_048
+				om7_ship_alemannic_dialect_049 om7_ship_alemannic_dialect_050 om7_ship_alemannic_dialect_051
+				om7_ship_alemannic_dialect_052 om7_ship_alemannic_dialect_053 om7_ship_alemannic_dialect_054
+				om7_ship_alemannic_dialect_055 om7_ship_alemannic_dialect_056 om7_ship_alemannic_dialect_057
+				om7_ship_alemannic_dialect_058 om7_ship_alemannic_dialect_059 om7_ship_alemannic_dialect_060
+				om7_ship_alemannic_dialect_061 om7_ship_alemannic_dialect_062 om7_ship_alemannic_dialect_063
+				om7_ship_alemannic_dialect_064 om7_ship_alemannic_dialect_065 om7_ship_alemannic_dialect_066
+				om7_ship_alemannic_dialect_067 om7_ship_alemannic_dialect_068 om7_ship_alemannic_dialect_069
+				om7_ship_alemannic_dialect_070 om7_ship_alemannic_dialect_071 om7_ship_alemannic_dialect_072
+				om7_ship_alemannic_dialect_073 om7_ship_alemannic_dialect_074 om7_ship_alemannic_dialect_075
+				om7_ship_alemannic_dialect_076 om7_ship_alemannic_dialect_077 om7_ship_alemannic_dialect_078
+				om7_ship_alemannic_dialect_079 om7_ship_alemannic_dialect_080 om7_ship_alemannic_dialect_081
+				om7_ship_alemannic_dialect_082 om7_ship_alemannic_dialect_083 om7_ship_alemannic_dialect_084
+				om7_ship_alemannic_dialect_085 om7_ship_alemannic_dialect_086 om7_ship_alemannic_dialect_087
+				om7_ship_alemannic_dialect_088 om7_ship_alemannic_dialect_089 om7_ship_alemannic_dialect_090
+				om7_ship_alemannic_dialect_091 om7_ship_alemannic_dialect_092 om7_ship_alemannic_dialect_093
+				om7_ship_alemannic_dialect_094 om7_ship_alemannic_dialect_095 om7_ship_alemannic_dialect_096
+				om7_ship_alemannic_dialect_097 om7_ship_alemannic_dialect_098 om7_ship_alemannic_dialect_099
+				om7_ship_alemannic_dialect_100 om7_ship_alemannic_dialect_101 om7_ship_alemannic_dialect_102
+				om7_ship_alemannic_dialect_103 om7_ship_alemannic_dialect_104 om7_ship_alemannic_dialect_105
+				om7_ship_alemannic_dialect_106 om7_ship_alemannic_dialect_107 om7_ship_alemannic_dialect_108
+				om7_ship_alemannic_dialect_109 om7_ship_alemannic_dialect_110 om7_ship_alemannic_dialect_111
+				om7_ship_alemannic_dialect_112 om7_ship_alemannic_dialect_113 om7_ship_alemannic_dialect_114
+				om7_ship_alemannic_dialect_115 om7_ship_alemannic_dialect_116 om7_ship_alemannic_dialect_117
+				om7_ship_alemannic_dialect_118 om7_ship_alemannic_dialect_119 om7_ship_alemannic_dialect_120
+				om7_ship_alemannic_dialect_121 om7_ship_alemannic_dialect_122 om7_ship_alemannic_dialect_123
+				om7_ship_alemannic_dialect_124 om7_ship_alemannic_dialect_125 om7_ship_alemannic_dialect_126
+				om7_ship_alemannic_dialect_127 om7_ship_alemannic_dialect_128
+			}
+		}
+		yiddish_dialect = {
+			male_names = {
+				Abiatar Ahijah Akabon Alon Amit Amram Ananelus Ananias Aretas Aristobulus Azrikam Barak name_baruch
+				Belshazar Costobarus Deror Dori Eiran Eleazar Erotimus Ezra Hadasa Herod Hillel Hyrkanus Jannaeus Joazar
+				Yosef Josiada Kahana Hodaviah Honio Meir Nahum Nathan Nehemiah Nikanor Nir Obadiah Ofer Omri Pinchas
+				Phannias Phasael Raanan Malichus Manasseh Nogah Shamgar Shammai Shaul Shemaiah Shemida Silas name_simeon
+				Sosa Talmon Tarfon Tovia Yair Yochanan Zadok name_aaron name_abraham name_adam name_asher name_benjamin
+				name_chaim name_daniel name_david name_elias name_eliezer name_gabriel name_isaac name_israel name_james
+				name_jeremiah name_joseph name_joshua name_judah name_menachem name_mordecai name_moses name_noah
+				name_raphael name_salomon name_samuel name_saul name_tobias name_yechiel name_yona name_zechariah
+				yi_male_alter yi_male_anshl yi_male_ber yi_male_bunem yi_male_fayvush yi_male_feyvl yi_male_hirsh
+				yi_male_leyb yi_male_lipman yi_male_mendl yi_male_sendl yi_male_sholem yi_male_shneur yi_male_shmerl
+				yi_male_volf yi_male_zalmen yi_male_zanvl yi_male_zelig yi_male_ziskind yi_male_yudel yi_male_yekel
+				yi_male_zekl name_om_yi_hersh name_om_yi_leib name_om_yi_mendel
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_aaron
+				name_abraham
+				name_isaac
+				name_james
+				name_moses
+				name_david
+				name_salomon
+				name_samuel
+				name_joseph
+				name_judah
+				name_benjamin
+				name_mordecai
+				Ezra
+				name_simeon
+				name_saul
+				Yochanan
+				Hillel
+				Meir
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_aaron
+				name_abraham
+				name_isaac
+				name_james
+				name_moses
+				name_david
+				name_salomon
+				name_samuel
+				name_joseph
+				name_judah
+				name_benjamin
+				name_mordecai
+				yi_male_hirsh
+				yi_male_leyb
+				yi_male_mendl
+				yi_male_sholem
+				yi_male_zalmen
+				yi_male_zelig
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_chaim
+				name_daniel
+				name_israel
+				name_raphael
+				name_tobias
+				name_joseph
+				name_moses
+				name_samuel
+				yi_male_alter
+				yi_male_anshl
+				yi_male_bunem
+				yi_male_fayvush
+				yi_male_hirsh
+				yi_male_leyb
+				yi_male_mendl
+				yi_male_sholem
+				yi_male_shneur
+				yi_male_volf
+				yi_male_zalmen
+				yi_male_zelig
+			}
+			female_names = {
+				name_judith Adena name_adi Adva Ahuva name_alexandra Aliza Alte Arieh Asher Basia Boaz Chanah Cypros Danya
+				Dara Dina Doris Dov Dvora Elisheva name_ester Galia Galit Leah Liat Liora Machla Mariamne Marni Maya Meital
+				Menahem Milka Naamah Nahal Nava Nissa Orah Orit Osher name_rachel Raisa Rivka Salampsio name_sara Shayna
+				name_tamara Tirtza Yael Yocheved name_esther name_malka name_miriam name_rebecca name_tamar name_tzipporah
+				yi_female_basye yi_female_beyle yi_female_blume yi_female_brayne yi_female_brendl yi_female_feyge
+				yi_female_freyde yi_female_freydl yi_female_frume yi_female_frumet yi_female_gitel yi_female_golde
+				yi_female_gute yi_female_hinde yi_female_hodle yi_female_keyle yi_female_kreindl yi_female_libe
+				yi_female_mindl yi_female_perl yi_female_reyzl yi_female_sheyndl yi_female_sprintze yi_female_toybe
+				yi_female_tserl yi_female_yehudis yi_female_yente yi_female_yentl yi_female_zelde yi_female_zlate
+				name_om_yi_golda name_om_yi_fruma
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_sara
+				name_rachel
+				Leah
+				name_miriam
+				name_esther
+				name_judith
+				name_rebecca
+				name_tamar
+				name_tzipporah
+				Yocheved
+				Dvora
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_sara
+				name_rachel
+				Leah
+				name_miriam
+				name_esther
+				name_judith
+				name_rebecca
+				yi_female_basye
+				yi_female_beyle
+				yi_female_blume
+				yi_female_feyge
+				yi_female_freyde
+				yi_female_gitel
+				yi_female_golde
+				yi_female_hinde
+				yi_female_hodle
+				yi_female_perl
+				yi_female_reyzl
+				yi_female_yente
+				yi_female_zlate
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexandra
+				name_tamara
+				name_esther
+				name_malka
+				name_miriam
+				name_rebecca
+				yi_female_brendl
+				yi_female_freydl
+				yi_female_frume
+				yi_female_frumet
+				yi_female_golde
+				yi_female_keyle
+				yi_female_kreindl
+				yi_female_mindl
+				yi_female_sheyndl
+				yi_female_sprintze
+				yi_female_yentl
+				yi_female_zelde
+			}
+			dynasty_names = {
+				Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid
+				Nahumid Nirid Nogahid Oferid Omrid Pinchasid Raananid Shemidid Yairid yi_dyn_kalonymus yi_dyn_yitzhaki
+				yi_dyn_shapiro yi_dyn_luria yi_dyn_horowitz yi_dyn_rappoport yi_dyn_katzenellenbogen yi_dyn_teomim
+				yi_dyn_isserles yi_dyn_landau yi_dyn_oppenheim yi_dyn_bacharach yi_dyn_auerbach yi_dyn_frankel yi_dyn_gans
+				yi_dyn_emden yi_dyn_eybeschutz yi_dyn_heilprin yi_dyn_spira yi_dyn_worms yi_dyn_loew yi_dyn_rothschild
+				yi_dyn_wertheimer yi_dyn_mendelssohn yi_dyn_bamberger yi_dyn_prager yi_dyn_schotten yi_dyn_treves
+				yi_dyn_of_ashkenaz yi_dyn_ben_avraham yi_dyn_ben_moyshe yi_dyn_ben_yitskhok yi_dyn_ben_yankev
+				yi_dyn_ben_yoysef
+			}
+			lowborn = {
+				Mendelssohn oppenheimer Cohen Levi Shulman Sofer name_aaron name_abraham Abrahams name_adam Adams name_amos
+				Chaikin name_david Ezra Harel Hayes Heiman Hirsch name_jordan Katz Levine Meyer Mendel Mendelsohn name_moses
+				Nathans name_salomon name_samuel Segal Shafir Shapiro Sherman name_simeon name_tobias yi_low_kohen
+				yi_low_melamed yi_low_shames yi_low_schulman yi_low_schreiber yi_low_kantor yi_low_goldschmidt
+				yi_low_silbermann yi_low_eisenberg yi_low_rosenbaum yi_low_rosenberg yi_low_rosenfeld yi_low_blumenfeld
+				yi_low_stein yi_low_steinberg yi_low_weiss yi_low_schwartz yi_low_gross yi_low_klein yi_low_kaufmann
+				yi_low_kramer yi_low_schneider yi_low_friedmann yi_low_gluck yi_low_lichtenstein yi_low_wormser
+				yi_low_speyer yi_low_bacharach yi_low_auerbach yi_low_landauer yi_low_wertheimer yi_low_frankfurter
+				yi_low_prager yi_low_wiener yi_low_posner yi_low_breslauer yi_low_rothschild om_low_yi_ashkenazi
+				om_low_yi_katzenellenbogen om_low_yi_heller
+			}
+			patronym_suffix_son = "patronym_suffix_yiddish_son"
+			patronym_suffix_daughter = "patronym_suffix_yiddish_son"
+			ship_names = {
+				om7_ship_yiddish_dialect_001 om7_ship_yiddish_dialect_002 om7_ship_yiddish_dialect_003
+				om7_ship_yiddish_dialect_004 om7_ship_yiddish_dialect_005 om7_ship_yiddish_dialect_006
+				om7_ship_yiddish_dialect_007 om7_ship_yiddish_dialect_008 om7_ship_yiddish_dialect_009
+				om7_ship_yiddish_dialect_010 om7_ship_yiddish_dialect_011 om7_ship_yiddish_dialect_012
+				om7_ship_yiddish_dialect_013 om7_ship_yiddish_dialect_014 om7_ship_yiddish_dialect_015
+				om7_ship_yiddish_dialect_016 om7_ship_yiddish_dialect_017 om7_ship_yiddish_dialect_018
+				om7_ship_yiddish_dialect_019 om7_ship_yiddish_dialect_020 om7_ship_yiddish_dialect_021
+				om7_ship_yiddish_dialect_022 om7_ship_yiddish_dialect_023 om7_ship_yiddish_dialect_024
+				om7_ship_yiddish_dialect_025 om7_ship_yiddish_dialect_026 om7_ship_yiddish_dialect_027
+				om7_ship_yiddish_dialect_028 om7_ship_yiddish_dialect_029 om7_ship_yiddish_dialect_030
+				om7_ship_yiddish_dialect_031 om7_ship_yiddish_dialect_032 om7_ship_yiddish_dialect_033
+				om7_ship_yiddish_dialect_034 om7_ship_yiddish_dialect_035 om7_ship_yiddish_dialect_036
+				om7_ship_yiddish_dialect_037 om7_ship_yiddish_dialect_038 om7_ship_yiddish_dialect_039
+				om7_ship_yiddish_dialect_040 om7_ship_yiddish_dialect_041 om7_ship_yiddish_dialect_042
+				om7_ship_yiddish_dialect_043 om7_ship_yiddish_dialect_044 om7_ship_yiddish_dialect_045
+				om7_ship_yiddish_dialect_046 om7_ship_yiddish_dialect_047 om7_ship_yiddish_dialect_048
+				om7_ship_yiddish_dialect_049 om7_ship_yiddish_dialect_050 om7_ship_yiddish_dialect_051
+				om7_ship_yiddish_dialect_052 om7_ship_yiddish_dialect_053 om7_ship_yiddish_dialect_054
+				om7_ship_yiddish_dialect_055 om7_ship_yiddish_dialect_056 om7_ship_yiddish_dialect_057
+				om7_ship_yiddish_dialect_058 om7_ship_yiddish_dialect_059 om7_ship_yiddish_dialect_060
+				om7_ship_yiddish_dialect_061 om7_ship_yiddish_dialect_062 om7_ship_yiddish_dialect_063
+				om7_ship_yiddish_dialect_064 om7_ship_yiddish_dialect_065 om7_ship_yiddish_dialect_066
+				om7_ship_yiddish_dialect_067 om7_ship_yiddish_dialect_068 om7_ship_yiddish_dialect_069
+				om7_ship_yiddish_dialect_070 om7_ship_yiddish_dialect_071 om7_ship_yiddish_dialect_072
+				om7_ship_yiddish_dialect_073 om7_ship_yiddish_dialect_074 om7_ship_yiddish_dialect_075
+				om7_ship_yiddish_dialect_076 om7_ship_yiddish_dialect_077 om7_ship_yiddish_dialect_078
+				om7_ship_yiddish_dialect_079 om7_ship_yiddish_dialect_080 om7_ship_yiddish_dialect_081
+				om7_ship_yiddish_dialect_082 om7_ship_yiddish_dialect_083 om7_ship_yiddish_dialect_084
+				om7_ship_yiddish_dialect_085 om7_ship_yiddish_dialect_086 om7_ship_yiddish_dialect_087
+				om7_ship_yiddish_dialect_088 om7_ship_yiddish_dialect_089 om7_ship_yiddish_dialect_090
+				om7_ship_yiddish_dialect_091 om7_ship_yiddish_dialect_092 om7_ship_yiddish_dialect_093
+				om7_ship_yiddish_dialect_094 om7_ship_yiddish_dialect_095 om7_ship_yiddish_dialect_096
+				om7_ship_yiddish_dialect_097 om7_ship_yiddish_dialect_098 om7_ship_yiddish_dialect_099
+				om7_ship_yiddish_dialect_100 om7_ship_yiddish_dialect_101 om7_ship_yiddish_dialect_102
+				om7_ship_yiddish_dialect_103 om7_ship_yiddish_dialect_104 om7_ship_yiddish_dialect_105
+				om7_ship_yiddish_dialect_106 om7_ship_yiddish_dialect_107 om7_ship_yiddish_dialect_108
+				om7_ship_yiddish_dialect_109 om7_ship_yiddish_dialect_110 om7_ship_yiddish_dialect_111
+				om7_ship_yiddish_dialect_112 om7_ship_yiddish_dialect_113 om7_ship_yiddish_dialect_114
+				om7_ship_yiddish_dialect_115 om7_ship_yiddish_dialect_116 om7_ship_yiddish_dialect_117
+			}
+		}
+	}
+}
+
+frisian_language = {
+	color = map_FRI
+	family = germanic_language_family
+	male_names = {
+		name_arnold name_anthony name_bernard name_balthazar name_christian name_charles name_conrad name_douwe
+		name_eggricus name_egilhard name_eeltje name_eginhard name_eghard name_edo name_ferdinand name_frederick
+		name_francis name_gisbert name_george name_henry name_hugh name_igo name_john name_james name_joseph
+		name_louis name_magnus name_martin name_michael name_nicholas name_okko name_olaf name_peter name_rudolf
+		name_theudebert name_theodoric name_tilman name_ulrick name_uniko name_udalbert name_werner name_wigbald
+		name_wighard name_wibrand name_wigo name_om_fy_jelle name_om_fy_sikke name_om_fy_eelco name_om_fy_fokke
+		name_om_fy_albdag name_om_fy_aldgisl name_om_fy_atto name_om_fy_bernlef name_om_fy_bubo name_om_fy_eppo
+		name_om_fy_folke name_om_fy_folkric name_om_fy_gardulf name_gerulf name_om_fy_hofo name_om_fy_huno
+		name_om_fy_liudger name_om_fy_redbad name_om_fy_ricbald name_om_fy_saxger name_om_fy_saxmund
+		name_om_fy_sibrand name_om_fy_tatto name_om_fy_thiadbraht name_om_fy_thiadgrim name_om_fy_willibraht
+		name_om_fy_witmund name_om_fy_wlemar
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		name_om_fy_albdag
+		name_om_fy_aldgisl
+		name_om_fy_atto
+		name_om_fy_bernlef
+		name_om_fy_bubo
+		name_om_fy_eppo
+		name_om_fy_folke
+		name_om_fy_folkric
+		name_om_fy_gardulf
+		name_gerulf
+		name_om_fy_hofo
+		name_om_fy_huno
+		name_om_fy_liudger
+		name_om_fy_redbad
+		name_om_fy_ricbald
+		name_om_fy_saxger
+		name_om_fy_saxmund
+		name_om_fy_sibrand
+		name_om_fy_tatto
+		name_om_fy_thiadbraht
+		name_om_fy_thiadgrim
+		name_om_fy_willibraht
+		name_om_fy_witmund
+		name_om_fy_wlemar
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		name_arnold
+		name_bernard
+		name_conrad
+		name_douwe
+		name_eggricus
+		name_egilhard
+		name_eeltje
+		name_eginhard
+		name_eghard
+		name_edo
+		name_frederick
+		name_gisbert
+		name_henry
+		name_hugh
+		name_igo
+		name_john
+		name_james
+		name_martin
+		name_michael
+		name_okko
+		name_theudebert
+		name_theodoric
+		name_uniko
+		name_udalbert
+		name_wibrand
+		name_wigo
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_anthony
+		name_balthazar
+		name_christian
+		name_charles
+		name_ferdinand
+		name_francis
+		name_george
+		name_john
+		name_james
+		name_joseph
+		name_louis
+		name_magnus
+		name_martin
+		name_michael
+		name_nicholas
+		name_peter
+		name_rudolf
+		name_ulrick
+		name_werner
+		name_om_fy_jelle
+		name_om_fy_sikke
+		name_om_fy_eelco
+		name_om_fy_fokke
+	}
+	female_names = {
+		name_aechte name_anna name_albertina name_christine name_cecile name_charlotte name_elizabeth name_ferdinanda
+		name_frieda name_jocelyn name_julianne name_letitia name_mary name_theodora name_wineke name_om_fy_antje
+		name_om_fy_froukje name_om_fy_jetske name_om_fy_sietske name_om_fy_erinburg name_om_fy_frithesuin
+		name_om_fy_liafburg name_om_fy_tetta name_om_fy_theudesinda name_om_fy_fenna name_om_fy_imke name_om_fy_jeltje
+		name_om_fy_nynke name_om_fy_wiebke name_om_fy_hiske name_om_fy_jildou
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		name_aechte
+		name_wineke
+		name_om_fy_erinburg
+		name_om_fy_frithesuin
+		name_om_fy_liafburg
+		name_om_fy_tetta
+		name_om_fy_theudesinda
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		name_anna
+		name_christine
+		name_cecile
+		name_elizabeth
+		name_julianne
+		name_mary
+		name_theodora
+		name_wineke
+		name_om_fy_antje
+		name_om_fy_froukje
+		name_om_fy_jetske
+		name_om_fy_sietske
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_albertina
+		name_charlotte
+		name_ferdinanda
+		name_frieda
+		name_jocelyn
+		name_letitia
+		name_om_fy_fenna
+		name_om_fy_imke
+		name_om_fy_jeltje
+		name_om_fy_nynke
+		name_om_fy_wiebke
+		name_om_fy_hiske
+		name_om_fy_jildou
+	}
+	dynasty_names = {
+		Abdena Accama fan_Aldenboarch Brandsma fan_Boalsert fan_Blije Bieninka Brongersma Binnerts Bonninga tom_Brok
+		Carree Douwama Durks Dirksen Donia Edema Eisinga Emmius Eschels fan_Esens Feddes Galama Hamkes Halbertsma
+		Haringsma Japiks fan_Jever Jelckama Jelgersma Lenige Ripperda fan_Rossum Steenbicker Sirksena Syrtsema
+		fan_Thabor Vitringa Walles Wiarda Zelle om_dyn_fy_cammingha om_dyn_fy_harinxma om_dyn_fy_sjaarda
+		om_dyn_fy_burmania
+	}
+	lowborn = {
+		om_low_fy_jansma om_low_fy_dijkstra om_low_fy_feenstra om_low_fy_de_boer
+	}
+	location_prefix = "location_prefix_frisian"
+	patronym_suffix_son = "patronym_suffix_frisian_son"
+	patronym_suffix_daughter = "patronym_suffix_frisian_daughter"
+	ship_names = {
+		om7_ship_frisian_language_001 om7_ship_frisian_language_002 om7_ship_frisian_language_003
+		om7_ship_frisian_language_004 om7_ship_frisian_language_005 om7_ship_frisian_language_006
+		om7_ship_frisian_language_007 om7_ship_frisian_language_008 om7_ship_frisian_language_009
+		om7_ship_frisian_language_010 om7_ship_frisian_language_011 om7_ship_frisian_language_012
+		om7_ship_frisian_language_013 om7_ship_frisian_language_014 om7_ship_frisian_language_015
+		om7_ship_frisian_language_016 om7_ship_frisian_language_017 om7_ship_frisian_language_018
+		om7_ship_frisian_language_019 om7_ship_frisian_language_020 om7_ship_frisian_language_021
+		om7_ship_frisian_language_022 om7_ship_frisian_language_023 om7_ship_frisian_language_024
+		om7_ship_frisian_language_025 om7_ship_frisian_language_026 om7_ship_frisian_language_027
+		om7_ship_frisian_language_028 om7_ship_frisian_language_029 om7_ship_frisian_language_030
+		om7_ship_frisian_language_031 om7_ship_frisian_language_032 om7_ship_frisian_language_033
+		om7_ship_frisian_language_034 om7_ship_frisian_language_035 om7_ship_frisian_language_036
+		om7_ship_frisian_language_037 om7_ship_frisian_language_038 om7_ship_frisian_language_039
+		om7_ship_frisian_language_040 om7_ship_frisian_language_041 om7_ship_frisian_language_042
+		om7_ship_frisian_language_043 om7_ship_frisian_language_044 om7_ship_frisian_language_045
+		om7_ship_frisian_language_046 om7_ship_frisian_language_047 om7_ship_frisian_language_048
+		om7_ship_frisian_language_049 om7_ship_frisian_language_050 om7_ship_frisian_language_051
+		om7_ship_frisian_language_052 om7_ship_frisian_language_053 om7_ship_frisian_language_054
+		om7_ship_frisian_language_055 om7_ship_frisian_language_056 om7_ship_frisian_language_057
+		om7_ship_frisian_language_058 om7_ship_frisian_language_059 om7_ship_frisian_language_060
+		om7_ship_frisian_language_061 om7_ship_frisian_language_062 om7_ship_frisian_language_063
+		om7_ship_frisian_language_064 om7_ship_frisian_language_065 om7_ship_frisian_language_066
+		om7_ship_frisian_language_067 om7_ship_frisian_language_068 om7_ship_frisian_language_069
+		om7_ship_frisian_language_070 om7_ship_frisian_language_071 om7_ship_frisian_language_072
+		om7_ship_frisian_language_073
+	}
+}
+
+gothic_language = {
+	color = color_culture_gothic
+	family = germanic_language_family
+	fallback = german_language
+	male_names = {
+		name_om_got_athanaric name_om_got_alaric name_om_got_theodoric name_om_got_wulfila name_om_got_fritigern
+		name_om_got_ataulf name_om_got_wallia name_om_got_theudis name_om_got_theudigisel name_om_got_euric
+		name_om_got_gesalec name_om_got_amalaric name_om_got_athalaric name_om_got_witiges name_om_got_totila
+		name_om_got_teia name_om_got_ermanaric name_om_got_valamir name_om_got_theodemir name_om_got_vidimir
+		name_om_got_radagaisus name_om_got_geberic name_om_got_ostrogotha name_om_got_theodahad name_om_got_ildibad
+		name_om_got_eraric name_om_got_thorismund name_om_got_gainas name_om_got_tribigild name_john name_peter
+		name_michael name_henry name_charles name_albert name_frederick
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 220
+		}
+		name_om_got_athanaric
+		name_om_got_alaric
+		name_om_got_theodoric
+		name_om_got_wulfila
+		name_om_got_fritigern
+		name_om_got_ataulf
+		name_om_got_wallia
+		name_om_got_theudis
+		name_om_got_theudigisel
+		name_om_got_euric
+		name_om_got_gesalec
+		name_om_got_amalaric
+		name_om_got_athalaric
+		name_om_got_ermanaric
+		name_om_got_valamir
+		name_om_got_theodemir
+		name_om_got_vidimir
+		name_om_got_radagaisus
+		name_om_got_geberic
+		name_om_got_ostrogotha
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 175
+		}
+		name_om_got_alaric
+		name_om_got_theodoric
+		name_om_got_ataulf
+		name_om_got_euric
+		name_om_got_amalaric
+		name_om_got_athalaric
+		name_om_got_witiges
+		name_om_got_totila
+		name_om_got_teia
+		name_om_got_theodahad
+		name_om_got_ildibad
+		name_om_got_eraric
+		name_om_got_thorismund
+		name_john
+		name_peter
+		name_michael
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_john
+		name_peter
+		name_michael
+		name_henry
+		name_charles
+		name_albert
+		name_frederick
+		name_om_got_alaric
+		name_om_got_theodoric
+	}
+	female_names = {
+		name_om_got_amalasuntha name_om_got_galswintha name_om_got_brunhilda name_om_got_ragnahild
+		name_om_got_amalafrida name_om_got_audofleda name_om_got_matasuntha name_om_got_ostrogotho
+		name_om_got_thiudigotho name_om_got_goiswintha name_om_got_giso name_om_got_theodenanda name_om_got_amalaberga
+		name_om_got_sunigilda name_anna name_mary name_catherine name_elizabeth name_sophia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 220
+		}
+		name_om_got_amalasuntha
+		name_om_got_galswintha
+		name_om_got_brunhilda
+		name_om_got_ragnahild
+		name_om_got_amalafrida
+		name_om_got_audofleda
+		name_om_got_matasuntha
+		name_om_got_ostrogotho
+		name_om_got_thiudigotho
+		name_om_got_goiswintha
+		name_om_got_giso
+		name_om_got_theodenanda
+		name_om_got_amalaberga
+		name_om_got_sunigilda
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 175
+		}
+		name_om_got_amalasuntha
+		name_om_got_galswintha
+		name_om_got_amalafrida
+		name_om_got_matasuntha
+		name_om_got_goiswintha
+		name_anna
+		name_mary
+		name_catherine
+		name_sophia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_anna
+		name_mary
+		name_catherine
+		name_elizabeth
+		name_sophia
+		name_om_got_amalasuntha
+	}
+	dynasty_names = {
+		om_dyn_got_amali om_dyn_got_balthi om_dyn_got_tervingi om_dyn_got_greuthungi
+	}
+	lowborn = {
+		om_low_got_wulfing om_low_got_amaling om_low_got_reiks om_low_got_gutthiuda
+	}
+	ship_names = {
+		om7_ship_gothic_language_001 om7_ship_gothic_language_002 om7_ship_gothic_language_003
+		om7_ship_gothic_language_004 om7_ship_gothic_language_005 om7_ship_gothic_language_006
+		om7_ship_gothic_language_007 om7_ship_gothic_language_008 om7_ship_gothic_language_009
+		om7_ship_gothic_language_010 om7_ship_gothic_language_011 om7_ship_gothic_language_012
+		om7_ship_gothic_language_013 om7_ship_gothic_language_014 om7_ship_gothic_language_015
+		om7_ship_gothic_language_016 om7_ship_gothic_language_017 om7_ship_gothic_language_018
+		om7_ship_gothic_language_019 om7_ship_gothic_language_020 om7_ship_gothic_language_021
+		om7_ship_gothic_language_022 om7_ship_gothic_language_023 om7_ship_gothic_language_024
+		om7_ship_gothic_language_025 om7_ship_gothic_language_026 om7_ship_gothic_language_027
+		om7_ship_gothic_language_028 om7_ship_gothic_language_029 om7_ship_gothic_language_030
+		om7_ship_gothic_language_031 om7_ship_gothic_language_032 om7_ship_gothic_language_033
+		om7_ship_gothic_language_034 om7_ship_gothic_language_035 om7_ship_gothic_language_036
+	}
+}

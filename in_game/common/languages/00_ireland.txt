@@ -1,0 +1,492 @@
+﻿gaelic_language = {
+	color = map_IRE
+	family = celtic_language_family
+	male_names = {
+		name_alan name_angus name_anthony name_arnold name_arthur name_barry name_benedict name_benjamin name_boyle
+		name_brady name_brennan name_brian name_byrne name_cahan name_cahir name_carroll name_carthy name_casey
+		name_charles name_colin name_connell name_connor name_cooley name_cormack name_daly name_david name_dermot
+		name_doherty name_donald name_donovan name_dougal name_dowd name_duff name_duffy name_dunne name_edmond
+		name_faly name_fergal name_flynn name_foley name_gallagher name_geraghty name_gildernew name_gilpatrick
+		name_healy name_hector name_henry name_hugh name_james name_kelly name_kennedy name_kenny name_kinsella
+		name_laurence name_louis name_lynch name_magnus name_mahon name_malachy name_malley name_melaghlin
+		name_michael name_molloy name_moran name_more name_murphy name_murray name_murtagh name_nigel name_nolan
+		name_patrick name_quinn name_reilly name_richard name_roderick name_rooney name_rourke name_russo name_ryan
+		name_shea name_sullivan name_teague name_theobald name_thomas name_tuathal name_turlough name_ulrick
+		name_viking name_whelan name_william name_aed name_aengus name_domnall name_donnchad name_eoghan name_finn
+		name_murchad name_ruaidri name_tadg
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 160
+		}
+		name_brian
+		name_aed
+		name_aengus
+		name_charles
+		name_connor
+		name_quinn
+		name_cormack
+		name_domnall
+		name_donnchad
+		name_eoghan
+		name_finn
+		name_murtagh
+		name_murchad
+		name_nigel
+		name_ruaidri
+		name_tadg
+		name_turlough
+		name_teague
+		name_donald
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_adam
+		name_andrew
+		name_james
+		name_john
+		name_michael
+		name_patrick
+		name_peter
+		name_thomas
+		name_william
+		name_cormack
+		name_nigel
+		name_hugh
+		name_om_ga_sean
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_alexander
+		name_charles
+		name_daniel
+		name_edward
+		name_george
+		name_henry
+		name_joseph
+		name_robert
+		name_patrick
+		name_om_ga_toirdhealbhach
+		name_om_ga_eoghan
+		name_om_ga_muiris
+	}
+	female_names = {
+		name_affric name_ava name_bridget name_helen name_grace name_neve name_finnuala name_slaney name_sive
+		name_joanna name_anna Afraig name_catherine name_derval name_gormlaith name_elizabeth name_mary name_margaret
+		name_meryl name_aisling name_brigid name_caitlin name_gormflaith name_maire name_sinead
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_anna
+		name_catherine
+		name_elizabeth
+		name_margaret
+		name_mary
+		name_sara
+		name_grace
+		name_om_ga_caitriona
+		name_maire
+		name_joanna
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_caroline
+		name_charlotte
+		name_eleanor
+		name_victoria
+		name_ava
+		name_om_ga_nora
+		name_om_ga_una
+		name_om_ga_brid
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 145
+		}
+		name_aisling
+		name_brigid
+		name_caitlin
+		name_finnuala
+		name_gormflaith
+		name_grace
+		name_maire
+		name_sive
+		name_sinead
+		name_om_ga_aoife
+		name_om_ga_mor
+		name_gormlaith
+	}
+	dynasty_names = {
+		om_dyn_ga_o_neill om_dyn_ga_o_domhnaill om_dyn_ga_o_briain om_dyn_ga_mac_carthaigh om_dyn_ga_mac_murchadha
+		om_dyn_ga_o_conchobhair
+	}
+	lowborn = {
+		om_low_ga_o_suilleabhain om_low_ga_o_riain om_low_ga_o_murchu om_low_ga_o_ceallaigh
+		om_low_ga_mac_giolla_phadraig
+	}
+	patronym_prefix_son = "patronym_prefix_gaelic_son"
+	patronym_prefix_son_vowel = "patronym_prefix_gaelic_son_vowel"
+	patronym_prefix_daughter = "patronym_prefix_gaelic_daughter"
+	patronym_prefix_daughter_vowel = "patronym_prefix_gaelic_daughter_vowel"
+	descendant_prefix = "descendant_prefix_gaelic"
+	descendant_prefix_male = "descendant_prefix_gaelic_male"
+	descendant_prefix_female = "descendant_prefix_gaelic_female"
+	location_prefix = "location_prefix_gaelic"
+	ship_names = {
+		om7_ship_gaelic_language_001 om7_ship_gaelic_language_002 om7_ship_gaelic_language_003
+		om7_ship_gaelic_language_004 om7_ship_gaelic_language_005 om7_ship_gaelic_language_006
+		om7_ship_gaelic_language_007 om7_ship_gaelic_language_008 om7_ship_gaelic_language_009
+		om7_ship_gaelic_language_010 om7_ship_gaelic_language_011 om7_ship_gaelic_language_012
+		om7_ship_gaelic_language_013 om7_ship_gaelic_language_014 om7_ship_gaelic_language_015
+		om7_ship_gaelic_language_016 om7_ship_gaelic_language_017 om7_ship_gaelic_language_018
+		om7_ship_gaelic_language_019 om7_ship_gaelic_language_020 om7_ship_gaelic_language_021
+		om7_ship_gaelic_language_022 om7_ship_gaelic_language_023 om7_ship_gaelic_language_024
+		om7_ship_gaelic_language_025 om7_ship_gaelic_language_026 om7_ship_gaelic_language_027
+		om7_ship_gaelic_language_028 om7_ship_gaelic_language_029 om7_ship_gaelic_language_030
+		om7_ship_gaelic_language_031 om7_ship_gaelic_language_032 om7_ship_gaelic_language_033
+		om7_ship_gaelic_language_034 om7_ship_gaelic_language_035 om7_ship_gaelic_language_036
+		om7_ship_gaelic_language_037 om7_ship_gaelic_language_038 om7_ship_gaelic_language_039
+		om7_ship_gaelic_language_040 om7_ship_gaelic_language_041 om7_ship_gaelic_language_042
+		om7_ship_gaelic_language_043 om7_ship_gaelic_language_044 om7_ship_gaelic_language_045
+		om7_ship_gaelic_language_046 om7_ship_gaelic_language_047 om7_ship_gaelic_language_048
+		om7_ship_gaelic_language_049 om7_ship_gaelic_language_050 om7_ship_gaelic_language_051
+		om7_ship_gaelic_language_052 om7_ship_gaelic_language_053 om7_ship_gaelic_language_054
+		om7_ship_gaelic_language_055 om7_ship_gaelic_language_056 om7_ship_gaelic_language_057
+		om7_ship_gaelic_language_058 om7_ship_gaelic_language_059 om7_ship_gaelic_language_060
+		om7_ship_gaelic_language_061 om7_ship_gaelic_language_062 om7_ship_gaelic_language_063
+		om7_ship_gaelic_language_064 om7_ship_gaelic_language_065 om7_ship_gaelic_language_066
+		om7_ship_gaelic_language_067 om7_ship_gaelic_language_068 om7_ship_gaelic_language_069
+		om7_ship_gaelic_language_070 om7_ship_gaelic_language_071 om7_ship_gaelic_language_072
+		om7_ship_gaelic_language_073 om7_ship_gaelic_language_074 om7_ship_gaelic_language_075
+		om7_ship_gaelic_language_076 om7_ship_gaelic_language_077 om7_ship_gaelic_language_078
+		om7_ship_gaelic_language_079 om7_ship_gaelic_language_080 om7_ship_gaelic_language_081
+		om7_ship_gaelic_language_082 om7_ship_gaelic_language_083 om7_ship_gaelic_language_084
+		om7_ship_gaelic_language_085 om7_ship_gaelic_language_086 om7_ship_gaelic_language_087
+		om7_ship_gaelic_language_088 om7_ship_gaelic_language_089 om7_ship_gaelic_language_090
+		om7_ship_gaelic_language_091 om7_ship_gaelic_language_092 om7_ship_gaelic_language_093
+		om7_ship_gaelic_language_094 om7_ship_gaelic_language_095 om7_ship_gaelic_language_096
+		om7_ship_gaelic_language_097 om7_ship_gaelic_language_098 om7_ship_gaelic_language_099
+		om7_ship_gaelic_language_100 om7_ship_gaelic_language_101 om7_ship_gaelic_language_102
+		om7_ship_gaelic_language_103 om7_ship_gaelic_language_104 om7_ship_gaelic_language_105
+		om7_ship_gaelic_language_106 om7_ship_gaelic_language_107 om7_ship_gaelic_language_108
+		om7_ship_gaelic_language_109 om7_ship_gaelic_language_110 om7_ship_gaelic_language_111
+		om7_ship_gaelic_language_112 om7_ship_gaelic_language_113
+	}
+	dialects = {
+		irish_dialect = {
+			ship_names = {
+				om7_ship_irish_dialect_001 om7_ship_irish_dialect_002 om7_ship_irish_dialect_003 om7_ship_irish_dialect_004
+				om7_ship_irish_dialect_005 om7_ship_irish_dialect_006 om7_ship_irish_dialect_007 om7_ship_irish_dialect_008
+				om7_ship_irish_dialect_009 om7_ship_irish_dialect_010 om7_ship_irish_dialect_011 om7_ship_irish_dialect_012
+				om7_ship_irish_dialect_013 om7_ship_irish_dialect_014 om7_ship_irish_dialect_015 om7_ship_irish_dialect_016
+				om7_ship_irish_dialect_017 om7_ship_irish_dialect_018 om7_ship_irish_dialect_019 om7_ship_irish_dialect_020
+				om7_ship_irish_dialect_021 om7_ship_irish_dialect_022 om7_ship_irish_dialect_023 om7_ship_irish_dialect_024
+				om7_ship_irish_dialect_025 om7_ship_irish_dialect_026 om7_ship_irish_dialect_027 om7_ship_irish_dialect_028
+				om7_ship_irish_dialect_029 om7_ship_irish_dialect_030 om7_ship_irish_dialect_031 om7_ship_irish_dialect_032
+				om7_ship_irish_dialect_033 om7_ship_irish_dialect_034 om7_ship_irish_dialect_035 om7_ship_irish_dialect_036
+				om7_ship_irish_dialect_037 om7_ship_irish_dialect_038 om7_ship_irish_dialect_039 om7_ship_irish_dialect_040
+				om7_ship_irish_dialect_041 om7_ship_irish_dialect_042 om7_ship_irish_dialect_043 om7_ship_irish_dialect_044
+				om7_ship_irish_dialect_045 om7_ship_irish_dialect_046 om7_ship_irish_dialect_047 om7_ship_irish_dialect_048
+				om7_ship_irish_dialect_049 om7_ship_irish_dialect_050 om7_ship_irish_dialect_051 om7_ship_irish_dialect_052
+				om7_ship_irish_dialect_053 om7_ship_irish_dialect_054 om7_ship_irish_dialect_055 om7_ship_irish_dialect_056
+				om7_ship_irish_dialect_057 om7_ship_irish_dialect_058 om7_ship_irish_dialect_059 om7_ship_irish_dialect_060
+				om7_ship_irish_dialect_061 om7_ship_irish_dialect_062 om7_ship_irish_dialect_063 om7_ship_irish_dialect_064
+				om7_ship_irish_dialect_065 om7_ship_irish_dialect_066 om7_ship_irish_dialect_067 om7_ship_irish_dialect_068
+				om7_ship_irish_dialect_069 om7_ship_irish_dialect_070 om7_ship_irish_dialect_071 om7_ship_irish_dialect_072
+				om7_ship_irish_dialect_073 om7_ship_irish_dialect_074 om7_ship_irish_dialect_075 om7_ship_irish_dialect_076
+				om7_ship_irish_dialect_077 om7_ship_irish_dialect_078 om7_ship_irish_dialect_079 om7_ship_irish_dialect_080
+				om7_ship_irish_dialect_081 om7_ship_irish_dialect_082 om7_ship_irish_dialect_083 om7_ship_irish_dialect_084
+				om7_ship_irish_dialect_085 om7_ship_irish_dialect_086 om7_ship_irish_dialect_087 om7_ship_irish_dialect_088
+				om7_ship_irish_dialect_089 om7_ship_irish_dialect_090 om7_ship_irish_dialect_091 om7_ship_irish_dialect_092
+				om7_ship_irish_dialect_093 om7_ship_irish_dialect_094 om7_ship_irish_dialect_095 om7_ship_irish_dialect_096
+				om7_ship_irish_dialect_097 om7_ship_irish_dialect_098 om7_ship_irish_dialect_099 om7_ship_irish_dialect_100
+				om7_ship_irish_dialect_101 om7_ship_irish_dialect_102 om7_ship_irish_dialect_103 om7_ship_irish_dialect_104
+				om7_ship_irish_dialect_105 om7_ship_irish_dialect_106 om7_ship_irish_dialect_107 om7_ship_irish_dialect_108
+				om7_ship_irish_dialect_109 om7_ship_irish_dialect_110 om7_ship_irish_dialect_111 om7_ship_irish_dialect_112
+				om7_ship_irish_dialect_113
+			}
+		}
+		scottish_gaelic_dialect = {
+			male_names = {
+				name_alan name_alexander name_alvin name_andrew name_angus name_arthur name_benjamin name_bolan name_charles
+				name_colin name_cuthbert name_david name_donald name_dougal name_douglas name_duff name_duncan name_farquhar
+				name_fergus name_fingon name_finlay name_george name_hector name_james name_john name_kenneth name_lulach
+				name_malcolm name_malise name_maurice name_michael name_murray name_nectan name_odhar name_paul name_phelan
+				name_philip name_richard name_robert name_roger name_roland name_rowan name_russo name_thomas name_torquil
+				name_william name_wynn name_godfrey name_hacon name_harold name_indulf name_ivor name_leod name_magnus
+				name_norman name_olaf name_reginald name_somerled name_sven name_ulrick
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_alan
+				name_alexander
+				name_alvin
+				name_angus
+				name_arthur
+				name_colin
+				name_donald
+				name_dougal
+				name_douglas
+				name_duff
+				name_duncan
+				name_farquhar
+				name_fergus
+				name_fingon
+				name_finlay
+				name_hector
+				name_kenneth
+				name_lulach
+				name_malcolm
+				name_malise
+				name_murray
+				name_nectan
+				name_odhar
+				name_phelan
+				name_torquil
+				name_godfrey
+				name_hacon
+				name_harold
+				name_indulf
+				name_ivor
+				name_leod
+				name_olaf
+				name_reginald
+				name_somerled
+				name_sven
+				name_ulrick
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_alan
+				name_alexander
+				name_andrew
+				name_charles
+				name_colin
+				name_david
+				name_donald
+				name_dougal
+				name_george
+				name_hector
+				name_james
+				name_john
+				name_malcolm
+				name_maurice
+				name_michael
+				name_paul
+				name_philip
+				name_richard
+				name_robert
+				name_roland
+				name_thomas
+				name_william
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_andrew
+				name_charles
+				name_colin
+				name_david
+				name_donald
+				name_george
+				name_hector
+				name_james
+				name_john
+				name_michael
+				name_paul
+				name_philip
+				name_richard
+				name_robert
+				name_thomas
+				name_william
+				name_malcolm
+			}
+			female_names = {
+				name_mary name_catherine name_finnuala name_cecile name_affric name_ava name_bridget name_helen name_neve
+				name_slaney name_joanna name_anna name_derval name_gormlaith name_elizabeth name_margaret name_meryl
+				name_aisling name_caitlin name_gormflaith name_grainne name_sadhbh name_sinead name_alice name_sara
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_affric
+				name_ava
+				name_bridget
+				name_neve
+				name_finnuala
+				name_slaney
+				name_derval
+				name_gormlaith
+				name_gormflaith
+				name_grainne
+				name_sadhbh
+				name_mary
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_affric
+				name_ava
+				name_bridget
+				name_helen
+				name_neve
+				name_finnuala
+				name_slaney
+				name_joanna
+				name_anna
+				name_catherine
+				name_derval
+				name_gormlaith
+				name_elizabeth
+				name_mary
+				name_margaret
+				name_alice
+				name_cecile
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_anna
+				name_catherine
+				name_elizabeth
+				name_helen
+				name_joanna
+				name_margaret
+				name_mary
+				name_meryl
+				name_aisling
+				name_caitlin
+				name_grainne
+				name_sinead
+				name_sara
+			}
+			dynasty_names = {
+				om_dyn_gd_macleoid om_dyn_gd_macdhomhnaill om_dyn_gd_maccoinnich om_dyn_gd_macgriogair
+			}
+			lowborn = {
+				om_low_gd_mac_an_t_saoir om_low_gd_mac_a_ghobhainn om_low_gd_mac_an_leigh
+			}
+			ship_names = {
+				om7_ship_scottish_gaelic_dialect_001 om7_ship_scottish_gaelic_dialect_002
+				om7_ship_scottish_gaelic_dialect_003 om7_ship_scottish_gaelic_dialect_004
+				om7_ship_scottish_gaelic_dialect_005 om7_ship_scottish_gaelic_dialect_006
+				om7_ship_scottish_gaelic_dialect_007 om7_ship_scottish_gaelic_dialect_008
+				om7_ship_scottish_gaelic_dialect_009 om7_ship_scottish_gaelic_dialect_010
+				om7_ship_scottish_gaelic_dialect_011 om7_ship_scottish_gaelic_dialect_012
+				om7_ship_scottish_gaelic_dialect_013 om7_ship_scottish_gaelic_dialect_014
+				om7_ship_scottish_gaelic_dialect_015 om7_ship_scottish_gaelic_dialect_016
+				om7_ship_scottish_gaelic_dialect_017 om7_ship_scottish_gaelic_dialect_018
+				om7_ship_scottish_gaelic_dialect_019 om7_ship_scottish_gaelic_dialect_020
+				om7_ship_scottish_gaelic_dialect_021 om7_ship_scottish_gaelic_dialect_022
+				om7_ship_scottish_gaelic_dialect_023 om7_ship_scottish_gaelic_dialect_024
+				om7_ship_scottish_gaelic_dialect_025 om7_ship_scottish_gaelic_dialect_026
+				om7_ship_scottish_gaelic_dialect_027 om7_ship_scottish_gaelic_dialect_028
+				om7_ship_scottish_gaelic_dialect_029 om7_ship_scottish_gaelic_dialect_030
+				om7_ship_scottish_gaelic_dialect_031 om7_ship_scottish_gaelic_dialect_032
+				om7_ship_scottish_gaelic_dialect_033 om7_ship_scottish_gaelic_dialect_034
+				om7_ship_scottish_gaelic_dialect_035 om7_ship_scottish_gaelic_dialect_036
+				om7_ship_scottish_gaelic_dialect_037 om7_ship_scottish_gaelic_dialect_038
+				om7_ship_scottish_gaelic_dialect_039 om7_ship_scottish_gaelic_dialect_040
+				om7_ship_scottish_gaelic_dialect_041 om7_ship_scottish_gaelic_dialect_042
+				om7_ship_scottish_gaelic_dialect_043 om7_ship_scottish_gaelic_dialect_044
+				om7_ship_scottish_gaelic_dialect_045 om7_ship_scottish_gaelic_dialect_046
+				om7_ship_scottish_gaelic_dialect_047 om7_ship_scottish_gaelic_dialect_048
+				om7_ship_scottish_gaelic_dialect_049 om7_ship_scottish_gaelic_dialect_050
+				om7_ship_scottish_gaelic_dialect_051 om7_ship_scottish_gaelic_dialect_052
+				om7_ship_scottish_gaelic_dialect_053 om7_ship_scottish_gaelic_dialect_054
+				om7_ship_scottish_gaelic_dialect_055 om7_ship_scottish_gaelic_dialect_056
+				om7_ship_scottish_gaelic_dialect_057 om7_ship_scottish_gaelic_dialect_058
+				om7_ship_scottish_gaelic_dialect_059 om7_ship_scottish_gaelic_dialect_060
+			}
+		}
+	}
+}

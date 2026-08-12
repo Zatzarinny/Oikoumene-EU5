@@ -1,0 +1,2079 @@
+﻿latin_language = {
+	color = religion_catholic
+	family = romance_language_family
+	fallback = greek_language
+	male_names = {
+		name_aeneas Appius Agrippa name_aulus Caelus name_chrysogonos name_decimus name_decius Drusus name_faustus
+		name_gaius name_gnaeus name_lucius Mamercus name_manius name_mark Mettius Opiter name_publius Postumus
+		Proculus name_quintus name_secundus Septimus name_servius name_sextus name_spurius Tertius name_titus
+		name_tiberius Volero Volumnius name_octavius Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius
+		Sertor Potitus Vibius Cossus Arruns Camillus name_august name_abundius name_abelard name_achilles name_adrian
+		name_aetius name_agapetus name_alban name_alberic name_albert name_albinus name_alexander name_alexis
+		name_amadeus name_ambrose name_anastasius name_andrew name_anthony name_archibald name_arsenios name_artemios
+		name_augustine name_aurelius name_ausonius name_auxilius name_bartholomew name_basil name_bassianus
+		name_bassus name_benedict name_bernard name_blaise name_bonaventura name_boniface name_bruno name_brutus
+		name_caesar name_callisto name_candidus name_cassius name_clement name_constant name_constantine
+		name_cornelius name_cosmas name_dalmatius name_damian name_david name_demetrius name_dominic name_edward
+		name_elpidius name_emmanuel name_ennius name_eugene name_fabrice name_felix name_ferdinand name_ferrutius
+		name_philip name_florus name_flavius name_fortunatus name_francis name_gabriel name_gelasius name_gentilis
+		name_george name_gerard name_germanus name_gervase name_gilbert name_godfrey name_gregory name_hannibal
+		name_hector name_henry name_hercules name_herman name_hermenegild name_hieronymus name_hippolytos
+		name_honorius name_humbert name_hyacinth name_hyginus name_ignatius name_innocent name_irenaeus name_james
+		name_john name_jordan name_joseph name_julian name_julius name_lactantius name_lambert name_lando name_landulf
+		name_lanfrank name_laurence name_lazarus name_leon name_leonard name_leopold name_libero name_lionel
+		name_livius name_louis name_lucas name_lupus name_manfred name_marianus name_marinus name_marius
+		name_marsilius name_martin name_matthew name_michael name_nestor name_nicholas name_orestes name_otto
+		name_ottobonus name_pancras name_pandulf name_paschal name_patrick name_paul name_peregrine name_peter
+		name_pius name_prosper name_raphael name_raymond name_rayner name_reginald name_richard name_robert
+		name_roland name_rudolf name_salvator name_sebastian name_septimius name_seraphin name_sergius name_severinus
+		name_severus name_silvester name_simeon name_stephen name_sylvan name_thaddeus name_theobald name_theodore
+		name_thomas name_timothy name_titianus name_victor name_walter name_wido name_william name_xavier
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Aelius
+		Aemilius
+		Anicius
+		Annius
+		name_aetius
+		name_constantine
+		name_flavius
+		name_julian
+		name_justin
+		name_justinian
+		name_marcian
+		name_theodosius
+		name_valens
+		name_valentinian
+		name_peter
+		name_om_la_iohannes
+		name_gregory
+		name_benedict
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_augustine
+		name_benedict
+		name_clement
+		name_gregory
+		name_hieronymus
+		name_leon
+		name_martin
+		name_peter
+		name_paul
+		name_silvester
+		name_thomas
+		name_pius
+		name_om_la_sixtus
+		name_julius
+		name_om_la_urbanus
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 105
+		}
+		name_adrian
+		name_ambrose
+		name_francis
+		name_ignatius
+		name_joseph
+		name_laurence
+		name_philip
+		name_vincent
+		name_innocent
+		name_clement
+		name_leon
+		name_paul
+	}
+	female_names = {
+		name_agrippina Appia Aula Caesula Decima name_fausta Gaia Gnaea Hosta name_lucia Maio Mamerca Mania
+		name_marcia Maxima Mettia Mino Nona Numeria name_octavia Paulla Postuma Prima Procula Publia Quarta Quinta
+		Secunda Septima Servia Sexta Spuria Statia Tertia Titia Tiberia Tulla Vibia Volusa Vopisca name_adalberta
+		name_adalgisa name_adela name_adelaide name_adelinda name_adriana name_agnes name_albina name_alexandra
+		name_alice name_ambrosia name_amelia name_anastasia name_anna name_antonia name_argentina name_augusta
+		name_augustina name_aurelia name_auxilia name_ausonia name_beatrix name_benedicta name_bertha name_blanche
+		name_camilla name_candida name_carla name_catherine name_cecile name_claire name_claudia name_constance
+		name_cornelia name_dorothy name_eleanor name_elizabeth name_eudoxia name_eugenie name_felicia name_felicitas
+		name_flavia name_flora name_fortunata name_frances name_fusca name_helen name_hermenegilda name_hyacintha
+		name_joanna name_josephine name_judith name_julie name_julianne name_laura name_lavinia name_letitia
+		name_livia name_louise name_lucrece name_lydia name_madeleine name_marcella name_margaret name_marianne
+		name_martina name_mary name_matilda name_michaela name_paula name_philippa name_philomena name_regina
+		name_renata name_ricarda name_rosa name_sophia name_stephanie name_sylvia name_theodora name_thomassine
+		name_titiana name_valentina name_valeria name_veronica name_virginia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_agrippina
+		name_antonia
+		name_aurelia
+		name_constantina
+		name_cornelia
+		name_livia
+		name_octavia
+		name_claire
+		name_om_la_scholastica
+		name_om_la_agnes
+		name_lucia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_agatha
+		name_agnes
+		name_catherine
+		name_euphemia
+		name_helen
+		name_mary
+		name_sophia
+		name_theodora
+		name_frances
+		name_om_la_catharina
+		name_cecile
+		name_om_la_margarita
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 105
+		}
+		name_anna
+		name_barbara
+		name_elizabeth
+		name_frances
+		name_martha
+		name_om_la_maria_anna
+		name_om_la_theresia
+		name_om_la_victoria
+		name_philippa
+	}
+	dynasty_names = {
+		name_helios name_anthony name_cassius name_claude name_cornelius Fabius name_flavius name_julius name_livius
+		name_marius name_octavius Pompeius Sempronius name_valerius Aelius Aemilius Anicius Annius Aurelius Caecilius
+		Calpurnius Domitius Furius Junius Licinius Manlius Marcius Papirius Porcius Postumius Quintilius Sergius
+		Servilius Sulpicius Tullius om_dyn_la_colonna om_dyn_la_orsini om_dyn_la_farnese om_dyn_la_barberini
+		om_dyn_la_borghese om_dyn_la_della_rovere
+	}
+	lowborn = {
+		Vorenius Pullo Aburius Accius Acilius Acutius Aebutius Aemilius Alienus Anicius Annius Antius Antistius
+		Appuleius Apronius Aquillius name_attilio Atius Aufidius Aulius Blossius name_aurelius Caecinus Caecilius
+		Calavius Calpurnius Cantius Carvilius Catius Centenius Cilnius Cispius Cloelius Cominius Coruncanius Curiatius
+		Curtius Curius name_decius Domitius name_fabrice Foslius Fulcinius Fulvius Furius Funius Gabinius
+		name_galerius Gracchus Geganius Gellius Herminius name_horatius Hortensius Hostilius Junius Juventius
+		Laetorius Lartius name_licinius name_lucius Lucretius Maelius Maenius Mamilius Manlius name_marcius Memmius
+		Messius Metilius Minucius Mummius Nigidius Ninnius Nonius Numicius Numisius Ofilius Ogulnius Opimius Oppius
+		Octacilius Ovidius Papirius Pinarius Plautius Plinius Postumius Pompilius Pomponius Popillius Porcius
+		Publilius Pupius Quintilius Quinctius Rabirius Resius Romilius Salonius Salvius Scribonius name_sergius
+		Sertorius Servilius Sestius Sextius Sextilius Sicinius Silius Sulpicius Titius Tremulus Tullius Ulpius
+		Verginius Veturius Vesuvius Villius Viridius Volumnius om_low_la_romanus om_low_la_florentinus
+		om_low_la_pisanus om_low_la_ferrariensis
+	}
+	patronym_prefix_son = "patronym_prefix_latin_son"
+	patronym_prefix_daughter = "patronym_prefix_latin_daughter"
+	ship_names = {
+		om7_ship_latin_language_001 om7_ship_latin_language_002 om7_ship_latin_language_003
+		om7_ship_latin_language_004 om7_ship_latin_language_005 om7_ship_latin_language_006
+		om7_ship_latin_language_007 om7_ship_latin_language_008 om7_ship_latin_language_009
+		om7_ship_latin_language_010 om7_ship_latin_language_011 om7_ship_latin_language_012
+		om7_ship_latin_language_013 om7_ship_latin_language_014 om7_ship_latin_language_015
+		om7_ship_latin_language_016 om7_ship_latin_language_017 om7_ship_latin_language_018
+		om7_ship_latin_language_019 om7_ship_latin_language_020 om7_ship_latin_language_021
+		om7_ship_latin_language_022 om7_ship_latin_language_023 om7_ship_latin_language_024
+		om7_ship_latin_language_025 om7_ship_latin_language_026 om7_ship_latin_language_027
+		om7_ship_latin_language_028 om7_ship_latin_language_029 om7_ship_latin_language_030
+		om7_ship_latin_language_031 om7_ship_latin_language_032 om7_ship_latin_language_033
+		om7_ship_latin_language_034 om7_ship_latin_language_035 om7_ship_latin_language_036
+		om7_ship_latin_language_037 om7_ship_latin_language_038 om7_ship_latin_language_039
+		om7_ship_latin_language_040 om7_ship_latin_language_041 om7_ship_latin_language_042
+		om7_ship_latin_language_043 om7_ship_latin_language_044 om7_ship_latin_language_045
+		om7_ship_latin_language_046 om7_ship_latin_language_047 om7_ship_latin_language_048
+		om7_ship_latin_language_049 om7_ship_latin_language_050 om7_ship_latin_language_051
+		om7_ship_latin_language_052 om7_ship_latin_language_053 om7_ship_latin_language_054
+		om7_ship_latin_language_055 om7_ship_latin_language_056 om7_ship_latin_language_057
+		om7_ship_latin_language_058 om7_ship_latin_language_059 om7_ship_latin_language_060
+		om7_ship_latin_language_061 om7_ship_latin_language_062 om7_ship_latin_language_063
+		om7_ship_latin_language_064 om7_ship_latin_language_065 om7_ship_latin_language_066
+		om7_ship_latin_language_067 om7_ship_latin_language_068 om7_ship_latin_language_069
+		om7_ship_latin_language_070 om7_ship_latin_language_071 om7_ship_latin_language_072
+		om7_ship_latin_language_073 om7_ship_latin_language_074 om7_ship_latin_language_075
+		om7_ship_latin_language_076 om7_ship_latin_language_077 om7_ship_latin_language_078
+		om7_ship_latin_language_079 om7_ship_latin_language_080 om7_ship_latin_language_081
+		om7_ship_latin_language_082 om7_ship_latin_language_083 om7_ship_latin_language_084
+		om7_ship_latin_language_085 om7_ship_latin_language_086 om7_ship_latin_language_087
+		om7_ship_latin_language_088 om7_ship_latin_language_089 om7_ship_latin_language_090
+		om7_ship_latin_language_091 om7_ship_latin_language_092 om7_ship_latin_language_093
+		om7_ship_latin_language_094 om7_ship_latin_language_095 om7_ship_latin_language_096
+		om7_ship_latin_language_097 om7_ship_latin_language_098 om7_ship_latin_language_099
+		om7_ship_latin_language_100 om7_ship_latin_language_101 om7_ship_latin_language_102
+		om7_ship_latin_language_103 om7_ship_latin_language_104 om7_ship_latin_language_105
+		om7_ship_latin_language_106 om7_ship_latin_language_107 om7_ship_latin_language_108
+		om7_ship_latin_language_109 om7_ship_latin_language_110 om7_ship_latin_language_111
+		om7_ship_latin_language_112 om7_ship_latin_language_113 om7_ship_latin_language_114
+		om7_ship_latin_language_115 om7_ship_latin_language_116 om7_ship_latin_language_117
+		om7_ship_latin_language_118 om7_ship_latin_language_119 om7_ship_latin_language_120
+		om7_ship_latin_language_121 om7_ship_latin_language_122 om7_ship_latin_language_123
+		om7_ship_latin_language_124 om7_ship_latin_language_125 om7_ship_latin_language_126
+		om7_ship_latin_language_127 om7_ship_latin_language_128
+	}
+	dialects = {
+		church_dialect = {
+			male_names = {
+				name_aeneas name_abundius name_abelard name_achilles name_adrian name_aetius name_agapetus name_alban
+				name_alberic name_albert name_albinus name_alexander name_alexis name_amadeus name_ambrose name_anastasius
+				name_andrew name_anthony name_archibald name_arsenios name_artemios name_august name_augustine name_aurelius
+				name_ausonius name_auxilius name_bartholomew name_basil name_bassianus name_bassus name_benedict
+				name_bernard name_blaise name_bonaventura name_boniface name_bruno name_brutus name_caesar name_callisto
+				name_camillo name_candidus name_cassius name_clement name_constant name_constantine name_cornelius
+				name_cosmas name_dalmatius name_damian name_david name_demetrius name_dominic name_edward name_elpidius
+				name_emmanuel name_ennius name_eugene name_fabrice name_faustus name_felix name_ferdinand name_ferrutius
+				name_philip name_florus name_flavius name_fortunatus name_francis name_gabriel name_gelasius name_gentilis
+				name_george name_gerard name_germanus name_gervase name_gilbert name_godfrey name_gregory name_hannibal
+				name_hector name_henry name_hercules name_herman name_hermenegild name_hieronymus name_hippolytos
+				name_honorius name_humbert name_hyacinth name_hyginus name_ignatius name_innocent name_irenaeus name_james
+				name_john name_jordan name_joseph name_julian name_julius name_lactantius name_lambert name_lando
+				name_landulf name_lanfrank name_laurence name_lazarus name_leon name_leonard name_leopold name_libero
+				name_lionel name_livius name_louis name_lucas name_lucius name_lupus name_manfred name_marianus name_marinus
+				name_marius name_mark name_marsilius name_martin name_matthew name_michael name_nestor name_nicholas
+				name_octavius name_orestes name_otto name_ottobonus name_pancras name_pandulf name_paschal name_patrick
+				name_paul name_peregrine name_peter name_pius name_prosper name_raphael name_raymond name_rayner
+				name_reginald name_richard name_robert name_roland name_rudolf name_salvator name_sebastian name_secundus
+				name_septimius name_seraphin name_sergius name_severinus name_severus name_silvester name_simeon
+				name_stephen name_sylvan name_thaddeus name_theobald name_theodore name_thomas name_timothy name_titianus
+				name_victor name_walter name_wido name_william name_xavier name_abraham name_adam name_angel name_anselm
+				name_balthazar name_barnabas name_baptiste name_cajetan name_christopher name_dennis name_evangelos
+				name_john.name_frank name_john.name_leon name_michael.name_angel name_nazareno name_panteleimon
+				name_stanislav name_saint
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_aetius
+				name_constantine
+				name_flavius
+				name_julian
+				name_peter
+				name_gregory
+				name_benedict
+				name_aeneas
+				name_abundius
+				name_abelard
+				name_achilles
+				name_adrian
+				name_agapetus
+				name_alban
+				name_alberic
+				name_albert
+				name_albinus
+				name_alexander
+				name_alexis
+				name_amadeus
+				name_ambrose
+				name_anastasius
+				name_andrew
+				name_anthony
+				name_archibald
+				name_arsenios
+				name_artemios
+				name_august
+				name_augustine
+				name_aurelius
+				name_ausonius
+				name_auxilius
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_augustine
+				name_benedict
+				name_clement
+				name_gregory
+				name_hieronymus
+				name_leon
+				name_martin
+				name_peter
+				name_paul
+				name_silvester
+				name_thomas
+				name_pius
+				name_julius
+				name_philip
+				name_florus
+				name_flavius
+				name_fortunatus
+				name_francis
+				name_gabriel
+				name_gelasius
+				name_gentilis
+				name_george
+				name_gerard
+				name_germanus
+				name_gervase
+				name_gilbert
+				name_godfrey
+				name_hannibal
+				name_hector
+				name_henry
+				name_hercules
+				name_herman
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_adrian
+				name_ambrose
+				name_francis
+				name_ignatius
+				name_joseph
+				name_laurence
+				name_philip
+				name_innocent
+				name_clement
+				name_leon
+				name_paul
+				name_nestor
+				name_nicholas
+				name_octavius
+				name_orestes
+				name_otto
+				name_ottobonus
+				name_pancras
+				name_pandulf
+				name_paschal
+				name_patrick
+				name_peregrine
+				name_peter
+				name_pius
+				name_prosper
+				name_raphael
+				name_raymond
+				name_rayner
+				name_reginald
+				name_richard
+				name_robert
+				name_roland
+			}
+			female_names = {
+				name_agrippina name_adalberta name_adalgisa name_adela name_adelaide name_adelinda name_adriana name_agnes
+				name_albina name_alexandra name_alice name_ambrosia name_amelia name_anastasia name_anna name_antonia
+				name_argentina name_augusta name_augustina name_aurelia name_auxilia name_ausonia name_beatrix
+				name_benedicta name_bertha name_blanche name_camilla name_candida name_carla name_catherine name_cecile
+				name_claire name_claudia name_constance name_cornelia name_dorothy name_eleanor name_elizabeth name_eudoxia
+				name_eugenie name_fausta name_felicia name_felicitas name_flavia name_flora name_fortunata name_frances
+				name_fusca name_helen name_hermenegilda name_hyacintha name_joanna name_josephine name_judith name_julie
+				name_julianne name_laura name_lavinia name_letitia name_livia name_louise name_lucia name_lucrece name_lydia
+				name_madeleine name_marcella name_margaret name_marianne name_martina name_mary name_matilda name_michaela
+				name_paula name_philippa name_philomena name_regina name_renata name_ricarda name_rosa name_sophia
+				name_stephanie name_sylvia name_theodora name_thomassine name_titiana name_valentina name_valeria
+				name_veronica name_virginia name_annuntiata name_clotilde
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_agrippina
+				name_antonia
+				name_aurelia
+				name_cornelia
+				name_livia
+				name_claire
+				name_lucia
+				name_agnes
+				name_adalberta
+				name_adalgisa
+				name_adela
+				name_adelaide
+				name_adelinda
+				name_adriana
+				name_albina
+				name_alexandra
+				name_alice
+				name_ambrosia
+				name_amelia
+				name_anastasia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agnes
+				name_catherine
+				name_helen
+				name_mary
+				name_sophia
+				name_theodora
+				name_frances
+				name_cecile
+				name_claire
+				name_claudia
+				name_constance
+				name_cornelia
+				name_dorothy
+				name_eleanor
+				name_elizabeth
+				name_eudoxia
+				name_eugenie
+				name_fausta
+				name_felicia
+				name_felicitas
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_anna
+				name_elizabeth
+				name_frances
+				name_philippa
+				name_louise
+				name_lucia
+				name_lucrece
+				name_lydia
+				name_madeleine
+				name_marcella
+				name_margaret
+				name_marianne
+				name_martina
+				name_mary
+				name_matilda
+				name_michaela
+				name_paula
+				name_philomena
+				name_regina
+				name_renata
+			}
+			dynasty_names = {
+				Aelius Aemilius Anicius Annius Antonius Aurelius Caecilius Calpurnius Claudius Cornelius Domitius Fabius
+				Flavius Furius Julius Junius Licinius Livius Manlius Marcius Marius Octavius Papirius Pompeius Porcius
+				Postumius Quintilius Sergius Servilius Sulpicius Tullius Valerius Columna Orsini Caetani Crescentii
+				Frangipani Savelli Conti Borgia Odescalchi Ursini
+			}
+			ship_names = {
+				om7_ship_church_dialect_001 om7_ship_church_dialect_002 om7_ship_church_dialect_003
+				om7_ship_church_dialect_004 om7_ship_church_dialect_005 om7_ship_church_dialect_006
+				om7_ship_church_dialect_007 om7_ship_church_dialect_008 om7_ship_church_dialect_009
+				om7_ship_church_dialect_010 om7_ship_church_dialect_011 om7_ship_church_dialect_012
+				om7_ship_church_dialect_013 om7_ship_church_dialect_014 om7_ship_church_dialect_015
+				om7_ship_church_dialect_016 om7_ship_church_dialect_017 om7_ship_church_dialect_018
+				om7_ship_church_dialect_019 om7_ship_church_dialect_020 om7_ship_church_dialect_021
+				om7_ship_church_dialect_022 om7_ship_church_dialect_023 om7_ship_church_dialect_024
+				om7_ship_church_dialect_025 om7_ship_church_dialect_026 om7_ship_church_dialect_027
+				om7_ship_church_dialect_028 om7_ship_church_dialect_029 om7_ship_church_dialect_030
+				om7_ship_church_dialect_031 om7_ship_church_dialect_032 om7_ship_church_dialect_033
+				om7_ship_church_dialect_034 om7_ship_church_dialect_035 om7_ship_church_dialect_036
+				om7_ship_church_dialect_037 om7_ship_church_dialect_038 om7_ship_church_dialect_039
+				om7_ship_church_dialect_040 om7_ship_church_dialect_041 om7_ship_church_dialect_042
+				om7_ship_church_dialect_043 om7_ship_church_dialect_044 om7_ship_church_dialect_045
+				om7_ship_church_dialect_046 om7_ship_church_dialect_047 om7_ship_church_dialect_048
+				om7_ship_church_dialect_049 om7_ship_church_dialect_050 om7_ship_church_dialect_051
+				om7_ship_church_dialect_052 om7_ship_church_dialect_053 om7_ship_church_dialect_054
+				om7_ship_church_dialect_055 om7_ship_church_dialect_056 om7_ship_church_dialect_057
+				om7_ship_church_dialect_058 om7_ship_church_dialect_059 om7_ship_church_dialect_060
+				om7_ship_church_dialect_061 om7_ship_church_dialect_062 om7_ship_church_dialect_063
+				om7_ship_church_dialect_064 om7_ship_church_dialect_065 om7_ship_church_dialect_066
+				om7_ship_church_dialect_067 om7_ship_church_dialect_068 om7_ship_church_dialect_069
+				om7_ship_church_dialect_070 om7_ship_church_dialect_071 om7_ship_church_dialect_072
+				om7_ship_church_dialect_073 om7_ship_church_dialect_074 om7_ship_church_dialect_075
+				om7_ship_church_dialect_076 om7_ship_church_dialect_077 om7_ship_church_dialect_078
+				om7_ship_church_dialect_079 om7_ship_church_dialect_080 om7_ship_church_dialect_081
+				om7_ship_church_dialect_082 om7_ship_church_dialect_083 om7_ship_church_dialect_084
+				om7_ship_church_dialect_085 om7_ship_church_dialect_086 om7_ship_church_dialect_087
+				om7_ship_church_dialect_088 om7_ship_church_dialect_089 om7_ship_church_dialect_090
+				om7_ship_church_dialect_091 om7_ship_church_dialect_092 om7_ship_church_dialect_093
+				om7_ship_church_dialect_094 om7_ship_church_dialect_095 om7_ship_church_dialect_096
+				om7_ship_church_dialect_097 om7_ship_church_dialect_098 om7_ship_church_dialect_099
+				om7_ship_church_dialect_100 om7_ship_church_dialect_101 om7_ship_church_dialect_102
+				om7_ship_church_dialect_103 om7_ship_church_dialect_104 om7_ship_church_dialect_105
+				om7_ship_church_dialect_106 om7_ship_church_dialect_107 om7_ship_church_dialect_108
+				om7_ship_church_dialect_109 om7_ship_church_dialect_110 om7_ship_church_dialect_111
+				om7_ship_church_dialect_112 om7_ship_church_dialect_113 om7_ship_church_dialect_114
+				om7_ship_church_dialect_115 om7_ship_church_dialect_116 om7_ship_church_dialect_117
+				om7_ship_church_dialect_118 om7_ship_church_dialect_119 om7_ship_church_dialect_120
+				om7_ship_church_dialect_121 om7_ship_church_dialect_122 om7_ship_church_dialect_123
+				om7_ship_church_dialect_124 om7_ship_church_dialect_125 om7_ship_church_dialect_126
+				om7_ship_church_dialect_127 om7_ship_church_dialect_128
+			}
+		}
+		roman_dialect = {
+			male_names = {
+				name_lucius name_gaius name_mark name_publius name_quintus name_titus name_aulus name_sextus name_gnaeus
+				name_spurius name_decimus name_servius name_manius name_tiberius name_aeneas name_abundius name_abelard
+				name_achilles name_adrian name_aetius name_agapetus name_alban name_alberic name_albert name_albinus
+				name_alexander name_alexis name_amadeus name_ambrose name_anastasius name_andrew name_anthony name_archibald
+				name_arsenios name_artemios name_august name_augustine name_aurelius name_ausonius name_auxilius
+				name_bartholomew name_basil name_bassianus name_bassus name_bernard name_blaise name_boniface name_bruno
+				name_brutus name_caesar name_callisto name_camillo name_candidus name_cassius name_clement name_constant
+				name_constantine name_cornelius name_cosmas name_dalmatius name_demetrius name_edward name_elpidius
+				name_ennius name_eugene name_fabrice name_faustus name_felix name_ferdinand name_ferrutius name_philip
+				name_florus name_flavius name_fortunatus name_gelasius name_gentilis name_george name_gerard name_germanus
+				name_gervase name_gilbert name_godfrey name_gregory name_hannibal name_hector name_henry name_hercules
+				name_herman name_hermenegild name_hieronymus name_hippolytos name_honorius name_humbert name_hyacinth
+				name_hyginus name_ignatius name_irenaeus name_james name_jordan name_julian name_julius name_lactantius
+				name_lambert name_lando name_landulf name_lanfrank name_laurence name_leon name_leonard name_leopold
+				name_libero name_lionel name_livius name_louis name_lucas name_lupus name_manfred name_marianus name_marinus
+				name_marius name_marsilius name_martin name_matthew name_nestor name_octavius name_orestes name_otto
+				name_ottobonus name_pandulf name_peregrine name_prosper name_raymond name_rayner name_reginald name_richard
+				name_robert name_roland name_rudolf name_sebastian name_secundus name_septimius name_sergius name_severinus
+				name_severus name_simeon name_sylvan name_theobald name_theodore name_thomas name_titianus name_victor
+				name_walter name_wido name_william Appius Agrippa Caelus name_decius Drusus Mamercus Mettius Opiter Postumus
+				Proculus Tertius Volero Volumnius Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor
+				Potitus Vibius Cossus Arruns name_adonis name_alcide name_antiocos name_ascanius name_castor name_cato
+				name_cyrus name_dardan name_helios name_homer name_janus name_nikephoros name_pericles
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_aetius
+				name_constantine
+				name_flavius
+				name_julian
+				name_gregory
+				name_lucius
+				name_gaius
+				name_mark
+				name_publius
+				name_quintus
+				name_titus
+				name_aulus
+				name_sextus
+				name_gnaeus
+				name_spurius
+				name_decimus
+				name_servius
+				name_manius
+				name_tiberius
+				name_aeneas
+				name_abundius
+				name_abelard
+				name_achilles
+				name_adrian
+				name_agapetus
+				name_alban
+				name_alberic
+				name_albert
+				name_albinus
+				name_alexander
+				name_alexis
+				name_amadeus
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_augustine
+				name_clement
+				name_gregory
+				name_hieronymus
+				name_leon
+				name_martin
+				name_thomas
+				name_julius
+				name_eugene
+				name_fabrice
+				name_faustus
+				name_felix
+				name_ferdinand
+				name_ferrutius
+				name_philip
+				name_florus
+				name_flavius
+				name_fortunatus
+				name_gelasius
+				name_gentilis
+				name_george
+				name_gerard
+				name_germanus
+				name_gervase
+				name_gilbert
+				name_godfrey
+				name_hannibal
+				name_hector
+				name_henry
+				name_hercules
+				name_herman
+				name_hermenegild
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_adrian
+				name_ambrose
+				name_ignatius
+				name_laurence
+				name_philip
+				name_clement
+				name_leon
+				name_pandulf
+				name_peregrine
+				name_prosper
+				name_raymond
+				name_rayner
+				name_reginald
+				name_richard
+				name_robert
+				name_roland
+				name_rudolf
+				name_sebastian
+				name_secundus
+				name_septimius
+				name_sergius
+				name_severinus
+				name_severus
+				name_simeon
+				name_sylvan
+				name_theobald
+				name_theodore
+				name_thomas
+				name_titianus
+				name_victor
+				name_walter
+				name_wido
+			}
+			female_names = {
+				name_agrippina name_adalberta name_adalgisa name_adela name_adelaide name_adelinda name_adriana name_albina
+				name_alexandra name_alice name_ambrosia name_amelia name_anastasia name_anna name_antonia name_argentina
+				name_augusta name_augustina name_aurelia name_auxilia name_ausonia name_bertha name_blanche name_camilla
+				name_candida name_carla name_claudia name_constance name_cornelia name_eleanor name_eudoxia name_eugenie
+				name_fausta name_felicia name_felicitas name_flavia name_flora name_fortunata name_fusca name_helen
+				name_hermenegilda name_hyacintha name_julie name_julianne name_laura name_lavinia name_letitia name_livia
+				name_louise name_lucia name_lucrece name_lydia name_marcella name_margaret name_marianne name_martina
+				name_matilda name_paula name_philippa name_renata name_ricarda name_rosa name_sophia name_stephanie
+				name_sylvia name_theodora name_thomassine name_titiana name_valentina name_valeria name_virginia Appia Aula
+				Caesula Decima Gaia Gnaea Hosta Maio Mamerca Mania name_marcia Maxima Mettia Mino Nona Numeria name_octavia
+				Paulla Postuma Prima Procula Publia Quarta Quinta Secunda Septima Servia Sexta Spuria Statia Tertia Titia
+				Tiberia Tulla Vibia Volusa Vopisca
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_agrippina
+				name_antonia
+				name_aurelia
+				name_cornelia
+				name_livia
+				name_octavia
+				name_lucia
+				name_adalberta
+				name_adalgisa
+				name_adela
+				name_adelaide
+				name_adelinda
+				name_adriana
+				name_albina
+				name_alexandra
+				name_alice
+				name_ambrosia
+				name_amelia
+				name_anastasia
+				name_anna
+				name_argentina
+				name_augusta
+				name_augustina
+				name_auxilia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_helen
+				name_sophia
+				name_theodora
+				name_flora
+				name_fortunata
+				name_fusca
+				name_hermenegilda
+				name_hyacintha
+				name_julie
+				name_julianne
+				name_laura
+				name_lavinia
+				name_letitia
+				name_livia
+				name_louise
+				name_lucia
+				name_lucrece
+				name_lydia
+				name_marcella
+				name_margaret
+				name_marianne
+				name_martina
+				name_matilda
+				name_paula
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_anna
+				name_philippa
+				Aula
+				Caesula
+				Decima
+				Gaia
+				Gnaea
+				Hosta
+				Maio
+				Mamerca
+				Mania
+				name_marcia
+				Maxima
+				Mettia
+				Mino
+				Nona
+				Numeria
+				name_octavia
+				Paulla
+				Postuma
+				Prima
+				Procula
+				Publia
+				Quarta
+			}
+			dynasty_names = {
+				Aelius Aemilius Anicius Annius Antonius Aurelius Caecilius Calpurnius Claudius Cornelius Domitius Fabius
+				Flavius Furius Julius Junius Licinius Livius Manlius Marcius Marius Octavius Papirius Pompeius Porcius
+				Postumius Quintilius Sergius Servilius Sulpicius Tullius Valerius Atilius Aulius Clodius Cornificius
+				Curiatius Fufius Gabinius Horatius Hortensius Lucretius Minucius Nonius Plautius Plinius Sempronius Titius
+				Ulpius Verginius
+			}
+			use_female_birth_order_names = yes
+			first_name_format = secondary
+			last_name_format = primary
+			nickname_name_format = primary
+			ship_names = {
+				om7_ship_roman_dialect_001 om7_ship_roman_dialect_002 om7_ship_roman_dialect_003 om7_ship_roman_dialect_004
+				om7_ship_roman_dialect_005 om7_ship_roman_dialect_006 om7_ship_roman_dialect_007 om7_ship_roman_dialect_008
+				om7_ship_roman_dialect_009 om7_ship_roman_dialect_010 om7_ship_roman_dialect_011 om7_ship_roman_dialect_012
+				om7_ship_roman_dialect_013 om7_ship_roman_dialect_014 om7_ship_roman_dialect_015 om7_ship_roman_dialect_016
+				om7_ship_roman_dialect_017 om7_ship_roman_dialect_018 om7_ship_roman_dialect_019 om7_ship_roman_dialect_020
+				om7_ship_roman_dialect_021 om7_ship_roman_dialect_022 om7_ship_roman_dialect_023 om7_ship_roman_dialect_024
+				om7_ship_roman_dialect_025 om7_ship_roman_dialect_026 om7_ship_roman_dialect_027 om7_ship_roman_dialect_028
+				om7_ship_roman_dialect_029 om7_ship_roman_dialect_030 om7_ship_roman_dialect_031 om7_ship_roman_dialect_032
+				om7_ship_roman_dialect_033 om7_ship_roman_dialect_034 om7_ship_roman_dialect_035 om7_ship_roman_dialect_036
+				om7_ship_roman_dialect_037 om7_ship_roman_dialect_038 om7_ship_roman_dialect_039 om7_ship_roman_dialect_040
+				om7_ship_roman_dialect_041 om7_ship_roman_dialect_042 om7_ship_roman_dialect_043 om7_ship_roman_dialect_044
+				om7_ship_roman_dialect_045 om7_ship_roman_dialect_046 om7_ship_roman_dialect_047 om7_ship_roman_dialect_048
+				om7_ship_roman_dialect_049 om7_ship_roman_dialect_050 om7_ship_roman_dialect_051 om7_ship_roman_dialect_052
+				om7_ship_roman_dialect_053 om7_ship_roman_dialect_054 om7_ship_roman_dialect_055 om7_ship_roman_dialect_056
+				om7_ship_roman_dialect_057 om7_ship_roman_dialect_058 om7_ship_roman_dialect_059 om7_ship_roman_dialect_060
+				om7_ship_roman_dialect_061 om7_ship_roman_dialect_062 om7_ship_roman_dialect_063 om7_ship_roman_dialect_064
+				om7_ship_roman_dialect_065 om7_ship_roman_dialect_066 om7_ship_roman_dialect_067 om7_ship_roman_dialect_068
+				om7_ship_roman_dialect_069 om7_ship_roman_dialect_070 om7_ship_roman_dialect_071 om7_ship_roman_dialect_072
+				om7_ship_roman_dialect_073 om7_ship_roman_dialect_074 om7_ship_roman_dialect_075 om7_ship_roman_dialect_076
+				om7_ship_roman_dialect_077 om7_ship_roman_dialect_078 om7_ship_roman_dialect_079 om7_ship_roman_dialect_080
+				om7_ship_roman_dialect_081 om7_ship_roman_dialect_082 om7_ship_roman_dialect_083 om7_ship_roman_dialect_084
+				om7_ship_roman_dialect_085 om7_ship_roman_dialect_086 om7_ship_roman_dialect_087 om7_ship_roman_dialect_088
+				om7_ship_roman_dialect_089 om7_ship_roman_dialect_090 om7_ship_roman_dialect_091 om7_ship_roman_dialect_092
+				om7_ship_roman_dialect_093 om7_ship_roman_dialect_094 om7_ship_roman_dialect_095 om7_ship_roman_dialect_096
+				om7_ship_roman_dialect_097 om7_ship_roman_dialect_098 om7_ship_roman_dialect_099 om7_ship_roman_dialect_100
+				om7_ship_roman_dialect_101 om7_ship_roman_dialect_102 om7_ship_roman_dialect_103 om7_ship_roman_dialect_104
+				om7_ship_roman_dialect_105 om7_ship_roman_dialect_106 om7_ship_roman_dialect_107 om7_ship_roman_dialect_108
+				om7_ship_roman_dialect_109 om7_ship_roman_dialect_110 om7_ship_roman_dialect_111 om7_ship_roman_dialect_112
+				om7_ship_roman_dialect_113 om7_ship_roman_dialect_114 om7_ship_roman_dialect_115 om7_ship_roman_dialect_116
+				om7_ship_roman_dialect_117 om7_ship_roman_dialect_118 om7_ship_roman_dialect_119 om7_ship_roman_dialect_120
+				om7_ship_roman_dialect_121 om7_ship_roman_dialect_122 om7_ship_roman_dialect_123 om7_ship_roman_dialect_124
+				om7_ship_roman_dialect_125 om7_ship_roman_dialect_126 om7_ship_roman_dialect_127 om7_ship_roman_dialect_128
+			}
+		}
+	}
+	location_suffix = "location_suffix_latin"
+}
+
+north_italian_language = {
+	color = map_north_italian
+	family = romance_language_family
+	fallback = south_italian_language
+	male_names = {
+		name_abundius name_abelard name_avelino name_achilles name_adelphus name_adelmo name_adonis name_agapetus
+		name_aeneas name_augustine name_haimo name_alaman name_alaric name_adrian name_alban name_alberic name_albert
+		name_albinus name_alvin name_alcide name_aldebrand name_adalhard name_aleramo name_alexander name_alexis
+		name_adalgar name_louis name_ambrose name_amadeus name_anastasius name_andrea name_angel name_anselm Antonino
+		name_anthimos name_anthony name_antiocos name_archibald name_ardaric name_herman name_arnulf name_arsenios
+		name_artemios name_ascanius name_astor name_henry name_hannibal name_atenulf name_attilio name_august
+		name_aurelius name_auxilius name_ausonius name_everard name_azzo name_balthazar name_barnabas name_bartholomew
+		name_basil name_bassianus name_bassus name_baldwin name_baptiste name_bertrand name_benedict name_benvenuto
+		name_berard name_bernard name_berthold name_blaise name_bonaventura name_boniface name_borso name_bruno
+		name_brutus name_buonconte name_boson name_callisto name_camillo name_candidus name_canius.name_magnus
+		name_charles name_cassius name_castor name_cato name_theudofrid name_chiano name_cyrus name_claude
+		name_clement name_constans name_caesar name_comita name_conon name_cornelius name_conrad name_cosmas
+		name_constantine name_christopher name_chrysogonos name_damian name_david name_demetrius name_dennis
+		name_dominic name_duran name_edward name_helios name_emmanuel name_ennius name_hercules name_elpidius
+		name_evangelos name_hermenegild name_hector name_eugene name_aetius name_ezzelino name_fabrice name_faustus
+		name_fidesmitus name_frederick name_felix name_ferdinand name_ferrutius name_philip name_florus name_flavius
+		name_fulk name_fortunatus name_fuscus name_francis name_gabriel name_gabrino name_cajetan name_galahad
+		name_eriprando name_galehaut name_casper name_gaston name_gelasius name_gentilis name_gerald name_gerard
+		name_germanus name_hieronymus name_hyacinth name_james name_john.name_frank name_john.name_leon name_janus
+		name_gilbert name_julius name_jordan name_george name_john name_joseph name_godfrey name_gregory name_walter
+		name_guarnito name_guerrino name_william name_wido name_guigliadore name_hyginus name_innocent name_hippolytos
+		name_isnard name_lambert name_landulf name_irenaeus name_lanfrank name_lactantius name_lazarus name_lando
+		name_leonard name_leon name_leopold name_libero name_lionel name_livius name_laurence name_lucas name_lucius
+		name_malacresta name_manfred name_mark name_marianus name_marinus name_marius name_marsilius name_martin
+		name_mastin name_matthew name_emmerich name_michael.name_angel name_michael name_napoleon name_nazareno
+		name_nestor name_nicholas name_nino name_obizzo name_homer name_honorius name_orestes name_orzocorre
+		name_roland name_octavius name_ottobonus name_payn name_pancras name_pandulf name_paul name_paschal name_otto
+		name_patrick name_peregrine name_pericles name_peter name_pius name_prosper name_raphael name_raymond
+		name_rayner name_richard name_reginald name_robert name_rudolf name_russo name_roger name_salinguerra
+		name_salvator name_silvester name_saint name_sancho name_xavier name_sciarra name_sebastian name_secundus
+		name_seraphin name_sergius name_sextus name_septimius name_severinus name_severus name_sylvan name_simeon
+		name_sinibaldo name_sinucello name_sucidus name_spinetta name_stephen name_thaddeus name_theudewald
+		name_tedice name_theodore name_theobald name_titianus name_thomas name_lupus name_victor name_humbert
+		name_constant name_alphonse name_arnold name_berengar name_bernardinus name_burchard name_cyprian name_daniel
+		name_edmond name_erhard name_giles name_gratian name_hilarius name_hubert name_hugh name_lothar name_maurice
+		name_meinhard name_pontius name_sigfrid name_tobias name_venantius name_vincent name_vital ni_male_accursio
+		ni_male_arduino ni_male_azolino ni_male_bonaccorso ni_male_ghiberto ni_male_guarino ni_male_mastino
+		ni_male_olderico ni_male_rolandino ni_male_uberino
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_adalbert
+		name_adelmo
+		name_albert
+		name_ambrose
+		name_berthold
+		name_conrad
+		name_godfrey
+		name_henry
+		name_hugh
+		name_lambert
+		name_louis
+		name_otto
+		name_william
+		name_francis
+		name_john
+		name_om_itn_pietro
+		name_om_itn_marco
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_andrew
+		name_anthony
+		name_charles
+		name_francis
+		name_james
+		name_laurence
+		name_michael
+		name_nicholas
+		name_peter
+		name_om_itn_ludovico
+		name_om_itn_galeazzo
+		name_om_itn_niccolo
+		name_om_itn_ercole
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_ferdinand
+		name_francis
+		name_louis
+		name_napoleon
+		name_victor
+		name_om_itn_alfonso
+		name_om_itn_carlo
+		name_om_itn_giuseppe
+		name_om_itn_vittorio
+	}
+	female_names = {
+		name_adalberta name_adalgisa name_adelaide name_adela name_aldebranda name_adriana name_agnes name_augustina
+		name_albina name_alda name_alexandra name_alfonsina name_alice name_louise name_amelia name_ambrosia
+		name_anastasia name_anna name_antonia name_argentina name_augusta name_aurelia name_auxilia name_ausonia
+		name_beatrix name_benedicta name_bernhild name_veronica name_bertha name_blanche name_bonne name_brunhild
+		name_camilla name_candida name_caracosa name_carla Carola name_cecile name_claire name_claudia name_clorinda
+		name_catherine name_clotilde name_constance name_cornelia name_adelinda name_theodora name_hedwig name_helen
+		name_eleanor name_elizabeth name_hermenegilda name_eudoxia name_eugenie name_elisa name_fausta name_felicia
+		name_felicitas name_philippa name_philomena name_flavia name_flora name_fortunata name_fusca name_frances
+		name_hyacintha name_jennifer name_joanna name_judith name_julie name_julianne name_josephine name_hippolyte
+		Isabella name_joscella name_laura name_lavinia name_letitia name_lydia name_livia name_lucia name_lucrece
+		name_madeleine name_marcella name_margaret name_mary name_marianne name_martina name_matilda name_michaela
+		name_annuntiata name_paula name_patrice name_renata name_ricarda name_silvia name_sophia name_stephanie
+		name_titiana name_thomassine name_valentina name_yolande name_virginia name_valeria name_regina name_rosa
+		name_sylvia name_agatha name_berengaria name_dorothy name_euphemia name_gemma name_hildegard name_ermengard
+		name_iselgarda name_jacqueline name_leonarda name_liutgard name_rengarda name_sara name_victoria
+		ni_female_bona ni_female_colomba ni_female_cunizza ni_female_fina ni_female_ginevra ni_female_guglielma
+		ni_female_imelda ni_female_lantelmina ni_female_peronella ni_female_verzella
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_adelaide
+		name_agnes
+		name_beatrix
+		name_catherine
+		name_constance
+		name_gisela
+		name_matilda
+		name_blanche
+		Isabella
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_anna
+		name_antonia
+		name_catherine
+		name_frances
+		name_margaret
+		name_mary
+		name_om_itn_lucrezia
+		ni_female_ginevra
+		name_eleanor
+		name_victoria
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_alexandra
+		name_caroline
+		name_charlotte
+		name_louise
+		name_victoria
+		name_om_itn_maria_teresa
+		name_om_itn_carlotta
+		name_josephine
+		name_om_itn_amalia
+	}
+	dynasty_names = {
+		di_Savoia d_Este Farnese Visconti Gonzaga d_Ivrea Orsini Colonna Caetani Ruspoli Aldobrandini Borghese
+		Odescalchi Serlupi Crescenzi Massimo Patrizi Naro Montoro Theodoli Senni Ricci Rocchi Datti Pietromarchi
+		Tuccimei Mazzetti di_Monferrato Dandolo Spinola Ventimiglia di_Sabran di_Crivelli Montferrato d_Arborea
+		di_Saluzzo Contarini di_Cremona Scannabecchi di_Lucca di_Candia Gozzadini ghisi_dynasty Zen Tocco di_Biandrate
+		Ariosti Pepoli Borri Caccianemici del_Balzo Fortebraccio di_Ponzone Rangoni di_Castello Allucingolli di_Conti
+		da_Romano degli_Ubaldini Cybo Pallavicini name_adorno Campofregoso Bentivoglio Tiepolo Gradenigo Borromeo
+		Capponi Castracani Cenci Colleoni Concini Obertenghi Crispo Fieschi Gattilusio Bandinelli Serra Sfondrati
+		Doria di_Morra Savelli Mancini da_Correggio Condulmer Moneta Parentucelli Valente Ziani Strozzi Sturzo
+		di_Piombino Monaldeschi Sommaripa borgia Orseolo Antelminelli Beccaria di_Bonacolsi Loredano di_Malaspina
+		Malipiero Maggi Mocenigo Pico di_Mirandola della_Rocca Rossi di_San name_boniface di_Sanseverino Zoagli Egidio
+		grimaldi_dynasty it_dyn_di_squillace della_Scala da_Carrara da_Camino da_Polenta Montefeltro Malatesta Sforza
+		della_Torre Torriani Trivulzio Foscari Morosini Bembo Corner Dolfin Giustinian Barbarigo Canossa Manfredi
+		Ordelaffi Pio Scotti Cavalcabo Landriani Alidosi Gambara Martinengo Avogadro Cattaneo Embriaco Collalto
+		Carraresi Terzi Da_Varano del_Carretto Roero Provana om_dyn_itn_medici om_dyn_itn_este om_dyn_itn_della_rovere
+		om_dyn_itn_savoia di_Squillache
+	}
+	lowborn = {
+		Esposito Bianchi name_roman name_marinus name_bruno Piazza Ricci Abate Gallo Costa Pesci ni_lowborn_ferrari
+		ni_lowborn_fabbri ni_lowborn_barbieri ni_lowborn_molinari ni_lowborn_sartori ni_lowborn_fontana
+		ni_lowborn_riva ni_lowborn_pozzi ni_lowborn_negri ni_lowborn_villa ni_lowborn_colombo ni_lowborn_brambilla
+		ni_lowborn_parodi ni_lowborn_zanetti ni_lowborn_trevisan ni_lowborn_bergonzi ni_lowborn_magnani
+		ni_lowborn_bertolini om_low_itn_rossi om_low_itn_marino
+	}
+	location_prefix = "location_prefix_italian"
+	location_prefix_vowel = "location_prefix_italian_vowel"
+	patronym_prefix_son = "patronym_prefix_italian_son"
+	patronym_prefix_daughter = "patronym_prefix_italian_daughter"
+	ship_names = {
+		om7_ship_north_italian_language_001 om7_ship_north_italian_language_002 om7_ship_north_italian_language_003
+		om7_ship_north_italian_language_004 om7_ship_north_italian_language_005 om7_ship_north_italian_language_006
+		om7_ship_north_italian_language_007 om7_ship_north_italian_language_008 om7_ship_north_italian_language_009
+		om7_ship_north_italian_language_010 om7_ship_north_italian_language_011 om7_ship_north_italian_language_012
+		om7_ship_north_italian_language_013 om7_ship_north_italian_language_014 om7_ship_north_italian_language_015
+		om7_ship_north_italian_language_016 om7_ship_north_italian_language_017 om7_ship_north_italian_language_018
+		om7_ship_north_italian_language_019 om7_ship_north_italian_language_020 om7_ship_north_italian_language_021
+		om7_ship_north_italian_language_022 om7_ship_north_italian_language_023 om7_ship_north_italian_language_024
+		om7_ship_north_italian_language_025 om7_ship_north_italian_language_026 om7_ship_north_italian_language_027
+		om7_ship_north_italian_language_028 om7_ship_north_italian_language_029 om7_ship_north_italian_language_030
+		om7_ship_north_italian_language_031 om7_ship_north_italian_language_032 om7_ship_north_italian_language_033
+		om7_ship_north_italian_language_034 om7_ship_north_italian_language_035 om7_ship_north_italian_language_036
+		om7_ship_north_italian_language_037 om7_ship_north_italian_language_038 om7_ship_north_italian_language_039
+		om7_ship_north_italian_language_040 om7_ship_north_italian_language_041 om7_ship_north_italian_language_042
+		om7_ship_north_italian_language_043 om7_ship_north_italian_language_044 om7_ship_north_italian_language_045
+		om7_ship_north_italian_language_046 om7_ship_north_italian_language_047 om7_ship_north_italian_language_048
+		om7_ship_north_italian_language_049 om7_ship_north_italian_language_050 om7_ship_north_italian_language_051
+		om7_ship_north_italian_language_052 om7_ship_north_italian_language_053 om7_ship_north_italian_language_054
+		om7_ship_north_italian_language_055 om7_ship_north_italian_language_056 om7_ship_north_italian_language_057
+		om7_ship_north_italian_language_058 om7_ship_north_italian_language_059 om7_ship_north_italian_language_060
+		om7_ship_north_italian_language_061 om7_ship_north_italian_language_062 om7_ship_north_italian_language_063
+		om7_ship_north_italian_language_064 om7_ship_north_italian_language_065 om7_ship_north_italian_language_066
+		om7_ship_north_italian_language_067 om7_ship_north_italian_language_068 om7_ship_north_italian_language_069
+		om7_ship_north_italian_language_070 om7_ship_north_italian_language_071 om7_ship_north_italian_language_072
+		om7_ship_north_italian_language_073 om7_ship_north_italian_language_074 om7_ship_north_italian_language_075
+		om7_ship_north_italian_language_076 om7_ship_north_italian_language_077 om7_ship_north_italian_language_078
+		om7_ship_north_italian_language_079 om7_ship_north_italian_language_080 om7_ship_north_italian_language_081
+		om7_ship_north_italian_language_082 om7_ship_north_italian_language_083 om7_ship_north_italian_language_084
+		om7_ship_north_italian_language_085 om7_ship_north_italian_language_086 om7_ship_north_italian_language_087
+		om7_ship_north_italian_language_088 om7_ship_north_italian_language_089 om7_ship_north_italian_language_090
+		om7_ship_north_italian_language_091 om7_ship_north_italian_language_092 om7_ship_north_italian_language_093
+		om7_ship_north_italian_language_094 om7_ship_north_italian_language_095 om7_ship_north_italian_language_096
+		om7_ship_north_italian_language_097 om7_ship_north_italian_language_098 om7_ship_north_italian_language_099
+		om7_ship_north_italian_language_100 om7_ship_north_italian_language_101 om7_ship_north_italian_language_102
+		om7_ship_north_italian_language_103 om7_ship_north_italian_language_104 om7_ship_north_italian_language_105
+		om7_ship_north_italian_language_106 om7_ship_north_italian_language_107 om7_ship_north_italian_language_108
+		om7_ship_north_italian_language_109 om7_ship_north_italian_language_110 om7_ship_north_italian_language_111
+		om7_ship_north_italian_language_112 om7_ship_north_italian_language_113 om7_ship_north_italian_language_114
+		om7_ship_north_italian_language_115 om7_ship_north_italian_language_116 om7_ship_north_italian_language_117
+		om7_ship_north_italian_language_118 om7_ship_north_italian_language_119 om7_ship_north_italian_language_120
+		om7_ship_north_italian_language_121 om7_ship_north_italian_language_122 om7_ship_north_italian_language_123
+		om7_ship_north_italian_language_124 om7_ship_north_italian_language_125 om7_ship_north_italian_language_126
+		om7_ship_north_italian_language_127 om7_ship_north_italian_language_128
+	}
+	dialects = {
+		lombard_dialect = {
+			ship_names = {
+				om7_ship_lombard_dialect_001 om7_ship_lombard_dialect_002 om7_ship_lombard_dialect_003
+				om7_ship_lombard_dialect_004 om7_ship_lombard_dialect_005 om7_ship_lombard_dialect_006
+				om7_ship_lombard_dialect_007 om7_ship_lombard_dialect_008 om7_ship_lombard_dialect_009
+				om7_ship_lombard_dialect_010 om7_ship_lombard_dialect_011 om7_ship_lombard_dialect_012
+				om7_ship_lombard_dialect_013 om7_ship_lombard_dialect_014 om7_ship_lombard_dialect_015
+				om7_ship_lombard_dialect_016 om7_ship_lombard_dialect_017 om7_ship_lombard_dialect_018
+				om7_ship_lombard_dialect_019 om7_ship_lombard_dialect_020 om7_ship_lombard_dialect_021
+				om7_ship_lombard_dialect_022 om7_ship_lombard_dialect_023 om7_ship_lombard_dialect_024
+				om7_ship_lombard_dialect_025 om7_ship_lombard_dialect_026 om7_ship_lombard_dialect_027
+				om7_ship_lombard_dialect_028 om7_ship_lombard_dialect_029 om7_ship_lombard_dialect_030
+				om7_ship_lombard_dialect_031 om7_ship_lombard_dialect_032 om7_ship_lombard_dialect_033
+				om7_ship_lombard_dialect_034 om7_ship_lombard_dialect_035 om7_ship_lombard_dialect_036
+				om7_ship_lombard_dialect_037 om7_ship_lombard_dialect_038 om7_ship_lombard_dialect_039
+				om7_ship_lombard_dialect_040 om7_ship_lombard_dialect_041 om7_ship_lombard_dialect_042
+				om7_ship_lombard_dialect_043 om7_ship_lombard_dialect_044 om7_ship_lombard_dialect_045
+				om7_ship_lombard_dialect_046 om7_ship_lombard_dialect_047 om7_ship_lombard_dialect_048
+				om7_ship_lombard_dialect_049 om7_ship_lombard_dialect_050 om7_ship_lombard_dialect_051
+				om7_ship_lombard_dialect_052 om7_ship_lombard_dialect_053 om7_ship_lombard_dialect_054
+				om7_ship_lombard_dialect_055 om7_ship_lombard_dialect_056 om7_ship_lombard_dialect_057
+				om7_ship_lombard_dialect_058 om7_ship_lombard_dialect_059 om7_ship_lombard_dialect_060
+				om7_ship_lombard_dialect_061 om7_ship_lombard_dialect_062 om7_ship_lombard_dialect_063
+				om7_ship_lombard_dialect_064 om7_ship_lombard_dialect_065 om7_ship_lombard_dialect_066
+				om7_ship_lombard_dialect_067 om7_ship_lombard_dialect_068 om7_ship_lombard_dialect_069
+				om7_ship_lombard_dialect_070 om7_ship_lombard_dialect_071 om7_ship_lombard_dialect_072
+				om7_ship_lombard_dialect_073 om7_ship_lombard_dialect_074 om7_ship_lombard_dialect_075
+				om7_ship_lombard_dialect_076 om7_ship_lombard_dialect_077 om7_ship_lombard_dialect_078
+				om7_ship_lombard_dialect_079 om7_ship_lombard_dialect_080 om7_ship_lombard_dialect_081
+				om7_ship_lombard_dialect_082 om7_ship_lombard_dialect_083 om7_ship_lombard_dialect_084
+				om7_ship_lombard_dialect_085 om7_ship_lombard_dialect_086 om7_ship_lombard_dialect_087
+				om7_ship_lombard_dialect_088 om7_ship_lombard_dialect_089 om7_ship_lombard_dialect_090
+				om7_ship_lombard_dialect_091 om7_ship_lombard_dialect_092 om7_ship_lombard_dialect_093
+				om7_ship_lombard_dialect_094 om7_ship_lombard_dialect_095 om7_ship_lombard_dialect_096
+				om7_ship_lombard_dialect_097 om7_ship_lombard_dialect_098 om7_ship_lombard_dialect_099
+				om7_ship_lombard_dialect_100 om7_ship_lombard_dialect_101 om7_ship_lombard_dialect_102
+				om7_ship_lombard_dialect_103 om7_ship_lombard_dialect_104 om7_ship_lombard_dialect_105
+				om7_ship_lombard_dialect_106 om7_ship_lombard_dialect_107 om7_ship_lombard_dialect_108
+				om7_ship_lombard_dialect_109 om7_ship_lombard_dialect_110 om7_ship_lombard_dialect_111
+				om7_ship_lombard_dialect_112 om7_ship_lombard_dialect_113 om7_ship_lombard_dialect_114
+				om7_ship_lombard_dialect_115 om7_ship_lombard_dialect_116 om7_ship_lombard_dialect_117
+				om7_ship_lombard_dialect_118 om7_ship_lombard_dialect_119 om7_ship_lombard_dialect_120
+				om7_ship_lombard_dialect_121 om7_ship_lombard_dialect_122 om7_ship_lombard_dialect_123
+				om7_ship_lombard_dialect_124 om7_ship_lombard_dialect_125 om7_ship_lombard_dialect_126
+				om7_ship_lombard_dialect_127 om7_ship_lombard_dialect_128
+			}
+		}
+		piedmontese_dialect = {
+			fallback = lombard_dialect
+			ship_names = {
+				om7_ship_piedmontese_dialect_001 om7_ship_piedmontese_dialect_002 om7_ship_piedmontese_dialect_003
+				om7_ship_piedmontese_dialect_004 om7_ship_piedmontese_dialect_005 om7_ship_piedmontese_dialect_006
+				om7_ship_piedmontese_dialect_007 om7_ship_piedmontese_dialect_008 om7_ship_piedmontese_dialect_009
+				om7_ship_piedmontese_dialect_010 om7_ship_piedmontese_dialect_011 om7_ship_piedmontese_dialect_012
+				om7_ship_piedmontese_dialect_013 om7_ship_piedmontese_dialect_014 om7_ship_piedmontese_dialect_015
+				om7_ship_piedmontese_dialect_016 om7_ship_piedmontese_dialect_017 om7_ship_piedmontese_dialect_018
+				om7_ship_piedmontese_dialect_019 om7_ship_piedmontese_dialect_020 om7_ship_piedmontese_dialect_021
+				om7_ship_piedmontese_dialect_022 om7_ship_piedmontese_dialect_023 om7_ship_piedmontese_dialect_024
+				om7_ship_piedmontese_dialect_025 om7_ship_piedmontese_dialect_026 om7_ship_piedmontese_dialect_027
+				om7_ship_piedmontese_dialect_028 om7_ship_piedmontese_dialect_029 om7_ship_piedmontese_dialect_030
+				om7_ship_piedmontese_dialect_031 om7_ship_piedmontese_dialect_032 om7_ship_piedmontese_dialect_033
+				om7_ship_piedmontese_dialect_034 om7_ship_piedmontese_dialect_035 om7_ship_piedmontese_dialect_036
+				om7_ship_piedmontese_dialect_037 om7_ship_piedmontese_dialect_038 om7_ship_piedmontese_dialect_039
+				om7_ship_piedmontese_dialect_040 om7_ship_piedmontese_dialect_041 om7_ship_piedmontese_dialect_042
+				om7_ship_piedmontese_dialect_043 om7_ship_piedmontese_dialect_044 om7_ship_piedmontese_dialect_045
+				om7_ship_piedmontese_dialect_046 om7_ship_piedmontese_dialect_047 om7_ship_piedmontese_dialect_048
+				om7_ship_piedmontese_dialect_049 om7_ship_piedmontese_dialect_050 om7_ship_piedmontese_dialect_051
+				om7_ship_piedmontese_dialect_052 om7_ship_piedmontese_dialect_053 om7_ship_piedmontese_dialect_054
+				om7_ship_piedmontese_dialect_055 om7_ship_piedmontese_dialect_056 om7_ship_piedmontese_dialect_057
+				om7_ship_piedmontese_dialect_058 om7_ship_piedmontese_dialect_059 om7_ship_piedmontese_dialect_060
+				om7_ship_piedmontese_dialect_061 om7_ship_piedmontese_dialect_062 om7_ship_piedmontese_dialect_063
+				om7_ship_piedmontese_dialect_064 om7_ship_piedmontese_dialect_065 om7_ship_piedmontese_dialect_066
+				om7_ship_piedmontese_dialect_067 om7_ship_piedmontese_dialect_068 om7_ship_piedmontese_dialect_069
+				om7_ship_piedmontese_dialect_070 om7_ship_piedmontese_dialect_071 om7_ship_piedmontese_dialect_072
+				om7_ship_piedmontese_dialect_073 om7_ship_piedmontese_dialect_074 om7_ship_piedmontese_dialect_075
+				om7_ship_piedmontese_dialect_076 om7_ship_piedmontese_dialect_077 om7_ship_piedmontese_dialect_078
+				om7_ship_piedmontese_dialect_079 om7_ship_piedmontese_dialect_080 om7_ship_piedmontese_dialect_081
+				om7_ship_piedmontese_dialect_082 om7_ship_piedmontese_dialect_083 om7_ship_piedmontese_dialect_084
+				om7_ship_piedmontese_dialect_085 om7_ship_piedmontese_dialect_086 om7_ship_piedmontese_dialect_087
+				om7_ship_piedmontese_dialect_088 om7_ship_piedmontese_dialect_089 om7_ship_piedmontese_dialect_090
+				om7_ship_piedmontese_dialect_091 om7_ship_piedmontese_dialect_092 om7_ship_piedmontese_dialect_093
+				om7_ship_piedmontese_dialect_094 om7_ship_piedmontese_dialect_095 om7_ship_piedmontese_dialect_096
+				om7_ship_piedmontese_dialect_097 om7_ship_piedmontese_dialect_098 om7_ship_piedmontese_dialect_099
+				om7_ship_piedmontese_dialect_100 om7_ship_piedmontese_dialect_101 om7_ship_piedmontese_dialect_102
+				om7_ship_piedmontese_dialect_103 om7_ship_piedmontese_dialect_104 om7_ship_piedmontese_dialect_105
+				om7_ship_piedmontese_dialect_106 om7_ship_piedmontese_dialect_107 om7_ship_piedmontese_dialect_108
+				om7_ship_piedmontese_dialect_109 om7_ship_piedmontese_dialect_110 om7_ship_piedmontese_dialect_111
+				om7_ship_piedmontese_dialect_112 om7_ship_piedmontese_dialect_113 om7_ship_piedmontese_dialect_114
+				om7_ship_piedmontese_dialect_115 om7_ship_piedmontese_dialect_116 om7_ship_piedmontese_dialect_117
+				om7_ship_piedmontese_dialect_118 om7_ship_piedmontese_dialect_119 om7_ship_piedmontese_dialect_120
+				om7_ship_piedmontese_dialect_121 om7_ship_piedmontese_dialect_122 om7_ship_piedmontese_dialect_123
+				om7_ship_piedmontese_dialect_124 om7_ship_piedmontese_dialect_125 om7_ship_piedmontese_dialect_126
+				om7_ship_piedmontese_dialect_127 om7_ship_piedmontese_dialect_128
+			}
+		}
+		ligurian_dialect = {
+			ship_names = {
+				om7_ship_ligurian_dialect_001 om7_ship_ligurian_dialect_002 om7_ship_ligurian_dialect_003
+				om7_ship_ligurian_dialect_004 om7_ship_ligurian_dialect_005 om7_ship_ligurian_dialect_006
+				om7_ship_ligurian_dialect_007 om7_ship_ligurian_dialect_008 om7_ship_ligurian_dialect_009
+				om7_ship_ligurian_dialect_010 om7_ship_ligurian_dialect_011 om7_ship_ligurian_dialect_012
+				om7_ship_ligurian_dialect_013 om7_ship_ligurian_dialect_014 om7_ship_ligurian_dialect_015
+				om7_ship_ligurian_dialect_016 om7_ship_ligurian_dialect_017 om7_ship_ligurian_dialect_018
+				om7_ship_ligurian_dialect_019 om7_ship_ligurian_dialect_020 om7_ship_ligurian_dialect_021
+				om7_ship_ligurian_dialect_022 om7_ship_ligurian_dialect_023 om7_ship_ligurian_dialect_024
+				om7_ship_ligurian_dialect_025 om7_ship_ligurian_dialect_026 om7_ship_ligurian_dialect_027
+				om7_ship_ligurian_dialect_028 om7_ship_ligurian_dialect_029 om7_ship_ligurian_dialect_030
+				om7_ship_ligurian_dialect_031 om7_ship_ligurian_dialect_032 om7_ship_ligurian_dialect_033
+				om7_ship_ligurian_dialect_034 om7_ship_ligurian_dialect_035 om7_ship_ligurian_dialect_036
+				om7_ship_ligurian_dialect_037 om7_ship_ligurian_dialect_038 om7_ship_ligurian_dialect_039
+				om7_ship_ligurian_dialect_040 om7_ship_ligurian_dialect_041 om7_ship_ligurian_dialect_042
+				om7_ship_ligurian_dialect_043 om7_ship_ligurian_dialect_044 om7_ship_ligurian_dialect_045
+				om7_ship_ligurian_dialect_046 om7_ship_ligurian_dialect_047 om7_ship_ligurian_dialect_048
+				om7_ship_ligurian_dialect_049 om7_ship_ligurian_dialect_050 om7_ship_ligurian_dialect_051
+				om7_ship_ligurian_dialect_052 om7_ship_ligurian_dialect_053 om7_ship_ligurian_dialect_054
+				om7_ship_ligurian_dialect_055 om7_ship_ligurian_dialect_056 om7_ship_ligurian_dialect_057
+				om7_ship_ligurian_dialect_058 om7_ship_ligurian_dialect_059 om7_ship_ligurian_dialect_060
+				om7_ship_ligurian_dialect_061 om7_ship_ligurian_dialect_062 om7_ship_ligurian_dialect_063
+				om7_ship_ligurian_dialect_064 om7_ship_ligurian_dialect_065 om7_ship_ligurian_dialect_066
+				om7_ship_ligurian_dialect_067 om7_ship_ligurian_dialect_068 om7_ship_ligurian_dialect_069
+				om7_ship_ligurian_dialect_070 om7_ship_ligurian_dialect_071 om7_ship_ligurian_dialect_072
+				om7_ship_ligurian_dialect_073 om7_ship_ligurian_dialect_074 om7_ship_ligurian_dialect_075
+				om7_ship_ligurian_dialect_076 om7_ship_ligurian_dialect_077 om7_ship_ligurian_dialect_078
+				om7_ship_ligurian_dialect_079 om7_ship_ligurian_dialect_080 om7_ship_ligurian_dialect_081
+				om7_ship_ligurian_dialect_082 om7_ship_ligurian_dialect_083 om7_ship_ligurian_dialect_084
+				om7_ship_ligurian_dialect_085 om7_ship_ligurian_dialect_086 om7_ship_ligurian_dialect_087
+				om7_ship_ligurian_dialect_088 om7_ship_ligurian_dialect_089 om7_ship_ligurian_dialect_090
+				om7_ship_ligurian_dialect_091 om7_ship_ligurian_dialect_092 om7_ship_ligurian_dialect_093
+				om7_ship_ligurian_dialect_094 om7_ship_ligurian_dialect_095 om7_ship_ligurian_dialect_096
+				om7_ship_ligurian_dialect_097 om7_ship_ligurian_dialect_098 om7_ship_ligurian_dialect_099
+				om7_ship_ligurian_dialect_100 om7_ship_ligurian_dialect_101 om7_ship_ligurian_dialect_102
+				om7_ship_ligurian_dialect_103 om7_ship_ligurian_dialect_104 om7_ship_ligurian_dialect_105
+				om7_ship_ligurian_dialect_106 om7_ship_ligurian_dialect_107 om7_ship_ligurian_dialect_108
+				om7_ship_ligurian_dialect_109 om7_ship_ligurian_dialect_110 om7_ship_ligurian_dialect_111
+				om7_ship_ligurian_dialect_112 om7_ship_ligurian_dialect_113 om7_ship_ligurian_dialect_114
+				om7_ship_ligurian_dialect_115 om7_ship_ligurian_dialect_116 om7_ship_ligurian_dialect_117
+				om7_ship_ligurian_dialect_118 om7_ship_ligurian_dialect_119 om7_ship_ligurian_dialect_120
+				om7_ship_ligurian_dialect_121 om7_ship_ligurian_dialect_122 om7_ship_ligurian_dialect_123
+				om7_ship_ligurian_dialect_124 om7_ship_ligurian_dialect_125 om7_ship_ligurian_dialect_126
+				om7_ship_ligurian_dialect_127 om7_ship_ligurian_dialect_128
+			}
+		}
+		emilian_dialect = {
+			fallback = lombard_dialect
+			ship_names = {
+				om7_ship_emilian_dialect_001 om7_ship_emilian_dialect_002 om7_ship_emilian_dialect_003
+				om7_ship_emilian_dialect_004 om7_ship_emilian_dialect_005 om7_ship_emilian_dialect_006
+				om7_ship_emilian_dialect_007 om7_ship_emilian_dialect_008 om7_ship_emilian_dialect_009
+				om7_ship_emilian_dialect_010 om7_ship_emilian_dialect_011 om7_ship_emilian_dialect_012
+				om7_ship_emilian_dialect_013 om7_ship_emilian_dialect_014 om7_ship_emilian_dialect_015
+				om7_ship_emilian_dialect_016 om7_ship_emilian_dialect_017 om7_ship_emilian_dialect_018
+				om7_ship_emilian_dialect_019 om7_ship_emilian_dialect_020 om7_ship_emilian_dialect_021
+				om7_ship_emilian_dialect_022 om7_ship_emilian_dialect_023 om7_ship_emilian_dialect_024
+				om7_ship_emilian_dialect_025 om7_ship_emilian_dialect_026 om7_ship_emilian_dialect_027
+				om7_ship_emilian_dialect_028 om7_ship_emilian_dialect_029 om7_ship_emilian_dialect_030
+				om7_ship_emilian_dialect_031 om7_ship_emilian_dialect_032 om7_ship_emilian_dialect_033
+				om7_ship_emilian_dialect_034 om7_ship_emilian_dialect_035 om7_ship_emilian_dialect_036
+				om7_ship_emilian_dialect_037 om7_ship_emilian_dialect_038 om7_ship_emilian_dialect_039
+				om7_ship_emilian_dialect_040 om7_ship_emilian_dialect_041 om7_ship_emilian_dialect_042
+				om7_ship_emilian_dialect_043 om7_ship_emilian_dialect_044 om7_ship_emilian_dialect_045
+				om7_ship_emilian_dialect_046 om7_ship_emilian_dialect_047 om7_ship_emilian_dialect_048
+				om7_ship_emilian_dialect_049 om7_ship_emilian_dialect_050 om7_ship_emilian_dialect_051
+				om7_ship_emilian_dialect_052 om7_ship_emilian_dialect_053 om7_ship_emilian_dialect_054
+				om7_ship_emilian_dialect_055 om7_ship_emilian_dialect_056 om7_ship_emilian_dialect_057
+				om7_ship_emilian_dialect_058 om7_ship_emilian_dialect_059 om7_ship_emilian_dialect_060
+				om7_ship_emilian_dialect_061 om7_ship_emilian_dialect_062 om7_ship_emilian_dialect_063
+				om7_ship_emilian_dialect_064 om7_ship_emilian_dialect_065 om7_ship_emilian_dialect_066
+				om7_ship_emilian_dialect_067 om7_ship_emilian_dialect_068 om7_ship_emilian_dialect_069
+				om7_ship_emilian_dialect_070 om7_ship_emilian_dialect_071 om7_ship_emilian_dialect_072
+				om7_ship_emilian_dialect_073 om7_ship_emilian_dialect_074 om7_ship_emilian_dialect_075
+				om7_ship_emilian_dialect_076 om7_ship_emilian_dialect_077 om7_ship_emilian_dialect_078
+				om7_ship_emilian_dialect_079 om7_ship_emilian_dialect_080 om7_ship_emilian_dialect_081
+				om7_ship_emilian_dialect_082 om7_ship_emilian_dialect_083 om7_ship_emilian_dialect_084
+				om7_ship_emilian_dialect_085 om7_ship_emilian_dialect_086 om7_ship_emilian_dialect_087
+				om7_ship_emilian_dialect_088 om7_ship_emilian_dialect_089 om7_ship_emilian_dialect_090
+				om7_ship_emilian_dialect_091 om7_ship_emilian_dialect_092 om7_ship_emilian_dialect_093
+				om7_ship_emilian_dialect_094 om7_ship_emilian_dialect_095 om7_ship_emilian_dialect_096
+				om7_ship_emilian_dialect_097 om7_ship_emilian_dialect_098 om7_ship_emilian_dialect_099
+				om7_ship_emilian_dialect_100 om7_ship_emilian_dialect_101 om7_ship_emilian_dialect_102
+				om7_ship_emilian_dialect_103 om7_ship_emilian_dialect_104 om7_ship_emilian_dialect_105
+				om7_ship_emilian_dialect_106 om7_ship_emilian_dialect_107 om7_ship_emilian_dialect_108
+				om7_ship_emilian_dialect_109 om7_ship_emilian_dialect_110 om7_ship_emilian_dialect_111
+				om7_ship_emilian_dialect_112 om7_ship_emilian_dialect_113 om7_ship_emilian_dialect_114
+				om7_ship_emilian_dialect_115 om7_ship_emilian_dialect_116 om7_ship_emilian_dialect_117
+				om7_ship_emilian_dialect_118 om7_ship_emilian_dialect_119 om7_ship_emilian_dialect_120
+				om7_ship_emilian_dialect_121 om7_ship_emilian_dialect_122 om7_ship_emilian_dialect_123
+				om7_ship_emilian_dialect_124 om7_ship_emilian_dialect_125 om7_ship_emilian_dialect_126
+				om7_ship_emilian_dialect_127 om7_ship_emilian_dialect_128
+			}
+		}
+		venetian_dialect = {
+			patronym_prefix_son = "patronym_prefix_de_son"
+			patronym_prefix_daughter = "patronym_prefix_de_daughter"
+			ship_names = {
+				om7_ship_venetian_dialect_001 om7_ship_venetian_dialect_002 om7_ship_venetian_dialect_003
+				om7_ship_venetian_dialect_004 om7_ship_venetian_dialect_005 om7_ship_venetian_dialect_006
+				om7_ship_venetian_dialect_007 om7_ship_venetian_dialect_008 om7_ship_venetian_dialect_009
+				om7_ship_venetian_dialect_010 om7_ship_venetian_dialect_011 om7_ship_venetian_dialect_012
+				om7_ship_venetian_dialect_013 om7_ship_venetian_dialect_014 om7_ship_venetian_dialect_015
+				om7_ship_venetian_dialect_016 om7_ship_venetian_dialect_017 om7_ship_venetian_dialect_018
+				om7_ship_venetian_dialect_019 om7_ship_venetian_dialect_020 om7_ship_venetian_dialect_021
+				om7_ship_venetian_dialect_022 om7_ship_venetian_dialect_023 om7_ship_venetian_dialect_024
+				om7_ship_venetian_dialect_025 om7_ship_venetian_dialect_026 om7_ship_venetian_dialect_027
+				om7_ship_venetian_dialect_028 om7_ship_venetian_dialect_029 om7_ship_venetian_dialect_030
+				om7_ship_venetian_dialect_031 om7_ship_venetian_dialect_032 om7_ship_venetian_dialect_033
+				om7_ship_venetian_dialect_034 om7_ship_venetian_dialect_035 om7_ship_venetian_dialect_036
+				om7_ship_venetian_dialect_037 om7_ship_venetian_dialect_038 om7_ship_venetian_dialect_039
+				om7_ship_venetian_dialect_040 om7_ship_venetian_dialect_041 om7_ship_venetian_dialect_042
+				om7_ship_venetian_dialect_043 om7_ship_venetian_dialect_044 om7_ship_venetian_dialect_045
+				om7_ship_venetian_dialect_046 om7_ship_venetian_dialect_047 om7_ship_venetian_dialect_048
+				om7_ship_venetian_dialect_049 om7_ship_venetian_dialect_050 om7_ship_venetian_dialect_051
+				om7_ship_venetian_dialect_052 om7_ship_venetian_dialect_053 om7_ship_venetian_dialect_054
+				om7_ship_venetian_dialect_055 om7_ship_venetian_dialect_056 om7_ship_venetian_dialect_057
+				om7_ship_venetian_dialect_058 om7_ship_venetian_dialect_059 om7_ship_venetian_dialect_060
+				om7_ship_venetian_dialect_061 om7_ship_venetian_dialect_062 om7_ship_venetian_dialect_063
+				om7_ship_venetian_dialect_064 om7_ship_venetian_dialect_065 om7_ship_venetian_dialect_066
+				om7_ship_venetian_dialect_067 om7_ship_venetian_dialect_068 om7_ship_venetian_dialect_069
+				om7_ship_venetian_dialect_070 om7_ship_venetian_dialect_071 om7_ship_venetian_dialect_072
+				om7_ship_venetian_dialect_073 om7_ship_venetian_dialect_074 om7_ship_venetian_dialect_075
+				om7_ship_venetian_dialect_076 om7_ship_venetian_dialect_077 om7_ship_venetian_dialect_078
+				om7_ship_venetian_dialect_079 om7_ship_venetian_dialect_080 om7_ship_venetian_dialect_081
+				om7_ship_venetian_dialect_082 om7_ship_venetian_dialect_083 om7_ship_venetian_dialect_084
+				om7_ship_venetian_dialect_085 om7_ship_venetian_dialect_086 om7_ship_venetian_dialect_087
+				om7_ship_venetian_dialect_088 om7_ship_venetian_dialect_089 om7_ship_venetian_dialect_090
+				om7_ship_venetian_dialect_091 om7_ship_venetian_dialect_092 om7_ship_venetian_dialect_093
+				om7_ship_venetian_dialect_094 om7_ship_venetian_dialect_095 om7_ship_venetian_dialect_096
+				om7_ship_venetian_dialect_097 om7_ship_venetian_dialect_098 om7_ship_venetian_dialect_099
+				om7_ship_venetian_dialect_100 om7_ship_venetian_dialect_101 om7_ship_venetian_dialect_102
+				om7_ship_venetian_dialect_103 om7_ship_venetian_dialect_104 om7_ship_venetian_dialect_105
+				om7_ship_venetian_dialect_106 om7_ship_venetian_dialect_107 om7_ship_venetian_dialect_108
+				om7_ship_venetian_dialect_109 om7_ship_venetian_dialect_110 om7_ship_venetian_dialect_111
+				om7_ship_venetian_dialect_112 om7_ship_venetian_dialect_113 om7_ship_venetian_dialect_114
+				om7_ship_venetian_dialect_115 om7_ship_venetian_dialect_116 om7_ship_venetian_dialect_117
+				om7_ship_venetian_dialect_118 om7_ship_venetian_dialect_119 om7_ship_venetian_dialect_120
+				om7_ship_venetian_dialect_121 om7_ship_venetian_dialect_122 om7_ship_venetian_dialect_123
+				om7_ship_venetian_dialect_124 om7_ship_venetian_dialect_125 om7_ship_venetian_dialect_126
+				om7_ship_venetian_dialect_127 om7_ship_venetian_dialect_128
+			}
+		}
+		rhaetian_dialect = {
+			patronym_prefix_son = "patronym_prefix_rhaetian_son"
+			patronym_prefix_daughter = "patronym_prefix_rhaetian_daughter"
+			ship_names = {
+				om7_ship_rhaetian_dialect_001 om7_ship_rhaetian_dialect_002 om7_ship_rhaetian_dialect_003
+				om7_ship_rhaetian_dialect_004 om7_ship_rhaetian_dialect_005 om7_ship_rhaetian_dialect_006
+				om7_ship_rhaetian_dialect_007 om7_ship_rhaetian_dialect_008 om7_ship_rhaetian_dialect_009
+				om7_ship_rhaetian_dialect_010 om7_ship_rhaetian_dialect_011 om7_ship_rhaetian_dialect_012
+				om7_ship_rhaetian_dialect_013 om7_ship_rhaetian_dialect_014 om7_ship_rhaetian_dialect_015
+				om7_ship_rhaetian_dialect_016 om7_ship_rhaetian_dialect_017 om7_ship_rhaetian_dialect_018
+				om7_ship_rhaetian_dialect_019 om7_ship_rhaetian_dialect_020 om7_ship_rhaetian_dialect_021
+				om7_ship_rhaetian_dialect_022 om7_ship_rhaetian_dialect_023 om7_ship_rhaetian_dialect_024
+				om7_ship_rhaetian_dialect_025 om7_ship_rhaetian_dialect_026 om7_ship_rhaetian_dialect_027
+				om7_ship_rhaetian_dialect_028 om7_ship_rhaetian_dialect_029 om7_ship_rhaetian_dialect_030
+				om7_ship_rhaetian_dialect_031 om7_ship_rhaetian_dialect_032 om7_ship_rhaetian_dialect_033
+				om7_ship_rhaetian_dialect_034 om7_ship_rhaetian_dialect_035 om7_ship_rhaetian_dialect_036
+				om7_ship_rhaetian_dialect_037 om7_ship_rhaetian_dialect_038 om7_ship_rhaetian_dialect_039
+				om7_ship_rhaetian_dialect_040 om7_ship_rhaetian_dialect_041 om7_ship_rhaetian_dialect_042
+				om7_ship_rhaetian_dialect_043 om7_ship_rhaetian_dialect_044 om7_ship_rhaetian_dialect_045
+				om7_ship_rhaetian_dialect_046 om7_ship_rhaetian_dialect_047 om7_ship_rhaetian_dialect_048
+				om7_ship_rhaetian_dialect_049 om7_ship_rhaetian_dialect_050 om7_ship_rhaetian_dialect_051
+				om7_ship_rhaetian_dialect_052 om7_ship_rhaetian_dialect_053 om7_ship_rhaetian_dialect_054
+				om7_ship_rhaetian_dialect_055 om7_ship_rhaetian_dialect_056 om7_ship_rhaetian_dialect_057
+				om7_ship_rhaetian_dialect_058 om7_ship_rhaetian_dialect_059 om7_ship_rhaetian_dialect_060
+				om7_ship_rhaetian_dialect_061 om7_ship_rhaetian_dialect_062 om7_ship_rhaetian_dialect_063
+				om7_ship_rhaetian_dialect_064 om7_ship_rhaetian_dialect_065 om7_ship_rhaetian_dialect_066
+				om7_ship_rhaetian_dialect_067 om7_ship_rhaetian_dialect_068 om7_ship_rhaetian_dialect_069
+				om7_ship_rhaetian_dialect_070 om7_ship_rhaetian_dialect_071 om7_ship_rhaetian_dialect_072
+				om7_ship_rhaetian_dialect_073 om7_ship_rhaetian_dialect_074 om7_ship_rhaetian_dialect_075
+				om7_ship_rhaetian_dialect_076 om7_ship_rhaetian_dialect_077 om7_ship_rhaetian_dialect_078
+				om7_ship_rhaetian_dialect_079 om7_ship_rhaetian_dialect_080 om7_ship_rhaetian_dialect_081
+				om7_ship_rhaetian_dialect_082 om7_ship_rhaetian_dialect_083 om7_ship_rhaetian_dialect_084
+				om7_ship_rhaetian_dialect_085 om7_ship_rhaetian_dialect_086 om7_ship_rhaetian_dialect_087
+				om7_ship_rhaetian_dialect_088 om7_ship_rhaetian_dialect_089 om7_ship_rhaetian_dialect_090
+				om7_ship_rhaetian_dialect_091 om7_ship_rhaetian_dialect_092 om7_ship_rhaetian_dialect_093
+				om7_ship_rhaetian_dialect_094 om7_ship_rhaetian_dialect_095 om7_ship_rhaetian_dialect_096
+				om7_ship_rhaetian_dialect_097 om7_ship_rhaetian_dialect_098 om7_ship_rhaetian_dialect_099
+				om7_ship_rhaetian_dialect_100 om7_ship_rhaetian_dialect_101 om7_ship_rhaetian_dialect_102
+				om7_ship_rhaetian_dialect_103 om7_ship_rhaetian_dialect_104 om7_ship_rhaetian_dialect_105
+				om7_ship_rhaetian_dialect_106 om7_ship_rhaetian_dialect_107 om7_ship_rhaetian_dialect_108
+				om7_ship_rhaetian_dialect_109 om7_ship_rhaetian_dialect_110 om7_ship_rhaetian_dialect_111
+				om7_ship_rhaetian_dialect_112 om7_ship_rhaetian_dialect_113 om7_ship_rhaetian_dialect_114
+				om7_ship_rhaetian_dialect_115 om7_ship_rhaetian_dialect_116 om7_ship_rhaetian_dialect_117
+				om7_ship_rhaetian_dialect_118 om7_ship_rhaetian_dialect_119 om7_ship_rhaetian_dialect_120
+				om7_ship_rhaetian_dialect_121 om7_ship_rhaetian_dialect_122 om7_ship_rhaetian_dialect_123
+				om7_ship_rhaetian_dialect_124 om7_ship_rhaetian_dialect_125 om7_ship_rhaetian_dialect_126
+				om7_ship_rhaetian_dialect_127 om7_ship_rhaetian_dialect_128
+			}
+		}
+		romagnol_dialect = {
+			fallback = lombard_dialect
+			ship_names = {
+				om7_ship_romagnol_dialect_001 om7_ship_romagnol_dialect_002 om7_ship_romagnol_dialect_003
+				om7_ship_romagnol_dialect_004 om7_ship_romagnol_dialect_005 om7_ship_romagnol_dialect_006
+				om7_ship_romagnol_dialect_007 om7_ship_romagnol_dialect_008 om7_ship_romagnol_dialect_009
+				om7_ship_romagnol_dialect_010 om7_ship_romagnol_dialect_011 om7_ship_romagnol_dialect_012
+				om7_ship_romagnol_dialect_013 om7_ship_romagnol_dialect_014 om7_ship_romagnol_dialect_015
+				om7_ship_romagnol_dialect_016 om7_ship_romagnol_dialect_017 om7_ship_romagnol_dialect_018
+				om7_ship_romagnol_dialect_019 om7_ship_romagnol_dialect_020 om7_ship_romagnol_dialect_021
+				om7_ship_romagnol_dialect_022 om7_ship_romagnol_dialect_023 om7_ship_romagnol_dialect_024
+				om7_ship_romagnol_dialect_025 om7_ship_romagnol_dialect_026 om7_ship_romagnol_dialect_027
+				om7_ship_romagnol_dialect_028 om7_ship_romagnol_dialect_029 om7_ship_romagnol_dialect_030
+				om7_ship_romagnol_dialect_031 om7_ship_romagnol_dialect_032 om7_ship_romagnol_dialect_033
+				om7_ship_romagnol_dialect_034 om7_ship_romagnol_dialect_035 om7_ship_romagnol_dialect_036
+				om7_ship_romagnol_dialect_037 om7_ship_romagnol_dialect_038 om7_ship_romagnol_dialect_039
+				om7_ship_romagnol_dialect_040 om7_ship_romagnol_dialect_041 om7_ship_romagnol_dialect_042
+				om7_ship_romagnol_dialect_043 om7_ship_romagnol_dialect_044 om7_ship_romagnol_dialect_045
+				om7_ship_romagnol_dialect_046 om7_ship_romagnol_dialect_047 om7_ship_romagnol_dialect_048
+				om7_ship_romagnol_dialect_049 om7_ship_romagnol_dialect_050 om7_ship_romagnol_dialect_051
+				om7_ship_romagnol_dialect_052 om7_ship_romagnol_dialect_053 om7_ship_romagnol_dialect_054
+				om7_ship_romagnol_dialect_055 om7_ship_romagnol_dialect_056 om7_ship_romagnol_dialect_057
+				om7_ship_romagnol_dialect_058 om7_ship_romagnol_dialect_059 om7_ship_romagnol_dialect_060
+				om7_ship_romagnol_dialect_061 om7_ship_romagnol_dialect_062 om7_ship_romagnol_dialect_063
+				om7_ship_romagnol_dialect_064 om7_ship_romagnol_dialect_065 om7_ship_romagnol_dialect_066
+				om7_ship_romagnol_dialect_067 om7_ship_romagnol_dialect_068 om7_ship_romagnol_dialect_069
+				om7_ship_romagnol_dialect_070 om7_ship_romagnol_dialect_071 om7_ship_romagnol_dialect_072
+				om7_ship_romagnol_dialect_073 om7_ship_romagnol_dialect_074 om7_ship_romagnol_dialect_075
+				om7_ship_romagnol_dialect_076 om7_ship_romagnol_dialect_077 om7_ship_romagnol_dialect_078
+				om7_ship_romagnol_dialect_079 om7_ship_romagnol_dialect_080 om7_ship_romagnol_dialect_081
+				om7_ship_romagnol_dialect_082 om7_ship_romagnol_dialect_083 om7_ship_romagnol_dialect_084
+				om7_ship_romagnol_dialect_085 om7_ship_romagnol_dialect_086 om7_ship_romagnol_dialect_087
+				om7_ship_romagnol_dialect_088 om7_ship_romagnol_dialect_089 om7_ship_romagnol_dialect_090
+				om7_ship_romagnol_dialect_091 om7_ship_romagnol_dialect_092 om7_ship_romagnol_dialect_093
+				om7_ship_romagnol_dialect_094 om7_ship_romagnol_dialect_095 om7_ship_romagnol_dialect_096
+				om7_ship_romagnol_dialect_097 om7_ship_romagnol_dialect_098 om7_ship_romagnol_dialect_099
+				om7_ship_romagnol_dialect_100 om7_ship_romagnol_dialect_101 om7_ship_romagnol_dialect_102
+				om7_ship_romagnol_dialect_103 om7_ship_romagnol_dialect_104 om7_ship_romagnol_dialect_105
+				om7_ship_romagnol_dialect_106 om7_ship_romagnol_dialect_107 om7_ship_romagnol_dialect_108
+				om7_ship_romagnol_dialect_109 om7_ship_romagnol_dialect_110 om7_ship_romagnol_dialect_111
+				om7_ship_romagnol_dialect_112 om7_ship_romagnol_dialect_113 om7_ship_romagnol_dialect_114
+				om7_ship_romagnol_dialect_115 om7_ship_romagnol_dialect_116 om7_ship_romagnol_dialect_117
+				om7_ship_romagnol_dialect_118 om7_ship_romagnol_dialect_119 om7_ship_romagnol_dialect_120
+				om7_ship_romagnol_dialect_121 om7_ship_romagnol_dialect_122 om7_ship_romagnol_dialect_123
+				om7_ship_romagnol_dialect_124 om7_ship_romagnol_dialect_125 om7_ship_romagnol_dialect_126
+				om7_ship_romagnol_dialect_127 om7_ship_romagnol_dialect_128
+			}
+		}
+	}
+}
+
+south_italian_language = {
+	color = map_naples
+	family = romance_language_family
+	male_names = {
+		name_abundius name_abelard name_avelino name_achilles name_adelphus name_adelmo name_adonis name_agapetus
+		name_augustine name_aeneas name_haimo name_alaman name_alaric name_adrian name_alban name_alberic name_albert
+		name_albinus name_alvin name_alcide name_aldebrand name_adalhard name_aleramo name_alexander name_alexis
+		name_adalgar name_louis name_ambrose name_amadeus name_anastasius name_andrew name_angel name_anselm Antonino
+		name_anthony name_archibald name_ardaric name_herman name_arnulf name_arsenios name_artemios name_ascanius
+		name_astor name_henry name_hannibal name_atenulf name_attilio name_august name_aurelius name_auxilius
+		name_ausonius name_everard name_azzo name_balthazar name_barnabas name_bartholomew name_basil name_bassianus
+		name_bassus name_baldwin name_baptiste name_bertrand name_benedict name_benvenuto name_berard name_bernard
+		name_berthold name_blaise name_bonaventura name_boniface name_borso name_bruno name_brutus name_buonconte
+		name_boson name_callisto name_camillo name_candidus name_canius.name_magnus name_charles name_cassius
+		name_castor name_cato name_theudofrid name_chiano name_cyrus name_claude name_clement name_constans
+		name_caesar name_comita name_conon name_cornelius name_conrad name_cosmas name_constantine name_christopher
+		name_chrysogonos name_damian name_david name_demetrius name_dennis name_dominic name_duran name_edward
+		name_helios name_emmanuel name_ennius name_hercules name_elpidius name_evangelos name_hermenegild name_hector
+		name_eugene name_aetius name_ezzelino name_fabrice name_faustus name_frederick name_felix name_ferdinand
+		name_ferrutius name_philip name_florus name_flavius name_fulk name_fortunatus name_fuscus name_francis
+		name_gabriel name_gabrino name_cajetan name_galahad name_eriprando name_galehaut name_casper name_gaston
+		name_gelasius name_gentilis name_gerald name_gerard name_germanus name_hieronymus name_hyacinth name_james
+		name_john.name_frank name_john.name_leon name_janus name_gilbert name_julius name_jordan name_george name_john
+		name_joseph name_godfrey name_gregory name_walter name_guarnito name_guerrino name_william name_wido
+		name_guigliadore name_hyginus name_innocent name_hippolytos name_isnard name_lambert name_landulf
+		name_irenaeus name_lanfrank name_lactantius name_lazarus name_lando name_leonard name_leon name_leopold
+		name_libero name_lionel name_livius name_laurence name_lucas name_lucius name_malacresta name_manfred
+		name_mark name_marianus name_marinus name_marius name_marsilius name_martin name_mastin name_matthew
+		name_emmerich name_michael.name_angel name_michael name_napoleon name_nazareno name_nestor name_nicholas
+		name_nino name_obizzo name_homer name_honorius name_orestes name_orzocorre name_roland name_octavius
+		name_ottobonus name_payn name_pancras name_pandulf name_paul name_paschal name_otto name_patrick
+		name_peregrine name_pericles name_peter name_pius name_prosper name_raphael name_raymond name_rayner
+		name_richard name_reginald name_robert name_rudolf name_russo name_roger name_salinguerra name_salvator
+		name_silvester name_saint name_sancho name_xavier name_sciarra name_sebastian name_secundus name_seraphin
+		name_sergius name_sextus name_septimius name_severinus name_severus name_sylvan name_simeon name_sinibaldo
+		name_sinucello name_sucidus name_spinetta name_stephen name_thaddeus name_theudewald name_tedice name_theodore
+		name_theobald name_titianus name_thomas name_lupus name_victor name_humbert name_arber name_baro
+		name_dalmatius name_dardan name_abraham name_ignatius name_panteleimon name_taulant name_titus name_gervase
+		name_julian name_nikephoros name_stanislav name_adam name_timothy name_constant name_ardian name_alan
+		name_alderic name_aldhelm name_aldus name_alfred name_alphonse name_andronikos name_ansoald name_anthimos
+		name_antiocos name_arnold name_arthur name_athanasius name_balian name_berdoletus name_berengar
+		name_bernardinus name_bobo name_bohemond name_bonconte name_bonleone name_brian name_brunor name_canius
+		name_casimir name_celestine name_christian name_crescentius name_cyprian name_cyriacus name_daniel name_darius
+		name_dodo name_drogo name_edmond name_elias name_engelbert name_enguerrand name_eric name_eustathius
+		name_fantinus name_fidesmitus name_florence name_frank name_galileo name_gawain name_giles name_guiscard
+		name_hardwin name_herbert name_hermes name_hermolaos name_hilarius name_honoratus name_horatius name_hubert
+		name_hugh name_humphrey name_januarius name_jocelyn name_lancelot name_lothar name_lucien name_lucterius
+		name_magnus name_manric name_marcelin name_marcellus name_marcius name_matthias name_maurice name_maurus
+		name_maxentius name_maximilian name_maximus name_milon name_moses name_mutius name_natalius name_nicetas
+		name_nigel name_nikomedes name_octavian name_ogier name_olaf name_onuphrius name_palladius name_paulinus
+		name_perceval name_petronius name_phoebus name_pontius name_prokop name_prosdocimus name_pyrrhus name_rainulf
+		name_rambert name_raven name_roderick name_rotfrid name_rubinus name_salomon name_scipio name_serlo
+		name_sigfrid name_siginulf name_sigmund name_sixtus name_tancred name_thedisius name_tobias name_tolbert
+		name_troilus name_ubald name_ulrick name_ulysses name_urban name_ursus name_valerian name_valerius name_vasco
+		name_venantius name_vincent name_vital name_vitus name_waleram name_welf name_wolfgang name_zechariah
+		name_zeno
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_adalgar
+		name_albert
+		name_benedict
+		name_godfrey
+		name_henry
+		name_louis
+		name_norman
+		name_roger
+		name_tancred
+		name_william
+		name_frederick
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_andrew
+		name_anthony
+		name_charles
+		name_francis
+		name_james
+		name_john
+		name_joseph
+		name_michael
+		name_nicholas
+		name_peter
+		name_thomas
+		name_alphonse
+		name_ferdinand
+		name_om_its_ferrante
+		name_dominic
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_ferdinand
+		name_francis
+		name_louis
+		name_victor
+		name_charles
+		name_joseph
+		name_anthony
+		name_paschal
+	}
+	female_names = {
+		name_adalberta name_adalgisa name_adelaide name_adela name_adriana name_agnes name_augustina name_albina
+		name_alda name_alexandra name_alfonsina name_alice name_louise name_amelia name_ambrosia name_anastasia
+		name_anna name_antonia name_argentina name_augusta name_aurelia name_auxilia name_ausonia name_beatrix
+		name_benedicta name_bernhild name_veronica name_bertha name_blanche name_bonne name_brunhild name_camilla
+		name_candida name_caracosa name_carla Carola name_cecile name_claire name_claudia name_clorinda name_catherine
+		name_clotilde name_constance name_cornelia name_adelinda name_theodora name_hedwig name_helen name_eleanor
+		name_elizabeth name_hermenegilda name_eudoxia name_eugenie name_elisa name_fausta name_felicia name_felicitas
+		name_philippa name_philomena name_flavia name_flora name_fortunata name_fusca name_frances name_hyacintha
+		name_jennifer name_joanna name_judith name_julie name_julianne name_josephine name_hippolyte Isabella
+		name_joscella name_laura name_lavinia name_letitia name_lydia name_livia name_lucia name_lucrece
+		name_madeleine name_marcella name_margaret name_mary name_marianne name_martina name_matilda name_michaela
+		name_annuntiata name_paula name_patrice name_renata name_ricarda name_silvia name_sophia name_stephanie
+		name_titiana name_thomassine name_valentina name_yolande name_virginia name_regina name_rosa name_andrea
+		name_dorothy name_nicole name_violet name_sylvia name_agatha name_alamande name_aldebranda name_alexia
+		name_alvina name_amadea name_angela name_archangela name_artemis name_aurea name_baptiste_f name_bartholomea
+		name_belle name_bernadette name_bridget name_brunissende name_caesarea name_cajetana name_christiana
+		name_christine name_clemence name_clementine name_cleophe name_cyriaca name_dana name_daphne name_despoina
+		name_dilecta name_dominica name_donalda name_eloise name_emily name_esclabonde name_euphemia name_eurydice
+		name_fleurdelys name_florence_f name_gaea name_gentilis_female name_georgia name_gillette name_henrietta
+		name_hersilia name_hieronyma name_hillary name_honest_f name_iseult name_jacqueline name_kunigunde name_laeta
+		name_laurentia name_liutgard name_marine name_marcia name_maximiliane name_octavia name_pauline
+		name_peregrine_f name_petra name_penthesilea name_polyxena name_porcia name_precious_f name_raphaella
+		name_raymonde name_raynera name_rengarda name_risabelle name_sabine name_septimia name_simone name_susan
+		name_sybil name_thaddea name_theodosia name_tiburge name_ursa name_ursina name_ursula name_victoria
+		name_walburga name_wandelberta name_willelma name_zacharine name_zephyrine
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_adelaide
+		name_agnes
+		name_beatrix
+		name_constance
+		name_eleanor
+		name_matilda
+		name_joanna
+		name_mary
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_anna
+		name_catherine
+		name_frances
+		name_joanna
+		name_margaret
+		name_mary
+		Isabella
+		name_antonia
+		name_om_its_rosalia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_caroline
+		name_charlotte
+		name_victoria
+		name_om_its_maria_carolina
+		name_om_its_concetta
+		name_om_its_teresa
+		name_om_its_luisa
+	}
+	dynasty_names = {
+		di_Savoia d_Este Farnese Visconti Gonzaga d_Ivrea Orsini Colonna Caetani Ruspoli Aldobrandini Borghese
+		Odescalchi Serlupi Crescenzi Massimo Patrizi Naro Montoro Theodoli Senni Ricci Rocchi Datti Pietromarchi
+		Tuccimei Mazzetti di_Monferrato Spinola Ventimiglia di_Sabran di_Crivelli Montferrato d_Arborea di_Saluzzo
+		Contarini di_Cremona Scannabecchi di_Lucca di_Candia Gozzadini ghisi_dynasty Zen Tocco di_Biandrate Ariosti
+		Pepoli Borri Caccianemici del_Balzo Fortebraccio di_Ponzone Rangoni di_Castello Allucingolli di_Conti
+		da_Romano degli_Ubaldini Cybo Pallavicini name_adorno Campofregoso Bentivoglio Tiepolo Gradenigo Borromeo
+		Capponi Castracani Cenci Colleoni Concini Obertenghi Crispo Fieschi Gattilusio Bandinelli Serra Sfondrati
+		Doria di_Morra Savelli Mancini da_Correggio Condulmer Moneta Parentucelli Valente Ziani Strozzi Sturzo
+		di_Piombino Monaldeschi Sommaripa borgia Orseolo Antelminelli Beccaria di_Bonacolsi Loredano di_Malaspina
+		Malipiero Maggi Mocenigo Pico di_Mirandola della_Rocca Rossi di_San name_boniface di_Sanseverino Zoagli Egidio
+		Dandolo grimaldi_dynasty it_dyn_di_squillace si_dyn_altavilla si_dyn_daquino si_dyn_caracciolo si_dyn_carafa
+		si_dyn_capece si_dyn_filangieri si_dyn_pignatelli si_dyn_ruffo si_dyn_acquaviva si_dyn_loffredo si_dyn_marzano
+		si_dyn_brancaccio si_dyn_zurlo si_dyn_davalo si_dyn_della_ratta si_dyn_sanfelice si_dyn_miroballo
+		si_dyn_della_marra si_dyn_candida si_dyn_ceva_grimaldi om_dyn_its_sanseverino om_dyn_its_lanza di_Squillache
+	}
+	lowborn = {
+		Esposito Bianchi name_roman name_marinus name_bruno Piazza Ricci Abate Gallo Costa Pesci si_low_ferraro
+		si_low_greco si_low_lombardo si_low_mancuso si_low_moretti si_low_rizzo si_low_de_luca si_low_de_rosa
+		si_low_fusco si_low_miele si_low_mazza si_low_coppola si_low_iacono om_low_its_russo om_low_its_romano
+	}
+	patronym_prefix_son = "patronym_prefix_italian_son"
+	patronym_prefix_daughter = "patronym_prefix_italian_daughter"
+	ship_names = {
+		om7_ship_south_italian_language_001 om7_ship_south_italian_language_002 om7_ship_south_italian_language_003
+		om7_ship_south_italian_language_004 om7_ship_south_italian_language_005 om7_ship_south_italian_language_006
+		om7_ship_south_italian_language_007 om7_ship_south_italian_language_008 om7_ship_south_italian_language_009
+		om7_ship_south_italian_language_010 om7_ship_south_italian_language_011 om7_ship_south_italian_language_012
+		om7_ship_south_italian_language_013 om7_ship_south_italian_language_014 om7_ship_south_italian_language_015
+		om7_ship_south_italian_language_016 om7_ship_south_italian_language_017 om7_ship_south_italian_language_018
+		om7_ship_south_italian_language_019 om7_ship_south_italian_language_020 om7_ship_south_italian_language_021
+		om7_ship_south_italian_language_022 om7_ship_south_italian_language_023 om7_ship_south_italian_language_024
+		om7_ship_south_italian_language_025 om7_ship_south_italian_language_026 om7_ship_south_italian_language_027
+		om7_ship_south_italian_language_028 om7_ship_south_italian_language_029 om7_ship_south_italian_language_030
+		om7_ship_south_italian_language_031 om7_ship_south_italian_language_032 om7_ship_south_italian_language_033
+		om7_ship_south_italian_language_034 om7_ship_south_italian_language_035 om7_ship_south_italian_language_036
+		om7_ship_south_italian_language_037 om7_ship_south_italian_language_038 om7_ship_south_italian_language_039
+		om7_ship_south_italian_language_040 om7_ship_south_italian_language_041 om7_ship_south_italian_language_042
+		om7_ship_south_italian_language_043 om7_ship_south_italian_language_044 om7_ship_south_italian_language_045
+		om7_ship_south_italian_language_046 om7_ship_south_italian_language_047 om7_ship_south_italian_language_048
+		om7_ship_south_italian_language_049 om7_ship_south_italian_language_050 om7_ship_south_italian_language_051
+		om7_ship_south_italian_language_052 om7_ship_south_italian_language_053 om7_ship_south_italian_language_054
+		om7_ship_south_italian_language_055 om7_ship_south_italian_language_056 om7_ship_south_italian_language_057
+		om7_ship_south_italian_language_058 om7_ship_south_italian_language_059 om7_ship_south_italian_language_060
+		om7_ship_south_italian_language_061 om7_ship_south_italian_language_062 om7_ship_south_italian_language_063
+		om7_ship_south_italian_language_064 om7_ship_south_italian_language_065 om7_ship_south_italian_language_066
+		om7_ship_south_italian_language_067 om7_ship_south_italian_language_068 om7_ship_south_italian_language_069
+		om7_ship_south_italian_language_070 om7_ship_south_italian_language_071 om7_ship_south_italian_language_072
+		om7_ship_south_italian_language_073 om7_ship_south_italian_language_074 om7_ship_south_italian_language_075
+		om7_ship_south_italian_language_076 om7_ship_south_italian_language_077 om7_ship_south_italian_language_078
+		om7_ship_south_italian_language_079 om7_ship_south_italian_language_080 om7_ship_south_italian_language_081
+		om7_ship_south_italian_language_082 om7_ship_south_italian_language_083 om7_ship_south_italian_language_084
+		om7_ship_south_italian_language_085 om7_ship_south_italian_language_086 om7_ship_south_italian_language_087
+		om7_ship_south_italian_language_088 om7_ship_south_italian_language_089 om7_ship_south_italian_language_090
+		om7_ship_south_italian_language_091 om7_ship_south_italian_language_092 om7_ship_south_italian_language_093
+		om7_ship_south_italian_language_094 om7_ship_south_italian_language_095 om7_ship_south_italian_language_096
+		om7_ship_south_italian_language_097 om7_ship_south_italian_language_098 om7_ship_south_italian_language_099
+		om7_ship_south_italian_language_100 om7_ship_south_italian_language_101 om7_ship_south_italian_language_102
+		om7_ship_south_italian_language_103 om7_ship_south_italian_language_104 om7_ship_south_italian_language_105
+		om7_ship_south_italian_language_106 om7_ship_south_italian_language_107 om7_ship_south_italian_language_108
+		om7_ship_south_italian_language_109 om7_ship_south_italian_language_110 om7_ship_south_italian_language_111
+		om7_ship_south_italian_language_112 om7_ship_south_italian_language_113 om7_ship_south_italian_language_114
+		om7_ship_south_italian_language_115 om7_ship_south_italian_language_116 om7_ship_south_italian_language_117
+		om7_ship_south_italian_language_118 om7_ship_south_italian_language_119 om7_ship_south_italian_language_120
+		om7_ship_south_italian_language_121 om7_ship_south_italian_language_122 om7_ship_south_italian_language_123
+		om7_ship_south_italian_language_124 om7_ship_south_italian_language_125 om7_ship_south_italian_language_126
+		om7_ship_south_italian_language_127 om7_ship_south_italian_language_128
+	}
+	dialects = {
+		tuscan_dialect = {
+			ship_names = {
+				om7_ship_tuscan_dialect_001 om7_ship_tuscan_dialect_002 om7_ship_tuscan_dialect_003
+				om7_ship_tuscan_dialect_004 om7_ship_tuscan_dialect_005 om7_ship_tuscan_dialect_006
+				om7_ship_tuscan_dialect_007 om7_ship_tuscan_dialect_008 om7_ship_tuscan_dialect_009
+				om7_ship_tuscan_dialect_010 om7_ship_tuscan_dialect_011 om7_ship_tuscan_dialect_012
+				om7_ship_tuscan_dialect_013 om7_ship_tuscan_dialect_014 om7_ship_tuscan_dialect_015
+				om7_ship_tuscan_dialect_016 om7_ship_tuscan_dialect_017 om7_ship_tuscan_dialect_018
+				om7_ship_tuscan_dialect_019 om7_ship_tuscan_dialect_020 om7_ship_tuscan_dialect_021
+				om7_ship_tuscan_dialect_022 om7_ship_tuscan_dialect_023 om7_ship_tuscan_dialect_024
+				om7_ship_tuscan_dialect_025 om7_ship_tuscan_dialect_026 om7_ship_tuscan_dialect_027
+				om7_ship_tuscan_dialect_028 om7_ship_tuscan_dialect_029 om7_ship_tuscan_dialect_030
+				om7_ship_tuscan_dialect_031 om7_ship_tuscan_dialect_032 om7_ship_tuscan_dialect_033
+				om7_ship_tuscan_dialect_034 om7_ship_tuscan_dialect_035 om7_ship_tuscan_dialect_036
+				om7_ship_tuscan_dialect_037 om7_ship_tuscan_dialect_038 om7_ship_tuscan_dialect_039
+				om7_ship_tuscan_dialect_040 om7_ship_tuscan_dialect_041 om7_ship_tuscan_dialect_042
+				om7_ship_tuscan_dialect_043 om7_ship_tuscan_dialect_044 om7_ship_tuscan_dialect_045
+				om7_ship_tuscan_dialect_046 om7_ship_tuscan_dialect_047 om7_ship_tuscan_dialect_048
+				om7_ship_tuscan_dialect_049 om7_ship_tuscan_dialect_050 om7_ship_tuscan_dialect_051
+				om7_ship_tuscan_dialect_052 om7_ship_tuscan_dialect_053 om7_ship_tuscan_dialect_054
+				om7_ship_tuscan_dialect_055 om7_ship_tuscan_dialect_056 om7_ship_tuscan_dialect_057
+				om7_ship_tuscan_dialect_058 om7_ship_tuscan_dialect_059 om7_ship_tuscan_dialect_060
+				om7_ship_tuscan_dialect_061 om7_ship_tuscan_dialect_062 om7_ship_tuscan_dialect_063
+				om7_ship_tuscan_dialect_064 om7_ship_tuscan_dialect_065 om7_ship_tuscan_dialect_066
+				om7_ship_tuscan_dialect_067 om7_ship_tuscan_dialect_068 om7_ship_tuscan_dialect_069
+				om7_ship_tuscan_dialect_070 om7_ship_tuscan_dialect_071 om7_ship_tuscan_dialect_072
+				om7_ship_tuscan_dialect_073 om7_ship_tuscan_dialect_074 om7_ship_tuscan_dialect_075
+				om7_ship_tuscan_dialect_076 om7_ship_tuscan_dialect_077 om7_ship_tuscan_dialect_078
+				om7_ship_tuscan_dialect_079 om7_ship_tuscan_dialect_080 om7_ship_tuscan_dialect_081
+				om7_ship_tuscan_dialect_082 om7_ship_tuscan_dialect_083 om7_ship_tuscan_dialect_084
+				om7_ship_tuscan_dialect_085 om7_ship_tuscan_dialect_086 om7_ship_tuscan_dialect_087
+				om7_ship_tuscan_dialect_088 om7_ship_tuscan_dialect_089 om7_ship_tuscan_dialect_090
+				om7_ship_tuscan_dialect_091 om7_ship_tuscan_dialect_092 om7_ship_tuscan_dialect_093
+				om7_ship_tuscan_dialect_094 om7_ship_tuscan_dialect_095 om7_ship_tuscan_dialect_096
+				om7_ship_tuscan_dialect_097 om7_ship_tuscan_dialect_098 om7_ship_tuscan_dialect_099
+				om7_ship_tuscan_dialect_100 om7_ship_tuscan_dialect_101 om7_ship_tuscan_dialect_102
+				om7_ship_tuscan_dialect_103 om7_ship_tuscan_dialect_104 om7_ship_tuscan_dialect_105
+				om7_ship_tuscan_dialect_106 om7_ship_tuscan_dialect_107 om7_ship_tuscan_dialect_108
+				om7_ship_tuscan_dialect_109 om7_ship_tuscan_dialect_110 om7_ship_tuscan_dialect_111
+				om7_ship_tuscan_dialect_112 om7_ship_tuscan_dialect_113 om7_ship_tuscan_dialect_114
+				om7_ship_tuscan_dialect_115 om7_ship_tuscan_dialect_116 om7_ship_tuscan_dialect_117
+				om7_ship_tuscan_dialect_118 om7_ship_tuscan_dialect_119 om7_ship_tuscan_dialect_120
+				om7_ship_tuscan_dialect_121 om7_ship_tuscan_dialect_122 om7_ship_tuscan_dialect_123
+				om7_ship_tuscan_dialect_124 om7_ship_tuscan_dialect_125 om7_ship_tuscan_dialect_126
+				om7_ship_tuscan_dialect_127 om7_ship_tuscan_dialect_128
+			}
+		}
+		sicilian_dialect = {
+			ship_names = {
+				om7_ship_sicilian_dialect_001 om7_ship_sicilian_dialect_002 om7_ship_sicilian_dialect_003
+				om7_ship_sicilian_dialect_004 om7_ship_sicilian_dialect_005 om7_ship_sicilian_dialect_006
+				om7_ship_sicilian_dialect_007 om7_ship_sicilian_dialect_008 om7_ship_sicilian_dialect_009
+				om7_ship_sicilian_dialect_010 om7_ship_sicilian_dialect_011 om7_ship_sicilian_dialect_012
+				om7_ship_sicilian_dialect_013 om7_ship_sicilian_dialect_014 om7_ship_sicilian_dialect_015
+				om7_ship_sicilian_dialect_016 om7_ship_sicilian_dialect_017 om7_ship_sicilian_dialect_018
+				om7_ship_sicilian_dialect_019 om7_ship_sicilian_dialect_020 om7_ship_sicilian_dialect_021
+				om7_ship_sicilian_dialect_022 om7_ship_sicilian_dialect_023 om7_ship_sicilian_dialect_024
+				om7_ship_sicilian_dialect_025 om7_ship_sicilian_dialect_026 om7_ship_sicilian_dialect_027
+				om7_ship_sicilian_dialect_028 om7_ship_sicilian_dialect_029 om7_ship_sicilian_dialect_030
+				om7_ship_sicilian_dialect_031 om7_ship_sicilian_dialect_032 om7_ship_sicilian_dialect_033
+				om7_ship_sicilian_dialect_034 om7_ship_sicilian_dialect_035 om7_ship_sicilian_dialect_036
+				om7_ship_sicilian_dialect_037 om7_ship_sicilian_dialect_038 om7_ship_sicilian_dialect_039
+				om7_ship_sicilian_dialect_040 om7_ship_sicilian_dialect_041 om7_ship_sicilian_dialect_042
+				om7_ship_sicilian_dialect_043 om7_ship_sicilian_dialect_044 om7_ship_sicilian_dialect_045
+				om7_ship_sicilian_dialect_046 om7_ship_sicilian_dialect_047 om7_ship_sicilian_dialect_048
+				om7_ship_sicilian_dialect_049 om7_ship_sicilian_dialect_050 om7_ship_sicilian_dialect_051
+				om7_ship_sicilian_dialect_052 om7_ship_sicilian_dialect_053 om7_ship_sicilian_dialect_054
+				om7_ship_sicilian_dialect_055 om7_ship_sicilian_dialect_056 om7_ship_sicilian_dialect_057
+				om7_ship_sicilian_dialect_058 om7_ship_sicilian_dialect_059 om7_ship_sicilian_dialect_060
+				om7_ship_sicilian_dialect_061 om7_ship_sicilian_dialect_062 om7_ship_sicilian_dialect_063
+				om7_ship_sicilian_dialect_064 om7_ship_sicilian_dialect_065 om7_ship_sicilian_dialect_066
+				om7_ship_sicilian_dialect_067 om7_ship_sicilian_dialect_068 om7_ship_sicilian_dialect_069
+				om7_ship_sicilian_dialect_070 om7_ship_sicilian_dialect_071 om7_ship_sicilian_dialect_072
+				om7_ship_sicilian_dialect_073 om7_ship_sicilian_dialect_074 om7_ship_sicilian_dialect_075
+				om7_ship_sicilian_dialect_076 om7_ship_sicilian_dialect_077 om7_ship_sicilian_dialect_078
+				om7_ship_sicilian_dialect_079 om7_ship_sicilian_dialect_080 om7_ship_sicilian_dialect_081
+				om7_ship_sicilian_dialect_082 om7_ship_sicilian_dialect_083 om7_ship_sicilian_dialect_084
+				om7_ship_sicilian_dialect_085 om7_ship_sicilian_dialect_086 om7_ship_sicilian_dialect_087
+				om7_ship_sicilian_dialect_088 om7_ship_sicilian_dialect_089 om7_ship_sicilian_dialect_090
+				om7_ship_sicilian_dialect_091 om7_ship_sicilian_dialect_092 om7_ship_sicilian_dialect_093
+				om7_ship_sicilian_dialect_094 om7_ship_sicilian_dialect_095 om7_ship_sicilian_dialect_096
+				om7_ship_sicilian_dialect_097 om7_ship_sicilian_dialect_098 om7_ship_sicilian_dialect_099
+				om7_ship_sicilian_dialect_100 om7_ship_sicilian_dialect_101 om7_ship_sicilian_dialect_102
+				om7_ship_sicilian_dialect_103 om7_ship_sicilian_dialect_104 om7_ship_sicilian_dialect_105
+				om7_ship_sicilian_dialect_106 om7_ship_sicilian_dialect_107 om7_ship_sicilian_dialect_108
+				om7_ship_sicilian_dialect_109 om7_ship_sicilian_dialect_110 om7_ship_sicilian_dialect_111
+				om7_ship_sicilian_dialect_112 om7_ship_sicilian_dialect_113 om7_ship_sicilian_dialect_114
+				om7_ship_sicilian_dialect_115 om7_ship_sicilian_dialect_116 om7_ship_sicilian_dialect_117
+				om7_ship_sicilian_dialect_118 om7_ship_sicilian_dialect_119 om7_ship_sicilian_dialect_120
+				om7_ship_sicilian_dialect_121 om7_ship_sicilian_dialect_122 om7_ship_sicilian_dialect_123
+				om7_ship_sicilian_dialect_124 om7_ship_sicilian_dialect_125 om7_ship_sicilian_dialect_126
+				om7_ship_sicilian_dialect_127 om7_ship_sicilian_dialect_128
+			}
+		}
+		neapolitan_dialect = {
+			ship_names = {
+				om7_ship_neapolitan_dialect_001 om7_ship_neapolitan_dialect_002 om7_ship_neapolitan_dialect_003
+				om7_ship_neapolitan_dialect_004 om7_ship_neapolitan_dialect_005 om7_ship_neapolitan_dialect_006
+				om7_ship_neapolitan_dialect_007 om7_ship_neapolitan_dialect_008 om7_ship_neapolitan_dialect_009
+				om7_ship_neapolitan_dialect_010 om7_ship_neapolitan_dialect_011 om7_ship_neapolitan_dialect_012
+				om7_ship_neapolitan_dialect_013 om7_ship_neapolitan_dialect_014 om7_ship_neapolitan_dialect_015
+				om7_ship_neapolitan_dialect_016 om7_ship_neapolitan_dialect_017 om7_ship_neapolitan_dialect_018
+				om7_ship_neapolitan_dialect_019 om7_ship_neapolitan_dialect_020 om7_ship_neapolitan_dialect_021
+				om7_ship_neapolitan_dialect_022 om7_ship_neapolitan_dialect_023 om7_ship_neapolitan_dialect_024
+				om7_ship_neapolitan_dialect_025 om7_ship_neapolitan_dialect_026 om7_ship_neapolitan_dialect_027
+				om7_ship_neapolitan_dialect_028 om7_ship_neapolitan_dialect_029 om7_ship_neapolitan_dialect_030
+				om7_ship_neapolitan_dialect_031 om7_ship_neapolitan_dialect_032 om7_ship_neapolitan_dialect_033
+				om7_ship_neapolitan_dialect_034 om7_ship_neapolitan_dialect_035 om7_ship_neapolitan_dialect_036
+				om7_ship_neapolitan_dialect_037 om7_ship_neapolitan_dialect_038 om7_ship_neapolitan_dialect_039
+				om7_ship_neapolitan_dialect_040 om7_ship_neapolitan_dialect_041 om7_ship_neapolitan_dialect_042
+				om7_ship_neapolitan_dialect_043 om7_ship_neapolitan_dialect_044 om7_ship_neapolitan_dialect_045
+				om7_ship_neapolitan_dialect_046 om7_ship_neapolitan_dialect_047 om7_ship_neapolitan_dialect_048
+				om7_ship_neapolitan_dialect_049 om7_ship_neapolitan_dialect_050 om7_ship_neapolitan_dialect_051
+				om7_ship_neapolitan_dialect_052 om7_ship_neapolitan_dialect_053 om7_ship_neapolitan_dialect_054
+				om7_ship_neapolitan_dialect_055 om7_ship_neapolitan_dialect_056 om7_ship_neapolitan_dialect_057
+				om7_ship_neapolitan_dialect_058 om7_ship_neapolitan_dialect_059 om7_ship_neapolitan_dialect_060
+				om7_ship_neapolitan_dialect_061 om7_ship_neapolitan_dialect_062 om7_ship_neapolitan_dialect_063
+				om7_ship_neapolitan_dialect_064 om7_ship_neapolitan_dialect_065 om7_ship_neapolitan_dialect_066
+				om7_ship_neapolitan_dialect_067 om7_ship_neapolitan_dialect_068 om7_ship_neapolitan_dialect_069
+				om7_ship_neapolitan_dialect_070 om7_ship_neapolitan_dialect_071 om7_ship_neapolitan_dialect_072
+				om7_ship_neapolitan_dialect_073 om7_ship_neapolitan_dialect_074 om7_ship_neapolitan_dialect_075
+				om7_ship_neapolitan_dialect_076 om7_ship_neapolitan_dialect_077 om7_ship_neapolitan_dialect_078
+				om7_ship_neapolitan_dialect_079 om7_ship_neapolitan_dialect_080 om7_ship_neapolitan_dialect_081
+				om7_ship_neapolitan_dialect_082 om7_ship_neapolitan_dialect_083 om7_ship_neapolitan_dialect_084
+				om7_ship_neapolitan_dialect_085 om7_ship_neapolitan_dialect_086 om7_ship_neapolitan_dialect_087
+				om7_ship_neapolitan_dialect_088 om7_ship_neapolitan_dialect_089 om7_ship_neapolitan_dialect_090
+				om7_ship_neapolitan_dialect_091 om7_ship_neapolitan_dialect_092 om7_ship_neapolitan_dialect_093
+				om7_ship_neapolitan_dialect_094 om7_ship_neapolitan_dialect_095 om7_ship_neapolitan_dialect_096
+				om7_ship_neapolitan_dialect_097 om7_ship_neapolitan_dialect_098 om7_ship_neapolitan_dialect_099
+				om7_ship_neapolitan_dialect_100 om7_ship_neapolitan_dialect_101 om7_ship_neapolitan_dialect_102
+				om7_ship_neapolitan_dialect_103 om7_ship_neapolitan_dialect_104 om7_ship_neapolitan_dialect_105
+				om7_ship_neapolitan_dialect_106 om7_ship_neapolitan_dialect_107 om7_ship_neapolitan_dialect_108
+				om7_ship_neapolitan_dialect_109 om7_ship_neapolitan_dialect_110 om7_ship_neapolitan_dialect_111
+				om7_ship_neapolitan_dialect_112 om7_ship_neapolitan_dialect_113 om7_ship_neapolitan_dialect_114
+				om7_ship_neapolitan_dialect_115 om7_ship_neapolitan_dialect_116 om7_ship_neapolitan_dialect_117
+				om7_ship_neapolitan_dialect_118 om7_ship_neapolitan_dialect_119 om7_ship_neapolitan_dialect_120
+				om7_ship_neapolitan_dialect_121 om7_ship_neapolitan_dialect_122 om7_ship_neapolitan_dialect_123
+				om7_ship_neapolitan_dialect_124 om7_ship_neapolitan_dialect_125 om7_ship_neapolitan_dialect_126
+				om7_ship_neapolitan_dialect_127 om7_ship_neapolitan_dialect_128
+			}
+		}
+		median_dialect = {
+			ship_names = {
+				om7_ship_median_dialect_001 om7_ship_median_dialect_002 om7_ship_median_dialect_003
+				om7_ship_median_dialect_004 om7_ship_median_dialect_005 om7_ship_median_dialect_006
+				om7_ship_median_dialect_007 om7_ship_median_dialect_008 om7_ship_median_dialect_009
+				om7_ship_median_dialect_010 om7_ship_median_dialect_011 om7_ship_median_dialect_012
+				om7_ship_median_dialect_013 om7_ship_median_dialect_014 om7_ship_median_dialect_015
+				om7_ship_median_dialect_016 om7_ship_median_dialect_017 om7_ship_median_dialect_018
+				om7_ship_median_dialect_019 om7_ship_median_dialect_020 om7_ship_median_dialect_021
+				om7_ship_median_dialect_022 om7_ship_median_dialect_023 om7_ship_median_dialect_024
+				om7_ship_median_dialect_025 om7_ship_median_dialect_026 om7_ship_median_dialect_027
+				om7_ship_median_dialect_028 om7_ship_median_dialect_029 om7_ship_median_dialect_030
+				om7_ship_median_dialect_031 om7_ship_median_dialect_032 om7_ship_median_dialect_033
+				om7_ship_median_dialect_034 om7_ship_median_dialect_035 om7_ship_median_dialect_036
+				om7_ship_median_dialect_037 om7_ship_median_dialect_038 om7_ship_median_dialect_039
+				om7_ship_median_dialect_040 om7_ship_median_dialect_041 om7_ship_median_dialect_042
+				om7_ship_median_dialect_043 om7_ship_median_dialect_044 om7_ship_median_dialect_045
+				om7_ship_median_dialect_046 om7_ship_median_dialect_047 om7_ship_median_dialect_048
+				om7_ship_median_dialect_049 om7_ship_median_dialect_050 om7_ship_median_dialect_051
+				om7_ship_median_dialect_052 om7_ship_median_dialect_053 om7_ship_median_dialect_054
+				om7_ship_median_dialect_055 om7_ship_median_dialect_056 om7_ship_median_dialect_057
+				om7_ship_median_dialect_058 om7_ship_median_dialect_059 om7_ship_median_dialect_060
+				om7_ship_median_dialect_061 om7_ship_median_dialect_062 om7_ship_median_dialect_063
+				om7_ship_median_dialect_064 om7_ship_median_dialect_065 om7_ship_median_dialect_066
+				om7_ship_median_dialect_067 om7_ship_median_dialect_068 om7_ship_median_dialect_069
+				om7_ship_median_dialect_070 om7_ship_median_dialect_071 om7_ship_median_dialect_072
+				om7_ship_median_dialect_073 om7_ship_median_dialect_074 om7_ship_median_dialect_075
+				om7_ship_median_dialect_076 om7_ship_median_dialect_077 om7_ship_median_dialect_078
+				om7_ship_median_dialect_079 om7_ship_median_dialect_080 om7_ship_median_dialect_081
+				om7_ship_median_dialect_082 om7_ship_median_dialect_083 om7_ship_median_dialect_084
+				om7_ship_median_dialect_085 om7_ship_median_dialect_086 om7_ship_median_dialect_087
+				om7_ship_median_dialect_088 om7_ship_median_dialect_089 om7_ship_median_dialect_090
+				om7_ship_median_dialect_091 om7_ship_median_dialect_092 om7_ship_median_dialect_093
+				om7_ship_median_dialect_094 om7_ship_median_dialect_095 om7_ship_median_dialect_096
+				om7_ship_median_dialect_097 om7_ship_median_dialect_098 om7_ship_median_dialect_099
+				om7_ship_median_dialect_100 om7_ship_median_dialect_101 om7_ship_median_dialect_102
+				om7_ship_median_dialect_103 om7_ship_median_dialect_104 om7_ship_median_dialect_105
+				om7_ship_median_dialect_106 om7_ship_median_dialect_107 om7_ship_median_dialect_108
+				om7_ship_median_dialect_109 om7_ship_median_dialect_110 om7_ship_median_dialect_111
+				om7_ship_median_dialect_112 om7_ship_median_dialect_113 om7_ship_median_dialect_114
+				om7_ship_median_dialect_115 om7_ship_median_dialect_116 om7_ship_median_dialect_117
+				om7_ship_median_dialect_118 om7_ship_median_dialect_119 om7_ship_median_dialect_120
+				om7_ship_median_dialect_121 om7_ship_median_dialect_122 om7_ship_median_dialect_123
+				om7_ship_median_dialect_124 om7_ship_median_dialect_125 om7_ship_median_dialect_126
+				om7_ship_median_dialect_127 om7_ship_median_dialect_128
+			}
+		}
+		dalmatian_dialect = {
+			patronym_prefix_son = "patronym_prefix_de_son"
+			patronym_prefix_daughter = "patronym_prefix_de_daughter"
+			location_prefix = "location_prefix_french"
+			location_prefix_vowel = "location_prefix_french_vowel"
+			ship_names = {
+				om7_ship_dalmatian_dialect_001 om7_ship_dalmatian_dialect_002 om7_ship_dalmatian_dialect_003
+				om7_ship_dalmatian_dialect_004 om7_ship_dalmatian_dialect_005 om7_ship_dalmatian_dialect_006
+				om7_ship_dalmatian_dialect_007 om7_ship_dalmatian_dialect_008 om7_ship_dalmatian_dialect_009
+				om7_ship_dalmatian_dialect_010 om7_ship_dalmatian_dialect_011 om7_ship_dalmatian_dialect_012
+				om7_ship_dalmatian_dialect_013 om7_ship_dalmatian_dialect_014 om7_ship_dalmatian_dialect_015
+				om7_ship_dalmatian_dialect_016 om7_ship_dalmatian_dialect_017 om7_ship_dalmatian_dialect_018
+				om7_ship_dalmatian_dialect_019 om7_ship_dalmatian_dialect_020 om7_ship_dalmatian_dialect_021
+				om7_ship_dalmatian_dialect_022 om7_ship_dalmatian_dialect_023 om7_ship_dalmatian_dialect_024
+				om7_ship_dalmatian_dialect_025 om7_ship_dalmatian_dialect_026 om7_ship_dalmatian_dialect_027
+				om7_ship_dalmatian_dialect_028 om7_ship_dalmatian_dialect_029 om7_ship_dalmatian_dialect_030
+				om7_ship_dalmatian_dialect_031 om7_ship_dalmatian_dialect_032 om7_ship_dalmatian_dialect_033
+				om7_ship_dalmatian_dialect_034 om7_ship_dalmatian_dialect_035 om7_ship_dalmatian_dialect_036
+				om7_ship_dalmatian_dialect_037 om7_ship_dalmatian_dialect_038 om7_ship_dalmatian_dialect_039
+				om7_ship_dalmatian_dialect_040 om7_ship_dalmatian_dialect_041 om7_ship_dalmatian_dialect_042
+				om7_ship_dalmatian_dialect_043 om7_ship_dalmatian_dialect_044 om7_ship_dalmatian_dialect_045
+				om7_ship_dalmatian_dialect_046 om7_ship_dalmatian_dialect_047 om7_ship_dalmatian_dialect_048
+				om7_ship_dalmatian_dialect_049 om7_ship_dalmatian_dialect_050 om7_ship_dalmatian_dialect_051
+				om7_ship_dalmatian_dialect_052 om7_ship_dalmatian_dialect_053 om7_ship_dalmatian_dialect_054
+				om7_ship_dalmatian_dialect_055 om7_ship_dalmatian_dialect_056 om7_ship_dalmatian_dialect_057
+				om7_ship_dalmatian_dialect_058 om7_ship_dalmatian_dialect_059 om7_ship_dalmatian_dialect_060
+				om7_ship_dalmatian_dialect_061 om7_ship_dalmatian_dialect_062 om7_ship_dalmatian_dialect_063
+				om7_ship_dalmatian_dialect_064 om7_ship_dalmatian_dialect_065 om7_ship_dalmatian_dialect_066
+				om7_ship_dalmatian_dialect_067 om7_ship_dalmatian_dialect_068 om7_ship_dalmatian_dialect_069
+				om7_ship_dalmatian_dialect_070 om7_ship_dalmatian_dialect_071 om7_ship_dalmatian_dialect_072
+				om7_ship_dalmatian_dialect_073 om7_ship_dalmatian_dialect_074 om7_ship_dalmatian_dialect_075
+				om7_ship_dalmatian_dialect_076 om7_ship_dalmatian_dialect_077 om7_ship_dalmatian_dialect_078
+				om7_ship_dalmatian_dialect_079 om7_ship_dalmatian_dialect_080 om7_ship_dalmatian_dialect_081
+				om7_ship_dalmatian_dialect_082 om7_ship_dalmatian_dialect_083 om7_ship_dalmatian_dialect_084
+				om7_ship_dalmatian_dialect_085 om7_ship_dalmatian_dialect_086 om7_ship_dalmatian_dialect_087
+				om7_ship_dalmatian_dialect_088 om7_ship_dalmatian_dialect_089 om7_ship_dalmatian_dialect_090
+				om7_ship_dalmatian_dialect_091 om7_ship_dalmatian_dialect_092 om7_ship_dalmatian_dialect_093
+				om7_ship_dalmatian_dialect_094 om7_ship_dalmatian_dialect_095 om7_ship_dalmatian_dialect_096
+				om7_ship_dalmatian_dialect_097 om7_ship_dalmatian_dialect_098 om7_ship_dalmatian_dialect_099
+				om7_ship_dalmatian_dialect_100 om7_ship_dalmatian_dialect_101 om7_ship_dalmatian_dialect_102
+				om7_ship_dalmatian_dialect_103 om7_ship_dalmatian_dialect_104 om7_ship_dalmatian_dialect_105
+				om7_ship_dalmatian_dialect_106 om7_ship_dalmatian_dialect_107 om7_ship_dalmatian_dialect_108
+				om7_ship_dalmatian_dialect_109 om7_ship_dalmatian_dialect_110 om7_ship_dalmatian_dialect_111
+				om7_ship_dalmatian_dialect_112 om7_ship_dalmatian_dialect_113 om7_ship_dalmatian_dialect_114
+				om7_ship_dalmatian_dialect_115 om7_ship_dalmatian_dialect_116 om7_ship_dalmatian_dialect_117
+				om7_ship_dalmatian_dialect_118 om7_ship_dalmatian_dialect_119 om7_ship_dalmatian_dialect_120
+				om7_ship_dalmatian_dialect_121 om7_ship_dalmatian_dialect_122 om7_ship_dalmatian_dialect_123
+				om7_ship_dalmatian_dialect_124 om7_ship_dalmatian_dialect_125 om7_ship_dalmatian_dialect_126
+				om7_ship_dalmatian_dialect_127 om7_ship_dalmatian_dialect_128
+			}
+		}
+		sardinian_dialect = {
+			patronym_prefix_son = "patronym_prefix_de_son"
+			patronym_prefix_daughter = "patronym_prefix_de_daughter"
+			location_prefix = "location_prefix_french"
+			location_prefix_vowel = "location_prefix_french_vowel"
+			ship_names = {
+				om7_ship_sardinian_dialect_001 om7_ship_sardinian_dialect_002 om7_ship_sardinian_dialect_003
+				om7_ship_sardinian_dialect_004 om7_ship_sardinian_dialect_005 om7_ship_sardinian_dialect_006
+				om7_ship_sardinian_dialect_007 om7_ship_sardinian_dialect_008 om7_ship_sardinian_dialect_009
+				om7_ship_sardinian_dialect_010 om7_ship_sardinian_dialect_011 om7_ship_sardinian_dialect_012
+				om7_ship_sardinian_dialect_013 om7_ship_sardinian_dialect_014 om7_ship_sardinian_dialect_015
+				om7_ship_sardinian_dialect_016 om7_ship_sardinian_dialect_017 om7_ship_sardinian_dialect_018
+				om7_ship_sardinian_dialect_019 om7_ship_sardinian_dialect_020 om7_ship_sardinian_dialect_021
+				om7_ship_sardinian_dialect_022 om7_ship_sardinian_dialect_023 om7_ship_sardinian_dialect_024
+				om7_ship_sardinian_dialect_025 om7_ship_sardinian_dialect_026 om7_ship_sardinian_dialect_027
+				om7_ship_sardinian_dialect_028 om7_ship_sardinian_dialect_029 om7_ship_sardinian_dialect_030
+				om7_ship_sardinian_dialect_031 om7_ship_sardinian_dialect_032 om7_ship_sardinian_dialect_033
+				om7_ship_sardinian_dialect_034 om7_ship_sardinian_dialect_035 om7_ship_sardinian_dialect_036
+				om7_ship_sardinian_dialect_037 om7_ship_sardinian_dialect_038 om7_ship_sardinian_dialect_039
+				om7_ship_sardinian_dialect_040 om7_ship_sardinian_dialect_041 om7_ship_sardinian_dialect_042
+				om7_ship_sardinian_dialect_043 om7_ship_sardinian_dialect_044 om7_ship_sardinian_dialect_045
+				om7_ship_sardinian_dialect_046 om7_ship_sardinian_dialect_047 om7_ship_sardinian_dialect_048
+				om7_ship_sardinian_dialect_049 om7_ship_sardinian_dialect_050 om7_ship_sardinian_dialect_051
+				om7_ship_sardinian_dialect_052 om7_ship_sardinian_dialect_053 om7_ship_sardinian_dialect_054
+				om7_ship_sardinian_dialect_055 om7_ship_sardinian_dialect_056 om7_ship_sardinian_dialect_057
+				om7_ship_sardinian_dialect_058 om7_ship_sardinian_dialect_059 om7_ship_sardinian_dialect_060
+				om7_ship_sardinian_dialect_061 om7_ship_sardinian_dialect_062 om7_ship_sardinian_dialect_063
+				om7_ship_sardinian_dialect_064 om7_ship_sardinian_dialect_065 om7_ship_sardinian_dialect_066
+				om7_ship_sardinian_dialect_067 om7_ship_sardinian_dialect_068 om7_ship_sardinian_dialect_069
+				om7_ship_sardinian_dialect_070 om7_ship_sardinian_dialect_071 om7_ship_sardinian_dialect_072
+				om7_ship_sardinian_dialect_073 om7_ship_sardinian_dialect_074 om7_ship_sardinian_dialect_075
+				om7_ship_sardinian_dialect_076 om7_ship_sardinian_dialect_077 om7_ship_sardinian_dialect_078
+				om7_ship_sardinian_dialect_079 om7_ship_sardinian_dialect_080 om7_ship_sardinian_dialect_081
+				om7_ship_sardinian_dialect_082 om7_ship_sardinian_dialect_083 om7_ship_sardinian_dialect_084
+				om7_ship_sardinian_dialect_085 om7_ship_sardinian_dialect_086 om7_ship_sardinian_dialect_087
+				om7_ship_sardinian_dialect_088 om7_ship_sardinian_dialect_089 om7_ship_sardinian_dialect_090
+				om7_ship_sardinian_dialect_091 om7_ship_sardinian_dialect_092 om7_ship_sardinian_dialect_093
+				om7_ship_sardinian_dialect_094 om7_ship_sardinian_dialect_095 om7_ship_sardinian_dialect_096
+				om7_ship_sardinian_dialect_097 om7_ship_sardinian_dialect_098 om7_ship_sardinian_dialect_099
+				om7_ship_sardinian_dialect_100 om7_ship_sardinian_dialect_101 om7_ship_sardinian_dialect_102
+				om7_ship_sardinian_dialect_103 om7_ship_sardinian_dialect_104 om7_ship_sardinian_dialect_105
+				om7_ship_sardinian_dialect_106 om7_ship_sardinian_dialect_107 om7_ship_sardinian_dialect_108
+				om7_ship_sardinian_dialect_109 om7_ship_sardinian_dialect_110 om7_ship_sardinian_dialect_111
+				om7_ship_sardinian_dialect_112 om7_ship_sardinian_dialect_113 om7_ship_sardinian_dialect_114
+				om7_ship_sardinian_dialect_115 om7_ship_sardinian_dialect_116 om7_ship_sardinian_dialect_117
+				om7_ship_sardinian_dialect_118 om7_ship_sardinian_dialect_119 om7_ship_sardinian_dialect_120
+				om7_ship_sardinian_dialect_121 om7_ship_sardinian_dialect_122 om7_ship_sardinian_dialect_123
+				om7_ship_sardinian_dialect_124 om7_ship_sardinian_dialect_125 om7_ship_sardinian_dialect_126
+				om7_ship_sardinian_dialect_127 om7_ship_sardinian_dialect_128
+			}
+		}
+	}
+	location_prefix = "location_prefix_italian"
+	location_prefix_vowel = "location_prefix_italian_vowel"
+}

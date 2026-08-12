@@ -1,0 +1,63 @@
+﻿mongolian_language = {
+	color = map_mongol
+	male_names = {
+		Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtu Dayan Delbeg Ejei Elbeg
+		Engke Guyuk Gun Gulichi Irinchibal Jorightu Kublai name_koke Ligdan Markorgis name_mongke Manduulun Oljei
+		name_orug Oyiradai Ogodei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin name_temur Toghun Tolui Toq Uskhal
+		name_yesun name_ariq Batu Eljigidei Joichi Darayisung Tumen Ankhbayar Bilguun Chingis Dolgoon Bat_Erdene
+		Otgonbayar Batbayar Lkhagvasuren Gantulga Ganbold Nergui Ganzorig Ganbaatar Monkhbat Batjargal Monkh_Erdene
+		Naranbaatar Temuulen Togoldor Tomorbaatar name_sartaq Purevsuren Aduuchin Alkhbaatar Altanbaatar Altandukh
+		Altankhuyag Anchin Ankhbaatar Avarga Baatar Batkhaan Batukhan Bayar Borkhuu Chono Duulga Emeel Enguun Erdene
+		Itgelt Khasar Koko Muunokhoi Sharkhuu Shonkhor Sukhbaatar Tuguslar
+	}
+	female_names = {
+		Temulen Boerte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez_khatum Goland Ho_elun
+		Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene Altansarnai Altantsetseg
+		Bolortsetseg Erdenechimeg Gerel Khulan Maral Bolormaa Enkhtuyaa Enkhjargal Narantsetseg Monkhtsetseg
+		Narangerel Odtsetseg Oyuunchimeg Sarangerel Sarnai Salongo Tsetseg Uyanga Zaya Altanchimeg Ariun Bajgalmaa
+		Battsetseg Bayartsetseg Buyantsetseg Chimeg Eyeldeg Khair Mandakh Naranchimeg Orghana Oyon Shaazan Sodtsetseg
+		Tsatspal Tsetsegzhargal Tuya
+	}
+	dynasty_names = {
+		Onggirat Naiman Kereyid name_sartaq Mengu_Timur Uriankhai Besud Noyan Jochid Chagatayid Chupanid Injuid Toluid
+		Jalair Sartuul Olkhunut Khatagin Iljigin Tsookhor Qarakhanid
+	}
+	lowborn = {}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_mongolian_language_001 om7_ship_mongolian_language_002 om7_ship_mongolian_language_003
+		om7_ship_mongolian_language_004 om7_ship_mongolian_language_005 om7_ship_mongolian_language_006
+		om7_ship_mongolian_language_007 om7_ship_mongolian_language_008 om7_ship_mongolian_language_009
+		om7_ship_mongolian_language_010 om7_ship_mongolian_language_011 om7_ship_mongolian_language_012
+		om7_ship_mongolian_language_013 om7_ship_mongolian_language_014 om7_ship_mongolian_language_015
+		om7_ship_mongolian_language_016 om7_ship_mongolian_language_017 om7_ship_mongolian_language_018
+		om7_ship_mongolian_language_019 om7_ship_mongolian_language_020 om7_ship_mongolian_language_021
+		om7_ship_mongolian_language_022 om7_ship_mongolian_language_023 om7_ship_mongolian_language_024
+		om7_ship_mongolian_language_025 om7_ship_mongolian_language_026 om7_ship_mongolian_language_027
+		om7_ship_mongolian_language_028 om7_ship_mongolian_language_029 om7_ship_mongolian_language_030
+		om7_ship_mongolian_language_031 om7_ship_mongolian_language_032 om7_ship_mongolian_language_033
+		om7_ship_mongolian_language_034 om7_ship_mongolian_language_035 om7_ship_mongolian_language_036
+		om7_ship_mongolian_language_037 om7_ship_mongolian_language_038 om7_ship_mongolian_language_039
+		om7_ship_mongolian_language_040 om7_ship_mongolian_language_041 om7_ship_mongolian_language_042
+		om7_ship_mongolian_language_043 om7_ship_mongolian_language_044 om7_ship_mongolian_language_045
+		om7_ship_mongolian_language_046 om7_ship_mongolian_language_047 om7_ship_mongolian_language_048
+		om7_ship_mongolian_language_049 om7_ship_mongolian_language_050 om7_ship_mongolian_language_051
+		om7_ship_mongolian_language_052 om7_ship_mongolian_language_053 om7_ship_mongolian_language_054
+		om7_ship_mongolian_language_055 om7_ship_mongolian_language_056 om7_ship_mongolian_language_057
+		om7_ship_mongolian_language_058 om7_ship_mongolian_language_059 om7_ship_mongolian_language_060
+		om7_ship_mongolian_language_061 om7_ship_mongolian_language_062 om7_ship_mongolian_language_063
+		om7_ship_mongolian_language_064 om7_ship_mongolian_language_065 om7_ship_mongolian_language_066
+		om7_ship_mongolian_language_067 om7_ship_mongolian_language_068 om7_ship_mongolian_language_069
+		om7_ship_mongolian_language_070 om7_ship_mongolian_language_071 om7_ship_mongolian_language_072
+		om7_ship_mongolian_language_073 om7_ship_mongolian_language_074 om7_ship_mongolian_language_075
+		om7_ship_mongolian_language_076 om7_ship_mongolian_language_077 om7_ship_mongolian_language_078
+		om7_ship_mongolian_language_079 om7_ship_mongolian_language_080 om7_ship_mongolian_language_081
+		om7_ship_mongolian_language_082 om7_ship_mongolian_language_083 om7_ship_mongolian_language_084
+		om7_ship_mongolian_language_085 om7_ship_mongolian_language_086 om7_ship_mongolian_language_087
+		om7_ship_mongolian_language_088 om7_ship_mongolian_language_089 om7_ship_mongolian_language_090
+		om7_ship_mongolian_language_091 om7_ship_mongolian_language_092 om7_ship_mongolian_language_093
+		om7_ship_mongolian_language_094 om7_ship_mongolian_language_095 om7_ship_mongolian_language_096
+		om7_ship_mongolian_language_097 om7_ship_mongolian_language_098
+	}
+}

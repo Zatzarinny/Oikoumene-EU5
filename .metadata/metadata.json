@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Oikoumenē",
+	"id":	"oikoumene",
+	"version":	"0.16",
+	"supported_game_version":	"1.*",
+	"short_description":	"Oikoumenē is a cultural toponym mod.",
+	"tags":	["Map", "Translation"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

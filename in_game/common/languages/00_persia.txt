@@ -1,0 +1,1338 @@
+﻿kurdish_language = {
+	color = color_language_kurdish
+	family = iranic_language_family
+	male_names = {
+		name_danesh name_aram Asti Azad Baran Birusk Celal Dilsad Diyar Ebdulla Ebdulrehman Ehmed Eli_kurdish Haci
+		Hozan Husen Ibrahim_kurd name_karim Mehmud Mihemed Mistefa name_osman Sivan Adar Agir Agit Agrin Ajar Akam
+		Alacan Alikar Amanc Amanj Amez Aras Araz Ardalan Ardil Artin Avan Avin Awar Awaz Aylan Aza Azwer Bagok Bahoz
+		Bawer Baz Befran Behre Belend Berfan Berfhat Beroj Bertav Berxwedan Berzan Betin Bextiyar Beyani Bijar Binar
+		Biryar Bizan Bozan Caki_kurd Cebrail Cejndar Cem_kurd Cengawer Cibrayil Cirusk Ciwan Ciya Comerd Cotan Curo
+		Dadwar Danyar Daraz Demhat Dengdar Derav Dijwar Dilciwan Dilber Diler Dilovan Dozan Egid Elind Erdewan Eren
+		Espar Evindar Ezdinser Ferman Ferzan Gelawizh Geli Genc Gerdun Haftiyar Hakar Hatin Hawre Hedi Helan Helo
+		Hemin Heresh Herme Hestiyar Hetav Hevraz Hewre Hezan Hisyar Hogir Huner Huzan Ibrahem Iskendere Israfil Jir
+		Jirhat Joro Kani_kurd Karda Kardan Kardox Karez Karo Karwan Karza Kawa Kawan Kayan Kesko Kevir Keyan Khezan
+		Kiyan Kocer Laser Lawin Lezgin Mehvan Merd Mereto Mertal Mervan Merxas Mezin Milet Mir_kurd Mirad name_miran
+		Miraz name_mirza Mizan Nadhim Navdar Neberd Nebez Necirvan Niyaz Olan Palan Paldar Payedar Perik Pesar Peyam
+		Piling Pola Qayanat Rand Rasti Rebar Rebaz Reben Reber Rebin Redan Rencber Reving Rohat Roj Rojan Rojdar
+		Sahine Samrend Sangar Sarbast Sarmad Saryal Senger Ser Serbaz Serbest Serbilind Sercil Serdar Serdest Serdil
+		Serfiraz Sergen Serkar Serko Sermend Servand Serwan Sevder Sevger Sevges Seywan Shakhawan Shecar Sherko Sidar
+		Simko Sinor Sirwan Siwan Siyar Soran Suleman Tawus Tekan Tekoser Terlan Tirej Tisk Tolhildan Tori Veger Waran
+		Welat Xalid Xani Xelad Xelil Xerdel Xurt Yadgar Yekan Yezdanser Zal Zana Zanist Zerdest Zinar Zirek Ziv Zorav
+		Zrian name_om_ku_idris name_om_ku_bedir_khan name_om_ku_seref
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		name_danesh
+		name_aram
+		Azad
+		Ebdulla
+		Ehmed
+		Eli_kurdish
+		Husen
+		Ibrahim_kurd
+		name_karim
+		Mehmud
+		Mihemed
+		Mistefa
+		name_osman
+		Ardalan
+		Artin
+		Dadwar
+		Erdewan
+		Ferman
+		Kawa
+		Mir_kurd
+		name_mirza
+		Xalid
+		Xelil
+		Yezdanser
+		Zal
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		Azad
+		Baran
+		Celal
+		Ebdulla
+		Ehmed
+		Eli_kurdish
+		Haci
+		Husen
+		Ibrahim_kurd
+		name_karim
+		Mehmud
+		Mihemed
+		Mistefa
+		name_osman
+		Ardalan
+		Bextiyar
+		Cebrail
+		Cibrayil
+		Ferman
+		Iskendere
+		Mir_kurd
+		name_miran
+		name_mirza
+		Suleman
+		Xalid
+		Xelil
+		name_om_ku_idris
+		name_om_ku_bedir_khan
+		name_om_ku_seref
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Azad
+		Baran
+		Dilsad
+		Diyar
+		Hozan
+		Sivan
+		Agir
+		Amanj
+		Aras
+		Araz
+		Avin
+		Bahoz
+		Bawer
+		Berzan
+		Bextiyar
+		Ciwan
+		Diler
+		Dilovan
+		Hemin
+		Huner
+		Karwan
+		Kawa
+		Necirvan
+		Rebar
+		Serdar
+		Serko
+		Sherko
+		Soran
+		Zana
+	}
+	female_names = {
+		Asti Diyar Evin name_fatima Gulistan Hozan name_leyla Nesrin Niga Perwin Sirin_kurdish Viyan Aheng Ajda
+		name_ala Alal Alik Alur Aran Arjin Ase Aska Aske Asmin Aster Avan Avin Avreng Avzem Awaz Awira Axin Aylan
+		Azadi Bane Banesin Bano Barin Bawesin name_bayan Baze Bazin Bedew Bedewcan Befraw Befri Befrin Bejna Belaluk
+		Belim Belqis Benaw Bendewa Bengin Berav Berbang Berdil Berfende Berfin Berhem Beri Berican Berivan Berma Berze
+		Bese Bestin Beyan Beybun Bihar Bijara Bijin Bijya Binahi Binefs Birca Biskurin Blesa Cakin Cawcuwan Cawidan
+		Cejne Ceker Celeng Ceme Cengzer Cewe Chira Cihan Cimen Ciran Cirisk Ciruske Ciste Ciwana Ciwane Ciwanru
+		Ciwanxan Corin Cuwan Dallia Darcin Dastan Delal Demgul Deria Derman Devken name_didar Dilan Dilare Dilbaz
+		Dilber Dilcan Dilgerm Dilok Dilsa Dilva Dilvin Dilxos Dilxwes Dimen Diwan Diyari Doman Esmer Esmercan Estere
+		Evser Ezcan Ezdah Fener Fenik Feris Freste Gashin Gazi Gelavej Gelaz Gerdan Gerdun Gesa Gevez Gewher Gewre
+		Gezing Gilyaz Girav Guhdar Gulale Gulan Gulasor Gulav Gulazer Gulbaran Gulbarin Gulbax Gulberoj Guldar Guli
+		Gulnarin Gulnisan Gulperi Gulroj Gulsin Havin Hedar Heja Hejin Helal Helan Helbest Helin Heliz Hetav Hevi
+		Hevidar Hewa Hewsa Heyv Hezar Hivan Hivi Hividar Hivron Huzan Jale Jela Jin_kurd Jiyan Jiyar Kagul Kajin
+		Karin_kurd Kawin Kejal Keje Kelpa Keser Keske Kevok Kewer Kezizer Khoakhi Kinar Kine Kubar Kucer Kulilk Lana
+		Larzan Lawje Layen Leylan Lezin Lilan Liloz Lori Lorican Mamiz Meawizh Mebest Medine Mende Merdin Mihrivan
+		Mijgan Mina_kurd Mirari Mircan Mizgin Mori_kurd Namam Narin_kurd Narjes Navbihar Nazdar Nefel Nerme Newa Newal
+		Newbihar Newroz Nisan Niyaz Nma Nuber Nupelda Pakdil Pelgul Pelsin Percem Perwane Pexsan Piroz Pirseng Qeseng
+		Qumri Rawesht Reben Rejne Rengin Revin Rewsen Rezin Rinde Robar Rogul Rohat Roja Rojawelat Roje Rojin Ronahi
+		Ronak Roqaya Rosna Rozhin Ruges Ruken Sadan Sana_kurd Sanesin Sare Seber Sengal Sepol Serav Sereta Serfiraz
+		Sergul Seyda Shler Siber Silan Siler Sine Sise Sistav Skala Solav Sorgul Sosin Sozan Speda Spehi Srust Stere
+		Stran Tavry Tekosin Tiroj Tiruske Trifa Vejin Vina Xatun Xelad Xewn Xeyal Xezal Xoxe Xuzi Yardil Yekber Yekbun
+		Yekcan Yekser Yekta Yelda Yezda Zelal Zerav Zerda Zere Zergul Zerin Zerya Zeytun Zhala Zilan Zin_kurd Zine
+		Zinet Ziryan Ziv Zivan name_om_ku_berfin name_om_ku_rojin name_om_ku_gule
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		name_fatima
+		Gulistan
+		name_leyla
+		Nesrin
+		Perwin
+		Sirin_kurdish
+		Aster
+		Belqis
+		Gulan
+		Gulperi
+		Jale
+		Medine
+		Mijgan
+		Narin_kurd
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		name_fatima
+		Gulistan
+		name_leyla
+		Nesrin
+		Perwin
+		Sirin_kurdish
+		Avin
+		Berfin
+		Berivan
+		Delal
+		Dilan
+		Gelavej
+		Gulan
+		Gulperi
+		Havin
+		Hevi
+		Jale
+		Medine
+		Mijgan
+		Narin_kurd
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Asti
+		Diyar
+		Evin
+		Hozan
+		Niga
+		Viyan
+		Aheng
+		Arjin
+		Avin
+		Berfin
+		Berivan
+		Cihan
+		Dilan
+		Dilvin
+		Havin
+		Hevi
+		Jiyan
+		Kajin
+		Mizgin
+		Rojin
+		Zilan
+	}
+	dynasty_names = {
+		Sadakiyan Hadhbani Hasanwayhid Shaddadid Rawadid Marwanid Annazid Humeydiye Besneviye Zuzaniye Mirdesan
+		Ayyubid om_dyn_ku_ardalan om_dyn_ku_baban om_dyn_ku_bitlis om_dyn_ku_botan om_dyn_ku_hakkari
+	}
+	lowborn = {
+		om_low_ku_barzani om_low_ku_mukri om_low_ku_sorani om_low_ku_kurdi
+	}
+	ship_names = {
+		om7_ship_kurdish_language_001 om7_ship_kurdish_language_002 om7_ship_kurdish_language_003
+		om7_ship_kurdish_language_004 om7_ship_kurdish_language_005 om7_ship_kurdish_language_006
+		om7_ship_kurdish_language_007 om7_ship_kurdish_language_008 om7_ship_kurdish_language_009
+		om7_ship_kurdish_language_010 om7_ship_kurdish_language_011 om7_ship_kurdish_language_012
+		om7_ship_kurdish_language_013 om7_ship_kurdish_language_014 om7_ship_kurdish_language_015
+		om7_ship_kurdish_language_016 om7_ship_kurdish_language_017 om7_ship_kurdish_language_018
+		om7_ship_kurdish_language_019 om7_ship_kurdish_language_020 om7_ship_kurdish_language_021
+		om7_ship_kurdish_language_022 om7_ship_kurdish_language_023 om7_ship_kurdish_language_024
+		om7_ship_kurdish_language_025 om7_ship_kurdish_language_026 om7_ship_kurdish_language_027
+		om7_ship_kurdish_language_028 om7_ship_kurdish_language_029 om7_ship_kurdish_language_030
+		om7_ship_kurdish_language_031 om7_ship_kurdish_language_032 om7_ship_kurdish_language_033
+		om7_ship_kurdish_language_034 om7_ship_kurdish_language_035 om7_ship_kurdish_language_036
+		om7_ship_kurdish_language_037 om7_ship_kurdish_language_038 om7_ship_kurdish_language_039
+		om7_ship_kurdish_language_040 om7_ship_kurdish_language_041 om7_ship_kurdish_language_042
+		om7_ship_kurdish_language_043 om7_ship_kurdish_language_044 om7_ship_kurdish_language_045
+		om7_ship_kurdish_language_046 om7_ship_kurdish_language_047 om7_ship_kurdish_language_048
+		om7_ship_kurdish_language_049 om7_ship_kurdish_language_050 om7_ship_kurdish_language_051
+		om7_ship_kurdish_language_052 om7_ship_kurdish_language_053 om7_ship_kurdish_language_054
+		om7_ship_kurdish_language_055 om7_ship_kurdish_language_056 om7_ship_kurdish_language_057
+		om7_ship_kurdish_language_058 om7_ship_kurdish_language_059 om7_ship_kurdish_language_060
+		om7_ship_kurdish_language_061 om7_ship_kurdish_language_062 om7_ship_kurdish_language_063
+		om7_ship_kurdish_language_064 om7_ship_kurdish_language_065 om7_ship_kurdish_language_066
+		om7_ship_kurdish_language_067 om7_ship_kurdish_language_068 om7_ship_kurdish_language_069
+		om7_ship_kurdish_language_070 om7_ship_kurdish_language_071 om7_ship_kurdish_language_072
+		om7_ship_kurdish_language_073 om7_ship_kurdish_language_074 om7_ship_kurdish_language_075
+		om7_ship_kurdish_language_076 om7_ship_kurdish_language_077 om7_ship_kurdish_language_078
+		om7_ship_kurdish_language_079 om7_ship_kurdish_language_080 om7_ship_kurdish_language_081
+		om7_ship_kurdish_language_082 om7_ship_kurdish_language_083 om7_ship_kurdish_language_084
+		om7_ship_kurdish_language_085 om7_ship_kurdish_language_086 om7_ship_kurdish_language_087
+		om7_ship_kurdish_language_088 om7_ship_kurdish_language_089 om7_ship_kurdish_language_090
+		om7_ship_kurdish_language_091 om7_ship_kurdish_language_092 om7_ship_kurdish_language_093
+		om7_ship_kurdish_language_094 om7_ship_kurdish_language_095 om7_ship_kurdish_language_096
+		om7_ship_kurdish_language_097 om7_ship_kurdish_language_098 om7_ship_kurdish_language_099
+		om7_ship_kurdish_language_100 om7_ship_kurdish_language_101 om7_ship_kurdish_language_102
+		om7_ship_kurdish_language_103 om7_ship_kurdish_language_104 om7_ship_kurdish_language_105
+		om7_ship_kurdish_language_106 om7_ship_kurdish_language_107 om7_ship_kurdish_language_108
+		om7_ship_kurdish_language_109 om7_ship_kurdish_language_110 om7_ship_kurdish_language_111
+		om7_ship_kurdish_language_112 om7_ship_kurdish_language_113 om7_ship_kurdish_language_114
+		om7_ship_kurdish_language_115 om7_ship_kurdish_language_116 om7_ship_kurdish_language_117
+		om7_ship_kurdish_language_118 om7_ship_kurdish_language_119 om7_ship_kurdish_language_120
+		om7_ship_kurdish_language_121 om7_ship_kurdish_language_122 om7_ship_kurdish_language_123
+		om7_ship_kurdish_language_124 om7_ship_kurdish_language_125 om7_ship_kurdish_language_126
+		om7_ship_kurdish_language_127 om7_ship_kurdish_language_128
+	}
+}
+
+persian_language = {
+	color = map_persian
+	family = iranic_language_family
+	male_names = {
+		Abbas Abolhassan Adel Afshar name_agha name_ahmad Akbar name_ali Allahyar name_amin Anushirvan name_aram
+		Ardahan Ardavan Ardeshir Assad Aurang Ayeshah Babak Bahman Bahram Bakhtiar Behrad Behrouz Bozorg Danush Darab
+		name_darius Davud Djamasp Ebrahim Ehsan Esfandiar Eskander Esmail Faramarz Faraz Farid name_farhad Fariborz
+		Farroukh Farrukhzad Farzad name_fath Ferdows Fereydun Ghobad Gholam Godarz Goshtasb Hafez name_haidar
+		name_hasan Hazarasp Hedayat Hooshyar Hormazd Hormoz Hosayn Hossein Humayun Jafar Jahandar name_jahangir
+		Jahanshah name_jamshid Javeed Joneid name_karim Kambiz Kamran Kavoos Keyghobad Keykhosrau Kharmandar Khashayar
+		Kavadh Khodadad Khosrau Khudayar Khurshid Kodabanda Kurush name_mahmud Manuchehr Marzuban Mashad Maziar Mehrab
+		Mehrzad name_muhammad Morad Morteza Mozaffar Nader Nard Naveed Nawid Nezam Parviz Pashang Peroz Pujman Reza
+		name_rostam Ruhollah Sadri Safi Sahrokh Salman Shahab Shahbaz Shahin Shahram Shahruz Shahryar Shapur Shayan
+		Sina Tahmasp Vahhab Vahid Valeh Vandad Varshasb Vishtasb Yazdegerd Yousef Zahak Zakaria Zand Zartosht Zia
+		name_abdullah Abdolreza Abolfazl Aghil Alborz name_amir Arash Arastoo name_arif Arman name_job Azad Azar Aziz
+		name_bahador Baran Baraz Behnam Burhanuddin name_dana Daniyal Dara Erfan Firouz Gohar Golzar Habib Hadi
+		name_hamid Hashem Heydar Iman name_jesus name_jahan name_jalal name_jalil Jamaluddin Javad Kaveh Kian Kianoush
+		Kourosh name_mahdi name_mani Masoumeh name_masud Mehr Mehrdad name_mirza Mojdeh Mojgan name_mukhtar Mostafa
+		name_moses Navid Nima Noor_Ali Noureddin Omid Parvaiz Payam Pedram Pirouz Rahim Rahman Rasoul Roshan Saam
+		Sadegh Saeid Safa Sam_persian name_sardar Seyed name_shahnaz Shahrokh Shahzad Shams Shapour name_sharif Shir
+		Siavash Soheil Sohrab Soroush Taher name_john Yaser Yasin Younes Zahir Ziaeddin name_ardashir name_kavad
+		name_khosrow name_mihr name_abbas name_nadir name_tahmasp
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_rostam
+		name_vahram
+		name_ardashir
+		Bahram
+		name_kavad
+		name_khosrow
+		name_mihr
+		Shapur
+		Yazdegerd
+		Shahrokh
+		name_om_fa_ulugh_beg
+		name_om_fa_abu_sa_id
+		name_om_fa_husayn_bayqara
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_abdullah
+		name_ahmad
+		name_ali
+		name_hasan
+		name_husayn
+		name_mahmud
+		name_muhammad
+		name_omar
+		name_qasim
+		name_salih
+		name_om_fa_esma_il
+		name_om_fa_tahmasp
+		name_om_fa_abbas
+		name_om_fa_safi
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_ali
+		name_husayn
+		name_mirza
+		name_abbas
+		name_nadir
+		Reza
+		name_tahmasp
+		name_om_fa_nader
+		name_om_fa_karim
+		name_om_fa_agha_mohammad
+		name_om_fa_fat_ali
+	}
+	female_names = {
+		Afsaneh Ahu Arghavan Azarmidokht Asa Atiya Azadeh name_azam Bahar Banafsheh Behnaz Burandokht name_darya
+		Delaram Delbar name_dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva Furuzan Ghamze Ghazal Ghoncheh
+		name_golbahar Golnaz Golpari Golshan Hamdam Hurmat Irandokht Jamileh Javaneh name_leyla Mahdokht Mahtab Mariam
+		Navvaba Nazgol Nazilla Noor Parvaneh Parvin Pertevniyal Pourandokht Roshanora name_roxana Salomeh Shahrzad
+		Shahzadeh Shirin name_soraya Touran Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh Afsoon Afsoun Anahita
+		Arezou Arya Asal Atefeh name_ava Ayda Azar Azra Baran name_dana Delara Elaheh Farzaneh Fatemeh Firouzeh Gohar
+		Gol Golnar Golzar Hamide Hayat Jahanara Jaleh Katayoun Kadijeh name_laleh Mahin Mahsa Mahvash Mehr Mehrnaz
+		Mina Minoo Morvarid Mozhdeh Mozhgan Nahid Narges Nasrin Nazli Neda Negar Negin name_niloufar Niusha Omid
+		Parastoo Pari Parisa Roghayeh Roshan Roshanak Safa name_sahar Sakineh name_samira Sanaz Setareh Shabnam
+		name_shadi name_shahnaz Sharazad Shams Shideh Shiva Shohreh Shokoufeh Sima_persian Simin Soheila name_sumayya
+		Soudeh Tahmineh name_jasmine name_zahra Zhaleh Ziba Zinat name_zahida name_farida name_golrokh name_nigar
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_darya
+		name_golbahar
+		name_homa
+		name_khorram
+		name_roxana
+		Anahita
+		Shirin
+		name_om_fa_gawhar_shad
+		name_om_fa_pari_khan
+		name_om_fa_mahin_banu
+		name_om_fa_tajlu
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_aisha
+		name_fatima
+		name_khadija
+		name_leyla
+		name_zahra
+		name_om_fa_khayr_al_nisa
+		name_om_fa_zaynab
+		Fatemeh
+		name_om_fa_shah_bigi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_shahnaz
+		name_farida
+		name_golrokh
+		name_nigar
+		Pari
+		name_om_fa_mah_sharaf
+		name_om_fa_taj_al_saltaneh
+		name_om_fa_jeyran
+		name_om_fa_golbadan
+	}
+	dynasty_names = {
+		Tahirid Saffarid Farighunid om_dyn_fa_safavid om_dyn_fa_afshar om_dyn_fa_zand om_dyn_fa_qajar
+		om_dyn_fa_timurid om_dyn_fa_aq_qoyunlu om_dyn_fa_qara_qoyunlu
+	}
+	lowborn = {
+		Abbasi Alinejad Attar Charmchi Darzi Ebrahimi Hashemi Jamshidi Karimi Khoroushi name_muhammad Rostami
+		name_shah Shirazi Azer Barzegar Chamanara Dabbagh Dehghan om_low_fa_hosseini om_low_fa_jafari om_low_fa_kazemi
+		om_low_fa_mirzaei
+	}
+	patronym_suffix_son = "patronym_suffix_persian_son"
+	ship_names = {
+		om7_ship_persian_language_001 om7_ship_persian_language_002 om7_ship_persian_language_003
+		om7_ship_persian_language_004 om7_ship_persian_language_005 om7_ship_persian_language_006
+		om7_ship_persian_language_007 om7_ship_persian_language_008 om7_ship_persian_language_009
+		om7_ship_persian_language_010 om7_ship_persian_language_011 om7_ship_persian_language_012
+		om7_ship_persian_language_013 om7_ship_persian_language_014 om7_ship_persian_language_015
+		om7_ship_persian_language_016 om7_ship_persian_language_017 om7_ship_persian_language_018
+		om7_ship_persian_language_019 om7_ship_persian_language_020 om7_ship_persian_language_021
+		om7_ship_persian_language_022 om7_ship_persian_language_023 om7_ship_persian_language_024
+		om7_ship_persian_language_025 om7_ship_persian_language_026 om7_ship_persian_language_027
+		om7_ship_persian_language_028 om7_ship_persian_language_029 om7_ship_persian_language_030
+		om7_ship_persian_language_031 om7_ship_persian_language_032 om7_ship_persian_language_033
+		om7_ship_persian_language_034 om7_ship_persian_language_035 om7_ship_persian_language_036
+		om7_ship_persian_language_037 om7_ship_persian_language_038 om7_ship_persian_language_039
+		om7_ship_persian_language_040 om7_ship_persian_language_041 om7_ship_persian_language_042
+		om7_ship_persian_language_043 om7_ship_persian_language_044 om7_ship_persian_language_045
+		om7_ship_persian_language_046 om7_ship_persian_language_047 om7_ship_persian_language_048
+		om7_ship_persian_language_049 om7_ship_persian_language_050 om7_ship_persian_language_051
+		om7_ship_persian_language_052 om7_ship_persian_language_053 om7_ship_persian_language_054
+		om7_ship_persian_language_055 om7_ship_persian_language_056 om7_ship_persian_language_057
+		om7_ship_persian_language_058 om7_ship_persian_language_059 om7_ship_persian_language_060
+		om7_ship_persian_language_061 om7_ship_persian_language_062 om7_ship_persian_language_063
+		om7_ship_persian_language_064 om7_ship_persian_language_065 om7_ship_persian_language_066
+		om7_ship_persian_language_067 om7_ship_persian_language_068 om7_ship_persian_language_069
+		om7_ship_persian_language_070 om7_ship_persian_language_071 om7_ship_persian_language_072
+		om7_ship_persian_language_073 om7_ship_persian_language_074 om7_ship_persian_language_075
+		om7_ship_persian_language_076 om7_ship_persian_language_077 om7_ship_persian_language_078
+		om7_ship_persian_language_079 om7_ship_persian_language_080 om7_ship_persian_language_081
+		om7_ship_persian_language_082 om7_ship_persian_language_083 om7_ship_persian_language_084
+		om7_ship_persian_language_085 om7_ship_persian_language_086 om7_ship_persian_language_087
+		om7_ship_persian_language_088 om7_ship_persian_language_089 om7_ship_persian_language_090
+		om7_ship_persian_language_091 om7_ship_persian_language_092 om7_ship_persian_language_093
+		om7_ship_persian_language_094 om7_ship_persian_language_095 om7_ship_persian_language_096
+		om7_ship_persian_language_097 om7_ship_persian_language_098 om7_ship_persian_language_099
+		om7_ship_persian_language_100 om7_ship_persian_language_101 om7_ship_persian_language_102
+		om7_ship_persian_language_103 om7_ship_persian_language_104 om7_ship_persian_language_105
+		om7_ship_persian_language_106 om7_ship_persian_language_107 om7_ship_persian_language_108
+		om7_ship_persian_language_109 om7_ship_persian_language_110 om7_ship_persian_language_111
+		om7_ship_persian_language_112 om7_ship_persian_language_113 om7_ship_persian_language_114
+		om7_ship_persian_language_115 om7_ship_persian_language_116 om7_ship_persian_language_117
+		om7_ship_persian_language_118 om7_ship_persian_language_119 om7_ship_persian_language_120
+		om7_ship_persian_language_121 om7_ship_persian_language_122 om7_ship_persian_language_123
+		om7_ship_persian_language_124 om7_ship_persian_language_125 om7_ship_persian_language_126
+		om7_ship_persian_language_127 om7_ship_persian_language_128
+	}
+}
+
+balochi_language = {
+	color = map_balochi
+	family = iranic_language_family
+	male_names = {
+		Ahmu Asu Brahem Carsambay Cigird Didag Dilmurad Durgos Dursambay Esirk Gangozar Goricc Gostasp Issup Izbotk
+		Kalag Kawro Kefayatullah Liwar Mayar Mazaar Muraduk Nambi Nodakk Pahwal Pancsambay Rahson Roden Sabzal Sambay
+		Sarduk Silayman Sinzi Suhrag Sumael Syaho Tahlag Wassal Yali name_om_bal_mir_chakar name_om_bal_shayhak
+		name_om_bal_noor_khan name_om_bal_mehrab name_om_bal_shaymorid name_om_bal_pirbaksh name_om_bal_dinar
+		name_om_bal_mubarak
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		Ahmu
+		Asu
+		Brahem
+		Gostasp
+		Issup
+		Kawro
+		Mayar
+		Muraduk
+		Nodakk
+		Rahson
+		Sabzal
+		Sambay
+		Sarduk
+		Silayman
+		Suhrag
+		Wassal
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		Ahmu
+		Brahem
+		Dilmurad
+		Gostasp
+		Kefayatullah
+		Muraduk
+		Sabzal
+		Silayman
+		name_om_bal_mir_chakar
+		name_om_bal_shayhak
+		name_om_bal_mehrab
+		name_om_bal_shaymorid
+		name_om_bal_pirbaksh
+		name_om_bal_dinar
+		name_om_bal_mubarak
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Ahmu
+		Brahem
+		Dilmurad
+		Kefayatullah
+		Muraduk
+		Sabzal
+		Silayman
+		name_om_bal_noor_khan
+		name_om_bal_mir_chakar
+		name_om_bal_mehrab
+		name_om_bal_mubarak
+	}
+	female_names = {
+		Baxtawar Durnaz Durrbano Durren Ganjul Granaz Gulo Hawri Hayrbibi Jalalatunn Jannatatunn Jingul Kapot Keghad
+		Lalatunn Lalen Laluk Mahal Mahatunn Mahganj Mahikan Mahrang Mahruk Maru Mihrbano Murwarid Nuratunn Patuma
+		Pullen Qayanat Sabzal Sadganj Samsatunn Sarru Sarruk Satul Udayja Yaasaman Zarbibi Zargul Zarnaz Zarratunn
+		Zarukk name_om_bal_balochi name_om_bal_hani name_om_bal_gwahrami name_om_bal_shahzadi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		Baxtawar
+		Durnaz
+		Durrbano
+		Durren
+		Ganjul
+		Granaz
+		Gulo
+		Hawri
+		Lalatunn
+		Lalen
+		Mahal
+		Mahrang
+		Mahruk
+		Maru
+		Mihrbano
+		Murwarid
+		Zargul
+		Zarnaz
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		Baxtawar
+		Durnaz
+		Durrbano
+		Gulo
+		Mahal
+		Mahrang
+		Mihrbano
+		Murwarid
+		name_om_bal_hani
+		name_om_bal_gwahrami
+		name_om_bal_shahzadi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Baxtawar
+		Durnaz
+		Durrbano
+		Gulo
+		Mahal
+		Mahrang
+		Mihrbano
+		Murwarid
+		name_om_bal_balochi
+		name_om_bal_hani
+		name_om_bal_shahzadi
+	}
+	dynasty_names = {
+		Rind Lashari Achmadzai Gurguari Iltazai Kalandari Kambrani Mirwari Rodeni Sumalari Bugti Bozdar Jatoi Hoth
+		om_dyn_bal_gichki om_dyn_bal_buledi
+	}
+	lowborn = {
+		om_low_bal_baloch om_low_bal_rakhshani om_low_bal_mengal om_low_bal_marri
+	}
+	ship_names = {
+		om7_ship_balochi_language_001 om7_ship_balochi_language_002 om7_ship_balochi_language_003
+		om7_ship_balochi_language_004 om7_ship_balochi_language_005 om7_ship_balochi_language_006
+		om7_ship_balochi_language_007 om7_ship_balochi_language_008 om7_ship_balochi_language_009
+		om7_ship_balochi_language_010 om7_ship_balochi_language_011 om7_ship_balochi_language_012
+		om7_ship_balochi_language_013 om7_ship_balochi_language_014 om7_ship_balochi_language_015
+		om7_ship_balochi_language_016 om7_ship_balochi_language_017 om7_ship_balochi_language_018
+		om7_ship_balochi_language_019 om7_ship_balochi_language_020 om7_ship_balochi_language_021
+		om7_ship_balochi_language_022 om7_ship_balochi_language_023 om7_ship_balochi_language_024
+		om7_ship_balochi_language_025 om7_ship_balochi_language_026 om7_ship_balochi_language_027
+		om7_ship_balochi_language_028 om7_ship_balochi_language_029 om7_ship_balochi_language_030
+		om7_ship_balochi_language_031 om7_ship_balochi_language_032 om7_ship_balochi_language_033
+		om7_ship_balochi_language_034 om7_ship_balochi_language_035 om7_ship_balochi_language_036
+		om7_ship_balochi_language_037 om7_ship_balochi_language_038 om7_ship_balochi_language_039
+		om7_ship_balochi_language_040 om7_ship_balochi_language_041 om7_ship_balochi_language_042
+		om7_ship_balochi_language_043 om7_ship_balochi_language_044 om7_ship_balochi_language_045
+		om7_ship_balochi_language_046 om7_ship_balochi_language_047
+	}
+}
+
+afghani_language = {
+	color = map_afghani
+	family = iranic_language_family
+	male_names = {
+		name_ahmad Akbar name_ali Ghulam Gul Juma name_khan name_mahmud name_muhammad Rahim Rahman name_sardar
+		name_sharif Sher Sikandar Yama Aashna Abdal name_abd_al_gaffar Abdul_Khaliq Abdul_Rahim Abdul_Zahir Abul
+		Afrasiab Ahmadshah Amrullah Andam Angar Asadullah name_ashraf Atal Azizullah Badam Bahramand Bakht Barlas
+		Baryal Basoor Bismillah Darman Darwesh Darwish Dawar Faizullah Freidoon Gahez Gaibullah Gorbat Gostasp
+		Hafizullah Hamidullah Hask Hewad Ismatullah Jagrali Jalalullah Janwar Kaki Karamatullah Kefayatullah Keyumars
+		Khairullah Khialay Khudaidad Kushal Khyber Laro Lurfullah Malang Malyar Mayel Minatbar name_miran Mirwais
+		Najibullah Nangial Nanguyalai Nangyali Naqibullah Nashimullah Nasrat Nathrad Nimatullah Nowruz Nufail
+		Obaidullah Olas Palay Patman Patson Pohyali Qais Qurban Rahmat Rohullah Romal Rostum Rukh Sado Sak Samandar
+		Selab Shafiqullah Shahifullah Shair Shino Shpon name_shuja Shifat Sparli Spin Spinzar Sunnah Surab Tameem Teri
+		Toryal Wakqbaa name_wali Wardak Zabihullah Zaib Zalmai Zartaj Zmarai name_om_afg_ahmad_shah
+		name_om_afg_timur_shah name_om_afg_zaman_shah
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		Abdal
+		Afrasiab
+		Bahramand
+		Freidoon
+		Gostasp
+		Keyumars
+		Mirwais
+		Rostum
+		Sado
+		Yama
+		name_miran
+		name_sardar
+		name_shuja
+		name_wali
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		name_ahmad
+		Akbar
+		name_ali
+		name_mahmud
+		name_muhammad
+		name_sardar
+		name_sharif
+		Sikandar
+		Abdal
+		Ahmadshah
+		name_ashraf
+		Mirwais
+		Qais
+		Sado
+		name_om_afg_ahmad_shah
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_ahmad
+		Akbar
+		name_ali
+		Ghulam
+		name_khan
+		name_mahmud
+		name_muhammad
+		Rahim
+		Rahman
+		name_sardar
+		name_sharif
+		Sher
+		Sikandar
+		Ahmadshah
+		name_om_afg_ahmad_shah
+		name_om_afg_timur_shah
+		name_om_afg_zaman_shah
+	}
+	female_names = {
+		Farzana Malalai Aghala Ano Apana Apriday Ara Ariana Arzo name_ashraf Bakht Balbala Barsala Beheshta Benafsha
+		Benazira Binafsha Boba Brekhna name_dewa Fereshta Gabina Ghatola Ghazala Ghotai Gulalai Heela Helai Heley
+		Henna Hila Hosai Janwar Kashmala Kharo Khatera Khatol Koko Kontara Lajaward Lakhta Lalzari Lawanga Letafat
+		Malala Malghalara Mayel Mina Muska Naghma Nangialai Nowruz Orbala Orzala Panra Patoni Perkha Ranrha Rubbinah
+		Sanga Selai Shamsia Shaperai Sharbat Shastai Shazmina Shegufa Shekiba Storai Sunnah Tanima Toraki Wajia
+		Wowreena Zaib Zala Zarbaha Zarghuna Zarka Zarmina Zarsanga Zartaj Zlaikha Zuleixa name_om_afg_aisha
+		name_om_afg_bibi_maryam name_om_afg_gulbadan
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		Aghala
+		Ano
+		Ara
+		Ariana
+		Bakht
+		Binafsha
+		Khatol
+		Malalai
+		Malala
+		Mina
+		Zarghuna
+		Zarmina
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		Farzana
+		Malalai
+		Ariana
+		Arzo
+		Bakht
+		Benafsha
+		Binafsha
+		Gulalai
+		Khatol
+		Malala
+		Mina
+		Zarghuna
+		name_om_afg_aisha
+		name_om_afg_bibi_maryam
+		name_om_afg_gulbadan
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Farzana
+		Malalai
+		Arzo
+		Beheshta
+		Benazira
+		Brekhna
+		Fereshta
+		Ghazala
+		Gulalai
+		Heela
+		Khatera
+		Mina
+		Naghma
+		Shamsia
+		Shaperai
+		Shegufa
+		Storai
+		Zarmina
+		name_om_afg_aisha
+	}
+	dynasty_names = {
+		Ghilji Barakzay Lodi Suri Hotaki Durrani Karrani Sherani Tareen name_khalil Kheshgi Mohmand Daudzai
+		Muhammadzai Chamkani Yousafzai Shinwari Tarkalani Bettani Lohani Marwat Niazi Shirani Karlani om_dyn_afg_hotak
+		om_dyn_afg_barakzai om_dyn_afg_sadozai
+	}
+	lowborn = {
+		om_low_afg_yusufzai om_low_afg_ghilzai om_low_afg_popalzai om_low_afg_achakzai
+	}
+	patronym_suffix_son = "patronym_suffix_afghan_son"
+	ship_names = {
+		om7_ship_afghani_language_001 om7_ship_afghani_language_002 om7_ship_afghani_language_003
+		om7_ship_afghani_language_004 om7_ship_afghani_language_005 om7_ship_afghani_language_006
+		om7_ship_afghani_language_007 om7_ship_afghani_language_008 om7_ship_afghani_language_009
+		om7_ship_afghani_language_010 om7_ship_afghani_language_011 om7_ship_afghani_language_012
+		om7_ship_afghani_language_013 om7_ship_afghani_language_014 om7_ship_afghani_language_015
+		om7_ship_afghani_language_016 om7_ship_afghani_language_017 om7_ship_afghani_language_018
+		om7_ship_afghani_language_019 om7_ship_afghani_language_020 om7_ship_afghani_language_021
+		om7_ship_afghani_language_022 om7_ship_afghani_language_023 om7_ship_afghani_language_024
+		om7_ship_afghani_language_025 om7_ship_afghani_language_026 om7_ship_afghani_language_027
+		om7_ship_afghani_language_028 om7_ship_afghani_language_029 om7_ship_afghani_language_030
+		om7_ship_afghani_language_031 om7_ship_afghani_language_032 om7_ship_afghani_language_033
+		om7_ship_afghani_language_034 om7_ship_afghani_language_035 om7_ship_afghani_language_036
+		om7_ship_afghani_language_037 om7_ship_afghani_language_038 om7_ship_afghani_language_039
+		om7_ship_afghani_language_040 om7_ship_afghani_language_041 om7_ship_afghani_language_042
+		om7_ship_afghani_language_043 om7_ship_afghani_language_044 om7_ship_afghani_language_045
+		om7_ship_afghani_language_046 om7_ship_afghani_language_047 om7_ship_afghani_language_048
+		om7_ship_afghani_language_049 om7_ship_afghani_language_050 om7_ship_afghani_language_051
+		om7_ship_afghani_language_052 om7_ship_afghani_language_053 om7_ship_afghani_language_054
+		om7_ship_afghani_language_055 om7_ship_afghani_language_056 om7_ship_afghani_language_057
+		om7_ship_afghani_language_058 om7_ship_afghani_language_059 om7_ship_afghani_language_060
+		om7_ship_afghani_language_061 om7_ship_afghani_language_062 om7_ship_afghani_language_063
+		om7_ship_afghani_language_064 om7_ship_afghani_language_065 om7_ship_afghani_language_066
+		om7_ship_afghani_language_067 om7_ship_afghani_language_068 om7_ship_afghani_language_069
+		om7_ship_afghani_language_070 om7_ship_afghani_language_071 om7_ship_afghani_language_072
+		om7_ship_afghani_language_073 om7_ship_afghani_language_074 om7_ship_afghani_language_075
+		om7_ship_afghani_language_076 om7_ship_afghani_language_077 om7_ship_afghani_language_078
+		om7_ship_afghani_language_079 om7_ship_afghani_language_080 om7_ship_afghani_language_081
+		om7_ship_afghani_language_082 om7_ship_afghani_language_083 om7_ship_afghani_language_084
+		om7_ship_afghani_language_085 om7_ship_afghani_language_086 om7_ship_afghani_language_087
+		om7_ship_afghani_language_088 om7_ship_afghani_language_089 om7_ship_afghani_language_090
+		om7_ship_afghani_language_091 om7_ship_afghani_language_092 om7_ship_afghani_language_093
+		om7_ship_afghani_language_094 om7_ship_afghani_language_095 om7_ship_afghani_language_096
+		om7_ship_afghani_language_097 om7_ship_afghani_language_098 om7_ship_afghani_language_099
+		om7_ship_afghani_language_100 om7_ship_afghani_language_101 om7_ship_afghani_language_102
+		om7_ship_afghani_language_103 om7_ship_afghani_language_104 om7_ship_afghani_language_105
+		om7_ship_afghani_language_106 om7_ship_afghani_language_107 om7_ship_afghani_language_108
+		om7_ship_afghani_language_109 om7_ship_afghani_language_110 om7_ship_afghani_language_111
+		om7_ship_afghani_language_112 om7_ship_afghani_language_113 om7_ship_afghani_language_114
+		om7_ship_afghani_language_115 om7_ship_afghani_language_116 om7_ship_afghani_language_117
+		om7_ship_afghani_language_118 om7_ship_afghani_language_119 om7_ship_afghani_language_120
+		om7_ship_afghani_language_121 om7_ship_afghani_language_122 om7_ship_afghani_language_123
+		om7_ship_afghani_language_124 om7_ship_afghani_language_125 om7_ship_afghani_language_126
+		om7_ship_afghani_language_127 om7_ship_afghani_language_128
+	}
+}
+
+tabaristani_language = {
+	color = map_tabaristani
+	family = iranic_language_family
+	male_names = {
+		Damoun Makan Espahbod Farheng Gostasp Kefayatullah Aban Alrazi Araxa Aryaramna Arsama Arshaka Artabanu
+		Artafarnah Aspacanah Aturpat Bardia Datafarnah Derafsh Farbod Farnabazu Farnaspa Herbad Katana Khosrau Manu
+		Manuchehr Marduniya Martiya Marzban Masista Mihrab Mihrbandak Naudar Pakur Pouria Quhyar Sasan Tiridata
+		Vidarna Walagash name_om_tab_bavand name_om_tab_rostam name_om_tab_farrukhzad name_om_tab_shahriyar
+		name_om_tab_mardavij name_om_tab_vushmgir name_om_tab_ziyar name_om_tab_asfar name_om_tab_qaren
+		name_om_tab_ardashir name_om_tab_qabus name_om_tab_bijan name_om_tab_bav name_om_tab_kaykaus
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		Makan
+		Espahbod
+		Gostasp
+		Aban
+		Arsama
+		Arshaka
+		Artabanu
+		Aturpat
+		Bardia
+		Khosrau
+		Manuchehr
+		Marzban
+		Mihrab
+		Naudar
+		Pakur
+		Sasan
+		Walagash
+		name_om_tab_bav
+		name_om_tab_qaren
+		name_om_tab_ardashir
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		Makan
+		Espahbod
+		Khosrau
+		Manuchehr
+		Marzban
+		Mihrab
+		Sasan
+		name_om_tab_bavand
+		name_om_tab_rostam
+		name_om_tab_farrukhzad
+		name_om_tab_shahriyar
+		name_om_tab_mardavij
+		name_om_tab_vushmgir
+		name_om_tab_ziyar
+		name_om_tab_asfar
+		name_om_tab_qaren
+		name_om_tab_qabus
+		name_om_tab_bijan
+		name_om_tab_kaykaus
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Damoun
+		Makan
+		Farheng
+		Farbod
+		Khosrau
+		Manuchehr
+		Marzban
+		Pouria
+		name_om_tab_bavand
+		name_om_tab_rostam
+		name_om_tab_farrukhzad
+		name_om_tab_shahriyar
+		name_om_tab_qabus
+		name_om_tab_bijan
+		name_om_tab_kaykaus
+	}
+	female_names = {
+		Delvese Qayanat Shebreh Elika Vanuse Vanushe Abandokht Adrina Adurnaseh Apama Artastuna Barsine Manu
+		name_om_tab_banu name_om_tab_mahpari name_om_tab_shirin name_om_tab_gohar name_om_tab_gordiya
+		name_om_tab_purandokht name_om_tab_azarmidokht name_om_tab_denag name_om_tab_khoranzem
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		Abandokht
+		Adurnaseh
+		Apama
+		Artastuna
+		Barsine
+		name_om_tab_gordiya
+		name_om_tab_purandokht
+		name_om_tab_azarmidokht
+		name_om_tab_denag
+		name_om_tab_khoranzem
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		Delvese
+		Elika
+		Vanuse
+		Vanushe
+		Abandokht
+		Adrina
+		name_om_tab_banu
+		name_om_tab_mahpari
+		name_om_tab_shirin
+		name_om_tab_gohar
+		name_om_tab_gordiya
+		name_om_tab_denag
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Delvese
+		Qayanat
+		Shebreh
+		Elika
+		Vanuse
+		Vanushe
+		Adrina
+		name_om_tab_banu
+		name_om_tab_mahpari
+		name_om_tab_shirin
+		name_om_tab_gohar
+	}
+	dynasty_names = {
+		om_dyn_tab_bavandid om_dyn_tab_paduspanid om_dyn_tab_marashi om_dyn_tab_afrasiyab
+	}
+	lowborn = {
+		om_low_tab_mazandarani om_low_tab_gilani om_low_tab_amoli om_low_tab_sari
+	}
+	ship_names = {
+		om7_ship_tabaristani_language_001 om7_ship_tabaristani_language_002 om7_ship_tabaristani_language_003
+		om7_ship_tabaristani_language_004 om7_ship_tabaristani_language_005 om7_ship_tabaristani_language_006
+		om7_ship_tabaristani_language_007 om7_ship_tabaristani_language_008 om7_ship_tabaristani_language_009
+		om7_ship_tabaristani_language_010 om7_ship_tabaristani_language_011 om7_ship_tabaristani_language_012
+		om7_ship_tabaristani_language_013 om7_ship_tabaristani_language_014 om7_ship_tabaristani_language_015
+		om7_ship_tabaristani_language_016 om7_ship_tabaristani_language_017 om7_ship_tabaristani_language_018
+		om7_ship_tabaristani_language_019 om7_ship_tabaristani_language_020 om7_ship_tabaristani_language_021
+		om7_ship_tabaristani_language_022 om7_ship_tabaristani_language_023 om7_ship_tabaristani_language_024
+		om7_ship_tabaristani_language_025 om7_ship_tabaristani_language_026 om7_ship_tabaristani_language_027
+		om7_ship_tabaristani_language_028 om7_ship_tabaristani_language_029 om7_ship_tabaristani_language_030
+		om7_ship_tabaristani_language_031 om7_ship_tabaristani_language_032 om7_ship_tabaristani_language_033
+		om7_ship_tabaristani_language_034 om7_ship_tabaristani_language_035 om7_ship_tabaristani_language_036
+		om7_ship_tabaristani_language_037 om7_ship_tabaristani_language_038 om7_ship_tabaristani_language_039
+		om7_ship_tabaristani_language_040 om7_ship_tabaristani_language_041 om7_ship_tabaristani_language_042
+		om7_ship_tabaristani_language_043 om7_ship_tabaristani_language_044 om7_ship_tabaristani_language_045
+		om7_ship_tabaristani_language_046 om7_ship_tabaristani_language_047 om7_ship_tabaristani_language_048
+		om7_ship_tabaristani_language_049 om7_ship_tabaristani_language_050 om7_ship_tabaristani_language_051
+		om7_ship_tabaristani_language_052 om7_ship_tabaristani_language_053 om7_ship_tabaristani_language_054
+		om7_ship_tabaristani_language_055
+	}
+}
+
+adharic_language = {
+	color = map_tat
+	family = iranic_language_family
+	male_names = {
+		name_alikhan name_mirza name_muhammad name_sayyid name_sherali name_zahid asmen astare bertal berz comerd cher
+		newecan peroc usar veroc xanbeg lava layro lawko lizge name_om_adh_safi_al_din name_om_adh_shahverdi
+		name_om_adh_qara_yusuf name_om_adh_jahan_shah name_om_adh_javedan name_om_adh_babak name_om_adh_sadr_al_din
+		name_om_adh_junayd name_om_adh_haydar name_om_adh_ismail name_om_adh_tahmasp name_om_adh_sam_mirza
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		asmen
+		astare
+		bertal
+		berz
+		comerd
+		cher
+		newecan
+		peroc
+		usar
+		veroc
+		xanbeg
+		lava
+		layro
+		lawko
+		lizge
+		name_om_adh_javedan
+		name_om_adh_babak
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		name_alikhan
+		name_mirza
+		name_muhammad
+		name_sayyid
+		name_sherali
+		name_zahid
+		name_om_adh_safi_al_din
+		name_om_adh_shahverdi
+		name_om_adh_qara_yusuf
+		name_om_adh_jahan_shah
+		name_om_adh_sadr_al_din
+		name_om_adh_junayd
+		name_om_adh_haydar
+		name_om_adh_ismail
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_alikhan
+		name_mirza
+		name_muhammad
+		name_sayyid
+		name_sherali
+		name_zahid
+		name_om_adh_safi_al_din
+		name_om_adh_shahverdi
+		name_om_adh_haydar
+		name_om_adh_ismail
+		name_om_adh_tahmasp
+		name_om_adh_sam_mirza
+	}
+	female_names = {
+		Shaudi name_zahida asme germine gulane peline rocgule sosine ticida vilika zelale zerre zeryam lava layro
+		lawko lizge name_om_adh_sara_khatun name_om_adh_despina_khatun name_om_adh_mahin_banu name_om_adh_alamshah
+		name_om_adh_tajlu name_om_adh_pari_khan name_om_adh_khadija
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 190
+		}
+		Shaudi
+		asme
+		germine
+		gulane
+		peline
+		rocgule
+		sosine
+		ticida
+		vilika
+		zelale
+		zerre
+		zeryam
+		lava
+		layro
+		lawko
+		lizge
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 170
+		}
+		Shaudi
+		name_zahida
+		gulane
+		zelale
+		name_om_adh_sara_khatun
+		name_om_adh_despina_khatun
+		name_om_adh_mahin_banu
+		name_om_adh_alamshah
+		name_om_adh_tajlu
+		name_om_adh_pari_khan
+		name_om_adh_khadija
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_zahida
+		gulane
+		zelale
+		name_om_adh_sara_khatun
+		name_om_adh_despina_khatun
+		name_om_adh_mahin_banu
+		name_om_adh_alamshah
+		name_om_adh_tajlu
+		name_om_adh_pari_khan
+		name_om_adh_khadija
+	}
+	dynasty_names = {
+		om_dyn_adh_chobanid om_dyn_adh_jalayirid om_dyn_adh_ravvadid om_dyn_adh_sajid
+	}
+	lowborn = {
+		om_low_adh_tabrizi om_low_adh_ardabili om_low_adh_maraghei om_low_adh_urmavi
+	}
+	ship_names = {
+		om7_ship_adharic_language_001 om7_ship_adharic_language_002 om7_ship_adharic_language_003
+		om7_ship_adharic_language_004 om7_ship_adharic_language_005 om7_ship_adharic_language_006
+		om7_ship_adharic_language_007 om7_ship_adharic_language_008 om7_ship_adharic_language_009
+		om7_ship_adharic_language_010 om7_ship_adharic_language_011 om7_ship_adharic_language_012
+		om7_ship_adharic_language_013 om7_ship_adharic_language_014 om7_ship_adharic_language_015
+		om7_ship_adharic_language_016 om7_ship_adharic_language_017 om7_ship_adharic_language_018
+		om7_ship_adharic_language_019 om7_ship_adharic_language_020 om7_ship_adharic_language_021
+		om7_ship_adharic_language_022 om7_ship_adharic_language_023 om7_ship_adharic_language_024
+		om7_ship_adharic_language_025 om7_ship_adharic_language_026 om7_ship_adharic_language_027
+		om7_ship_adharic_language_028 om7_ship_adharic_language_029 om7_ship_adharic_language_030
+		om7_ship_adharic_language_031 om7_ship_adharic_language_032 om7_ship_adharic_language_033
+	}
+}

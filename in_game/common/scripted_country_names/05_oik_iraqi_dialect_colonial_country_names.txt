@@ -1,0 +1,4913 @@
+﻿oik_iraqi_dialect_niger_delta_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:niger_delta_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cape_verde_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cape_verde_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bonny_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bonny_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cameroon_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cameroon_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_eseka_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:eseka_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_senufo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:senufo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_baoule_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:baoule_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bassa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bassa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_grebo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:grebo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kru_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_adjukru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:adjukru_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_nzima_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nzima_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_guinean_coast_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:guinean_coast_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sulimana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sulimana_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_temne_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:temne_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mende_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mende_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kpelle_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kpelle_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_dan_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dan_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_air_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:air_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_marandet_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:marandet_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_liptako_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:liptako_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_adrar_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:adrar_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mser_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mser_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sanaga_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sanaga_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kadey_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kadey_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_boali_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:boali_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bouar_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bouar_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sarh_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sarh_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ouaka_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ouaka_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_djemah_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:djemah_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bomokandi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bomokandi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_central_adamawa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:central_adamawa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_eastern_adamawa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:eastern_adamawa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sao_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sao_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bagirmi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bagirmi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_masa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:masa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mandara_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mandara_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cameroon_ridge_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cameroon_ridge_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cameroon_plateau_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cameroon_plateau_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ogoowe_benje_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ogoowe_benje_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_nyanga_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nyanga_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_moyen_ogoowe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:moyen_ogoowe_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sangmelima_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sangmelima_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ogoowe_ivindo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ogoowe_ivindo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kouilou_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kouilou_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_niari_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:niari_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_west_lekumu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:west_lekumu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_north_sangha_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_sangha_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_south_sangha_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_sangha_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_east_lekumu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:east_lekumu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_chuapa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:chuapa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kabinda_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kabinda_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kisama_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kisama_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_malanji_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:malanji_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kwanza_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kwanza_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_anbamba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:anbamba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_seles_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:seles_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ndongo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ndongo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mbwila_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mbwila_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_marimba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:marimba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kwango_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kwango_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_namibe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:namibe_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_huila_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:huila_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mbunda_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mbunda_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kunene_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kunene_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_malingo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:malingo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mbalundu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mbalundu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_viye_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:viye_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mbegela_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mbegela_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_wambu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wambu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kassai_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kassai_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_north_lunda_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_lunda_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_south_lunda_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_lunda_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_north_moxico_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_moxico_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_south_moxico_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_moxico_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kabompo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kabompo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_utembo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:utembo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mashi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mashi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_upper_zambezi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:upper_zambezi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kilemba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kilemba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_luxico_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:luxico_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lukassi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lukassi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mweru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mweru_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lualaba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lualaba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cuoim_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cuoim_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_upper_moshiko_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:upper_moshiko_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lower_moshiko_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lower_moshiko_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bangweulu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bangweulu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kafue_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kafue_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_luangwa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:luangwa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lomami_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lomami_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lukenie_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lukenie_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bena_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bena_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_southern_africa_islands_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:southern_africa_islands_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_goringhaikona_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:goringhaikona_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cochoqua_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cochoqua_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ubiqua_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ubiqua_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_chainouqua_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:chainouqua_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_gouriqua_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:gouriqua_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_gonaqua_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:gonaqua_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_khari_karoo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:khari_karoo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_umngazi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:umngazi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_umhlanga_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:umhlanga_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_umgungundlovu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:umgungundlovu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_swazi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:swazi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tzaneen_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tzaneen_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_em_dinaneni_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:em_dinaneni_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mosega_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mosega_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ntsoana_tsatsi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ntsoana_tsatsi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_umsobomvu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:umsobomvu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_thaba_bosiu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:thaba_bosiu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_siyancuma_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:siyancuma_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_eiland_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:eiland_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kai_karoo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kai_karoo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_siyathemba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:siyathemba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_trakamma_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:trakamma_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_nama_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nama_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_prieska_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:prieska_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ai_ais_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ai_ais_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kuruman_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kuruman_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_khomani_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:khomani_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_karas_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:karas_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kharakhoen_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kharakhoen_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_xoo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:xoo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_gana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:gana_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_makgadikgadi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:makgadikgadi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_xun_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:xun_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_odonga_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:odonga_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ezorongondo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ezorongondo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_owambo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:owambo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_damara_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:damara_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_changane_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:changane_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_komati_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:komati_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_middle_limpopo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:middle_limpopo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_motloutse_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:motloutse_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_buzi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:buzi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lower_zambezi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lower_zambezi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lower_mazowe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lower_mazowe_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_manyame_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:manyame_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_guancavilca_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:guancavilca_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_atacames_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:atacames_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_quitu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:quitu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kofan_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kofan_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_puquina_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:puquina_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tarapaca_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tarapaca_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_atacama_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:atacama_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cuyo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cuyo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_quines_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:quines_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_elki_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:elki_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_konchuko_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:konchuko_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kotosh_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kotosh_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_huaylas_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:huaylas_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_hatun_xauxa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:hatun_xauxa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_rupa_rupa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:rupa_rupa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_galapagos_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:galapagos_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_pikunmapu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:pikunmapu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_butalmapu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:butalmapu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_willimapu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:willimapu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_juan_fernandez_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:juan_fernandez_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_amazon_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:amazon_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_manaos_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:manaos_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_marajoara_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:marajoara_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_arua_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:arua_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_curuai_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:curuai_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lower_tapajos_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lower_tapajos_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_pantanal_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:pantanal_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_miranda_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:miranda_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cuiaba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cuiaba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tacuru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tacuru_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_xingu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:xingu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_juruena_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:juruena_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_upper_tapajos_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:upper_tapajos_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_madeira_brazil_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:madeira_brazil_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ji_parana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ji_parana_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_guapore_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:guapore_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_upper_guapore_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:upper_guapore_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mamore_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mamore_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tocantins_delta_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tocantins_delta_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tocantins_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tocantins_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_upper_tocantins_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:upper_tocantins_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_upper_araguaia_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:upper_araguaia_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_araguaia_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:araguaia_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_pindare_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:pindare_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_itapecuru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:itapecuru_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mearim_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mearim_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_gurgueia_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:gurgueia_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_paranaiba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:paranaiba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_jaguaribe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:jaguaribe_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_acarau_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:acarau_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_capibaribe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:capibaribe_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_paraiba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:paraiba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sao_francisco_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sao_francisco_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_brigida_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:brigida_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_grande_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:grande_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_itapicuru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:itapicuru_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_paracatu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:paracatu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_upper_sao_francisco_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:upper_sao_francisco_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sabarabucu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sabarabucu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_jequitinhonha_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:jequitinhonha_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bocaiuva_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bocaiuva_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_guaratuba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:guaratuba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_itu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:itu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_jundiai_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:jundiai_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_parnaiba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:parnaiba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_aimore_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:aimore_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_urucu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:urucu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_guaitaca_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:guaitaca_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_itanhomi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:itanhomi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_itabira_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:itabira_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mokaie_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mokaie_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_nheteroia_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nheteroia_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_piranga_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:piranga_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_piray_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:piray_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tapuy_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tapuy_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_taubate_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:taubate_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_piumhi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:piumhi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_camanducaia_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:camanducaia_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lavras_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lavras_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_itajuba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:itajuba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_muriae_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:muriae_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_paranagua_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:paranagua_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_xokleng_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:xokleng_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_chopim_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:chopim_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lages_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lages_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_iaguarauna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:iaguarauna_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ivai_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ivai_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_piquiri_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:piquiri_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sapukaia_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sapukaia_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_itapeva_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:itapeva_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tanabi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tanabi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_piracicaba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:piracicaba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_bois_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bois_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_imbau_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:imbau_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_uberaba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:uberaba_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_chiquitania_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:chiquitania_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_paraguay_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:paraguay_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_enlhet_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:enlhet_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ayoreo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ayoreo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_lumnanas_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lumnanas_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_wichi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wichi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_chipion_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:chipion_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_moqoit_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:moqoit_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ashca_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ashca_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_macaclita_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:macaclita_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_ibera_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ibera_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_saipuru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:saipuru_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_yopo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yopo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_cumaribo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:cumaribo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mompoj_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mompoj_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_sinu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sinu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_suchiimma_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:suchiimma_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_paraguana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:paraguana_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_caracas_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:caracas_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_nirgua_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nirgua_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_guamontey_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:guamontey_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_karu_pana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:karu_pana_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_orinucu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:orinucu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_caroni_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:caroni_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_macuxi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:macuxi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_apure_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:apure_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_barinas_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:barinas_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_papamane_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:papamane_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_coyaima_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:coyaima_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_colombayma_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:colombayma_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_nechi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nechi_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tumaco_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tumaco_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_caly_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:caly_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tahami_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tahami_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_choco_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:choco_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kuna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kuna_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_guayana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:guayana_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_essequibo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:essequibo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_paramaribo_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:paramaribo_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_jacui_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:jacui_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_guenoa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:guenoa_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_la_plata_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:la_plata_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_rangkullmapu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:rangkullmapu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_tewelmapu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tewelmapu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_mamullmapu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mamullmapu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_chadimapu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:chadimapu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_pehuenmapu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:pehuenmapu_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_karukinka_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:karukinka_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_chubut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:chubut_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_aonikenk_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:aonikenk_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_patagonia_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:patagonia_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_kawesqar_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kawesqar_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_yaghan_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yaghan_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_falklands_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:falklands_province
+    }
+
+    location_trigger = {
+    }
+}
+oik_iraqi_dialect_south_georgia_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:iraqi_dialect
+            overlord ?= {
+                culture.dialect = dialect:iraqi_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_georgia_province
+    }
+
+    location_trigger = {
+    }
+}

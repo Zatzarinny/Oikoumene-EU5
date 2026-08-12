@@ -1,0 +1,1424 @@
+﻿spanish_language = {
+	color = map_CAS
+	family = romance_language_family
+	male_names = {
+		name_alphonse name_angel name_anthony name_augustine name_balthazar.name_charles name_charles name_chrysanthos
+		name_diego name_elpidius name_evangelos name_ferdinand name_francis name_gabriel name_garcia name_henry
+		name_irenaeus name_john name_joseph name_joseph.name_ferdinand name_louis name_peter name_philip name_sancho
+		name_salvator name_ambrose name_andrew name_artaldus name_alvar name_aurelius name_balthazar name_bartholomew
+		name_benedict name_bernard name_bernardinus name_bertrand name_blaise name_caesar name_cajetan name_camillo
+		name_carmen_male name_casper name_celestine name_christopher name_cosmas name_cyprian name_damian name_dominic
+		name_edward name_emmanuel name_emil name_eugene name_eusebius name_felix name_frederick name_froila
+		name_gaston name_genesius name_george name_giles name_gonzalo name_gregory name_guma name_hermenegild Hernan
+		Hernando name_hieronymus name_hyacinth name_ignatius name_inigo name_isidore name_james name_joachim
+		name_john.name_alphonse name_john.name_emmanuel name_julian name_laurence name_lupus name_marianus name_martin
+		name_mark name_matthew name_matthias name_melchior name_mercurius name_michael name_nicholas name_nuno
+		name_onuphrius name_ordono name_paschal name_pelagius name_pius name_prudentius name_ramiro name_raymond
+		name_raphael name_roderick name_sebastian name_seraphin name_silvester name_simeon name_stephen name_suero
+		name_tello name_theodore name_thomas name_thyrsus name_vasco name_ventura name_vincent name_walter
+		name_william name_ximeno
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_castro
+		name_diego
+		name_garcia
+		name_gonzalo
+		name_ramiro
+		name_sancho
+		name_inigo
+		name_alvar
+		name_roderick
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_andrew
+		name_anthony
+		name_charles
+		name_francis
+		name_john
+		name_joseph
+		name_michael
+		name_peter
+		name_philip
+		name_thomas
+		Hernando
+		name_diego
+		name_om_es_alonso
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_alexander
+		name_ferdinand
+		name_francis
+		name_joseph
+		name_louis
+		name_victor
+		name_philip
+		name_charles
+		name_emmanuel
+	}
+	female_names = {
+		name_ambrosia name_amelia name_anna name_antonia name_beatrix name_berengaria name_catherine
+		name_catherine.name_michaela name_charlotte name_charlotte.name_joachima name_constance name_dolours
+		name_eleanor name_elizabeth name_claire.name_eugenie name_eugenie name_joanna name_josephine name_julie
+		name_jesus_female name_louise name_louise.name_ferdinanda name_margaret name_marianne name_mary
+		name_mary.name_anna name_sabine name_theresa name_urraca name_zenaida name_agnes name_agrippina name_aldonza
+		name_almudena name_amabilis name_andrea name_angela name_augustina name_bernadette name_blanche name_brianna
+		name_bonaventura name_cajetana name_cecile name_christine name_claire name_clemence name_covadonga name_donosa
+		name_elvira name_emmanuelle name_frances name_guiomar name_helen name_henrietta name_hieronyma name_ignatia
+		name_ildephonsa name_isidora name_joachima name_lucrece name_madeleine name_marquise name_matilda name_mayor
+		name_michaela name_hope name_nicole name_raphaella name_rosa name_sancha name_stephanie name_theuda
+		name_tiburge name_thomassine name_victoria name_valeria name_waltera name_xenia name_ximena name_yolande
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_aldonza
+		name_constance
+		name_elvira
+		name_sancha
+		name_urraca
+		name_agnes
+		name_beatrix
+		name_eleanor
+		name_elizabeth
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_anna
+		name_catherine
+		name_elizabeth
+		name_joanna
+		name_theresa
+		name_mary
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_victoria
+		name_theresa
+		name_frances
+		name_josephine
+		name_antonia
+	}
+	dynasty_names = {
+		albornoz_dynasty alvarez_toledo_dynasty quiros_dynasty cardenas_dynasty cordoba_cabra de_la_cueva_dynasty
+		Enriquez fajardo_dynasty fernandez_cordoba_dynasty fernandez_manrique velasco_dynasty guzman_olivares_dynasty
+		iturbide_dynasty lasso_vega_dynasty lopez_pacheco_dynasty manrique_aguilar_dynasty manrique_lara_dynasty
+		Mendoza pimentel_dynasty portocarrero_dynasty ramirez_haro_dynasty sandoval_rojas_dynasty sarmiento_dynasty
+		solis_dynasty tellez_giron_dynasty oropesa_dynasty zuniga_dynasty zuniga_avellaneda_dynasty
+		om_dyn_es_trastamara om_dyn_es_guzman om_dyn_es_pacheco om_dyn_es_osorio
+	}
+	lowborn = {
+		de_Abascal Abasolo acuna_dynasty de_Ahumada Albornoz de_Almansa Agualongo Aguirre de_Aguirre Aldama de_Almagro
+		Almagro Alquisiras de_Alvarado Alvarez alvarez_toledo_dynasty name_amar Anaya Angulo Aranda Arce de_Arce
+		Armendariz de_Armendariz Arias de_Arredondo Artigas Asensio de_Avellaneda de_Avendano de_Ayala de_Azanza
+		de_Balda Baraya de_la_Barcena Barrada Bayetola Bazan de_Bazan de_Beaumont Becerra Belgrano de_Benavides
+		Berruguete Bolivar Bravo de_Bucareli de_Burgos de_Butron Cabal Caballero Cabeza_Vaca Cagigal_Vega
+		Calderon_Barca Calleja del_Campo Cardenas de_Cardenas Carrillo Carrillo_Mendoza de_las_Casas Castanos
+		del_Castillo castro_dynasty Cebrian de_Cebrian Cervantes de_Cervantes Cevallos de_Cevallos Chaves de_Chaves
+		Chumacero Churruca Clavero de_los_Cobos Colon Colon_Larreategui Colon_Portugal Contreras de_Contreras Cordova
+		Coronel Cortes de_la_Cosa Crespo de_Croix Cuesta de_la_cueva_dynasty Davila Daza de_Deza Diaz Diez_Aux
+		Dominguez O_Donoju Echevarria Elcano de_Elgueta de_Elio name_stephen de_Emparan Enriquez Enriquez_Acevedo
+		Enriquez_Lacarra Escalante de_Escalante de_Eslava Espinosa de_Ezpeleta fajardo_dynasty Fernandez
+		Fernandez_Cabrera fernandez_cordoba_dynasty Fernandez_Cueva fernandez_manrique manrique_aguilar_dynasty
+		Fernandez_Pino velasco_dynasty Fernandez_Villagarcia Figueroa de_Figueroa Fonseca de_Fonseca Galeana de_Galvez
+		Galvez gamboa_dynasty name_garcia Garcia_Cuesta Garcia_Padilla de_Garibay Giron Godoy name_guma de_Gongora
+		Gonzalez Goyeneche de_Goyeneche Gracian de_Guemes Guerra Guerrero Guirior Gutierrez_Cevallos de_Guzman
+		de_los_Heros de_Herrera Hidalgo Hidalgo_Cisneros O_Higgins Hurtado_Mendoza Ibanez_Riva Ibarra Inguanzo Iriarte
+		de_Isla iturbide_dynasty de_Iturrigaray de_Jasso de_Jauregui de_Javier Ladron_Guevara de_Lamadrid
+		lasso_vega_dynasty Larranaga Larrea de_Lazcano Leguizamon de_Leguizamon Levi_SPA de_Leyva de_Lezo de_Linan
+		de_Lizana de_Loaiza Lopez Lopez_Ayala Lopez_Cordoba Lopez_Legazpi de_Loyola de_Luna manrique_lara_dynasty
+		Manso_Velasco Martinez Martinez_Recalde Martinez_Villela Matamoros Melo_Portugal de_Mendinueta Mendoza
+		de_Mendoza Mesia_Cerda Michelena de_Michelena Mina de_Mirabal de_Molina Mon Monroy de_Monroy Montalvo
+		de_Montejo Morelos Moreno Moya Muniz Muniz_Godoy Narino de_Navarra Navarro Negrete Nino_lowborn de_Norona
+		Nunez Nunez_Balboa Nunez_Haro de_Ojeda de_Olaguer de_Olaneta de_Onate de_Onaz de_Oquendo de_Orbe de_Orellana
+		Orozco Ortega de_Ortega Pacheco de_Padilla Padilla de_Palafox Pantoja Pecha name_pardo de_Pazos de_la_Pedrosa
+		Perez Perez_Araciel Perez_Figuerola de_la_Pezuela pimentel_dynasty del_Pino Pinzon Pizarro
+		portocarrero_dynasty de_la_Puente Quevedo de_Quevedo Ramirez_Arellano Ramirez_Baquedano ramirez_haro_dynasty
+		Ramos de_Rajoy Ribas de_Ribas Ricaurte Rico de_Riega Riquelme Riva_Aguero Rojas de_Rojas Ronquillo Rodriguez
+		Rodriguez_Mendarozqueta Roergas de_Romarate Rosales Ruiz Ruiz_Apodaca Saavedra de_Salazar de_Samano
+		de_San_Martin Sandoval Santander Santos Sarmiento de_la_Serna de_Silva de_Sobremonte solis_dynasty de_Solis
+		de_Soto de_Sotomayor Suarez Suarez_Mendoza de_Sucre Tacon tellez_giron_dynasty de_Toledo Torres de_Torres
+		Torres_Portugal de_Torrezar de_Tovar Trejo name_tristan Trujillo Ugarte de_Unzueta de_Valdivia Vazquez
+		Vazquez_Coronado name_valentine de_Vega de_Velasco Velazquez Velez_Guevara Venegas name_ventura de_Vertiz
+		Villacampa de_Villacampa Vizcaino Ximenez_Cisneros Ximenez_Quesada Yanez Zapata de_Zapata de_Zarate de_Zela
+		Zuera de_Zuniga Zurbaran_SPA de_Zurbaran om_low_es_garcia om_low_es_sanchez om_low_es_gomez om_low_es_romero
+		albornoz_dynasty
+	}
+	patronym_suffix_son = "patronym_suffix_spanish_son"
+	patronym_suffix_daughter = "patronym_suffix_spanish_daughter"
+	location_prefix = "location_prefix_spanish"
+	ship_names = {
+		om7_ship_spanish_language_001 om7_ship_spanish_language_002 om7_ship_spanish_language_003
+		om7_ship_spanish_language_004 om7_ship_spanish_language_005 om7_ship_spanish_language_006
+		om7_ship_spanish_language_007 om7_ship_spanish_language_008 om7_ship_spanish_language_009
+		om7_ship_spanish_language_010 om7_ship_spanish_language_011 om7_ship_spanish_language_012
+		om7_ship_spanish_language_013 om7_ship_spanish_language_014 om7_ship_spanish_language_015
+		om7_ship_spanish_language_016 om7_ship_spanish_language_017 om7_ship_spanish_language_018
+		om7_ship_spanish_language_019 om7_ship_spanish_language_020 om7_ship_spanish_language_021
+		om7_ship_spanish_language_022 om7_ship_spanish_language_023 om7_ship_spanish_language_024
+		om7_ship_spanish_language_025 om7_ship_spanish_language_026 om7_ship_spanish_language_027
+		om7_ship_spanish_language_028 om7_ship_spanish_language_029 om7_ship_spanish_language_030
+		om7_ship_spanish_language_031 om7_ship_spanish_language_032 om7_ship_spanish_language_033
+		om7_ship_spanish_language_034 om7_ship_spanish_language_035 om7_ship_spanish_language_036
+		om7_ship_spanish_language_037 om7_ship_spanish_language_038 om7_ship_spanish_language_039
+		om7_ship_spanish_language_040 om7_ship_spanish_language_041 om7_ship_spanish_language_042
+		om7_ship_spanish_language_043 om7_ship_spanish_language_044 om7_ship_spanish_language_045
+		om7_ship_spanish_language_046 om7_ship_spanish_language_047 om7_ship_spanish_language_048
+		om7_ship_spanish_language_049 om7_ship_spanish_language_050 om7_ship_spanish_language_051
+		om7_ship_spanish_language_052 om7_ship_spanish_language_053 om7_ship_spanish_language_054
+		om7_ship_spanish_language_055 om7_ship_spanish_language_056 om7_ship_spanish_language_057
+		om7_ship_spanish_language_058 om7_ship_spanish_language_059 om7_ship_spanish_language_060
+		om7_ship_spanish_language_061 om7_ship_spanish_language_062 om7_ship_spanish_language_063
+		om7_ship_spanish_language_064 om7_ship_spanish_language_065 om7_ship_spanish_language_066
+		om7_ship_spanish_language_067 om7_ship_spanish_language_068 om7_ship_spanish_language_069
+		om7_ship_spanish_language_070 om7_ship_spanish_language_071 om7_ship_spanish_language_072
+		om7_ship_spanish_language_073 om7_ship_spanish_language_074 om7_ship_spanish_language_075
+		om7_ship_spanish_language_076 om7_ship_spanish_language_077 om7_ship_spanish_language_078
+		om7_ship_spanish_language_079 om7_ship_spanish_language_080 om7_ship_spanish_language_081
+		om7_ship_spanish_language_082 om7_ship_spanish_language_083 om7_ship_spanish_language_084
+		om7_ship_spanish_language_085 om7_ship_spanish_language_086 om7_ship_spanish_language_087
+		om7_ship_spanish_language_088 om7_ship_spanish_language_089 om7_ship_spanish_language_090
+		om7_ship_spanish_language_091 om7_ship_spanish_language_092 om7_ship_spanish_language_093
+		om7_ship_spanish_language_094 om7_ship_spanish_language_095 om7_ship_spanish_language_096
+		om7_ship_spanish_language_097 om7_ship_spanish_language_098 om7_ship_spanish_language_099
+		om7_ship_spanish_language_100 om7_ship_spanish_language_101 om7_ship_spanish_language_102
+		om7_ship_spanish_language_103 om7_ship_spanish_language_104 om7_ship_spanish_language_105
+		om7_ship_spanish_language_106 om7_ship_spanish_language_107 om7_ship_spanish_language_108
+		om7_ship_spanish_language_109 om7_ship_spanish_language_110 om7_ship_spanish_language_111
+		om7_ship_spanish_language_112 om7_ship_spanish_language_113 om7_ship_spanish_language_114
+		om7_ship_spanish_language_115 om7_ship_spanish_language_116 om7_ship_spanish_language_117
+	}
+	dialects = {
+		aragonese_dialect = {
+			male_names = {
+				name_alphonse name_alphonse.name_philip name_alvar name_anthony name_artaldus name_azzo
+				name_balthazar.name_charles name_bernardinus name_charles name_claude name_diego name_emmanuel
+				name_ferdinand name_ferrer name_francis name_francis.name_louis name_gabriel name_gabriel.name_vasco
+				name_george name_gonzalo name_henry Hernando name_hieronymus name_james name_joachim name_john
+				name_john.name_alphonse name_john.name_anthony name_john.name_bernardinus name_john.name_charles
+				name_john.name_christopher name_john.name_francis.name_christopher name_john.name_george
+				name_john.name_giles name_john.name_gonzalo name_john.name_louis name_john.name_michael
+				name_john.name_philip name_joseph name_joseph.name_ferdinand name_laurence name_leon name_leon.name_roderick
+				name_louis name_louis.name_raymond name_lucien name_lupus name_martin name_martin.name_artaldus
+				name_martin.name_baptiste name_michael name_paschal name_peter name_peter.name_anthony
+				name_peter.name_emmanuel name_philip name_ramiro name_raymond name_sancho name_vasco name_william
+				name_ximeno name_om_ar_chuan name_om_ar_remon name_om_ar_ferrando
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_diego
+				name_gonzalo
+				name_ramiro
+				name_sancho
+				name_alvar
+				name_alphonse
+				name_alphonse.name_philip
+				name_anthony
+				name_artaldus
+				name_azzo
+				name_balthazar.name_charles
+				name_bernardinus
+				name_charles
+				name_claude
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_charles
+				name_francis
+				name_john
+				name_joseph
+				name_michael
+				name_peter
+				name_philip
+				name_diego
+				Hernando
+				name_hieronymus
+				name_james
+				name_joachim
+				name_john.name_alphonse
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_ferdinand
+				name_francis
+				name_joseph
+				name_louis
+				name_philip
+				name_charles
+				name_emmanuel
+				name_leon.name_roderick
+				name_louis.name_raymond
+				name_lucien
+				name_lupus
+				name_martin
+				name_martin.name_artaldus
+				name_martin.name_baptiste
+			}
+			female_names = {
+				name_adriana name_agnes name_aldonza name_ambrosia name_amelia name_anna name_angela name_antonia
+				name_beatrix name_blanche name_brianna name_catherine name_catherine.name_michaela name_charlotte
+				name_charlotte.name_joachima name_constance name_damiana name_dianira name_eleanor name_elizabeth
+				name_claire.name_eugenie name_elizabeth.name_margaret name_elizabeth.name_mary name_eugenie name_esclarmonde
+				name_frances name_frances.name_louise name_gabrielle name_griselda name_guiomar name_helen name_hieronyma
+				name_hippolyte name_hope name_joanna name_joanna.name_mary name_josephine name_julianne name_julie
+				name_laurentia name_louise name_louise.name_ferdinanda name_madeleine name_margaret name_marianne
+				name_marine name_marquise name_martina name_mary name_mary.name_anna name_mary.name_hope name_petronilla
+				name_precious_f name_sancha name_stephanie name_sybil name_theresa name_theresa.name_matilda name_theuda
+				name_tiburge name_urraca name_yolande name_zenaida name_om_ar_violant name_om_ar_gracia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_aldonza
+				name_constance
+				name_sancha
+				name_urraca
+				name_agnes
+				name_beatrix
+				name_eleanor
+				name_elizabeth
+				name_adriana
+				name_ambrosia
+				name_amelia
+				name_anna
+				name_angela
+				name_antonia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_catherine
+				name_elizabeth
+				name_joanna
+				name_theresa
+				name_mary
+				name_elizabeth.name_margaret
+				name_elizabeth.name_mary
+				name_eugenie
+				name_esclarmonde
+				name_frances
+				name_frances.name_louise
+				name_gabrielle
+				name_griselda
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_theresa
+				name_frances
+				name_josephine
+				name_antonia
+				name_madeleine
+				name_margaret
+				name_marianne
+				name_marine
+				name_marquise
+				name_martina
+				name_mary
+				name_mary.name_anna
+				name_mary.name_hope
+				name_petronilla
+			}
+			dynasty_names = {
+				alagon_dynasty aragon_dynasty azlor_dynasty fernandez_heredia_dynasty fernandez_hijar_dynasty gurrea_dynasty
+				lanuza_dynasty luna_dynasty martinez_luna_dynasty ximenez_urrea_dynasty om_dyn_ar_urrea om_dyn_ar_abarca
+			}
+			lowborn = {
+				Abadia Abarca Abarca_Bolea Abiego Abizanda Ainsa de_Alagon Albalate Alcolea Alquezar Altemir Amich Anadon
+				name_andrew Anso de_Ara aragon_dynasty Aranda Aragones Artigas Ascaso Asun Azcon de_Azlor name_aznar
+				Ballarin Ballestar Banzo Barbarin Baros Barrera name_bertrand Berdun Berne Berroy Bescos Bescansa Bestue
+				Bielsa Blesa de_Bolea Borau Broto Burillo Burriel Calatayud de_Calatayud Calvo Canales Carrasquer Casbas
+				Castan Castejon de_Castejon Castellot de_Castro Cerdan Chacon_spa name_nicholas Corella Cortes Cuellar
+				Dieste Dolz Escanilla Escartin Escario de_Espes Falcon_spa fernandez_heredia_dynasty fernandez_hijar_dynasty
+				name_ferrer Gallego_ara Gascon Gallizo name_grace de_Gurrea Labordeta Lacasa Lacasta Laoma de_Lanuza Lanau
+				Latorre Lascorz Lasaosa Larrodera Larraga Lozano de_Luna Magallon Monton Munoz Navarro Orus Palacin Pardina
+				de_Peralta Peralta Pueyo Puertolas Royo Sese Torres Urrea name_valerius Vinuales Ximenez_Urrea Zaidin
+				Zaragoza om_low_ar_ferrandez om_low_ar_lopiz om_low_ar_sanz om_low_ar_ximenez
+			}
+			patronym_suffix_son = "patronym_suffix_aragonese_son"
+			patronym_suffix_daughter = "patronym_suffix_aragonese_son"
+			ship_names = {
+				om7_ship_aragonese_dialect_001 om7_ship_aragonese_dialect_002 om7_ship_aragonese_dialect_003
+				om7_ship_aragonese_dialect_004 om7_ship_aragonese_dialect_005 om7_ship_aragonese_dialect_006
+				om7_ship_aragonese_dialect_007 om7_ship_aragonese_dialect_008 om7_ship_aragonese_dialect_009
+				om7_ship_aragonese_dialect_010 om7_ship_aragonese_dialect_011 om7_ship_aragonese_dialect_012
+				om7_ship_aragonese_dialect_013 om7_ship_aragonese_dialect_014 om7_ship_aragonese_dialect_015
+				om7_ship_aragonese_dialect_016 om7_ship_aragonese_dialect_017 om7_ship_aragonese_dialect_018
+				om7_ship_aragonese_dialect_019 om7_ship_aragonese_dialect_020 om7_ship_aragonese_dialect_021
+				om7_ship_aragonese_dialect_022 om7_ship_aragonese_dialect_023 om7_ship_aragonese_dialect_024
+				om7_ship_aragonese_dialect_025 om7_ship_aragonese_dialect_026 om7_ship_aragonese_dialect_027
+				om7_ship_aragonese_dialect_028 om7_ship_aragonese_dialect_029 om7_ship_aragonese_dialect_030
+				om7_ship_aragonese_dialect_031 om7_ship_aragonese_dialect_032 om7_ship_aragonese_dialect_033
+				om7_ship_aragonese_dialect_034 om7_ship_aragonese_dialect_035 om7_ship_aragonese_dialect_036
+				om7_ship_aragonese_dialect_037 om7_ship_aragonese_dialect_038 om7_ship_aragonese_dialect_039
+				om7_ship_aragonese_dialect_040 om7_ship_aragonese_dialect_041 om7_ship_aragonese_dialect_042
+				om7_ship_aragonese_dialect_043 om7_ship_aragonese_dialect_044 om7_ship_aragonese_dialect_045
+				om7_ship_aragonese_dialect_046 om7_ship_aragonese_dialect_047 om7_ship_aragonese_dialect_048
+				om7_ship_aragonese_dialect_049 om7_ship_aragonese_dialect_050 om7_ship_aragonese_dialect_051
+				om7_ship_aragonese_dialect_052 om7_ship_aragonese_dialect_053 om7_ship_aragonese_dialect_054
+				om7_ship_aragonese_dialect_055 om7_ship_aragonese_dialect_056 om7_ship_aragonese_dialect_057
+				om7_ship_aragonese_dialect_058 om7_ship_aragonese_dialect_059 om7_ship_aragonese_dialect_060
+				om7_ship_aragonese_dialect_061 om7_ship_aragonese_dialect_062 om7_ship_aragonese_dialect_063
+				om7_ship_aragonese_dialect_064 om7_ship_aragonese_dialect_065
+			}
+		}
+		castilian_dialect = {
+			ship_names = {
+				om7_ship_castilian_dialect_001 om7_ship_castilian_dialect_002 om7_ship_castilian_dialect_003
+				om7_ship_castilian_dialect_004 om7_ship_castilian_dialect_005 om7_ship_castilian_dialect_006
+				om7_ship_castilian_dialect_007 om7_ship_castilian_dialect_008 om7_ship_castilian_dialect_009
+				om7_ship_castilian_dialect_010 om7_ship_castilian_dialect_011 om7_ship_castilian_dialect_012
+				om7_ship_castilian_dialect_013 om7_ship_castilian_dialect_014 om7_ship_castilian_dialect_015
+				om7_ship_castilian_dialect_016 om7_ship_castilian_dialect_017 om7_ship_castilian_dialect_018
+				om7_ship_castilian_dialect_019 om7_ship_castilian_dialect_020 om7_ship_castilian_dialect_021
+				om7_ship_castilian_dialect_022 om7_ship_castilian_dialect_023 om7_ship_castilian_dialect_024
+				om7_ship_castilian_dialect_025 om7_ship_castilian_dialect_026 om7_ship_castilian_dialect_027
+				om7_ship_castilian_dialect_028 om7_ship_castilian_dialect_029 om7_ship_castilian_dialect_030
+				om7_ship_castilian_dialect_031 om7_ship_castilian_dialect_032 om7_ship_castilian_dialect_033
+				om7_ship_castilian_dialect_034 om7_ship_castilian_dialect_035 om7_ship_castilian_dialect_036
+				om7_ship_castilian_dialect_037 om7_ship_castilian_dialect_038 om7_ship_castilian_dialect_039
+				om7_ship_castilian_dialect_040 om7_ship_castilian_dialect_041 om7_ship_castilian_dialect_042
+				om7_ship_castilian_dialect_043 om7_ship_castilian_dialect_044 om7_ship_castilian_dialect_045
+				om7_ship_castilian_dialect_046 om7_ship_castilian_dialect_047 om7_ship_castilian_dialect_048
+				om7_ship_castilian_dialect_049 om7_ship_castilian_dialect_050 om7_ship_castilian_dialect_051
+				om7_ship_castilian_dialect_052 om7_ship_castilian_dialect_053 om7_ship_castilian_dialect_054
+				om7_ship_castilian_dialect_055 om7_ship_castilian_dialect_056 om7_ship_castilian_dialect_057
+				om7_ship_castilian_dialect_058 om7_ship_castilian_dialect_059 om7_ship_castilian_dialect_060
+				om7_ship_castilian_dialect_061 om7_ship_castilian_dialect_062 om7_ship_castilian_dialect_063
+				om7_ship_castilian_dialect_064 om7_ship_castilian_dialect_065 om7_ship_castilian_dialect_066
+				om7_ship_castilian_dialect_067 om7_ship_castilian_dialect_068 om7_ship_castilian_dialect_069
+				om7_ship_castilian_dialect_070 om7_ship_castilian_dialect_071 om7_ship_castilian_dialect_072
+				om7_ship_castilian_dialect_073 om7_ship_castilian_dialect_074 om7_ship_castilian_dialect_075
+				om7_ship_castilian_dialect_076 om7_ship_castilian_dialect_077 om7_ship_castilian_dialect_078
+				om7_ship_castilian_dialect_079 om7_ship_castilian_dialect_080 om7_ship_castilian_dialect_081
+				om7_ship_castilian_dialect_082 om7_ship_castilian_dialect_083 om7_ship_castilian_dialect_084
+				om7_ship_castilian_dialect_085 om7_ship_castilian_dialect_086 om7_ship_castilian_dialect_087
+				om7_ship_castilian_dialect_088 om7_ship_castilian_dialect_089 om7_ship_castilian_dialect_090
+				om7_ship_castilian_dialect_091 om7_ship_castilian_dialect_092 om7_ship_castilian_dialect_093
+				om7_ship_castilian_dialect_094 om7_ship_castilian_dialect_095 om7_ship_castilian_dialect_096
+				om7_ship_castilian_dialect_097 om7_ship_castilian_dialect_098 om7_ship_castilian_dialect_099
+				om7_ship_castilian_dialect_100 om7_ship_castilian_dialect_101 om7_ship_castilian_dialect_102
+				om7_ship_castilian_dialect_103 om7_ship_castilian_dialect_104 om7_ship_castilian_dialect_105
+				om7_ship_castilian_dialect_106 om7_ship_castilian_dialect_107 om7_ship_castilian_dialect_108
+				om7_ship_castilian_dialect_109 om7_ship_castilian_dialect_110 om7_ship_castilian_dialect_111
+				om7_ship_castilian_dialect_112 om7_ship_castilian_dialect_113 om7_ship_castilian_dialect_114
+				om7_ship_castilian_dialect_115 om7_ship_castilian_dialect_116 om7_ship_castilian_dialect_117
+			}
+		}
+		ladino_dialect = {
+			male_names = {
+				om7_lad_avraham om7_lad_aharon om7_lad_moshe om7_lad_yaakov om7_lad_yosef om7_lad_yitshak om7_lad_shelomo
+				om7_lad_david om7_lad_daniyel om7_lad_refael om7_lad_gavriel om7_lad_menahem om7_lad_mordehay om7_lad_nisim
+				om7_lad_hayim om7_lad_yehuda om7_lad_reuven om7_lad_shimon om7_lad_eliezer om7_lad_ezra om7_lad_avram
+				om7_lad_aron om7_lad_mois om7_lad_yakov om7_lad_isak om7_lad_salomon om7_lad_samuel om7_lad_binyamin
+				om7_lad_leon om7_lad_bohor om7_lad_ventura om7_lad_vidal om7_lad_santo om7_lad_bueno om7_lad_senior
+				om7_lad_yom_tov om7_lad_baruh om7_lad_eliyahu om7_lad_alberto om7_lad_daniel om7_lad_emilio om7_lad_gabriel
+				om7_lad_jacobo om7_lad_jose om7_lad_moises om7_lad_rafael om7_lad_salvador
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_lad_avraham
+				om7_lad_aharon
+				om7_lad_moshe
+				om7_lad_yaakov
+				om7_lad_yosef
+				om7_lad_yitshak
+				om7_lad_shelomo
+				om7_lad_david
+				om7_lad_daniyel
+				om7_lad_refael
+				om7_lad_gavriel
+				om7_lad_menahem
+				om7_lad_mordehay
+				om7_lad_nisim
+				om7_lad_hayim
+				om7_lad_yehuda
+				om7_lad_reuven
+				om7_lad_shimon
+				om7_lad_eliezer
+				om7_lad_ezra
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_lad_avram
+				om7_lad_aron
+				om7_lad_mois
+				om7_lad_yakov
+				om7_lad_isak
+				om7_lad_salomon
+				om7_lad_samuel
+				om7_lad_binyamin
+				om7_lad_leon
+				om7_lad_bohor
+				om7_lad_ventura
+				om7_lad_vidal
+				om7_lad_santo
+				om7_lad_bueno
+				om7_lad_senior
+				om7_lad_yom_tov
+				om7_lad_baruh
+				om7_lad_eliyahu
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_lad_alberto
+				om7_lad_daniel
+				om7_lad_emilio
+				om7_lad_gabriel
+				om7_lad_jacobo
+				om7_lad_jose
+				om7_lad_moises
+				om7_lad_rafael
+				om7_lad_salvador
+			}
+			female_names = {
+				om7_lad_sara om7_lad_rivka om7_lad_rahel om7_lad_lea om7_lad_miryam om7_lad_yudit om7_lad_devora
+				om7_lad_hana om7_lad_avigayil om7_lad_ester om7_lad_reina om7_lad_luna om7_lad_sol om7_lad_oro
+				om7_lad_grasia om7_lad_mazaltov om7_lad_simha om7_lad_vida om7_lad_perla om7_lad_rosa om7_lad_alegra
+				om7_lad_estrea om7_lad_palomba om7_lad_bonafilia om7_lad_benvenida om7_lad_dolsa om7_lad_blanka om7_lad_dona
+				om7_lad_gentil om7_lad_fortuna om7_lad_raquel om7_lad_clara om7_lad_esperansa om7_lad_paloma om7_lad_esther
+				om7_lad_miriam om7_lad_rebecca om7_lad_judith om7_lad_debora
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_lad_sara
+				om7_lad_rivka
+				om7_lad_rahel
+				om7_lad_lea
+				om7_lad_miryam
+				om7_lad_yudit
+				om7_lad_devora
+				om7_lad_hana
+				om7_lad_avigayil
+				om7_lad_ester
+				om7_lad_reina
+				om7_lad_luna
+				om7_lad_sol
+				om7_lad_oro
+				om7_lad_grasia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_lad_mazaltov
+				om7_lad_simha
+				om7_lad_vida
+				om7_lad_perla
+				om7_lad_rosa
+				om7_lad_alegra
+				om7_lad_estrea
+				om7_lad_palomba
+				om7_lad_bonafilia
+				om7_lad_benvenida
+				om7_lad_dolsa
+				om7_lad_blanka
+				om7_lad_dona
+				om7_lad_gentil
+				om7_lad_fortuna
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_lad_raquel
+				om7_lad_clara
+				om7_lad_esperansa
+				om7_lad_paloma
+				om7_lad_esther
+				om7_lad_miriam
+				om7_lad_rebecca
+				om7_lad_judith
+				om7_lad_debora
+			}
+			dynasty_names = {
+				om7_dyn_ladino_abarbanel om7_dyn_ladino_abravanel om7_dyn_ladino_alhadeff om7_dyn_ladino_almosnino
+				om7_dyn_ladino_benatar om7_dyn_ladino_benveniste om7_dyn_ladino_cardoso om7_dyn_ladino_curiel
+				om7_dyn_ladino_elbaz om7_dyn_ladino_franco om7_dyn_ladino_gabay om7_dyn_ladino_halevi om7_dyn_ladino_hazan
+				om7_dyn_ladino_mercado om7_dyn_ladino_molho om7_dyn_ladino_nahmias om7_dyn_ladino_navarro
+				om7_dyn_ladino_pardo om7_dyn_ladino_pereira om7_dyn_ladino_pinto om7_dyn_ladino_salti om7_dyn_ladino_sarfati
+				om7_dyn_ladino_senior om7_dyn_ladino_toledano om7_dyn_ladino_uziel
+			}
+			lowborn = {
+				om7_dyn_ladino_abarbanel om7_dyn_ladino_abravanel om7_dyn_ladino_alhadeff om7_dyn_ladino_almosnino
+				om7_dyn_ladino_benatar om7_dyn_ladino_benveniste om7_dyn_ladino_cardoso om7_dyn_ladino_curiel
+				om7_dyn_ladino_elbaz om7_dyn_ladino_franco om7_dyn_ladino_gabay om7_dyn_ladino_halevi om7_dyn_ladino_hazan
+				om7_dyn_ladino_mercado om7_dyn_ladino_molho om7_dyn_ladino_nahmias om7_dyn_ladino_navarro
+				om7_dyn_ladino_pardo om7_dyn_ladino_pereira om7_dyn_ladino_pinto om7_dyn_ladino_salti om7_dyn_ladino_sarfati
+				om7_dyn_ladino_senior om7_dyn_ladino_toledano om7_dyn_ladino_uziel
+			}
+			ship_names = {
+				om7_ship_ladino_dialect_001 om7_ship_ladino_dialect_002 om7_ship_ladino_dialect_003
+				om7_ship_ladino_dialect_004 om7_ship_ladino_dialect_005 om7_ship_ladino_dialect_006
+				om7_ship_ladino_dialect_007 om7_ship_ladino_dialect_008 om7_ship_ladino_dialect_009
+				om7_ship_ladino_dialect_010 om7_ship_ladino_dialect_011 om7_ship_ladino_dialect_012
+				om7_ship_ladino_dialect_013 om7_ship_ladino_dialect_014 om7_ship_ladino_dialect_015
+				om7_ship_ladino_dialect_016 om7_ship_ladino_dialect_017 om7_ship_ladino_dialect_018
+				om7_ship_ladino_dialect_019 om7_ship_ladino_dialect_020 om7_ship_ladino_dialect_021
+				om7_ship_ladino_dialect_022 om7_ship_ladino_dialect_023 om7_ship_ladino_dialect_024
+				om7_ship_ladino_dialect_025 om7_ship_ladino_dialect_026 om7_ship_ladino_dialect_027
+				om7_ship_ladino_dialect_028 om7_ship_ladino_dialect_029 om7_ship_ladino_dialect_030
+				om7_ship_ladino_dialect_031 om7_ship_ladino_dialect_032 om7_ship_ladino_dialect_033
+				om7_ship_ladino_dialect_034 om7_ship_ladino_dialect_035 om7_ship_ladino_dialect_036
+				om7_ship_ladino_dialect_037 om7_ship_ladino_dialect_038 om7_ship_ladino_dialect_039
+				om7_ship_ladino_dialect_040 om7_ship_ladino_dialect_041 om7_ship_ladino_dialect_042
+				om7_ship_ladino_dialect_043 om7_ship_ladino_dialect_044 om7_ship_ladino_dialect_045
+				om7_ship_ladino_dialect_046 om7_ship_ladino_dialect_047
+			}
+		}
+		leonese_dialect = {
+			male_names = {
+				name_alphonse name_anthony name_aurelius name_balthazar.name_charles name_charles name_diego name_ferdinand
+				name_francis name_froila name_gabriel name_garcia name_george name_henry name_martin name_john name_joseph
+				name_joseph.name_ferdinand name_louis name_ordono name_pelagius name_peter name_philip name_ramiro
+				name_sancho name_om_le_bermudo name_om_le_froilan name_om_le_suero name_bernard
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_alphonse
+				name_aurelius
+				name_ferdinand
+				name_froila
+				name_garcia
+				name_ordono
+				name_pelagius
+				name_ramiro
+				name_sancho
+				name_om_le_bermudo
+				name_om_le_froilan
+				name_om_le_suero
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_alphonse
+				name_anthony
+				name_charles
+				name_diego
+				name_ferdinand
+				name_francis
+				name_garcia
+				name_george
+				name_henry
+				name_john
+				name_martin
+				name_peter
+				name_philip
+				name_sancho
+				name_bernard
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_anthony
+				name_balthazar.name_charles
+				name_charles
+				name_diego
+				name_francis
+				name_gabriel
+				name_george
+				name_henry
+				name_john
+				name_joseph
+				name_joseph.name_ferdinand
+				name_louis
+				name_martin
+				name_peter
+				name_philip
+			}
+			female_names = {
+				name_ambrosia name_amelia name_anna name_beatrix name_catherine name_catherine.name_michaela name_charlotte
+				name_charlotte.name_joachima name_constance name_eleanor name_elizabeth name_claire.name_eugenie
+				name_eugenie name_jennifer name_joanna name_josephine name_julie name_louise name_louise.name_ferdinanda
+				name_margaret name_marianne name_mary name_mary.name_anna name_theresa name_urraca name_zenaida
+				name_om_le_jimena name_om_le_aldonza name_eulalia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_ambrosia
+				name_urraca
+				name_om_le_jimena
+				name_om_le_aldonza
+				name_beatrix
+				name_eleanor
+				name_mary
+				name_theresa
+				name_eulalia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_elizabeth
+				name_joanna
+				name_mary
+				name_theresa
+				name_eulalia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_anna
+				name_catherine
+				name_elizabeth
+				name_joanna
+				name_josephine
+				name_marianne
+				name_mary
+				name_charlotte
+				name_eugenie
+				name_julie
+				name_louise
+				name_zenaida
+				name_eulalia
+			}
+			dynasty_names = {
+				acuna_dynasty om_dyn_le_quinones om_dyn_le_pimentel om_dyn_le_osorio om_dyn_le_manrique
+			}
+			lowborn = {
+				Abad de_Acuna Aguila Allende Aller Alvarez Amieva name_andrew name_angel Antunez Arguelles de_Arguelles
+				Arias de_Aviles Babia Banales Bellido Benavides Berciano name_bernard Bermudez Blanco de_Bonar Cabrera
+				Calderon Campillo del_Campo Campomanes Canga Cangas Candamo Cantero Carantona Carballo Carpintero Carreno
+				Carreno_Miranda Carrizo Casariego Castanon Castillo del_Castillo Castrillo Caveda Cea Cerezal Cienfuegos
+				Cifuentes de_Cifuentes de_la_Concha Corias Coto de_la_Cruz Curiel Curuchet Curueno Degana Deogracias Diez
+				Dominguez Fernandez Fernandez_Vega Ferrero Fierro Figaredo Florez Francos Froilan Gallo name_garcia Gonzalez
+				Grado Gutierrez de_Guzman Herrera Herrero Hevia de_Jovellanos Labrador Lavandera Llamas Llano Llanos Lobato
+				Lozano Luaces Luarca de_Luarca Manjon Mansilla Manzano Martinez name_mayor Mendez Menendez Mier Mieres
+				de_Mieres Miranda Molina Moreno Naredo de_Nava Navia de_Navia Navia_Osorio Omana osorio_dynasty Pajares
+				name_paschal Pastor name_pardo Perez Pinera Posada Prendes Quinones quiros_dynasty de_Quiros Regueral Riano
+				de_Riano Ribadedeva Rico del_Riego del_Rio Rionegro Riosa Rodriguez Rodriguez_Campomanes
+				Rodriguez_Villalobos Rozas Rubio Salas Salcedo San_Miguel Sanabria Sanchez de_los_Santos Santos Sena Serrano
+				Siero Somiedo Suarez Tablado Tineo Tormaleo Tormes Trelles Trevin Tunon Urdiales Valbuena Valdes Valderas
+				Valdeon Valdivieso Valverde del_Valle Vaqueiro Vazquez_Acuna Vega Verdu Velazquez Velazquez_Leon Villafane
+				Villalobos de_Villalobos Villalpando Villamil Villanueva de_Villanueva Villoria Zamora de_Zamora Zapatero
+				Zapico om_low_le_prieto
+			}
+			ship_names = {
+				om7_ship_leonese_dialect_001 om7_ship_leonese_dialect_002 om7_ship_leonese_dialect_003
+				om7_ship_leonese_dialect_004 om7_ship_leonese_dialect_005 om7_ship_leonese_dialect_006
+				om7_ship_leonese_dialect_007 om7_ship_leonese_dialect_008 om7_ship_leonese_dialect_009
+				om7_ship_leonese_dialect_010 om7_ship_leonese_dialect_011 om7_ship_leonese_dialect_012
+				om7_ship_leonese_dialect_013 om7_ship_leonese_dialect_014 om7_ship_leonese_dialect_015
+				om7_ship_leonese_dialect_016 om7_ship_leonese_dialect_017 om7_ship_leonese_dialect_018
+				om7_ship_leonese_dialect_019 om7_ship_leonese_dialect_020 om7_ship_leonese_dialect_021
+				om7_ship_leonese_dialect_022 om7_ship_leonese_dialect_023 om7_ship_leonese_dialect_024
+				om7_ship_leonese_dialect_025 om7_ship_leonese_dialect_026 om7_ship_leonese_dialect_027
+				om7_ship_leonese_dialect_028
+			}
+		}
+	}
+}
+
+portuguese_language = {
+	color = map_POR
+	family = romance_language_family
+	male_names = {
+		name_aeneas name_alexander name_alexis name_alphonse name_alvar name_ambrose name_anthony
+		name_balthazar.name_charles name_bernard name_charles name_dennis name_diego name_edward name_elpidius
+		name_emmanuel name_evangelos name_ferdinand name_francis name_garcia name_henry name_irenaeus name_james
+		name_joachim name_john name_joseph name_louis name_michael name_nicholas name_peter name_philip name_sancho
+		name_sebastian name_theodosius name_abraham name_andrew name_august name_augustine name_bartholomew
+		name_caesar name_cajetan name_casper name_christopher name_constantine name_cosmas name_damian name_daniel
+		name_dominic name_eusebius name_gabriel name_george name_giles name_gonzalo name_gregory name_hermenegild
+		name_hieronymus name_ignatius name_laurence name_lupus name_mark name_martin name_matthias name_nuno
+		name_peter.name_constantine name_raphael name_raymond name_rocco name_roderick name_simeon name_stephen
+		name_thomas name_valentine name_vasco name_vincent name_william
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_nuno
+		name_sancho
+		name_alphonse
+		name_gonzalo
+		name_vasco
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_victor
+		name_sebastian
+		name_joseph
+		name_om_pt_antonio
+		name_francis
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_john
+		name_diego
+		name_edward
+		name_emmanuel
+	}
+	female_names = {
+		name_amelia name_anna name_assumption name_barbara name_beatrix name_benedicta name_blanche name_catherine
+		name_clementine name_dorothy name_eleanor name_elizabeth name_emmanuelle name_eugenie name_frances
+		name_frances.name_josephine name_januaria name_jesus_female name_joanna name_margaret name_marianne
+		name_marianne.name_victoria name_mary name_mary.name_anna name_paula name_philippa name_theresa name_susan
+		name_agnes name_aldonza name_antonia name_berengaria name_charlotte name_christine name_claire name_clemence
+		name_constance name_dominica name_emily name_grace name_guiomar name_helen name_josephine name_julianne
+		name_louise name_lucrece name_madeleine name_michaela name_rosa name_sabine name_sancha name_thomassine
+		name_victoria name_yolande
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_constance
+		name_beatrix
+		name_eleanor
+		name_elizabeth
+		name_theresa
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_victoria
+		name_frances
+		name_josephine
+		name_antonia
+		name_madeleine
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_catherine
+		name_joanna
+		name_mary
+		name_philippa
+	}
+	dynasty_names = {
+		almeida_dynasty andrade_dynasty avis braganca_dynasty carvalho_dynasty coimbra crato eca_dynasty
+		da_gama_dynasty de_Lafoes lencastre_dynasty mascarenhas_dynasty de_melo_dynasty noronha_dynasty osorio_dynasty
+		Pacheco silva_dynasty teles_silva_dynasty vasconcelos_dynasty viseu om_dyn_pt_meneses om_dyn_pt_coutinho
+		om_dyn_pt_silveira
+	}
+	lowborn = {
+		Abreu_Covilha name_alphonse de_Almada almeida_dynasty de_Almeida Alvares Alvares_Cunha Alvares_Pereira Alvim
+		andrade_dynasty de_Andrade de_Anes Antunes Araujo de_Arruda de_Ataide De_avis de_Azevedo Baia Barreiro
+		Barreiros Barreto de_Barros de_Beja Bezerra Boitaca de_Borba Botelho de_Braga De_braganca Brito de_Brito
+		Cabral da_Camara de_Camoens Cao_POR Carneiro carvalho_dynasty de_Carvalho de_Castilho Cesar_Meneses Coelho
+		de_Coimbra Contreiras de_Contreiras Correia Corte_Real da_Costa Costa Couto da_Covilha de_Crato da_Cunha Dias
+		d_Eca Eanes de_Escobar Esteves_Veiga de_Faro Fernandes Fernandes_Vilagarcia Ferreira Figueiredo de_Flon
+		Furtado_Mendoca da_gama_dynasty name_giles Gil_Taboada Giraldes Goncalves de_Gois de_Gouveia Henriques
+		de_Lafoes de_Lagos Leal de_Lemos de_Lencastre de_Lima da_Limia Lobo Lopes Machado Machado_Castro de_Magalhaes
+		Manoel de_Mascarenhas de_Matos de_melo_dynasty Mendes de_Mendoca mendoca_rolim_moura_barreto Mexia Monteiro
+		de_Moscoso de_Moura_Rolim da_Nobrega Nogueira de_Noronha Nunes de_Oliveira Oliveira de_Orta del_Padron
+		pimentel_dynasty Pinheiro do_Po de_Quiroga Rangel de_Rajoy Ramalho Ramires de_Resende da_Ressurreicao
+		Rodrigues Rolim_Moura Rua Rubi da_Sa Salema Sampaio Sandoval de_Santa_Ines silva_dynasty da_Silva de_Silves
+		Soares Soares_Figueroa Sotomaior Sousa de_Sousa Sousa_Coutinho Sousa_Tavares Teles_Meneses teles_silva_dynasty
+		de_Teive Teixeira de_Torralva Torres do_Vale de_Vasconcelos Vaz da_Veiga da_Vide Vicente Vieira de_Viseu
+		de_Vuzi om_low_pt_santos om_low_pt_pereira om_low_pt_martins
+	}
+	patronym_suffix_son = "patronym_suffix_portuguese_son"
+	patronym_suffix_daughter = "patronym_suffix_portuguese_daughter"
+	location_prefix = "location_prefix_portuguese"
+	ship_names = {
+		om7_ship_portuguese_language_001 om7_ship_portuguese_language_002 om7_ship_portuguese_language_003
+		om7_ship_portuguese_language_004 om7_ship_portuguese_language_005 om7_ship_portuguese_language_006
+		om7_ship_portuguese_language_007 om7_ship_portuguese_language_008 om7_ship_portuguese_language_009
+		om7_ship_portuguese_language_010 om7_ship_portuguese_language_011 om7_ship_portuguese_language_012
+		om7_ship_portuguese_language_013 om7_ship_portuguese_language_014 om7_ship_portuguese_language_015
+		om7_ship_portuguese_language_016 om7_ship_portuguese_language_017 om7_ship_portuguese_language_018
+		om7_ship_portuguese_language_019 om7_ship_portuguese_language_020 om7_ship_portuguese_language_021
+		om7_ship_portuguese_language_022 om7_ship_portuguese_language_023 om7_ship_portuguese_language_024
+		om7_ship_portuguese_language_025 om7_ship_portuguese_language_026 om7_ship_portuguese_language_027
+		om7_ship_portuguese_language_028 om7_ship_portuguese_language_029 om7_ship_portuguese_language_030
+		om7_ship_portuguese_language_031 om7_ship_portuguese_language_032 om7_ship_portuguese_language_033
+		om7_ship_portuguese_language_034 om7_ship_portuguese_language_035 om7_ship_portuguese_language_036
+		om7_ship_portuguese_language_037 om7_ship_portuguese_language_038 om7_ship_portuguese_language_039
+		om7_ship_portuguese_language_040 om7_ship_portuguese_language_041 om7_ship_portuguese_language_042
+		om7_ship_portuguese_language_043 om7_ship_portuguese_language_044 om7_ship_portuguese_language_045
+		om7_ship_portuguese_language_046 om7_ship_portuguese_language_047 om7_ship_portuguese_language_048
+		om7_ship_portuguese_language_049 om7_ship_portuguese_language_050 om7_ship_portuguese_language_051
+		om7_ship_portuguese_language_052 om7_ship_portuguese_language_053 om7_ship_portuguese_language_054
+		om7_ship_portuguese_language_055 om7_ship_portuguese_language_056 om7_ship_portuguese_language_057
+		om7_ship_portuguese_language_058 om7_ship_portuguese_language_059 om7_ship_portuguese_language_060
+		om7_ship_portuguese_language_061 om7_ship_portuguese_language_062 om7_ship_portuguese_language_063
+		om7_ship_portuguese_language_064 om7_ship_portuguese_language_065 om7_ship_portuguese_language_066
+		om7_ship_portuguese_language_067 om7_ship_portuguese_language_068 om7_ship_portuguese_language_069
+		om7_ship_portuguese_language_070 om7_ship_portuguese_language_071 om7_ship_portuguese_language_072
+		om7_ship_portuguese_language_073 om7_ship_portuguese_language_074 om7_ship_portuguese_language_075
+		om7_ship_portuguese_language_076
+	}
+	dialects = {
+		galician_dialect = {
+			male_names = {
+				name_alphonse name_anthony name_aurelius name_balthazar.name_charles name_charles name_diego name_ferdinand
+				name_francis name_froila name_gabriel name_garcia name_henry name_john name_joseph
+				name_joseph.name_ferdinand name_louis name_ordono name_pelagius name_peter name_philip name_ramiro
+				name_sancho name_abraham name_augustine name_berengar name_bertrand name_christopher name_dominic name_felix
+				name_george name_gregory name_hermenegild name_james name_joachim name_laurence name_martin name_nicholas
+				name_raymond name_stephen name_thomas name_william
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_alphonse
+				name_berengar
+				name_bertrand
+				name_ferdinand
+				name_garcia
+				name_hermenegild
+				name_james
+				name_john
+				name_pelagius
+				name_raymond
+				name_william
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_abraham
+				name_augustine
+				name_christopher
+				name_dominic
+				name_felix
+				name_george
+				name_gregory
+				name_james
+				name_joachim
+				name_laurence
+				name_martin
+				name_nicholas
+				name_stephen
+				name_thomas
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_christopher
+				name_dominic
+				name_george
+				name_james
+				name_joachim
+				name_laurence
+				name_martin
+				name_nicholas
+				name_stephen
+				name_thomas
+				name_william
+			}
+			female_names = {
+				name_amelia name_ambrosia name_anna name_antonia name_beatrix name_catherine name_catherine.name_michaela
+				name_charlotte name_charlotte.name_joachima name_constance name_eleanor name_elizabeth
+				name_claire.name_eugenie name_eugenie name_joanna name_josephine name_julie name_louise
+				name_louise.name_ferdinanda name_marianne name_mary name_mary.name_anna name_theresa name_urraca
+				name_zenaida name_agatha name_agnes name_berengaria name_cecile name_clemence name_dominica name_dorothy
+				name_helen name_julianne name_rozalija name_stephanie name_susan name_yolande name_eulalia
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_agatha
+				name_agnes
+				name_berengaria
+				name_clemence
+				name_eulalia
+				name_mary
+				name_theresa
+				name_yolande
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_agatha
+				name_agnes
+				name_berengaria
+				name_cecile
+				name_clemence
+				name_dominica
+				name_dorothy
+				name_helen
+				name_julianne
+				name_rozalija
+				name_stephanie
+				name_susan
+				name_yolande
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_cecile
+				name_dorothy
+				name_helen
+				name_julianne
+				name_rozalija
+				name_stephanie
+				name_susan
+				name_yolande
+				name_elizabeth
+				name_mary
+			}
+			dynasty_names = {}
+			lowborn = {
+				andrade_dynasty de_Andrade Arias Bermudez castro_dynasty de_Castro Figueroa de_Figueroa Fonseca de_Fonseca
+				Lemos Marino Moscoso de_Moscoso Mosquera Mondragon Montenegro Ozores name_pardo Quiroga de_Quiroga de_Rajoy
+				Saavedra Sarmiento Sotomaior Taboada Traba Ulloa Verdugo Villamarin
+			}
+			ship_names = {
+				om7_ship_galician_dialect_001 om7_ship_galician_dialect_002 om7_ship_galician_dialect_003
+				om7_ship_galician_dialect_004 om7_ship_galician_dialect_005 om7_ship_galician_dialect_006
+				om7_ship_galician_dialect_007 om7_ship_galician_dialect_008 om7_ship_galician_dialect_009
+				om7_ship_galician_dialect_010 om7_ship_galician_dialect_011 om7_ship_galician_dialect_012
+				om7_ship_galician_dialect_013 om7_ship_galician_dialect_014 om7_ship_galician_dialect_015
+				om7_ship_galician_dialect_016 om7_ship_galician_dialect_017 om7_ship_galician_dialect_018
+				om7_ship_galician_dialect_019 om7_ship_galician_dialect_020 om7_ship_galician_dialect_021
+				om7_ship_galician_dialect_022 om7_ship_galician_dialect_023 om7_ship_galician_dialect_024
+				om7_ship_galician_dialect_025 om7_ship_galician_dialect_026 om7_ship_galician_dialect_027
+				om7_ship_galician_dialect_028 om7_ship_galician_dialect_029 om7_ship_galician_dialect_030
+				om7_ship_galician_dialect_031 om7_ship_galician_dialect_032 om7_ship_galician_dialect_033
+				om7_ship_galician_dialect_034 om7_ship_galician_dialect_035 om7_ship_galician_dialect_036
+				om7_ship_galician_dialect_037 om7_ship_galician_dialect_038 om7_ship_galician_dialect_039
+				om7_ship_galician_dialect_040 om7_ship_galician_dialect_041
+			}
+		}
+		portuguese_dialect = {
+			default = yes
+		}
+	}
+}
+
+basque_language = {
+	color = map_NAV
+	male_names = {
+		name_alphonse name_andrew name_anthony name_balthazar.name_charles name_charles name_diego name_ferdinand
+		name_francis name_fortunius name_gabriel name_garcia name_gaston name_henry name_inigo name_james name_john
+		name_joseph name_louis name_martin name_nicholas name_peter name_philip name_sancho name_theobald name_aimar
+		name_aitor name_arnold name_alvar name_aznar name_balthazar name_bertrand name_bianco name_blaise name_caesar
+		name_casper name_cosmas name_cyprian name_damian name_dominic name_emmanuel name_eugene name_falcon name_felix
+		name_george name_gonzalo name_ignatius name_isidore name_januarius name_julian name_latron name_legionary
+		name_lionel name_lucius name_lucien name_lupus name_marianus name_maurus name_melchior name_michael name_nuno
+		name_ogier name_ramiro name_raymond name_roderick name_sebastian name_stephen name_vigila name_william
+		name_xavier name_ximeno
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 145
+		}
+		name_garcia
+		name_sancho
+		name_inigo
+		name_om_eu_gartzia
+		name_om_eu_ochoa
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_andrew
+		name_john
+		name_michael
+		name_peter
+		name_thomas
+		name_lupus
+		name_om_eu_martin
+		name_om_eu_miguel
+		name_om_eu_juan
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_alexander
+		name_francis
+		name_joseph
+		name_louis
+		name_om_eu_domingo
+		name_om_eu_francisco
+		name_om_eu_jose
+		name_om_eu_pedro
+	}
+	female_names = {
+		name_agnes name_ambrosia name_amelia name_anna name_antonia name_beatrix name_blanche name_bonne
+		name_catherine name_catherine.name_michaela name_charlotte name_charlotte.name_joachima name_christine
+		name_eleanor name_elizabeth name_claire.name_eugenie name_eugenie name_henrietta name_julie name_joanna
+		name_josephine name_louise name_louise.name_ferdinanda name_madeleine name_margaret name_marianne name_mary
+		name_mary.name_anna name_quiteria name_theresa name_zenaida name_aldonza name_amuna name_andregoto name_aurea
+		name_bernadette name_brianna name_cajetana name_carmen name_clemence name_constance name_dominica name_elvira
+		name_emily name_frances name_grace name_guiomar name_hieronyma name_latrona name_laurentia name_leyre
+		name_lupa name_marine name_marquise name_melchiora name_munia name_sancha name_theuda name_thomassine
+		name_ximena
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_anna
+		name_catherine
+		name_mary
+		name_om_eu_gracia
+		name_om_eu_catalina
+		name_om_eu_juana
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_elizabeth
+		name_victoria
+		name_sophia
+		name_josephine
+		name_margaret
+		name_theresa
+		name_antonia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_eu_toda
+		name_om_eu_oneka
+		name_om_eu_urraka
+		name_mary
+	}
+	dynasty_names = {
+		Agramont ayala_dynasty Aibar Almorabides Arroniz Azagra Barillas Baztan beaumont_dynasty Cascante
+		lacarra_dynasty gamboa_dynasty Guebara lehet Lodosa loiola_dynasty Mauleon medrano Montagudo navarra_dynasty
+		Oriz Oteiza peralta_dynasty Pierola Rada_NAV arellano_dynasty Subiza Urroz Vela guevara_dynasty Vidaurre
+		zuniga_dynasty om_dyn_eu_onaz om_dyn_eu_loyola om_dyn_eu_haro
+	}
+	lowborn = {
+		Abascal Abasolo Abendano Agirre Aiarakoa Angulo Armendaritz Arredondo Azantza Azpilikueta name_aznar Balda
+		Beaumontekoa Butroe Diez_Aux Elgeta Elio Elkano Enparan Eslaba Etxebarria Ezpeleta gamboa_dynasty Garibai
+		Girior Goienetxe Ibarra Iriarte Iturrigarai Jatsu Jauregui Larranaga Larrea Lazkanokoa Legazpi Legizamon Lezo
+		Loiolakoa Lopez_Aiarakoa Martinez_Rekalde Mendinueta Nafarroako Okendo Olaneta Onate Oinaz Orbe Otxoa
+		peralta_dynasty arellano_dynasty Ramirez_Baquedano Rodriguez_Mendarozketa Romarate Salazar Sendoa Txurruka
+		Ugarte Unzueta Vela guevara_dynasty Vizcaino Xabierkoa de_Zarate Zurbaran om_low_eu_etxeberria
+		om_low_eu_aguirre om_low_eu_arana om_low_eu_goikoetxea om_low_eu_mendieta
+	}
+	ship_names = {
+		om7_ship_basque_language_001 om7_ship_basque_language_002 om7_ship_basque_language_003
+		om7_ship_basque_language_004 om7_ship_basque_language_005 om7_ship_basque_language_006
+		om7_ship_basque_language_007 om7_ship_basque_language_008 om7_ship_basque_language_009
+		om7_ship_basque_language_010 om7_ship_basque_language_011 om7_ship_basque_language_012
+		om7_ship_basque_language_013 om7_ship_basque_language_014 om7_ship_basque_language_015
+		om7_ship_basque_language_016 om7_ship_basque_language_017 om7_ship_basque_language_018
+		om7_ship_basque_language_019 om7_ship_basque_language_020 om7_ship_basque_language_021
+		om7_ship_basque_language_022 om7_ship_basque_language_023 om7_ship_basque_language_024
+		om7_ship_basque_language_025 om7_ship_basque_language_026 om7_ship_basque_language_027
+		om7_ship_basque_language_028 om7_ship_basque_language_029 om7_ship_basque_language_030
+		om7_ship_basque_language_031 om7_ship_basque_language_032 om7_ship_basque_language_033
+		om7_ship_basque_language_034 om7_ship_basque_language_035 om7_ship_basque_language_036
+		om7_ship_basque_language_037 om7_ship_basque_language_038 om7_ship_basque_language_039
+		om7_ship_basque_language_040 om7_ship_basque_language_041 om7_ship_basque_language_042
+		om7_ship_basque_language_043 om7_ship_basque_language_044 om7_ship_basque_language_045
+		om7_ship_basque_language_046 om7_ship_basque_language_047 om7_ship_basque_language_048
+		om7_ship_basque_language_049 om7_ship_basque_language_050 om7_ship_basque_language_051
+		om7_ship_basque_language_052 om7_ship_basque_language_053 om7_ship_basque_language_054
+		om7_ship_basque_language_055 om7_ship_basque_language_056 om7_ship_basque_language_057
+		om7_ship_basque_language_058 om7_ship_basque_language_059 om7_ship_basque_language_060
+		om7_ship_basque_language_061 om7_ship_basque_language_062 om7_ship_basque_language_063
+		om7_ship_basque_language_064 om7_ship_basque_language_065 om7_ship_basque_language_066
+		om7_ship_basque_language_067 om7_ship_basque_language_068 om7_ship_basque_language_069
+		om7_ship_basque_language_070 om7_ship_basque_language_071 om7_ship_basque_language_072
+		om7_ship_basque_language_073 om7_ship_basque_language_074 om7_ship_basque_language_075
+		om7_ship_basque_language_076 om7_ship_basque_language_077 om7_ship_basque_language_078
+		om7_ship_basque_language_079 om7_ship_basque_language_080 om7_ship_basque_language_081
+	}
+}

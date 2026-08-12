@@ -1,0 +1,319 @@
+﻿aramaic_language = {
+	color = color_language_aramaic
+	family = semitic_language_family
+	male_names = {
+		Abba name_abraham Addai Ahudemmeh Aprahat Aphrem Babai Bardaisan Bartalan Behnam Butrus name_cosmas Eliya
+		Giwargi Griguriyus Habib Henoch Ishodad Ismail Iwannis Mara Marqos Mikho Mushe Narsai Nimatallah name_noah
+		Quriaqos Shemun Talmai Thaddai name_james Yawsep Yeshu Yulyanos name_aram Betheil Daweska Dawis Diklat Febo
+		Gewargis Malko Nona Rameel Ukba Yohanan Yohannan Yonan Yosip
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_arc_abgar
+		Bardaisan
+		name_om_arc_ephrem
+		name_om_arc_isho
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		Yohannan
+		name_om_arc_shlemon
+		name_om_arc_sargis
+		name_om_arc_gabriel
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_arc_yousef
+		name_om_arc_mikha_el
+		name_om_arc_maron
+		name_om_arc_tuma
+	}
+	female_names = {
+		Asilah Bruria Idra name_martha Renda Tabitha Talitha Thada Amirta Amirto Ator Ayana Batishwa Betheil Bredil
+		Brula Diklat Il_shvai Imama Kasrin Khawa Nohara Nona Shalita Shamiram
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_arc_mariam
+		name_martha
+		Shamiram
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_arc_shirin
+		name_om_arc_susan
+		name_om_arc_nura
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_arc_wardeh
+		name_om_arc_rihana
+		name_om_arc_hanna
+	}
+	dynasty_names = {
+		Bar_Abdoun Bar_Ebraya Bar_Gharib Bar_Kepha Bar_Khamoro Bar_Madani Bar_Mawdyono Bar_Qarya Bar_Qatra Bar_Sabuni
+		Bar_Salibi Bar_Shinaya Bar_Shushan Bar_Wahbun Bar_Wahib om_dyn_arc_abgarid om_dyn_arc_beth_garmai
+		om_dyn_arc_maron om_dyn_arc_bar_shabo
+	}
+	lowborn = {
+		Bar_Abdoun Bar_Ebraya Bar_Gharib Bar_Kepha Bar_Khamoro Bar_Madani Bar_Mawdyono Bar_Qarya Bar_Qatra Bar_Sabuni
+		Bar_Salibi Bar_Shinaya Bar_Shushan Bar_Wahbun Bar_Wahib om_low_arc_bar_yuhanna om_low_arc_bar_sargis
+		om_low_arc_bar_isho om_low_arc_bar_tuma
+	}
+	ship_names = {
+		om7_ship_aramaic_language_001 om7_ship_aramaic_language_002 om7_ship_aramaic_language_003
+		om7_ship_aramaic_language_004 om7_ship_aramaic_language_005 om7_ship_aramaic_language_006
+		om7_ship_aramaic_language_007 om7_ship_aramaic_language_008 om7_ship_aramaic_language_009
+		om7_ship_aramaic_language_010 om7_ship_aramaic_language_011 om7_ship_aramaic_language_012
+		om7_ship_aramaic_language_013 om7_ship_aramaic_language_014 om7_ship_aramaic_language_015
+		om7_ship_aramaic_language_016 om7_ship_aramaic_language_017 om7_ship_aramaic_language_018
+		om7_ship_aramaic_language_019 om7_ship_aramaic_language_020 om7_ship_aramaic_language_021
+		om7_ship_aramaic_language_022 om7_ship_aramaic_language_023 om7_ship_aramaic_language_024
+		om7_ship_aramaic_language_025 om7_ship_aramaic_language_026 om7_ship_aramaic_language_027
+		om7_ship_aramaic_language_028 om7_ship_aramaic_language_029 om7_ship_aramaic_language_030
+		om7_ship_aramaic_language_031 om7_ship_aramaic_language_032 om7_ship_aramaic_language_033
+		om7_ship_aramaic_language_034 om7_ship_aramaic_language_035 om7_ship_aramaic_language_036
+		om7_ship_aramaic_language_037 om7_ship_aramaic_language_038 om7_ship_aramaic_language_039
+		om7_ship_aramaic_language_040 om7_ship_aramaic_language_041 om7_ship_aramaic_language_042
+		om7_ship_aramaic_language_043 om7_ship_aramaic_language_044 om7_ship_aramaic_language_045
+		om7_ship_aramaic_language_046 om7_ship_aramaic_language_047 om7_ship_aramaic_language_048
+		om7_ship_aramaic_language_049 om7_ship_aramaic_language_050 om7_ship_aramaic_language_051
+		om7_ship_aramaic_language_052 om7_ship_aramaic_language_053 om7_ship_aramaic_language_054
+		om7_ship_aramaic_language_055 om7_ship_aramaic_language_056 om7_ship_aramaic_language_057
+		om7_ship_aramaic_language_058 om7_ship_aramaic_language_059 om7_ship_aramaic_language_060
+	}
+}
+
+hebrew_language = {
+	color = map_ISR
+	family = semitic_language_family
+	male_names = {
+		Abiatar Ahijah Akabon Alon Amit Amram Ananelus Ananias Aretas Aristobulus Azrikam Barak name_baruch Belshazar
+		Costobarus Deror Dori Eiran Eleazar Erotimus Ezra Hadasa Herod Hillel Hyrkanus Jannaeus Joazar Yosef Josiada
+		Kahana Hodaviah Honio Meir Nahum Nathan Nehemiah Nikanor Nir Obadiah Ofer Omri Pinchas Phannias Phasael Raanan
+		Malichus Manasseh Nogah Shamgar Shammai Shaul Shemaiah Shemida Silas name_simeon Sosa Talmon Tarfon Tovia Yair
+		Yochanan Zadok
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_abraham
+		name_isaac
+		name_joseph
+		name_moses
+		name_samuel
+		name_salomon
+		name_david
+		name_aaron
+		name_joshua
+		name_om_heb_moshe
+		name_om_heb_avraham
+		name_om_heb_yitzhak
+		name_om_heb_yaakov
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_elias
+		name_jeremiah
+		name_michael
+		name_raphael
+		name_simeon
+		name_zechariah
+		Nathan
+		name_david
+		name_om_heb_shlomo
+		Yosef
+		name_aaron
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_abraham
+		name_david
+		name_moses
+		name_samuel
+		name_joseph
+		name_isaac
+		name_aaron
+		name_om_heb_menachem
+		name_om_heb_mordechai
+		name_om_heb_haim
+		name_om_heb_natan
+	}
+	female_names = {
+		Adena name_adi Adva Ahuva name_alexandra Aliza Alte Arieh Asher Basia Boaz Chanah Cypros Danya Dara Dina Doris
+		Dov Dvora Elisheva name_ester Galia Galit Leah Liat Liora Machla Mariamne Marni Maya Meital Menahem Milka
+		Naamah Nahal Nava Nissa Orah Orit Osher name_rachel Raisa Rivka Salampsio name_sara Shayna name_tamara Tirtza
+		Yael Yocheved
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_sara
+		name_rebecca
+		name_rachel
+		Leah
+		name_miriam
+		name_esther
+		name_judith
+		name_hannah
+		Rivka
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_abigail
+		name_anna
+		name_elizabeth
+		name_martha
+		name_mary
+		name_salome
+		name_miriam
+		name_esther
+		name_hannah
+		name_judith
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_malka
+		name_om_heb_golda
+		name_om_heb_chaya
+		name_om_heb_bilha
+	}
+	dynasty_names = {
+		Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid
+		Nahumid Nirid Nogahid Oferid Omrid Pinchasid Raananid Shemidid Yairid om_dyn_heb_abravanel
+		om_dyn_heb_benveniste om_dyn_heb_luria om_dyn_heb_aboab om_dyn_heb_toledano om_dyn_heb_sassoon
+	}
+	lowborn = {
+		Cohen Levi Shulman Sofer name_aaron name_abraham Abrahams name_adam Adams name_amos Chaikin name_david Ezra
+		Harel Hayes Heiman Hirsch name_jordan Katz Levine Meyer Mendel Mendelsohn name_moses Nathans name_salomon
+		name_samuel Segal Shafir Shapiro Sherman name_simeon name_tobias om_low_heb_mizrahi om_low_heb_ashkenazi
+		om_low_heb_dayan om_low_heb_hazan
+	}
+	patronym_prefix_son = "patronym_prefix_hebrew_son"
+	patronym_prefix_daughter = "patronym_prefix_hebrew_daughter"
+	ship_names = {
+		om7_ship_hebrew_language_001 om7_ship_hebrew_language_002 om7_ship_hebrew_language_003
+		om7_ship_hebrew_language_004 om7_ship_hebrew_language_005 om7_ship_hebrew_language_006
+		om7_ship_hebrew_language_007 om7_ship_hebrew_language_008 om7_ship_hebrew_language_009
+		om7_ship_hebrew_language_010 om7_ship_hebrew_language_011 om7_ship_hebrew_language_012
+		om7_ship_hebrew_language_013 om7_ship_hebrew_language_014 om7_ship_hebrew_language_015
+		om7_ship_hebrew_language_016 om7_ship_hebrew_language_017 om7_ship_hebrew_language_018
+		om7_ship_hebrew_language_019 om7_ship_hebrew_language_020 om7_ship_hebrew_language_021
+		om7_ship_hebrew_language_022 om7_ship_hebrew_language_023 om7_ship_hebrew_language_024
+		om7_ship_hebrew_language_025 om7_ship_hebrew_language_026 om7_ship_hebrew_language_027
+		om7_ship_hebrew_language_028 om7_ship_hebrew_language_029 om7_ship_hebrew_language_030
+		om7_ship_hebrew_language_031 om7_ship_hebrew_language_032 om7_ship_hebrew_language_033
+		om7_ship_hebrew_language_034 om7_ship_hebrew_language_035 om7_ship_hebrew_language_036
+		om7_ship_hebrew_language_037 om7_ship_hebrew_language_038 om7_ship_hebrew_language_039
+		om7_ship_hebrew_language_040 om7_ship_hebrew_language_041 om7_ship_hebrew_language_042
+		om7_ship_hebrew_language_043 om7_ship_hebrew_language_044 om7_ship_hebrew_language_045
+		om7_ship_hebrew_language_046 om7_ship_hebrew_language_047 om7_ship_hebrew_language_048
+		om7_ship_hebrew_language_049 om7_ship_hebrew_language_050 om7_ship_hebrew_language_051
+		om7_ship_hebrew_language_052 om7_ship_hebrew_language_053 om7_ship_hebrew_language_054
+		om7_ship_hebrew_language_055 om7_ship_hebrew_language_056 om7_ship_hebrew_language_057
+		om7_ship_hebrew_language_058 om7_ship_hebrew_language_059 om7_ship_hebrew_language_060
+		om7_ship_hebrew_language_061 om7_ship_hebrew_language_062 om7_ship_hebrew_language_063
+		om7_ship_hebrew_language_064 om7_ship_hebrew_language_065 om7_ship_hebrew_language_066
+		om7_ship_hebrew_language_067 om7_ship_hebrew_language_068 om7_ship_hebrew_language_069
+		om7_ship_hebrew_language_070 om7_ship_hebrew_language_071 om7_ship_hebrew_language_072
+		om7_ship_hebrew_language_073 om7_ship_hebrew_language_074 om7_ship_hebrew_language_075
+		om7_ship_hebrew_language_076 om7_ship_hebrew_language_077 om7_ship_hebrew_language_078
+		om7_ship_hebrew_language_079 om7_ship_hebrew_language_080 om7_ship_hebrew_language_081
+		om7_ship_hebrew_language_082 om7_ship_hebrew_language_083 om7_ship_hebrew_language_084
+		om7_ship_hebrew_language_085
+	}
+}

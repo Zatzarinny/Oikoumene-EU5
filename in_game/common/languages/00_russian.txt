@@ -1,0 +1,866 @@
+﻿east_slavic_language = {
+	family = slavic_language_family
+	color = map_RUS
+	male_names = {
+		name_alexander name_alexis name_anatoly name_andrew name_arkady name_athanasius name_basil name_boris
+		name_borislav name_bratislav name_bronislav name_briachislav name_constantine name_cosmas name_cyril
+		name_daniel name_david name_demetrius name_diomedes name_dobrynya name_dorotheos name_elias name_eliseus
+		name_emilian name_eugene name_eustathius name_euthymius name_gabriel name_george name_gleb name_gregory
+		name_igor name_innocent name_iziaslav name_james name_jeremiah name_joachim name_john name_joseph name_karp
+		name_laurence name_leon name_macarius name_matthew name_maximus name_metrophanes name_michael name_mstislav
+		name_nazar name_nicetas name_nicodemus name_nikephoros name_oleg name_onesim name_ontsifor name_paul
+		name_peter name_prokop name_prokhor name_putyata name_radomir name_radoslav name_reginald name_roderick
+		name_roman name_rostislav name_ruslan name_sabellus name_sergius name_simeon name_stanislav name_stephen
+		name_sudislav name_svetozar name_sviatopolk name_svyatoslav name_terentius name_theodore name_theodosius
+		name_theophylact name_tryphon name_valerian name_vissarion name_vladislav name_voislav name_volodar
+		name_vseslav name_vsevolod name_vyshata name_vysheslav name_waldemar name_wenceslas name_yaropolk
+		name_yaroslav name_abraham name_anthony name_barnabas name_benedict name_bogdan name_boniface name_conon
+		name_dositheos name_epifanio name_gennadius name_gerasimos name_gideon name_heraclius name_herman
+		name_yermolai name_hilarius name_hyacinth name_hieronymus name_ignatius name_irenaeus name_isaac name_julian
+		name_justin name_justinian name_lazarus name_leontios name_lucas name_mark name_martin name_matthias
+		name_maurice name_miron name_moses name_nicholas name_panteleimon name_paschal name_paulinus name_philemon
+		name_philip name_salomon name_samuel name_samson name_silvester name_theophilos name_thomas name_timothy
+		name_tycho name_victor name_vital name_zechariah name_habakkuk name_nikon name_plato name_sabbas name_denys
+		name_valerius name_rodislav
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 180
+		}
+		name_boris
+		name_gleb
+		name_igor
+		name_iziaslav
+		name_mstislav
+		name_oleg
+		name_reginald
+		name_roderick
+		name_sviatopolk
+		name_svyatoslav
+		name_volodar
+		name_vseslav
+		name_vsevolod
+		name_waldemar
+		name_yaropolk
+		name_yaroslav
+		name_dobrynya
+		name_putyata
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 145
+		}
+		name_john
+		name_basil
+		name_demetrius
+		name_theodore
+		name_stephen
+		name_michael
+		name_nicholas
+		name_peter
+		name_paul
+		name_george
+		name_andrew
+		name_daniel
+		name_constantine
+		name_alexis
+		name_gregory
+		name_sergius
+		name_cyril
+		name_matthew
+		name_roman
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 170
+		}
+		name_alexander
+		name_peter
+		name_paul
+		name_nicholas
+		name_constantine
+		name_michael
+		name_alexis
+		name_anthony
+		name_eugene
+		name_anatoly
+		name_arkady
+		name_plato
+		name_victor
+		name_valerian
+		name_vital
+		name_leon
+		name_joseph
+		name_sergius
+		name_om_ru_sergei
+	}
+	female_names = {
+		name_agatha name_agrippina name_alexandra name_anastasia name_anna name_barbara name_boleslava name_catherine
+		name_daria name_dobrava name_dobroniega name_dobroslava name_euphemia name_euphrosyne name_elizabeth
+		name_euphrasia name_febronia name_gremislava name_helen name_irene name_julie name_julianne name_lyubov
+		name_ludmila name_marine name_martha name_mary name_olga name_premyslava name_ragnhild name_sophia
+		name_stanislava name_svetlana name_svyatoslava name_snezhana name_tatiana name_theodora name_theodosia
+		name_vasilisa name_vaclava name_yaroslava name_xenia name_zlata Gorislava Gradislava Malusha Prebrana
+		Predslava Zabava Zvenislava name_alice name_eudokia name_eve name_kyra name_natalia name_paraskevi name_salome
+		name_claudia name_eugenie name_galina name_lydia name_victoria name_antonina name_nina
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 155
+		}
+		name_anna
+		name_mary
+		name_olga
+		name_ragnhild
+		name_euphrosyne
+		name_dobrava
+		name_dobroniega
+		name_dobroslava
+		name_premyslava
+		name_yaroslava
+		Malusha
+		Predslava
+		Zabava
+		Zvenislava
+		name_eudokia
+		name_theodosia
+		name_paraskevi
+		name_vasilisa
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_anastasia
+		name_eudokia
+		name_euphemia
+		name_euphrosyne
+		name_helen
+		name_irene
+		name_martha
+		name_mary
+		name_paraskevi
+		name_sophia
+		name_theodora
+		name_theodosia
+		name_xenia
+		name_vasilisa
+		name_daria
+		name_natalia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 165
+		}
+		name_alexandra
+		name_catherine
+		name_elizabeth
+		name_natalia
+		name_daria
+		name_galina
+		name_lydia
+		name_victoria
+		name_antonina
+		name_nina
+		name_tatiana
+		name_lyubov
+		name_svetlana
+		name_sophia
+	}
+	dynasty_names = {
+		Rurikovich Shuisky Romanov Sheremetev Golitsyn Naryshkin Khilkov Gorchakov Belosselsky Chelyadnin Potyomkin
+		Poloch Izbor Tversky Lukisky Pleskov Toropetsky Dukhovsky Tyvertsky Buzhansky Slutsky Pinsky Zhytomyrsky
+		Vynnytsky Polan Ulich Drevl Lyubech Roslavsky Turov Boretsky Dolgorukov Gagarin Galitzine Massalski Shuysky
+		Gantimurov Sibirsky Demidov Lopukhin Tolstoy "Lobanov-Rostovsky" Menshikov Obolensky ru_dyn_belsky
+		ru_dyn_baryatinsky ru_dyn_vorotynsky ru_dyn_odoevsky ru_dyn_volkonsky ru_dyn_trubetskoy ru_dyn_kurakin
+		ru_dyn_repnin ru_dyn_prozorovsky ru_dyn_vyazemsky ru_dyn_vorontsov ru_dyn_buturlin ru_dyn_apraksin
+		ru_dyn_morozov ru_dyn_miloslavsky ru_dyn_matveev ru_dyn_rumyantsev ru_dyn_orlov ru_dyn_razumovsky
+		ru_dyn_yusupov ru_dyn_bestuzhev ru_dyn_panin ru_dyn_suvorov ru_dyn_kutuzov ru_dyn_barclay_de_tolly
+		ru_dyn_bagration ru_dyn_bennigsen ru_dyn_raevsky ru_dyn_davydov ru_dyn_dokhturov ru_dyn_tuchkov
+		ru_dyn_wittgenstein ru_dyn_arakcheev ru_dyn_godunov ru_dyn_stroganov ru_dyn_pozharsky ru_dyn_saltykov
+		ru_dyn_shakhovskoy ru_dyn_cherkassky ru_dyn_beloselsky_belozersky ru_dyn_ushakov ru_dyn_vorontsov_dashkov
+		om_dyn_ru_dashkov om_dyn_ru_kochubey om_dyn_ru_bezborodko om_dyn_ru_miloradovich om_dyn_ru_kutaisov
+		om_dyn_ru_zubov
+	}
+	lowborn = {
+		Ivanov Smirnov Kuznetsov Popov Petrov Sokolov Lebedev Sidorov Fedorov Semenov Mikhailov Egorov Lenkov Vasiliev
+		Nikolaev Morozov Stepanov Novikov Kozlov ru_low_alekseev ru_low_andreev ru_low_dmitriev ru_low_grigoriev
+		ru_low_ilyin ru_low_kirillov ru_low_karpov ru_low_makarov ru_low_mironov ru_low_nikitin ru_low_pavlov
+		ru_low_timofeev ru_low_yakovlev ru_low_zakharov ru_low_filatov ru_low_tarasov ru_low_belyaev ru_low_kiselev
+		ru_low_titov ru_low_savelyev ru_low_gavrilov ru_low_danilov ru_low_matveev ru_low_efimov ru_low_fomin
+		ru_low_savin ru_low_frolov ru_low_nazarov ru_low_rodionov ru_low_tikhonov ru_low_ignatyev ru_low_kazakov
+		ru_low_komarov ru_low_bespalov om_low_ru_belov om_low_ru_medvedev om_low_ru_gromov om_low_ru_sorokin
+		om_low_ru_melnikov om_low_ru_borisov om_low_ru_krylov
+	}
+	patronym_suffix_son = "patronym_suffix_russian_son"
+	patronym_suffix_daughter = "patronym_suffix_russian_daughter"
+	location_suffix = "location_suffix_russian"
+	ship_names = {
+		om7_ship_east_slavic_language_001 om7_ship_east_slavic_language_002 om7_ship_east_slavic_language_003
+		om7_ship_east_slavic_language_004 om7_ship_east_slavic_language_005 om7_ship_east_slavic_language_006
+		om7_ship_east_slavic_language_007 om7_ship_east_slavic_language_008 om7_ship_east_slavic_language_009
+		om7_ship_east_slavic_language_010 om7_ship_east_slavic_language_011 om7_ship_east_slavic_language_012
+		om7_ship_east_slavic_language_013 om7_ship_east_slavic_language_014 om7_ship_east_slavic_language_015
+		om7_ship_east_slavic_language_016 om7_ship_east_slavic_language_017 om7_ship_east_slavic_language_018
+		om7_ship_east_slavic_language_019 om7_ship_east_slavic_language_020 om7_ship_east_slavic_language_021
+		om7_ship_east_slavic_language_022 om7_ship_east_slavic_language_023 om7_ship_east_slavic_language_024
+		om7_ship_east_slavic_language_025 om7_ship_east_slavic_language_026 om7_ship_east_slavic_language_027
+		om7_ship_east_slavic_language_028 om7_ship_east_slavic_language_029 om7_ship_east_slavic_language_030
+		om7_ship_east_slavic_language_031 om7_ship_east_slavic_language_032 om7_ship_east_slavic_language_033
+		om7_ship_east_slavic_language_034 om7_ship_east_slavic_language_035 om7_ship_east_slavic_language_036
+		om7_ship_east_slavic_language_037 om7_ship_east_slavic_language_038 om7_ship_east_slavic_language_039
+		om7_ship_east_slavic_language_040 om7_ship_east_slavic_language_041 om7_ship_east_slavic_language_042
+		om7_ship_east_slavic_language_043 om7_ship_east_slavic_language_044 om7_ship_east_slavic_language_045
+		om7_ship_east_slavic_language_046 om7_ship_east_slavic_language_047 om7_ship_east_slavic_language_048
+		om7_ship_east_slavic_language_049 om7_ship_east_slavic_language_050 om7_ship_east_slavic_language_051
+		om7_ship_east_slavic_language_052 om7_ship_east_slavic_language_053 om7_ship_east_slavic_language_054
+		om7_ship_east_slavic_language_055 om7_ship_east_slavic_language_056 om7_ship_east_slavic_language_057
+		om7_ship_east_slavic_language_058 om7_ship_east_slavic_language_059 om7_ship_east_slavic_language_060
+		om7_ship_east_slavic_language_061 om7_ship_east_slavic_language_062 om7_ship_east_slavic_language_063
+		om7_ship_east_slavic_language_064 om7_ship_east_slavic_language_065 om7_ship_east_slavic_language_066
+		om7_ship_east_slavic_language_067 om7_ship_east_slavic_language_068 om7_ship_east_slavic_language_069
+		om7_ship_east_slavic_language_070 om7_ship_east_slavic_language_071 om7_ship_east_slavic_language_072
+		om7_ship_east_slavic_language_073 om7_ship_east_slavic_language_074 om7_ship_east_slavic_language_075
+		om7_ship_east_slavic_language_076 om7_ship_east_slavic_language_077 om7_ship_east_slavic_language_078
+		om7_ship_east_slavic_language_079 om7_ship_east_slavic_language_080 om7_ship_east_slavic_language_081
+		om7_ship_east_slavic_language_082 om7_ship_east_slavic_language_083 om7_ship_east_slavic_language_084
+		om7_ship_east_slavic_language_085 om7_ship_east_slavic_language_086 om7_ship_east_slavic_language_087
+		om7_ship_east_slavic_language_088 om7_ship_east_slavic_language_089 om7_ship_east_slavic_language_090
+		om7_ship_east_slavic_language_091 om7_ship_east_slavic_language_092 om7_ship_east_slavic_language_093
+		om7_ship_east_slavic_language_094 om7_ship_east_slavic_language_095 om7_ship_east_slavic_language_096
+		om7_ship_east_slavic_language_097 om7_ship_east_slavic_language_098 om7_ship_east_slavic_language_099
+		om7_ship_east_slavic_language_100 om7_ship_east_slavic_language_101 om7_ship_east_slavic_language_102
+		om7_ship_east_slavic_language_103 om7_ship_east_slavic_language_104 om7_ship_east_slavic_language_105
+		om7_ship_east_slavic_language_106 om7_ship_east_slavic_language_107 om7_ship_east_slavic_language_108
+		om7_ship_east_slavic_language_109 om7_ship_east_slavic_language_110 om7_ship_east_slavic_language_111
+		om7_ship_east_slavic_language_112 om7_ship_east_slavic_language_113 om7_ship_east_slavic_language_114
+		om7_ship_east_slavic_language_115 om7_ship_east_slavic_language_116 om7_ship_east_slavic_language_117
+		om7_ship_east_slavic_language_118 om7_ship_east_slavic_language_119 om7_ship_east_slavic_language_120
+		om7_ship_east_slavic_language_121 om7_ship_east_slavic_language_122 om7_ship_east_slavic_language_123
+		om7_ship_east_slavic_language_124 om7_ship_east_slavic_language_125 om7_ship_east_slavic_language_126
+		om7_ship_east_slavic_language_127 om7_ship_east_slavic_language_128
+	}
+	dialects = {
+		russian_dialect = {
+			default = yes
+		}
+		novgorodian_dialect = {
+			patronym_suffix_son = "patronym_suffix_russian_novgorodian_son"
+			patronym_suffix_daughter = "patronym_suffix_russian_novgorodian_daughter"
+			location_suffix = "location_suffix_novgorodian"
+			male_names = {
+				name_alexander name_alexis name_anatoly name_andrew name_arkady name_athanasius name_basil name_boris
+				name_borislav name_bratislav name_bronislav name_briachislav name_constantine name_cosmas name_cyril
+				name_daniel name_david name_demetrius name_diomedes name_dobrynya name_dorotheos name_elias name_eliseus
+				name_emilian name_eugene name_eustathius name_euthymius name_gabriel name_george name_gleb name_gregory
+				name_igor name_innocent name_iziaslav name_james name_jeremiah name_joachim name_john name_joseph name_karp
+				name_laurence name_leon name_macarius name_matthew name_maximus name_metrophanes name_michael name_mstislav
+				name_nazar name_nicetas name_nicodemus name_nikephoros name_oleg name_onesim name_ontsifor name_paul
+				name_peter name_prokop name_prokhor name_putyata name_radomir name_radoslav name_reginald name_roderick
+				name_roman name_rostislav name_ruslan name_sabellus name_sergius name_simeon name_stanislav name_stephen
+				name_sudislav name_svetozar name_sviatopolk name_svyatoslav name_terentius name_theodore name_theodosius
+				name_theophylact name_tryphon name_valerian name_vissarion name_vladislav name_voislav name_volodar
+				name_vseslav name_vsevolod name_vyshata name_vysheslav name_waldemar name_wenceslas name_yaropolk
+				name_yaroslav name_abraham name_anthony name_barnabas name_benedict name_bogdan name_boniface name_conon
+				name_dositheos name_epifanio name_gennadius name_gerasimos name_gideon name_heraclius name_herman
+				name_yermolai name_hilarius name_hyacinth name_hieronymus name_ignatius name_irenaeus name_isaac name_julian
+				name_justin name_justinian name_lazarus name_leontios name_lucas name_mark name_martin name_matthias
+				name_maurice name_miron name_moses name_nicholas name_panteleimon name_paschal name_paulinus name_philemon
+				name_philip name_salomon name_samuel name_samson name_silvester name_theophilos name_thomas name_timothy
+				name_tycho name_valerius name_victor name_vital name_zechariah name_habakkuk name_nikon name_plato
+				name_sabbas name_denys name_onfim name_gostyata name_zhiroslav name_zhiznomir name_tverdislav name_zavid
+				name_nezhata name_yakun name_stanimir name_danila
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 220
+				}
+				name_onfim
+				name_gostyata
+				name_zhiroslav
+				name_zhiznomir
+				name_tverdislav
+				name_zavid
+				name_nezhata
+				name_yakun
+				name_stanimir
+				name_danila
+				name_ontsifor
+				name_putyata
+				name_vyshata
+				name_oleg
+				name_igor
+				name_roderick
+				name_om_ng_gyuryata
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 125
+				}
+				name_john
+				name_nicholas
+				name_peter
+				name_paul
+				name_basil
+				name_demetrius
+				name_george
+				name_theodore
+				name_stephen
+				name_michael
+				name_daniel
+				name_ontsifor
+				name_om_ng_yaksha
+				name_zechariah
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 90
+				}
+				name_alexander
+				name_alexis
+				name_peter
+				name_nicholas
+				name_michael
+				name_sergius
+				name_theodore
+				name_roman
+			}
+			female_names = {
+				name_agatha name_agrippina name_alexandra name_anastasia name_anna name_barbara name_boleslava
+				name_catherine name_daria name_dobrava name_dobroniega name_dobroslava name_euphemia name_euphrosyne
+				name_elizabeth name_euphrasia name_febronia name_gremislava name_helen name_irene name_julie name_julianne
+				name_lyubov name_ludmila name_marine name_martha name_mary name_olga name_premyslava name_ragnhild
+				name_sophia name_stanislava name_svetlana name_svyatoslava name_snezhana name_tatiana name_theodora
+				name_theodosia name_vasilisa name_vaclava name_yaroslava name_xenia name_zlata Gorislava Gradislava Malusha
+				Prebrana Predslava Zabava Zvenislava name_alice name_eudokia name_eve name_kyra name_natalia name_paraskevi
+				name_salome name_claudia name_eugenie name_galina name_lydia name_victoria name_antonina name_nina
+				name_ulita name_marena
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 175
+				}
+				name_anna
+				name_olga
+				name_ragnhild
+				name_dobrava
+				name_dobroniega
+				name_dobroslava
+				name_premyslava
+				name_yaroslava
+				Malusha
+				Predslava
+				Zabava
+				Zvenislava
+				name_ulita
+				name_marena
+				name_om_ng_nastasya
+				name_vasilisa
+				name_julianne
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 125
+				}
+				name_mary
+				name_anastasia
+				name_eudokia
+				name_euphemia
+				name_euphrosyne
+				name_irene
+				name_theodora
+				name_theodosia
+				name_vasilisa
+				name_xenia
+				name_om_ng_fekla
+				name_om_ng_avdotya
+				name_om_ng_akulina
+				name_om_ng_pelageya
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 95
+				}
+				name_catherine
+				name_elizabeth
+				name_daria
+				name_natalia
+				name_alexandra
+				name_tatiana
+			}
+			dynasty_names = {
+				Rurikovich Shuisky Romanov Sheremetev Golitsyn Naryshkin ng_ru_dyn_khilkov Gorchakov Belosselsky Chelyadnin
+				Potyomkin Poloch Izbor Tversky Lukisky Pleskov Toropetsky ng_ru_dyn_dukhovsky Tyvertsky Buzhansky Slutsky
+				Pinsky Zhytomyrsky Vynnytsky Polan Ulich Drevl Lyubech Roslavsky Turov Boretsky Dolgorukov Gagarin Galitzine
+				Massalski Shuysky Gantimurov Sibirsky Demidov ng_ru_dyn_lopukhin Tolstoy "Lobanov-Rostovsky" Menshikov
+				Obolensky ru_dyn_belsky ru_dyn_baryatinsky ru_dyn_vorotynsky ru_dyn_odoevsky ru_dyn_volkonsky
+				ru_dyn_trubetskoy ru_dyn_kurakin ru_dyn_repnin ru_dyn_prozorovsky ru_dyn_vyazemsky ru_dyn_vorontsov
+				ru_dyn_buturlin ru_dyn_apraksin ru_dyn_morozov ru_dyn_miloslavsky ru_dyn_matveev ru_dyn_rumyantsev
+				ru_dyn_orlov ru_dyn_razumovsky ru_dyn_yusupov ru_dyn_bestuzhev ru_dyn_panin ru_dyn_suvorov ru_dyn_kutuzov
+				ru_dyn_barclay_de_tolly ru_dyn_bagration ru_dyn_bennigsen ru_dyn_raevsky ru_dyn_davydov ng_ru_dyn_dokhturov
+				ru_dyn_tuchkov ru_dyn_wittgenstein ru_dyn_arakcheev ng_dyn_posadnich ng_dyn_mishinich ng_dyn_ontsiforovich
+				ng_dyn_tverdislavich ng_dyn_lukinich ng_dyn_mikulinich ng_dyn_yakuninich ng_dyn_zhiznomirovich
+				ng_dyn_gostyatich ng_dyn_nezhatinich ng_dyn_zavidich ng_dyn_svoezemtsev ng_dyn_nerevsky ng_dyn_slavensky
+				ng_dyn_lyudinich ng_dyn_prussky_konets ng_dyn_ladogsky ng_dyn_russky ng_dyn_gyuryatinich ng_dyn_yaroslavich
+				ng_dyn_miroslavich ng_dyn_zakharyinich om_dyn_ng_onfimovich om_dyn_ng_mikulich
+			}
+			lowborn = {
+				Ivanov Smirnov Kuznetsov Popov Petrov Sokolov Lebedev Sidorov Fedorov Semenov ng_ru_low_mikhailov Egorov
+				Lenkov Vasiliev Nikolaev Morozov Stepanov Novikov Kozlov ru_low_alekseev ru_low_andreev ru_low_dmitriev
+				ru_low_grigoriev ru_low_ilyin ru_low_kirillov ru_low_karpov ru_low_makarov ru_low_mironov ru_low_nikitin
+				ru_low_pavlov ru_low_timofeev ru_low_yakovlev ng_ru_low_zakharov ru_low_filatov ru_low_tarasov
+				ru_low_belyaev ru_low_kiselev ru_low_titov ru_low_savelyev ru_low_gavrilov ru_low_danilov ru_low_matveev
+				ru_low_efimov ng_low_onfimov ng_low_mikulin ng_low_gostyatin ng_low_zhiznomirin ng_low_yakunov
+				ng_low_zavidov ng_low_nezhatin ng_low_ivankov ng_low_danilin ng_low_lukin ng_low_ladogin ng_low_rushanin
+				ng_low_pskovitin ng_low_torzhkovitin ng_low_ilmenin ng_low_volkhovsky ng_low_onegin ng_low_bezhetsky
+				ng_low_nerevlyanin ng_low_slovenskii ng_low_zakharyin ng_low_gyuryatin ng_low_miroslavin ng_low_yaroslavin
+				ng_low_kuzmin om_low_ng_znamenets om_low_ng_volkhovitin om_low_ng_kholopiy
+			}
+			ship_names = {
+				om7_ship_novgorodian_dialect_001 om7_ship_novgorodian_dialect_002 om7_ship_novgorodian_dialect_003
+				om7_ship_novgorodian_dialect_004 om7_ship_novgorodian_dialect_005 om7_ship_novgorodian_dialect_006
+				om7_ship_novgorodian_dialect_007 om7_ship_novgorodian_dialect_008 om7_ship_novgorodian_dialect_009
+				om7_ship_novgorodian_dialect_010 om7_ship_novgorodian_dialect_011 om7_ship_novgorodian_dialect_012
+				om7_ship_novgorodian_dialect_013 om7_ship_novgorodian_dialect_014 om7_ship_novgorodian_dialect_015
+				om7_ship_novgorodian_dialect_016 om7_ship_novgorodian_dialect_017 om7_ship_novgorodian_dialect_018
+				om7_ship_novgorodian_dialect_019 om7_ship_novgorodian_dialect_020 om7_ship_novgorodian_dialect_021
+				om7_ship_novgorodian_dialect_022 om7_ship_novgorodian_dialect_023 om7_ship_novgorodian_dialect_024
+				om7_ship_novgorodian_dialect_025 om7_ship_novgorodian_dialect_026 om7_ship_novgorodian_dialect_027
+				om7_ship_novgorodian_dialect_028 om7_ship_novgorodian_dialect_029 om7_ship_novgorodian_dialect_030
+				om7_ship_novgorodian_dialect_031 om7_ship_novgorodian_dialect_032 om7_ship_novgorodian_dialect_033
+				om7_ship_novgorodian_dialect_034 om7_ship_novgorodian_dialect_035 om7_ship_novgorodian_dialect_036
+				om7_ship_novgorodian_dialect_037 om7_ship_novgorodian_dialect_038 om7_ship_novgorodian_dialect_039
+				om7_ship_novgorodian_dialect_040 om7_ship_novgorodian_dialect_041 om7_ship_novgorodian_dialect_042
+				om7_ship_novgorodian_dialect_043 om7_ship_novgorodian_dialect_044 om7_ship_novgorodian_dialect_045
+				om7_ship_novgorodian_dialect_046 om7_ship_novgorodian_dialect_047 om7_ship_novgorodian_dialect_048
+				om7_ship_novgorodian_dialect_049 om7_ship_novgorodian_dialect_050 om7_ship_novgorodian_dialect_051
+				om7_ship_novgorodian_dialect_052 om7_ship_novgorodian_dialect_053 om7_ship_novgorodian_dialect_054
+				om7_ship_novgorodian_dialect_055 om7_ship_novgorodian_dialect_056 om7_ship_novgorodian_dialect_057
+				om7_ship_novgorodian_dialect_058 om7_ship_novgorodian_dialect_059 om7_ship_novgorodian_dialect_060
+				om7_ship_novgorodian_dialect_061 om7_ship_novgorodian_dialect_062 om7_ship_novgorodian_dialect_063
+				om7_ship_novgorodian_dialect_064 om7_ship_novgorodian_dialect_065 om7_ship_novgorodian_dialect_066
+				om7_ship_novgorodian_dialect_067 om7_ship_novgorodian_dialect_068 om7_ship_novgorodian_dialect_069
+				om7_ship_novgorodian_dialect_070 om7_ship_novgorodian_dialect_071 om7_ship_novgorodian_dialect_072
+				om7_ship_novgorodian_dialect_073 om7_ship_novgorodian_dialect_074 om7_ship_novgorodian_dialect_075
+				om7_ship_novgorodian_dialect_076 om7_ship_novgorodian_dialect_077 om7_ship_novgorodian_dialect_078
+				om7_ship_novgorodian_dialect_079 om7_ship_novgorodian_dialect_080 om7_ship_novgorodian_dialect_081
+				om7_ship_novgorodian_dialect_082 om7_ship_novgorodian_dialect_083 om7_ship_novgorodian_dialect_084
+				om7_ship_novgorodian_dialect_085 om7_ship_novgorodian_dialect_086 om7_ship_novgorodian_dialect_087
+				om7_ship_novgorodian_dialect_088 om7_ship_novgorodian_dialect_089 om7_ship_novgorodian_dialect_090
+				om7_ship_novgorodian_dialect_091 om7_ship_novgorodian_dialect_092 om7_ship_novgorodian_dialect_093
+				om7_ship_novgorodian_dialect_094 om7_ship_novgorodian_dialect_095 om7_ship_novgorodian_dialect_096
+				om7_ship_novgorodian_dialect_097 om7_ship_novgorodian_dialect_098 om7_ship_novgorodian_dialect_099
+				om7_ship_novgorodian_dialect_100 om7_ship_novgorodian_dialect_101 om7_ship_novgorodian_dialect_102
+				om7_ship_novgorodian_dialect_103 om7_ship_novgorodian_dialect_104 om7_ship_novgorodian_dialect_105
+				om7_ship_novgorodian_dialect_106 om7_ship_novgorodian_dialect_107 om7_ship_novgorodian_dialect_108
+				om7_ship_novgorodian_dialect_109 om7_ship_novgorodian_dialect_110 om7_ship_novgorodian_dialect_111
+				om7_ship_novgorodian_dialect_112 om7_ship_novgorodian_dialect_113 om7_ship_novgorodian_dialect_114
+				om7_ship_novgorodian_dialect_115 om7_ship_novgorodian_dialect_116 om7_ship_novgorodian_dialect_117
+				om7_ship_novgorodian_dialect_118 om7_ship_novgorodian_dialect_119 om7_ship_novgorodian_dialect_120
+				om7_ship_novgorodian_dialect_121 om7_ship_novgorodian_dialect_122 om7_ship_novgorodian_dialect_123
+				om7_ship_novgorodian_dialect_124 om7_ship_novgorodian_dialect_125 om7_ship_novgorodian_dialect_126
+				om7_ship_novgorodian_dialect_127 om7_ship_novgorodian_dialect_128
+			}
+		}
+	}
+}
+
+ruthenian_language = {
+	family = slavic_language_family
+	color = rgb {
+		81 123 210
+	}
+	male_names = {
+		name_alexander name_alexis name_anatoly name_andrew name_arkady name_athanasius name_basil name_boris
+		name_bratislav name_briachislav name_constantine name_cosmas name_cyril name_daniel name_david name_demetrius
+		name_diomedes name_dobrynya name_dorotheos name_elias name_eliseus name_emilian name_eugene name_eustathius
+		name_euthymius name_gabriel name_george name_gleb name_gregory name_igor name_innocent name_iziaslav
+		name_james name_jeremiah name_joachim name_john name_joseph name_karp name_laurence name_leon name_macarius
+		name_matthew name_maximus name_metrophanes name_michael name_mstislav name_nazar name_nicetas name_nikephoros
+		name_oleg name_onesim name_ontsifor name_paul name_peter name_prokop name_putyata name_radomir name_radoslav
+		name_reginald name_roderick name_roman name_rostislav name_ruslan name_sabellus name_sergius name_simeon
+		name_stanislav name_stephen name_sudislav name_svetozar name_sviatopolk name_svyatoslav name_terentius
+		name_theodore name_theodosius name_theophylact name_tryphon name_valerian name_vladislav name_voislav
+		name_volodar name_vseslav name_vsevolod name_vyshata name_vysheslav name_waldemar name_wenceslas name_yaropolk
+		name_yaroslav name_abraham name_anthony name_benedict name_bogdan name_gennadius name_herman name_hilarius
+		name_miron name_nicholas name_philip name_rodislav
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 160
+		}
+		name_boris
+		name_gleb
+		name_igor
+		name_iziaslav
+		name_mstislav
+		name_oleg
+		name_sviatopolk
+		name_svyatoslav
+		name_volodar
+		name_vseslav
+		name_vsevolod
+		name_yaropolk
+		name_yaroslav
+		name_dobrynya
+		name_putyata
+		name_waldemar
+		name_daniel
+		name_leon
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_john
+		name_basil
+		name_demetrius
+		name_theodore
+		name_stephen
+		name_michael
+		name_nicholas
+		name_peter
+		name_paul
+		name_george
+		name_andrew
+		name_daniel
+		name_constantine
+		name_roman
+		name_rostislav
+		name_vladislav
+		name_om_rut_ostap
+		name_gregory
+		name_om_rut_lavrin
+		name_om_rut_semen
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_alexander
+		name_joseph
+		name_michael
+		name_nicholas
+		name_peter
+		name_paul
+		name_stanislav
+		name_vladislav
+		name_daniel
+		name_cyril
+		name_theodore
+		name_roman
+		name_alexis
+		name_bogdan
+	}
+	female_names = {
+		name_agatha name_agrippina name_alexandra name_anastasia name_anna name_barbara name_boleslava name_catherine
+		name_daria name_dobrava name_dobroniega name_dobroslava name_eudokia name_euphemia name_euphrosyne
+		name_elizabeth name_euphrasia name_febronia name_gremislava name_helen name_irene name_julie name_julianne
+		name_lyubov name_ludmila name_marine name_martha name_mary name_olga name_paraskevi name_premyslava
+		name_ragnhild name_sophia name_stanislava name_svetlana name_svyatoslava name_tatiana name_theodora
+		name_theodosia name_vasilisa name_vaclava name_yaroslava name_xenia name_zlata Gorislava Gradislava Malusha
+		Prebrana Predslava Zabava Zvenislava name_alice name_eve name_natalia name_claudia name_galina name_lydia
+		name_victoria name_nina
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_anna
+		name_mary
+		name_olga
+		name_euphrosyne
+		name_dobrava
+		name_dobroniega
+		name_dobroslava
+		name_premyslava
+		name_yaroslava
+		Predslava
+		Zvenislava
+		name_helen
+		name_om_rut_hanna
+		name_om_rut_paraskeva
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_anastasia
+		name_eudokia
+		name_irene
+		name_martha
+		name_mary
+		name_sophia
+		name_theodora
+		name_xenia
+		name_vasilisa
+		name_paraskevi
+		name_om_rut_maryna
+		name_om_rut_kateryna
+		name_om_rut_yevdokiia
+		name_om_rut_anastasiya
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		name_alexandra
+		name_catherine
+		name_elizabeth
+		name_natalia
+		name_daria
+		name_olga
+		name_xenia
+		name_tatiana
+		name_sophia
+		name_om_rut_oksana
+		name_om_rut_motrona
+		name_om_rut_yustyna
+		name_om_rut_sofiya
+	}
+	dynasty_names = {
+		Rurikovich Shuisky Romanov Khilkov Belosselsky Chelyadnin Poloch Izbor Tversky Lukisky Pleskov Toropetsky
+		Dukhovsky Tyvertsky Buzhansky Slutsky Pinsky Zhytomyrsky Vynnytsky Polan Ulich Drevl Lyubech Roslavsky Turov
+		Dolgorukov Massalski Shuysky Tolstoy "Lobanov-Rostovsky" Obolensky rut_dyn_ostrogski rut_dyn_vyshnevetskyi
+		rut_dyn_zaslavsky rut_dyn_zbarazky rut_dyn_sanguszko rut_dyn_holshansky rut_dyn_sapieha rut_dyn_khodkevych
+		rut_dyn_tyszkiewicz rut_dyn_pac rut_dyn_doroshenko rut_dyn_khmelnytsky rut_dyn_mazepa rut_dyn_polubotok
+		om_dyn_rut_ostrozky om_dyn_rut_vyshnevetsky om_dyn_rut_koriatovych om_dyn_rut_skoropadsky
+	}
+	lowborn = {
+		Ivanov Smirnov Kuznetsov Popov Petrov Sokolov Lebedev Sidorov Fedorov Semenov Mikhailov Egorov Lenkov Vasiliev
+		Nikolaev Morozov Stepanov Novikov Kozlov rut_low_shevchenko rut_low_bondarenko rut_low_kovalchuk
+		rut_low_melnyk rut_low_kravchenko rut_low_tkachuk rut_low_savchuk rut_low_moroz rut_low_hrytsenko
+		rut_low_ivanenko rut_low_kravets rut_low_honcharenko bel_low_kavalenka bel_low_hryshkevich bel_low_melnik
+		bel_low_savitski om_low_rut_kovalenko om_low_rut_tkachenko om_low_rut_lytvyn
+	}
+	ship_names = {
+		om7_ship_ruthenian_language_001 om7_ship_ruthenian_language_002 om7_ship_ruthenian_language_003
+		om7_ship_ruthenian_language_004 om7_ship_ruthenian_language_005 om7_ship_ruthenian_language_006
+		om7_ship_ruthenian_language_007 om7_ship_ruthenian_language_008 om7_ship_ruthenian_language_009
+		om7_ship_ruthenian_language_010 om7_ship_ruthenian_language_011 om7_ship_ruthenian_language_012
+		om7_ship_ruthenian_language_013 om7_ship_ruthenian_language_014 om7_ship_ruthenian_language_015
+		om7_ship_ruthenian_language_016 om7_ship_ruthenian_language_017 om7_ship_ruthenian_language_018
+		om7_ship_ruthenian_language_019 om7_ship_ruthenian_language_020 om7_ship_ruthenian_language_021
+		om7_ship_ruthenian_language_022 om7_ship_ruthenian_language_023 om7_ship_ruthenian_language_024
+		om7_ship_ruthenian_language_025 om7_ship_ruthenian_language_026 om7_ship_ruthenian_language_027
+		om7_ship_ruthenian_language_028 om7_ship_ruthenian_language_029 om7_ship_ruthenian_language_030
+		om7_ship_ruthenian_language_031 om7_ship_ruthenian_language_032 om7_ship_ruthenian_language_033
+		om7_ship_ruthenian_language_034 om7_ship_ruthenian_language_035 om7_ship_ruthenian_language_036
+		om7_ship_ruthenian_language_037 om7_ship_ruthenian_language_038 om7_ship_ruthenian_language_039
+		om7_ship_ruthenian_language_040 om7_ship_ruthenian_language_041 om7_ship_ruthenian_language_042
+		om7_ship_ruthenian_language_043 om7_ship_ruthenian_language_044 om7_ship_ruthenian_language_045
+		om7_ship_ruthenian_language_046 om7_ship_ruthenian_language_047 om7_ship_ruthenian_language_048
+		om7_ship_ruthenian_language_049 om7_ship_ruthenian_language_050 om7_ship_ruthenian_language_051
+		om7_ship_ruthenian_language_052 om7_ship_ruthenian_language_053 om7_ship_ruthenian_language_054
+		om7_ship_ruthenian_language_055 om7_ship_ruthenian_language_056 om7_ship_ruthenian_language_057
+		om7_ship_ruthenian_language_058 om7_ship_ruthenian_language_059 om7_ship_ruthenian_language_060
+		om7_ship_ruthenian_language_061 om7_ship_ruthenian_language_062 om7_ship_ruthenian_language_063
+		om7_ship_ruthenian_language_064 om7_ship_ruthenian_language_065 om7_ship_ruthenian_language_066
+		om7_ship_ruthenian_language_067 om7_ship_ruthenian_language_068 om7_ship_ruthenian_language_069
+		om7_ship_ruthenian_language_070 om7_ship_ruthenian_language_071 om7_ship_ruthenian_language_072
+		om7_ship_ruthenian_language_073 om7_ship_ruthenian_language_074 om7_ship_ruthenian_language_075
+		om7_ship_ruthenian_language_076 om7_ship_ruthenian_language_077 om7_ship_ruthenian_language_078
+		om7_ship_ruthenian_language_079 om7_ship_ruthenian_language_080 om7_ship_ruthenian_language_081
+		om7_ship_ruthenian_language_082 om7_ship_ruthenian_language_083 om7_ship_ruthenian_language_084
+		om7_ship_ruthenian_language_085 om7_ship_ruthenian_language_086 om7_ship_ruthenian_language_087
+		om7_ship_ruthenian_language_088 om7_ship_ruthenian_language_089 om7_ship_ruthenian_language_090
+		om7_ship_ruthenian_language_091 om7_ship_ruthenian_language_092 om7_ship_ruthenian_language_093
+		om7_ship_ruthenian_language_094 om7_ship_ruthenian_language_095 om7_ship_ruthenian_language_096
+		om7_ship_ruthenian_language_097 om7_ship_ruthenian_language_098 om7_ship_ruthenian_language_099
+		om7_ship_ruthenian_language_100 om7_ship_ruthenian_language_101 om7_ship_ruthenian_language_102
+		om7_ship_ruthenian_language_103
+	}
+	dialects = {
+		belarusian_dialect = {
+			patronym_suffix_son = "patronym_suffix_belarusian_son"
+			patronym_suffix_daughter = "patronym_suffix_belarusian_daughter"
+			location_suffix = "location_suffix_belarusian"
+			ship_names = {
+				om7_ship_belarusian_dialect_001 om7_ship_belarusian_dialect_002 om7_ship_belarusian_dialect_003
+				om7_ship_belarusian_dialect_004 om7_ship_belarusian_dialect_005 om7_ship_belarusian_dialect_006
+				om7_ship_belarusian_dialect_007 om7_ship_belarusian_dialect_008 om7_ship_belarusian_dialect_009
+				om7_ship_belarusian_dialect_010 om7_ship_belarusian_dialect_011 om7_ship_belarusian_dialect_012
+				om7_ship_belarusian_dialect_013 om7_ship_belarusian_dialect_014 om7_ship_belarusian_dialect_015
+				om7_ship_belarusian_dialect_016 om7_ship_belarusian_dialect_017 om7_ship_belarusian_dialect_018
+				om7_ship_belarusian_dialect_019 om7_ship_belarusian_dialect_020 om7_ship_belarusian_dialect_021
+				om7_ship_belarusian_dialect_022 om7_ship_belarusian_dialect_023 om7_ship_belarusian_dialect_024
+				om7_ship_belarusian_dialect_025 om7_ship_belarusian_dialect_026 om7_ship_belarusian_dialect_027
+				om7_ship_belarusian_dialect_028 om7_ship_belarusian_dialect_029 om7_ship_belarusian_dialect_030
+				om7_ship_belarusian_dialect_031 om7_ship_belarusian_dialect_032 om7_ship_belarusian_dialect_033
+				om7_ship_belarusian_dialect_034 om7_ship_belarusian_dialect_035 om7_ship_belarusian_dialect_036
+				om7_ship_belarusian_dialect_037 om7_ship_belarusian_dialect_038 om7_ship_belarusian_dialect_039
+				om7_ship_belarusian_dialect_040 om7_ship_belarusian_dialect_041 om7_ship_belarusian_dialect_042
+				om7_ship_belarusian_dialect_043 om7_ship_belarusian_dialect_044 om7_ship_belarusian_dialect_045
+				om7_ship_belarusian_dialect_046 om7_ship_belarusian_dialect_047 om7_ship_belarusian_dialect_048
+				om7_ship_belarusian_dialect_049 om7_ship_belarusian_dialect_050 om7_ship_belarusian_dialect_051
+				om7_ship_belarusian_dialect_052 om7_ship_belarusian_dialect_053 om7_ship_belarusian_dialect_054
+				om7_ship_belarusian_dialect_055 om7_ship_belarusian_dialect_056 om7_ship_belarusian_dialect_057
+				om7_ship_belarusian_dialect_058 om7_ship_belarusian_dialect_059 om7_ship_belarusian_dialect_060
+				om7_ship_belarusian_dialect_061 om7_ship_belarusian_dialect_062 om7_ship_belarusian_dialect_063
+				om7_ship_belarusian_dialect_064 om7_ship_belarusian_dialect_065 om7_ship_belarusian_dialect_066
+				om7_ship_belarusian_dialect_067 om7_ship_belarusian_dialect_068 om7_ship_belarusian_dialect_069
+				om7_ship_belarusian_dialect_070 om7_ship_belarusian_dialect_071 om7_ship_belarusian_dialect_072
+				om7_ship_belarusian_dialect_073 om7_ship_belarusian_dialect_074 om7_ship_belarusian_dialect_075
+				om7_ship_belarusian_dialect_076 om7_ship_belarusian_dialect_077 om7_ship_belarusian_dialect_078
+				om7_ship_belarusian_dialect_079 om7_ship_belarusian_dialect_080 om7_ship_belarusian_dialect_081
+				om7_ship_belarusian_dialect_082 om7_ship_belarusian_dialect_083 om7_ship_belarusian_dialect_084
+				om7_ship_belarusian_dialect_085 om7_ship_belarusian_dialect_086 om7_ship_belarusian_dialect_087
+				om7_ship_belarusian_dialect_088 om7_ship_belarusian_dialect_089 om7_ship_belarusian_dialect_090
+				om7_ship_belarusian_dialect_091 om7_ship_belarusian_dialect_092 om7_ship_belarusian_dialect_093
+				om7_ship_belarusian_dialect_094 om7_ship_belarusian_dialect_095 om7_ship_belarusian_dialect_096
+				om7_ship_belarusian_dialect_097 om7_ship_belarusian_dialect_098 om7_ship_belarusian_dialect_099
+				om7_ship_belarusian_dialect_100 om7_ship_belarusian_dialect_101 om7_ship_belarusian_dialect_102
+				om7_ship_belarusian_dialect_103
+			}
+		}
+		ukrainian_dialect = {
+			patronym_suffix_son = "patronym_suffix_ukrainian_son"
+			patronym_suffix_daughter = "patronym_suffix_ukrainian_daughter"
+			location_suffix = "location_suffix_ukrainian"
+			ship_names = {
+				om7_ship_ukrainian_dialect_001 om7_ship_ukrainian_dialect_002 om7_ship_ukrainian_dialect_003
+				om7_ship_ukrainian_dialect_004 om7_ship_ukrainian_dialect_005 om7_ship_ukrainian_dialect_006
+				om7_ship_ukrainian_dialect_007 om7_ship_ukrainian_dialect_008 om7_ship_ukrainian_dialect_009
+				om7_ship_ukrainian_dialect_010 om7_ship_ukrainian_dialect_011 om7_ship_ukrainian_dialect_012
+				om7_ship_ukrainian_dialect_013 om7_ship_ukrainian_dialect_014 om7_ship_ukrainian_dialect_015
+				om7_ship_ukrainian_dialect_016 om7_ship_ukrainian_dialect_017 om7_ship_ukrainian_dialect_018
+				om7_ship_ukrainian_dialect_019 om7_ship_ukrainian_dialect_020 om7_ship_ukrainian_dialect_021
+				om7_ship_ukrainian_dialect_022 om7_ship_ukrainian_dialect_023 om7_ship_ukrainian_dialect_024
+				om7_ship_ukrainian_dialect_025 om7_ship_ukrainian_dialect_026 om7_ship_ukrainian_dialect_027
+				om7_ship_ukrainian_dialect_028 om7_ship_ukrainian_dialect_029 om7_ship_ukrainian_dialect_030
+				om7_ship_ukrainian_dialect_031 om7_ship_ukrainian_dialect_032 om7_ship_ukrainian_dialect_033
+				om7_ship_ukrainian_dialect_034 om7_ship_ukrainian_dialect_035 om7_ship_ukrainian_dialect_036
+				om7_ship_ukrainian_dialect_037 om7_ship_ukrainian_dialect_038 om7_ship_ukrainian_dialect_039
+				om7_ship_ukrainian_dialect_040 om7_ship_ukrainian_dialect_041 om7_ship_ukrainian_dialect_042
+				om7_ship_ukrainian_dialect_043 om7_ship_ukrainian_dialect_044 om7_ship_ukrainian_dialect_045
+				om7_ship_ukrainian_dialect_046 om7_ship_ukrainian_dialect_047 om7_ship_ukrainian_dialect_048
+				om7_ship_ukrainian_dialect_049 om7_ship_ukrainian_dialect_050 om7_ship_ukrainian_dialect_051
+				om7_ship_ukrainian_dialect_052 om7_ship_ukrainian_dialect_053 om7_ship_ukrainian_dialect_054
+				om7_ship_ukrainian_dialect_055 om7_ship_ukrainian_dialect_056 om7_ship_ukrainian_dialect_057
+				om7_ship_ukrainian_dialect_058 om7_ship_ukrainian_dialect_059 om7_ship_ukrainian_dialect_060
+				om7_ship_ukrainian_dialect_061 om7_ship_ukrainian_dialect_062 om7_ship_ukrainian_dialect_063
+				om7_ship_ukrainian_dialect_064 om7_ship_ukrainian_dialect_065 om7_ship_ukrainian_dialect_066
+				om7_ship_ukrainian_dialect_067 om7_ship_ukrainian_dialect_068 om7_ship_ukrainian_dialect_069
+				om7_ship_ukrainian_dialect_070 om7_ship_ukrainian_dialect_071 om7_ship_ukrainian_dialect_072
+				om7_ship_ukrainian_dialect_073 om7_ship_ukrainian_dialect_074 om7_ship_ukrainian_dialect_075
+				om7_ship_ukrainian_dialect_076 om7_ship_ukrainian_dialect_077 om7_ship_ukrainian_dialect_078
+				om7_ship_ukrainian_dialect_079 om7_ship_ukrainian_dialect_080 om7_ship_ukrainian_dialect_081
+				om7_ship_ukrainian_dialect_082 om7_ship_ukrainian_dialect_083 om7_ship_ukrainian_dialect_084
+				om7_ship_ukrainian_dialect_085 om7_ship_ukrainian_dialect_086 om7_ship_ukrainian_dialect_087
+				om7_ship_ukrainian_dialect_088 om7_ship_ukrainian_dialect_089 om7_ship_ukrainian_dialect_090
+				om7_ship_ukrainian_dialect_091 om7_ship_ukrainian_dialect_092 om7_ship_ukrainian_dialect_093
+				om7_ship_ukrainian_dialect_094 om7_ship_ukrainian_dialect_095 om7_ship_ukrainian_dialect_096
+				om7_ship_ukrainian_dialect_097 om7_ship_ukrainian_dialect_098 om7_ship_ukrainian_dialect_099
+				om7_ship_ukrainian_dialect_100 om7_ship_ukrainian_dialect_101 om7_ship_ukrainian_dialect_102
+			}
+		}
+	}
+}

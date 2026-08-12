@@ -1,0 +1,40 @@
+﻿kipchak_language = {
+	color = color_language_kipchak
+	family = turkic_language_family
+	male_names = {
+		Azamat Adilet Bacman Qacir name_job Koten Qalawun name_baybars Aktai Aslan Aslanbek Alisher Bolat Bulat Erasyl
+		Nurasyl Serik Ravil Adis Aibek Alik name_alikhan Almaz Asan Azat Aziz Bakyt Bekjan name_bolot Chingiz Damir
+		name_emil Esel Ermek name_elias Ilkay Islambek Izatbek Jyral Kuban Kylych Mirbek Nurbek Nurlan Nurdeen
+		name_omar Prince Sultan Timurbek Usen Ulan Yajub Zamir
+	}
+	female_names = {
+		Dinara Gauhar Saltanat Sezim Zarina Aiday Aigerim Aiman Aina Anar Anara Anargul Aruzhan Asel Ayaulym Aygerim
+		name_ayneh Bibigul Inkar Inzhu Madina Saule Zhuldyz Alfia Alfiya Adel Adinai Aida Aidai Aidana Aidina Aigul
+		Aijamal Ailin Ainura Aima Aisulu Aiza Akmaral name_aliya Altynai Ayana Aziza Azem Baktigul Begaiym Begimai
+		Cholpon Cholponai name_diana Dariga Darixa Dayana Dilara Dimira Eldana Elina Elgiza Erkaiym Gulsana Gulzat
+		Jamilya Kanykei Kauhar Kunduz Keres name_leyla Mirgul Nargiza Nazgul name_nazira Gulperi Nurayda Nurjamal
+		Nurzat Saikal Zamira
+	}
+	dynasty_names = {}
+	lowborn = {}
+	ship_names = {
+		om7_ship_kipchak_language_001 om7_ship_kipchak_language_002 om7_ship_kipchak_language_003
+		om7_ship_kipchak_language_004 om7_ship_kipchak_language_005 om7_ship_kipchak_language_006
+		om7_ship_kipchak_language_007 om7_ship_kipchak_language_008 om7_ship_kipchak_language_009
+		om7_ship_kipchak_language_010 om7_ship_kipchak_language_011 om7_ship_kipchak_language_012
+		om7_ship_kipchak_language_013 om7_ship_kipchak_language_014 om7_ship_kipchak_language_015
+		om7_ship_kipchak_language_016 om7_ship_kipchak_language_017 om7_ship_kipchak_language_018
+		om7_ship_kipchak_language_019 om7_ship_kipchak_language_020 om7_ship_kipchak_language_021
+		om7_ship_kipchak_language_022 om7_ship_kipchak_language_023 om7_ship_kipchak_language_024
+		om7_ship_kipchak_language_025 om7_ship_kipchak_language_026 om7_ship_kipchak_language_027
+		om7_ship_kipchak_language_028 om7_ship_kipchak_language_029 om7_ship_kipchak_language_030
+		om7_ship_kipchak_language_031 om7_ship_kipchak_language_032 om7_ship_kipchak_language_033
+		om7_ship_kipchak_language_034 om7_ship_kipchak_language_035 om7_ship_kipchak_language_036
+		om7_ship_kipchak_language_037 om7_ship_kipchak_language_038 om7_ship_kipchak_language_039
+		om7_ship_kipchak_language_040 om7_ship_kipchak_language_041 om7_ship_kipchak_language_042
+		om7_ship_kipchak_language_043 om7_ship_kipchak_language_044 om7_ship_kipchak_language_045
+		om7_ship_kipchak_language_046 om7_ship_kipchak_language_047 om7_ship_kipchak_language_048
+		om7_ship_kipchak_language_049 om7_ship_kipchak_language_050 om7_ship_kipchak_language_051
+		om7_ship_kipchak_language_052 om7_ship_kipchak_language_053
+	}
+}

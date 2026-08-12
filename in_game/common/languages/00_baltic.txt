@@ -1,0 +1,691 @@
+﻿baltic_language = {
+	color = map_aukstaitian
+	male_names = {
+		name_abraham name_adam name_adolf name_albert name_alexander name_alexis name_andrew name_anthony
+		name_archibald name_arnold name_balthazar name_benedict name_bernard name_boniface name_casimir
+		name_constantine name_edgar name_edmond name_henry name_james name_john name_martin name_matthew name_matthias
+		name_maurice name_michael name_olaf name_paul name_peter name_richard name_robert name_thomas name_xavier
+		name_algirdas name_gediminas name_jogaila name_kestutis name_mindaugas name_vytautas name_zygmantas
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_adam
+		name_albert
+		name_andrew
+		name_john
+		name_michael
+		name_nicholas
+		name_peter
+		name_stanislav
+		name_vytautas
+		name_jogaila
+		name_om_bat_stanislovas
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_alexander
+		name_august
+		name_casimir
+		name_joseph
+		name_vincent
+		name_michael
+		name_anthony
+		name_om_bat_juozapas
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 145
+		}
+		name_algirdas
+		name_gediminas
+		name_jogaila
+		name_kestutis
+		name_mindaugas
+		name_vytautas
+		name_zygmantas
+		name_om_bat_butautas
+		name_om_bat_svitrigaila
+	}
+	female_names = {
+		name_alexandra name_alice name_anastasia name_angelica name_apollonia name_barbara name_casimira
+		name_catherine name_christine name_daina name_dorothy name_eleanor name_elizabeth name_eve name_gertrude
+		name_helen name_ingrid name_laima name_larisa name_laura name_ligita name_lydia name_madeleine name_margaret
+		name_marine name_mary name_milda name_monica name_odilia name_rasa name_regina name_rita name_ruth name_silvia
+		name_solveig name_sophia name_stanislava name_svetlana name_tatiana name_veronica name_victoria name_vita
+		name_wanda name_yolande name_zita name_zoe name_birute name_danute name_vaiva
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 140
+		}
+		Aldona
+		name_laima
+		name_rasa
+		name_birute
+		name_danute
+		name_vaiva
+		name_om_bat_gaudimante
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_anna
+		name_catherine
+		name_elizabeth
+		name_judith
+		name_mary
+		name_sophia
+		name_om_bat_ona
+		name_barbara
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_alexandra
+		name_barbara
+		name_josephine
+		name_victoria
+		name_mary
+		name_catherine
+		name_christine
+		name_om_bat_teresa
+	}
+	dynasty_names = {
+		om_dyn_bat_gediminaitis om_dyn_bat_radvila om_dyn_bat_gostautas om_dyn_bat_kesgaila om_dyn_bat_sapiega
+		om_dyn_bat_pacas om_dyn_bat_chodkevicius
+	}
+	lowborn = {
+		om_low_bat_kazlauskas om_low_bat_petrauskas om_low_bat_jankauskas om_low_bat_kalni_s om_low_bat_berzi_s
+		om_low_bat_ozoli_s
+	}
+	patronym_suffix_son = "patronym_suffix_baltic_son"
+	patronym_suffix_daughter = "patronym_suffix_baltic_daughter"
+	location_suffix = "location_suffix_baltic"
+	ship_names = {
+		om7_ship_baltic_language_001 om7_ship_baltic_language_002 om7_ship_baltic_language_003
+		om7_ship_baltic_language_004 om7_ship_baltic_language_005 om7_ship_baltic_language_006
+		om7_ship_baltic_language_007 om7_ship_baltic_language_008 om7_ship_baltic_language_009
+		om7_ship_baltic_language_010 om7_ship_baltic_language_011 om7_ship_baltic_language_012
+		om7_ship_baltic_language_013 om7_ship_baltic_language_014 om7_ship_baltic_language_015
+		om7_ship_baltic_language_016 om7_ship_baltic_language_017 om7_ship_baltic_language_018
+		om7_ship_baltic_language_019 om7_ship_baltic_language_020 om7_ship_baltic_language_021
+		om7_ship_baltic_language_022 om7_ship_baltic_language_023 om7_ship_baltic_language_024
+		om7_ship_baltic_language_025 om7_ship_baltic_language_026 om7_ship_baltic_language_027
+		om7_ship_baltic_language_028 om7_ship_baltic_language_029 om7_ship_baltic_language_030
+		om7_ship_baltic_language_031 om7_ship_baltic_language_032 om7_ship_baltic_language_033
+		om7_ship_baltic_language_034 om7_ship_baltic_language_035 om7_ship_baltic_language_036
+		om7_ship_baltic_language_037 om7_ship_baltic_language_038 om7_ship_baltic_language_039
+		om7_ship_baltic_language_040 om7_ship_baltic_language_041 om7_ship_baltic_language_042
+		om7_ship_baltic_language_043 om7_ship_baltic_language_044 om7_ship_baltic_language_045
+		om7_ship_baltic_language_046 om7_ship_baltic_language_047 om7_ship_baltic_language_048
+		om7_ship_baltic_language_049
+	}
+	dialects = {
+		latvian_dialect = {
+			male_names = {
+				name_abel name_egil DA_rdze name_john name_peter name_andrew name_michael name_abraham name_adam name_albert
+				name_alexander name_anthony name_arnold name_balthazar name_benedict name_bernard name_boniface name_casimir
+				name_constantine name_edgar name_edmond name_george name_henry name_james name_martin name_matthew
+				name_matthias name_maurice name_paul name_richard name_robert name_thomas
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				DA_rdze
+				name_john
+				name_peter
+				name_andrew
+				name_michael
+				name_henry
+				name_james
+				name_martin
+				name_matthew
+				name_matthias
+				name_george
+				name_adam
+				name_albert
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_john
+				name_peter
+				name_andrew
+				name_michael
+				name_casimir
+				name_anthony
+				name_benedict
+				name_bernard
+				name_constantine
+				name_edgar
+				name_maurice
+				name_paul
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_richard
+				name_robert
+				name_thomas
+				name_anthony
+				name_edgar
+				name_edmond
+				name_arnold
+				name_paul
+				name_martin
+			}
+			female_names = {
+				name_galina Aleite Allenke Dzeguze Hanse Kerstena Kordula name_elizabeth name_martha name_barbara
+				name_om_lv_ilze name_alice name_catherine name_danuta name_gertrude name_madeleine name_odilia name_ruth
+				name_stanislava name_anna name_christine name_helen name_margaret name_mary name_sophia name_regina
+				name_agnes name_eve name_judith
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				Aleite
+				Allenke
+				Dzeguze
+				Hanse
+				Kerstena
+				Kordula
+				name_anna
+				name_mary
+				name_catherine
+				name_elizabeth
+				name_christine
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_mary
+				name_catherine
+				name_elizabeth
+				name_gertrude
+				name_madeleine
+				name_margaret
+				name_sophia
+				name_regina
+				name_agnes
+				name_eve
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alice
+				name_elizabeth
+				name_helen
+				name_regina
+				name_barbara
+				name_judith
+				name_ruth
+				name_stanislava
+				name_galina
+				name_om_lv_ilze
+			}
+			dynasty_names = {
+				om_dyn_lv_tizenhauzens om_dyn_lv_manteifelis om_dyn_lv_rozenbergs
+			}
+			lowborn = {
+				om_low_lv_kalejs om_low_lv_zvejnieks om_low_lv_liepi_s
+			}
+			ship_names = {
+				om7_ship_latvian_dialect_001 om7_ship_latvian_dialect_002 om7_ship_latvian_dialect_003
+				om7_ship_latvian_dialect_004 om7_ship_latvian_dialect_005 om7_ship_latvian_dialect_006
+				om7_ship_latvian_dialect_007 om7_ship_latvian_dialect_008 om7_ship_latvian_dialect_009
+				om7_ship_latvian_dialect_010 om7_ship_latvian_dialect_011 om7_ship_latvian_dialect_012
+				om7_ship_latvian_dialect_013 om7_ship_latvian_dialect_014 om7_ship_latvian_dialect_015
+				om7_ship_latvian_dialect_016 om7_ship_latvian_dialect_017 om7_ship_latvian_dialect_018
+				om7_ship_latvian_dialect_019 om7_ship_latvian_dialect_020 om7_ship_latvian_dialect_021
+				om7_ship_latvian_dialect_022 om7_ship_latvian_dialect_023 om7_ship_latvian_dialect_024
+				om7_ship_latvian_dialect_025 om7_ship_latvian_dialect_026 om7_ship_latvian_dialect_027
+				om7_ship_latvian_dialect_028 om7_ship_latvian_dialect_029 om7_ship_latvian_dialect_030
+				om7_ship_latvian_dialect_031 om7_ship_latvian_dialect_032
+			}
+		}
+		lithuanian_dialect = {
+			male_names = {
+				name_alphonse Daubaras Daugirdas Getautas name_zygmantas name_nicholas name_george name_om_lt_radvila
+				name_algirdas name_gediminas name_jogaila name_kestutis name_mindaugas name_vytautas name_john name_michael
+				name_casimir name_anthony name_joseph name_stanislav name_vincent name_peter name_paul name_martin
+				name_matthew name_james name_albert name_alexander name_om_bat_butautas name_om_bat_svitrigaila
+				name_om_lt_daumantas name_om_lt_skirgaila name_om_lt_narimantas name_om_lt_karijotas name_om_lt_jaunutis
+				name_om_lt_liubartas name_om_lt_vykintas name_om_lt_tautvilas
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				Daubaras
+				Daugirdas
+				Getautas
+				name_algirdas
+				name_gediminas
+				name_jogaila
+				name_kestutis
+				name_mindaugas
+				name_vytautas
+				name_zygmantas
+				name_om_lt_radvila
+				name_om_bat_butautas
+				name_om_bat_svitrigaila
+				name_om_lt_daumantas
+				name_om_lt_skirgaila
+				name_om_lt_narimantas
+				name_om_lt_karijotas
+				name_om_lt_jaunutis
+				name_om_lt_liubartas
+				name_om_lt_vykintas
+				name_om_lt_tautvilas
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_nicholas
+				name_george
+				name_john
+				name_michael
+				name_casimir
+				name_anthony
+				name_stanislav
+				name_peter
+				name_paul
+				name_matthew
+				name_james
+				name_vytautas
+				name_zygmantas
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_joseph
+				name_vincent
+				name_martin
+				name_albert
+				name_alphonse
+				name_casimir
+				name_nicholas
+				name_george
+				name_john
+				name_michael
+			}
+			female_names = {
+				name_om_lt_radvile name_catherine name_regina name_agnes Aldona name_birute name_danute name_anna
+				name_barbara name_sophia name_mary name_christine name_theresa name_hedwig name_helen name_julianne
+				name_elizabeth name_om_bat_gaudimante
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				Aldona
+				name_birute
+				name_danute
+				name_om_lt_radvile
+				name_om_bat_gaudimante
+				name_anna
+				name_mary
+				name_sophia
+				name_catherine
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_catherine
+				name_agnes
+				name_anna
+				name_barbara
+				name_sophia
+				name_mary
+				name_christine
+				name_hedwig
+				name_helen
+				name_julianne
+				name_elizabeth
+				name_regina
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_regina
+				name_theresa
+				name_elizabeth
+				name_mary
+				name_christine
+				name_catherine
+				name_barbara
+				name_helen
+				name_sophia
+			}
+			dynasty_names = {
+				om_dyn_lt_astikas om_dyn_lt_tiskevicius om_dyn_lt_oginskis
+			}
+			lowborn = {
+				om_low_lt_vaitkus om_low_lt_paulauskas om_low_lt_stankevicius
+			}
+			ship_names = {
+				om7_ship_lithuanian_dialect_001 om7_ship_lithuanian_dialect_002 om7_ship_lithuanian_dialect_003
+				om7_ship_lithuanian_dialect_004 om7_ship_lithuanian_dialect_005 om7_ship_lithuanian_dialect_006
+				om7_ship_lithuanian_dialect_007 om7_ship_lithuanian_dialect_008 om7_ship_lithuanian_dialect_009
+				om7_ship_lithuanian_dialect_010 om7_ship_lithuanian_dialect_011 om7_ship_lithuanian_dialect_012
+				om7_ship_lithuanian_dialect_013 om7_ship_lithuanian_dialect_014 om7_ship_lithuanian_dialect_015
+				om7_ship_lithuanian_dialect_016 om7_ship_lithuanian_dialect_017 om7_ship_lithuanian_dialect_018
+				om7_ship_lithuanian_dialect_019 om7_ship_lithuanian_dialect_020 om7_ship_lithuanian_dialect_021
+				om7_ship_lithuanian_dialect_022 om7_ship_lithuanian_dialect_023 om7_ship_lithuanian_dialect_024
+				om7_ship_lithuanian_dialect_025 om7_ship_lithuanian_dialect_026 om7_ship_lithuanian_dialect_027
+				om7_ship_lithuanian_dialect_028 om7_ship_lithuanian_dialect_029 om7_ship_lithuanian_dialect_030
+				om7_ship_lithuanian_dialect_031 om7_ship_lithuanian_dialect_032 om7_ship_lithuanian_dialect_033
+				om7_ship_lithuanian_dialect_034 om7_ship_lithuanian_dialect_035 om7_ship_lithuanian_dialect_036
+				om7_ship_lithuanian_dialect_037 om7_ship_lithuanian_dialect_038
+			}
+		}
+		western_baltic_dialect = {
+			ship_names = {
+				om7_ship_western_baltic_dialect_001 om7_ship_western_baltic_dialect_002 om7_ship_western_baltic_dialect_003
+				om7_ship_western_baltic_dialect_004 om7_ship_western_baltic_dialect_005 om7_ship_western_baltic_dialect_006
+				om7_ship_western_baltic_dialect_007 om7_ship_western_baltic_dialect_008 om7_ship_western_baltic_dialect_009
+				om7_ship_western_baltic_dialect_010 om7_ship_western_baltic_dialect_011 om7_ship_western_baltic_dialect_012
+				om7_ship_western_baltic_dialect_013 om7_ship_western_baltic_dialect_014 om7_ship_western_baltic_dialect_015
+				om7_ship_western_baltic_dialect_016 om7_ship_western_baltic_dialect_017 om7_ship_western_baltic_dialect_018
+				om7_ship_western_baltic_dialect_019 om7_ship_western_baltic_dialect_020 om7_ship_western_baltic_dialect_021
+				om7_ship_western_baltic_dialect_022 om7_ship_western_baltic_dialect_023 om7_ship_western_baltic_dialect_024
+				om7_ship_western_baltic_dialect_025 om7_ship_western_baltic_dialect_026 om7_ship_western_baltic_dialect_027
+				om7_ship_western_baltic_dialect_028 om7_ship_western_baltic_dialect_029 om7_ship_western_baltic_dialect_030
+				om7_ship_western_baltic_dialect_031 om7_ship_western_baltic_dialect_032 om7_ship_western_baltic_dialect_033
+				om7_ship_western_baltic_dialect_034 om7_ship_western_baltic_dialect_035 om7_ship_western_baltic_dialect_036
+				om7_ship_western_baltic_dialect_037 om7_ship_western_baltic_dialect_038 om7_ship_western_baltic_dialect_039
+				om7_ship_western_baltic_dialect_040
+			}
+			male_names = {
+				om7_pru_widewuto om7_pru_bruteno om7_pru_auctume om7_pru_barto om7_pru_galindo om7_pru_warmo om7_pru_natango
+				om7_pru_pomes om7_pru_poges om7_pru_skomantas om7_pru_herkus om7_pru_glappo om7_pru_diwanus om7_pru_glande
+				om7_pru_auctumo om7_pru_swayno om7_pru_nomedas om7_pru_survabuno om7_pru_miligedo om7_pru_perbando
+				om7_pru_warpoda om7_pru_gedune om7_pru_trinota om7_pru_nalube om7_pru_linko om7_pru_lucter om7_pru_ysembuto
+				om7_pru_mante om7_pru_wissebut om7_pru_tulne om7_pru_hennig om7_pru_mertin om7_pru_claus om7_pru_jacob
+				om7_pru_michel om7_pru_johann om7_pru_friedrich om7_pru_gottlieb om7_pru_kristupas om7_pru_jurgis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_pru_widewuto
+				om7_pru_bruteno
+				om7_pru_auctume
+				om7_pru_barto
+				om7_pru_galindo
+				om7_pru_warmo
+				om7_pru_natango
+				om7_pru_pomes
+				om7_pru_poges
+				om7_pru_skomantas
+				om7_pru_herkus
+				om7_pru_glappo
+				om7_pru_diwanus
+				om7_pru_glande
+				om7_pru_auctumo
+				om7_pru_swayno
+				om7_pru_nomedas
+				om7_pru_survabuno
+				om7_pru_miligedo
+				om7_pru_perbando
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_pru_warpoda
+				om7_pru_gedune
+				om7_pru_trinota
+				om7_pru_nalube
+				om7_pru_linko
+				om7_pru_lucter
+				om7_pru_ysembuto
+				om7_pru_mante
+				om7_pru_wissebut
+				om7_pru_tulne
+				om7_pru_hennig
+				om7_pru_mertin
+				om7_pru_claus
+				om7_pru_jacob
+				om7_pru_michel
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_pru_johann
+				om7_pru_friedrich
+				om7_pru_gottlieb
+				om7_pru_kristupas
+				om7_pru_jurgis
+			}
+			female_names = {
+				om7_pru_gaudina om7_pru_wissegauda om7_pru_preibuta om7_pru_swaynota om7_pru_laime om7_pru_milda
+				om7_pru_austeja om7_pru_rasa om7_pru_vaiva om7_pru_gunda om7_pru_birute om7_pru_danute om7_pru_aldona
+				om7_pru_ona om7_pru_kotryna om7_pru_doroteja om7_pru_elzbieta om7_pru_margarita om7_pru_gertruda
+				om7_pru_barbora om7_pru_marija om7_pru_sofija om7_pru_karolina om7_pru_viktorija om7_pru_emilija
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_pru_gaudina
+				om7_pru_wissegauda
+				om7_pru_preibuta
+				om7_pru_swaynota
+				om7_pru_laime
+				om7_pru_milda
+				om7_pru_austeja
+				om7_pru_rasa
+				om7_pru_vaiva
+				om7_pru_gunda
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_pru_birute
+				om7_pru_danute
+				om7_pru_aldona
+				om7_pru_ona
+				om7_pru_kotryna
+				om7_pru_doroteja
+				om7_pru_elzbieta
+				om7_pru_margarita
+				om7_pru_gertruda
+				om7_pru_barbora
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_pru_marija
+				om7_pru_sofija
+				om7_pru_karolina
+				om7_pru_viktorija
+				om7_pru_emilija
+			}
+			dynasty_names = {
+				om7_dyn_western_baltic_skomantas om7_dyn_western_baltic_herkus om7_dyn_western_baltic_glappo
+				om7_dyn_western_baltic_diwanus om7_dyn_western_baltic_glande om7_dyn_western_baltic_auctumo
+				om7_dyn_western_baltic_swayno om7_dyn_western_baltic_nomedas om7_dyn_western_baltic_survabuno
+				om7_dyn_western_baltic_miligedo om7_dyn_western_baltic_perbando om7_dyn_western_baltic_warpoda
+				om7_dyn_western_baltic_gedune om7_dyn_western_baltic_trinota om7_dyn_western_baltic_nalube
+				om7_dyn_western_baltic_linko om7_dyn_western_baltic_lucter om7_dyn_western_baltic_ysembuto
+				om7_dyn_western_baltic_mante om7_dyn_western_baltic_wissebut
+			}
+			lowborn = {
+				om7_dyn_western_baltic_skomantas om7_dyn_western_baltic_herkus om7_dyn_western_baltic_glappo
+				om7_dyn_western_baltic_diwanus om7_dyn_western_baltic_glande om7_dyn_western_baltic_auctumo
+				om7_dyn_western_baltic_swayno om7_dyn_western_baltic_nomedas om7_dyn_western_baltic_survabuno
+				om7_dyn_western_baltic_miligedo om7_dyn_western_baltic_perbando om7_dyn_western_baltic_warpoda
+				om7_dyn_western_baltic_gedune om7_dyn_western_baltic_trinota om7_dyn_western_baltic_nalube
+				om7_dyn_western_baltic_linko om7_dyn_western_baltic_lucter om7_dyn_western_baltic_ysembuto
+				om7_dyn_western_baltic_mante om7_dyn_western_baltic_wissebut
+			}
+		}
+	}
+}

@@ -1,0 +1,929 @@
+﻿armenian_language = {
+	color = map_ARM
+	male_names = {
+		Abas Abirad Aboughamr Aboulgharib name_abraham name_alexander Arakel Ardeshir name_aram Ari Armen
+		name_arsenios Arshak Arshavir Artashes Artashir Artavazd Ashot Athom Atrnerseh name_avag Avedis Badouagan
+		Bagour name_bagrat Bedros Berjouhi Boghos Davit Eshkhan Gagik Gevorg Ghoukas Gosdantin Grigor Gurgen Gyulnara
+		Hagop Hakob Hamazasp Hayk name_hethum name_john Hovsep Ishkhan Jirair Kapriel Karayan name_george Khachik
+		Khajag Khosrau Khosrov Krikor Levon name_lupus Malkhas Mamigon name_emmanuel Margos name_melek Mihrdat Mikayel
+		Mkhitar Mleh Movses Musegh Mushel Mzhezh Nairi Narineh Narses Nerseh name_oshin Petros Poghos Roupen Sahak
+		Samvel Sarkis Sevag Sevan Smbat name_shahnshan Tachar Taniel name_theodore Tigran Vagram Vahan Zadig Zoravan
+		name_arm_abel name_arm_aniketos name_arm_avetik name_arm_barsegh name_arm_derenik name_arm_egishe
+		name_arm_ghazar name_arm_hayrapet name_arm_hmayak name_arm_hovnan name_arm_karapet name_arm_karen
+		name_arm_koriun name_arm_matevos name_arm_mesrop name_arm_melikset name_arm_mkrtich name_arm_nerses
+		name_arm_parsam name_arm_suren name_arm_tovma name_arm_trdat name_arm_vahe name_arm_varazdat name_arm_vardan
+		name_arm_vasak name_arm_yervand name_arm_zareh name_arm_zakare name_zechariah name_samuel
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_bagrat
+		Ashot
+		Gagik
+		Grigor
+		Smbat
+		name_arm_vardan
+		name_john
+		name_om_arm_sargis
+		name_om_arm_toros
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_abraham
+		name_david
+		name_george
+		name_john
+		name_michael
+		name_peter
+		name_stephen
+		Levon
+		name_om_arm_hetum
+		name_oshin
+		name_arm_vardan
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_alexander
+		name_gabriel
+		Movses
+		name_om_arm_khachatur
+		Hakob
+		name_arm_mkrtich
+	}
+	female_names = {
+		Aghavni Alitz Almasd Anahit Ani name_anna Anoush Arda Arevig Arin Baydzar Berjanoush Berjouhi Dalita Datevig
+		Elen Eliz Gadar Gorandoukht Hasmig Houri Hranoush Hripsimeh Keghanoush Keran Khorishah Kohar Latavri Leyli
+		Lousin Mara Margarid name_mary Mariam Meghranoush name_milena Nane Nazani Ovsanna Pounig Razmouhi name_rita
+		Satenik Satinik Seta Siran Sirvart Srpouhi Shoushanig Takouhi name_tamara Vartanoush Vartouhi Vosgi Yeva
+		name_elizabeth name_arm_araksia name_arm_arpenik name_arm_ashkhen name_arm_gayane name_arm_gohar
+		name_arm_heghine name_arm_katranide name_arm_khosrovanush name_arm_mariamne name_arm_manushak
+		name_arm_parandzem name_arm_sahakanush name_arm_siranush name_arm_shoghakat name_arm_talar name_arm_tatevik
+		name_arm_varduhi name_arm_varsenik name_arm_voskanush name_arm_zaruhi name_sophia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_anna
+		name_catherine
+		name_helen
+		name_mary
+		name_sophia
+		name_om_arm_hripsime
+		name_om_arm_shushan
+		name_arm_gayane
+		name_om_arm_arpine
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_alexandra
+		name_elizabeth
+		name_natalia
+		Nane
+		name_arm_siranush
+		name_om_arm_voski
+		name_om_arm_nazeli
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 145
+		}
+		Anahit
+		Mariam
+		name_elizabeth
+		name_om_arm_khatun
+		name_tamara
+	}
+	dynasty_names = {
+		Abamelik Amatuni Bagdazarian Bagratuni Bebutov Khojaminasishvili Melikov Orbelid Pahlavuni Rubenid
+		Tumanishvili cau_dyn_arm_artsruni cau_dyn_arm_mamikonian cau_dyn_arm_siwni cau_dyn_arm_orbelian
+		cau_dyn_arm_proshian cau_dyn_arm_zakarian cau_dyn_arm_vachutian cau_dyn_arm_hasan_jalalyan
+		cau_dyn_arm_hethumid cau_dyn_arm_lusignan cau_dyn_arm_smbatian cau_dyn_arm_vahewuni cau_dyn_arm_kamsarakan
+		cau_dyn_arm_arcruni cau_dyn_arm_rubenian cau_dyn_arm_rishtuni om_dyn_arm_hetumid
+	}
+	lowborn = {
+		Avetisyan Davtyan Gevorgyan Grigoryan Hakobyan Hovhannisyan Mkhitaryan Petrosyan Poghosyan Sargsyan Vardanyan
+		cau_low_arm_abrahamyan cau_low_arm_arutyunyan cau_low_arm_avagyan cau_low_arm_bedrosyan cau_low_arm_ghazaryan
+		cau_low_arm_grigorian cau_low_arm_harutyunyan cau_low_arm_khachaturyan cau_low_arm_martikyan
+		cau_low_arm_melikyan cau_low_arm_minasian cau_low_arm_muradyan cau_low_arm_nersisyan cau_low_arm_stepanyan
+		cau_low_arm_torosyan om_low_arm_mkrtchyan om_low_arm_khachatryan
+	}
+	ship_names = {
+		om7_ship_armenian_language_001 om7_ship_armenian_language_002 om7_ship_armenian_language_003
+		om7_ship_armenian_language_004 om7_ship_armenian_language_005 om7_ship_armenian_language_006
+		om7_ship_armenian_language_007 om7_ship_armenian_language_008 om7_ship_armenian_language_009
+		om7_ship_armenian_language_010 om7_ship_armenian_language_011 om7_ship_armenian_language_012
+		om7_ship_armenian_language_013 om7_ship_armenian_language_014 om7_ship_armenian_language_015
+		om7_ship_armenian_language_016 om7_ship_armenian_language_017 om7_ship_armenian_language_018
+		om7_ship_armenian_language_019 om7_ship_armenian_language_020 om7_ship_armenian_language_021
+		om7_ship_armenian_language_022 om7_ship_armenian_language_023 om7_ship_armenian_language_024
+		om7_ship_armenian_language_025 om7_ship_armenian_language_026 om7_ship_armenian_language_027
+		om7_ship_armenian_language_028 om7_ship_armenian_language_029 om7_ship_armenian_language_030
+		om7_ship_armenian_language_031 om7_ship_armenian_language_032 om7_ship_armenian_language_033
+		om7_ship_armenian_language_034 om7_ship_armenian_language_035 om7_ship_armenian_language_036
+		om7_ship_armenian_language_037 om7_ship_armenian_language_038 om7_ship_armenian_language_039
+		om7_ship_armenian_language_040 om7_ship_armenian_language_041 om7_ship_armenian_language_042
+		om7_ship_armenian_language_043 om7_ship_armenian_language_044 om7_ship_armenian_language_045
+		om7_ship_armenian_language_046 om7_ship_armenian_language_047 om7_ship_armenian_language_048
+		om7_ship_armenian_language_049 om7_ship_armenian_language_050 om7_ship_armenian_language_051
+		om7_ship_armenian_language_052 om7_ship_armenian_language_053 om7_ship_armenian_language_054
+		om7_ship_armenian_language_055 om7_ship_armenian_language_056 om7_ship_armenian_language_057
+		om7_ship_armenian_language_058 om7_ship_armenian_language_059 om7_ship_armenian_language_060
+		om7_ship_armenian_language_061 om7_ship_armenian_language_062 om7_ship_armenian_language_063
+		om7_ship_armenian_language_064 om7_ship_armenian_language_065 om7_ship_armenian_language_066
+		om7_ship_armenian_language_067 om7_ship_armenian_language_068 om7_ship_armenian_language_069
+		om7_ship_armenian_language_070 om7_ship_armenian_language_071 om7_ship_armenian_language_072
+		om7_ship_armenian_language_073 om7_ship_armenian_language_074 om7_ship_armenian_language_075
+		om7_ship_armenian_language_076 om7_ship_armenian_language_077 om7_ship_armenian_language_078
+		om7_ship_armenian_language_079 om7_ship_armenian_language_080 om7_ship_armenian_language_081
+		om7_ship_armenian_language_082 om7_ship_armenian_language_083 om7_ship_armenian_language_084
+		om7_ship_armenian_language_085 om7_ship_armenian_language_086 om7_ship_armenian_language_087
+		om7_ship_armenian_language_088 om7_ship_armenian_language_089 om7_ship_armenian_language_090
+		om7_ship_armenian_language_091 om7_ship_armenian_language_092 om7_ship_armenian_language_093
+		om7_ship_armenian_language_094 om7_ship_armenian_language_095 om7_ship_armenian_language_096
+		om7_ship_armenian_language_097 om7_ship_armenian_language_098 om7_ship_armenian_language_099
+		om7_ship_armenian_language_100 om7_ship_armenian_language_101 om7_ship_armenian_language_102
+		om7_ship_armenian_language_103 om7_ship_armenian_language_104 om7_ship_armenian_language_105
+		om7_ship_armenian_language_106 om7_ship_armenian_language_107 om7_ship_armenian_language_108
+		om7_ship_armenian_language_109 om7_ship_armenian_language_110 om7_ship_armenian_language_111
+		om7_ship_armenian_language_112 om7_ship_armenian_language_113 om7_ship_armenian_language_114
+		om7_ship_armenian_language_115 om7_ship_armenian_language_116 om7_ship_armenian_language_117
+		om7_ship_armenian_language_118 om7_ship_armenian_language_119 om7_ship_armenian_language_120
+		om7_ship_armenian_language_121 om7_ship_armenian_language_122 om7_ship_armenian_language_123
+		om7_ship_armenian_language_124 om7_ship_armenian_language_125 om7_ship_armenian_language_126
+		om7_ship_armenian_language_127 om7_ship_armenian_language_128
+	}
+}
+
+georgian_language = {
+	color = map_GEO
+	male_names = {
+		Adarnase Aghsartan name_akakios Aleksandre Andronik Anzori Archil Ashot Atrnerseh name_bagrat Bagour Bakar
+		Bakur Bebur Birtveli name_david name_demetrius Demna Djavakhi Djurkha Erekle name_gabriel Gagik name_george
+		Grigoli Guaram Gubaz Gulikho Gurgen Ioane Ishkhanik Iveri Jarji Jesse Kaihosro Kakhi Kartlos Keykhosrau Koba
+		Koki name_constantine Kvarkvare Kviria Kvirike Levan Luarsab Lukhum name_lupus Malkhas Malkhazi Mamia Merab
+		name_michael Mukhran Mushni Nerse Nikoloz Okhropir Orbeli Padla Revaz Rostom Samoeli Shanshe name_simeon Shota
+		Stepanoz Sumbat Takha Teimuraz Torgva Tornike Tsotne Ushisha Vache name_vakhtang Xareba Zurab Zviad
+		name_geo_abesalom name_geo_besarion name_geo_beshken name_geo_bezhan name_geo_bidzina name_geo_dimitri
+		name_geo_givi name_geo_guram name_geo_iakob name_geo_ioseb name_geo_jansug name_geo_lasha name_geo_liparit
+		name_geo_mose name_geo_nodar name_geo_otia name_geo_paata name_geo_papuna name_geo_pharsadan name_geo_shalva
+		name_geo_sulkhan name_geo_tevdore name_geo_vakhushti name_geo_zakaria name_geo_zaza name_joachim
+		name_zechariah name_grigol name_ivane name_irakli
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_bagrat
+		name_david
+		name_george
+		name_vakhtang
+		name_grigol
+		name_ivane
+		name_irakli
+		name_demetrius
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_alexander
+		name_constantine
+		name_demetrius
+		name_gabriel
+		name_michael
+		name_nicholas
+		name_peter
+		name_vakhtang
+		Levan
+		Luarsab
+		Rostom
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_alexander
+		name_david
+		name_george
+		name_michael
+		name_nicholas
+		Erekle
+		name_geo_paata
+		name_om_geo_solomon
+		Zurab
+	}
+	female_names = {
+		Ana Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene Eliso Endzela Gogutsa Gulchara Guliko
+		Gulisa Gulvardi Gurandukht Gvantsa Ia Judjuna Kekela Ketevan Lamara Lamzira Lela Mariami Mariam Mathiko
+		Mthvarisa Mzekhar Natia name_nino name_rusudan Sanatha Shorena Shukhia Suliko name_tamara Taplo Tinatini
+		Tsiala Vardo name_geo_anuka name_geo_darejan name_geo_despine name_geo_gulkan name_geo_gulnara
+		name_geo_khatuna name_geo_khorashan name_geo_khvaramze name_geo_maia name_geo_medea name_geo_mzia
+		name_geo_nestani name_geo_rodami name_salome name_geo_tekle name_sophia name_catherine
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_rusudan
+		name_tamara
+		Ketevan
+		name_om_geo_tinatin
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_anna
+		name_catherine
+		name_elizabeth
+		name_helen
+		name_sophia
+		name_geo_darejan
+		Mariam
+		Ana
+		name_om_geo_nestan_darejan
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_alexandra
+		name_daria
+		name_nino
+		name_salome
+		name_geo_tekle
+		name_om_geo_maka
+	}
+	dynasty_names = {
+		Bagrationi Mukhrani cau_dyn_geo_dadiani cau_dyn_geo_gurieli cau_dyn_geo_jakeli cau_dyn_geo_orbeliani
+		cau_dyn_geo_eristavi cau_dyn_geo_abashidze cau_dyn_geo_amilakhvari cau_dyn_geo_andronikashvili
+		cau_dyn_geo_barata_shvili cau_dyn_geo_chavchavadze cau_dyn_geo_chkheidze cau_dyn_geo_gelovani
+		cau_dyn_geo_shervashidze cau_dyn_geo_dadeshkeliani cau_dyn_geo_qipiani cau_dyn_geo_tsereteli
+		cau_dyn_geo_tsitsishvili cau_dyn_geo_avalishvili
+	}
+	lowborn = {
+		Beridze Bolkvadze Gelashvili Giorgadze Kapanadze Kvaratskhelia Maisuradze Nozadze Lomidze Tsiklauri
+		cau_low_geo_abashvili cau_low_geo_davitashvili cau_low_geo_gogoladze cau_low_geo_grigolia cau_low_geo_kiknadze
+		cau_low_geo_lortkipanidze cau_low_geo_mchedlidze cau_low_geo_meladze cau_low_geo_nikolaishvili
+		cau_low_geo_pirtskhalava cau_low_geo_robaqidze cau_low_geo_shengelia cau_low_geo_tamarashvili
+		cau_low_geo_tsereteli cau_low_geo_vachnadze
+	}
+	ship_names = {
+		om7_ship_georgian_language_001 om7_ship_georgian_language_002 om7_ship_georgian_language_003
+		om7_ship_georgian_language_004 om7_ship_georgian_language_005 om7_ship_georgian_language_006
+		om7_ship_georgian_language_007 om7_ship_georgian_language_008 om7_ship_georgian_language_009
+		om7_ship_georgian_language_010 om7_ship_georgian_language_011 om7_ship_georgian_language_012
+		om7_ship_georgian_language_013 om7_ship_georgian_language_014 om7_ship_georgian_language_015
+		om7_ship_georgian_language_016 om7_ship_georgian_language_017 om7_ship_georgian_language_018
+		om7_ship_georgian_language_019 om7_ship_georgian_language_020 om7_ship_georgian_language_021
+		om7_ship_georgian_language_022 om7_ship_georgian_language_023 om7_ship_georgian_language_024
+		om7_ship_georgian_language_025 om7_ship_georgian_language_026 om7_ship_georgian_language_027
+		om7_ship_georgian_language_028 om7_ship_georgian_language_029 om7_ship_georgian_language_030
+		om7_ship_georgian_language_031 om7_ship_georgian_language_032 om7_ship_georgian_language_033
+		om7_ship_georgian_language_034 om7_ship_georgian_language_035 om7_ship_georgian_language_036
+		om7_ship_georgian_language_037 om7_ship_georgian_language_038 om7_ship_georgian_language_039
+		om7_ship_georgian_language_040 om7_ship_georgian_language_041 om7_ship_georgian_language_042
+		om7_ship_georgian_language_043 om7_ship_georgian_language_044 om7_ship_georgian_language_045
+		om7_ship_georgian_language_046 om7_ship_georgian_language_047 om7_ship_georgian_language_048
+		om7_ship_georgian_language_049 om7_ship_georgian_language_050 om7_ship_georgian_language_051
+		om7_ship_georgian_language_052 om7_ship_georgian_language_053 om7_ship_georgian_language_054
+		om7_ship_georgian_language_055 om7_ship_georgian_language_056 om7_ship_georgian_language_057
+		om7_ship_georgian_language_058 om7_ship_georgian_language_059 om7_ship_georgian_language_060
+		om7_ship_georgian_language_061 om7_ship_georgian_language_062 om7_ship_georgian_language_063
+		om7_ship_georgian_language_064 om7_ship_georgian_language_065 om7_ship_georgian_language_066
+		om7_ship_georgian_language_067 om7_ship_georgian_language_068 om7_ship_georgian_language_069
+		om7_ship_georgian_language_070 om7_ship_georgian_language_071 om7_ship_georgian_language_072
+		om7_ship_georgian_language_073 om7_ship_georgian_language_074 om7_ship_georgian_language_075
+		om7_ship_georgian_language_076 om7_ship_georgian_language_077 om7_ship_georgian_language_078
+		om7_ship_georgian_language_079 om7_ship_georgian_language_080 om7_ship_georgian_language_081
+		om7_ship_georgian_language_082 om7_ship_georgian_language_083 om7_ship_georgian_language_084
+		om7_ship_georgian_language_085 om7_ship_georgian_language_086 om7_ship_georgian_language_087
+		om7_ship_georgian_language_088 om7_ship_georgian_language_089 om7_ship_georgian_language_090
+		om7_ship_georgian_language_091 om7_ship_georgian_language_092 om7_ship_georgian_language_093
+		om7_ship_georgian_language_094 om7_ship_georgian_language_095 om7_ship_georgian_language_096
+		om7_ship_georgian_language_097 om7_ship_georgian_language_098 om7_ship_georgian_language_099
+		om7_ship_georgian_language_100 om7_ship_georgian_language_101 om7_ship_georgian_language_102
+		om7_ship_georgian_language_103 om7_ship_georgian_language_104 om7_ship_georgian_language_105
+		om7_ship_georgian_language_106 om7_ship_georgian_language_107 om7_ship_georgian_language_108
+		om7_ship_georgian_language_109 om7_ship_georgian_language_110 om7_ship_georgian_language_111
+		om7_ship_georgian_language_112 om7_ship_georgian_language_113
+	}
+}
+
+circassian_language = {
+	color = map_CIR
+	male_names = {
+		Petrezok Verzacht Belzebuk Parsabok Smbat Stepanos name_stephen Tachat Taniel name_daniel Tatoul Tigran Tornik
+		Tovmas name_thomas name_theodore Trdat Vache Vachagan Vagharshak Vahag Vahan name_vahram Vakhtank Varazdat
+		Vartan Vassak Vesd Vrtanes name_zechariah Zarmihr Inal Bougatchik Tanachouk Sibok Atsymtchouk Toutaryk Ezgbold
+		Koudadik Kavklytch Kanoukov Temriouk Tazriout Tchiourak Baachik Machik Boulgairouk Namstriouk Chopchouk Mait
+		Kanboulat Koudenet Khoudenet Otchikan Damaniouk Domaniouk Isbouldoug Anzarouk Chimgalei Kanglytchev Bitemriouk
+		Cholokh Tachbsaroukov Papchouk Oslonbek Iansokh Kaitouk Nastriouk Nartchov Pchimakha Ademir Kazanalp
+		Boudatcheis Sountchelei Olegouk Khotokiouki Ildar Tchapolov Saltankoul Saouslan Tazryt Okhlov Moudar
+		Kounmourza Kanchov Slanbek inarmas Klytch Sataltanmagnout Kazy name_cir_adilgerey name_cir_ahmedgerey
+		name_cir_ali name_cir_batyr name_cir_beslan name_cir_domanuk name_cir_hatuq name_cir_idar name_cir_kanklych
+		name_cir_kasbulat name_cir_kuchuk name_cir_mamstruk name_cir_mashuk name_cir_misost name_cir_pshimaqo
+		name_cir_qeytuqo name_cir_sholokh name_cir_temruqo name_cir_tlhostan name_cir_zhebaghi name_ahmad
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		Inal
+		name_cir_beslan
+		name_om_ady_pshimaf
+		name_om_ady_temryuk
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_ady_aslanbek
+		Kazy
+		name_om_ady_kazbek
+		name_om_ady_khatokshoko
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_ady_hadji_girey
+		name_om_ady_seferbiy
+		name_om_ady_tuguzhuko
+	}
+	female_names = {
+		Zuliyzhan Susane Babishe Zmroukhd Adrine Elsapet Sarine Khazbiika Kheeda Kurbiika name_leyla Laliita Lamaara
+		Liiza Looli Lulii Maali Maaret Madiina Makka Maliika Malkan Marjam Marzhan Milaana Nurbiika Nurishat Nuura
+		Peet_mat Qoqa name_cir_adey name_cir_altynchach name_cir_goshaney name_cir_gulbika name_cir_khanbike
+		name_cir_malhurub name_cir_pshizab name_cir_satanei name_cir_seteney name_cir_zhanbike name_mary
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_ady_guashene
+		name_om_ady_satenay
+		name_om_ady_naghoy
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_ady_fatima
+		name_om_ady_asiyat
+		name_cir_khanbike
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_cir_zhanbike
+		name_om_ady_gulizhar
+		name_om_ady_tlekhuch
+	}
+	dynasty_names = {
+		Guaye Adamiy Abzakh Zhaney Mamkhegh Mokhosh Natukhai Temirgoy Hatuqwai Khegaik Khetuk Cobein Shapsug Beslenei
+		Ubykh Tazryt Okhlov cau_dyn_cir_inalid cau_dyn_cir_idarey cau_dyn_cir_atazhukin cau_dyn_cir_misostov
+		cau_dyn_cir_kaitukin cau_dyn_cir_kudenetov cau_dyn_cir_kanukov cau_dyn_cir_bekovich_cherkassky
+		cau_dyn_cir_talostan cau_dyn_cir_shogenukov cau_dyn_cir_anchokov cau_dyn_cir_dudaruk om_dyn_ady_kabardey
+		om_dyn_ady_besleney om_dyn_ady_shapsugh
+	}
+	lowborn = {
+		cau_low_cir_adyghe cau_low_cir_anchokov cau_low_cir_besleneyev cau_low_cir_kabardokov cau_low_cir_kardanov
+		cau_low_cir_natukhayev cau_low_cir_pshunetlev cau_low_cir_shapsugov cau_low_cir_shogenov
+		cau_low_cir_temirgoyev om_low_ady_khatko om_low_ady_tleuzh om_low_ady_hapach om_low_ady_shemir
+		om_low_ady_tkhagaps
+	}
+	ship_names = {
+		om7_ship_circassian_language_001 om7_ship_circassian_language_002 om7_ship_circassian_language_003
+		om7_ship_circassian_language_004 om7_ship_circassian_language_005 om7_ship_circassian_language_006
+		om7_ship_circassian_language_007 om7_ship_circassian_language_008 om7_ship_circassian_language_009
+		om7_ship_circassian_language_010 om7_ship_circassian_language_011 om7_ship_circassian_language_012
+		om7_ship_circassian_language_013 om7_ship_circassian_language_014 om7_ship_circassian_language_015
+		om7_ship_circassian_language_016 om7_ship_circassian_language_017 om7_ship_circassian_language_018
+		om7_ship_circassian_language_019 om7_ship_circassian_language_020 om7_ship_circassian_language_021
+		om7_ship_circassian_language_022 om7_ship_circassian_language_023 om7_ship_circassian_language_024
+		om7_ship_circassian_language_025 om7_ship_circassian_language_026 om7_ship_circassian_language_027
+		om7_ship_circassian_language_028 om7_ship_circassian_language_029 om7_ship_circassian_language_030
+		om7_ship_circassian_language_031 om7_ship_circassian_language_032 om7_ship_circassian_language_033
+		om7_ship_circassian_language_034 om7_ship_circassian_language_035 om7_ship_circassian_language_036
+		om7_ship_circassian_language_037 om7_ship_circassian_language_038 om7_ship_circassian_language_039
+		om7_ship_circassian_language_040 om7_ship_circassian_language_041 om7_ship_circassian_language_042
+		om7_ship_circassian_language_043 om7_ship_circassian_language_044 om7_ship_circassian_language_045
+		om7_ship_circassian_language_046 om7_ship_circassian_language_047 om7_ship_circassian_language_048
+		om7_ship_circassian_language_049 om7_ship_circassian_language_050 om7_ship_circassian_language_051
+		om7_ship_circassian_language_052 om7_ship_circassian_language_053 om7_ship_circassian_language_054
+		om7_ship_circassian_language_055 om7_ship_circassian_language_056 om7_ship_circassian_language_057
+		om7_ship_circassian_language_058 om7_ship_circassian_language_059 om7_ship_circassian_language_060
+		om7_ship_circassian_language_061 om7_ship_circassian_language_062 om7_ship_circassian_language_063
+		om7_ship_circassian_language_064 om7_ship_circassian_language_065 om7_ship_circassian_language_066
+		om7_ship_circassian_language_067 om7_ship_circassian_language_068 om7_ship_circassian_language_069
+		om7_ship_circassian_language_070 om7_ship_circassian_language_071 om7_ship_circassian_language_072
+		om7_ship_circassian_language_073 om7_ship_circassian_language_074 om7_ship_circassian_language_075
+		om7_ship_circassian_language_076 om7_ship_circassian_language_077 om7_ship_circassian_language_078
+		om7_ship_circassian_language_079 om7_ship_circassian_language_080 om7_ship_circassian_language_081
+		om7_ship_circassian_language_082 om7_ship_circassian_language_083 om7_ship_circassian_language_084
+		om7_ship_circassian_language_085 om7_ship_circassian_language_086 om7_ship_circassian_language_087
+		om7_ship_circassian_language_088 om7_ship_circassian_language_089 om7_ship_circassian_language_090
+		om7_ship_circassian_language_091 om7_ship_circassian_language_092 om7_ship_circassian_language_093
+		om7_ship_circassian_language_094 om7_ship_circassian_language_095 om7_ship_circassian_language_096
+		om7_ship_circassian_language_097 om7_ship_circassian_language_098 om7_ship_circassian_language_099
+		om7_ship_circassian_language_100 om7_ship_circassian_language_101 om7_ship_circassian_language_102
+		om7_ship_circassian_language_103 om7_ship_circassian_language_104 om7_ship_circassian_language_105
+		om7_ship_circassian_language_106 om7_ship_circassian_language_107 om7_ship_circassian_language_108
+		om7_ship_circassian_language_109 om7_ship_circassian_language_110 om7_ship_circassian_language_111
+		om7_ship_circassian_language_112 om7_ship_circassian_language_113 om7_ship_circassian_language_114
+		om7_ship_circassian_language_115 om7_ship_circassian_language_116 om7_ship_circassian_language_117
+		om7_ship_circassian_language_118 om7_ship_circassian_language_119
+	}
+}
+
+alanic_language = {
+	color = map_ALN
+	family = iranic_language_family
+	male_names = {
+		Aslan Aslanbek Batraz Ibragim Khasan name_ruslan Soslan Taymuraz Afako Akhsar Akhsarbek Akhsartag name_alan
+		Alyksandr Aslanbeg Astan Astamaz Bakhva Barysbi Batyradz Bega Besik Dauyt Dudar Dzambeg Dzantemir Dzaug Elbrus
+		Geuaergi Irbek Isaq Kazbek Khetag Lazaer Makharbeg Mikhal Nikala Phaule Sarmat Sauarmag Soslanbek Sozyr
+		Sosyryqo Totraz Tsomak Uyryzmag Vano name_ala_aldar name_ala_arsamag name_ala_artag name_ala_becir
+		name_ala_durgulel name_ala_ituraz name_ala_khuddan name_ala_kudzaeg name_ala_rasht name_ala_sirdon
+		name_ala_tugan name_ala_uruzmag name_ala_wasdan name_ala_znaur name_george name_david name_isaac name_michael
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		Batraz
+		Soslan
+		name_ala_uruzmag
+		Akhsar
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		Khetag
+		name_om_ala_atsamaz
+		name_ala_aldar
+		Dudar
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Aslan
+		Aslanbek
+		Ibragim
+		Khasan
+		name_ruslan
+		Taymuraz
+		Alyksandr
+		Kazbek
+		Mikhal
+		Nikala
+		name_george
+		name_david
+		name_isaac
+		name_michael
+		name_ala_aldar
+		name_ala_tugan
+		name_ala_znaur
+	}
+	female_names = {
+		Agunda Arianae Atsyrukhs Dzerassa Elenae Irinae Mariae Mariamae Monikae Nataliae Olgae Qetevan Roksalana Sarae
+		Veronikae Zalina Zarinae Zinae name_ala_amina name_ala_aramat name_ala_fatima name_ala_madina name_ala_malkha
+		name_ala_nartika name_ala_satana name_ala_tamara name_ala_zeri name_ala_zera name_mary name_sophia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		Dzerassa
+		name_om_ala_shatana
+		name_ala_nartika
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_ala_zarina
+		name_ala_madina
+		name_ala_fatima
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Elenae
+		Irinae
+		Mariae
+		Mariamae
+		Monikae
+		Nataliae
+		Olgae
+		Qetevan
+		Roksalana
+		Sarae
+		Veronikae
+		Zalina
+		Zarinae
+		Zinae
+		name_ala_amina
+		name_ala_fatima
+		name_ala_madina
+		name_ala_tamara
+		name_mary
+		name_sophia
+	}
+	dynasty_names = {
+		cau_dyn_ala_tsarazon cau_dyn_ala_kusagon cau_dyn_ala_sidamon cau_dyn_ala_aldarov cau_dyn_ala_dudarov
+		cau_dyn_ala_tuganov cau_dyn_ala_kundukhov cau_dyn_ala_khetagurov
+	}
+	lowborn = {
+		Bazzaty Bestauty Bibylty Dhzioty Gabaraty Kharebaty cau_low_ala_abalty cau_low_ala_albegaty cau_low_ala_butaev
+		cau_low_ala_dzutsev cau_low_ala_gagloity cau_low_ala_kabaloev cau_low_ala_kozaev cau_low_ala_kusraev
+		cau_low_ala_mamiev cau_low_ala_tsalikov cau_low_ala_tskhovrebov cau_low_ala_zaseev om_low_ala_dudarov
+		om_low_ala_kundukhov om_low_ala_aldarov om_low_ala_berozov
+	}
+	ship_names = {
+		om7_ship_alanic_language_001 om7_ship_alanic_language_002 om7_ship_alanic_language_003
+		om7_ship_alanic_language_004 om7_ship_alanic_language_005 om7_ship_alanic_language_006
+		om7_ship_alanic_language_007 om7_ship_alanic_language_008 om7_ship_alanic_language_009
+		om7_ship_alanic_language_010 om7_ship_alanic_language_011 om7_ship_alanic_language_012
+		om7_ship_alanic_language_013 om7_ship_alanic_language_014 om7_ship_alanic_language_015
+		om7_ship_alanic_language_016 om7_ship_alanic_language_017 om7_ship_alanic_language_018
+		om7_ship_alanic_language_019 om7_ship_alanic_language_020 om7_ship_alanic_language_021
+		om7_ship_alanic_language_022 om7_ship_alanic_language_023 om7_ship_alanic_language_024
+		om7_ship_alanic_language_025 om7_ship_alanic_language_026 om7_ship_alanic_language_027
+		om7_ship_alanic_language_028 om7_ship_alanic_language_029 om7_ship_alanic_language_030
+		om7_ship_alanic_language_031 om7_ship_alanic_language_032 om7_ship_alanic_language_033
+		om7_ship_alanic_language_034 om7_ship_alanic_language_035 om7_ship_alanic_language_036
+		om7_ship_alanic_language_037 om7_ship_alanic_language_038 om7_ship_alanic_language_039
+		om7_ship_alanic_language_040 om7_ship_alanic_language_041 om7_ship_alanic_language_042
+		om7_ship_alanic_language_043 om7_ship_alanic_language_044 om7_ship_alanic_language_045
+		om7_ship_alanic_language_046 om7_ship_alanic_language_047 om7_ship_alanic_language_048
+		om7_ship_alanic_language_049 om7_ship_alanic_language_050 om7_ship_alanic_language_051
+		om7_ship_alanic_language_052 om7_ship_alanic_language_053 om7_ship_alanic_language_054
+		om7_ship_alanic_language_055 om7_ship_alanic_language_056 om7_ship_alanic_language_057
+		om7_ship_alanic_language_058 om7_ship_alanic_language_059 om7_ship_alanic_language_060
+		om7_ship_alanic_language_061 om7_ship_alanic_language_062 om7_ship_alanic_language_063
+		om7_ship_alanic_language_064 om7_ship_alanic_language_065 om7_ship_alanic_language_066
+	}
+}
+
+dagestanian_language = {
+	color = map_dagestanian
+	male_names = {
+		name_ahmad name_ali Muhamad Muhamadkhan name_muhammad name_murad Nurmuhamad name_ramazan Rasul name_ruslan
+		Shamil Sultan Abdula Abdulatip Abdusalam Ahmadkhan Alibek Amirkhan Anvar Dzhalal Gabib Gazhimagomed Gazhimurad
+		Gadzhimurat Gamzat_bek Hamzat Imanshapi Israil Kuramagomed Kurban Labazan Maksud Muslim Sagid name_said Shapi
+		Zhovhar Ziyavudin Rabadan Zumrud Apanni Shirvani Dzhabar Elkhan Gumyush name_karim Lavkha Lifri Mehamed
+		Mehamedali Mulkay Nakhchir Nariman Tarlan Vezirkhan Abdurakhman Akhmad Anzor Aslan Aslanbek Dukvakha Dzhbrail
+		Dzhamal Dzhokhar Ibragim Islam Islambek Khanpasha Khasan Makhmud Mayrbek Mokhmad Ramzan Salambek name_timur
+		Vakha Zaur Zaurbek Zelimkhan Abdulbek Abdulkhamid Abdulmezhid Abukhadzhi Abukhan Abumuslim Abusaid Abusolt
+		Abusupyan Abuyazid Abuzar Adlan Aidamir Akhyad Alimsultan Alkhazur Alvi Andarbek Apti Arbi Aset Aslambek
+		name_job Baudi Bekkhan Beksolta Beslan Bishr Buvaisar Chingiz Danilbek Dikalu Dokka Dukkhavakha Dzhambulat
+		Elbek Elimkhan Elmurza Kakhir Khamzat Khansultan Khasanbek Khasbulat Khaso Khassan Khavazh Khazbikar Khizir
+		Khuseyn Kuira Kuyra Kyura Lecha Lema Lom Madzhid Makhdi Marvan Marzbek Mayrsolt Mekhdi Movladi Movlid Movsar
+		Mumadi Murvan Nal Nazyr Olkhazar Ortsu Qoqa Rakhman Rizvan Saidalim Salamu Shakhid Shamkhan Shamsudin Sharip
+		Sulambek Sulim Sulimbek Sulumbek Supyan Surkho Sutarbi Taimaz Takhir Taymaskhan Taymaz Tskhogal Turpal Uvays
+		Vaharsolt Vait Vakhid Valid Viskhan Viskhazhi Yakhya Yamad Yaragi Yunadi Zalimkhan Zelemkhan Zelim Zelimxan
+		Zhovkhar Ziyaudin Zubaira name_dag_abbas name_dag_abdulaziz name_dag_abdulqadir name_dag_abu_bakr
+		name_dag_abu_muslim name_dag_akhberdil name_dag_chupan name_dag_eldar name_dag_hadji_murad name_dag_khalil
+		name_dag_magomedbek name_dag_murtazali name_dag_osman name_dag_surkay name_dag_surkhay name_dag_umma
+		name_dag_umakhan name_dag_umar name_dag_yusuf name_dag_utsmi name_dag_shamkhal name_dag_ibrahim
+		name_dag_ismail name_salomon
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_dag_surakat
+		name_om_dag_chopan
+		name_om_dag_nutsal
+		name_dag_shamkhal
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_dag_umma_khan
+		name_muhammad
+		name_ali
+		name_om_dag_hasan
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_dag_gazi_muhammad
+		Hamzat
+		Shamil
+		name_om_dag_hadji_murad
+	}
+	female_names = {
+		Madina Sultan Abidat Aminat Khadizhat Manarsha Mesedu Muminat Patimat Rabiyat Sagidat Sakinat Zubeidat Asiyat
+		Khalimat Patima Bartsalay Bitsirush Destekhanum Icher Ichinkelem Kveri Makhpur Mikhid Mulkay Nasibat Neki
+		Nekiyat Nuriyat Rafiga Simikhan Sulmaz Sultanat Suvar Taibat Tavat Tuguya Aishat Khava Aiza Amanat Amanta
+		Arubika Aset Aymani Aysha Ayza Ayzanat Bekbulat Bilqiz Birlant Chovka Deshi Elbika Fariza Favziyya Firdovs
+		Hadijat Kesira Khadzhar Khafsat Khalima Khazimat Kheda Kuslum Kurbika Kurzhan Makka Makkkhal Malkan Maryat
+		Marzet Maymunat Medni Mukhazhar Nurbika Nurset Petimat Polla Rabiat Raykhanat Rovzan Rukiyat Rumisa Ruqayyat
+		Ruvayda Safiyat Sarizha Satsita Savdat Seda Shahidat Shovda Sovbika Sukhayla Tabarik Taus Valida Xava Yakha
+		Yakhita Yisa Zakhira Zakiyat Salbika Zalina Zalpa Zamira Zarema Zargan Zaydat Zaynap Zelikha Zelimat Zezag
+		Zhovkhar Zhovzan Zulay Zuleykhan Zulikhan Zura name_dag_aisha name_dag_bike name_dag_bika name_dag_fatimat
+		name_dag_gulbahar name_dag_gulsum name_dag_khadija name_dag_maryam name_dag_rukiya name_dag_umm_kulthum
+		name_dag_zahra name_dag_zaynab name_dag_zulaykha name_sara
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 70
+		}
+		Patimat
+		Aishat
+		Aminat
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 70
+		}
+		name_om_dag_zaira
+		name_dag_fatimat
+		Sakinat
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 150
+		}
+		Aishat
+		Aminat
+		Asiyat
+		Aysha
+		Bilqiz
+		Fariza
+		Favziyya
+		Hadijat
+		Khadzhar
+		Khalima
+		Maryat
+		Petimat
+		Rabiat
+		Rukiyat
+		Safiyat
+		Zaynap
+		Zuleykhan
+		name_dag_aisha
+		name_dag_fatimat
+		name_dag_khadija
+		name_dag_maryam
+		name_dag_rukiya
+		name_dag_zahra
+		name_dag_zaynab
+		name_sara
+	}
+	dynasty_names = {
+		cau_dyn_dag_avarkhan cau_dyn_dag_khunzakh cau_dyn_dag_surakat cau_dyn_dag_shamkhal cau_dyn_dag_tarkovsky
+		cau_dyn_dag_gazikumukh cau_dyn_dag_kazikumukh cau_dyn_dag_kaitag cau_dyn_dag_utsmi cau_dyn_dag_mekhtuli
+		cau_dyn_dag_tarku cau_dyn_dag_tabasaran cau_dyn_dag_akhmedkhanov cau_dyn_dag_surkhayid cau_dyn_dag_cholakov
+		om_dyn_dag_avar_nutsal om_dyn_dag_tarkovskiy
+	}
+	lowborn = {
+		cau_low_dag_akhvakh cau_low_dag_andiy cau_low_dag_avari cau_low_dag_dargwa cau_low_dag_kaziyev
+		cau_low_dag_khinalug cau_low_dag_kubachi cau_low_dag_kumyk cau_low_dag_lak cau_low_dag_lezgi
+		cau_low_dag_mehtuli cau_low_dag_rutul cau_low_dag_tabasaran cau_low_dag_tsakhur cau_low_dag_tsez
+		cau_low_dag_akhmedov cau_low_dag_magomedov cau_low_dag_shamkhalov cau_low_dag_surkhayev cau_low_dag_utsmiev
+		om_low_dag_gadzhiyev om_low_dag_ramazanov om_low_dag_kurbanov om_low_dag_aliev
+	}
+	ship_names = {
+		om7_ship_dagestanian_language_001 om7_ship_dagestanian_language_002 om7_ship_dagestanian_language_003
+		om7_ship_dagestanian_language_004 om7_ship_dagestanian_language_005 om7_ship_dagestanian_language_006
+		om7_ship_dagestanian_language_007 om7_ship_dagestanian_language_008 om7_ship_dagestanian_language_009
+		om7_ship_dagestanian_language_010 om7_ship_dagestanian_language_011 om7_ship_dagestanian_language_012
+		om7_ship_dagestanian_language_013 om7_ship_dagestanian_language_014 om7_ship_dagestanian_language_015
+		om7_ship_dagestanian_language_016 om7_ship_dagestanian_language_017 om7_ship_dagestanian_language_018
+		om7_ship_dagestanian_language_019 om7_ship_dagestanian_language_020 om7_ship_dagestanian_language_021
+		om7_ship_dagestanian_language_022 om7_ship_dagestanian_language_023 om7_ship_dagestanian_language_024
+		om7_ship_dagestanian_language_025 om7_ship_dagestanian_language_026 om7_ship_dagestanian_language_027
+		om7_ship_dagestanian_language_028 om7_ship_dagestanian_language_029 om7_ship_dagestanian_language_030
+		om7_ship_dagestanian_language_031 om7_ship_dagestanian_language_032 om7_ship_dagestanian_language_033
+		om7_ship_dagestanian_language_034 om7_ship_dagestanian_language_035 om7_ship_dagestanian_language_036
+		om7_ship_dagestanian_language_037 om7_ship_dagestanian_language_038 om7_ship_dagestanian_language_039
+		om7_ship_dagestanian_language_040 om7_ship_dagestanian_language_041 om7_ship_dagestanian_language_042
+		om7_ship_dagestanian_language_043 om7_ship_dagestanian_language_044 om7_ship_dagestanian_language_045
+		om7_ship_dagestanian_language_046 om7_ship_dagestanian_language_047 om7_ship_dagestanian_language_048
+		om7_ship_dagestanian_language_049 om7_ship_dagestanian_language_050 om7_ship_dagestanian_language_051
+		om7_ship_dagestanian_language_052 om7_ship_dagestanian_language_053 om7_ship_dagestanian_language_054
+		om7_ship_dagestanian_language_055 om7_ship_dagestanian_language_056 om7_ship_dagestanian_language_057
+		om7_ship_dagestanian_language_058 om7_ship_dagestanian_language_059 om7_ship_dagestanian_language_060
+		om7_ship_dagestanian_language_061 om7_ship_dagestanian_language_062 om7_ship_dagestanian_language_063
+		om7_ship_dagestanian_language_064 om7_ship_dagestanian_language_065 om7_ship_dagestanian_language_066
+		om7_ship_dagestanian_language_067 om7_ship_dagestanian_language_068 om7_ship_dagestanian_language_069
+		om7_ship_dagestanian_language_070 om7_ship_dagestanian_language_071 om7_ship_dagestanian_language_072
+		om7_ship_dagestanian_language_073 om7_ship_dagestanian_language_074 om7_ship_dagestanian_language_075
+		om7_ship_dagestanian_language_076 om7_ship_dagestanian_language_077 om7_ship_dagestanian_language_078
+		om7_ship_dagestanian_language_079 om7_ship_dagestanian_language_080 om7_ship_dagestanian_language_081
+		om7_ship_dagestanian_language_082 om7_ship_dagestanian_language_083 om7_ship_dagestanian_language_084
+		om7_ship_dagestanian_language_085 om7_ship_dagestanian_language_086 om7_ship_dagestanian_language_087
+		om7_ship_dagestanian_language_088 om7_ship_dagestanian_language_089 om7_ship_dagestanian_language_090
+		om7_ship_dagestanian_language_091 om7_ship_dagestanian_language_092 om7_ship_dagestanian_language_093
+		om7_ship_dagestanian_language_094 om7_ship_dagestanian_language_095 om7_ship_dagestanian_language_096
+		om7_ship_dagestanian_language_097 om7_ship_dagestanian_language_098 om7_ship_dagestanian_language_099
+		om7_ship_dagestanian_language_100 om7_ship_dagestanian_language_101 om7_ship_dagestanian_language_102
+		om7_ship_dagestanian_language_103 om7_ship_dagestanian_language_104 om7_ship_dagestanian_language_105
+		om7_ship_dagestanian_language_106 om7_ship_dagestanian_language_107 om7_ship_dagestanian_language_108
+		om7_ship_dagestanian_language_109 om7_ship_dagestanian_language_110 om7_ship_dagestanian_language_111
+		om7_ship_dagestanian_language_112 om7_ship_dagestanian_language_113 om7_ship_dagestanian_language_114
+		om7_ship_dagestanian_language_115 om7_ship_dagestanian_language_116 om7_ship_dagestanian_language_117
+		om7_ship_dagestanian_language_118 om7_ship_dagestanian_language_119 om7_ship_dagestanian_language_120
+		om7_ship_dagestanian_language_121 om7_ship_dagestanian_language_122 om7_ship_dagestanian_language_123
+		om7_ship_dagestanian_language_124 om7_ship_dagestanian_language_125 om7_ship_dagestanian_language_126
+		om7_ship_dagestanian_language_127 om7_ship_dagestanian_language_128
+	}
+}

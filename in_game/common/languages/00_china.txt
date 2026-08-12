@@ -1,0 +1,3050 @@
+﻿mandarin_language = {
+	color = map_chinese
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_biao name_qi21.name_zhen4 name_yun name_guang.name_qi name_shi.name_zhen12
+		name_xian.name_zu name_meng.name_long name_xiu1 name_xue.name_qin2 name_zi4.name_zhen12 name_jing3 name_xian
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_biao
+		name_qi21.name_zhen4
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_yun
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_guang.name_qi
+		name_shi.name_zhen12
+		name_xian.name_zu
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_xiu1
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xue.name_qin2
+		name_zi4.name_zhen12
+		name_pu
+		name_yong
+		name_jing3
+		name_hong2
+		name_guo2
+		name_xian
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21 name_xiang12.name_lan name_yi22.name_xiu1 name_jing.name_yi2
+		name_zhen13.name_yi2
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xiang12.name_lan
+		name_yi22.name_xiu1
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_jing.name_yi2
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_zhen13.name_yi2
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_mandarin_language_001 om7_ship_mandarin_language_002 om7_ship_mandarin_language_003
+		om7_ship_mandarin_language_004 om7_ship_mandarin_language_005 om7_ship_mandarin_language_006
+		om7_ship_mandarin_language_007 om7_ship_mandarin_language_008 om7_ship_mandarin_language_009
+		om7_ship_mandarin_language_010 om7_ship_mandarin_language_011 om7_ship_mandarin_language_012
+		om7_ship_mandarin_language_013 om7_ship_mandarin_language_014 om7_ship_mandarin_language_015
+		om7_ship_mandarin_language_016 om7_ship_mandarin_language_017 om7_ship_mandarin_language_018
+		om7_ship_mandarin_language_019 om7_ship_mandarin_language_020 om7_ship_mandarin_language_021
+		om7_ship_mandarin_language_022 om7_ship_mandarin_language_023 om7_ship_mandarin_language_024
+		om7_ship_mandarin_language_025 om7_ship_mandarin_language_026 om7_ship_mandarin_language_027
+		om7_ship_mandarin_language_028 om7_ship_mandarin_language_029 om7_ship_mandarin_language_030
+		om7_ship_mandarin_language_031 om7_ship_mandarin_language_032 om7_ship_mandarin_language_033
+		om7_ship_mandarin_language_034 om7_ship_mandarin_language_035 om7_ship_mandarin_language_036
+		om7_ship_mandarin_language_037 om7_ship_mandarin_language_038 om7_ship_mandarin_language_039
+		om7_ship_mandarin_language_040 om7_ship_mandarin_language_041 om7_ship_mandarin_language_042
+		om7_ship_mandarin_language_043 om7_ship_mandarin_language_044 om7_ship_mandarin_language_045
+		om7_ship_mandarin_language_046 om7_ship_mandarin_language_047 om7_ship_mandarin_language_048
+		om7_ship_mandarin_language_049 om7_ship_mandarin_language_050 om7_ship_mandarin_language_051
+		om7_ship_mandarin_language_052 om7_ship_mandarin_language_053 om7_ship_mandarin_language_054
+		om7_ship_mandarin_language_055 om7_ship_mandarin_language_056 om7_ship_mandarin_language_057
+		om7_ship_mandarin_language_058 om7_ship_mandarin_language_059 om7_ship_mandarin_language_060
+		om7_ship_mandarin_language_061 om7_ship_mandarin_language_062 om7_ship_mandarin_language_063
+		om7_ship_mandarin_language_064 om7_ship_mandarin_language_065 om7_ship_mandarin_language_066
+		om7_ship_mandarin_language_067 om7_ship_mandarin_language_068 om7_ship_mandarin_language_069
+		om7_ship_mandarin_language_070 om7_ship_mandarin_language_071 om7_ship_mandarin_language_072
+		om7_ship_mandarin_language_073 om7_ship_mandarin_language_074 om7_ship_mandarin_language_075
+		om7_ship_mandarin_language_076 om7_ship_mandarin_language_077 om7_ship_mandarin_language_078
+		om7_ship_mandarin_language_079 om7_ship_mandarin_language_080 om7_ship_mandarin_language_081
+		om7_ship_mandarin_language_082 om7_ship_mandarin_language_083 om7_ship_mandarin_language_084
+		om7_ship_mandarin_language_085 om7_ship_mandarin_language_086 om7_ship_mandarin_language_087
+		om7_ship_mandarin_language_088 om7_ship_mandarin_language_089 om7_ship_mandarin_language_090
+		om7_ship_mandarin_language_091 om7_ship_mandarin_language_092 om7_ship_mandarin_language_093
+		om7_ship_mandarin_language_094 om7_ship_mandarin_language_095 om7_ship_mandarin_language_096
+		om7_ship_mandarin_language_097 om7_ship_mandarin_language_098 om7_ship_mandarin_language_099
+		om7_ship_mandarin_language_100 om7_ship_mandarin_language_101 om7_ship_mandarin_language_102
+		om7_ship_mandarin_language_103 om7_ship_mandarin_language_104 om7_ship_mandarin_language_105
+		om7_ship_mandarin_language_106 om7_ship_mandarin_language_107 om7_ship_mandarin_language_108
+		om7_ship_mandarin_language_109 om7_ship_mandarin_language_110 om7_ship_mandarin_language_111
+		om7_ship_mandarin_language_112 om7_ship_mandarin_language_113 om7_ship_mandarin_language_114
+		om7_ship_mandarin_language_115 om7_ship_mandarin_language_116 om7_ship_mandarin_language_117
+		om7_ship_mandarin_language_118 om7_ship_mandarin_language_119 om7_ship_mandarin_language_120
+		om7_ship_mandarin_language_121 om7_ship_mandarin_language_122 om7_ship_mandarin_language_123
+		om7_ship_mandarin_language_124 om7_ship_mandarin_language_125 om7_ship_mandarin_language_126
+		om7_ship_mandarin_language_127 om7_ship_mandarin_language_128
+	}
+	dialects = {
+		northern_mandarin_dialect = {
+			ship_names = {
+				om7_ship_northern_mandarin_dialect_001 om7_ship_northern_mandarin_dialect_002
+				om7_ship_northern_mandarin_dialect_003 om7_ship_northern_mandarin_dialect_004
+				om7_ship_northern_mandarin_dialect_005 om7_ship_northern_mandarin_dialect_006
+				om7_ship_northern_mandarin_dialect_007 om7_ship_northern_mandarin_dialect_008
+				om7_ship_northern_mandarin_dialect_009 om7_ship_northern_mandarin_dialect_010
+				om7_ship_northern_mandarin_dialect_011 om7_ship_northern_mandarin_dialect_012
+				om7_ship_northern_mandarin_dialect_013 om7_ship_northern_mandarin_dialect_014
+				om7_ship_northern_mandarin_dialect_015 om7_ship_northern_mandarin_dialect_016
+				om7_ship_northern_mandarin_dialect_017 om7_ship_northern_mandarin_dialect_018
+				om7_ship_northern_mandarin_dialect_019 om7_ship_northern_mandarin_dialect_020
+				om7_ship_northern_mandarin_dialect_021 om7_ship_northern_mandarin_dialect_022
+				om7_ship_northern_mandarin_dialect_023 om7_ship_northern_mandarin_dialect_024
+				om7_ship_northern_mandarin_dialect_025 om7_ship_northern_mandarin_dialect_026
+				om7_ship_northern_mandarin_dialect_027 om7_ship_northern_mandarin_dialect_028
+				om7_ship_northern_mandarin_dialect_029 om7_ship_northern_mandarin_dialect_030
+				om7_ship_northern_mandarin_dialect_031 om7_ship_northern_mandarin_dialect_032
+				om7_ship_northern_mandarin_dialect_033 om7_ship_northern_mandarin_dialect_034
+				om7_ship_northern_mandarin_dialect_035 om7_ship_northern_mandarin_dialect_036
+				om7_ship_northern_mandarin_dialect_037 om7_ship_northern_mandarin_dialect_038
+				om7_ship_northern_mandarin_dialect_039 om7_ship_northern_mandarin_dialect_040
+				om7_ship_northern_mandarin_dialect_041 om7_ship_northern_mandarin_dialect_042
+				om7_ship_northern_mandarin_dialect_043 om7_ship_northern_mandarin_dialect_044
+				om7_ship_northern_mandarin_dialect_045 om7_ship_northern_mandarin_dialect_046
+				om7_ship_northern_mandarin_dialect_047 om7_ship_northern_mandarin_dialect_048
+				om7_ship_northern_mandarin_dialect_049 om7_ship_northern_mandarin_dialect_050
+				om7_ship_northern_mandarin_dialect_051 om7_ship_northern_mandarin_dialect_052
+				om7_ship_northern_mandarin_dialect_053 om7_ship_northern_mandarin_dialect_054
+				om7_ship_northern_mandarin_dialect_055 om7_ship_northern_mandarin_dialect_056
+				om7_ship_northern_mandarin_dialect_057 om7_ship_northern_mandarin_dialect_058
+				om7_ship_northern_mandarin_dialect_059 om7_ship_northern_mandarin_dialect_060
+				om7_ship_northern_mandarin_dialect_061 om7_ship_northern_mandarin_dialect_062
+				om7_ship_northern_mandarin_dialect_063 om7_ship_northern_mandarin_dialect_064
+				om7_ship_northern_mandarin_dialect_065 om7_ship_northern_mandarin_dialect_066
+				om7_ship_northern_mandarin_dialect_067 om7_ship_northern_mandarin_dialect_068
+				om7_ship_northern_mandarin_dialect_069 om7_ship_northern_mandarin_dialect_070
+				om7_ship_northern_mandarin_dialect_071 om7_ship_northern_mandarin_dialect_072
+				om7_ship_northern_mandarin_dialect_073 om7_ship_northern_mandarin_dialect_074
+				om7_ship_northern_mandarin_dialect_075 om7_ship_northern_mandarin_dialect_076
+				om7_ship_northern_mandarin_dialect_077 om7_ship_northern_mandarin_dialect_078
+				om7_ship_northern_mandarin_dialect_079 om7_ship_northern_mandarin_dialect_080
+				om7_ship_northern_mandarin_dialect_081 om7_ship_northern_mandarin_dialect_082
+				om7_ship_northern_mandarin_dialect_083 om7_ship_northern_mandarin_dialect_084
+				om7_ship_northern_mandarin_dialect_085 om7_ship_northern_mandarin_dialect_086
+				om7_ship_northern_mandarin_dialect_087 om7_ship_northern_mandarin_dialect_088
+				om7_ship_northern_mandarin_dialect_089 om7_ship_northern_mandarin_dialect_090
+				om7_ship_northern_mandarin_dialect_091 om7_ship_northern_mandarin_dialect_092
+				om7_ship_northern_mandarin_dialect_093 om7_ship_northern_mandarin_dialect_094
+				om7_ship_northern_mandarin_dialect_095 om7_ship_northern_mandarin_dialect_096
+				om7_ship_northern_mandarin_dialect_097 om7_ship_northern_mandarin_dialect_098
+				om7_ship_northern_mandarin_dialect_099 om7_ship_northern_mandarin_dialect_100
+				om7_ship_northern_mandarin_dialect_101 om7_ship_northern_mandarin_dialect_102
+				om7_ship_northern_mandarin_dialect_103 om7_ship_northern_mandarin_dialect_104
+				om7_ship_northern_mandarin_dialect_105 om7_ship_northern_mandarin_dialect_106
+				om7_ship_northern_mandarin_dialect_107 om7_ship_northern_mandarin_dialect_108
+				om7_ship_northern_mandarin_dialect_109 om7_ship_northern_mandarin_dialect_110
+				om7_ship_northern_mandarin_dialect_111 om7_ship_northern_mandarin_dialect_112
+				om7_ship_northern_mandarin_dialect_113 om7_ship_northern_mandarin_dialect_114
+				om7_ship_northern_mandarin_dialect_115 om7_ship_northern_mandarin_dialect_116
+				om7_ship_northern_mandarin_dialect_117 om7_ship_northern_mandarin_dialect_118
+				om7_ship_northern_mandarin_dialect_119 om7_ship_northern_mandarin_dialect_120
+				om7_ship_northern_mandarin_dialect_121 om7_ship_northern_mandarin_dialect_122
+				om7_ship_northern_mandarin_dialect_123 om7_ship_northern_mandarin_dialect_124
+				om7_ship_northern_mandarin_dialect_125 om7_ship_northern_mandarin_dialect_126
+				om7_ship_northern_mandarin_dialect_127 om7_ship_northern_mandarin_dialect_128
+			}
+		}
+		southern_mandarin_dialect = {
+			ship_names = {
+				om7_ship_southern_mandarin_dialect_001 om7_ship_southern_mandarin_dialect_002
+				om7_ship_southern_mandarin_dialect_003 om7_ship_southern_mandarin_dialect_004
+				om7_ship_southern_mandarin_dialect_005 om7_ship_southern_mandarin_dialect_006
+				om7_ship_southern_mandarin_dialect_007 om7_ship_southern_mandarin_dialect_008
+				om7_ship_southern_mandarin_dialect_009 om7_ship_southern_mandarin_dialect_010
+				om7_ship_southern_mandarin_dialect_011 om7_ship_southern_mandarin_dialect_012
+				om7_ship_southern_mandarin_dialect_013 om7_ship_southern_mandarin_dialect_014
+				om7_ship_southern_mandarin_dialect_015 om7_ship_southern_mandarin_dialect_016
+				om7_ship_southern_mandarin_dialect_017 om7_ship_southern_mandarin_dialect_018
+				om7_ship_southern_mandarin_dialect_019 om7_ship_southern_mandarin_dialect_020
+				om7_ship_southern_mandarin_dialect_021 om7_ship_southern_mandarin_dialect_022
+				om7_ship_southern_mandarin_dialect_023 om7_ship_southern_mandarin_dialect_024
+				om7_ship_southern_mandarin_dialect_025 om7_ship_southern_mandarin_dialect_026
+				om7_ship_southern_mandarin_dialect_027 om7_ship_southern_mandarin_dialect_028
+				om7_ship_southern_mandarin_dialect_029 om7_ship_southern_mandarin_dialect_030
+				om7_ship_southern_mandarin_dialect_031 om7_ship_southern_mandarin_dialect_032
+				om7_ship_southern_mandarin_dialect_033 om7_ship_southern_mandarin_dialect_034
+				om7_ship_southern_mandarin_dialect_035 om7_ship_southern_mandarin_dialect_036
+				om7_ship_southern_mandarin_dialect_037 om7_ship_southern_mandarin_dialect_038
+				om7_ship_southern_mandarin_dialect_039 om7_ship_southern_mandarin_dialect_040
+				om7_ship_southern_mandarin_dialect_041 om7_ship_southern_mandarin_dialect_042
+				om7_ship_southern_mandarin_dialect_043 om7_ship_southern_mandarin_dialect_044
+				om7_ship_southern_mandarin_dialect_045 om7_ship_southern_mandarin_dialect_046
+				om7_ship_southern_mandarin_dialect_047 om7_ship_southern_mandarin_dialect_048
+				om7_ship_southern_mandarin_dialect_049 om7_ship_southern_mandarin_dialect_050
+				om7_ship_southern_mandarin_dialect_051 om7_ship_southern_mandarin_dialect_052
+				om7_ship_southern_mandarin_dialect_053 om7_ship_southern_mandarin_dialect_054
+				om7_ship_southern_mandarin_dialect_055 om7_ship_southern_mandarin_dialect_056
+				om7_ship_southern_mandarin_dialect_057 om7_ship_southern_mandarin_dialect_058
+				om7_ship_southern_mandarin_dialect_059 om7_ship_southern_mandarin_dialect_060
+				om7_ship_southern_mandarin_dialect_061 om7_ship_southern_mandarin_dialect_062
+				om7_ship_southern_mandarin_dialect_063 om7_ship_southern_mandarin_dialect_064
+				om7_ship_southern_mandarin_dialect_065 om7_ship_southern_mandarin_dialect_066
+				om7_ship_southern_mandarin_dialect_067 om7_ship_southern_mandarin_dialect_068
+				om7_ship_southern_mandarin_dialect_069 om7_ship_southern_mandarin_dialect_070
+				om7_ship_southern_mandarin_dialect_071 om7_ship_southern_mandarin_dialect_072
+				om7_ship_southern_mandarin_dialect_073 om7_ship_southern_mandarin_dialect_074
+				om7_ship_southern_mandarin_dialect_075 om7_ship_southern_mandarin_dialect_076
+				om7_ship_southern_mandarin_dialect_077 om7_ship_southern_mandarin_dialect_078
+				om7_ship_southern_mandarin_dialect_079 om7_ship_southern_mandarin_dialect_080
+				om7_ship_southern_mandarin_dialect_081 om7_ship_southern_mandarin_dialect_082
+				om7_ship_southern_mandarin_dialect_083 om7_ship_southern_mandarin_dialect_084
+				om7_ship_southern_mandarin_dialect_085 om7_ship_southern_mandarin_dialect_086
+				om7_ship_southern_mandarin_dialect_087 om7_ship_southern_mandarin_dialect_088
+				om7_ship_southern_mandarin_dialect_089 om7_ship_southern_mandarin_dialect_090
+				om7_ship_southern_mandarin_dialect_091 om7_ship_southern_mandarin_dialect_092
+				om7_ship_southern_mandarin_dialect_093 om7_ship_southern_mandarin_dialect_094
+				om7_ship_southern_mandarin_dialect_095 om7_ship_southern_mandarin_dialect_096
+				om7_ship_southern_mandarin_dialect_097 om7_ship_southern_mandarin_dialect_098
+				om7_ship_southern_mandarin_dialect_099 om7_ship_southern_mandarin_dialect_100
+				om7_ship_southern_mandarin_dialect_101 om7_ship_southern_mandarin_dialect_102
+				om7_ship_southern_mandarin_dialect_103 om7_ship_southern_mandarin_dialect_104
+				om7_ship_southern_mandarin_dialect_105 om7_ship_southern_mandarin_dialect_106
+				om7_ship_southern_mandarin_dialect_107 om7_ship_southern_mandarin_dialect_108
+				om7_ship_southern_mandarin_dialect_109 om7_ship_southern_mandarin_dialect_110
+				om7_ship_southern_mandarin_dialect_111 om7_ship_southern_mandarin_dialect_112
+				om7_ship_southern_mandarin_dialect_113 om7_ship_southern_mandarin_dialect_114
+				om7_ship_southern_mandarin_dialect_115 om7_ship_southern_mandarin_dialect_116
+				om7_ship_southern_mandarin_dialect_117 om7_ship_southern_mandarin_dialect_118
+				om7_ship_southern_mandarin_dialect_119 om7_ship_southern_mandarin_dialect_120
+				om7_ship_southern_mandarin_dialect_121 om7_ship_southern_mandarin_dialect_122
+				om7_ship_southern_mandarin_dialect_123 om7_ship_southern_mandarin_dialect_124
+				om7_ship_southern_mandarin_dialect_125 om7_ship_southern_mandarin_dialect_126
+				om7_ship_southern_mandarin_dialect_127 om7_ship_southern_mandarin_dialect_128
+			}
+		}
+	}
+}
+
+shu_language = {
+	color = map_sichuanese
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_meng.name_long name_jing3
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_pu
+		name_yong
+		name_jing3
+		name_hong2
+		name_guo2
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_shu_language_001 om7_ship_shu_language_002 om7_ship_shu_language_003 om7_ship_shu_language_004
+		om7_ship_shu_language_005 om7_ship_shu_language_006 om7_ship_shu_language_007 om7_ship_shu_language_008
+		om7_ship_shu_language_009 om7_ship_shu_language_010 om7_ship_shu_language_011 om7_ship_shu_language_012
+		om7_ship_shu_language_013 om7_ship_shu_language_014 om7_ship_shu_language_015 om7_ship_shu_language_016
+		om7_ship_shu_language_017 om7_ship_shu_language_018 om7_ship_shu_language_019 om7_ship_shu_language_020
+		om7_ship_shu_language_021 om7_ship_shu_language_022 om7_ship_shu_language_023 om7_ship_shu_language_024
+		om7_ship_shu_language_025 om7_ship_shu_language_026 om7_ship_shu_language_027 om7_ship_shu_language_028
+		om7_ship_shu_language_029
+	}
+}
+
+xiang_language = {
+	color = map_xiang
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_meng.name_long name_xiu1 name_xue.name_qin2
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_xiu1
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xue.name_qin2
+		name_pu
+		name_yong
+		name_hong2
+		name_guo2
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21 name_xiang12.name_lan name_yi22.name_xiu1
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xiang12.name_lan
+		name_yi22.name_xiu1
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_xiang_language_001 om7_ship_xiang_language_002 om7_ship_xiang_language_003
+		om7_ship_xiang_language_004 om7_ship_xiang_language_005 om7_ship_xiang_language_006
+		om7_ship_xiang_language_007 om7_ship_xiang_language_008 om7_ship_xiang_language_009
+		om7_ship_xiang_language_010 om7_ship_xiang_language_011 om7_ship_xiang_language_012
+		om7_ship_xiang_language_013 om7_ship_xiang_language_014 om7_ship_xiang_language_015
+		om7_ship_xiang_language_016 om7_ship_xiang_language_017 om7_ship_xiang_language_018
+		om7_ship_xiang_language_019 om7_ship_xiang_language_020 om7_ship_xiang_language_021
+		om7_ship_xiang_language_022 om7_ship_xiang_language_023 om7_ship_xiang_language_024
+		om7_ship_xiang_language_025 om7_ship_xiang_language_026 om7_ship_xiang_language_027
+		om7_ship_xiang_language_028 om7_ship_xiang_language_029 om7_ship_xiang_language_030
+		om7_ship_xiang_language_031 om7_ship_xiang_language_032 om7_ship_xiang_language_033
+		om7_ship_xiang_language_034 om7_ship_xiang_language_035 om7_ship_xiang_language_036
+		om7_ship_xiang_language_037 om7_ship_xiang_language_038 om7_ship_xiang_language_039
+		om7_ship_xiang_language_040 om7_ship_xiang_language_041 om7_ship_xiang_language_042
+		om7_ship_xiang_language_043 om7_ship_xiang_language_044 om7_ship_xiang_language_045
+		om7_ship_xiang_language_046 om7_ship_xiang_language_047 om7_ship_xiang_language_048
+		om7_ship_xiang_language_049 om7_ship_xiang_language_050 om7_ship_xiang_language_051
+		om7_ship_xiang_language_052 om7_ship_xiang_language_053 om7_ship_xiang_language_054
+		om7_ship_xiang_language_055 om7_ship_xiang_language_056 om7_ship_xiang_language_057
+		om7_ship_xiang_language_058 om7_ship_xiang_language_059 om7_ship_xiang_language_060
+		om7_ship_xiang_language_061 om7_ship_xiang_language_062 om7_ship_xiang_language_063
+		om7_ship_xiang_language_064 om7_ship_xiang_language_065 om7_ship_xiang_language_066
+		om7_ship_xiang_language_067
+	}
+}
+
+gan_language = {
+	color = map_gan
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_yun name_meng.name_long name_xiu1 name_xue.name_qin2
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_yun
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_xiu1
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xue.name_qin2
+		name_pu
+		name_yong
+		name_hong2
+		name_guo2
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21 name_xiang12.name_lan name_yi22.name_xiu1
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xiang12.name_lan
+		name_yi22.name_xiu1
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_gan_language_001 om7_ship_gan_language_002 om7_ship_gan_language_003 om7_ship_gan_language_004
+		om7_ship_gan_language_005 om7_ship_gan_language_006 om7_ship_gan_language_007 om7_ship_gan_language_008
+		om7_ship_gan_language_009 om7_ship_gan_language_010 om7_ship_gan_language_011 om7_ship_gan_language_012
+		om7_ship_gan_language_013 om7_ship_gan_language_014 om7_ship_gan_language_015 om7_ship_gan_language_016
+		om7_ship_gan_language_017 om7_ship_gan_language_018 om7_ship_gan_language_019 om7_ship_gan_language_020
+		om7_ship_gan_language_021 om7_ship_gan_language_022 om7_ship_gan_language_023 om7_ship_gan_language_024
+		om7_ship_gan_language_025 om7_ship_gan_language_026 om7_ship_gan_language_027 om7_ship_gan_language_028
+		om7_ship_gan_language_029 om7_ship_gan_language_030 om7_ship_gan_language_031 om7_ship_gan_language_032
+		om7_ship_gan_language_033 om7_ship_gan_language_034 om7_ship_gan_language_035 om7_ship_gan_language_036
+		om7_ship_gan_language_037 om7_ship_gan_language_038 om7_ship_gan_language_039 om7_ship_gan_language_040
+		om7_ship_gan_language_041 om7_ship_gan_language_042 om7_ship_gan_language_043 om7_ship_gan_language_044
+		om7_ship_gan_language_045 om7_ship_gan_language_046 om7_ship_gan_language_047 om7_ship_gan_language_048
+		om7_ship_gan_language_049 om7_ship_gan_language_050 om7_ship_gan_language_051 om7_ship_gan_language_052
+		om7_ship_gan_language_053 om7_ship_gan_language_054 om7_ship_gan_language_055 om7_ship_gan_language_056
+		om7_ship_gan_language_057 om7_ship_gan_language_058 om7_ship_gan_language_059 om7_ship_gan_language_060
+		om7_ship_gan_language_061 om7_ship_gan_language_062 om7_ship_gan_language_063 om7_ship_gan_language_064
+	}
+}
+
+ping_language = {
+	color = map_ping
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_meng.name_long
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_pu
+		name_yong
+		name_hong2
+		name_guo2
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_ping_language_001 om7_ship_ping_language_002 om7_ship_ping_language_003 om7_ship_ping_language_004
+		om7_ship_ping_language_005 om7_ship_ping_language_006 om7_ship_ping_language_007 om7_ship_ping_language_008
+		om7_ship_ping_language_009 om7_ship_ping_language_010 om7_ship_ping_language_011 om7_ship_ping_language_012
+		om7_ship_ping_language_013 om7_ship_ping_language_014 om7_ship_ping_language_015 om7_ship_ping_language_016
+		om7_ship_ping_language_017 om7_ship_ping_language_018 om7_ship_ping_language_019 om7_ship_ping_language_020
+		om7_ship_ping_language_021
+	}
+}
+
+yue_language = {
+	color = map_yue
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_biao name_qi21.name_zhen4 name_yun name_guang.name_qi name_shi.name_zhen12
+		name_xian.name_zu name_meng.name_long name_xiu1 name_xue.name_qin2 name_zi4.name_zhen12 name_yi name_jing3
+		name_xian
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_biao
+		name_qi21.name_zhen4
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_yun
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_guang.name_qi
+		name_shi.name_zhen12
+		name_xian.name_zu
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_xiu1
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xue.name_qin2
+		name_zi4.name_zhen12
+		name_yi
+		name_pu
+		name_yong
+		name_jing3
+		name_hong2
+		name_guo2
+		name_xian
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21 name_zhen13 name_xiang12.name_lan name_yi22.name_xiu1
+		name_jing.name_yi2 name_zhen13.name_yi2
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_zhen13
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xiang12.name_lan
+		name_yi22.name_xiu1
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_jing.name_yi2
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_zhen13.name_yi2
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_yue_language_001 om7_ship_yue_language_002 om7_ship_yue_language_003 om7_ship_yue_language_004
+		om7_ship_yue_language_005 om7_ship_yue_language_006 om7_ship_yue_language_007 om7_ship_yue_language_008
+		om7_ship_yue_language_009 om7_ship_yue_language_010 om7_ship_yue_language_011 om7_ship_yue_language_012
+		om7_ship_yue_language_013 om7_ship_yue_language_014 om7_ship_yue_language_015 om7_ship_yue_language_016
+		om7_ship_yue_language_017 om7_ship_yue_language_018 om7_ship_yue_language_019 om7_ship_yue_language_020
+		om7_ship_yue_language_021 om7_ship_yue_language_022 om7_ship_yue_language_023 om7_ship_yue_language_024
+		om7_ship_yue_language_025 om7_ship_yue_language_026 om7_ship_yue_language_027 om7_ship_yue_language_028
+		om7_ship_yue_language_029 om7_ship_yue_language_030 om7_ship_yue_language_031 om7_ship_yue_language_032
+		om7_ship_yue_language_033 om7_ship_yue_language_034 om7_ship_yue_language_035 om7_ship_yue_language_036
+		om7_ship_yue_language_037 om7_ship_yue_language_038 om7_ship_yue_language_039 om7_ship_yue_language_040
+		om7_ship_yue_language_041 om7_ship_yue_language_042 om7_ship_yue_language_043 om7_ship_yue_language_044
+		om7_ship_yue_language_045 om7_ship_yue_language_046 om7_ship_yue_language_047 om7_ship_yue_language_048
+		om7_ship_yue_language_049 om7_ship_yue_language_050 om7_ship_yue_language_051 om7_ship_yue_language_052
+		om7_ship_yue_language_053 om7_ship_yue_language_054 om7_ship_yue_language_055 om7_ship_yue_language_056
+		om7_ship_yue_language_057 om7_ship_yue_language_058 om7_ship_yue_language_059 om7_ship_yue_language_060
+		om7_ship_yue_language_061 om7_ship_yue_language_062 om7_ship_yue_language_063 om7_ship_yue_language_064
+		om7_ship_yue_language_065 om7_ship_yue_language_066 om7_ship_yue_language_067 om7_ship_yue_language_068
+		om7_ship_yue_language_069 om7_ship_yue_language_070 om7_ship_yue_language_071 om7_ship_yue_language_072
+		om7_ship_yue_language_073 om7_ship_yue_language_074 om7_ship_yue_language_075 om7_ship_yue_language_076
+		om7_ship_yue_language_077 om7_ship_yue_language_078 om7_ship_yue_language_079 om7_ship_yue_language_080
+		om7_ship_yue_language_081 om7_ship_yue_language_082 om7_ship_yue_language_083 om7_ship_yue_language_084
+		om7_ship_yue_language_085 om7_ship_yue_language_086 om7_ship_yue_language_087 om7_ship_yue_language_088
+		om7_ship_yue_language_089 om7_ship_yue_language_090 om7_ship_yue_language_091 om7_ship_yue_language_092
+		om7_ship_yue_language_093 om7_ship_yue_language_094 om7_ship_yue_language_095 om7_ship_yue_language_096
+		om7_ship_yue_language_097 om7_ship_yue_language_098 om7_ship_yue_language_099 om7_ship_yue_language_100
+		om7_ship_yue_language_101 om7_ship_yue_language_102 om7_ship_yue_language_103 om7_ship_yue_language_104
+		om7_ship_yue_language_105 om7_ship_yue_language_106 om7_ship_yue_language_107 om7_ship_yue_language_108
+		om7_ship_yue_language_109 om7_ship_yue_language_110 om7_ship_yue_language_111 om7_ship_yue_language_112
+		om7_ship_yue_language_113 om7_ship_yue_language_114 om7_ship_yue_language_115 om7_ship_yue_language_116
+		om7_ship_yue_language_117 om7_ship_yue_language_118 om7_ship_yue_language_119 om7_ship_yue_language_120
+		om7_ship_yue_language_121 om7_ship_yue_language_122 om7_ship_yue_language_123 om7_ship_yue_language_124
+		om7_ship_yue_language_125 om7_ship_yue_language_126 om7_ship_yue_language_127 om7_ship_yue_language_128
+	}
+}
+
+min_language = {
+	color = map_min
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_biao name_qi21.name_zhen4 name_yun name_guang.name_qi name_shi.name_zhen12
+		name_xian.name_zu name_meng.name_long name_xiu1 name_xue.name_qin2 name_zi4.name_zhen12 name_yi name_jing3
+		name_xian
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_biao
+		name_qi21.name_zhen4
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_yun
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_guang.name_qi
+		name_shi.name_zhen12
+		name_xian.name_zu
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_xiu1
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xue.name_qin2
+		name_zi4.name_zhen12
+		name_yi
+		name_pu
+		name_yong
+		name_jing3
+		name_hong2
+		name_guo2
+		name_xian
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21 name_zhen13 name_xiang12.name_lan name_yi22.name_xiu1
+		name_jing.name_yi2 name_zhen13.name_yi2
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_zhen13
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xiang12.name_lan
+		name_yi22.name_xiu1
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_jing.name_yi2
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_zhen13.name_yi2
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_min_language_001 om7_ship_min_language_002 om7_ship_min_language_003 om7_ship_min_language_004
+		om7_ship_min_language_005 om7_ship_min_language_006 om7_ship_min_language_007 om7_ship_min_language_008
+		om7_ship_min_language_009 om7_ship_min_language_010 om7_ship_min_language_011 om7_ship_min_language_012
+		om7_ship_min_language_013 om7_ship_min_language_014 om7_ship_min_language_015 om7_ship_min_language_016
+		om7_ship_min_language_017 om7_ship_min_language_018 om7_ship_min_language_019 om7_ship_min_language_020
+		om7_ship_min_language_021 om7_ship_min_language_022 om7_ship_min_language_023 om7_ship_min_language_024
+		om7_ship_min_language_025 om7_ship_min_language_026 om7_ship_min_language_027 om7_ship_min_language_028
+		om7_ship_min_language_029 om7_ship_min_language_030 om7_ship_min_language_031 om7_ship_min_language_032
+		om7_ship_min_language_033 om7_ship_min_language_034 om7_ship_min_language_035 om7_ship_min_language_036
+		om7_ship_min_language_037 om7_ship_min_language_038 om7_ship_min_language_039 om7_ship_min_language_040
+		om7_ship_min_language_041 om7_ship_min_language_042 om7_ship_min_language_043 om7_ship_min_language_044
+		om7_ship_min_language_045 om7_ship_min_language_046 om7_ship_min_language_047 om7_ship_min_language_048
+		om7_ship_min_language_049 om7_ship_min_language_050 om7_ship_min_language_051 om7_ship_min_language_052
+		om7_ship_min_language_053 om7_ship_min_language_054 om7_ship_min_language_055 om7_ship_min_language_056
+		om7_ship_min_language_057 om7_ship_min_language_058 om7_ship_min_language_059 om7_ship_min_language_060
+		om7_ship_min_language_061 om7_ship_min_language_062 om7_ship_min_language_063 om7_ship_min_language_064
+		om7_ship_min_language_065 om7_ship_min_language_066 om7_ship_min_language_067 om7_ship_min_language_068
+		om7_ship_min_language_069 om7_ship_min_language_070 om7_ship_min_language_071 om7_ship_min_language_072
+		om7_ship_min_language_073 om7_ship_min_language_074 om7_ship_min_language_075 om7_ship_min_language_076
+		om7_ship_min_language_077 om7_ship_min_language_078 om7_ship_min_language_079 om7_ship_min_language_080
+		om7_ship_min_language_081 om7_ship_min_language_082 om7_ship_min_language_083 om7_ship_min_language_084
+		om7_ship_min_language_085 om7_ship_min_language_086 om7_ship_min_language_087 om7_ship_min_language_088
+		om7_ship_min_language_089 om7_ship_min_language_090 om7_ship_min_language_091 om7_ship_min_language_092
+		om7_ship_min_language_093 om7_ship_min_language_094 om7_ship_min_language_095 om7_ship_min_language_096
+		om7_ship_min_language_097 om7_ship_min_language_098 om7_ship_min_language_099 om7_ship_min_language_100
+		om7_ship_min_language_101 om7_ship_min_language_102 om7_ship_min_language_103 om7_ship_min_language_104
+		om7_ship_min_language_105 om7_ship_min_language_106 om7_ship_min_language_107 om7_ship_min_language_108
+		om7_ship_min_language_109 om7_ship_min_language_110 om7_ship_min_language_111 om7_ship_min_language_112
+		om7_ship_min_language_113 om7_ship_min_language_114 om7_ship_min_language_115 om7_ship_min_language_116
+		om7_ship_min_language_117 om7_ship_min_language_118 om7_ship_min_language_119 om7_ship_min_language_120
+		om7_ship_min_language_121 om7_ship_min_language_122 om7_ship_min_language_123 om7_ship_min_language_124
+		om7_ship_min_language_125 om7_ship_min_language_126 om7_ship_min_language_127 om7_ship_min_language_128
+	}
+}
+
+wu_language = {
+	color = map_wu
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_yun name_shi.name_zhen12 name_meng.name_long name_xiu1 name_xue.name_qin2 name_yi
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_yun
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_shi.name_zhen12
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_xiu1
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xue.name_qin2
+		name_yi
+		name_pu
+		name_yong
+		name_hong2
+		name_guo2
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21 name_xiang12.name_lan name_yi22.name_xiu1
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xiang12.name_lan
+		name_yi22.name_xiu1
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_wu_language_001 om7_ship_wu_language_002 om7_ship_wu_language_003 om7_ship_wu_language_004
+		om7_ship_wu_language_005 om7_ship_wu_language_006 om7_ship_wu_language_007 om7_ship_wu_language_008
+		om7_ship_wu_language_009 om7_ship_wu_language_010 om7_ship_wu_language_011 om7_ship_wu_language_012
+		om7_ship_wu_language_013 om7_ship_wu_language_014 om7_ship_wu_language_015 om7_ship_wu_language_016
+		om7_ship_wu_language_017 om7_ship_wu_language_018 om7_ship_wu_language_019 om7_ship_wu_language_020
+		om7_ship_wu_language_021 om7_ship_wu_language_022 om7_ship_wu_language_023 om7_ship_wu_language_024
+		om7_ship_wu_language_025 om7_ship_wu_language_026 om7_ship_wu_language_027 om7_ship_wu_language_028
+		om7_ship_wu_language_029 om7_ship_wu_language_030 om7_ship_wu_language_031 om7_ship_wu_language_032
+		om7_ship_wu_language_033 om7_ship_wu_language_034 om7_ship_wu_language_035 om7_ship_wu_language_036
+		om7_ship_wu_language_037 om7_ship_wu_language_038 om7_ship_wu_language_039 om7_ship_wu_language_040
+		om7_ship_wu_language_041 om7_ship_wu_language_042 om7_ship_wu_language_043 om7_ship_wu_language_044
+		om7_ship_wu_language_045 om7_ship_wu_language_046 om7_ship_wu_language_047 om7_ship_wu_language_048
+		om7_ship_wu_language_049 om7_ship_wu_language_050 om7_ship_wu_language_051 om7_ship_wu_language_052
+		om7_ship_wu_language_053 om7_ship_wu_language_054 om7_ship_wu_language_055 om7_ship_wu_language_056
+		om7_ship_wu_language_057 om7_ship_wu_language_058 om7_ship_wu_language_059 om7_ship_wu_language_060
+		om7_ship_wu_language_061 om7_ship_wu_language_062 om7_ship_wu_language_063 om7_ship_wu_language_064
+		om7_ship_wu_language_065 om7_ship_wu_language_066 om7_ship_wu_language_067 om7_ship_wu_language_068
+		om7_ship_wu_language_069 om7_ship_wu_language_070 om7_ship_wu_language_071 om7_ship_wu_language_072
+		om7_ship_wu_language_073 om7_ship_wu_language_074 om7_ship_wu_language_075 om7_ship_wu_language_076
+		om7_ship_wu_language_077 om7_ship_wu_language_078 om7_ship_wu_language_079 om7_ship_wu_language_080
+		om7_ship_wu_language_081 om7_ship_wu_language_082 om7_ship_wu_language_083 om7_ship_wu_language_084
+		om7_ship_wu_language_085 om7_ship_wu_language_086 om7_ship_wu_language_087 om7_ship_wu_language_088
+		om7_ship_wu_language_089 om7_ship_wu_language_090 om7_ship_wu_language_091 om7_ship_wu_language_092
+		om7_ship_wu_language_093 om7_ship_wu_language_094 om7_ship_wu_language_095 om7_ship_wu_language_096
+		om7_ship_wu_language_097 om7_ship_wu_language_098 om7_ship_wu_language_099 om7_ship_wu_language_100
+	}
+}
+
+huizhou_language = {
+	color = map_huizhou
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_yun name_meng.name_long
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_yun
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_pu
+		name_yong
+		name_hong2
+		name_guo2
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_huizhou_language_001 om7_ship_huizhou_language_002 om7_ship_huizhou_language_003
+		om7_ship_huizhou_language_004 om7_ship_huizhou_language_005 om7_ship_huizhou_language_006
+		om7_ship_huizhou_language_007 om7_ship_huizhou_language_008 om7_ship_huizhou_language_009
+		om7_ship_huizhou_language_010 om7_ship_huizhou_language_011 om7_ship_huizhou_language_012
+		om7_ship_huizhou_language_013 om7_ship_huizhou_language_014 om7_ship_huizhou_language_015
+		om7_ship_huizhou_language_016 om7_ship_huizhou_language_017 om7_ship_huizhou_language_018
+		om7_ship_huizhou_language_019 om7_ship_huizhou_language_020 om7_ship_huizhou_language_021
+		om7_ship_huizhou_language_022 om7_ship_huizhou_language_023 om7_ship_huizhou_language_024
+		om7_ship_huizhou_language_025 om7_ship_huizhou_language_026 om7_ship_huizhou_language_027
+		om7_ship_huizhou_language_028 om7_ship_huizhou_language_029 om7_ship_huizhou_language_030
+		om7_ship_huizhou_language_031 om7_ship_huizhou_language_032
+	}
+}
+
+kejia_language = {
+	color = map_hakka
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_biao name_yun name_guang.name_qi name_shi.name_zhen12 name_xian.name_zu
+		name_meng.name_long name_xiu1 name_xue.name_qin2 name_zi4.name_zhen12 name_jing3 name_xian
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_biao
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_yun
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_guang.name_qi
+		name_shi.name_zhen12
+		name_xian.name_zu
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_xiu1
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xue.name_qin2
+		name_zi4.name_zhen12
+		name_pu
+		name_yong
+		name_jing3
+		name_hong2
+		name_guo2
+		name_xian
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21 name_xiang12.name_lan name_yi22.name_xiu1 name_jing.name_yi2
+		name_zhen13.name_yi2
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xiang12.name_lan
+		name_yi22.name_xiu1
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_jing.name_yi2
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_zhen13.name_yi2
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_kejia_language_001 om7_ship_kejia_language_002 om7_ship_kejia_language_003
+		om7_ship_kejia_language_004 om7_ship_kejia_language_005 om7_ship_kejia_language_006
+		om7_ship_kejia_language_007 om7_ship_kejia_language_008 om7_ship_kejia_language_009
+		om7_ship_kejia_language_010 om7_ship_kejia_language_011 om7_ship_kejia_language_012
+		om7_ship_kejia_language_013 om7_ship_kejia_language_014 om7_ship_kejia_language_015
+		om7_ship_kejia_language_016 om7_ship_kejia_language_017 om7_ship_kejia_language_018
+		om7_ship_kejia_language_019 om7_ship_kejia_language_020 om7_ship_kejia_language_021
+		om7_ship_kejia_language_022 om7_ship_kejia_language_023 om7_ship_kejia_language_024
+		om7_ship_kejia_language_025 om7_ship_kejia_language_026 om7_ship_kejia_language_027
+		om7_ship_kejia_language_028 om7_ship_kejia_language_029 om7_ship_kejia_language_030
+		om7_ship_kejia_language_031 om7_ship_kejia_language_032 om7_ship_kejia_language_033
+		om7_ship_kejia_language_034 om7_ship_kejia_language_035 om7_ship_kejia_language_036
+		om7_ship_kejia_language_037 om7_ship_kejia_language_038 om7_ship_kejia_language_039
+		om7_ship_kejia_language_040 om7_ship_kejia_language_041 om7_ship_kejia_language_042
+		om7_ship_kejia_language_043 om7_ship_kejia_language_044 om7_ship_kejia_language_045
+		om7_ship_kejia_language_046 om7_ship_kejia_language_047 om7_ship_kejia_language_048
+		om7_ship_kejia_language_049 om7_ship_kejia_language_050 om7_ship_kejia_language_051
+		om7_ship_kejia_language_052 om7_ship_kejia_language_053 om7_ship_kejia_language_054
+		om7_ship_kejia_language_055 om7_ship_kejia_language_056 om7_ship_kejia_language_057
+		om7_ship_kejia_language_058 om7_ship_kejia_language_059 om7_ship_kejia_language_060
+		om7_ship_kejia_language_061 om7_ship_kejia_language_062 om7_ship_kejia_language_063
+		om7_ship_kejia_language_064 om7_ship_kejia_language_065 om7_ship_kejia_language_066
+		om7_ship_kejia_language_067 om7_ship_kejia_language_068 om7_ship_kejia_language_069
+		om7_ship_kejia_language_070 om7_ship_kejia_language_071 om7_ship_kejia_language_072
+		om7_ship_kejia_language_073 om7_ship_kejia_language_074 om7_ship_kejia_language_075
+		om7_ship_kejia_language_076 om7_ship_kejia_language_077 om7_ship_kejia_language_078
+		om7_ship_kejia_language_079 om7_ship_kejia_language_080 om7_ship_kejia_language_081
+		om7_ship_kejia_language_082 om7_ship_kejia_language_083 om7_ship_kejia_language_084
+		om7_ship_kejia_language_085 om7_ship_kejia_language_086 om7_ship_kejia_language_087
+		om7_ship_kejia_language_088 om7_ship_kejia_language_089 om7_ship_kejia_language_090
+		om7_ship_kejia_language_091 om7_ship_kejia_language_092 om7_ship_kejia_language_093
+		om7_ship_kejia_language_094 om7_ship_kejia_language_095 om7_ship_kejia_language_096
+		om7_ship_kejia_language_097 om7_ship_kejia_language_098 om7_ship_kejia_language_099
+		om7_ship_kejia_language_100 om7_ship_kejia_language_101 om7_ship_kejia_language_102
+		om7_ship_kejia_language_103 om7_ship_kejia_language_104 om7_ship_kejia_language_105
+		om7_ship_kejia_language_106 om7_ship_kejia_language_107 om7_ship_kejia_language_108
+		om7_ship_kejia_language_109 om7_ship_kejia_language_110 om7_ship_kejia_language_111
+		om7_ship_kejia_language_112 om7_ship_kejia_language_113 om7_ship_kejia_language_114
+		om7_ship_kejia_language_115 om7_ship_kejia_language_116 om7_ship_kejia_language_117
+		om7_ship_kejia_language_118 om7_ship_kejia_language_119 om7_ship_kejia_language_120
+		om7_ship_kejia_language_121 om7_ship_kejia_language_122 om7_ship_kejia_language_123
+	}
+}
+
+jin_language = {
+	color = map_jin
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21 name_yun name_meng.name_long name_xiu1 name_xue.name_qin2
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_yun
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_meng.name_long
+		name_shen4
+		name_chao
+		name_xiu1
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xue.name_qin2
+		name_pu
+		name_yong
+		name_hong2
+		name_guo2
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21 name_xiang12.name_lan name_yi22.name_xiu1
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_xiang12.name_lan
+		name_yi22.name_xiu1
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_jin_language_001 om7_ship_jin_language_002 om7_ship_jin_language_003 om7_ship_jin_language_004
+		om7_ship_jin_language_005 om7_ship_jin_language_006 om7_ship_jin_language_007 om7_ship_jin_language_008
+		om7_ship_jin_language_009 om7_ship_jin_language_010 om7_ship_jin_language_011 om7_ship_jin_language_012
+		om7_ship_jin_language_013 om7_ship_jin_language_014 om7_ship_jin_language_015 om7_ship_jin_language_016
+		om7_ship_jin_language_017 om7_ship_jin_language_018 om7_ship_jin_language_019 om7_ship_jin_language_020
+		om7_ship_jin_language_021 om7_ship_jin_language_022 om7_ship_jin_language_023 om7_ship_jin_language_024
+		om7_ship_jin_language_025 om7_ship_jin_language_026 om7_ship_jin_language_027 om7_ship_jin_language_028
+		om7_ship_jin_language_029 om7_ship_jin_language_030 om7_ship_jin_language_031 om7_ship_jin_language_032
+		om7_ship_jin_language_033 om7_ship_jin_language_034 om7_ship_jin_language_035 om7_ship_jin_language_036
+		om7_ship_jin_language_037 om7_ship_jin_language_038 om7_ship_jin_language_039 om7_ship_jin_language_040
+		om7_ship_jin_language_041 om7_ship_jin_language_042 om7_ship_jin_language_043 om7_ship_jin_language_044
+		om7_ship_jin_language_045 om7_ship_jin_language_046 om7_ship_jin_language_047 om7_ship_jin_language_048
+		om7_ship_jin_language_049 om7_ship_jin_language_050 om7_ship_jin_language_051 om7_ship_jin_language_052
+		om7_ship_jin_language_053 om7_ship_jin_language_054 om7_ship_jin_language_055 om7_ship_jin_language_056
+		om7_ship_jin_language_057 om7_ship_jin_language_058 om7_ship_jin_language_059 om7_ship_jin_language_060
+		om7_ship_jin_language_061 om7_ship_jin_language_062 om7_ship_jin_language_063
+	}
+}
+
+classical_chinese_language = {
+	color = color_mahayana
+	family = chinese_language_family
+	male_names = {
+		name_an name_bai name_bai3 name_bao name_bo name_bo2 name_chang name_chang4 name_chao name_chao2 name_chen
+		name_cheng name_cheng2 name_cheng22 name_chun name_cong name_da name_da4 name_de name_dong name_dong3
+		name_dong4 name_fang name_fu name_fu2 name_fu21.name_tong1 name_fu3 name_gang name_gui.name_ying name_guang
+		name_guo2 name_guo2.name_zhen12 name_hai name_hao name_haoran name_he name_he2 name_he21 name_he22 name_heng
+		name_hong name_hong2 name_hong21 name_huan name_hui1 name_hui4 name_jia name_jia1 name_jia1.name_li name_jie
+		name_jian name_jian.name_hong22 name_jiang name_jin name_jin3 name_jing name_jing1 name_jing12 name_jun
+		name_jun.name_de name_kai name_kai1 name_lei3 name_li name_li2 name_li3 name_lian name_liang name_liang2
+		name_liang2.name_yu4 name_lin name_lin.name_er name_ling21 name_liu name_meng4 name_ming name_ping name_pu
+		name_pu3.name_sheng name_qi name_qi4 name_qian1 name_qiang name_qiu name_rong name_rong2 name_shan.name_tong2
+		name_shen4 name_sheng name_shi name_shi2 name_shi3 name_shi4.name_cheng22 name_shou.name_hui1 name_shun
+		name_si.name_qi2 name_tao name_wei name_wei1 name_wen name_wen.name_jun name_wu2 name_wu3 name_wu4 name_xiang
+		name_xiang2 name_xin name_yang2 name_yang22 name_yang22.name_ming name_yang23 name_yi.name_chen2
+		name_yi1.name_ming name_yi1.name_ming2 name_yi22 name_yi23 name_yi4 name_yi42 name_yin name_yin2 name_ying
+		name_ying2 name_ying2.name_yu4 name_yu4.name_zhen12 name_ying3 name_ying32 name_yong name_you.name_ding4
+		name_you.name_liang4 name_yu.name_chen2 name_yu.name_hang2 name_yu.name_xuan name_zhang name_zhen.name_yi2
+		name_zi.name_han21 name_zi.name_mo name_zi.name_xing name_zi.name_xuan name_zi.name_xuan2 name_zi3.name_hao
+		name_zi3.name_han21
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_he
+		name_qian1
+		name_lian
+		name_qi
+		name_de
+		name_cheng22
+		name_guang
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_yang22.name_ming
+		name_shen4
+		name_chao
+		name_ming
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_pu
+		name_yong
+		name_hong2
+		name_guo2
+		name_qian1
+	}
+	female_names = {
+		name_ai name_an name_bao name_bao1 name_chang4 name_cheng name_cheng2 name_chun name_chun.name_hua name_cong
+		name_dong.name_mei name_dong.name_mei2 name_fang name_fen name_guang name_gui.name_ying name_hai name_haoran
+		name_he name_he2 name_he21 name_he22 name_heng name_hua name_huan name_huang name_hui.name_fen
+		name_hui.name_ying name_hui4 name_jia name_jia.name_yi42 name_jia1 name_jia1.name_hui name_jia1.name_hui4
+		name_jia12.name_hui4 name_jia12.name_li name_jiang name_jie name_jing name_jing1 name_jing12 name_ju name_juan
+		name_ke.name_xin12 name_lan name_lan.name_fen name_lei31 name_li name_li.name_mei name_li.name_mei2 name_li2
+		name_li2.name_mei2 name_liang name_liang2 name_liang2.name_yu4 name_lin name_ling2 name_liu name_mei name_mei2
+		name_mei.name_hui name_mei.name_hui4 name_mei.name_lin name_mei.name_ling21 name_mei.name_ling22 name_meng
+		name_min name_ming name_ming.name_xia name_na name_ning name_nuan name_ping name_qi4 name_qiao.name_hui4
+		name_qing name_qiu name_qiu.name_yue name_rong name_rong2 name_rong21 name_shu name_shu.name_fen
+		name_shu.name_hui name_shu.name_hui4 name_shu1.name_hui name_shu1.name_hui4 name_shun name_su name_ting
+		name_tong name_wei13 name_wen name_wu4 name_xia name_xiang name_xiang1 name_xin name_xin12.name_yi23 name_xiu
+		name_xiu.name_lan name_xiu.name_ying name_xue name_ya name_ya.name_ting name_ya.name_wen22 name_yan name_yang2
+		name_yang22 name_yang23 name_yi2 name_yi23 name_yin name_yin2 name_ying name_ying3 name_ying32 name_yu22
+		name_yu3 name_yu3.name_tong name_yu4 name_yu4.name_ming name_yu4.name_xi name_yun name_yun2 name_yue name_zhen
+		name_zi.name_xuan1 name_zi3.name_han21
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_lan
+		name_mei2
+		name_hua
+		name_yue
+		name_jing
+		name_shu
+		name_xiu
+		name_ying
+		name_fang
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_hui.name_ying
+		name_xiu.name_lan
+		name_mei.name_hui
+		name_jia1.name_hui
+		name_lan.name_fen
+		name_shu.name_hui
+		name_qiu.name_yue
+		name_ming.name_xia
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 280
+		}
+		name_shu.name_hui
+		name_xiu.name_ying
+		name_lan.name_fen
+		name_mei.name_lin
+		name_qiu.name_yue
+		name_ying3
+		name_ning
+		name_juan
+	}
+	dynasty_names = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_hao3
+		name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou name_hu
+		name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3 name_ju
+		name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21 name_lian4
+		name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4 name_luo
+		name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping name_pu3
+		name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1 name_qiu12
+		name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi name_shi1
+		name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan name_tang
+		name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12 name_wei2
+		name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4 name_xi
+		name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	lowborn = {
+		name_ai4 name_an name_bai name_bao12 name_bao4 name_cai name_cao name_chang2 name_cheng name_cheng2 name_cong2
+		name_cui name_dai name_deng name_ding name_ding4 name_dong name_dong3 name_dong4 name_du name_duan name_fan
+		name_feng name_fu2 name_fu21 name_fu4 name_gao name_gong name_gu name_guang name_gui name_hai name_han2
+		name_hao3 name_he name_he2 name_he21 name_he4 name_heng2 name_heng21 name_hong name_hong2 name_hong21 name_hou
+		name_hu name_hua name_huang2 name_jia3 name_jian3 name_jiang name_jiang1 name_jiang3 name_jin name_jing3
+		name_ju name_kang name_ke1 name_kong name_lai name_lei name_li2 name_li3 name_liao name_lian2 name_lian21
+		name_lian4 name_liang name_liang2 name_lin name_ling name_ling21 name_liu2 name_long name_lu name_lu2 name_lu4
+		name_luo name_ma name_mei2 name_meng name_meng4 name_mo4 name_ning name_ou name_pan name_peng name_ping
+		name_pu3 name_qi1 name_qi2 name_qi21 name_qian name_qiang name_qiao name_qiao2 name_qin name_qiu name_qiu1
+		name_qiu12 name_ren name_rong name_rong2 name_rong21 name_shan name_shao name_shen name_shen4 name_shi
+		name_shi1 name_shi2 name_shi3 name_shi4 name_shou name_shu1 name_si name_song name_su1 name_sun1 name_tan
+		name_tang name_tang1 name_tao1 name_tian name_tong name_tong2 name_wan name_wang name_wang1 name_wei12
+		name_wei2 name_wei4 name_wei42 name_wen name_wen1 name_wen2 name_wu name_wu2 name_wu3 name_wu32 name_wu4
+		name_xi name_xia4 name_xiang name_xiang1 name_xiang12 name_xiang2 name_xiang4 name_xiang42 name_xiao name_xie
+		name_xin1 name_xin12 name_xin4 name_xing name_xiong name_xiu1 name_xu3 name_xue1 name_ya name_yan name_yan2
+		name_yan21 name_yan22 name_yang name_yang2 name_yang22 name_yang23 name_yao name_ye name_yi12 name_yi22
+		name_yi42 name_yi43 name_yin name_yin1 name_yin2 name_yin3 name_yin4 name_ying name_ying1 name_ying3
+		name_ying32 name_you name_yu2 name_yu23 name_yu24 name_yuan name_yuan2 name_yun name_yun2 name_zeng name_zhao
+		name_zhen name_zhen1 name_zheng name_zhong name_zhou name_zhuang name_zou name_zu
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_classical_chinese_language_001 om7_ship_classical_chinese_language_002
+		om7_ship_classical_chinese_language_003 om7_ship_classical_chinese_language_004
+		om7_ship_classical_chinese_language_005 om7_ship_classical_chinese_language_006
+		om7_ship_classical_chinese_language_007 om7_ship_classical_chinese_language_008
+		om7_ship_classical_chinese_language_009 om7_ship_classical_chinese_language_010
+		om7_ship_classical_chinese_language_011 om7_ship_classical_chinese_language_012
+		om7_ship_classical_chinese_language_013 om7_ship_classical_chinese_language_014
+		om7_ship_classical_chinese_language_015 om7_ship_classical_chinese_language_016
+		om7_ship_classical_chinese_language_017 om7_ship_classical_chinese_language_018
+		om7_ship_classical_chinese_language_019 om7_ship_classical_chinese_language_020
+		om7_ship_classical_chinese_language_021 om7_ship_classical_chinese_language_022
+		om7_ship_classical_chinese_language_023 om7_ship_classical_chinese_language_024
+		om7_ship_classical_chinese_language_025 om7_ship_classical_chinese_language_026
+		om7_ship_classical_chinese_language_027 om7_ship_classical_chinese_language_028
+		om7_ship_classical_chinese_language_029 om7_ship_classical_chinese_language_030
+		om7_ship_classical_chinese_language_031 om7_ship_classical_chinese_language_032
+		om7_ship_classical_chinese_language_033 om7_ship_classical_chinese_language_034
+		om7_ship_classical_chinese_language_035 om7_ship_classical_chinese_language_036
+		om7_ship_classical_chinese_language_037 om7_ship_classical_chinese_language_038
+		om7_ship_classical_chinese_language_039 om7_ship_classical_chinese_language_040
+		om7_ship_classical_chinese_language_041 om7_ship_classical_chinese_language_042
+		om7_ship_classical_chinese_language_043 om7_ship_classical_chinese_language_044
+		om7_ship_classical_chinese_language_045 om7_ship_classical_chinese_language_046
+		om7_ship_classical_chinese_language_047 om7_ship_classical_chinese_language_048
+		om7_ship_classical_chinese_language_049 om7_ship_classical_chinese_language_050
+		om7_ship_classical_chinese_language_051 om7_ship_classical_chinese_language_052
+		om7_ship_classical_chinese_language_053 om7_ship_classical_chinese_language_054
+		om7_ship_classical_chinese_language_055 om7_ship_classical_chinese_language_056
+		om7_ship_classical_chinese_language_057 om7_ship_classical_chinese_language_058
+		om7_ship_classical_chinese_language_059 om7_ship_classical_chinese_language_060
+		om7_ship_classical_chinese_language_061 om7_ship_classical_chinese_language_062
+		om7_ship_classical_chinese_language_063 om7_ship_classical_chinese_language_064
+		om7_ship_classical_chinese_language_065 om7_ship_classical_chinese_language_066
+		om7_ship_classical_chinese_language_067 om7_ship_classical_chinese_language_068
+		om7_ship_classical_chinese_language_069 om7_ship_classical_chinese_language_070
+		om7_ship_classical_chinese_language_071 om7_ship_classical_chinese_language_072
+		om7_ship_classical_chinese_language_073 om7_ship_classical_chinese_language_074
+		om7_ship_classical_chinese_language_075 om7_ship_classical_chinese_language_076
+		om7_ship_classical_chinese_language_077 om7_ship_classical_chinese_language_078
+		om7_ship_classical_chinese_language_079 om7_ship_classical_chinese_language_080
+		om7_ship_classical_chinese_language_081 om7_ship_classical_chinese_language_082
+		om7_ship_classical_chinese_language_083 om7_ship_classical_chinese_language_084
+		om7_ship_classical_chinese_language_085 om7_ship_classical_chinese_language_086
+		om7_ship_classical_chinese_language_087 om7_ship_classical_chinese_language_088
+		om7_ship_classical_chinese_language_089 om7_ship_classical_chinese_language_090
+		om7_ship_classical_chinese_language_091 om7_ship_classical_chinese_language_092
+		om7_ship_classical_chinese_language_093 om7_ship_classical_chinese_language_094
+		om7_ship_classical_chinese_language_095 om7_ship_classical_chinese_language_096
+		om7_ship_classical_chinese_language_097
+	}
+}
+
+formosan_language = {
+	color = map_formosan
+	male_names = {
+		Ali_zu Baqah Bokeh Kilash Maraos Paelabang name_pelin Rapongan Sorong Tahas Taiban Uyongu Walis Wa_li_ssu
+		Yu_kan Ayal Takalang Saraij Idangh
+	}
+	female_names = {
+		Giwas Mavivo Sorong Yungai Alines Ciwas Bidai Igay Pacidal Ilid Ladang Tonghili Ngiti Olaeij Tonghiti Illong
+		Karaijo Takada Taguatal Paicu
+	}
+	dynasty_names = {}
+	lowborn = {}
+	ship_names = {
+		om7_ship_formosan_language_001 om7_ship_formosan_language_002 om7_ship_formosan_language_003
+		om7_ship_formosan_language_004 om7_ship_formosan_language_005 om7_ship_formosan_language_006
+		om7_ship_formosan_language_007 om7_ship_formosan_language_008 om7_ship_formosan_language_009
+		om7_ship_formosan_language_010 om7_ship_formosan_language_011 om7_ship_formosan_language_012
+		om7_ship_formosan_language_013 om7_ship_formosan_language_014 om7_ship_formosan_language_015
+		om7_ship_formosan_language_016 om7_ship_formosan_language_017 om7_ship_formosan_language_018
+		om7_ship_formosan_language_019
+	}
+}
+
+hmong_language = {
+	color = map_hmong
+	male_names = {
+		Blong Kou Tswb Xwm Alang Chimua Choj Chue Duab Fuechy Kaus name_ke Keej name_kim Kong_hmong Kongpeng Kouaeia
+		Liab Looj Lung Neeb Nhia Npaub Nplooj Ntxawg Rwg Sijfuam Suav Tang_hmong Tooj Tsawb Tsheej Tub Wang_meng Xob
+		Xyoob Yeej Yengkong Zoov
+	}
+	female_names = {
+		Cua Hnub Houa Nkauj Nou Ntusab Pa Ab Aee Che Chee Dawb Duabntxoo Gao_jer Hiav Hli Hnubci Hnubkaj Hnubtshiab
+		Huab Jong Kabzuag Kajsiab Kawm Khoua Kiab Liablis Liaj Lig Luv Maiv Me Mee Mos Mouachy Nali Nkaujhli Nplhaib
+		Ntaub Ntsais Ntxawm Ntxheb Ntxhi Ntxoo Nyiaj Pajhnubhli Pajlug Pajntaub Pajtshiab Pajtwag Qaib Sua Suab Taub
+		Tshaus Xiav Xov Yer Zoua
+	}
+	dynasty_names = {}
+	lowborn = {}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_hmong_language_001 om7_ship_hmong_language_002 om7_ship_hmong_language_003
+		om7_ship_hmong_language_004 om7_ship_hmong_language_005 om7_ship_hmong_language_006
+		om7_ship_hmong_language_007 om7_ship_hmong_language_008 om7_ship_hmong_language_009
+		om7_ship_hmong_language_010 om7_ship_hmong_language_011 om7_ship_hmong_language_012
+		om7_ship_hmong_language_013 om7_ship_hmong_language_014 om7_ship_hmong_language_015
+		om7_ship_hmong_language_016 om7_ship_hmong_language_017 om7_ship_hmong_language_018
+		om7_ship_hmong_language_019 om7_ship_hmong_language_020 om7_ship_hmong_language_021
+		om7_ship_hmong_language_022 om7_ship_hmong_language_023 om7_ship_hmong_language_024
+		om7_ship_hmong_language_025 om7_ship_hmong_language_026 om7_ship_hmong_language_027
+		om7_ship_hmong_language_028 om7_ship_hmong_language_029 om7_ship_hmong_language_030
+		om7_ship_hmong_language_031 om7_ship_hmong_language_032 om7_ship_hmong_language_033
+		om7_ship_hmong_language_034 om7_ship_hmong_language_035 om7_ship_hmong_language_036
+		om7_ship_hmong_language_037 om7_ship_hmong_language_038 om7_ship_hmong_language_039
+	}
+}
+
+yi_language = {
+	color = map_yi
+	family = burmic_language_family
+	male_names = {
+		Amu Bbuddur Bbujji Joddur Jojji Jonuo Laji Lapu Muga Mujy Munyi Munyu Nyibbu Nyijjo Nyipo Qubbu Quji Qupo Quqi
+		Shuqi Shusse Shyji Shyqi Ssuqi Ssyda Ssyhuo Ssynuo Ssyshy Susse Vada Vahuo Aho Jjiha Lomusse
+	}
+	female_names = {
+		Aga Agge Anyu Ayi Azhy Bbuddur Bbujji Joddur Laji Lasy Nyibbu Nyijjo Qubbu Quji Quqi Quvie Shuqi Shyji Shymo
+		Shyqi Shyvie Ssuqi Ssyhuo Ssynuo Ssyshy Vada Vahuo
+	}
+	dynasty_names = {}
+	lowborn = {}
+	ship_names = {
+		om7_ship_yi_language_001 om7_ship_yi_language_002 om7_ship_yi_language_003 om7_ship_yi_language_004
+		om7_ship_yi_language_005 om7_ship_yi_language_006 om7_ship_yi_language_007 om7_ship_yi_language_008
+		om7_ship_yi_language_009 om7_ship_yi_language_010 om7_ship_yi_language_011 om7_ship_yi_language_012
+		om7_ship_yi_language_013 om7_ship_yi_language_014 om7_ship_yi_language_015 om7_ship_yi_language_016
+		om7_ship_yi_language_017 om7_ship_yi_language_018 om7_ship_yi_language_019 om7_ship_yi_language_020
+		om7_ship_yi_language_021 om7_ship_yi_language_022 om7_ship_yi_language_023 om7_ship_yi_language_024
+		om7_ship_yi_language_025 om7_ship_yi_language_026 om7_ship_yi_language_027 om7_ship_yi_language_028
+		om7_ship_yi_language_029 om7_ship_yi_language_030 om7_ship_yi_language_031 om7_ship_yi_language_032
+		om7_ship_yi_language_033 om7_ship_yi_language_034
+	}
+}
+
+qiangic_language = {
+	color = map_rma
+	male_names = {
+		Amu Bbuddur Bbujji Joddur Jojji Jonuo Laji Lapu Muga Mujy Munyi Munyu Nyibbu Nyijjo Nyipo Qubbu Quji Qupo Quqi
+		Shuqi Shusse Shyji Shyqi Ssuqi Ssyda Ssyhuo Ssynuo Ssyshy Susse Vada Vahuo Aho Jjiha Lomusse
+	}
+	female_names = {
+		Aga Agge Anyu Ayi Azhy Bbuddur Bbujji Joddur Laji Lasy Nyibbu Nyijjo Qubbu Quji Quqi Quvie Shuqi Shyji Shymo
+		Shyqi Shyvie Ssuqi Ssyhuo Ssynuo Ssyshy Vada Vahuo
+	}
+	dynasty_names = {}
+	lowborn = {}
+	ship_names = {
+		om7_ship_qiangic_language_001 om7_ship_qiangic_language_002 om7_ship_qiangic_language_003
+		om7_ship_qiangic_language_004 om7_ship_qiangic_language_005 om7_ship_qiangic_language_006
+		om7_ship_qiangic_language_007 om7_ship_qiangic_language_008 om7_ship_qiangic_language_009
+		om7_ship_qiangic_language_010 om7_ship_qiangic_language_011 om7_ship_qiangic_language_012
+		om7_ship_qiangic_language_013 om7_ship_qiangic_language_014 om7_ship_qiangic_language_015
+		om7_ship_qiangic_language_016 om7_ship_qiangic_language_017 om7_ship_qiangic_language_018
+		om7_ship_qiangic_language_019 om7_ship_qiangic_language_020 om7_ship_qiangic_language_021
+		om7_ship_qiangic_language_022 om7_ship_qiangic_language_023 om7_ship_qiangic_language_024
+		om7_ship_qiangic_language_025 om7_ship_qiangic_language_026 om7_ship_qiangic_language_027
+		om7_ship_qiangic_language_028 om7_ship_qiangic_language_029 om7_ship_qiangic_language_030
+		om7_ship_qiangic_language_031 om7_ship_qiangic_language_032 om7_ship_qiangic_language_033
+		om7_ship_qiangic_language_034
+	}
+}
+
+tujia_language = {
+	color = map_tujia
+	male_names = {
+		Amu Bbuddur Bbujji Joddur Jojji Jonuo Laji Lapu Muga Mujy Munyi Munyu Nyibbu Nyijjo Nyipo Qubbu Quji Qupo Quqi
+		Shuqi Shusse Shyji Shyqi Ssuqi Ssyda Ssyhuo Ssynuo Ssyshy Susse Vada Vahuo Aho Jjiha Lomusse
+	}
+	female_names = {
+		Aga Agge Anyu Ayi Azhy Bbuddur Bbujji Joddur Laji Lasy Nyibbu Nyijjo Qubbu Quji Quqi Quvie Shuqi Shyji Shymo
+		Shyqi Shyvie Ssuqi Ssyhuo Ssynuo Ssyshy Vada Vahuo
+	}
+	dynasty_names = {}
+	lowborn = {}
+	ship_names = {
+		om7_ship_tujia_language_001 om7_ship_tujia_language_002 om7_ship_tujia_language_003
+		om7_ship_tujia_language_004 om7_ship_tujia_language_005 om7_ship_tujia_language_006
+		om7_ship_tujia_language_007 om7_ship_tujia_language_008 om7_ship_tujia_language_009
+		om7_ship_tujia_language_010 om7_ship_tujia_language_011 om7_ship_tujia_language_012
+		om7_ship_tujia_language_013 om7_ship_tujia_language_014 om7_ship_tujia_language_015
+		om7_ship_tujia_language_016 om7_ship_tujia_language_017 om7_ship_tujia_language_018
+		om7_ship_tujia_language_019 om7_ship_tujia_language_020 om7_ship_tujia_language_021
+		om7_ship_tujia_language_022 om7_ship_tujia_language_023 om7_ship_tujia_language_024
+		om7_ship_tujia_language_025 om7_ship_tujia_language_026 om7_ship_tujia_language_027
+		om7_ship_tujia_language_028 om7_ship_tujia_language_029 om7_ship_tujia_language_030
+		om7_ship_tujia_language_031 om7_ship_tujia_language_032 om7_ship_tujia_language_033
+		om7_ship_tujia_language_034
+	}
+}
+
+bai_language = {
+	color = map_bai
+	male_names = {
+		Amu Bbuddur Bbujji Joddur Jojji Jonuo Laji Lapu Muga Mujy Munyi Munyu Nyibbu Nyijjo Nyipo Qubbu Quji Qupo Quqi
+		Shuqi Shusse Shyji Shyqi Ssuqi Ssyda Ssyhuo Ssynuo Ssyshy Susse Vada Vahuo Aho Jjiha Lomusse
+	}
+	female_names = {
+		Aga Agge Anyu Ayi Azhy Bbuddur Bbujji Joddur Laji Lasy Nyibbu Nyijjo Qubbu Quji Quqi Quvie Shuqi Shyji Shymo
+		Shyqi Shyvie Ssuqi Ssyhuo Ssynuo Ssyshy Vada Vahuo
+	}
+	dynasty_names = {}
+	lowborn = {}
+	ship_names = {
+		om7_ship_bai_language_001 om7_ship_bai_language_002 om7_ship_bai_language_003 om7_ship_bai_language_004
+		om7_ship_bai_language_005 om7_ship_bai_language_006 om7_ship_bai_language_007 om7_ship_bai_language_008
+		om7_ship_bai_language_009 om7_ship_bai_language_010 om7_ship_bai_language_011 om7_ship_bai_language_012
+		om7_ship_bai_language_013 om7_ship_bai_language_014 om7_ship_bai_language_015 om7_ship_bai_language_016
+		om7_ship_bai_language_017 om7_ship_bai_language_018 om7_ship_bai_language_019 om7_ship_bai_language_020
+		om7_ship_bai_language_021 om7_ship_bai_language_022 om7_ship_bai_language_023 om7_ship_bai_language_024
+		om7_ship_bai_language_025 om7_ship_bai_language_026 om7_ship_bai_language_027 om7_ship_bai_language_028
+		om7_ship_bai_language_029 om7_ship_bai_language_030 om7_ship_bai_language_031 om7_ship_bai_language_032
+		om7_ship_bai_language_033 om7_ship_bai_language_034
+	}
+}

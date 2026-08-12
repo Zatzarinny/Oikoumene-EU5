@@ -1,0 +1,32 @@
+﻿tamazight_language = {
+	color = map_tuareg
+	male_names = {
+		name_abd_al_aziz Abd_al-Haqq Abd_al-Wahid name_abdullah name_abu_bakr Abul_Fadl Abu_Hammu Abu_Tashufin
+		name_abu.name_john Abu_Zayyan name_ahmad Al-Fadl name_ali Faris name_abraham Khalid name_muhammad name_omar
+		name_osman name_john name_james name_joseph name_zechariah
+	}
+	female_names = {
+		Fatimah Randa Tabassum Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Faghissa Fahriya Fariza Fedada
+		Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Tintifawin Tinzert
+		Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuhrict Tureght Dihya Tajeddigt Tidir Tifawt
+	}
+	dynasty_names = {
+		Marinid Zayyanid Hafsid Wattasid Saadi Alaouite Banu_Ifran Hammadid Aftasid Almohad Banu_Ghaniya Banu_Isam
+		Midrarid
+	}
+	lowborn = {
+		Aitbrahim Ameziane Izem Jlassi Meziane Mokrani Ouyahia Tamazight Zeroual Ferraoun
+	}
+	patronym_prefix_son = "patronym_prefix_amazigh_son"
+	patronym_prefix_daughter = "patronym_prefix_amazigh_daughter"
+	ship_names = {
+		om7_ship_tamazight_language_001 om7_ship_tamazight_language_002 om7_ship_tamazight_language_003
+		om7_ship_tamazight_language_004 om7_ship_tamazight_language_005 om7_ship_tamazight_language_006
+		om7_ship_tamazight_language_007 om7_ship_tamazight_language_008 om7_ship_tamazight_language_009
+		om7_ship_tamazight_language_010 om7_ship_tamazight_language_011 om7_ship_tamazight_language_012
+		om7_ship_tamazight_language_013 om7_ship_tamazight_language_014 om7_ship_tamazight_language_015
+		om7_ship_tamazight_language_016 om7_ship_tamazight_language_017 om7_ship_tamazight_language_018
+		om7_ship_tamazight_language_019 om7_ship_tamazight_language_020 om7_ship_tamazight_language_021
+		om7_ship_tamazight_language_022 om7_ship_tamazight_language_023
+	}
+}

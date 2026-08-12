@@ -1,0 +1,2514 @@
+﻿french_language = {
+	color = map_FRA
+	family = romance_language_family
+	male_names = {
+		name_adam name_alan name_anthony name_dennis name_giles name_william name_james name_john name_louis
+		name_michael name_nicholas name_peter name_philip name_ralph name_simeon name_adrian name_albert
+		name_alexander name_andrew name_baldwin name_bartholomew name_benedict name_berengar name_bertrand
+		name_boniface name_charles name_christopher name_claude name_clement name_conrad name_david name_dominic
+		name_edward name_emmanuel name_eugene name_felix name_francis name_fulk name_george name_godfrey name_gregory
+		name_henry name_hugh name_laurence name_leon name_martin name_matthew name_paul name_raymond name_robert
+		name_roger name_stephen name_theobald name_thomas name_walter name_wido name_arthur name_lancelot name_oliver
+		name_roland name_gawain name_amalric name_hardwin name_ogier name_reginald name_milon name_engelbert
+		name_enguerrand name_joseph name_casper name_richard name_fr_eudes name_fr_herve name_fr_yves name_fr_garin
+		name_fr_hamon
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_adam
+		name_albert
+		name_charles
+		name_fulk
+		name_gilbert
+		name_godfrey
+		name_henry
+		name_hugh
+		name_louis
+		name_philip
+		name_ralph
+		name_robert
+		name_william
+		name_john
+		name_walter
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_anthony
+		name_charles
+		name_francis
+		name_george
+		name_henry
+		name_james
+		name_john
+		name_louis
+		name_michael
+		name_nicholas
+		name_peter
+		name_philip
+		name_claude
+		name_om_fr_rene
+		name_giles
+		name_om_fr_mathurin
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 140
+		}
+		name_alexander
+		name_august
+		name_charles
+		name_francis
+		name_henry
+		name_joseph
+		name_louis
+		name_napoleon
+		name_victor
+		name_anthony
+		name_james
+	}
+	female_names = {
+		name_amelia name_anna name_antonia name_catherine name_constance name_charlotte name_denise name_eleanor
+		name_joanna name_margaret name_mary name_susan name_adela name_adelaide name_agnes name_alice name_beatrix
+		name_blanche name_cecile name_claire name_clarice name_elizabeth name_frances name_ermengard name_ermesinde
+		name_esclarmonde name_louise name_matilda name_petronilla name_philippa name_sybil name_yolande name_sophia
+		name_theresa name_ursula name_almodis name_douce name_renata name_gillette name_felicitas name_fr_aelis
+		name_fr_hodierne name_fr_isabeau name_fr_mahault
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_adela
+		name_adelaide
+		name_agnes
+		name_alice
+		name_beatrix
+		name_catherine
+		name_eleanor
+		name_elizabeth
+		name_margaret
+		name_mary
+		name_matilda
+		name_joanna
+		name_fr_isabeau
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_anna
+		name_barbara
+		name_catherine
+		name_charlotte
+		name_frances
+		name_joanna
+		name_madeleine
+		name_margaret
+		name_mary
+		name_antonia
+		name_louise
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 130
+		}
+		name_alexandra
+		name_caroline
+		name_charlotte
+		name_josephine
+		name_louise
+		name_victoria
+		name_om_fr_genevieve
+		name_om_fr_angelique
+		name_theresa
+	}
+	dynasty_names = {
+		bourbon_dynasty de_la_tour_dynasty de_Lorraine foix_dynasty de_Montfort de_Blois de_Penthievre de_Dreux
+		de_Rohan de_Bar d_Albert d_Escoubleau de_Neufville de_Castellane_dynasty auvergne_dynasty
+		de_Montbeliard_dynasty de_Metz_dynasty laval_dynasty du_Pin_dynasty de_la_Tremoille_dynasty de_Crequy_dynasty
+		de_Broglie_dynasty de_Montesquiou_dynasty courtenay_dynasty harcourt_dynasty de_la_Croix_dynasty
+		de_rochechouart_dynasty d_Aumont_dynasty de_Vergy_dynasty de_Saboulin_dynasty de_Gramont_dynasty
+		de_Bissy_dynasty de_Barrau_dynasty de_la_Fayette_dynasty armagnac_dynasty de_Rouge_dynasty du_Quenoy_dynasty
+		de_Ficquelmont_dynasty talleyrand_dynasty de_Saintignon_dynasty montmorency_dynasty de_Savoie_dynasty
+		vaudemont_dynasty de_Nicolay_dynasty fr_dyn_capet fr_dyn_valois fr_dyn_anjou fr_dyn_normandie fr_dyn_bourgogne
+		fr_dyn_champagne fr_dyn_toulouse fr_dyn_lusignan fr_dyn_coucy fr_dyn_chatillon fr_dyn_joinville
+		fr_dyn_la_marche fr_dyn_albret fr_dyn_dampierre fr_dyn_chalon fr_dyn_nevers fr_dyn_macon fr_dyn_beaujeu
+		fr_dyn_salins fr_dyn_thouars fr_dyn_poitiers fr_dyn_brienne fr_dyn_melun fr_dyn_la_rochefoucauld
+		om_dyn_fr_guise om_dyn_fr_montmorency om_dyn_fr_la_tremoille om_dyn_fr_rohan om_dyn_fr_noailles
+		om_dyn_fr_richelieu om_dyn_fr_colbert om_dyn_fr_conde om_dyn_fr_conti om_dyn_fr_bouillon
+	}
+	lowborn = {
+		name_bernard name_duran Dubois Laurent name_martin Michel Moreau name_richard name_robert name_simeon
+		fr_low_lefebvre fr_low_legrand fr_low_petit fr_low_morel fr_low_leroy fr_low_leclerc fr_low_marchand
+		fr_low_pelletier fr_low_carpentier fr_low_boucher fr_low_boulanger fr_low_cordier fr_low_meunier
+		fr_low_chevalier fr_low_charpentier fr_low_barbier fr_low_masson fr_low_berger fr_low_colin fr_low_perrin
+		fr_low_garin fr_low_dufour om_low_fr_durand om_low_fr_fournier
+	}
+	ship_names = {
+		acheron achille aconit admirable africain africaine aigle alexandre amarante amazone ambitieux amphitrite
+		andromaque annibal apollon aquilon arabe arethuse argonaute ariane armide arromanches name_artemis artemise
+		astree astrolabe atalante atlas audacieux auguste bison borda boudeuse bouvet capricieuse casabianca cassard
+		cassiopee chacal duperre dupleix duquesne durance eglantine elan epee espadon esterel etoile forbin foudre
+		fougueuse gapeau garonne gazelle glaive glorieuse gracieuse guepard hache hallebarde indomptable inflexible
+		laperouse leopard_fr lion luberon lynx lyre marne massue meduse mercure meuse mistral monge montcalm moqueuse
+		mutin normand orage orion ouragan panthere pegase perseverante pluton poseidon primauguet rapiere railleuse
+		reddition redoutable rieuse sabre serieuse sirocco styx surcouf tapageuse tenace temeraire terrible_fr tigre
+		tonnant triomphant var vauquelin name_victor vigilant vulcain om7_ship_french_language_001
+		om7_ship_french_language_002 om7_ship_french_language_003 om7_ship_french_language_004
+		om7_ship_french_language_005 om7_ship_french_language_006 om7_ship_french_language_007
+		om7_ship_french_language_008 om7_ship_french_language_009 om7_ship_french_language_010
+		om7_ship_french_language_011 om7_ship_french_language_012 om7_ship_french_language_013
+		om7_ship_french_language_014 om7_ship_french_language_015 om7_ship_french_language_016
+		om7_ship_french_language_017 om7_ship_french_language_018 om7_ship_french_language_019
+		om7_ship_french_language_020 om7_ship_french_language_021 om7_ship_french_language_022
+		om7_ship_french_language_023 om7_ship_french_language_024 om7_ship_french_language_025
+		om7_ship_french_language_026 om7_ship_french_language_027 om7_ship_french_language_028
+		om7_ship_french_language_029 om7_ship_french_language_030 om7_ship_french_language_031
+		om7_ship_french_language_032 om7_ship_french_language_033 om7_ship_french_language_034
+		om7_ship_french_language_035 om7_ship_french_language_036 om7_ship_french_language_037
+		om7_ship_french_language_038 om7_ship_french_language_039 om7_ship_french_language_040
+		om7_ship_french_language_041 om7_ship_french_language_042 om7_ship_french_language_043
+		om7_ship_french_language_044 om7_ship_french_language_045 om7_ship_french_language_046
+		om7_ship_french_language_047 om7_ship_french_language_048 om7_ship_french_language_049
+		om7_ship_french_language_050 om7_ship_french_language_051 om7_ship_french_language_052
+		om7_ship_french_language_053 om7_ship_french_language_054 om7_ship_french_language_055
+		om7_ship_french_language_056 om7_ship_french_language_057 om7_ship_french_language_058
+		om7_ship_french_language_059 om7_ship_french_language_060 om7_ship_french_language_061
+		om7_ship_french_language_062 om7_ship_french_language_063 om7_ship_french_language_064
+		om7_ship_french_language_065 om7_ship_french_language_066 om7_ship_french_language_067
+		om7_ship_french_language_068 om7_ship_french_language_069 om7_ship_french_language_070
+		om7_ship_french_language_071 om7_ship_french_language_072 om7_ship_french_language_073
+		om7_ship_french_language_074 om7_ship_french_language_075 om7_ship_french_language_076
+		om7_ship_french_language_077 om7_ship_french_language_078 om7_ship_french_language_079
+		om7_ship_french_language_080 om7_ship_french_language_081 om7_ship_french_language_082
+	}
+	dynasty_template_keys = {
+		SOMEONE_OF_SOMEWHERE SOMEONE_FROM_SOMEWHERE SOMEONE_THE_SOMETHING_OF_SOMEWHERE__TYPE
+		SOMEONE_THE_SOMEDESC_SOMETHING__ADJ_TYPE SOMEONE_THE_SOMELOCALITY_SOMETHING__TYPE
+		SOMEONE_THE_SOMENATIONALITY_SOMETHING__TYPE
+	}
+	patronym_prefix_son = "patronym_prefix_french_son"
+	patronym_prefix_daughter = "patronym_prefix_french_daughter"
+	location_prefix = "location_prefix_french"
+	location_prefix_vowel = "location_prefix_french_vowel"
+	first_name_conjoiner = "-"
+	dialects = {
+		french_language = {
+			default = yes
+			male_names = {
+				name_adam name_alan name_anthony name_dennis name_giles name_william name_james name_john name_louis
+				name_michael name_nicholas name_peter name_philip name_ralph name_simeon name_adrian name_albert
+				name_alexander name_andrew name_baldwin name_bartholomew name_benedict name_berengar name_bertrand
+				name_boniface name_charles name_christopher name_claude name_clement name_conrad name_david name_dominic
+				name_edward name_emmanuel name_eugene name_felix name_francis name_fulk name_george name_godfrey
+				name_gregory name_henry name_hugh name_laurence name_leon name_martin name_matthew name_paul name_raymond
+				name_robert name_roger name_stephen name_theobald name_thomas name_walter name_wido name_arthur
+				name_lancelot name_oliver name_roland name_gawain name_amalric name_hardwin name_ogier name_reginald
+				name_milon name_engelbert name_enguerrand name_joseph name_casper name_richard name_fr_eudes name_fr_herve
+				name_fr_yves name_fr_garin name_fr_hamon
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adam
+				name_albert
+				name_charles
+				name_fulk
+				name_godfrey
+				name_henry
+				name_hugh
+				name_louis
+				name_philip
+				name_ralph
+				name_robert
+				name_william
+				name_john
+				name_walter
+				name_alan
+				name_anthony
+				name_dennis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_charles
+				name_francis
+				name_george
+				name_henry
+				name_james
+				name_john
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_claude
+				name_giles
+				name_christopher
+				name_clement
+				name_conrad
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_charles
+				name_francis
+				name_henry
+				name_joseph
+				name_louis
+				name_anthony
+				name_james
+				name_roger
+				name_stephen
+				name_theobald
+				name_thomas
+				name_walter
+				name_wido
+				name_arthur
+				name_lancelot
+				name_oliver
+			}
+			female_names = {
+				name_amelia name_anna name_antonia name_catherine name_constance name_charlotte name_denise name_eleanor
+				name_joanna name_margaret name_mary name_susan name_adela name_adelaide name_agnes name_alice name_beatrix
+				name_blanche name_cecile name_claire name_clarice name_elizabeth name_frances name_ermengard name_ermesinde
+				name_esclarmonde name_louise name_matilda name_petronilla name_philippa name_sybil name_yolande name_sophia
+				name_theresa name_ursula name_almodis name_douce name_renata name_gillette name_felicitas name_fr_aelis
+				name_fr_hodierne name_fr_isabeau name_fr_mahault
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adela
+				name_adelaide
+				name_agnes
+				name_alice
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_elizabeth
+				name_margaret
+				name_mary
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_catherine
+				name_charlotte
+				name_frances
+				name_joanna
+				name_margaret
+				name_mary
+				name_antonia
+				name_louise
+				name_agnes
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charlotte
+				name_louise
+				name_theresa
+				name_petronilla
+				name_philippa
+				name_sybil
+				name_yolande
+				name_sophia
+				name_ursula
+				name_almodis
+			}
+			dynasty_names = {
+				bourbon_dynasty de_la_tour_dynasty de_Lorraine foix_dynasty de_Montfort de_Blois de_Penthievre de_Dreux
+				de_Rohan de_Bar d_Albert d_Escoubleau de_Neufville de_Castellane_dynasty auvergne_dynasty
+				de_Montbeliard_dynasty de_Metz_dynasty laval_dynasty du_Pin_dynasty de_la_Tremoille_dynasty
+				de_Crequy_dynasty de_Broglie_dynasty de_Montesquiou_dynasty courtenay_dynasty harcourt_dynasty
+				de_la_Croix_dynasty de_rochechouart_dynasty d_Aumont_dynasty de_Vergy_dynasty de_Saboulin_dynasty
+				de_Gramont_dynasty de_Bissy_dynasty de_Barrau_dynasty de_la_Fayette_dynasty armagnac_dynasty
+				de_Rouge_dynasty du_Quenoy_dynasty de_Ficquelmont_dynasty talleyrand_dynasty de_Saintignon_dynasty
+				montmorency_dynasty de_Savoie_dynasty vaudemont_dynasty de_Nicolay_dynasty fr_dyn_capet fr_dyn_valois
+				fr_dyn_anjou fr_dyn_normandie fr_dyn_bourgogne fr_dyn_champagne fr_dyn_toulouse fr_dyn_lusignan fr_dyn_coucy
+				fr_dyn_chatillon fr_dyn_joinville fr_dyn_la_marche fr_dyn_albret fr_dyn_dampierre fr_dyn_chalon
+				fr_dyn_nevers fr_dyn_macon fr_dyn_beaujeu fr_dyn_salins fr_dyn_thouars fr_dyn_poitiers fr_dyn_brienne
+				fr_dyn_melun fr_dyn_la_rochefoucauld
+			}
+			lowborn = {
+				name_bernard name_duran Dubois Laurent name_martin Michel Moreau name_richard name_robert name_simeon
+				fr_low_lefebvre fr_low_legrand fr_low_petit fr_low_morel fr_low_leroy fr_low_leclerc fr_low_marchand
+				fr_low_pelletier fr_low_carpentier fr_low_boucher fr_low_boulanger fr_low_cordier fr_low_meunier
+				fr_low_chevalier fr_low_charpentier fr_low_barbier fr_low_masson fr_low_berger fr_low_colin fr_low_perrin
+				fr_low_garin fr_low_dufour
+			}
+		}
+		norman_dialect = {
+			patronym_prefix_son = "patronym_prefix_norman_son"
+			patronym_prefix_daughter = "patronym_prefix_norman_son"
+			male_names = {
+				name_adam name_alan name_anthony name_dennis name_giles name_william name_james name_john name_louis
+				name_michael name_nicholas name_peter name_philip name_ralph name_simeon name_adrian name_albert
+				name_alexander name_andrew name_baldwin name_bartholomew name_benedict name_berengar name_bertrand
+				name_boniface name_charles name_christopher name_claude name_clement name_conrad name_david name_dominic
+				name_edward name_emmanuel name_eugene name_felix name_francis name_fulk name_george name_godfrey
+				name_gregory name_henry name_hugh name_laurence name_leon name_martin name_matthew name_paul name_raymond
+				name_robert name_roger name_stephen name_theobald name_thomas name_walter name_wido name_arthur
+				name_lancelot name_oliver name_roland name_gawain name_amalric name_hardwin name_ogier name_reginald
+				name_milon name_engelbert name_enguerrand name_joseph name_casper name_richard name_fr_eudes name_fr_herve
+				name_fr_yves name_fr_garin name_fr_hamon name_humphrey name_fr_osbern name_fr_thurstan
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adam
+				name_albert
+				name_charles
+				name_fulk
+				name_godfrey
+				name_henry
+				name_hugh
+				name_louis
+				name_philip
+				name_ralph
+				name_robert
+				name_william
+				name_john
+				name_walter
+				name_alan
+				name_anthony
+				name_dennis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_charles
+				name_francis
+				name_george
+				name_henry
+				name_james
+				name_john
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_claude
+				name_giles
+				name_christopher
+				name_clement
+				name_conrad
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_charles
+				name_francis
+				name_henry
+				name_joseph
+				name_louis
+				name_anthony
+				name_james
+				name_theobald
+				name_thomas
+				name_walter
+				name_wido
+				name_arthur
+				name_lancelot
+				name_oliver
+				name_roland
+				name_gawain
+			}
+			female_names = {
+				name_amelia name_anna name_antonia name_catherine name_constance name_charlotte name_denise name_eleanor
+				name_joanna name_margaret name_mary name_susan name_adela name_adelaide name_agnes name_alice name_beatrix
+				name_blanche name_cecile name_claire name_clarice name_elizabeth name_frances name_ermengard name_ermesinde
+				name_esclarmonde name_louise name_matilda name_petronilla name_philippa name_sybil name_yolande name_sophia
+				name_theresa name_ursula name_almodis name_douce name_renata name_gillette name_felicitas name_fr_aelis
+				name_fr_hodierne name_fr_isabeau name_fr_mahault name_emma name_ada name_fr_gonnor
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adela
+				name_adelaide
+				name_agnes
+				name_alice
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_elizabeth
+				name_margaret
+				name_mary
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_catherine
+				name_charlotte
+				name_frances
+				name_joanna
+				name_margaret
+				name_mary
+				name_antonia
+				name_louise
+				name_alice
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charlotte
+				name_louise
+				name_theresa
+				name_sybil
+				name_yolande
+				name_sophia
+				name_ursula
+				name_almodis
+				name_douce
+				name_renata
+			}
+			dynasty_names = {
+				bourbon_dynasty de_la_tour_dynasty de_Lorraine foix_dynasty de_Montfort de_Blois de_Penthievre de_Dreux
+				de_Rohan de_Bar d_Albert d_Escoubleau de_Neufville de_Castellane_dynasty auvergne_dynasty
+				de_Montbeliard_dynasty de_Metz_dynasty laval_dynasty du_Pin_dynasty de_la_Tremoille_dynasty
+				de_Crequy_dynasty de_Broglie_dynasty de_Montesquiou_dynasty courtenay_dynasty harcourt_dynasty
+				de_la_Croix_dynasty de_rochechouart_dynasty d_Aumont_dynasty de_Vergy_dynasty de_Saboulin_dynasty
+				de_Gramont_dynasty de_Bissy_dynasty de_Barrau_dynasty de_la_Fayette_dynasty armagnac_dynasty
+				de_Rouge_dynasty du_Quenoy_dynasty de_Ficquelmont_dynasty talleyrand_dynasty de_Saintignon_dynasty
+				montmorency_dynasty de_Savoie_dynasty vaudemont_dynasty de_Nicolay_dynasty fr_dyn_capet fr_dyn_valois
+				fr_dyn_anjou fr_dyn_normandie fr_dyn_bourgogne fr_dyn_champagne fr_dyn_toulouse fr_dyn_lusignan fr_dyn_coucy
+				fr_dyn_chatillon fr_dyn_joinville fr_dyn_la_marche fr_dyn_albret fr_dyn_dampierre fr_dyn_chalon
+				fr_dyn_nevers fr_dyn_macon fr_dyn_beaujeu fr_dyn_salins fr_dyn_thouars fr_dyn_poitiers fr_dyn_brienne
+				fr_dyn_melun fr_dyn_la_rochefoucauld fr_dyn_grandmesnil fr_dyn_tosny fr_dyn_montgomery fr_dyn_mortain
+				fr_dyn_bayeux fr_dyn_courcy
+			}
+			lowborn = {
+				name_bernard name_duran Dubois Laurent name_martin Michel Moreau name_richard name_robert name_simeon
+				fr_low_lefebvre fr_low_legrand fr_low_petit fr_low_morel fr_low_leroy fr_low_leclerc fr_low_marchand
+				fr_low_pelletier fr_low_carpentier fr_low_boucher fr_low_boulanger fr_low_cordier fr_low_meunier
+				fr_low_chevalier fr_low_charpentier fr_low_barbier fr_low_masson fr_low_berger fr_low_colin fr_low_perrin
+				fr_low_garin fr_low_dufour fr_low_normand fr_low_le_borgne fr_low_toustain
+			}
+			ship_names = {
+				om7_ship_norman_dialect_001 om7_ship_norman_dialect_002 om7_ship_norman_dialect_003
+				om7_ship_norman_dialect_004 om7_ship_norman_dialect_005 om7_ship_norman_dialect_006
+				om7_ship_norman_dialect_007 om7_ship_norman_dialect_008 om7_ship_norman_dialect_009
+				om7_ship_norman_dialect_010 om7_ship_norman_dialect_011 om7_ship_norman_dialect_012
+				om7_ship_norman_dialect_013 om7_ship_norman_dialect_014 om7_ship_norman_dialect_015
+				om7_ship_norman_dialect_016 om7_ship_norman_dialect_017 om7_ship_norman_dialect_018
+				om7_ship_norman_dialect_019 om7_ship_norman_dialect_020 om7_ship_norman_dialect_021
+				om7_ship_norman_dialect_022 om7_ship_norman_dialect_023 om7_ship_norman_dialect_024
+				om7_ship_norman_dialect_025 om7_ship_norman_dialect_026 om7_ship_norman_dialect_027
+				om7_ship_norman_dialect_028 om7_ship_norman_dialect_029 om7_ship_norman_dialect_030
+				om7_ship_norman_dialect_031 om7_ship_norman_dialect_032 om7_ship_norman_dialect_033
+				om7_ship_norman_dialect_034 om7_ship_norman_dialect_035 om7_ship_norman_dialect_036
+				om7_ship_norman_dialect_037 om7_ship_norman_dialect_038 om7_ship_norman_dialect_039
+				om7_ship_norman_dialect_040 om7_ship_norman_dialect_041 om7_ship_norman_dialect_042
+				om7_ship_norman_dialect_043 om7_ship_norman_dialect_044 om7_ship_norman_dialect_045
+				om7_ship_norman_dialect_046 om7_ship_norman_dialect_047 om7_ship_norman_dialect_048
+				om7_ship_norman_dialect_049 om7_ship_norman_dialect_050 om7_ship_norman_dialect_051
+				om7_ship_norman_dialect_052 om7_ship_norman_dialect_053 om7_ship_norman_dialect_054
+				om7_ship_norman_dialect_055 om7_ship_norman_dialect_056 om7_ship_norman_dialect_057
+				om7_ship_norman_dialect_058 om7_ship_norman_dialect_059 om7_ship_norman_dialect_060
+				om7_ship_norman_dialect_061 om7_ship_norman_dialect_062 om7_ship_norman_dialect_063
+				om7_ship_norman_dialect_064 om7_ship_norman_dialect_065 om7_ship_norman_dialect_066
+				om7_ship_norman_dialect_067 om7_ship_norman_dialect_068 om7_ship_norman_dialect_069
+				om7_ship_norman_dialect_070 om7_ship_norman_dialect_071 om7_ship_norman_dialect_072
+				om7_ship_norman_dialect_073 om7_ship_norman_dialect_074 om7_ship_norman_dialect_075
+				om7_ship_norman_dialect_076 om7_ship_norman_dialect_077 om7_ship_norman_dialect_078
+				om7_ship_norman_dialect_079
+			}
+		}
+		burgundian_dialect = {
+			male_names = {
+				name_adam name_alan name_anthony name_dennis name_giles name_william name_james name_john name_louis
+				name_michael name_nicholas name_peter name_philip name_ralph name_simeon name_adrian name_albert
+				name_alexander name_andrew name_baldwin name_bartholomew name_benedict name_berengar name_bertrand
+				name_boniface name_charles name_christopher name_claude name_clement name_conrad name_david name_dominic
+				name_edward name_emmanuel name_eugene name_felix name_francis name_fulk name_george name_godfrey
+				name_gregory name_henry name_hugh name_laurence name_leon name_martin name_matthew name_paul name_raymond
+				name_robert name_roger name_stephen name_theobald name_thomas name_walter name_wido name_arthur
+				name_lancelot name_oliver name_roland name_gawain name_amalric name_hardwin name_ogier name_reginald
+				name_milon name_engelbert name_enguerrand name_joseph name_casper name_richard name_fr_eudes name_fr_herve
+				name_fr_yves name_fr_garin name_fr_hamon name_amadeus name_humbert name_gerard
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adam
+				name_albert
+				name_charles
+				name_fulk
+				name_godfrey
+				name_henry
+				name_hugh
+				name_louis
+				name_philip
+				name_ralph
+				name_robert
+				name_william
+				name_john
+				name_walter
+				name_alan
+				name_anthony
+				name_dennis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_charles
+				name_francis
+				name_george
+				name_henry
+				name_james
+				name_john
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_claude
+				name_giles
+				name_christopher
+				name_clement
+				name_conrad
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_charles
+				name_francis
+				name_henry
+				name_joseph
+				name_louis
+				name_anthony
+				name_james
+				name_theobald
+				name_thomas
+				name_walter
+				name_wido
+				name_arthur
+				name_lancelot
+				name_oliver
+				name_roland
+				name_gawain
+			}
+			female_names = {
+				name_amelia name_anna name_antonia name_catherine name_constance name_charlotte name_denise name_eleanor
+				name_joanna name_margaret name_mary name_susan name_adela name_adelaide name_agnes name_alice name_beatrix
+				name_blanche name_cecile name_claire name_clarice name_elizabeth name_frances name_ermengard name_ermesinde
+				name_esclarmonde name_louise name_matilda name_petronilla name_philippa name_sybil name_yolande name_sophia
+				name_theresa name_ursula name_almodis name_douce name_renata name_gillette name_felicitas name_fr_aelis
+				name_fr_hodierne name_fr_isabeau name_fr_mahault name_bertha name_ida
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adela
+				name_adelaide
+				name_agnes
+				name_alice
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_elizabeth
+				name_margaret
+				name_mary
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_catherine
+				name_charlotte
+				name_frances
+				name_joanna
+				name_margaret
+				name_mary
+				name_antonia
+				name_louise
+				name_alice
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charlotte
+				name_louise
+				name_theresa
+				name_sybil
+				name_yolande
+				name_sophia
+				name_ursula
+				name_almodis
+				name_douce
+				name_renata
+			}
+			dynasty_names = {
+				bourbon_dynasty de_la_tour_dynasty de_Lorraine foix_dynasty de_Montfort de_Blois de_Penthievre de_Dreux
+				de_Rohan de_Bar d_Albert d_Escoubleau de_Neufville de_Castellane_dynasty auvergne_dynasty
+				de_Montbeliard_dynasty de_Metz_dynasty laval_dynasty du_Pin_dynasty de_la_Tremoille_dynasty
+				de_Crequy_dynasty de_Broglie_dynasty de_Montesquiou_dynasty courtenay_dynasty harcourt_dynasty
+				de_la_Croix_dynasty de_rochechouart_dynasty d_Aumont_dynasty de_Vergy_dynasty de_Saboulin_dynasty
+				de_Gramont_dynasty de_Bissy_dynasty de_Barrau_dynasty de_la_Fayette_dynasty armagnac_dynasty
+				de_Rouge_dynasty du_Quenoy_dynasty de_Ficquelmont_dynasty talleyrand_dynasty de_Saintignon_dynasty
+				montmorency_dynasty de_Savoie_dynasty vaudemont_dynasty de_Nicolay_dynasty fr_dyn_capet fr_dyn_valois
+				fr_dyn_anjou fr_dyn_normandie fr_dyn_bourgogne fr_dyn_champagne fr_dyn_toulouse fr_dyn_lusignan fr_dyn_coucy
+				fr_dyn_chatillon fr_dyn_joinville fr_dyn_la_marche fr_dyn_albret fr_dyn_dampierre fr_dyn_chalon
+				fr_dyn_nevers fr_dyn_macon fr_dyn_beaujeu fr_dyn_salins fr_dyn_thouars fr_dyn_poitiers fr_dyn_brienne
+				fr_dyn_melun fr_dyn_la_rochefoucauld
+			}
+			lowborn = {
+				name_bernard name_duran Dubois Laurent name_martin Michel Moreau name_richard name_robert name_simeon
+				fr_low_lefebvre fr_low_legrand fr_low_petit fr_low_morel fr_low_leroy fr_low_leclerc fr_low_marchand
+				fr_low_pelletier fr_low_carpentier fr_low_boucher fr_low_boulanger fr_low_cordier fr_low_meunier
+				fr_low_chevalier fr_low_charpentier fr_low_barbier fr_low_masson fr_low_berger fr_low_colin fr_low_perrin
+				fr_low_garin fr_low_dufour fr_low_bourguignon
+			}
+			ship_names = {
+				om7_ship_burgundian_dialect_001 om7_ship_burgundian_dialect_002 om7_ship_burgundian_dialect_003
+				om7_ship_burgundian_dialect_004 om7_ship_burgundian_dialect_005 om7_ship_burgundian_dialect_006
+				om7_ship_burgundian_dialect_007 om7_ship_burgundian_dialect_008 om7_ship_burgundian_dialect_009
+				om7_ship_burgundian_dialect_010 om7_ship_burgundian_dialect_011 om7_ship_burgundian_dialect_012
+				om7_ship_burgundian_dialect_013 om7_ship_burgundian_dialect_014 om7_ship_burgundian_dialect_015
+				om7_ship_burgundian_dialect_016 om7_ship_burgundian_dialect_017 om7_ship_burgundian_dialect_018
+				om7_ship_burgundian_dialect_019 om7_ship_burgundian_dialect_020 om7_ship_burgundian_dialect_021
+				om7_ship_burgundian_dialect_022 om7_ship_burgundian_dialect_023 om7_ship_burgundian_dialect_024
+				om7_ship_burgundian_dialect_025 om7_ship_burgundian_dialect_026 om7_ship_burgundian_dialect_027
+				om7_ship_burgundian_dialect_028 om7_ship_burgundian_dialect_029 om7_ship_burgundian_dialect_030
+				om7_ship_burgundian_dialect_031 om7_ship_burgundian_dialect_032 om7_ship_burgundian_dialect_033
+				om7_ship_burgundian_dialect_034 om7_ship_burgundian_dialect_035 om7_ship_burgundian_dialect_036
+				om7_ship_burgundian_dialect_037 om7_ship_burgundian_dialect_038 om7_ship_burgundian_dialect_039
+				om7_ship_burgundian_dialect_040 om7_ship_burgundian_dialect_041 om7_ship_burgundian_dialect_042
+				om7_ship_burgundian_dialect_043 om7_ship_burgundian_dialect_044 om7_ship_burgundian_dialect_045
+				om7_ship_burgundian_dialect_046 om7_ship_burgundian_dialect_047 om7_ship_burgundian_dialect_048
+				om7_ship_burgundian_dialect_049 om7_ship_burgundian_dialect_050 om7_ship_burgundian_dialect_051
+				om7_ship_burgundian_dialect_052 om7_ship_burgundian_dialect_053 om7_ship_burgundian_dialect_054
+				om7_ship_burgundian_dialect_055 om7_ship_burgundian_dialect_056 om7_ship_burgundian_dialect_057
+				om7_ship_burgundian_dialect_058 om7_ship_burgundian_dialect_059 om7_ship_burgundian_dialect_060
+				om7_ship_burgundian_dialect_061 om7_ship_burgundian_dialect_062 om7_ship_burgundian_dialect_063
+				om7_ship_burgundian_dialect_064 om7_ship_burgundian_dialect_065 om7_ship_burgundian_dialect_066
+				om7_ship_burgundian_dialect_067 om7_ship_burgundian_dialect_068 om7_ship_burgundian_dialect_069
+				om7_ship_burgundian_dialect_070 om7_ship_burgundian_dialect_071 om7_ship_burgundian_dialect_072
+				om7_ship_burgundian_dialect_073 om7_ship_burgundian_dialect_074 om7_ship_burgundian_dialect_075
+				om7_ship_burgundian_dialect_076 om7_ship_burgundian_dialect_077 om7_ship_burgundian_dialect_078
+				om7_ship_burgundian_dialect_079
+			}
+		}
+		angevin_dialect = {
+			male_names = {
+				name_adam name_alan name_anthony name_dennis name_giles name_william name_james name_john name_louis
+				name_michael name_nicholas name_peter name_philip name_ralph name_simeon name_adrian name_albert
+				name_alexander name_andrew name_baldwin name_bartholomew name_benedict name_berengar name_bertrand
+				name_boniface name_charles name_christopher name_claude name_clement name_conrad name_david name_dominic
+				name_edward name_emmanuel name_eugene name_felix name_francis name_fulk name_george name_godfrey
+				name_gregory name_henry name_hugh name_laurence name_leon name_martin name_matthew name_paul name_raymond
+				name_robert name_roger name_stephen name_theobald name_thomas name_walter name_wido name_arthur
+				name_lancelot name_oliver name_roland name_gawain name_amalric name_hardwin name_ogier name_reginald
+				name_milon name_engelbert name_enguerrand name_joseph name_casper name_richard name_fr_eudes name_fr_herve
+				name_fr_yves name_fr_garin name_fr_hamon
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adam
+				name_albert
+				name_charles
+				name_fulk
+				name_godfrey
+				name_henry
+				name_hugh
+				name_louis
+				name_philip
+				name_ralph
+				name_robert
+				name_william
+				name_john
+				name_walter
+				name_alan
+				name_anthony
+				name_dennis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_charles
+				name_francis
+				name_george
+				name_henry
+				name_james
+				name_john
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_claude
+				name_giles
+				name_christopher
+				name_clement
+				name_conrad
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_charles
+				name_francis
+				name_henry
+				name_joseph
+				name_louis
+				name_anthony
+				name_james
+				name_roger
+				name_stephen
+				name_theobald
+				name_thomas
+				name_walter
+				name_wido
+				name_arthur
+				name_lancelot
+				name_oliver
+			}
+			female_names = {
+				name_amelia name_anna name_antonia name_catherine name_constance name_charlotte name_denise name_eleanor
+				name_joanna name_margaret name_mary name_susan name_adela name_adelaide name_agnes name_alice name_beatrix
+				name_blanche name_cecile name_claire name_clarice name_elizabeth name_frances name_ermengard name_ermesinde
+				name_esclarmonde name_louise name_matilda name_petronilla name_philippa name_sybil name_yolande name_sophia
+				name_theresa name_ursula name_almodis name_douce name_renata name_gillette name_felicitas name_fr_aelis
+				name_fr_hodierne name_fr_isabeau name_fr_mahault
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adela
+				name_adelaide
+				name_agnes
+				name_alice
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_elizabeth
+				name_margaret
+				name_mary
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_catherine
+				name_charlotte
+				name_frances
+				name_joanna
+				name_margaret
+				name_mary
+				name_antonia
+				name_louise
+				name_agnes
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charlotte
+				name_louise
+				name_theresa
+				name_petronilla
+				name_philippa
+				name_sybil
+				name_yolande
+				name_sophia
+				name_ursula
+				name_almodis
+			}
+			dynasty_names = {
+				bourbon_dynasty de_la_tour_dynasty de_Lorraine foix_dynasty de_Montfort de_Blois de_Penthievre de_Dreux
+				de_Rohan de_Bar d_Albert d_Escoubleau de_Neufville de_Castellane_dynasty auvergne_dynasty
+				de_Montbeliard_dynasty de_Metz_dynasty laval_dynasty du_Pin_dynasty de_la_Tremoille_dynasty
+				de_Crequy_dynasty de_Broglie_dynasty de_Montesquiou_dynasty courtenay_dynasty harcourt_dynasty
+				de_la_Croix_dynasty de_rochechouart_dynasty d_Aumont_dynasty de_Vergy_dynasty de_Saboulin_dynasty
+				de_Gramont_dynasty de_Bissy_dynasty de_Barrau_dynasty de_la_Fayette_dynasty armagnac_dynasty
+				de_Rouge_dynasty du_Quenoy_dynasty de_Ficquelmont_dynasty talleyrand_dynasty de_Saintignon_dynasty
+				montmorency_dynasty de_Savoie_dynasty vaudemont_dynasty de_Nicolay_dynasty fr_dyn_capet fr_dyn_valois
+				fr_dyn_anjou fr_dyn_normandie fr_dyn_bourgogne fr_dyn_champagne fr_dyn_toulouse fr_dyn_lusignan fr_dyn_coucy
+				fr_dyn_chatillon fr_dyn_joinville fr_dyn_la_marche fr_dyn_albret fr_dyn_dampierre fr_dyn_chalon
+				fr_dyn_nevers fr_dyn_macon fr_dyn_beaujeu fr_dyn_salins fr_dyn_thouars fr_dyn_poitiers fr_dyn_brienne
+				fr_dyn_melun fr_dyn_la_rochefoucauld fr_dyn_villehardouin
+			}
+			lowborn = {
+				name_bernard name_duran Dubois Laurent name_martin Michel Moreau name_richard name_robert name_simeon
+				fr_low_lefebvre fr_low_legrand fr_low_petit fr_low_morel fr_low_leroy fr_low_leclerc fr_low_marchand
+				fr_low_pelletier fr_low_carpentier fr_low_boucher fr_low_boulanger fr_low_cordier fr_low_meunier
+				fr_low_chevalier fr_low_charpentier fr_low_barbier fr_low_masson fr_low_berger fr_low_colin fr_low_perrin
+				fr_low_garin fr_low_dufour fr_low_angevin
+			}
+			ship_names = {
+				om7_ship_angevin_dialect_001 om7_ship_angevin_dialect_002 om7_ship_angevin_dialect_003
+				om7_ship_angevin_dialect_004 om7_ship_angevin_dialect_005 om7_ship_angevin_dialect_006
+				om7_ship_angevin_dialect_007 om7_ship_angevin_dialect_008 om7_ship_angevin_dialect_009
+				om7_ship_angevin_dialect_010 om7_ship_angevin_dialect_011 om7_ship_angevin_dialect_012
+				om7_ship_angevin_dialect_013 om7_ship_angevin_dialect_014 om7_ship_angevin_dialect_015
+				om7_ship_angevin_dialect_016 om7_ship_angevin_dialect_017 om7_ship_angevin_dialect_018
+				om7_ship_angevin_dialect_019 om7_ship_angevin_dialect_020 om7_ship_angevin_dialect_021
+				om7_ship_angevin_dialect_022 om7_ship_angevin_dialect_023 om7_ship_angevin_dialect_024
+				om7_ship_angevin_dialect_025 om7_ship_angevin_dialect_026 om7_ship_angevin_dialect_027
+				om7_ship_angevin_dialect_028 om7_ship_angevin_dialect_029 om7_ship_angevin_dialect_030
+				om7_ship_angevin_dialect_031 om7_ship_angevin_dialect_032 om7_ship_angevin_dialect_033
+				om7_ship_angevin_dialect_034 om7_ship_angevin_dialect_035 om7_ship_angevin_dialect_036
+				om7_ship_angevin_dialect_037 om7_ship_angevin_dialect_038 om7_ship_angevin_dialect_039
+				om7_ship_angevin_dialect_040 om7_ship_angevin_dialect_041 om7_ship_angevin_dialect_042
+				om7_ship_angevin_dialect_043 om7_ship_angevin_dialect_044 om7_ship_angevin_dialect_045
+				om7_ship_angevin_dialect_046 om7_ship_angevin_dialect_047 om7_ship_angevin_dialect_048
+				om7_ship_angevin_dialect_049 om7_ship_angevin_dialect_050 om7_ship_angevin_dialect_051
+				om7_ship_angevin_dialect_052 om7_ship_angevin_dialect_053 om7_ship_angevin_dialect_054
+				om7_ship_angevin_dialect_055 om7_ship_angevin_dialect_056 om7_ship_angevin_dialect_057
+				om7_ship_angevin_dialect_058 om7_ship_angevin_dialect_059 om7_ship_angevin_dialect_060
+				om7_ship_angevin_dialect_061 om7_ship_angevin_dialect_062 om7_ship_angevin_dialect_063
+				om7_ship_angevin_dialect_064 om7_ship_angevin_dialect_065 om7_ship_angevin_dialect_066
+				om7_ship_angevin_dialect_067 om7_ship_angevin_dialect_068 om7_ship_angevin_dialect_069
+				om7_ship_angevin_dialect_070 om7_ship_angevin_dialect_071 om7_ship_angevin_dialect_072
+				om7_ship_angevin_dialect_073 om7_ship_angevin_dialect_074 om7_ship_angevin_dialect_075
+				om7_ship_angevin_dialect_076
+			}
+		}
+		francique_dialect = {
+			male_names = {
+				name_adam name_alan name_anthony name_dennis name_giles name_william name_james name_john name_louis
+				name_michael name_nicholas name_peter name_philip name_ralph name_simeon name_adrian name_albert
+				name_alexander name_andrew name_baldwin name_bartholomew name_benedict name_berengar name_bertrand
+				name_boniface name_charles name_christopher name_claude name_clement name_conrad name_david name_dominic
+				name_edward name_emmanuel name_eugene name_felix name_francis name_fulk name_george name_godfrey
+				name_gregory name_henry name_hugh name_laurence name_leon name_martin name_matthew name_paul name_raymond
+				name_robert name_roger name_stephen name_theobald name_thomas name_walter name_wido name_arthur
+				name_lancelot name_oliver name_roland name_gawain name_amalric name_hardwin name_ogier name_reginald
+				name_milon name_engelbert name_enguerrand name_joseph name_casper name_richard name_fr_eudes name_fr_herve
+				name_fr_yves name_fr_garin name_fr_hamon name_frederick name_leopold name_gerard
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adam
+				name_albert
+				name_charles
+				name_fulk
+				name_godfrey
+				name_henry
+				name_hugh
+				name_louis
+				name_philip
+				name_ralph
+				name_robert
+				name_william
+				name_john
+				name_walter
+				name_alan
+				name_anthony
+				name_dennis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_charles
+				name_francis
+				name_george
+				name_henry
+				name_james
+				name_john
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_claude
+				name_giles
+				name_christopher
+				name_clement
+				name_conrad
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_charles
+				name_francis
+				name_henry
+				name_joseph
+				name_louis
+				name_anthony
+				name_james
+				name_theobald
+				name_thomas
+				name_walter
+				name_wido
+				name_arthur
+				name_lancelot
+				name_oliver
+				name_roland
+				name_gawain
+			}
+			female_names = {
+				name_amelia name_anna name_antonia name_catherine name_constance name_charlotte name_denise name_eleanor
+				name_joanna name_margaret name_mary name_susan name_adela name_adelaide name_agnes name_alice name_beatrix
+				name_blanche name_cecile name_claire name_clarice name_elizabeth name_frances name_ermengard name_ermesinde
+				name_esclarmonde name_louise name_matilda name_petronilla name_philippa name_sybil name_yolande name_sophia
+				name_theresa name_ursula name_almodis name_douce name_renata name_gillette name_felicitas name_fr_aelis
+				name_fr_hodierne name_fr_isabeau name_fr_mahault name_bertha name_ida
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adela
+				name_adelaide
+				name_agnes
+				name_alice
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_elizabeth
+				name_margaret
+				name_mary
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_catherine
+				name_charlotte
+				name_frances
+				name_joanna
+				name_margaret
+				name_mary
+				name_antonia
+				name_louise
+				name_alice
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charlotte
+				name_louise
+				name_theresa
+				name_sybil
+				name_yolande
+				name_sophia
+				name_ursula
+				name_almodis
+				name_douce
+				name_renata
+			}
+			dynasty_names = {
+				bourbon_dynasty de_la_tour_dynasty de_Lorraine foix_dynasty de_Montfort de_Blois de_Penthievre de_Dreux
+				de_Rohan de_Bar d_Albert d_Escoubleau de_Neufville de_Castellane_dynasty auvergne_dynasty
+				de_Montbeliard_dynasty de_Metz_dynasty laval_dynasty du_Pin_dynasty de_la_Tremoille_dynasty
+				de_Crequy_dynasty de_Broglie_dynasty de_Montesquiou_dynasty courtenay_dynasty harcourt_dynasty
+				de_la_Croix_dynasty de_rochechouart_dynasty d_Aumont_dynasty de_Vergy_dynasty de_Saboulin_dynasty
+				de_Gramont_dynasty de_Bissy_dynasty de_Barrau_dynasty de_la_Fayette_dynasty armagnac_dynasty
+				de_Rouge_dynasty du_Quenoy_dynasty de_Ficquelmont_dynasty talleyrand_dynasty de_Saintignon_dynasty
+				montmorency_dynasty de_Savoie_dynasty vaudemont_dynasty de_Nicolay_dynasty fr_dyn_capet fr_dyn_valois
+				fr_dyn_anjou fr_dyn_normandie fr_dyn_bourgogne fr_dyn_champagne fr_dyn_toulouse fr_dyn_lusignan fr_dyn_coucy
+				fr_dyn_chatillon fr_dyn_joinville fr_dyn_la_marche fr_dyn_albret fr_dyn_dampierre fr_dyn_chalon
+				fr_dyn_nevers fr_dyn_macon fr_dyn_beaujeu fr_dyn_salins fr_dyn_thouars fr_dyn_poitiers fr_dyn_brienne
+				fr_dyn_melun fr_dyn_la_rochefoucauld fr_dyn_luxembourg fr_dyn_salm fr_dyn_namur
+			}
+			lowborn = {
+				name_bernard name_duran Dubois Laurent name_martin Michel Moreau name_richard name_robert name_simeon
+				fr_low_lefebvre fr_low_legrand fr_low_petit fr_low_morel fr_low_leroy fr_low_leclerc fr_low_marchand
+				fr_low_pelletier fr_low_carpentier fr_low_boucher fr_low_boulanger fr_low_cordier fr_low_meunier
+				fr_low_chevalier fr_low_charpentier fr_low_barbier fr_low_masson fr_low_berger fr_low_colin fr_low_perrin
+				fr_low_garin fr_low_dufour fr_low_lorrain
+			}
+			ship_names = {
+				om7_ship_francique_dialect_001 om7_ship_francique_dialect_002 om7_ship_francique_dialect_003
+				om7_ship_francique_dialect_004 om7_ship_francique_dialect_005 om7_ship_francique_dialect_006
+				om7_ship_francique_dialect_007 om7_ship_francique_dialect_008 om7_ship_francique_dialect_009
+				om7_ship_francique_dialect_010 om7_ship_francique_dialect_011 om7_ship_francique_dialect_012
+				om7_ship_francique_dialect_013 om7_ship_francique_dialect_014 om7_ship_francique_dialect_015
+				om7_ship_francique_dialect_016 om7_ship_francique_dialect_017 om7_ship_francique_dialect_018
+				om7_ship_francique_dialect_019 om7_ship_francique_dialect_020 om7_ship_francique_dialect_021
+				om7_ship_francique_dialect_022 om7_ship_francique_dialect_023 om7_ship_francique_dialect_024
+				om7_ship_francique_dialect_025 om7_ship_francique_dialect_026 om7_ship_francique_dialect_027
+				om7_ship_francique_dialect_028 om7_ship_francique_dialect_029 om7_ship_francique_dialect_030
+				om7_ship_francique_dialect_031 om7_ship_francique_dialect_032 om7_ship_francique_dialect_033
+				om7_ship_francique_dialect_034 om7_ship_francique_dialect_035 om7_ship_francique_dialect_036
+				om7_ship_francique_dialect_037 om7_ship_francique_dialect_038 om7_ship_francique_dialect_039
+				om7_ship_francique_dialect_040 om7_ship_francique_dialect_041 om7_ship_francique_dialect_042
+				om7_ship_francique_dialect_043 om7_ship_francique_dialect_044 om7_ship_francique_dialect_045
+				om7_ship_francique_dialect_046 om7_ship_francique_dialect_047 om7_ship_francique_dialect_048
+				om7_ship_francique_dialect_049 om7_ship_francique_dialect_050 om7_ship_francique_dialect_051
+				om7_ship_francique_dialect_052 om7_ship_francique_dialect_053 om7_ship_francique_dialect_054
+				om7_ship_francique_dialect_055 om7_ship_francique_dialect_056 om7_ship_francique_dialect_057
+				om7_ship_francique_dialect_058 om7_ship_francique_dialect_059 om7_ship_francique_dialect_060
+				om7_ship_francique_dialect_061 om7_ship_francique_dialect_062 om7_ship_francique_dialect_063
+				om7_ship_francique_dialect_064 om7_ship_francique_dialect_065 om7_ship_francique_dialect_066
+				om7_ship_francique_dialect_067 om7_ship_francique_dialect_068 om7_ship_francique_dialect_069
+				om7_ship_francique_dialect_070 om7_ship_francique_dialect_071 om7_ship_francique_dialect_072
+				om7_ship_francique_dialect_073 om7_ship_francique_dialect_074 om7_ship_francique_dialect_075
+				om7_ship_francique_dialect_076 om7_ship_francique_dialect_077 om7_ship_francique_dialect_078
+				om7_ship_francique_dialect_079
+			}
+		}
+		poitevin_dialect = {
+			male_names = {
+				name_adam name_alan name_anthony name_dennis name_giles name_william name_james name_john name_louis
+				name_michael name_nicholas name_peter name_philip name_ralph name_simeon name_adrian name_albert
+				name_alexander name_andrew name_baldwin name_bartholomew name_benedict name_berengar name_bertrand
+				name_boniface name_charles name_christopher name_claude name_clement name_conrad name_david name_dominic
+				name_edward name_emmanuel name_eugene name_felix name_francis name_fulk name_george name_godfrey
+				name_gregory name_henry name_hugh name_laurence name_leon name_martin name_matthew name_paul name_raymond
+				name_robert name_roger name_stephen name_theobald name_thomas name_walter name_wido name_arthur
+				name_lancelot name_oliver name_roland name_gawain name_amalric name_hardwin name_ogier name_reginald
+				name_milon name_engelbert name_enguerrand name_joseph name_casper name_richard name_fr_eudes name_fr_herve
+				name_fr_yves name_fr_garin name_fr_hamon name_aimeric
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adam
+				name_albert
+				name_charles
+				name_fulk
+				name_godfrey
+				name_henry
+				name_hugh
+				name_louis
+				name_philip
+				name_ralph
+				name_robert
+				name_william
+				name_john
+				name_walter
+				name_alan
+				name_anthony
+				name_dennis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_charles
+				name_francis
+				name_george
+				name_henry
+				name_james
+				name_john
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_claude
+				name_giles
+				name_christopher
+				name_clement
+				name_conrad
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_charles
+				name_francis
+				name_henry
+				name_joseph
+				name_louis
+				name_anthony
+				name_james
+				name_roger
+				name_stephen
+				name_theobald
+				name_thomas
+				name_walter
+				name_wido
+				name_arthur
+				name_lancelot
+				name_oliver
+			}
+			female_names = {
+				name_amelia name_anna name_antonia name_catherine name_constance name_charlotte name_denise name_eleanor
+				name_joanna name_margaret name_mary name_susan name_adela name_adelaide name_agnes name_alice name_beatrix
+				name_blanche name_cecile name_claire name_clarice name_elizabeth name_frances name_ermengard name_ermesinde
+				name_esclarmonde name_louise name_matilda name_petronilla name_philippa name_sybil name_yolande name_sophia
+				name_theresa name_ursula name_almodis name_douce name_renata name_gillette name_felicitas name_fr_aelis
+				name_fr_hodierne name_fr_isabeau name_fr_mahault
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adela
+				name_adelaide
+				name_agnes
+				name_alice
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_elizabeth
+				name_margaret
+				name_mary
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_catherine
+				name_charlotte
+				name_frances
+				name_joanna
+				name_margaret
+				name_mary
+				name_antonia
+				name_louise
+				name_agnes
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charlotte
+				name_louise
+				name_theresa
+				name_petronilla
+				name_philippa
+				name_sybil
+				name_yolande
+				name_sophia
+				name_ursula
+				name_almodis
+			}
+			dynasty_names = {
+				bourbon_dynasty de_la_tour_dynasty de_Lorraine foix_dynasty de_Montfort de_Blois de_Penthievre de_Dreux
+				de_Rohan de_Bar d_Albert d_Escoubleau de_Neufville de_Castellane_dynasty auvergne_dynasty
+				de_Montbeliard_dynasty de_Metz_dynasty laval_dynasty du_Pin_dynasty de_la_Tremoille_dynasty
+				de_Crequy_dynasty de_Broglie_dynasty de_Montesquiou_dynasty courtenay_dynasty harcourt_dynasty
+				de_la_Croix_dynasty de_rochechouart_dynasty d_Aumont_dynasty de_Vergy_dynasty de_Saboulin_dynasty
+				de_Gramont_dynasty de_Bissy_dynasty de_Barrau_dynasty de_la_Fayette_dynasty armagnac_dynasty
+				de_Rouge_dynasty du_Quenoy_dynasty de_Ficquelmont_dynasty talleyrand_dynasty de_Saintignon_dynasty
+				montmorency_dynasty de_Savoie_dynasty vaudemont_dynasty de_Nicolay_dynasty fr_dyn_capet fr_dyn_valois
+				fr_dyn_anjou fr_dyn_normandie fr_dyn_bourgogne fr_dyn_champagne fr_dyn_toulouse fr_dyn_lusignan fr_dyn_coucy
+				fr_dyn_chatillon fr_dyn_joinville fr_dyn_la_marche fr_dyn_albret fr_dyn_dampierre fr_dyn_chalon
+				fr_dyn_nevers fr_dyn_macon fr_dyn_beaujeu fr_dyn_salins fr_dyn_thouars fr_dyn_poitiers fr_dyn_brienne
+				fr_dyn_melun fr_dyn_la_rochefoucauld
+			}
+			lowborn = {
+				name_bernard name_duran Dubois Laurent name_martin Michel Moreau name_richard name_robert name_simeon
+				fr_low_lefebvre fr_low_legrand fr_low_petit fr_low_morel fr_low_leroy fr_low_leclerc fr_low_marchand
+				fr_low_pelletier fr_low_carpentier fr_low_boucher fr_low_boulanger fr_low_cordier fr_low_meunier
+				fr_low_chevalier fr_low_charpentier fr_low_barbier fr_low_masson fr_low_berger fr_low_colin fr_low_perrin
+				fr_low_garin fr_low_dufour fr_low_poitevin
+			}
+			ship_names = {
+				om7_ship_poitevin_dialect_001 om7_ship_poitevin_dialect_002 om7_ship_poitevin_dialect_003
+				om7_ship_poitevin_dialect_004 om7_ship_poitevin_dialect_005 om7_ship_poitevin_dialect_006
+				om7_ship_poitevin_dialect_007 om7_ship_poitevin_dialect_008 om7_ship_poitevin_dialect_009
+				om7_ship_poitevin_dialect_010 om7_ship_poitevin_dialect_011 om7_ship_poitevin_dialect_012
+				om7_ship_poitevin_dialect_013 om7_ship_poitevin_dialect_014 om7_ship_poitevin_dialect_015
+				om7_ship_poitevin_dialect_016 om7_ship_poitevin_dialect_017 om7_ship_poitevin_dialect_018
+				om7_ship_poitevin_dialect_019 om7_ship_poitevin_dialect_020 om7_ship_poitevin_dialect_021
+				om7_ship_poitevin_dialect_022 om7_ship_poitevin_dialect_023 om7_ship_poitevin_dialect_024
+				om7_ship_poitevin_dialect_025 om7_ship_poitevin_dialect_026 om7_ship_poitevin_dialect_027
+				om7_ship_poitevin_dialect_028 om7_ship_poitevin_dialect_029 om7_ship_poitevin_dialect_030
+				om7_ship_poitevin_dialect_031 om7_ship_poitevin_dialect_032 om7_ship_poitevin_dialect_033
+				om7_ship_poitevin_dialect_034 om7_ship_poitevin_dialect_035 om7_ship_poitevin_dialect_036
+				om7_ship_poitevin_dialect_037 om7_ship_poitevin_dialect_038 om7_ship_poitevin_dialect_039
+				om7_ship_poitevin_dialect_040 om7_ship_poitevin_dialect_041 om7_ship_poitevin_dialect_042
+				om7_ship_poitevin_dialect_043 om7_ship_poitevin_dialect_044 om7_ship_poitevin_dialect_045
+				om7_ship_poitevin_dialect_046 om7_ship_poitevin_dialect_047 om7_ship_poitevin_dialect_048
+				om7_ship_poitevin_dialect_049 om7_ship_poitevin_dialect_050 om7_ship_poitevin_dialect_051
+				om7_ship_poitevin_dialect_052 om7_ship_poitevin_dialect_053 om7_ship_poitevin_dialect_054
+				om7_ship_poitevin_dialect_055 om7_ship_poitevin_dialect_056 om7_ship_poitevin_dialect_057
+				om7_ship_poitevin_dialect_058 om7_ship_poitevin_dialect_059 om7_ship_poitevin_dialect_060
+				om7_ship_poitevin_dialect_061 om7_ship_poitevin_dialect_062 om7_ship_poitevin_dialect_063
+				om7_ship_poitevin_dialect_064 om7_ship_poitevin_dialect_065 om7_ship_poitevin_dialect_066
+				om7_ship_poitevin_dialect_067 om7_ship_poitevin_dialect_068 om7_ship_poitevin_dialect_069
+				om7_ship_poitevin_dialect_070 om7_ship_poitevin_dialect_071 om7_ship_poitevin_dialect_072
+				om7_ship_poitevin_dialect_073 om7_ship_poitevin_dialect_074 om7_ship_poitevin_dialect_075
+				om7_ship_poitevin_dialect_076 om7_ship_poitevin_dialect_077
+			}
+		}
+		arpitan_dialect = {
+			male_names = {
+				name_adam name_alan name_anthony name_dennis name_giles name_william name_james name_john name_louis
+				name_michael name_nicholas name_peter name_philip name_ralph name_simeon name_adrian name_albert
+				name_alexander name_andrew name_baldwin name_bartholomew name_benedict name_berengar name_bertrand
+				name_boniface name_charles name_christopher name_claude name_clement name_conrad name_david name_dominic
+				name_edward name_emmanuel name_eugene name_felix name_francis name_fulk name_george name_godfrey
+				name_gregory name_henry name_hugh name_laurence name_leon name_martin name_matthew name_paul name_raymond
+				name_robert name_roger name_stephen name_theobald name_thomas name_walter name_wido name_arthur
+				name_lancelot name_oliver name_roland name_gawain name_amalric name_hardwin name_ogier name_reginald
+				name_milon name_engelbert name_enguerrand name_joseph name_casper name_richard name_fr_eudes name_fr_herve
+				name_fr_yves name_fr_garin name_fr_hamon name_amadeus name_humbert name_aimeric
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adam
+				name_albert
+				name_charles
+				name_fulk
+				name_godfrey
+				name_henry
+				name_hugh
+				name_louis
+				name_philip
+				name_ralph
+				name_robert
+				name_william
+				name_john
+				name_walter
+				name_alan
+				name_anthony
+				name_dennis
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_charles
+				name_francis
+				name_george
+				name_henry
+				name_james
+				name_john
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_claude
+				name_giles
+				name_christopher
+				name_clement
+				name_conrad
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_alexander
+				name_charles
+				name_francis
+				name_henry
+				name_joseph
+				name_louis
+				name_anthony
+				name_james
+				name_theobald
+				name_thomas
+				name_walter
+				name_wido
+				name_arthur
+				name_lancelot
+				name_oliver
+				name_roland
+				name_gawain
+			}
+			female_names = {
+				name_amelia name_anna name_antonia name_catherine name_constance name_charlotte name_denise name_eleanor
+				name_joanna name_margaret name_mary name_susan name_adela name_adelaide name_agnes name_alice name_beatrix
+				name_blanche name_cecile name_claire name_clarice name_elizabeth name_frances name_ermengard name_ermesinde
+				name_esclarmonde name_louise name_matilda name_petronilla name_philippa name_sybil name_yolande name_sophia
+				name_theresa name_ursula name_almodis name_douce name_renata name_gillette name_felicitas name_fr_aelis
+				name_fr_hodierne name_fr_isabeau name_fr_mahault
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adela
+				name_adelaide
+				name_agnes
+				name_alice
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_elizabeth
+				name_margaret
+				name_mary
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_catherine
+				name_charlotte
+				name_frances
+				name_joanna
+				name_margaret
+				name_mary
+				name_antonia
+				name_louise
+				name_agnes
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charlotte
+				name_louise
+				name_theresa
+				name_petronilla
+				name_philippa
+				name_sybil
+				name_yolande
+				name_sophia
+				name_ursula
+				name_almodis
+			}
+			dynasty_names = {
+				bourbon_dynasty de_la_tour_dynasty de_Lorraine foix_dynasty de_Montfort de_Blois de_Penthievre de_Dreux
+				de_Rohan de_Bar d_Albert d_Escoubleau de_Neufville de_Castellane_dynasty auvergne_dynasty
+				de_Montbeliard_dynasty de_Metz_dynasty laval_dynasty du_Pin_dynasty de_la_Tremoille_dynasty
+				de_Crequy_dynasty de_Broglie_dynasty de_Montesquiou_dynasty courtenay_dynasty harcourt_dynasty
+				de_la_Croix_dynasty de_rochechouart_dynasty d_Aumont_dynasty de_Vergy_dynasty de_Saboulin_dynasty
+				de_Gramont_dynasty de_Bissy_dynasty de_Barrau_dynasty de_la_Fayette_dynasty armagnac_dynasty
+				de_Rouge_dynasty du_Quenoy_dynasty de_Ficquelmont_dynasty talleyrand_dynasty de_Saintignon_dynasty
+				montmorency_dynasty de_Savoie_dynasty vaudemont_dynasty de_Nicolay_dynasty fr_dyn_capet fr_dyn_valois
+				fr_dyn_anjou fr_dyn_normandie fr_dyn_bourgogne fr_dyn_champagne fr_dyn_toulouse fr_dyn_lusignan fr_dyn_coucy
+				fr_dyn_chatillon fr_dyn_joinville fr_dyn_la_marche fr_dyn_albret fr_dyn_dampierre fr_dyn_chalon
+				fr_dyn_nevers fr_dyn_macon fr_dyn_beaujeu fr_dyn_salins fr_dyn_thouars fr_dyn_poitiers fr_dyn_brienne
+				fr_dyn_melun fr_dyn_la_rochefoucauld fr_dyn_geneve fr_dyn_faucigny fr_dyn_gruyere fr_dyn_rapperswil
+				fr_dyn_bresse
+			}
+			lowborn = {
+				name_bernard name_duran Dubois Laurent name_martin Michel Moreau name_richard name_robert name_simeon
+				fr_low_lefebvre fr_low_legrand fr_low_petit fr_low_morel fr_low_leroy fr_low_leclerc fr_low_marchand
+				fr_low_pelletier fr_low_carpentier fr_low_boucher fr_low_boulanger fr_low_cordier fr_low_meunier
+				fr_low_chevalier fr_low_charpentier fr_low_barbier fr_low_masson fr_low_berger fr_low_colin fr_low_perrin
+				fr_low_garin fr_low_dufour fr_low_savoyard
+			}
+			ship_names = {
+				om7_ship_arpitan_dialect_001 om7_ship_arpitan_dialect_002 om7_ship_arpitan_dialect_003
+				om7_ship_arpitan_dialect_004 om7_ship_arpitan_dialect_005 om7_ship_arpitan_dialect_006
+				om7_ship_arpitan_dialect_007 om7_ship_arpitan_dialect_008 om7_ship_arpitan_dialect_009
+				om7_ship_arpitan_dialect_010 om7_ship_arpitan_dialect_011 om7_ship_arpitan_dialect_012
+				om7_ship_arpitan_dialect_013 om7_ship_arpitan_dialect_014 om7_ship_arpitan_dialect_015
+				om7_ship_arpitan_dialect_016 om7_ship_arpitan_dialect_017 om7_ship_arpitan_dialect_018
+				om7_ship_arpitan_dialect_019 om7_ship_arpitan_dialect_020 om7_ship_arpitan_dialect_021
+				om7_ship_arpitan_dialect_022 om7_ship_arpitan_dialect_023 om7_ship_arpitan_dialect_024
+				om7_ship_arpitan_dialect_025 om7_ship_arpitan_dialect_026 om7_ship_arpitan_dialect_027
+				om7_ship_arpitan_dialect_028 om7_ship_arpitan_dialect_029 om7_ship_arpitan_dialect_030
+				om7_ship_arpitan_dialect_031 om7_ship_arpitan_dialect_032 om7_ship_arpitan_dialect_033
+				om7_ship_arpitan_dialect_034 om7_ship_arpitan_dialect_035 om7_ship_arpitan_dialect_036
+				om7_ship_arpitan_dialect_037 om7_ship_arpitan_dialect_038 om7_ship_arpitan_dialect_039
+				om7_ship_arpitan_dialect_040 om7_ship_arpitan_dialect_041 om7_ship_arpitan_dialect_042
+				om7_ship_arpitan_dialect_043 om7_ship_arpitan_dialect_044 om7_ship_arpitan_dialect_045
+				om7_ship_arpitan_dialect_046 om7_ship_arpitan_dialect_047 om7_ship_arpitan_dialect_048
+				om7_ship_arpitan_dialect_049 om7_ship_arpitan_dialect_050 om7_ship_arpitan_dialect_051
+				om7_ship_arpitan_dialect_052 om7_ship_arpitan_dialect_053 om7_ship_arpitan_dialect_054
+				om7_ship_arpitan_dialect_055 om7_ship_arpitan_dialect_056 om7_ship_arpitan_dialect_057
+				om7_ship_arpitan_dialect_058 om7_ship_arpitan_dialect_059 om7_ship_arpitan_dialect_060
+				om7_ship_arpitan_dialect_061 om7_ship_arpitan_dialect_062 om7_ship_arpitan_dialect_063
+				om7_ship_arpitan_dialect_064 om7_ship_arpitan_dialect_065 om7_ship_arpitan_dialect_066
+				om7_ship_arpitan_dialect_067 om7_ship_arpitan_dialect_068 om7_ship_arpitan_dialect_069
+				om7_ship_arpitan_dialect_070 om7_ship_arpitan_dialect_071 om7_ship_arpitan_dialect_072
+				om7_ship_arpitan_dialect_073 om7_ship_arpitan_dialect_074 om7_ship_arpitan_dialect_075
+				om7_ship_arpitan_dialect_076 om7_ship_arpitan_dialect_077 om7_ship_arpitan_dialect_078
+				om7_ship_arpitan_dialect_079
+			}
+		}
+	}
+}
+
+occitan_language = {
+	color = map_AQN
+	family = romance_language_family
+	male_names = {
+		name_peter name_john name_william name_hugh name_bernard name_berengar name_raymond name_wido name_aimeric
+		name_james name_stephen name_joseph name_louis name_paul name_roger name_gaston name_alberic name_arnold
+		name_godfrey name_bertrand name_pontius name_anthony name_alphonse name_amalric name_baldwin name_bartholomew
+		name_benedict name_boniface name_charles name_christopher name_dominic name_felix name_francis name_george
+		name_gilbert name_henry name_laurence name_martin name_michael name_nicholas name_otto name_paschal
+		name_philip name_robert name_sancho name_thomas name_vincent name_arthur name_oliver name_lancelot name_gawain
+		name_rayner name_oc_azemar name_oc_jaufre name_oc_peire name_oc_arnau name_oc_guiraut
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 135
+		}
+		name_adalbert
+		name_aimeric
+		name_bernard
+		name_bertrand
+		name_fulk
+		name_gaston
+		name_hugh
+		name_peter
+		name_raymond
+		name_roger
+		name_om_oc_guilhem
+		name_oc_peire
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_anthony
+		name_francis
+		name_john
+		name_joseph
+		name_louis
+		name_michael
+		name_nicholas
+		name_peter
+		name_philip
+		name_james
+		name_om_oc_jordi
+		name_om_oc_esteve
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_alexander
+		name_august
+		name_charles
+		name_francis
+		name_joseph
+		name_victor
+		name_om_oc_arnaut
+		name_gaston
+		name_louis
+	}
+	female_names = {
+		name_anna name_margaret name_mary Blancha Aymeriga name_ermesinde name_ermengard Esclaramonda Garsenda
+		name_sybil Brunissenda name_caroline Guilhema name_eleanor name_almodis name_joanna name_douce name_adelaide
+		name_beatrix name_blanche name_catherine name_cecile name_claire name_constance name_dolours name_elizabeth
+		name_esclarmonde name_eugenie name_frances name_petronilla name_scholastica name_theresa name_yolande
+		name_felicia name_marquise name_philippa name_clemence name_oc_mirelha
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 125
+		}
+		name_ada
+		name_adelaide
+		name_agnes
+		name_beatrix
+		name_catherine
+		name_eleanor
+		name_margaret
+		name_mary
+		name_matilda
+		name_philippa
+		name_esclarmonde
+		name_om_oc_ermessenda
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 115
+		}
+		name_anna
+		name_claire
+		name_frances
+		name_joanna
+		name_madeleine
+		name_mary
+		name_theresa
+		name_margaret
+		name_om_oc_caterina
+		name_agnes
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 120
+		}
+		name_caroline
+		name_charlotte
+		name_josephine
+		name_louise
+		name_victoria
+		name_mary
+		name_om_oc_teresa
+		name_om_oc_isabeu
+		name_om_oc_luisa
+	}
+	dynasty_names = {
+		de_tolosa de_fois de_montpelhier de_baus de_carcassona de_roergue de_trencavel de_comenge de_besiers de_bearn
+		oc_dyn_armagnac oc_dyn_auvergne oc_dyn_narbonne oc_dyn_albret oc_dyn_bigorre oc_dyn_gevaudan oc_dyn_limoges
+		oc_dyn_ventadour oc_dyn_quercy oc_dyn_rodez oc_dyn_astarac oc_dyn_marsan oc_dyn_laurac om_dyn_oc_foix
+		om_dyn_oc_armagnac om_dyn_oc_comminges om_dyn_oc_albret om_dyn_oc_trencavel om_dyn_oc_montpellier
+		om_dyn_oc_narbonne
+	}
+	lowborn = {
+		Laforcada Lestang Costa Theron Binoche Cabrol Capdevila Faure Nadal Teissier oc_low_fabre oc_low_mercier
+		oc_low_peyre oc_low_barriere oc_low_maurel oc_low_roux oc_low_brun oc_low_pelet oc_low_couderc oc_low_bousquet
+		oc_low_castan oc_low_mas oc_low_serres oc_low_peyrat oc_low_delmas oc_low_laroche om_low_oc_vidal
+		om_low_oc_bonnet om_low_oc_blanc om_low_oc_soler om_low_oc_roca
+	}
+	location_prefix = "location_prefix_french"
+	location_prefix_vowel = "location_prefix_french_vowel"
+	ship_names = {
+		om7_ship_occitan_language_001 om7_ship_occitan_language_002 om7_ship_occitan_language_003
+		om7_ship_occitan_language_004 om7_ship_occitan_language_005 om7_ship_occitan_language_006
+		om7_ship_occitan_language_007 om7_ship_occitan_language_008 om7_ship_occitan_language_009
+		om7_ship_occitan_language_010 om7_ship_occitan_language_011 om7_ship_occitan_language_012
+		om7_ship_occitan_language_013 om7_ship_occitan_language_014 om7_ship_occitan_language_015
+		om7_ship_occitan_language_016 om7_ship_occitan_language_017 om7_ship_occitan_language_018
+		om7_ship_occitan_language_019 om7_ship_occitan_language_020 om7_ship_occitan_language_021
+		om7_ship_occitan_language_022 om7_ship_occitan_language_023 om7_ship_occitan_language_024
+		om7_ship_occitan_language_025 om7_ship_occitan_language_026 om7_ship_occitan_language_027
+		om7_ship_occitan_language_028 om7_ship_occitan_language_029 om7_ship_occitan_language_030
+		om7_ship_occitan_language_031 om7_ship_occitan_language_032 om7_ship_occitan_language_033
+		om7_ship_occitan_language_034 om7_ship_occitan_language_035 om7_ship_occitan_language_036
+		om7_ship_occitan_language_037 om7_ship_occitan_language_038 om7_ship_occitan_language_039
+		om7_ship_occitan_language_040 om7_ship_occitan_language_041 om7_ship_occitan_language_042
+		om7_ship_occitan_language_043 om7_ship_occitan_language_044 om7_ship_occitan_language_045
+		om7_ship_occitan_language_046 om7_ship_occitan_language_047 om7_ship_occitan_language_048
+		om7_ship_occitan_language_049 om7_ship_occitan_language_050 om7_ship_occitan_language_051
+		om7_ship_occitan_language_052 om7_ship_occitan_language_053 om7_ship_occitan_language_054
+		om7_ship_occitan_language_055 om7_ship_occitan_language_056 om7_ship_occitan_language_057
+		om7_ship_occitan_language_058 om7_ship_occitan_language_059 om7_ship_occitan_language_060
+		om7_ship_occitan_language_061 om7_ship_occitan_language_062 om7_ship_occitan_language_063
+		om7_ship_occitan_language_064 om7_ship_occitan_language_065 om7_ship_occitan_language_066
+	}
+	dialects = {
+		occitan_dialect = {
+			default = yes
+			first_name_conjoiner = "-"
+			male_names = {
+				name_peter name_john name_william name_hugh name_bernard name_berengar name_raymond name_wido name_aimeric
+				name_james name_stephen name_joseph name_louis name_paul name_roger name_gaston name_alberic name_arnold
+				name_godfrey name_bertrand name_pontius name_anthony name_alphonse name_amalric name_baldwin
+				name_bartholomew name_benedict name_boniface name_charles name_christopher name_dominic name_felix
+				name_francis name_george name_gilbert name_henry name_laurence name_martin name_michael name_nicholas
+				name_otto name_paschal name_philip name_robert name_sancho name_thomas name_vincent name_arthur name_oliver
+				name_lancelot name_gawain name_rayner name_oc_azemar name_oc_jaufre name_oc_peire name_oc_arnau
+				name_oc_guiraut
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_aimeric
+				name_bernard
+				name_bertrand
+				name_gaston
+				name_hugh
+				name_peter
+				name_raymond
+				name_roger
+				name_oc_peire
+				name_john
+				name_william
+				name_berengar
+				name_wido
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_francis
+				name_john
+				name_joseph
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_james
+				name_bertrand
+				name_pontius
+				name_alphonse
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charles
+				name_francis
+				name_joseph
+				name_gaston
+				name_louis
+				name_michael
+				name_nicholas
+				name_otto
+				name_paschal
+				name_philip
+				name_robert
+				name_sancho
+				name_thomas
+			}
+			female_names = {
+				name_anna name_margaret name_mary Blancha Aymeriga name_ermesinde name_ermengard Esclaramonda Garsenda
+				name_sybil Brunissenda name_caroline Guilhema name_eleanor name_almodis name_joanna name_douce name_adelaide
+				name_beatrix name_blanche name_catherine name_cecile name_claire name_constance name_dolours name_elizabeth
+				name_esclarmonde name_eugenie name_frances name_petronilla name_scholastica name_theresa name_yolande
+				name_felicia name_marquise name_philippa name_clemence name_oc_mirelha
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adelaide
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_margaret
+				name_mary
+				name_philippa
+				name_esclarmonde
+				name_anna
+				Blancha
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_claire
+				name_frances
+				name_joanna
+				name_mary
+				name_theresa
+				name_margaret
+				Guilhema
+				name_eleanor
+				name_almodis
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_caroline
+				name_mary
+				name_dolours
+				name_elizabeth
+				name_esclarmonde
+				name_eugenie
+				name_frances
+				name_petronilla
+				name_scholastica
+				name_theresa
+			}
+			dynasty_names = {
+				de_tolosa de_fois de_montpelhier de_baus de_carcassona de_roergue de_trencavel de_comenge de_besiers
+				de_bearn oc_dyn_armagnac oc_dyn_auvergne oc_dyn_narbonne oc_dyn_albret oc_dyn_bigorre oc_dyn_gevaudan
+				oc_dyn_limoges oc_dyn_ventadour oc_dyn_quercy oc_dyn_rodez oc_dyn_astarac oc_dyn_marsan oc_dyn_laurac
+			}
+			lowborn = {
+				Laforcada Lestang Costa Theron Binoche Cabrol Capdevila Faure Nadal Teissier oc_low_fabre oc_low_mercier
+				oc_low_peyre oc_low_barriere oc_low_maurel oc_low_roux oc_low_brun oc_low_pelet oc_low_couderc
+				oc_low_bousquet oc_low_castan oc_low_mas oc_low_serres oc_low_peyrat oc_low_delmas oc_low_laroche
+			}
+		}
+		gascon_dialect = {
+			first_name_conjoiner = "-"
+			male_names = {
+				name_peter name_john name_william name_hugh name_bernard name_berengar name_raymond name_wido name_aimeric
+				name_james name_stephen name_joseph name_louis name_paul name_roger name_gaston name_alberic name_arnold
+				name_godfrey name_bertrand name_pontius name_anthony name_alphonse name_amalric name_baldwin
+				name_bartholomew name_benedict name_boniface name_charles name_christopher name_dominic name_felix
+				name_francis name_george name_gilbert name_henry name_laurence name_martin name_michael name_nicholas
+				name_otto name_paschal name_philip name_robert name_sancho name_thomas name_vincent name_arthur name_oliver
+				name_lancelot name_gawain name_rayner name_oc_azemar name_oc_jaufre name_oc_arnau name_oc_guiraut
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_aimeric
+				name_bernard
+				name_bertrand
+				name_gaston
+				name_hugh
+				name_peter
+				name_raymond
+				name_roger
+				name_william
+				name_john
+				name_berengar
+				name_wido
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_francis
+				name_john
+				name_joseph
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_james
+				name_godfrey
+				name_bertrand
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charles
+				name_francis
+				name_joseph
+				name_gaston
+				name_louis
+				name_oc_arnau
+				name_laurence
+				name_martin
+				name_michael
+				name_nicholas
+				name_otto
+				name_paschal
+			}
+			female_names = {
+				name_anna name_margaret name_mary Blancha Aymeriga name_ermesinde name_ermengard Esclaramonda Garsenda
+				name_sybil Brunissenda name_caroline Guilhema name_eleanor name_almodis name_joanna name_douce name_adelaide
+				name_beatrix name_blanche name_catherine name_cecile name_claire name_constance name_dolours name_elizabeth
+				name_esclarmonde name_eugenie name_frances name_petronilla name_scholastica name_theresa name_yolande
+				name_felicia name_marquise name_philippa name_clemence name_oc_mirelha
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_adelaide
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_margaret
+				name_mary
+				name_philippa
+				name_esclarmonde
+				name_anna
+				Blancha
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_claire
+				name_frances
+				name_joanna
+				name_mary
+				name_theresa
+				name_margaret
+				Guilhema
+				name_eleanor
+				name_almodis
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_caroline
+				name_mary
+				name_dolours
+				name_elizabeth
+				name_esclarmonde
+				name_eugenie
+				name_frances
+				name_petronilla
+				name_scholastica
+				name_theresa
+			}
+			dynasty_names = {
+				de_tolosa de_fois de_montpelhier de_baus de_carcassona de_roergue de_trencavel de_comenge de_besiers
+				de_bearn oc_dyn_armagnac oc_dyn_auvergne oc_dyn_narbonne oc_dyn_albret oc_dyn_bigorre oc_dyn_gevaudan
+				oc_dyn_limoges oc_dyn_ventadour oc_dyn_quercy oc_dyn_rodez oc_dyn_astarac oc_dyn_marsan oc_dyn_laurac
+				gas_dyn_foix_bearn gas_dyn_lavedan gas_dyn_labourd gas_dyn_gramont_gas
+			}
+			lowborn = {
+				Laforcada Lestang Costa Theron Binoche Cabrol Capdevila Faure Nadal Teissier oc_low_fabre oc_low_mercier
+				oc_low_peyre oc_low_barriere oc_low_maurel oc_low_roux oc_low_brun oc_low_pelet oc_low_couderc
+				oc_low_bousquet oc_low_castan oc_low_mas oc_low_serres oc_low_peyrat oc_low_delmas oc_low_laroche
+				gas_low_dufour_gas gas_low_casenave gas_low_darboux gas_low_lanusse gas_low_lassalle
+			}
+			ship_names = {
+				om7_ship_gascon_dialect_001 om7_ship_gascon_dialect_002 om7_ship_gascon_dialect_003
+				om7_ship_gascon_dialect_004 om7_ship_gascon_dialect_005 om7_ship_gascon_dialect_006
+				om7_ship_gascon_dialect_007 om7_ship_gascon_dialect_008 om7_ship_gascon_dialect_009
+				om7_ship_gascon_dialect_010 om7_ship_gascon_dialect_011 om7_ship_gascon_dialect_012
+				om7_ship_gascon_dialect_013 om7_ship_gascon_dialect_014 om7_ship_gascon_dialect_015
+				om7_ship_gascon_dialect_016 om7_ship_gascon_dialect_017 om7_ship_gascon_dialect_018
+				om7_ship_gascon_dialect_019 om7_ship_gascon_dialect_020 om7_ship_gascon_dialect_021
+				om7_ship_gascon_dialect_022 om7_ship_gascon_dialect_023 om7_ship_gascon_dialect_024
+				om7_ship_gascon_dialect_025 om7_ship_gascon_dialect_026 om7_ship_gascon_dialect_027
+				om7_ship_gascon_dialect_028 om7_ship_gascon_dialect_029 om7_ship_gascon_dialect_030
+				om7_ship_gascon_dialect_031 om7_ship_gascon_dialect_032 om7_ship_gascon_dialect_033
+				om7_ship_gascon_dialect_034 om7_ship_gascon_dialect_035 om7_ship_gascon_dialect_036
+				om7_ship_gascon_dialect_037 om7_ship_gascon_dialect_038 om7_ship_gascon_dialect_039
+				om7_ship_gascon_dialect_040 om7_ship_gascon_dialect_041 om7_ship_gascon_dialect_042
+				om7_ship_gascon_dialect_043 om7_ship_gascon_dialect_044 om7_ship_gascon_dialect_045
+				om7_ship_gascon_dialect_046 om7_ship_gascon_dialect_047 om7_ship_gascon_dialect_048
+				om7_ship_gascon_dialect_049 om7_ship_gascon_dialect_050 om7_ship_gascon_dialect_051
+				om7_ship_gascon_dialect_052 om7_ship_gascon_dialect_053 om7_ship_gascon_dialect_054
+				om7_ship_gascon_dialect_055 om7_ship_gascon_dialect_056
+			}
+		}
+		catalan_dialect = {
+			patronym_suffix_son = "patronym_suffix_aragonese_son"
+			patronym_suffix_daughter = "patronym_suffix_aragonese_son"
+			male_names = {
+				name_albert name_alphonse name_ambrose name_andrew name_anthony name_arnold name_artaldus name_alvar
+				name_balthazar name_berengar name_berengar.name_raymond name_bernard name_cajetan name_casper name_charles
+				name_christopher name_dalmatius name_damian name_diego name_dominic name_emmanuel name_ermengaud name_felix
+				name_ferdinand name_francis name_frederick name_galcerand name_gaston name_george name_gerald name_gerard
+				name_gilbert name_godbert name_godfrey name_godfrey.name_gilbert name_gombald name_henry name_hieronymus
+				name_hosea name_hugh name_ignatius name_james name_joachim name_john name_joseph name_julian name_laurence
+				name_louis name_martin name_melchior name_michael name_nicholas name_nuno name_olegarius name_otto
+				name_paschal name_paul name_peter name_philip name_pontius name_raymond name_raymond.name_berengar
+				name_robert name_roderick name_roger name_sancho name_sebastian name_simeon name_thaddeus name_thomas
+				name_vincent name_wilfred name_william name_william.name_raymond
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_bernard
+				name_gaston
+				name_hugh
+				name_peter
+				name_raymond
+				name_roger
+				name_albert
+				name_alphonse
+				name_ambrose
+				name_andrew
+				name_anthony
+				name_arnold
+				name_artaldus
+				name_alvar
+				name_balthazar
+				name_berengar
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anthony
+				name_francis
+				name_john
+				name_joseph
+				name_louis
+				name_michael
+				name_nicholas
+				name_peter
+				name_philip
+				name_james
+				name_george
+				name_frederick
+				name_galcerand
+				name_gaston
+				name_gerald
+				name_gerard
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_charles
+				name_francis
+				name_joseph
+				name_gaston
+				name_louis
+				name_martin
+				name_melchior
+				name_michael
+				name_nicholas
+				name_nuno
+				name_olegarius
+				name_otto
+				name_paschal
+				name_paul
+				name_peter
+				name_philip
+			}
+			female_names = {
+				name_aldonza name_ambrosia name_anna name_antonia name_aurembiaix name_beatrix name_blanche name_bonaventura
+				name_catherine name_cecile name_claire name_constance name_dolours name_dominica name_douce name_eleanor
+				name_elfa name_elizabeth name_elvira name_ermesinde name_esclarmonde name_eugenie name_euphrosyne
+				name_felicia name_frances name_helisenne name_joanna name_josephine name_julie name_laurentia name_lucrece
+				name_madeleine name_margaret name_marianne name_marquise name_mary name_michaela name_montserrat name_nicole
+				name_petronilla name_sancha name_scholastica name_simone name_stephanie name_sybil name_theresa name_tiburge
+				name_ximena name_yolande name_ca_berenguera name_ca_ermentruda name_almodis name_om_ca_sibil_la
+				name_om_ca_merce
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 190
+				}
+				name_beatrix
+				name_catherine
+				name_eleanor
+				name_margaret
+				name_mary
+				name_esclarmonde
+				name_ermesinde
+				name_aldonza
+				name_ambrosia
+				name_anna
+				name_antonia
+				name_aurembiaix
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 170
+				}
+				name_anna
+				name_claire
+				name_frances
+				name_joanna
+				name_madeleine
+				name_mary
+				name_theresa
+				name_margaret
+				name_catherine
+				name_elvira
+				name_ermesinde
+				name_esclarmonde
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 150
+				}
+				name_josephine
+				name_mary
+				name_michaela
+				name_montserrat
+				name_nicole
+				name_petronilla
+				name_sancha
+				name_scholastica
+				name_simone
+				name_stephanie
+				name_sybil
+				name_theresa
+			}
+			dynasty_names = {
+				amat_dynasty anglesola_dynasty borja_dynasty cabrera_dynasty cardona_dynasty cervello_dynasty
+				cruilles_dynasty mataplana_dynasty de_montcada de_montsoriu pinos_dynasty queralt_dynasty requesens_dynasty
+				Rocaberti sogorb vilanova_dynasty ca_dyn_barcelona ca_dyn_urgell ca_dyn_empuries ca_dyn_pallars
+				ca_dyn_rossello ca_dyn_cerdanya ca_dyn_sant_marti ca_dyn_fox_catalan ca_dyn_ribagorca om_dyn_ca_montcada
+				om_dyn_ca_rocaberti
+			}
+			lowborn = {
+				d_Agullana d_Aimeric d_Alentorn amat_dynasty d_Anglesola de_Avinyo Ballester Barcelo de_Besora Besora
+				name_bertrand Beulo de_Borja Borrassa name_borrell Bosch de_Boteller Bover cabrera_dynasty Cacador
+				de_Camporrels Capdevila de_Carcassona cardona_dynasty de_Cartella de_castellvi de_Castre cervello_dynasty
+				de_cervera Cervero Claret de_Clariana Claris Coll Colomer Colom de_Copons de_Corbera Cordelles Corominas
+				Costa de_Covarrubias Crespi de_Cruilles Dalmau de_Darnius Delgado Descolomer Desgarrigues Despla Despuig
+				Destorrents d_empuries d_Enguera d_entenca de_Ferrer name_ferrer Fiella Fontanella de_fonollar Forment Franc
+				Frigola Fuster Galvany de_Garret Gener Gomis Grau de_grevalosa de_Gualbes de_Guimera Lembri Llancol_Romani
+				de_Lloaces Llobera de_Magarola Magarola de_Malla Malferit Marc march_dynasty de_Marquina Martorell Mas
+				mataplana_dynasty Mateu May de_Mayorga Mercadal Mercader de_montcada de_montpalau de_Monsavin de_Montserrat
+				de_montsoriu de_Montsuar Morillo de_Mur Nadal d_Olmera name_oliver Oliveres d_Oms d_Orcau d_Osona Pages
+				de_Palou Pasqual Peres Pijoan de_Pinos de_Planella de_Pinyana Pont Portell de_Portola Puig Pujades Pujol
+				Prat Prats de_Queralt name_ram de_Requesens Rexach de_Ribes Rocaberti Roig del_Rosso Sala Salacruz Samaso
+				Samso Sanc de_Santamans de_Santjoan Saportella Sastre Sanz de_Sentjust Serra Sescomes de_sitges de_Sogorb
+				de_Solanell Soler de_Sos Sunyer Teixidor de_Tormo d_urgell Valles Valls Vidal de_Vigodet Vila de_Vilalba
+				de_Vilamala vilanova_dynasty de_Vilar Vilaro Vicent de_Villalonga Vives_Canyamans ca_low_rovira
+				ca_low_montaner ca_low_serrador ca_low_carbonell ca_low_casteller
+			}
+			ship_names = {
+				om7_ship_catalan_dialect_001 om7_ship_catalan_dialect_002 om7_ship_catalan_dialect_003
+				om7_ship_catalan_dialect_004 om7_ship_catalan_dialect_005 om7_ship_catalan_dialect_006
+				om7_ship_catalan_dialect_007 om7_ship_catalan_dialect_008 om7_ship_catalan_dialect_009
+				om7_ship_catalan_dialect_010 om7_ship_catalan_dialect_011 om7_ship_catalan_dialect_012
+				om7_ship_catalan_dialect_013 om7_ship_catalan_dialect_014 om7_ship_catalan_dialect_015
+				om7_ship_catalan_dialect_016 om7_ship_catalan_dialect_017 om7_ship_catalan_dialect_018
+				om7_ship_catalan_dialect_019 om7_ship_catalan_dialect_020 om7_ship_catalan_dialect_021
+				om7_ship_catalan_dialect_022 om7_ship_catalan_dialect_023 om7_ship_catalan_dialect_024
+				om7_ship_catalan_dialect_025 om7_ship_catalan_dialect_026 om7_ship_catalan_dialect_027
+				om7_ship_catalan_dialect_028 om7_ship_catalan_dialect_029 om7_ship_catalan_dialect_030
+				om7_ship_catalan_dialect_031 om7_ship_catalan_dialect_032 om7_ship_catalan_dialect_033
+				om7_ship_catalan_dialect_034 om7_ship_catalan_dialect_035 om7_ship_catalan_dialect_036
+				om7_ship_catalan_dialect_037 om7_ship_catalan_dialect_038 om7_ship_catalan_dialect_039
+				om7_ship_catalan_dialect_040 om7_ship_catalan_dialect_041 om7_ship_catalan_dialect_042
+				om7_ship_catalan_dialect_043 om7_ship_catalan_dialect_044 om7_ship_catalan_dialect_045
+				om7_ship_catalan_dialect_046 om7_ship_catalan_dialect_047 om7_ship_catalan_dialect_048
+				om7_ship_catalan_dialect_049 om7_ship_catalan_dialect_050 om7_ship_catalan_dialect_051
+				om7_ship_catalan_dialect_052 om7_ship_catalan_dialect_053 om7_ship_catalan_dialect_054
+				om7_ship_catalan_dialect_055 om7_ship_catalan_dialect_056 om7_ship_catalan_dialect_057
+				om7_ship_catalan_dialect_058 om7_ship_catalan_dialect_059 om7_ship_catalan_dialect_060
+				om7_ship_catalan_dialect_061 om7_ship_catalan_dialect_062 om7_ship_catalan_dialect_063
+				om7_ship_catalan_dialect_064 om7_ship_catalan_dialect_065 om7_ship_catalan_dialect_066
+				om7_ship_catalan_dialect_067 om7_ship_catalan_dialect_068 om7_ship_catalan_dialect_069
+				om7_ship_catalan_dialect_070 om7_ship_catalan_dialect_071 om7_ship_catalan_dialect_072
+				om7_ship_catalan_dialect_073 om7_ship_catalan_dialect_074
+			}
+		}
+	}
+}

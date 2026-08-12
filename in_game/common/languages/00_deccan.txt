@@ -1,0 +1,3194 @@
+﻿telugu_language = {
+	color = map_telugu_language
+	family = dravidian_language_family
+	male_names = {
+		Anavota Anavema Kumaragiri name_prolaya Kataya Pedakomati Racha Allada Gondesi Veerabhadra Devendravarman
+		Anantavarman Ananga Bhima name_narasimha name_bhanu Narayan Gopinath Mukunda Bira name_jagat Saheb Kumar Maada
+		Peda Prataparudra Rudra Prasaditya Venna name_singama Allayavema Amma Ammaraja Ayyapayya Baladitya Ballaladeva
+		Beta Bhandanaditya Chennappa Danamava Devanayaka Durgaraja Ganapathideva Ganapathinayaka Indrabhattaraka
+		name_jayasimha Kaapayanayaka Kadeyaraja Kalakampa Kammanayaka Katayavema Kubjavishnuvardhana Mahadeva Mahakala
+		Mangiyuvaraja Mallapa name_nachana name_narendra Niravadyadhavala Nrpakama Pandaranga Prola Prolayanayak
+		Prolayavema Prthiviyaraja Rajanayaka Rajaraja Rudradeva Saktivarman Singamanayaka Somaditya Vengabhupathi
+		Vijayaditya Vimaladitya Virabhadra name_vishnuvardhana Yuddamalla name_quli name_jamshid name_subhan
+		name_abraham name_muhammad Abul'l-Hassan Kabir Mir_Musa Mahmud_Gawan Sayid_Hanif Imad_al-Mulk Saif_Allah
+		Iftikhar_al-Mulk Mir_Abu'l-Qasim Ubbaid_Allah Sayid_Nasir_al-Din Khalil_Allah name_abdullah Rustam
+		Shams_al-Din Qasim_Beg Khusrau Daud Mujahid Fulad name_jamal.name_al_din name_malik Ala-ud-din Malik-ut-Tujjar
+		Sikandar Hakim Krishnadevaraya Ramaraya Achyutadeva Sadashiva
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_prolaya
+		name_singama
+		Anavota
+		Anavema
+		Kumaragiri
+		Prataparudra
+		Rudradeva
+		Ganapathideva
+		Prolayanayak
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Krishnadevaraya
+		Ramaraya
+		Achyutadeva
+		Sadashiva
+		name_quli
+		name_jamshid
+		Mahmud_Gawan
+		name_abraham
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_muhammad
+		name_abdullah
+		Sikandar
+		Hakim
+		Rustam
+		Daud
+		Shams_al-Din
+		name_malik
+	}
+	female_names = {
+		Krishnapriya Bishnupriya Tikayet_Devi Giriraj_Kumari Suratarangini_Devi Anitalli Chamekamba Chandena Chellava
+		Gamakamba Hariharamba Nagipoti Pammava Rudramba Rudramadevi Srimahadevi Tundaka Bashirunissa Umda name_samiya
+		Dawudunissa om_in_gangadevi Kamaladevi om_in_chand_bibi om_in_abbakka Durgavati Mangammal name_mumtaz Jahanara
+		om_in_chennamma om_in_velu_nachiyar Ahilyabai om_in_lakshmibai Qudsia om_in_sikandar_begum
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Rudramba
+		Rudramadevi
+		Srimahadevi
+		om_in_gangadevi
+		Kamaladevi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		om_in_chand_bibi
+		om_in_abbakka
+		Durgavati
+		Mangammal
+		name_mumtaz
+		Jahanara
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		om_in_chennamma
+		om_in_velu_nachiyar
+		Ahilyabai
+		om_in_lakshmibai
+		Qudsia
+		om_in_sikandar_begum
+	}
+	dynasty_names = {
+		Aravidu Talpura Velama Reddy Saluva Tuluva sangama_dynasty Pemmasani Tupakul Nanduri Chalukya Pattavardhani
+		Chola Ganga Choda Nagavamsi Suryavamsa
+	}
+	lowborn = {
+		Kappu Kamma Komati Telaga Balija Gangavar Vannekapu Goud Kuruba Mangala Devanga Vanyakulakshtriya Vannar
+		Gannaiah Ambadeva Velugoti Damerla Malraju Meka Jannigadeva Tripurar Racha name_khan Mahaldar Dawar Bhaskar
+		Kabir Chirag Zamindari
+	}
+	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NAME_SUFFIX_NUMBER"
+	character_name_order = "CHARACTER_NAME_ORDER_PREFIX_LASTNAME_NAME_SUFFIX_NICKNAME_NUMBER"
+	ship_names = {
+		om7_ship_telugu_language_001 om7_ship_telugu_language_002 om7_ship_telugu_language_003
+		om7_ship_telugu_language_004 om7_ship_telugu_language_005 om7_ship_telugu_language_006
+		om7_ship_telugu_language_007 om7_ship_telugu_language_008 om7_ship_telugu_language_009
+		om7_ship_telugu_language_010 om7_ship_telugu_language_011 om7_ship_telugu_language_012
+		om7_ship_telugu_language_013 om7_ship_telugu_language_014 om7_ship_telugu_language_015
+		om7_ship_telugu_language_016 om7_ship_telugu_language_017 om7_ship_telugu_language_018
+		om7_ship_telugu_language_019 om7_ship_telugu_language_020 om7_ship_telugu_language_021
+		om7_ship_telugu_language_022 om7_ship_telugu_language_023 om7_ship_telugu_language_024
+		om7_ship_telugu_language_025 om7_ship_telugu_language_026 om7_ship_telugu_language_027
+		om7_ship_telugu_language_028 om7_ship_telugu_language_029 om7_ship_telugu_language_030
+		om7_ship_telugu_language_031 om7_ship_telugu_language_032 om7_ship_telugu_language_033
+		om7_ship_telugu_language_034 om7_ship_telugu_language_035 om7_ship_telugu_language_036
+		om7_ship_telugu_language_037 om7_ship_telugu_language_038 om7_ship_telugu_language_039
+		om7_ship_telugu_language_040 om7_ship_telugu_language_041 om7_ship_telugu_language_042
+		om7_ship_telugu_language_043 om7_ship_telugu_language_044 om7_ship_telugu_language_045
+		om7_ship_telugu_language_046 om7_ship_telugu_language_047 om7_ship_telugu_language_048
+		om7_ship_telugu_language_049 om7_ship_telugu_language_050 om7_ship_telugu_language_051
+		om7_ship_telugu_language_052 om7_ship_telugu_language_053 om7_ship_telugu_language_054
+		om7_ship_telugu_language_055 om7_ship_telugu_language_056 om7_ship_telugu_language_057
+		om7_ship_telugu_language_058 om7_ship_telugu_language_059 om7_ship_telugu_language_060
+		om7_ship_telugu_language_061 om7_ship_telugu_language_062 om7_ship_telugu_language_063
+		om7_ship_telugu_language_064 om7_ship_telugu_language_065 om7_ship_telugu_language_066
+		om7_ship_telugu_language_067 om7_ship_telugu_language_068 om7_ship_telugu_language_069
+		om7_ship_telugu_language_070 om7_ship_telugu_language_071 om7_ship_telugu_language_072
+		om7_ship_telugu_language_073 om7_ship_telugu_language_074 om7_ship_telugu_language_075
+		om7_ship_telugu_language_076 om7_ship_telugu_language_077 om7_ship_telugu_language_078
+		om7_ship_telugu_language_079 om7_ship_telugu_language_080 om7_ship_telugu_language_081
+		om7_ship_telugu_language_082 om7_ship_telugu_language_083 om7_ship_telugu_language_084
+		om7_ship_telugu_language_085 om7_ship_telugu_language_086 om7_ship_telugu_language_087
+		om7_ship_telugu_language_088 om7_ship_telugu_language_089 om7_ship_telugu_language_090
+		om7_ship_telugu_language_091 om7_ship_telugu_language_092 om7_ship_telugu_language_093
+		om7_ship_telugu_language_094 om7_ship_telugu_language_095 om7_ship_telugu_language_096
+		om7_ship_telugu_language_097 om7_ship_telugu_language_098 om7_ship_telugu_language_099
+		om7_ship_telugu_language_100 om7_ship_telugu_language_101 om7_ship_telugu_language_102
+		om7_ship_telugu_language_103 om7_ship_telugu_language_104 om7_ship_telugu_language_105
+		om7_ship_telugu_language_106 om7_ship_telugu_language_107 om7_ship_telugu_language_108
+		om7_ship_telugu_language_109 om7_ship_telugu_language_110 om7_ship_telugu_language_111
+		om7_ship_telugu_language_112
+	}
+}
+
+tamil_language = {
+	color = map_tamil_language
+	family = dravidian_language_family
+	male_names = {
+		Amarapuyankan AparA_cita AparA_citavarman AppU_taiyA_n ArikE_cari AriN_caya ArulmolitE_var Arulmolivarman
+		AtirA_cE_ntira Atitta AvaniyA_lappirantA_r Avraaham BrahmamA_rA_yar Cadayan Cankili Cataiyavarman
+		CatturukA_lamakalA_tittan Cayantavarman Celiyancentan CekarA_cacE_karan Cevakattevan CeyavI_ra Chaacko Chaandy
+		Cimmavisnu CinkapA_ku CivakkoluntA_n Cuntara CA_ramutaiyA_n CA_ttanA_n CI_vallapa CI_vallapan Daniyel Eappen
+		EccavarA_kan Eisow ImpA_nA_yarpattan Irattapadikonda IrA_cacimman IrA_cakecaripanmar IrA_carA_ca IrA_cA_cekara
+		IrA_cA_tirA_ca IrA_cA_tirA_catevar IrA_cA_titta IrA_cE_ntira Ittac Iyob Kadarangkonda KanakacU_riya
+		KantarA_titta KaraikkiyemarrayilaiyA_n Karunandadakkan Karunandan Katunkon KilA_n KirA_marA_capattan KontA_n
+		Kossy Kotukulapattan KulacE_kara KulacE_karan KulO_ttunka KunapU_sana KunavI_ra Kurian Kutameratiruvatikal
+		KO_pperuN_cimman Lukose MakE_ntiravarman ManappA_kkI_lan ManavA_lapperumA_l MunnU_rruvappattan
+		MA_mpA_kkamutaiyA_n MA_naticcuran MA_rapanmar MA_ravarman MA_rkantaiyan Markose MA_tevapattan MA_tevipattan
+		Nantivarman Naracimmavarman Nirupatunkavarman NiyA_yaparipA_lapattan NA_rpattennA_yirapattan NA_tittaN_cA_ttan
+		PantA_ram Parakesaripanmar ParamE_svaravarman Paranirupacinkam PararA_cacE_karan ParA_kkirama ParA_nkucan
+		ParA_ntaka Pathrose PaN_cavan Paulose Periyapillai PerumA_l PeruN_cintevar PiramA_rA_yan Piyliypaos PuvirA_ca
+		PA_kkilA_n PA_larA_vA_yan Ranatitta RanatI_ran Ravivarman name_samuel Tantivarman Tennavan Thoma
+		Tiruccirrampalapattan TirunattapperumA_l TirupuvanavI_ratevar Tripuvanacakkaravattikal UravA_kkinA_n Utaiya
+		Uttama Varakunan Varakunavarman VarO_taya Varughese VellantA_nkinA_n VicayA_laya VicayA_raka VicayA_titta
+		Vikkirama VikramA_tittA_ ViranA_rA_yanapattan VirA_cakecaripanmar VI_racE_kara VI_rakE_cari VI_rarA_cE_ntira
+		VI_rO_taya Yohannaan Yosef Zacharria A_ccinataratippan A_nU_rrenmanpiccan A_yirattalipattan Naralokavira
+		Vediarasan Kantan_Kumaran Kumaran Ravi Venattadikal Ramakuta Narasa Tenna Naransa_Pillai Kattyama_Kamaiya
+		Cimappa Virappa Tirumala Chokkanatha Minaski Yachama Raghunatha
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Cuntara
+		IrA_cA_cekara
+		KulacE_kara
+		KulO_ttunka
+		ParA_ntaka
+		Ravivarman
+		Vikkirama
+		VI_racE_kara
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		ParA_kkirama
+		Naralokavira
+		Kumaran
+		Ravi
+		Tenna
+		Naransa_Pillai
+		Kattyama_Kamaiya
+		Cimappa
+		Virappa
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Tirumala
+		Chokkanatha
+		Yachama
+		Raghunatha
+		Thoma
+		Yohannaan
+		Yosef
+		name_samuel
+	}
+	female_names = {
+		Aaleyaamma Accamma AccattE_vi Annamma AiyyA_rratikal AkkA_ranankayA_r Amittiravalli AmmaiyA_lvi AmmakkanA_r
+		AmmankA_tE_vi AnkA_ti AramutaiyA_l AricukA_ti Ariyapillai AriN_cikai AriN_cikaipirA_tti
+		AriN_cikaippirA_ttiyA_r ArulmolinankaiyA_r Aruvanki AtavallA_l AtittapatA_riyA_r AtittapitA_ri
+		AtittapitA_riyA_r AtticapitA_riyA_r AvutaiyA_lccA_ni CankA_ni CantirA_dE_vi Cenkulam CeyyacO_lam CeyyavA_ymani
+		CivatE_vi Civallapatevi CorappaiyA_r CA_muntappai CE_ramankai CO_lamA_tE_vi Eccumantai Eluvanai EluvattU_r
+		EtuttapA_tam IrA_cinkam IrA_cA_ticci IrA_cacuntari Kalacci Kalicci Kanavati KannapparaciyA_r KantiyU_r
+		KariyamA_tE_vi KarumA_nikkam KaucalaiyA_r Kavatiyakkan KaN_ciakkan KutitA_nkinA_l KuN_caramalli KuN_ciramalli
+		KA_muttiri KA_raikkA_l KO_kilA_nadigal KO_lA_liyA_r KO_malavalli KO_yinA_ccipitA_riyA_r KU_rrantE_vi
+		KU_ttA_tunA_cci MahA_deviyA_r MalaiyamA_n MalapA_ti MaraikkA_tu MaN_cavi MA_nikkam Mariamma MA_tE_vatikalA_r
+		NakarattA_l NaltE_viyA_r NamaiyA_r NankaiyA_r Nantirinankai Netuntukkai Nilammai Nimmatikal NA_cci
+		NA_cciyA_lvi NA_rani NA_rA_yani NA_N_cU_ri NI_lakanti NI_liyA_r OlimatiyA_r OrriA_lvi Pavitram PennaraciyA_r
+		Peranankai PeriyanA_cci Perrappai PillayA_lvi PiramaccA_ni PiratamA_tevi PirriccA_ni PollA_tapillai PommavA_yi
+		PonnampalattatikalA_r PunniyavA_tti PU_vA_nti Raahelamma RA_catE_viyA_r RA_cakE_cari SA_mavA_yi Saramma
+		Sosamma TaturA_ntakiyA_r TavaN_ceytA_l TayA_nitiyA_r Thresiamma TirumU_lattA_nam Tiruvaranki TiruvennA_val
+		TiruvA_naikkA_vi TiruvE_nkatam TunaiyiruntA_lcA_ni TA_natonkiyA_r TE_cappukal TE_mpA_vai TE_vA_nrA_l
+		TU_nkA_nai UmaiyA_lvA_r Utaiyaval UtaiyaN_ceytA_l VaccavaiyA_r Varakuni VatavA_yil Venankai VennA_val
+		Vicciyakkan ViccA_tiri VikkiramA_titti ViraiyA_ccilai Vitari VA_navanmA_tE_vi Kundavai Madhurantaki
+		Kuntavaiyalvar Maturantikiyalvar Arulmolinangai Meenakshi Velunatchiyar Mangammal om_in_abbakka
+		om_in_gangadevi om_in_chennamma om_in_lakshmibai Lakshmi Parvati Lalita
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Kundavai
+		Madhurantaki
+		Kuntavaiyalvar
+		Maturantikiyalvar
+		Arulmolinangai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Mangammal
+		Meenakshi
+		om_in_abbakka
+		om_in_gangadevi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Velunatchiyar
+		om_in_chennamma
+		om_in_lakshmibai
+		Lakshmi
+		Parvati
+		Lalita
+	}
+	dynasty_names = {
+		Kadava pandya_dynasty Chola Ganga Pallava Saadatullahid Anwarudid Thondaiman Thanjavuri ethupathy Saluva
+		Mutharaiyar Ay aryacakravarti_dynasty
+	}
+	lowborn = {
+		Mudaliar Rajapopalachari Sastri Dalawa Saluva Saraf Nayak Senji Chetti Ezhava Vellala Arayan Nair Kammalar
+		Izhava Mukkuvar
+	}
+	ship_names = {
+		om7_ship_tamil_language_001 om7_ship_tamil_language_002 om7_ship_tamil_language_003
+		om7_ship_tamil_language_004 om7_ship_tamil_language_005 om7_ship_tamil_language_006
+		om7_ship_tamil_language_007 om7_ship_tamil_language_008 om7_ship_tamil_language_009
+		om7_ship_tamil_language_010 om7_ship_tamil_language_011 om7_ship_tamil_language_012
+		om7_ship_tamil_language_013 om7_ship_tamil_language_014 om7_ship_tamil_language_015
+		om7_ship_tamil_language_016 om7_ship_tamil_language_017 om7_ship_tamil_language_018
+		om7_ship_tamil_language_019 om7_ship_tamil_language_020 om7_ship_tamil_language_021
+		om7_ship_tamil_language_022 om7_ship_tamil_language_023 om7_ship_tamil_language_024
+		om7_ship_tamil_language_025 om7_ship_tamil_language_026 om7_ship_tamil_language_027
+		om7_ship_tamil_language_028 om7_ship_tamil_language_029 om7_ship_tamil_language_030
+		om7_ship_tamil_language_031 om7_ship_tamil_language_032 om7_ship_tamil_language_033
+		om7_ship_tamil_language_034 om7_ship_tamil_language_035 om7_ship_tamil_language_036
+		om7_ship_tamil_language_037 om7_ship_tamil_language_038 om7_ship_tamil_language_039
+		om7_ship_tamil_language_040 om7_ship_tamil_language_041 om7_ship_tamil_language_042
+		om7_ship_tamil_language_043 om7_ship_tamil_language_044 om7_ship_tamil_language_045
+		om7_ship_tamil_language_046 om7_ship_tamil_language_047 om7_ship_tamil_language_048
+		om7_ship_tamil_language_049 om7_ship_tamil_language_050 om7_ship_tamil_language_051
+		om7_ship_tamil_language_052 om7_ship_tamil_language_053 om7_ship_tamil_language_054
+		om7_ship_tamil_language_055 om7_ship_tamil_language_056 om7_ship_tamil_language_057
+		om7_ship_tamil_language_058 om7_ship_tamil_language_059 om7_ship_tamil_language_060
+		om7_ship_tamil_language_061 om7_ship_tamil_language_062 om7_ship_tamil_language_063
+		om7_ship_tamil_language_064 om7_ship_tamil_language_065 om7_ship_tamil_language_066
+		om7_ship_tamil_language_067 om7_ship_tamil_language_068 om7_ship_tamil_language_069
+		om7_ship_tamil_language_070 om7_ship_tamil_language_071 om7_ship_tamil_language_072
+		om7_ship_tamil_language_073 om7_ship_tamil_language_074 om7_ship_tamil_language_075
+		om7_ship_tamil_language_076 om7_ship_tamil_language_077 om7_ship_tamil_language_078
+		om7_ship_tamil_language_079 om7_ship_tamil_language_080 om7_ship_tamil_language_081
+		om7_ship_tamil_language_082 om7_ship_tamil_language_083 om7_ship_tamil_language_084
+		om7_ship_tamil_language_085 om7_ship_tamil_language_086 om7_ship_tamil_language_087
+		om7_ship_tamil_language_088 om7_ship_tamil_language_089 om7_ship_tamil_language_090
+		om7_ship_tamil_language_091 om7_ship_tamil_language_092 om7_ship_tamil_language_093
+		om7_ship_tamil_language_094 om7_ship_tamil_language_095 om7_ship_tamil_language_096
+		om7_ship_tamil_language_097 om7_ship_tamil_language_098 om7_ship_tamil_language_099
+		om7_ship_tamil_language_100 om7_ship_tamil_language_101 om7_ship_tamil_language_102
+		om7_ship_tamil_language_103 om7_ship_tamil_language_104 om7_ship_tamil_language_105
+		om7_ship_tamil_language_106 om7_ship_tamil_language_107 om7_ship_tamil_language_108
+		om7_ship_tamil_language_109 om7_ship_tamil_language_110 om7_ship_tamil_language_111
+		om7_ship_tamil_language_112 om7_ship_tamil_language_113 om7_ship_tamil_language_114
+		om7_ship_tamil_language_115 om7_ship_tamil_language_116 om7_ship_tamil_language_117
+		om7_ship_tamil_language_118 om7_ship_tamil_language_119 om7_ship_tamil_language_120
+		om7_ship_tamil_language_121 om7_ship_tamil_language_122 om7_ship_tamil_language_123
+		om7_ship_tamil_language_124 om7_ship_tamil_language_125 om7_ship_tamil_language_126
+		om7_ship_tamil_language_127 om7_ship_tamil_language_128
+	}
+}
+
+malayalam_language = {
+	color = map_malayalam_language
+	family = dravidian_language_family
+	male_names = {
+		Chera_Udaya Mootha name_vira Martanda Aditya Bala Rama Udaya Kotha_Aditya RaviThiruvattar Kodassery Koratty
+		Manaveda Manavikraman Viraraya Utrattati_Tirunal Nileswaram Muhammadutti Madhava Kesavadas Moolam name_dharma
+		Uthram Sakthan om_in_kerala_varma om_in_ravi_varma om_in_rama_varma om_in_marthanda_varma om_in_kunjali
+		om_in_sankaran om_in_govindan Narayanan om_in_padmanabhan om_in_krishnan
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 290
+		}
+		Chera_Udaya
+		Kotha_Aditya
+		RaviThiruvattar
+		Manaveda
+		Manavikraman
+		om_in_kerala_varma
+		om_in_ravi_varma
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 290
+		}
+		Martanda
+		Sakthan
+		om_in_rama_varma
+		om_in_marthanda_varma
+		om_in_kunjali
+		Kesavadas
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 290
+		}
+		Utrattati_Tirunal
+		Moolam
+		Uthram
+		om_in_sankaran
+		om_in_govindan
+		Narayanan
+		om_in_padmanabhan
+		om_in_krishnan
+	}
+	female_names = {
+		Seema Lalitha Krishna_Kumari Gangadhara_Lakshmi Varakuni VatavA_yil Venankai VennA_val Vicciyakkan ViccA_tiri
+		VikkiramA_titti ViraiyA_ccilai Vitari VA_navanmA_tE_vi Kundavai Madhurantaki Kuntavaiyalvar Maturantikiyalvar
+		Arulmolinangai om_in_gangadevi Mangammal om_in_abbakka Lakshmi om_in_chennamma om_in_velu_nachiyar
+		om_in_lakshmibai Parvati Lalita
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 290
+		}
+		Kundavai
+		Madhurantaki
+		Kuntavaiyalvar
+		Maturantikiyalvar
+		Arulmolinangai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 290
+		}
+		om_in_gangadevi
+		Mangammal
+		om_in_abbakka
+		Lakshmi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 290
+		}
+		om_in_chennamma
+		om_in_velu_nachiyar
+		om_in_lakshmibai
+		Lakshmi
+		Parvati
+		Lalita
+	}
+	dynasty_names = {
+		Samoothiri Kulasekhara aryacakravarti_dynasty Perumadappu Cinkaiariyan Eradu Kolathiri Perumal Chera Mushika
+		Muziri kadamba_dynasty
+	}
+	lowborn = {
+		Chetti Ezhava Vellala Arayan Nair Kammalar Izhava Mukkuvar Pulayar Kuravan Thandan Nadar Cheraman Unnithiri
+		Vellodi Karthavu Kaimal
+	}
+	ship_names = {
+		om7_ship_malayalam_language_001 om7_ship_malayalam_language_002 om7_ship_malayalam_language_003
+		om7_ship_malayalam_language_004 om7_ship_malayalam_language_005 om7_ship_malayalam_language_006
+		om7_ship_malayalam_language_007 om7_ship_malayalam_language_008 om7_ship_malayalam_language_009
+		om7_ship_malayalam_language_010 om7_ship_malayalam_language_011 om7_ship_malayalam_language_012
+		om7_ship_malayalam_language_013 om7_ship_malayalam_language_014 om7_ship_malayalam_language_015
+		om7_ship_malayalam_language_016 om7_ship_malayalam_language_017 om7_ship_malayalam_language_018
+		om7_ship_malayalam_language_019 om7_ship_malayalam_language_020 om7_ship_malayalam_language_021
+		om7_ship_malayalam_language_022 om7_ship_malayalam_language_023 om7_ship_malayalam_language_024
+		om7_ship_malayalam_language_025 om7_ship_malayalam_language_026 om7_ship_malayalam_language_027
+		om7_ship_malayalam_language_028 om7_ship_malayalam_language_029 om7_ship_malayalam_language_030
+		om7_ship_malayalam_language_031 om7_ship_malayalam_language_032 om7_ship_malayalam_language_033
+		om7_ship_malayalam_language_034
+	}
+}
+
+gondi_language = {
+	color = map_gondi_language
+	family = dravidian_language_family
+	male_names = {
+		Narsinghdeva Nar_Singh Arjuna Sangrama Daipat Vir Vir_Narayana name_chandra Hir_Sah Hirde Madhukara Dhundya
+		Krasna name_bir Hiradi name_ram Nilkanth Bakht Lokba Babji_Ballal_Sah Talwar_Singh Kesar_Singh Dinkar_Singh
+		Surja_Ballal_Singh Khandkya_Ballal_Singh Bhuma Kondya_Sah Hir_Singh Kharja_Ballal_Singh Bhim_Ballal_Singh
+		Soorjat_Badwaik Kurumpruhoda Kol_Bheel Achugi Adikavi Ahavamalla Anekonda Asaga Avinita Ayanna Bijjama Bukka
+		Butuga Chavundaraya Dashavarman Dhruva Durgasimha Durvinita Ereganga name_ereyanga Gangaraja Gajankusha
+		Gobburi Govinda Hakka name_harihara Harivarman name_indra Jagadhekamalla Jagaraya Jagattunga name_jayasimha
+		Jogama Kambarasa Kannama Karka Khottiga Kiriyasaga Kirtivarman Konganivarman name_krishna Madhava Madhura
+		Mallugi Mangalesi Marasimha Marulaganga Mushkara Narasanayaka name_narasimha Neetimarga Nripakama Permanadi
+		Polavira Praudharaya Pulakesi Purandaradasa Rachamalla Ramachandra Ramadeva Ramaraya Sankama Satyasraya Sharva
+		Shivamara Singhana Sovideva Sripadaraya Sripurusha Sriranga Srivikrama Tailapa Thimma Tirumalaraya Uchita
+		Venkatadri Venkatapathi Vikramaditya Vijayaditya name_vinayaditya Viraballala Viravijaya Virupaksha Vishnugopa
+		name_vishnuvardhana Yachama Yachamanedu Achyutadeva Sadashiva Vendakadri Viranarasimha
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Narsinghdeva
+		Nar_Singh
+		Arjuna
+		Sangrama
+		Daipat
+		Vir
+		Vir_Narayana
+		name_chandra
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Bukka
+		name_harihara
+		Ramaraya
+		name_krishna
+		Achyutadeva
+		Sadashiva
+		Viranarasimha
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Hirde
+		Madhukara
+		Bakht
+		Lokba
+		Talwar_Singh
+		Kesar_Singh
+		Dinkar_Singh
+	}
+	female_names = {
+		Durgavati Hirai Ratna_Kuvar Akkadevi Bhavanaga Bijjabbe Chandaladevi Chandrabbalabbe Gangambika Kundakadevi
+		Lakshmi Mahadevi Mailaladevi Obayamma Pertal Revakanimmadi Shantaladevi Vijamba Chinnambike Thirumalambike
+		om_in_gangadevi om_in_chennamma Ahilyabai om_in_lakshmibai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Hirai
+		Ratna_Kuvar
+		Akkadevi
+		Bhavanaga
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Durgavati
+		Gangambika
+		Shantaladevi
+		Vijamba
+		om_in_gangadevi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		om_in_chennamma
+		Ahilyabai
+		om_in_lakshmibai
+		Lakshmi
+	}
+	dynasty_names = {
+		chanda_dynasty Raj_Gond Daogadhi Ballar_Sahi haihaya_dynasty Nagavamsi Bhanja Mana Chedi Kalachuri
+	}
+	lowborn = {
+		Atram Halba Dher Murani Madia Gowari Khatulwar Naikpod Sonjhari Thoti Mannewar Jhareya Koya
+	}
+	ship_names = {
+		om7_ship_gondi_language_001 om7_ship_gondi_language_002 om7_ship_gondi_language_003
+		om7_ship_gondi_language_004 om7_ship_gondi_language_005 om7_ship_gondi_language_006
+		om7_ship_gondi_language_007 om7_ship_gondi_language_008 om7_ship_gondi_language_009
+		om7_ship_gondi_language_010 om7_ship_gondi_language_011 om7_ship_gondi_language_012
+		om7_ship_gondi_language_013 om7_ship_gondi_language_014 om7_ship_gondi_language_015
+		om7_ship_gondi_language_016 om7_ship_gondi_language_017 om7_ship_gondi_language_018
+		om7_ship_gondi_language_019 om7_ship_gondi_language_020 om7_ship_gondi_language_021
+		om7_ship_gondi_language_022 om7_ship_gondi_language_023 om7_ship_gondi_language_024
+		om7_ship_gondi_language_025 om7_ship_gondi_language_026 om7_ship_gondi_language_027
+		om7_ship_gondi_language_028 om7_ship_gondi_language_029 om7_ship_gondi_language_030
+		om7_ship_gondi_language_031 om7_ship_gondi_language_032 om7_ship_gondi_language_033
+		om7_ship_gondi_language_034 om7_ship_gondi_language_035 om7_ship_gondi_language_036
+		om7_ship_gondi_language_037 om7_ship_gondi_language_038 om7_ship_gondi_language_039
+		om7_ship_gondi_language_040 om7_ship_gondi_language_041 om7_ship_gondi_language_042
+		om7_ship_gondi_language_043 om7_ship_gondi_language_044 om7_ship_gondi_language_045
+		om7_ship_gondi_language_046 om7_ship_gondi_language_047 om7_ship_gondi_language_048
+		om7_ship_gondi_language_049 om7_ship_gondi_language_050 om7_ship_gondi_language_051
+		om7_ship_gondi_language_052 om7_ship_gondi_language_053 om7_ship_gondi_language_054
+		om7_ship_gondi_language_055 om7_ship_gondi_language_056 om7_ship_gondi_language_057
+		om7_ship_gondi_language_058 om7_ship_gondi_language_059 om7_ship_gondi_language_060
+		om7_ship_gondi_language_061 om7_ship_gondi_language_062 om7_ship_gondi_language_063
+		om7_ship_gondi_language_064 om7_ship_gondi_language_065 om7_ship_gondi_language_066
+		om7_ship_gondi_language_067 om7_ship_gondi_language_068 om7_ship_gondi_language_069
+		om7_ship_gondi_language_070 om7_ship_gondi_language_071 om7_ship_gondi_language_072
+		om7_ship_gondi_language_073 om7_ship_gondi_language_074 om7_ship_gondi_language_075
+		om7_ship_gondi_language_076 om7_ship_gondi_language_077 om7_ship_gondi_language_078
+		om7_ship_gondi_language_079 om7_ship_gondi_language_080 om7_ship_gondi_language_081
+		om7_ship_gondi_language_082 om7_ship_gondi_language_083 om7_ship_gondi_language_084
+		om7_ship_gondi_language_085 om7_ship_gondi_language_086 om7_ship_gondi_language_087
+		om7_ship_gondi_language_088 om7_ship_gondi_language_089 om7_ship_gondi_language_090
+		om7_ship_gondi_language_091 om7_ship_gondi_language_092 om7_ship_gondi_language_093
+		om7_ship_gondi_language_094 om7_ship_gondi_language_095 om7_ship_gondi_language_096
+		om7_ship_gondi_language_097 om7_ship_gondi_language_098 om7_ship_gondi_language_099
+		om7_ship_gondi_language_100 om7_ship_gondi_language_101 om7_ship_gondi_language_102
+		om7_ship_gondi_language_103 om7_ship_gondi_language_104 om7_ship_gondi_language_105
+		om7_ship_gondi_language_106 om7_ship_gondi_language_107 om7_ship_gondi_language_108
+		om7_ship_gondi_language_109 om7_ship_gondi_language_110 om7_ship_gondi_language_111
+		om7_ship_gondi_language_112 om7_ship_gondi_language_113 om7_ship_gondi_language_114
+		om7_ship_gondi_language_115 om7_ship_gondi_language_116 om7_ship_gondi_language_117
+		om7_ship_gondi_language_118 om7_ship_gondi_language_119 om7_ship_gondi_language_120
+		om7_ship_gondi_language_121
+	}
+}
+
+kannada_language = {
+	color = map_kannada_language
+	family = dravidian_language_family
+	male_names = {
+		Yadu Chama Timmaraja Chamaraja Bettada DevarajaImmadai Kanthirava Narasaraja Chikkadevaraja Krishnaraja
+		Narayanan Lakshmisa Singaraya Chidananda Mahesh Manjunatha Mallappa Murthy Tirumalevaidya Lakshmisha
+		Venkayarya Achugi Adikavi Ahavamalla Amoghavarsha Anekonda Asaga Avinita Ayanna Bhuvikrama Bijjama Bukka
+		Butuga Chavundaraya Dantidurga Dashavarman Dhruva Durgasimha Durvinita Ereganga name_ereyanga Gangaraja
+		Gajankusha Gobburi Govinda Hakka name_harihara Harivarman name_indra Jagadhekamalla Jagaraya Jagattunga
+		name_jayasimha Jogama Kambarasa Kannama Karka Khottiga Kiriyasaga Kirtivarman Konganivarman name_krishna
+		Madhava Madhura Mallikarjuna Mallugi Mangalesi Marasimha Marulaganga Mushkara Narasanayaka name_narasimha
+		Neetimarga Nripakama Permadi Permanadi Polavira Praudharaya Pulakesi Purandaradasa Rachamalla Ramachandra
+		Ramadeva Ramaraya Sankama Satyasraya Sharva Shivamara Singhana Somesvara Sovideva Sripadaraya Sripurusha
+		Sriranga Srivikrama Tailapa Thimma Tirumalaraya Uchita Venkatadri Venkatapathi Vikramaditya Vijayaditya
+		name_vinayaditya Viraballala Viravijaya Virupaksha Vishnugopa name_vishnuvardhana Yachama Yachamanedu
+		Achyutadeva Krishnadevaraya Sadashiva Vendakadri Viranarasimha name_joseph Ismail name_malik name_abraham
+		name_ali name_muhammad Sikandar Mallu name_abdullah Taham name_ahmad Sulaiman Kizr name_burhan Hussain Yakut
+		Kalidas Ziauddin name_hafiz Hamza name_hamid name_qasim name_mustafa name_hasan Dilawar name_jahan Farrukh
+		name_jalal Sultan name_mahmud Hanif Imad_al-Mulk Iftikhar_al-Mulk Nasir Rustam Shams name_xwaja Khusrau
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Bukka
+		name_harihara
+		Krishnadevaraya
+		Achyutadeva
+		Sadashiva
+		Ramaraya
+		Viranarasimha
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Chamaraja
+		Kanthirava
+		Narasaraja
+		Chikkadevaraja
+		Krishnaraja
+		Somesvara
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Krishnaraja
+		Chamaraja
+		name_muhammad
+		name_ali
+		Sikandar
+		name_burhan
+		Hussain
+		name_malik
+	}
+	female_names = {
+		Akkadevi Bhavanaga Bijjabbe Chandaladevi Chandrabbalabbe Gangambika Hoysaladevi Kundakadevi Lakshmi Mahadevi
+		Mailaladevi Obayamma Pertal Revakanimmadi Shantaladevi Vijamba Chinnambike Thirumalambike Sujaya
+		Chikka_Krishna name_fatima Ahmadi name_mumtaz Malika om_in_gangadevi om_in_abbakka Rudramadevi Mangammal
+		om_in_chennamma Ahilyabai om_in_lakshmibai om_in_velu_nachiyar
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Akkadevi
+		Bhavanaga
+		Gangambika
+		Shantaladevi
+		om_in_gangadevi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		om_in_abbakka
+		Rudramadevi
+		Mangammal
+		Chinnambike
+		Thirumalambike
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		om_in_chennamma
+		Ahilyabai
+		om_in_lakshmibai
+		om_in_velu_nachiyar
+	}
+	dynasty_names = {
+		Wodeyar Ummattur sangama_dynasty Saluva Tuluva alupa_dynasty Mudhol Chowta Chalukya Sendraka Kalachuri
+		hoysala_dynasty Ganga
+	}
+	lowborn = {
+		Vaidya Rajbal Vokkaliga Gowda Balija Setty Pulayar Dasa Billava Vaidumba
+	}
+	ship_names = {
+		om7_ship_kannada_language_001 om7_ship_kannada_language_002 om7_ship_kannada_language_003
+		om7_ship_kannada_language_004 om7_ship_kannada_language_005 om7_ship_kannada_language_006
+		om7_ship_kannada_language_007 om7_ship_kannada_language_008 om7_ship_kannada_language_009
+		om7_ship_kannada_language_010 om7_ship_kannada_language_011 om7_ship_kannada_language_012
+		om7_ship_kannada_language_013 om7_ship_kannada_language_014 om7_ship_kannada_language_015
+		om7_ship_kannada_language_016 om7_ship_kannada_language_017 om7_ship_kannada_language_018
+		om7_ship_kannada_language_019 om7_ship_kannada_language_020 om7_ship_kannada_language_021
+		om7_ship_kannada_language_022 om7_ship_kannada_language_023 om7_ship_kannada_language_024
+		om7_ship_kannada_language_025 om7_ship_kannada_language_026 om7_ship_kannada_language_027
+		om7_ship_kannada_language_028 om7_ship_kannada_language_029 om7_ship_kannada_language_030
+		om7_ship_kannada_language_031 om7_ship_kannada_language_032 om7_ship_kannada_language_033
+		om7_ship_kannada_language_034 om7_ship_kannada_language_035 om7_ship_kannada_language_036
+		om7_ship_kannada_language_037 om7_ship_kannada_language_038 om7_ship_kannada_language_039
+		om7_ship_kannada_language_040 om7_ship_kannada_language_041 om7_ship_kannada_language_042
+		om7_ship_kannada_language_043 om7_ship_kannada_language_044 om7_ship_kannada_language_045
+		om7_ship_kannada_language_046 om7_ship_kannada_language_047 om7_ship_kannada_language_048
+		om7_ship_kannada_language_049 om7_ship_kannada_language_050 om7_ship_kannada_language_051
+		om7_ship_kannada_language_052 om7_ship_kannada_language_053 om7_ship_kannada_language_054
+		om7_ship_kannada_language_055 om7_ship_kannada_language_056 om7_ship_kannada_language_057
+		om7_ship_kannada_language_058 om7_ship_kannada_language_059 om7_ship_kannada_language_060
+		om7_ship_kannada_language_061 om7_ship_kannada_language_062 om7_ship_kannada_language_063
+		om7_ship_kannada_language_064 om7_ship_kannada_language_065 om7_ship_kannada_language_066
+		om7_ship_kannada_language_067 om7_ship_kannada_language_068 om7_ship_kannada_language_069
+		om7_ship_kannada_language_070 om7_ship_kannada_language_071 om7_ship_kannada_language_072
+		om7_ship_kannada_language_073 om7_ship_kannada_language_074 om7_ship_kannada_language_075
+		om7_ship_kannada_language_076 om7_ship_kannada_language_077 om7_ship_kannada_language_078
+		om7_ship_kannada_language_079 om7_ship_kannada_language_080 om7_ship_kannada_language_081
+		om7_ship_kannada_language_082 om7_ship_kannada_language_083 om7_ship_kannada_language_084
+		om7_ship_kannada_language_085 om7_ship_kannada_language_086 om7_ship_kannada_language_087
+		om7_ship_kannada_language_088 om7_ship_kannada_language_089 om7_ship_kannada_language_090
+		om7_ship_kannada_language_091 om7_ship_kannada_language_092 om7_ship_kannada_language_093
+		om7_ship_kannada_language_094 om7_ship_kannada_language_095 om7_ship_kannada_language_096
+		om7_ship_kannada_language_097 om7_ship_kannada_language_098 om7_ship_kannada_language_099
+		om7_ship_kannada_language_100 om7_ship_kannada_language_101 om7_ship_kannada_language_102
+		om7_ship_kannada_language_103 om7_ship_kannada_language_104 om7_ship_kannada_language_105
+		om7_ship_kannada_language_106 om7_ship_kannada_language_107 om7_ship_kannada_language_108
+		om7_ship_kannada_language_109 om7_ship_kannada_language_110 om7_ship_kannada_language_111
+		om7_ship_kannada_language_112 om7_ship_kannada_language_113 om7_ship_kannada_language_114
+		om7_ship_kannada_language_115 om7_ship_kannada_language_116 om7_ship_kannada_language_117
+		om7_ship_kannada_language_118 om7_ship_kannada_language_119 om7_ship_kannada_language_120
+		om7_ship_kannada_language_121 om7_ship_kannada_language_122 om7_ship_kannada_language_123
+		om7_ship_kannada_language_124 om7_ship_kannada_language_125 om7_ship_kannada_language_126
+		om7_ship_kannada_language_127 om7_ship_kannada_language_128
+	}
+}
+
+hindustani_language = {
+	color = map_hindustani_language
+	family = indic_language_family
+	male_names = {
+		Achalraj Achalraja Adhandev Adityadeva Ajmal Alsi name_amir Anangpal Anangpala Anupapala Anuppal Apara_Gangeya
+		Arjunpal Arjunpala Arjunavarman Bacchdev Bachraj Baghpal Baghpala Bahadur-Singh Beejpal Beejpala Bhaadar
+		Bhilpala Bhoj Bhoja Bhojavarman Bhopal Bhumpal Bhumpala Birpal Birpala Bisaldeva Brahmadeva Brahmapala
+		Brahmdevpal name_chand Devapala Devavarman Dhanga Dhangadeva Dharmapala Dhaulshaya Dilipapala Dilippal Doth
+		Draupad Draupada Dugarendra Gambhir Ganapatideva Gandadeva Gangeya Ghatamdeva Gopal Gopala Govindachandra
+		Govindapala Govindaraja Govindraj Hamir Hammiravarman Harpal Harsa Harshapala Hirapal Hirapala Indrapal
+		Indrapala Ishtpala Jaganpal Jaganpala Jagatpal Jagatpala Jagdev Jagdeva Jaidas Jaipal Jaitugideva Jasapala
+		Jaspal Jatanpal Jatanpala Jayapala Jayasakti name_jayasimha Jayavarman Jhetpal Jhetpala Junpala Kailaspal
+		Kailaspala Kalkurna Kalyanachandra Kakhopal Kakhopala name_kamal Kanhad Kanvarpal Kanvarpala Karnpal
+		Keeratdeva Khadag Khetrapal Khetrapala Kiratpal Kiratpala Krishnray Krsnapa Kumarapala name_kunwar Kunwarpal
+		Ladahachandra Lakshmandeva Lokpala Madanapala Madanavarman Maharana Mahendrapal Mahendrapala Mahipal Mahipala
+		Mahipata Mahlakadeva Mandandeva Mangaldeva Margdeva Mihira name_nagapala Nagdeo Nannuka Naravarman
+		Narayanapala Narpal Nayapala Nihaal Nihalray Paramardideva Pavak Peepalraj Popatraj Pritampal Pritampala
+		Prithipala name_prithvi Prithvipal Prithviraj Prithviraja Prithvivarman Rahila Rajapala Rajyapala Ramabhadra
+		Ramachandra Rampal Rampala Rana Rangraj Rangraja Ratnapala Rijhpala Roshandeva Salivaahan Sallaksanavarman
+		Saugandeva Shurapala Sisupal Sisupala Sohanpal Somasi Someshvara Sonpal Sonpala Srichandra Subhatavarman
+		Sukhinpal Sukhinpala Sulakshanpal Sultanpal Sultanpala Surajpal Surajpala Traillokyachandra Tejapala Tejpal
+		Tolpal Trailokyavarman Trilochanpala Udayaditya Udaysangh Uddharandeva Vachhal Vakpati Vapyata Varshapala
+		Varshpal name_vasudev Vidurathpal Vidurathpala Vidyadhara Vigrahapala Vigraharaja Vihangpal Vijayapala
+		Vijayasakti Vinayakapala Vindhyavarman Viramdeva name_vira.name_varman Virsinghadeva Yasovarman Hemu Nusrat
+		name_sayyid.name_khidr Daulat name_khidr name_khan Mubarrak_Shah Mohammed_Shah Aladdin_Alam_Shah name_bahlul
+		Saikander name_abraham Sher Islam_Shah Saadat Safdarjung Hyder Birjis_Qadra name_ali Iqbal Alauddin Bhi
+		name_malik name_narendra Bismillah Obaid Ghazi name_muhammad name_jahangir
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Hemu
+		Sher
+		Islam_Shah
+		name_bahlul
+		Saikander
+		name_sayyid.name_khidr
+		Daulat
+		Prithviraj
+		Ramachandra
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_ali
+		Iqbal
+		Alauddin
+		name_malik
+		Mubarrak_Shah
+		Mohammed_Shah
+		name_muhammad
+		name_jahangir
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Saadat
+		Safdarjung
+		Hyder
+		Birjis_Qadra
+		Ghazi
+		name_narendra
+		Bismillah
+		Obaid
+	}
+	female_names = {
+		Akal Anantadevi Damayanti Dattadevi Dehanagadevi Dhruvadevi Dhruvasvamini Hemavati Kakanvati Kalayandevi
+		Kanchuka Kanwar Karmavati Kumaradevi Lakshman Maharani Mahidevi Nattadevi Prabhavati Prabhavatigupta
+		Prasadhanadevi Puppadevi Rajamati Sanyukta Shrimitradevi Raziyya Bahar Roshanara Fakhr-un-Nisa om_in_mirabai
+		Kamaladevi Padmini om_in_chand_bibi om_in_nur_jahan Jahanara name_mumtaz Durgavati Ahilyabai om_in_lakshmibai
+		Qudsia om_in_begum_samru om_in_sikandar_begum om_in_chennamma
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Raziyya
+		Damayanti
+		Karmavati
+		om_in_mirabai
+		Kamaladevi
+		Padmini
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Roshanara
+		Fakhr-un-Nisa
+		om_in_chand_bibi
+		om_in_nur_jahan
+		Jahanara
+		name_mumtaz
+		Durgavati
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Ahilyabai
+		om_in_lakshmibai
+		Qudsia
+		om_in_begum_samru
+		om_in_sikandar_begum
+		om_in_chennamma
+	}
+	dynasty_names = {
+		Lodi Katyuri Mana baghela_dynasty name_mir Parmar name_chand Khasiya Solanki Varma bundela_dynasty
+		tomara_dynasty Raghuvansi Parmari Karkare Newalkar
+	}
+	lowborn = {
+		name_ali Azad Bhutto Hussein name_jahan name_khan Lohia Musharif Nagar Nazimuddin Ra'ana Sharma name_sinan
+		name_singh name_sharif Viqar-ul-Mulk Thakur
+	}
+	ship_names = {
+		om7_ship_hindustani_language_001 om7_ship_hindustani_language_002 om7_ship_hindustani_language_003
+		om7_ship_hindustani_language_004 om7_ship_hindustani_language_005 om7_ship_hindustani_language_006
+		om7_ship_hindustani_language_007 om7_ship_hindustani_language_008 om7_ship_hindustani_language_009
+		om7_ship_hindustani_language_010 om7_ship_hindustani_language_011 om7_ship_hindustani_language_012
+		om7_ship_hindustani_language_013 om7_ship_hindustani_language_014 om7_ship_hindustani_language_015
+		om7_ship_hindustani_language_016 om7_ship_hindustani_language_017 om7_ship_hindustani_language_018
+		om7_ship_hindustani_language_019 om7_ship_hindustani_language_020 om7_ship_hindustani_language_021
+		om7_ship_hindustani_language_022 om7_ship_hindustani_language_023 om7_ship_hindustani_language_024
+		om7_ship_hindustani_language_025 om7_ship_hindustani_language_026 om7_ship_hindustani_language_027
+		om7_ship_hindustani_language_028 om7_ship_hindustani_language_029 om7_ship_hindustani_language_030
+		om7_ship_hindustani_language_031 om7_ship_hindustani_language_032 om7_ship_hindustani_language_033
+		om7_ship_hindustani_language_034 om7_ship_hindustani_language_035 om7_ship_hindustani_language_036
+		om7_ship_hindustani_language_037 om7_ship_hindustani_language_038 om7_ship_hindustani_language_039
+		om7_ship_hindustani_language_040 om7_ship_hindustani_language_041 om7_ship_hindustani_language_042
+		om7_ship_hindustani_language_043 om7_ship_hindustani_language_044 om7_ship_hindustani_language_045
+		om7_ship_hindustani_language_046 om7_ship_hindustani_language_047 om7_ship_hindustani_language_048
+		om7_ship_hindustani_language_049 om7_ship_hindustani_language_050 om7_ship_hindustani_language_051
+		om7_ship_hindustani_language_052 om7_ship_hindustani_language_053 om7_ship_hindustani_language_054
+		om7_ship_hindustani_language_055 om7_ship_hindustani_language_056 om7_ship_hindustani_language_057
+		om7_ship_hindustani_language_058 om7_ship_hindustani_language_059 om7_ship_hindustani_language_060
+		om7_ship_hindustani_language_061 om7_ship_hindustani_language_062 om7_ship_hindustani_language_063
+		om7_ship_hindustani_language_064 om7_ship_hindustani_language_065 om7_ship_hindustani_language_066
+		om7_ship_hindustani_language_067 om7_ship_hindustani_language_068 om7_ship_hindustani_language_069
+		om7_ship_hindustani_language_070 om7_ship_hindustani_language_071 om7_ship_hindustani_language_072
+		om7_ship_hindustani_language_073 om7_ship_hindustani_language_074 om7_ship_hindustani_language_075
+		om7_ship_hindustani_language_076 om7_ship_hindustani_language_077 om7_ship_hindustani_language_078
+		om7_ship_hindustani_language_079 om7_ship_hindustani_language_080 om7_ship_hindustani_language_081
+		om7_ship_hindustani_language_082 om7_ship_hindustani_language_083 om7_ship_hindustani_language_084
+		om7_ship_hindustani_language_085 om7_ship_hindustani_language_086 om7_ship_hindustani_language_087
+		om7_ship_hindustani_language_088 om7_ship_hindustani_language_089 om7_ship_hindustani_language_090
+		om7_ship_hindustani_language_091 om7_ship_hindustani_language_092 om7_ship_hindustani_language_093
+		om7_ship_hindustani_language_094 om7_ship_hindustani_language_095 om7_ship_hindustani_language_096
+		om7_ship_hindustani_language_097 om7_ship_hindustani_language_098 om7_ship_hindustani_language_099
+		om7_ship_hindustani_language_100 om7_ship_hindustani_language_101 om7_ship_hindustani_language_102
+		om7_ship_hindustani_language_103 om7_ship_hindustani_language_104 om7_ship_hindustani_language_105
+		om7_ship_hindustani_language_106 om7_ship_hindustani_language_107 om7_ship_hindustani_language_108
+		om7_ship_hindustani_language_109 om7_ship_hindustani_language_110 om7_ship_hindustani_language_111
+		om7_ship_hindustani_language_112 om7_ship_hindustani_language_113 om7_ship_hindustani_language_114
+		om7_ship_hindustani_language_115 om7_ship_hindustani_language_116 om7_ship_hindustani_language_117
+		om7_ship_hindustani_language_118 om7_ship_hindustani_language_119 om7_ship_hindustani_language_120
+		om7_ship_hindustani_language_121 om7_ship_hindustani_language_122 om7_ship_hindustani_language_123
+		om7_ship_hindustani_language_124 om7_ship_hindustani_language_125 om7_ship_hindustani_language_126
+		om7_ship_hindustani_language_127 om7_ship_hindustani_language_128
+	}
+	dialects = {
+		hindustani_language = {
+			default = yes
+		}
+		romani_dialect = {
+			ship_names = {
+				om7_ship_romani_dialect_001 om7_ship_romani_dialect_002 om7_ship_romani_dialect_003
+				om7_ship_romani_dialect_004 om7_ship_romani_dialect_005 om7_ship_romani_dialect_006
+				om7_ship_romani_dialect_007 om7_ship_romani_dialect_008 om7_ship_romani_dialect_009
+				om7_ship_romani_dialect_010 om7_ship_romani_dialect_011 om7_ship_romani_dialect_012
+				om7_ship_romani_dialect_013 om7_ship_romani_dialect_014 om7_ship_romani_dialect_015
+				om7_ship_romani_dialect_016 om7_ship_romani_dialect_017 om7_ship_romani_dialect_018
+				om7_ship_romani_dialect_019 om7_ship_romani_dialect_020 om7_ship_romani_dialect_021
+				om7_ship_romani_dialect_022 om7_ship_romani_dialect_023 om7_ship_romani_dialect_024
+				om7_ship_romani_dialect_025 om7_ship_romani_dialect_026 om7_ship_romani_dialect_027
+				om7_ship_romani_dialect_028 om7_ship_romani_dialect_029 om7_ship_romani_dialect_030
+				om7_ship_romani_dialect_031 om7_ship_romani_dialect_032 om7_ship_romani_dialect_033
+				om7_ship_romani_dialect_034 om7_ship_romani_dialect_035 om7_ship_romani_dialect_036
+				om7_ship_romani_dialect_037 om7_ship_romani_dialect_038
+			}
+			male_names = {
+				om7_rom_janko om7_rom_petar om7_rom_marko om7_rom_mihal om7_rom_georgi om7_rom_stevo om7_rom_nikola
+				om7_rom_toma om7_rom_andrija om7_rom_aleksa om7_rom_ilija om7_rom_simo om7_rom_rade om7_rom_stanko
+				om7_rom_vasil om7_rom_dragan om7_rom_milan om7_rom_branko om7_rom_bojan om7_rom_dzemal om7_rom_ismail
+				om7_rom_osman om7_rom_ali om7_rom_ramiz om7_rom_bajram om7_rom_saban om7_rom_selim om7_rom_hasan
+				om7_rom_husein om7_rom_aleksandar om7_rom_miroslav om7_rom_emil om7_rom_daniel om7_rom_samuel om7_rom_david
+				om7_rom_rafael om7_rom_gabriel om7_rom_benjamin
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_rom_janko
+				om7_rom_petar
+				om7_rom_marko
+				om7_rom_mihal
+				om7_rom_georgi
+				om7_rom_stevo
+				om7_rom_nikola
+				om7_rom_toma
+				om7_rom_andrija
+				om7_rom_aleksa
+				om7_rom_ilija
+				om7_rom_simo
+				om7_rom_rade
+				om7_rom_stanko
+				om7_rom_vasil
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_rom_dragan
+				om7_rom_milan
+				om7_rom_branko
+				om7_rom_bojan
+				om7_rom_dzemal
+				om7_rom_ismail
+				om7_rom_osman
+				om7_rom_ali
+				om7_rom_ramiz
+				om7_rom_bajram
+				om7_rom_saban
+				om7_rom_selim
+				om7_rom_hasan
+				om7_rom_husein
+			}
+			male_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_rom_aleksandar
+				om7_rom_miroslav
+				om7_rom_emil
+				om7_rom_daniel
+				om7_rom_samuel
+				om7_rom_david
+				om7_rom_rafael
+				om7_rom_gabriel
+				om7_rom_benjamin
+			}
+			female_names = {
+				om7_rom_mara om7_rom_kata om7_rom_rada om7_rom_ruza om7_rom_milica om7_rom_jovanka om7_rom_stana
+				om7_rom_sofija om7_rom_ana om7_rom_jelena om7_rom_esma om7_rom_fatima om7_rom_ajsa om7_rom_zlata
+				om7_rom_dragica om7_rom_danica om7_rom_ljuba om7_rom_nada om7_rom_ruzica om7_rom_selma om7_rom_sabina
+				om7_rom_amira om7_rom_lejla om7_rom_zehra om7_rom_marija om7_rom_elena om7_rom_sara om7_rom_rebeka
+				om7_rom_estera om7_rom_miriam om7_rom_luna om7_rom_rosa om7_rom_emilija
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_1_traditions
+						birth_age = age:age_2_renaissance
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_rom_mara
+				om7_rom_kata
+				om7_rom_rada
+				om7_rom_ruza
+				om7_rom_milica
+				om7_rom_jovanka
+				om7_rom_stana
+				om7_rom_sofija
+				om7_rom_ana
+				om7_rom_jelena
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_3_discovery
+						birth_age = age:age_4_reformation
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_rom_esma
+				om7_rom_fatima
+				om7_rom_ajsa
+				om7_rom_zlata
+				om7_rom_dragica
+				om7_rom_danica
+				om7_rom_ljuba
+				om7_rom_nada
+				om7_rom_ruzica
+				om7_rom_selma
+				om7_rom_sabina
+				om7_rom_amira
+				om7_rom_lejla
+				om7_rom_zehra
+			}
+			female_names = {
+				trigger = {
+					OR = {
+						birth_age = age:age_5_absolutism
+						birth_age = age:age_6_revolutions
+					}
+				}
+				weight = {
+					value = 250
+				}
+				om7_rom_marija
+				om7_rom_elena
+				om7_rom_sara
+				om7_rom_rebeka
+				om7_rom_estera
+				om7_rom_miriam
+				om7_rom_luna
+				om7_rom_rosa
+				om7_rom_emilija
+			}
+			dynasty_names = {
+				om7_dyn_romani_lakatos om7_dyn_romani_kolompar om7_dyn_romani_orsos om7_dyn_romani_rostas
+				om7_dyn_romani_bogdan om7_dyn_romani_berki om7_dyn_romani_olah om7_dyn_romani_farkas om7_dyn_romani_mirga
+				om7_dyn_romani_kwiek om7_dyn_romani_stojka om7_dyn_romani_gabor om7_dyn_romani_demeter om7_dyn_romani_balogh
+				om7_dyn_romani_racz om7_dyn_romani_kalderas om7_dyn_romani_lovari om7_dyn_romani_ursari
+				om7_dyn_romani_curara om7_dyn_romani_manus
+			}
+			lowborn = {
+				om7_dyn_romani_lakatos om7_dyn_romani_kolompar om7_dyn_romani_orsos om7_dyn_romani_rostas
+				om7_dyn_romani_bogdan om7_dyn_romani_berki om7_dyn_romani_olah om7_dyn_romani_farkas om7_dyn_romani_mirga
+				om7_dyn_romani_kwiek om7_dyn_romani_stojka om7_dyn_romani_gabor om7_dyn_romani_demeter om7_dyn_romani_balogh
+				om7_dyn_romani_racz om7_dyn_romani_kalderas om7_dyn_romani_lovari om7_dyn_romani_ursari
+				om7_dyn_romani_curara om7_dyn_romani_manus
+			}
+		}
+	}
+}
+
+bihari_language = {
+	color = map_bihari_language
+	family = indic_language_family
+	male_names = {
+		Amritnarayan Balabhata Balinarayan Ballalsen Basudevnayaran Bhagadatta Bhairabendranarayan name_bhatta
+		Bhavashankari Bhimsingha Birnayaran Chandrasen Chandranarayan Chaturanan Chilarai Danujmadhava Dasharathadeva
+		Devakhadga Devapala Devendranarayan Dhairjendranayaran Dharendranarayan Dharmapala Dhirsingha Gajnarayan
+		Gopala Govindachandra Govindapala Hajo Harendranarayan Haridevnarayan Hariyamandal Hemantasen Indranarayan
+		Jadu Jagaddipendranarayan Jatakhadga Jayanarayan Jayapala Jitendranarayan Kalyanachandra Kamalnarayan
+		Keshabsen Khadgodyama Krishanmishra Krishnaroy Kumarapala Kumudnarayan Ladahachandra Lakshmansen
+		Lakshmichandra Lakshminarayan Lomapada Madanapala Mahendrapala Mahendrasingha Mahindranarayan Mahipala Manava
+		Mukundanarayan Naranarayan Narasingha Narayanapala Narendranarayan Nayapala Nripendranarayan Parikshitnayaran
+		Prananarayan Prannath Pratapnarayan Pratapnarayanroy Pushkaranadhipa Raghudev Rajabhata Rajadinaj Rajaganesha
+		Rajendranarayan Rajrajendranarayan Rajyapala Ramapala Ramnath Ranasura Ranjitsingha Roopnarayan Rudranarayan
+		Samudrasen Shanibhangar Shashanka Shivanarayan Shivendranarayan Shukladhwaj Shurapala Srichandra Srimanta
+		Subarnachandra Sukhdev Suryanarayan Traillokyachandra Udirnakhadga Uditanarayan Upendranayaran Vakapala
+		Vapyata Vigrahapala Vijaynarayan Vijaysen Vijaysingha Virajdendranarayan Vishwarupsen Vishwasingha
+		"Bhairav_Singh" "Bhavesh" "Bhogishwar" "Dev_Singh" "Dhir_Singh" Dhireshwar "Ganeshwar_Singh" "Gang_Dev"
+		Harasimhadeva "Hari_Singh" "Hemant_Sen" "Kameshwar" "Kirti_Singh" Jyotirishwar "Laxman_Sen"
+		"Laxminath_Singh_Dev" Madanpal "Nanya_Dev" "Nar_Singh" "Narsingh_Dev" "Padma_Singh" "Rambhadra_Singh_Dev"
+		Rameshwar "Samant_Sen" "Shakrasingh_Dev" "Shiv_Singh" "Vallal_Sen" "Vijay_Sen" Agnimitra Andhraka Ayus
+		Bhagabhadra Bhikhari Bhumimitra Devabhuti Ghosha Gopal Govindapal Khsetravridha Maharshi Mahendra Maurayadhwaj
+		Narayana Pulindaka Pusyamitra Sahtiya Susarman Vajramitra Vasudeva Vasujyeshtha Vasumitra Sikandar Sher
+		Ala-ud-Din_Firuz Rukn_ad-Din_Barbak Jalal_ad-Din_Fateh Nasir-ud-Din_Mahmud Nasir_ad-Din_Nasrat
+		Jalaluddin_Mohammed Islam name_mirza.name_muhammad Shams-ud-Din_Yusuf Shams-ud-Din_Ahmad Shams-ud-Din_Muhammad
+		Mir_Muhammad_Ja'far Shihab-ud-Din_Bayazid Mir_Qasim_Ali Sayf-ud-Din_Hamza Ghiyasuddin_Azam Ghiyasuddin_Mahmud
+		Ghiyat_ad-Din_Bahadur Ghiyat_ad-Din_Jalal Da'ud name_salomon Murshid_Quli Shuja'_ad-Din_Muhammad name_azam
+		name_ahmad name_abu name_nasr Barbak Farid name_joseph Husain name_firuz Nasrat name_fateh Bayazid Nasir
+		Ghiyasuddin name_mirza Raja Hamza
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Shashanka
+		Dharmapala
+		Devapala
+		Mahipala
+		Ramapala
+		Vijaysen
+		Lakshmansen
+		Srichandra
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Naranarayan
+		Chilarai
+		Pratapnarayan
+		Rajaganesha
+		Raghudev
+		Shukladhwaj
+		Prannath
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Murshid_Quli
+		Shuja'_ad-Din_Muhammad
+		name_azam
+		name_ahmad
+		name_nasr
+		Ghiyasuddin
+		name_mirza
+	}
+	female_names = {
+		Amrapali Amritakala Asima Bhavashankari Bishwas_Devi Bhogavati Bibibai Dattadevi Devavati Devi_Ahiylya
+		Gandharavati Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata
+		Syamadevi Vijnayavati Vina Yajnavati Malika_Bibi Shara Kamala om_in_nur_jahan om_in_bhabani om_in_rashmoni
+		name_mumtaz
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Dattadevi
+		Devavati
+		Gandharavati
+		Nayanadevi
+		Syamadevi
+		Yajnavati
+		Amrapali
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Bhavashankari
+		Gayatri
+		Himadrija
+		Malavyadevi
+		Kamala
+		om_in_nur_jahan
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		om_in_bhabani
+		om_in_rashmoni
+		Malika_Bibi
+		Shara
+		Kamala
+		name_mumtaz
+	}
+	dynasty_names = {
+		Sugauna Sharqi Suri Oinwara Ilyas_Shahi Ganesha Hussein_Shahi Najafi Afshari Nasiri Karrani
+	}
+	lowborn = {
+		Azad ad-Daula Ganesha Bose Chodhury name_das Debshikdar Ganguly Ghosh Karani name_khan Majumdar Mukerjhee
+		name_pal Roy Saraswoti Sarkar name_sen name_sahi name_shaikh Suri Thakur Waddedar Zamindar
+	}
+	ship_names = {
+		om7_ship_bihari_language_001 om7_ship_bihari_language_002 om7_ship_bihari_language_003
+		om7_ship_bihari_language_004 om7_ship_bihari_language_005 om7_ship_bihari_language_006
+		om7_ship_bihari_language_007 om7_ship_bihari_language_008 om7_ship_bihari_language_009
+		om7_ship_bihari_language_010 om7_ship_bihari_language_011 om7_ship_bihari_language_012
+		om7_ship_bihari_language_013 om7_ship_bihari_language_014 om7_ship_bihari_language_015
+		om7_ship_bihari_language_016 om7_ship_bihari_language_017 om7_ship_bihari_language_018
+		om7_ship_bihari_language_019 om7_ship_bihari_language_020 om7_ship_bihari_language_021
+		om7_ship_bihari_language_022 om7_ship_bihari_language_023 om7_ship_bihari_language_024
+		om7_ship_bihari_language_025 om7_ship_bihari_language_026 om7_ship_bihari_language_027
+		om7_ship_bihari_language_028 om7_ship_bihari_language_029 om7_ship_bihari_language_030
+		om7_ship_bihari_language_031 om7_ship_bihari_language_032 om7_ship_bihari_language_033
+		om7_ship_bihari_language_034 om7_ship_bihari_language_035 om7_ship_bihari_language_036
+		om7_ship_bihari_language_037 om7_ship_bihari_language_038 om7_ship_bihari_language_039
+		om7_ship_bihari_language_040 om7_ship_bihari_language_041 om7_ship_bihari_language_042
+		om7_ship_bihari_language_043 om7_ship_bihari_language_044 om7_ship_bihari_language_045
+		om7_ship_bihari_language_046 om7_ship_bihari_language_047 om7_ship_bihari_language_048
+		om7_ship_bihari_language_049 om7_ship_bihari_language_050 om7_ship_bihari_language_051
+		om7_ship_bihari_language_052 om7_ship_bihari_language_053 om7_ship_bihari_language_054
+		om7_ship_bihari_language_055 om7_ship_bihari_language_056 om7_ship_bihari_language_057
+		om7_ship_bihari_language_058 om7_ship_bihari_language_059 om7_ship_bihari_language_060
+		om7_ship_bihari_language_061 om7_ship_bihari_language_062 om7_ship_bihari_language_063
+		om7_ship_bihari_language_064 om7_ship_bihari_language_065 om7_ship_bihari_language_066
+		om7_ship_bihari_language_067 om7_ship_bihari_language_068 om7_ship_bihari_language_069
+		om7_ship_bihari_language_070 om7_ship_bihari_language_071 om7_ship_bihari_language_072
+		om7_ship_bihari_language_073 om7_ship_bihari_language_074 om7_ship_bihari_language_075
+		om7_ship_bihari_language_076 om7_ship_bihari_language_077 om7_ship_bihari_language_078
+		om7_ship_bihari_language_079 om7_ship_bihari_language_080 om7_ship_bihari_language_081
+		om7_ship_bihari_language_082 om7_ship_bihari_language_083 om7_ship_bihari_language_084
+		om7_ship_bihari_language_085 om7_ship_bihari_language_086 om7_ship_bihari_language_087
+		om7_ship_bihari_language_088 om7_ship_bihari_language_089 om7_ship_bihari_language_090
+		om7_ship_bihari_language_091 om7_ship_bihari_language_092 om7_ship_bihari_language_093
+		om7_ship_bihari_language_094 om7_ship_bihari_language_095 om7_ship_bihari_language_096
+		om7_ship_bihari_language_097 om7_ship_bihari_language_098 om7_ship_bihari_language_099
+		om7_ship_bihari_language_100 om7_ship_bihari_language_101 om7_ship_bihari_language_102
+		om7_ship_bihari_language_103 om7_ship_bihari_language_104 om7_ship_bihari_language_105
+		om7_ship_bihari_language_106 om7_ship_bihari_language_107 om7_ship_bihari_language_108
+		om7_ship_bihari_language_109 om7_ship_bihari_language_110 om7_ship_bihari_language_111
+		om7_ship_bihari_language_112 om7_ship_bihari_language_113 om7_ship_bihari_language_114
+		om7_ship_bihari_language_115 om7_ship_bihari_language_116 om7_ship_bihari_language_117
+		om7_ship_bihari_language_118 om7_ship_bihari_language_119 om7_ship_bihari_language_120
+		om7_ship_bihari_language_121 om7_ship_bihari_language_122 om7_ship_bihari_language_123
+		om7_ship_bihari_language_124 om7_ship_bihari_language_125 om7_ship_bihari_language_126
+		om7_ship_bihari_language_127 om7_ship_bihari_language_128
+	}
+}
+
+bengali_language = {
+	color = map_bengali_language
+	family = indic_language_family
+	male_names = {
+		Amritnarayan Balabhata Balinarayan Ballalsen Basudevnayaran Bhagadatta Bhairabendranarayan name_bhatta
+		Bhavashankari Bhimsingha Birnayaran Chandrasen Chandranarayan Chaturanan Chilarai Danujmadhava Dasharathadeva
+		Devakhadga Devapala Devendranarayan Dhairjendranayaran Dharendranarayan Dharmapala Dhirsingha Gajnarayan
+		Gopala Govindachandra Govindapala Hajo Harendranarayan Haridevnarayan Hariyamandal Hemantasen Indranarayan
+		Jadu Jagaddipendranarayan Jatakhadga Jayanarayan Jayapala Jitendranarayan Kalyanachandra Kamalnarayan
+		Keshabsen Khadgodyama Krishanmishra Krishnaroy Kumarapala Kumudnarayan Ladahachandra Lakshmansen
+		Lakshmichandra Lakshminarayan Lomapada Madanapala Mahendrapala Mahendrasingha Mahindranarayan Mahipala Manava
+		Mukundanarayan Naranarayan Narasingha Narayanapala Narendranarayan Nayapala Nripendranarayan Parikshitnayaran
+		Prananarayan Prannath Pratapnarayan Pratapnarayanroy Pushkaranadhipa Raghudev Rajabhata Rajadinaj Rajaganesha
+		Rajendranarayan Rajrajendranarayan Rajyapala Ramapala Ramnath Ranasura Ranjitsingha Roopnarayan Rudranarayan
+		Samudrasen Shanibhangar Shashanka Shivanarayan Shivendranarayan Shukladhwaj Shurapala Srichandra Srimanta
+		Subarnachandra Sukhdev Suryanarayan Traillokyachandra Udirnakhadga Uditanarayan Upendranayaran Vakapala
+		Vapyata Vigrahapala Vijaynarayan Vijaysen Vijaysingha Virajdendranarayan Vishwarupsen Vishwasingha
+		"Bhairav_Singh" "Bhavesh" "Bhogishwar" "Dev_Singh" "Dhir_Singh" Dhireshwar "Ganeshwar_Singh" "Gang_Dev"
+		Harasimhadeva "Hari_Singh" "Hemant_Sen" "Kameshwar" "Kirti_Singh" Jyotirishwar "Laxman_Sen"
+		"Laxminath_Singh_Dev" Madanpal "Nanya_Dev" "Nar_Singh" "Narsingh_Dev" "Padma_Singh" "Rambhadra_Singh_Dev"
+		Rameshwar "Samant_Sen" "Shakrasingh_Dev" "Shiv_Singh" "Vallal_Sen" "Vijay_Sen" Agnimitra Andhraka Ayus
+		Bhagabhadra Bhikhari Bhumimitra Devabhuti Ghosha Gopal Govindapal Khsetravridha Maharshi Mahendra Maurayadhwaj
+		Narayana Pulindaka Pusyamitra Sahtiya Susarman Vajramitra Vasudeva Vasujyeshtha Vasumitra Sikandar Sher
+		Ala-ud-Din_Firuz Rukn_ad-Din_Barbak Jalal_ad-Din_Fateh Nasir-ud-Din_Mahmud Nasir_ad-Din_Nasrat
+		Jalaluddin_Mohammed Islam name_mirza.name_muhammad Shams-ud-Din_Yusuf Shams-ud-Din_Ahmad Shams-ud-Din_Muhammad
+		Mir_Muhammad_Ja'far Shihab-ud-Din_Bayazid Mir_Qasim_Ali Sayf-ud-Din_Hamza Ghiyasuddin_Azam Ghiyasuddin_Mahmud
+		Ghiyat_ad-Din_Bahadur Ghiyat_ad-Din_Jalal Da'ud name_salomon Murshid_Quli Shuja'_ad-Din_Muhammad name_azam
+		name_ahmad name_abu name_nasr Barbak Farid name_joseph Husain name_firuz Nasrat name_fateh Bayazid Nasir
+		Ghiyasuddin name_mirza Raja Hamza
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Shashanka
+		Dharmapala
+		Devapala
+		Mahipala
+		Ramapala
+		Vijaysen
+		Lakshmansen
+		Srichandra
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Naranarayan
+		Chilarai
+		Pratapnarayan
+		Rajaganesha
+		Raghudev
+		Shukladhwaj
+		Prannath
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Murshid_Quli
+		Shuja'_ad-Din_Muhammad
+		name_azam
+		name_ahmad
+		name_nasr
+		Ghiyasuddin
+		name_mirza
+	}
+	female_names = {
+		Amrapali Amritakala Asima Bhavashankari "Bishwas_Devi" Bhogavati Bibibai Dattadevi Devavati "Devi_Ahiylya"
+		Gandharavati Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata
+		Syamadevi Vijnayavati Vina Yajnavati Malika_Bibi Shara Kamala om_in_nur_jahan om_in_bhabani om_in_rashmoni
+		name_mumtaz
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Dattadevi
+		Devavati
+		Gandharavati
+		Nayanadevi
+		Syamadevi
+		Yajnavati
+		Amrapali
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Bhavashankari
+		Gayatri
+		Himadrija
+		Malavyadevi
+		Kamala
+		om_in_nur_jahan
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		om_in_bhabani
+		om_in_rashmoni
+		Malika_Bibi
+		Shara
+		Kamala
+		name_mumtaz
+	}
+	dynasty_names = {
+		Ilyas_Shahi Ganesha Hussein_Shahi Najafi Afshari Nasiri Karrani Sugauna Sharqi Suri Oinwara
+	}
+	lowborn = {
+		Azad ad-Daula Ganesha Bose Chodhury name_das Debshikdar Ganguly Ghosh Karani name_khan Majumdar Mukerjhee
+		name_pal Roy Saraswoti Sarkar name_sen name_sahi name_shaikh Suri Thakur Waddedar Zamindar
+	}
+	ship_names = {
+		om7_ship_bengali_language_001 om7_ship_bengali_language_002 om7_ship_bengali_language_003
+		om7_ship_bengali_language_004 om7_ship_bengali_language_005 om7_ship_bengali_language_006
+		om7_ship_bengali_language_007 om7_ship_bengali_language_008 om7_ship_bengali_language_009
+		om7_ship_bengali_language_010 om7_ship_bengali_language_011 om7_ship_bengali_language_012
+		om7_ship_bengali_language_013 om7_ship_bengali_language_014 om7_ship_bengali_language_015
+		om7_ship_bengali_language_016 om7_ship_bengali_language_017 om7_ship_bengali_language_018
+		om7_ship_bengali_language_019 om7_ship_bengali_language_020 om7_ship_bengali_language_021
+		om7_ship_bengali_language_022 om7_ship_bengali_language_023 om7_ship_bengali_language_024
+		om7_ship_bengali_language_025 om7_ship_bengali_language_026 om7_ship_bengali_language_027
+		om7_ship_bengali_language_028 om7_ship_bengali_language_029 om7_ship_bengali_language_030
+		om7_ship_bengali_language_031 om7_ship_bengali_language_032 om7_ship_bengali_language_033
+		om7_ship_bengali_language_034 om7_ship_bengali_language_035 om7_ship_bengali_language_036
+		om7_ship_bengali_language_037 om7_ship_bengali_language_038 om7_ship_bengali_language_039
+		om7_ship_bengali_language_040 om7_ship_bengali_language_041 om7_ship_bengali_language_042
+		om7_ship_bengali_language_043 om7_ship_bengali_language_044 om7_ship_bengali_language_045
+		om7_ship_bengali_language_046 om7_ship_bengali_language_047 om7_ship_bengali_language_048
+		om7_ship_bengali_language_049 om7_ship_bengali_language_050 om7_ship_bengali_language_051
+		om7_ship_bengali_language_052 om7_ship_bengali_language_053 om7_ship_bengali_language_054
+		om7_ship_bengali_language_055 om7_ship_bengali_language_056 om7_ship_bengali_language_057
+		om7_ship_bengali_language_058 om7_ship_bengali_language_059 om7_ship_bengali_language_060
+		om7_ship_bengali_language_061 om7_ship_bengali_language_062 om7_ship_bengali_language_063
+		om7_ship_bengali_language_064 om7_ship_bengali_language_065 om7_ship_bengali_language_066
+		om7_ship_bengali_language_067 om7_ship_bengali_language_068 om7_ship_bengali_language_069
+		om7_ship_bengali_language_070 om7_ship_bengali_language_071 om7_ship_bengali_language_072
+		om7_ship_bengali_language_073 om7_ship_bengali_language_074 om7_ship_bengali_language_075
+		om7_ship_bengali_language_076 om7_ship_bengali_language_077 om7_ship_bengali_language_078
+		om7_ship_bengali_language_079 om7_ship_bengali_language_080 om7_ship_bengali_language_081
+		om7_ship_bengali_language_082 om7_ship_bengali_language_083 om7_ship_bengali_language_084
+		om7_ship_bengali_language_085 om7_ship_bengali_language_086 om7_ship_bengali_language_087
+		om7_ship_bengali_language_088 om7_ship_bengali_language_089 om7_ship_bengali_language_090
+		om7_ship_bengali_language_091 om7_ship_bengali_language_092 om7_ship_bengali_language_093
+		om7_ship_bengali_language_094 om7_ship_bengali_language_095 om7_ship_bengali_language_096
+		om7_ship_bengali_language_097 om7_ship_bengali_language_098 om7_ship_bengali_language_099
+		om7_ship_bengali_language_100 om7_ship_bengali_language_101 om7_ship_bengali_language_102
+		om7_ship_bengali_language_103 om7_ship_bengali_language_104 om7_ship_bengali_language_105
+		om7_ship_bengali_language_106 om7_ship_bengali_language_107 om7_ship_bengali_language_108
+		om7_ship_bengali_language_109 om7_ship_bengali_language_110 om7_ship_bengali_language_111
+		om7_ship_bengali_language_112 om7_ship_bengali_language_113 om7_ship_bengali_language_114
+		om7_ship_bengali_language_115 om7_ship_bengali_language_116 om7_ship_bengali_language_117
+		om7_ship_bengali_language_118 om7_ship_bengali_language_119 om7_ship_bengali_language_120
+		om7_ship_bengali_language_121 om7_ship_bengali_language_122 om7_ship_bengali_language_123
+		om7_ship_bengali_language_124 om7_ship_bengali_language_125 om7_ship_bengali_language_126
+		om7_ship_bengali_language_127 om7_ship_bengali_language_128
+	}
+}
+
+kamarupi_language = {
+	color = map_kamarupi_language
+	family = indic_language_family
+	male_names = {
+		Sudangpha Sujangpha Siphakpha Susenpha Suhempha Supimpha Suhung Sutamla Supungmung Sukhampha Khora_Raja
+		Suklenmung_Garghgaya_Raja Gobar Brajnatha Balavarman Bhaskarvarman Bhattamahabahu Bhutivarman Birapala
+		Brahmapala Chandramukhavarman Dharmapala Ganapativarman Gopala Harjjaravarman Harshadeva Harshapala
+		Harshavarman Indrapala Jayamala Jayapala Kalyanavarman Kumarapala Mahendravarman Narayanavarman Pralambha
+		Purandelapala Pushyavarman Ratnadhwajpala Ratnapala Salasthamba Samudravarman Sthitavarman Supratisthitavarman
+		Susthitavarman Timgyadeva Tyagasimha Ummoka Vanamalavarmadeva Vigrahastambha Vijaya Virabahu
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 300
+		}
+		Balavarman
+		Bhaskarvarman
+		Bhattamahabahu
+		Bhutivarman
+		Pushyavarman
+		Samudravarman
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 300
+		}
+		Sudangpha
+		Sujangpha
+		Siphakpha
+		Susenpha
+		Suhempha
+		Supimpha
+		Suhung
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 300
+		}
+		Sutamla
+		Supungmung
+		Sukhampha
+		Suklenmung_Garghgaya_Raja
+		Gobar
+		Brajnatha
+	}
+	female_names = {
+		Ahiavadevi Bhogavati Dattadevi Devavati Durlabha Gandharavati Kuladevi Nayanadevi Ratnavati Suvrata Syamadevi
+		Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati Mangaldahi Sati_Joymati Kuranganayani
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 300
+		}
+		Ahiavadevi
+		Bhogavati
+		Dattadevi
+		Devavati
+		Gandharavati
+		Yajnavati
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 300
+		}
+		Sati_Joymati
+		Kuranganayani
+		Mangaldahi
+		Ratnavati
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 300
+		}
+		Kuranganayani
+		Mangaldahi
+		Sati_Joymati
+		Vasumati
+	}
+	dynasty_names = {
+		Khen Ahom naga_dynasty Chutiya Raikat Koch Sutiya Kachari Barobhyan Khasi Garo
+	}
+	lowborn = {
+		Baruah Borphukan name_chandra name_das Deka Kalita Mahanta Narayan Roy Prithu
+	}
+	ship_names = {
+		om7_ship_kamarupi_language_001 om7_ship_kamarupi_language_002 om7_ship_kamarupi_language_003
+		om7_ship_kamarupi_language_004 om7_ship_kamarupi_language_005 om7_ship_kamarupi_language_006
+		om7_ship_kamarupi_language_007 om7_ship_kamarupi_language_008 om7_ship_kamarupi_language_009
+		om7_ship_kamarupi_language_010 om7_ship_kamarupi_language_011 om7_ship_kamarupi_language_012
+		om7_ship_kamarupi_language_013 om7_ship_kamarupi_language_014 om7_ship_kamarupi_language_015
+		om7_ship_kamarupi_language_016 om7_ship_kamarupi_language_017 om7_ship_kamarupi_language_018
+		om7_ship_kamarupi_language_019 om7_ship_kamarupi_language_020 om7_ship_kamarupi_language_021
+		om7_ship_kamarupi_language_022 om7_ship_kamarupi_language_023 om7_ship_kamarupi_language_024
+		om7_ship_kamarupi_language_025 om7_ship_kamarupi_language_026 om7_ship_kamarupi_language_027
+		om7_ship_kamarupi_language_028 om7_ship_kamarupi_language_029 om7_ship_kamarupi_language_030
+		om7_ship_kamarupi_language_031 om7_ship_kamarupi_language_032 om7_ship_kamarupi_language_033
+		om7_ship_kamarupi_language_034 om7_ship_kamarupi_language_035 om7_ship_kamarupi_language_036
+		om7_ship_kamarupi_language_037 om7_ship_kamarupi_language_038 om7_ship_kamarupi_language_039
+		om7_ship_kamarupi_language_040 om7_ship_kamarupi_language_041 om7_ship_kamarupi_language_042
+		om7_ship_kamarupi_language_043 om7_ship_kamarupi_language_044 om7_ship_kamarupi_language_045
+		om7_ship_kamarupi_language_046 om7_ship_kamarupi_language_047 om7_ship_kamarupi_language_048
+		om7_ship_kamarupi_language_049 om7_ship_kamarupi_language_050 om7_ship_kamarupi_language_051
+		om7_ship_kamarupi_language_052
+	}
+}
+
+marathi_language = {
+	color = map_marathi_language
+	family = indic_language_family
+	male_names = {
+		Shivaji Shambaji Rajaram Sahuji Balaji Baji Madhu Narayan Ragunath Pratap_Singh Firangoji Kanhoji Netaji
+		Baji_Prabhu Suryaji Tanaji Chimaji name_ranoji Malhar Tukojirao Haripant Yashwantrao Abaji Amutrao Bahiroji
+		Bajirao Chimnaji Dattaji Daulatrao Dhanaji Dhondu Ekoji Fatehsinh Gopalrao Hambirao Harirao Jayajirao Jayappa
+		Janakappa Jivajirao Khanderao Krishnarao Madhavrao Mahadji Malerao Malharrao Mankoji Martandrao Moropant
+		Murarirao Nanasaheb Narayanrao Pandurangrao Pratapsinh Raghunathrao Ramaswami Ramchandrapant Ramshastri
+		Ranojirao Sadashivrao Sambhaji Sayajirao Serfoji Shahuji Shivajirao Tryambakrao Tukkoji Tulojirao Venkatrao
+		Vishwanathpant
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Shivaji
+		Shambaji
+		Rajaram
+		Sahuji
+		Balaji
+		Baji
+		Tanaji
+		Netaji
+		Firangoji
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Bajirao
+		Chimnaji
+		Dhanaji
+		Hambirao
+		Shahuji
+		Sadashivrao
+		Malharrao
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Madhavrao
+		Mahadji
+		Raghunathrao
+		Daulatrao
+		Yashwantrao
+		Sayajirao
+		Nanasaheb
+	}
+	female_names = {
+		Tarabai Soyarabai Tukabai Ahilyabai Ambikabai Anandibai Anubai Bhiubai Deepabai Durgabai Gangabai Gunvantibai
+		Jankibai Jijibai Kamlabai Kashibai Laxmibai Mahadik Mastani Putalabai Rajasbai Rajkunvarbai Ramabai Ranubai
+		Saibai Sagunabai Sakavaarbai Sayeebai Sujanbai Yesubai Anjanibai Anuradha Durga Kamadevi Kamaladevi Kesarbai
+		Kishori Kundaladevi Lasthiyavva Maya Mogubai Radhabai Radhika Shevanti Shudhamati Sovidevi Sudha Sumati Sunita
+		om_in_lakshmibai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Tarabai
+		Soyarabai
+		Saibai
+		Yesubai
+		Kamaladevi
+		Jijibai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Ahilyabai
+		Kashibai
+		Mastani
+		Radhabai
+		Anandibai
+		Gangabai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Laxmibai
+		Anandibai
+		Ramabai
+		Gangabai
+		om_in_lakshmibai
+	}
+	dynasty_names = {
+		Gaikwad Shinde Bhonsle Angre Bhat Sindhia Koli Kamadeva Gaitonde Malviya Ruddha
+	}
+	lowborn = {
+		Bhat Pawar Palkar Satavahana yadava_dynasty Jadhav Bhoit Holkar Kadam Jagtap Moit Malusare Nikam Dabhad Shirke
+		Moray Nimbalk Kate Chavan Rane Gujar Aher Sawant Kaushal Khursh Narsala Krishnamma Lolaksi Maruthi Nagaraj
+		Ramiah
+	}
+	ship_names = {
+		om7_ship_marathi_language_001 om7_ship_marathi_language_002 om7_ship_marathi_language_003
+		om7_ship_marathi_language_004 om7_ship_marathi_language_005 om7_ship_marathi_language_006
+		om7_ship_marathi_language_007 om7_ship_marathi_language_008 om7_ship_marathi_language_009
+		om7_ship_marathi_language_010 om7_ship_marathi_language_011 om7_ship_marathi_language_012
+		om7_ship_marathi_language_013 om7_ship_marathi_language_014 om7_ship_marathi_language_015
+		om7_ship_marathi_language_016 om7_ship_marathi_language_017 om7_ship_marathi_language_018
+		om7_ship_marathi_language_019 om7_ship_marathi_language_020 om7_ship_marathi_language_021
+		om7_ship_marathi_language_022 om7_ship_marathi_language_023 om7_ship_marathi_language_024
+		om7_ship_marathi_language_025 om7_ship_marathi_language_026 om7_ship_marathi_language_027
+		om7_ship_marathi_language_028 om7_ship_marathi_language_029 om7_ship_marathi_language_030
+		om7_ship_marathi_language_031 om7_ship_marathi_language_032 om7_ship_marathi_language_033
+		om7_ship_marathi_language_034 om7_ship_marathi_language_035 om7_ship_marathi_language_036
+		om7_ship_marathi_language_037 om7_ship_marathi_language_038 om7_ship_marathi_language_039
+		om7_ship_marathi_language_040 om7_ship_marathi_language_041 om7_ship_marathi_language_042
+		om7_ship_marathi_language_043 om7_ship_marathi_language_044 om7_ship_marathi_language_045
+		om7_ship_marathi_language_046 om7_ship_marathi_language_047 om7_ship_marathi_language_048
+		om7_ship_marathi_language_049 om7_ship_marathi_language_050 om7_ship_marathi_language_051
+		om7_ship_marathi_language_052 om7_ship_marathi_language_053 om7_ship_marathi_language_054
+		om7_ship_marathi_language_055 om7_ship_marathi_language_056 om7_ship_marathi_language_057
+		om7_ship_marathi_language_058 om7_ship_marathi_language_059 om7_ship_marathi_language_060
+		om7_ship_marathi_language_061 om7_ship_marathi_language_062 om7_ship_marathi_language_063
+		om7_ship_marathi_language_064 om7_ship_marathi_language_065 om7_ship_marathi_language_066
+		om7_ship_marathi_language_067 om7_ship_marathi_language_068 om7_ship_marathi_language_069
+		om7_ship_marathi_language_070
+	}
+}
+
+sinhala_language = {
+	color = map_sinhala_language
+	family = indic_language_family
+	male_names = {
+		Agabala Aggabodhi Agibuti Ananda Anikanga Apaya Arittha Avirada Ayasmantha Bhuvanekabahu Butisamana Chodaganga
+		Dahamsena Danamitta Dappula Dathappabhuti Dathopatissa Dharmapala Dharmasena Dharmasoka Dhatusena Digakassapa
+		Diganaguli Digasumana Gajabahu Hadaka Hadana Hujata Jayabahu Jetthatissa Jhotisena Kashyapa Kassapa Kitti
+		Kittisena Kittivarma Magamitta Mahadeva Mahanaga Mahasattha Mahasena Mahasiva Mahinda Manavanna Mihidala
+		Mihindala Mitta Moggallana Nandamitta name_narendra Narendrasinha Nirmala Padita Parakkamabahu Rajasinha
+		Rakasala Ratana Rohaka Sadhatissa Sagala Saliya Sanghamitta Sanghatissa Sankha Sena Senarat Sidata Sigaratissa
+		Silameghavanna Sinhabahu Siva Sobana Sobika Sudata Sumana Surakita Suratissa Tissa Udaya Upatissa Vassaba
+		Vebeliya Vepali name_vijayabahu Vikrama Vikramabahu Vimaladharma Vimaladharmasuriya Virabahu Viranarendra
+		Parakramabahu Bhuvanaikabahu Dharmapalabahu Vimala_Dharmasuriya Senarut Rajasimha Narenda Vijaya_Rajasimha
+		Kitri_Rajasimha Rajadhiraja_Simha Dhatmapala
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Parakkamabahu
+		Bhuvanekabahu
+		name_vijayabahu
+		Vikramabahu
+		Gajabahu
+		Dharmapala
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Vimaladharmasuriya
+		Senarat
+		Rajasinha
+		Narendrasinha
+		Vijaya_Rajasimha
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Kitri_Rajasimha
+		Rajadhiraja_Simha
+		Narenda
+		Dhatmapala
+		name_narendra
+	}
+	female_names = {
+		Abijliguta Ahali Anula Anurada Anuradi Anuridi Asadaguta Asali Aselaya Ata Barani Bodhideva Bohodevi Butadata
+		Cadana Citadevi Citaguta Damadina Damaguta Damarajha Damarakita Damaruci Damasena Damati Damika Damutara
+		Devanakata Devanapiya Devarakita Dhamarajha Dhamika Jhita Jhotisena Jhotiya Kanadasika Kanaguta Kanatissa
+		Kitaka Kituka Kubira name_kumara Kumaradata Kumaratiha Lasani Lilavati Maga Magha Maka Maki Mita Nagadina
+		Narayaguta Nuga Nugaya Paduma Palikada Pamatissa Purushadata Pusamitta Rajhita Ramadata Ramajhata Ramani
+		Rasumiliya Reva Sagara Samidata Samudaguta Savera Seneya Silmini Siriguta Siripali Sivala Sivanabuti Somali
+		Sugula Sujhata Sumanadevi Suri Suriguta Tisi Tissabuti Tissadata Tissadevi Tissamita Tissaraka Tissarakita
+		Yahasaya Yahasini Sunetradevi Kalyanavati Swarnamanikya
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Lilavati
+		Sumanadevi
+		Tissadevi
+		Kalyanavati
+		Sunetradevi
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Swarnamanikya
+		Sumanadevi
+		Kalyanavati
+		Siripali
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Sunetradevi
+		Swarnamanikya
+		Kalyanavati
+		Lilavati
+	}
+	dynasty_names = {
+		Moriya Chandravansha Suryavansha Kalinga_Lanka Savulu Jambudoni Rohani Lambakanna Vanniyar
+		siri_sanga_bo_dynasty
+	}
+	lowborn = {
+		Thilakaratne Kalpage Pushpakumara Ratnayake Atapattu Chandana Ranga Jayaratne Tillekaratne Jayawardene
+	}
+	ship_names = {
+		om7_ship_sinhala_language_001 om7_ship_sinhala_language_002 om7_ship_sinhala_language_003
+		om7_ship_sinhala_language_004 om7_ship_sinhala_language_005 om7_ship_sinhala_language_006
+		om7_ship_sinhala_language_007 om7_ship_sinhala_language_008 om7_ship_sinhala_language_009
+		om7_ship_sinhala_language_010 om7_ship_sinhala_language_011 om7_ship_sinhala_language_012
+		om7_ship_sinhala_language_013 om7_ship_sinhala_language_014 om7_ship_sinhala_language_015
+		om7_ship_sinhala_language_016 om7_ship_sinhala_language_017 om7_ship_sinhala_language_018
+		om7_ship_sinhala_language_019 om7_ship_sinhala_language_020 om7_ship_sinhala_language_021
+		om7_ship_sinhala_language_022 om7_ship_sinhala_language_023 om7_ship_sinhala_language_024
+		om7_ship_sinhala_language_025 om7_ship_sinhala_language_026 om7_ship_sinhala_language_027
+		om7_ship_sinhala_language_028 om7_ship_sinhala_language_029 om7_ship_sinhala_language_030
+		om7_ship_sinhala_language_031 om7_ship_sinhala_language_032 om7_ship_sinhala_language_033
+		om7_ship_sinhala_language_034 om7_ship_sinhala_language_035 om7_ship_sinhala_language_036
+		om7_ship_sinhala_language_037 om7_ship_sinhala_language_038 om7_ship_sinhala_language_039
+		om7_ship_sinhala_language_040 om7_ship_sinhala_language_041 om7_ship_sinhala_language_042
+		om7_ship_sinhala_language_043 om7_ship_sinhala_language_044 om7_ship_sinhala_language_045
+		om7_ship_sinhala_language_046 om7_ship_sinhala_language_047 om7_ship_sinhala_language_048
+		om7_ship_sinhala_language_049 om7_ship_sinhala_language_050 om7_ship_sinhala_language_051
+		om7_ship_sinhala_language_052 om7_ship_sinhala_language_053 om7_ship_sinhala_language_054
+		om7_ship_sinhala_language_055 om7_ship_sinhala_language_056 om7_ship_sinhala_language_057
+		om7_ship_sinhala_language_058 om7_ship_sinhala_language_059 om7_ship_sinhala_language_060
+		om7_ship_sinhala_language_061 om7_ship_sinhala_language_062 om7_ship_sinhala_language_063
+		om7_ship_sinhala_language_064 om7_ship_sinhala_language_065 om7_ship_sinhala_language_066
+		om7_ship_sinhala_language_067 om7_ship_sinhala_language_068 om7_ship_sinhala_language_069
+		om7_ship_sinhala_language_070 om7_ship_sinhala_language_071 om7_ship_sinhala_language_072
+		om7_ship_sinhala_language_073 om7_ship_sinhala_language_074 om7_ship_sinhala_language_075
+		om7_ship_sinhala_language_076 om7_ship_sinhala_language_077 om7_ship_sinhala_language_078
+		om7_ship_sinhala_language_079 om7_ship_sinhala_language_080 om7_ship_sinhala_language_081
+		om7_ship_sinhala_language_082 om7_ship_sinhala_language_083 om7_ship_sinhala_language_084
+		om7_ship_sinhala_language_085 om7_ship_sinhala_language_086 om7_ship_sinhala_language_087
+		om7_ship_sinhala_language_088 om7_ship_sinhala_language_089 om7_ship_sinhala_language_090
+		om7_ship_sinhala_language_091 om7_ship_sinhala_language_092 om7_ship_sinhala_language_093
+		om7_ship_sinhala_language_094 om7_ship_sinhala_language_095 om7_ship_sinhala_language_096
+		om7_ship_sinhala_language_097 om7_ship_sinhala_language_098 om7_ship_sinhala_language_099
+		om7_ship_sinhala_language_100 om7_ship_sinhala_language_101
+	}
+}
+
+sindhi_language = {
+	color = map_sindhi_language
+	family = indic_language_family
+	male_names = {
+		Ali_Sher name_fath name_nizam.name_al_din Furuz_Salah_ad-Din Shuja'_Beg Nanda Shah_Husayn
+		name_muhammad.name_jesus name_muhammad.name_baqi Jani_Beg Yar_Muhammad name_muhammad.name_murad Gulam Sarfaraz
+		Gulam_Nabi Abd_an-Nabi Thara Nur_Mahammad name_muhammad Muzzafar name_ali name_khalil Sikandar Bhenji Hamirji
+		Bhav name_natwar Sidhraj Ghulam Hussain Abdul_Adheem Abdul_Mubdee Abdul_Mueid Abdul_Mutaalee Abdul_Noor
+		Abdul_Qaiyoum name_abdullah Abdur_Rauf Abdurrahman Alauddin name_amir Arnel Asamuddin Asbagh Aseed Azraq
+		Bahhath Bahlawan Bajala Bakhtari Bakkar Baleel Banhbina Bhoongar Chanesar Changaz Chavdar Chawish Dadu_Phattu
+		Daghfal Dalu_Rai Dameer Damurah Dawlah Deva_Rai Devidas Dhiya Dhul Doda name_dodo Ebadaah Ebi Edhem Ehan Erfa
+		Faeq Fateh_Khan Feruzuddin Gafur Gamal Genhra Gunero Hafif Hamir Hasnain Hassam Ibrar Iesa Iffaan Ifran Ismail
+		name_jawad Junaid Junah Kahah name_karan Khafif Khaira Khinrah Koshi Laeeq Laham Lahiah Laiq Laraib
+		name_mahmud name_mubarak Muhammad_Tur Mukesh Munzir name_muzaffar Nadhir Nafasat Nangar Naseeruddin Navid
+		Nayab Omran Otar Owais Pahtu Pasoon Punhun Qaabeel Qabis Rabbi Rafan Sabar Salahuddin Sanghar Sanjar Shabban
+		Shah_Nawaz Shahabuddin Shamsher Sher Somdutt Sonu Soomar Sumrah Syed Taghlak Tai Tamachi Tauqeer Ukkashah
+		Ulfat Unar Waasiq Waathiq Wabisah name_john Yala Yamak Zabrij Zaheeruddin Zaid Zaigham Ziyauddin
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Ali_Sher
+		name_fath
+		name_nizam.name_al_din
+		Furuz_Salah_ad-Din
+		Shuja'_Beg
+		Nanda
+		Shah_Husayn
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Jani_Beg
+		Yar_Muhammad
+		Gulam
+		Sarfaraz
+		Gulam_Nabi
+		Abd_an-Nabi
+		name_muhammad
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Shah_Nawaz
+		Ghulam
+		Hussain
+		Abdul_Adheem
+		name_abdullah
+		Abdurrahman
+		name_mahmud
+		Sikandar
+	}
+	female_names = {
+		Noor Chaguli Khair Aamilah Aaminah Aani Abqurah Afeerah Akifah Badiyah Barzah Basbas Begum Bhagi Bunanah
+		Buqayrah Busrah Caria Chanduni Daliyah Dameetha Diqrah Dujanah Eiman Eira Erfana Fakhtah Fakihah Fusaylah
+		Fuseelah Ghalibah Ghareebah Ghitbah Gulfeshan Haboos Hajjah Hajna Hakimah Hamide Hamnah Hamun Himu Ibthaj
+		Ibtihal name_ibtisam Iffah Imtihal Jahan_Aara Jaimala Jasrah Jumaymah Juwariyah Kahkashan Kaif Koshi Lafiza
+		Lahifa Laiba Laiha Maajida Maali Maeen Maeena Mah_Jabin Mah_Nur Navida Nazneen Nazriya Ola Onima Ozza Pakeezah
+		Parghunda Parigul Pramda Qabool Qadira Qadr Raazia Rabab Rabita Saadat Sabburah Sad Saimah Sehrish Tari
+		Taslima Tamadur Tamazur Ufaq Ugay Uhee Uhud Waahida Wabisa Wadad Waddia Yaani Yameena Yelda Zainab_Tari Zoyna
+		Zuha
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Chaguli
+		Khair
+		Bhagi
+		Chanduni
+		Jaimala
+		Pramda
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Jahan_Aara
+		Gulfeshan
+		Mah_Jabin
+		Mah_Nur
+		Parigul
+		Zainab_Tari
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Nazneen
+		Sehrish
+		Taslima
+		Yameena
+		Zoyna
+		Zuha
+		Noor
+	}
+	dynasty_names = {
+		Talpur name_arghun chudasama_dynasty name_pahore tomara_dynasty Solanki samma_dynasty Muzzafarid
+		jadeja_dynasty rathore_dynasty Hada Vaghela Vagada Guilhot soomra_dynasty Ghanshani Sawai Notani Lohi Khetpal
+		Bhambhani
+	}
+	lowborn = {
+		Desai Jinnah Soomrah Golani Kalhora Bhatia name_malik Bhil Sultan Khorasani Khokhar Farooqi Changezi Ghazi
+		name_mirza NaruBegada name_shah Munshi Parikh Patel Patidar Rushi Bhutto name_singh name_bahadur Sindhi
+		Tarkhan Zamindar
+	}
+	ship_names = {
+		om7_ship_sindhi_language_001 om7_ship_sindhi_language_002 om7_ship_sindhi_language_003
+		om7_ship_sindhi_language_004 om7_ship_sindhi_language_005 om7_ship_sindhi_language_006
+		om7_ship_sindhi_language_007 om7_ship_sindhi_language_008 om7_ship_sindhi_language_009
+		om7_ship_sindhi_language_010 om7_ship_sindhi_language_011 om7_ship_sindhi_language_012
+		om7_ship_sindhi_language_013 om7_ship_sindhi_language_014 om7_ship_sindhi_language_015
+		om7_ship_sindhi_language_016 om7_ship_sindhi_language_017 om7_ship_sindhi_language_018
+		om7_ship_sindhi_language_019 om7_ship_sindhi_language_020 om7_ship_sindhi_language_021
+		om7_ship_sindhi_language_022 om7_ship_sindhi_language_023 om7_ship_sindhi_language_024
+		om7_ship_sindhi_language_025 om7_ship_sindhi_language_026 om7_ship_sindhi_language_027
+		om7_ship_sindhi_language_028 om7_ship_sindhi_language_029 om7_ship_sindhi_language_030
+		om7_ship_sindhi_language_031 om7_ship_sindhi_language_032 om7_ship_sindhi_language_033
+		om7_ship_sindhi_language_034 om7_ship_sindhi_language_035 om7_ship_sindhi_language_036
+		om7_ship_sindhi_language_037 om7_ship_sindhi_language_038 om7_ship_sindhi_language_039
+		om7_ship_sindhi_language_040 om7_ship_sindhi_language_041 om7_ship_sindhi_language_042
+		om7_ship_sindhi_language_043 om7_ship_sindhi_language_044 om7_ship_sindhi_language_045
+		om7_ship_sindhi_language_046 om7_ship_sindhi_language_047 om7_ship_sindhi_language_048
+		om7_ship_sindhi_language_049 om7_ship_sindhi_language_050 om7_ship_sindhi_language_051
+		om7_ship_sindhi_language_052 om7_ship_sindhi_language_053 om7_ship_sindhi_language_054
+		om7_ship_sindhi_language_055 om7_ship_sindhi_language_056 om7_ship_sindhi_language_057
+		om7_ship_sindhi_language_058 om7_ship_sindhi_language_059 om7_ship_sindhi_language_060
+		om7_ship_sindhi_language_061 om7_ship_sindhi_language_062 om7_ship_sindhi_language_063
+		om7_ship_sindhi_language_064 om7_ship_sindhi_language_065 om7_ship_sindhi_language_066
+		om7_ship_sindhi_language_067 om7_ship_sindhi_language_068 om7_ship_sindhi_language_069
+		om7_ship_sindhi_language_070 om7_ship_sindhi_language_071 om7_ship_sindhi_language_072
+		om7_ship_sindhi_language_073 om7_ship_sindhi_language_074 om7_ship_sindhi_language_075
+		om7_ship_sindhi_language_076 om7_ship_sindhi_language_077 om7_ship_sindhi_language_078
+		om7_ship_sindhi_language_079 om7_ship_sindhi_language_080 om7_ship_sindhi_language_081
+		om7_ship_sindhi_language_082 om7_ship_sindhi_language_083 om7_ship_sindhi_language_084
+		om7_ship_sindhi_language_085 om7_ship_sindhi_language_086 om7_ship_sindhi_language_087
+		om7_ship_sindhi_language_088 om7_ship_sindhi_language_089 om7_ship_sindhi_language_090
+		om7_ship_sindhi_language_091 om7_ship_sindhi_language_092 om7_ship_sindhi_language_093
+		om7_ship_sindhi_language_094 om7_ship_sindhi_language_095 om7_ship_sindhi_language_096
+		om7_ship_sindhi_language_097 om7_ship_sindhi_language_098 om7_ship_sindhi_language_099
+		om7_ship_sindhi_language_100 om7_ship_sindhi_language_101 om7_ship_sindhi_language_102
+		om7_ship_sindhi_language_103 om7_ship_sindhi_language_104 om7_ship_sindhi_language_105
+		om7_ship_sindhi_language_106 om7_ship_sindhi_language_107 om7_ship_sindhi_language_108
+		om7_ship_sindhi_language_109 om7_ship_sindhi_language_110 om7_ship_sindhi_language_111
+		om7_ship_sindhi_language_112 om7_ship_sindhi_language_113 om7_ship_sindhi_language_114
+		om7_ship_sindhi_language_115 om7_ship_sindhi_language_116 om7_ship_sindhi_language_117
+		om7_ship_sindhi_language_118 om7_ship_sindhi_language_119 om7_ship_sindhi_language_120
+		om7_ship_sindhi_language_121 om7_ship_sindhi_language_122 om7_ship_sindhi_language_123
+		om7_ship_sindhi_language_124 om7_ship_sindhi_language_125 om7_ship_sindhi_language_126
+		om7_ship_sindhi_language_127 om7_ship_sindhi_language_128
+	}
+}
+
+malvi_language = {
+	color = map_malvi_language
+	family = indic_language_family
+	male_names = {
+		Achalraj Achalraja Adhandev Adityadeva Ajmal Alsi name_amir Anangpal Anangpala Anupapala Anuppal Apara_Gangeya
+		Arjunpal Arjunpala Arjunavarman Bacchdev Bachraj Baghpal Baghpala Bahadur-Singh name_ballala Beejpal Beejpala
+		Bhaadar Bhilpala Bhoj Bhojavarman Bhopal Bhumpal Bhumpala Birpal Birpala Bisaldeva Brahmadeva Brahmapala
+		Brahmdevpal name_chand Devapala Devavarman Dhanga Dhangadeva Dharmapala Dhaulshaya Dilipapala Dilippal Doth
+		Draupad Draupada Dugarendra Gambhir Ganapatideva Gandadeva Gangeya Ghatamdeva Gopal Gopala Govindachandra
+		Govindapala Govindaraja Govindraj Hamir Hammiravarman Harpal Harsa Harshapala Hirapal Hirapala Indrapal
+		Indrapala Ishtpala Jaganpal Jaganpala Jagatpal Jagatpala Jagdev Jagdeva Jaidas Jaipal Jaitugideva Jaspal
+		Jatanpal Jatanpala Jayapala Jayasakti Jayavarman Jhetpal Jhetpala Junpala Kailaspal Kailaspala Kalkurna
+		Kalyanachandra Kakhopal Kakhopala name_kamal Kanhad Kanvarpal Kanvarpala Karnpal Keeratdeva Khadag Khetrapal
+		Khetrapala Kiratpal Kiratpala Krishnray Krsnapa Kumarapala name_kunwar Kunwarpal Ladahachandra Lakshmandeva
+		Lokpala Madanapala Madanavarman Maharana Mahendrapal Mahendrapala Munja Mahipal Mahipala Mahipata Mahlakadeva
+		Mandandeva Mangaldeva Margdeva Mihira name_nagapala Nagdeo Nannuka Narayanapala Narpal Nayapala Nihaal
+		Paramardideva Pavak Peepalraj Popatraj Pritampal Pritampala Prithipala name_prithvi Prithvipal Prithviraj
+		Prithviraja Prithvivarman Rahila Rajapala Rajyapala Ramabhadra Ramachandra Rampal Rampala Rana Rangraj
+		Rangraja Ratnapala Rijhpala Roshandeva Salivaahan Sallaksanavarman Saugandeva Shurapala Sisupal Sisupala
+		Sohanpal Somasi Someshvara Sonpal Sonpala Srichandra Subhatavarman Sukhinpal Sukhinpala Sulakshanpal Sultanpal
+		Sultanpala Surajpal Surajpala Traillokyachandra Tejapala Tejpal Tolpal Trailokyavarman Trilochanpala
+		Udayaditya Udaysangh Uddharandeva Vachhal Vakpati Vapyata Varshapala Varshpal name_vasudev Vidurathpal
+		Vidurathpala Vidyadhara Vigrahapala Vigraharaja Vihangpal Vijayapala Vijayasakti Vinayakapala Vindhyavarman
+		Viramdeva name_vira.name_varman Virsinghadeva Yasovarman Abhayapala Acharya Ahila Ajairaja Ajayapala
+		Ajay-Singh Alhana Allat Amarangeya Ambra-Prasad Amritapala Anahilla Ari-Singh Arnoraja Asaraja Asvapala
+		Balaprasada Baliraja Bhatarka Bhert-Patt Bhima Bhimadeva Bhim-Singh Bhuvan-Singh Bhoja Bhoo-Chand Chachiga
+		Chamundaraja Chandanaraja Chandraraja Chaud-Singh Dadda Dambarisimha Deopali-Deo Dharapatta Dharasena
+		Dhruvasena Dinakarn Dronasinha Dungar-Singh Durlabharaja Gajasimha Gopendraka Gopendraraja Govinda Guhasena
+		Guvaka Hammira Hammir-Singh Hanspal Hariraja Harischandra Hemachandra Jagadeva Jaitrasimha Jaitra-Singh
+		Jasapala Jaskarn Jayaraja name_jayasimha Jay-Singh Jay-Singh-Deo Jayat-Singh Jayshikari Jendraraja Jojalla
+		Kalbhoj name_kanhadadeva Karandeva Karan-Singh Karnadeva Katudeva Katukaraja Keerti-Verma name_kelhana
+		Kharagraha Khuman Kirtipala Kirtivarman Kshemraja Kshem-Singh Kshetra-Singh Lakhanapala Lakhshaman-Singh
+		Lakshmana Lakshmanadeva Lakshmivarman Lavanyakarna Lunavarman Luntiga Mahap Mahayak Mahendra Maladeva
+		Manavasimha Mathan-Singh Mattat Mulraja Nagabhata Nagarjuna Nagraja Naradeva name_narapati Naravarman
+		Naravarmandeva Nar-Verma Narwahan Padam-Singh Prahladana Pratapa Purnpala Rahap Ramapala name_ratan.name_singh
+		Rayapala Rudrapala Sahajapala Sahanapala Samanta Samant-Singh name_samantasimha Samarasimha Samar-Singh
+		Shaliwahan Shuchi-Verma Siladitya Sindhuraja Singhraja Sinha Sinhad-Deo Siyaka Sohiya name_someshwara
+		Suratrana Tejasimha Tej-Singh Tribhuvanapala Udayadity Udayasimha Udayavarman name_upendra Vagbhata
+		Vahadiasimha Vairisimha Vairsingh Vajradeva Vakapati Valhana Valhanadeva Vallabharaja Vanraja Vasudeva
+		Vatsaraja Vijada-Dasasyandana Vijai-Singh Vikramaditya Vinaykpala Virama Viradeva Viranarayana Virsinh-Deo
+		Viryarama Xemraja Yashovarman Yograj name_hammir name_kumbha name_raimal name_sangha name_udai.name_singh
+		name_amar.name_singh name_karan Amarji name_jawan name_bhawani name_natwar name_naryan name_ballu Rajsinhji
+		Jasaji_Lakhaji
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_hammir
+		name_kumbha
+		name_raimal
+		name_sangha
+		name_kanhadadeva
+		Hammira
+		Jaitrasimha
+		Kanhad
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_udai.name_singh
+		name_amar.name_singh
+		name_ratan.name_singh
+		name_karan
+		Pratapa
+		Karan-Singh
+		Amarji
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_jawan
+		name_bhawani
+		name_natwar
+		name_naryan
+		name_ballu
+		Rajsinhji
+		Jasaji_Lakhaji
+	}
+	female_names = {
+		Akal Anantadevi Damayanti Dattadevi Dehanagadevi Dhruvadevi Dhruvasvamini Hemavati Kakanvati Kalayandevi
+		Kanchuka Kanwar Karmavati Kumaradevi Lakshman Maharani Mahidevi Nattadevi Prabhavati Prabhavatigupta
+		Prasadhanadevi Puppadevi Rajamati Sanyukta Shrimitradevi Annaladevi Bauladevi Bhuyikadevi Candrabhattarikadevi
+		Chachinidevi Delhanadevi Desaladevi Hariyadevi Laxmidevi Madhavi Mahalakshmi Manaladevi Mayanalladevi
+		Namalladevi Padmaladevi Padmini Pratha Rasaladevi Rudaladevi Rudrani Rupadevi Samyukta Sidhawa Somalladevi
+		Suhava Sundaridevi Tihunaka Udayamati Qudsia Hajjah Shahjahan_Begum om_in_mirabai Kamaladevi Jodhabai
+		Ahilyabai om_in_lakshmibai om_in_begum_samru om_in_sikandar_begum Anandibai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Anantadevi
+		Dattadevi
+		Dhruvadevi
+		Hemavati
+		Karmavati
+		Padmini
+		Udayamati
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Karmavati
+		Padmini
+		Udayamati
+		om_in_mirabai
+		Kamaladevi
+		Jodhabai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Ahilyabai
+		om_in_lakshmibai
+		om_in_begum_samru
+		om_in_sikandar_begum
+		Anandibai
+	}
+	dynasty_names = {
+		paramara_dynasty Solanki chudasama_dynasty tomara_dynasty name_pahore Khalji Shaja'atid Qadirid Holkar Pahar
+		Hada Sisodiya
+	}
+	lowborn = {
+		Mori Haji Uzbek Gilani Huna name_bahadur Gauri Jurjani name_khan name_malik Sultan Khorasani Farooqi Changezi
+		Turani Latif name_bhilala Chattari Kanjar Ghuri Naru
+	}
+	ship_names = {
+		om7_ship_malvi_language_001 om7_ship_malvi_language_002 om7_ship_malvi_language_003
+		om7_ship_malvi_language_004 om7_ship_malvi_language_005 om7_ship_malvi_language_006
+		om7_ship_malvi_language_007 om7_ship_malvi_language_008 om7_ship_malvi_language_009
+		om7_ship_malvi_language_010 om7_ship_malvi_language_011 om7_ship_malvi_language_012
+		om7_ship_malvi_language_013 om7_ship_malvi_language_014 om7_ship_malvi_language_015
+		om7_ship_malvi_language_016 om7_ship_malvi_language_017 om7_ship_malvi_language_018
+		om7_ship_malvi_language_019 om7_ship_malvi_language_020 om7_ship_malvi_language_021
+		om7_ship_malvi_language_022 om7_ship_malvi_language_023 om7_ship_malvi_language_024
+		om7_ship_malvi_language_025 om7_ship_malvi_language_026 om7_ship_malvi_language_027
+		om7_ship_malvi_language_028 om7_ship_malvi_language_029 om7_ship_malvi_language_030
+		om7_ship_malvi_language_031 om7_ship_malvi_language_032 om7_ship_malvi_language_033
+		om7_ship_malvi_language_034 om7_ship_malvi_language_035 om7_ship_malvi_language_036
+		om7_ship_malvi_language_037 om7_ship_malvi_language_038 om7_ship_malvi_language_039
+		om7_ship_malvi_language_040 om7_ship_malvi_language_041 om7_ship_malvi_language_042
+		om7_ship_malvi_language_043 om7_ship_malvi_language_044 om7_ship_malvi_language_045
+		om7_ship_malvi_language_046 om7_ship_malvi_language_047 om7_ship_malvi_language_048
+		om7_ship_malvi_language_049 om7_ship_malvi_language_050 om7_ship_malvi_language_051
+		om7_ship_malvi_language_052 om7_ship_malvi_language_053 om7_ship_malvi_language_054
+		om7_ship_malvi_language_055 om7_ship_malvi_language_056 om7_ship_malvi_language_057
+		om7_ship_malvi_language_058 om7_ship_malvi_language_059 om7_ship_malvi_language_060
+		om7_ship_malvi_language_061 om7_ship_malvi_language_062 om7_ship_malvi_language_063
+		om7_ship_malvi_language_064 om7_ship_malvi_language_065 om7_ship_malvi_language_066
+		om7_ship_malvi_language_067 om7_ship_malvi_language_068 om7_ship_malvi_language_069
+		om7_ship_malvi_language_070 om7_ship_malvi_language_071 om7_ship_malvi_language_072
+		om7_ship_malvi_language_073 om7_ship_malvi_language_074 om7_ship_malvi_language_075
+		om7_ship_malvi_language_076 om7_ship_malvi_language_077 om7_ship_malvi_language_078
+		om7_ship_malvi_language_079 om7_ship_malvi_language_080 om7_ship_malvi_language_081
+		om7_ship_malvi_language_082 om7_ship_malvi_language_083 om7_ship_malvi_language_084
+		om7_ship_malvi_language_085 om7_ship_malvi_language_086 om7_ship_malvi_language_087
+		om7_ship_malvi_language_088 om7_ship_malvi_language_089 om7_ship_malvi_language_090
+		om7_ship_malvi_language_091 om7_ship_malvi_language_092 om7_ship_malvi_language_093
+		om7_ship_malvi_language_094 om7_ship_malvi_language_095 om7_ship_malvi_language_096
+		om7_ship_malvi_language_097 om7_ship_malvi_language_098 om7_ship_malvi_language_099
+		om7_ship_malvi_language_100 om7_ship_malvi_language_101 om7_ship_malvi_language_102
+		om7_ship_malvi_language_103 om7_ship_malvi_language_104 om7_ship_malvi_language_105
+		om7_ship_malvi_language_106 om7_ship_malvi_language_107 om7_ship_malvi_language_108
+		om7_ship_malvi_language_109 om7_ship_malvi_language_110 om7_ship_malvi_language_111
+		om7_ship_malvi_language_112 om7_ship_malvi_language_113 om7_ship_malvi_language_114
+		om7_ship_malvi_language_115 om7_ship_malvi_language_116 om7_ship_malvi_language_117
+		om7_ship_malvi_language_118 om7_ship_malvi_language_119 om7_ship_malvi_language_120
+		om7_ship_malvi_language_121 om7_ship_malvi_language_122 om7_ship_malvi_language_123
+		om7_ship_malvi_language_124 om7_ship_malvi_language_125 om7_ship_malvi_language_126
+		om7_ship_malvi_language_127 om7_ship_malvi_language_128
+	}
+}
+
+dakhni_language = {
+	color = map_dakhni_language
+	family = indic_language_family
+	male_names = {
+		name_quli name_jamshid name_subhan name_abraham Abul'l-Hassan Kabir Mir_Musa Mahmud_Gawan Sayid_Hanif
+		Saif_Allah Iftikhar_al-Mulk Mir_Abu'l-Qasim Ubbaid_Allah Sayid_Nasir_al-Din Khalil_Allah name_abdullah Rustam
+		Shams_al-Din Qasim_Beg Khusrau Daud Mujahid Fulad name_jamal.name_al_din name_malik Ala-ud-din Malik-ut-Tujjar
+		Sikandar Hakim name_joseph Ismail name_ali name_muhammad Mallu Taham name_ahmad Sulaiman Kizr name_burhan
+		Hussain Yakut Kalidas Ziauddin name_hafiz Hamza name_hamid name_qasim name_mustafa name_hasan Dilawar
+		name_jahan Farrukh name_jalal Sultan name_mahmud Hanif Imad_al-Mulk Nasir Shams name_xwaja
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_quli
+		name_jamshid
+		name_subhan
+		Mahmud_Gawan
+		Abul'l-Hassan
+		Kabir
+		Mir_Musa
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_abraham
+		name_muhammad
+		name_ali
+		name_ahmad
+		name_burhan
+		Hussain
+		Sikandar
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Hakim
+		Nasir
+		Shams
+		name_xwaja
+		name_mahmud
+		name_hamid
+		name_qasim
+	}
+	female_names = {
+		Bashirunissa Umda name_samiya Dawudunissa Farzana Fakhr-un-Nisa Hazrat_Mahal name_fatima Bahar Noor
+		om_in_chand_bibi om_in_nur_jahan Jahanara Roshanara name_mumtaz Qudsia om_in_begum_samru om_in_sikandar_begum
+		om_in_lakshmibai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 290
+		}
+		Bashirunissa
+		Umda
+		name_samiya
+		Dawudunissa
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 290
+		}
+		name_fatima
+		Bahar
+		Noor
+		om_in_chand_bibi
+		om_in_nur_jahan
+		Jahanara
+		Roshanara
+		name_mumtaz
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 290
+		}
+		Qudsia
+		om_in_begum_samru
+		om_in_sikandar_begum
+		om_in_lakshmibai
+		Hazrat_Mahal
+	}
+	dynasty_names = {
+		name_nizam.name_sahi Bahmani Adil_Shahi Qutb_Shahi Barid_Shahi Asaf_Jahi Sa'adatullid Anwaruddid Walla_Jahi
+		Nawayathi
+	}
+	lowborn = {
+		Badakshi Bukhari Changezi Gilani Hasanabadi Jurjani Kabuli Kirmani Qummi Uzbek Basri Astarabadi Gawan
+		Ardastani Madhu Gaznavi Quadari Sadhwan name_khan
+	}
+	ship_names = {
+		om7_ship_dakhni_language_001 om7_ship_dakhni_language_002 om7_ship_dakhni_language_003
+		om7_ship_dakhni_language_004 om7_ship_dakhni_language_005 om7_ship_dakhni_language_006
+		om7_ship_dakhni_language_007 om7_ship_dakhni_language_008 om7_ship_dakhni_language_009
+		om7_ship_dakhni_language_010 om7_ship_dakhni_language_011 om7_ship_dakhni_language_012
+		om7_ship_dakhni_language_013 om7_ship_dakhni_language_014 om7_ship_dakhni_language_015
+		om7_ship_dakhni_language_016 om7_ship_dakhni_language_017 om7_ship_dakhni_language_018
+		om7_ship_dakhni_language_019 om7_ship_dakhni_language_020 om7_ship_dakhni_language_021
+		om7_ship_dakhni_language_022 om7_ship_dakhni_language_023 om7_ship_dakhni_language_024
+		om7_ship_dakhni_language_025 om7_ship_dakhni_language_026 om7_ship_dakhni_language_027
+		om7_ship_dakhni_language_028 om7_ship_dakhni_language_029 om7_ship_dakhni_language_030
+		om7_ship_dakhni_language_031 om7_ship_dakhni_language_032 om7_ship_dakhni_language_033
+		om7_ship_dakhni_language_034 om7_ship_dakhni_language_035 om7_ship_dakhni_language_036
+		om7_ship_dakhni_language_037 om7_ship_dakhni_language_038 om7_ship_dakhni_language_039
+		om7_ship_dakhni_language_040 om7_ship_dakhni_language_041 om7_ship_dakhni_language_042
+		om7_ship_dakhni_language_043 om7_ship_dakhni_language_044 om7_ship_dakhni_language_045
+		om7_ship_dakhni_language_046 om7_ship_dakhni_language_047 om7_ship_dakhni_language_048
+		om7_ship_dakhni_language_049 om7_ship_dakhni_language_050 om7_ship_dakhni_language_051
+		om7_ship_dakhni_language_052 om7_ship_dakhni_language_053 om7_ship_dakhni_language_054
+		om7_ship_dakhni_language_055 om7_ship_dakhni_language_056 om7_ship_dakhni_language_057
+		om7_ship_dakhni_language_058 om7_ship_dakhni_language_059 om7_ship_dakhni_language_060
+	}
+}
+
+bhili_language = {
+	color = map_bhili_language
+	family = indic_language_family
+	male_names = {
+		Achalraj Achalraja Adhandev Adityadeva Ajmal Alsi name_amir Anangpal Anangpala Anupapala Anuppal Apara_Gangeya
+		Arjunpal Arjunpala Arjunavarman Bacchdev Bachraj Baghpal Baghpala Bahadur-Singh Beejpal Beejpala Bhaadar
+		Bhilpala Bhoj Bhoja Bhojavarman Bhopal Bhumpal Bhumpala Birpal Birpala Bisaldeva Brahmadeva Brahmapala
+		Brahmdevpal name_chand Devapala Devavarman Dhanga Dhangadeva Dharmapala Dhaulshaya Dilipapala Dilippal Doth
+		Draupad Draupada Dugarendra Gambhir Ganapatideva Gandadeva Gangeya Ghatamdeva Gopal Gopala Govindachandra
+		Govindaraja Govindraj Hamir Hammiravarman Harpal Harsa Harshapala Hirapal Hirapala Indrapal Indrapala Ishtpala
+		Jaganpal Jaganpala Jagatpal Jagatpala Jagdev Jagdeva Jaidas Jaipal Jaitugideva Jaspal Jatanpal Jatanpala
+		Jayapala Jayasakti name_jayasimha Jhetpal Jhetpala Junpala Kailaspal Kailaspala Kalkurna Kalyanachandra
+		Kakhopal Kakhopala name_kamal Kanhad Kanvarpal Kanvarpala Karnpal Keeratdeva Khadag Khetrapal Khetrapala
+		Kiratpal Kiratpala Krishnray Krsnapa Kumarapala name_kunwar Kunwarpal Ladahachandra Lakshmandeva Lokpala
+		Madanapala Madanavarman Mandandeva Mangaldeva Margdeva Mihira name_nagapala Nagdeo Nannuka Narayanapala Narpal
+		Nayapala Nihaal Nihalray Paramardideva Pavak Peepalraj Popatraj Pritampal Pritampala Prithipala name_prithvi
+		Prithvipal Prithviraj Prithviraja Prithvivarman Rahila Rajapala Rajyapala Ramabhadra Ramachandra Rampal
+		Rampala Rana Rangraj Rangraja Ratnapala Rijhpala Roshandeva Salivaahan Sallaksanavarman Saugandeva Shurapala
+		Sisupal Sisupala Sohanpal Somasi Someshvara Sonpal Sonpala Srichandra Subhatavarman Sukhinpal Sukhinpala
+		Sulakshanpal Sultanpal Sultanpala Surajpal Surajpala Traillokyachandra Tejapala Tejpal Tolpal Trailokyavarman
+		Trilochanpala Udayaditya Udaysangh Uddharandeva Vachhal Vapyata Varshapala Varshpal name_vasudev Vidurathpal
+		Vidurathpala Vidyadhara Vigrahapala Vigraharaja Vihangpal Vijayapala Vijayasakti Vinayakapala Vindhyavarman
+		Viramdeva name_vira.name_varman Virsinghadeva Yasovarman Abhayapala Acharya Ahila Ajairaja Ajayapala
+		Ajay-Singh Alhana Allat Amarangeya Ambra-Prasad Amritapala Anahilla Ari-Singh Arnoraja Asaraja Asvapala
+		Balaprasada Baliraja Bhatarka Bhert-Patt Bhima Bhimadeva Bhim-Singh Bhuvan-Singh Bhoo-Chand Chachiga
+		Chamundaraja Chandanaraja Chandraraja Chaud-Singh Dadda Dambarisimha Deopali-Deo Dharapatta Dharasena
+		Dhruvasena Dinakarn Dronasinha Dungar-Singh Durlabharaja Gajasimha Gopendraka Gopendraraja Govinda Govindapala
+		Guhasena Guvaka Hammira Hammir-Singh Hanspal Hariraja Harischandra Hemachandra Jagadeva Jaitrasimha
+		Jaitra-Singh Jasapala Jaskarn Jayaraja Jay-Singh Jay-Singh-Deo Jayat-Singh Jayshikari Jendraraja Jojalla
+		Kalbhoj name_kanhadadeva Karandeva Karan-Singh Karnadeva Katudeva Katukaraja Keerti-Verma name_kelhana
+		Kharagraha Khuman Kirtipala Kirtivarman Kshemraja Kshem-Singh Kshetra-Singh Lakhanapala Lakhshaman-Singh
+		Lakshmana Lakshmanadeva Lakshmivarman Lavanyakarna Lunavarman Luntiga Mahap Mahayak Mahendra Mahendrapala
+		Mahipala Maladeva Manavasimha Mathan-Singh Mattat Mulraja Nagabhata Nagarjuna Nagraja Naradeva name_narapati
+		Naravarman Naravarmandeva Nar-Verma Narwahan Padam-Singh Prahladana Pratapa Prithivipala Purnpala Rahap
+		Ramapala name_ratan.name_singh Rayapala Rudrapala Sahajapala Sahanapala Samanta Samant-Singh name_samantasimha
+		Samarasimha Samar-Singh Shaliwahan Shuchi-Verma Siladitya Sindhuraja Singhraja Sinha Sinhad-Deo Siyaka Sohiya
+		name_someshwara Suratrana Tejasimha Tej-Singh Tribhuvanapala Udayasimha Udayavarman name_upendra Vagbhata
+		Vahadiasimha Vairisimha Vairsingh Vajradeva Vakapati Vakpati Valhana Valhanadeva Vallabharaja Vanraja Vasudeva
+		Vatsaraja Vijada-Dasasyandana Vijai-Singh Vikramaditya Vinaykpala Virama Viradeva Viranarayana Virsinh-Deo
+		Viryarama Xemraja Yograj name_hammir name_kumbha name_raimal name_sangha name_udai.name_singh
+		name_amar.name_singh name_karan Amarji name_jawan name_bhawani name_natwar name_naryan name_ballu Rajsinhji
+		Jasaji_Lakhaji
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_hammir
+		name_kumbha
+		name_raimal
+		name_sangha
+		name_kanhadadeva
+		Hammira
+		Jaitrasimha
+		Kanhad
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_udai.name_singh
+		name_amar.name_singh
+		name_ratan.name_singh
+		name_karan
+		Pratapa
+		Karan-Singh
+		Amarji
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		name_jawan
+		name_bhawani
+		name_natwar
+		name_naryan
+		name_ballu
+		Rajsinhji
+		Jasaji_Lakhaji
+	}
+	female_names = {
+		Akal Anantadevi Damayanti Dattadevi Dehanagadevi Dhruvadevi Dhruvasvamini Hemavati Kakanvati Kalayandevi
+		Kanchuka Kanwar Karmavati Kumaradevi Lakshman Maharani Mahidevi Nattadevi Prabhavati Prabhavatigupta
+		Prasadhanadevi Puppadevi Rajamati Sanyukta Shrimitradevi Annaladevi Bauladevi Bhuyikadevi Candrabhattarikadevi
+		Chachinidevi Delhanadevi Desaladevi Hariyadevi Laxmidevi Madhavi Mahalakshmi Manaladevi Mayanalladevi
+		Namalladevi Padmaladevi Padmini Pratha Rasaladevi Rudaladevi Rudrani Rupadevi Samyukta Sidhawa Somalladevi
+		Suhava Sundaridevi Tihunaka Udayamati om_in_mirabai Kamaladevi Jodhabai Ahilyabai om_in_lakshmibai
+		om_in_begum_samru om_in_sikandar_begum Anandibai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Anantadevi
+		Dattadevi
+		Dhruvadevi
+		Hemavati
+		Karmavati
+		Padmini
+		Udayamati
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Karmavati
+		Padmini
+		Udayamati
+		om_in_mirabai
+		Kamaladevi
+		Jodhabai
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Ahilyabai
+		om_in_lakshmibai
+		om_in_begum_samru
+		om_in_sikandar_begum
+		Anandibai
+	}
+	dynasty_names = {
+		pal_dynasty name_dungari name_bhilala name_chauhan meena_dynasty pahar paramara_dynasty tomara_dynasty solanki
+		kalachuri
+	}
+	lowborn = {
+		name_damor name_garasia name_dholi name_dungri name_mewasi name_rawal name_tadvi name_bhagalia name_pawra
+		name_vasave
+	}
+	ship_names = {
+		om7_ship_bhili_language_001 om7_ship_bhili_language_002 om7_ship_bhili_language_003
+		om7_ship_bhili_language_004 om7_ship_bhili_language_005 om7_ship_bhili_language_006
+		om7_ship_bhili_language_007 om7_ship_bhili_language_008 om7_ship_bhili_language_009
+		om7_ship_bhili_language_010 om7_ship_bhili_language_011 om7_ship_bhili_language_012
+		om7_ship_bhili_language_013 om7_ship_bhili_language_014 om7_ship_bhili_language_015
+		om7_ship_bhili_language_016 om7_ship_bhili_language_017 om7_ship_bhili_language_018
+		om7_ship_bhili_language_019 om7_ship_bhili_language_020 om7_ship_bhili_language_021
+		om7_ship_bhili_language_022 om7_ship_bhili_language_023 om7_ship_bhili_language_024
+		om7_ship_bhili_language_025 om7_ship_bhili_language_026 om7_ship_bhili_language_027
+		om7_ship_bhili_language_028 om7_ship_bhili_language_029 om7_ship_bhili_language_030
+		om7_ship_bhili_language_031 om7_ship_bhili_language_032 om7_ship_bhili_language_033
+		om7_ship_bhili_language_034 om7_ship_bhili_language_035 om7_ship_bhili_language_036
+		om7_ship_bhili_language_037 om7_ship_bhili_language_038 om7_ship_bhili_language_039
+		om7_ship_bhili_language_040 om7_ship_bhili_language_041 om7_ship_bhili_language_042
+		om7_ship_bhili_language_043 om7_ship_bhili_language_044 om7_ship_bhili_language_045
+		om7_ship_bhili_language_046 om7_ship_bhili_language_047 om7_ship_bhili_language_048
+		om7_ship_bhili_language_049 om7_ship_bhili_language_050 om7_ship_bhili_language_051
+		om7_ship_bhili_language_052 om7_ship_bhili_language_053 om7_ship_bhili_language_054
+		om7_ship_bhili_language_055 om7_ship_bhili_language_056 om7_ship_bhili_language_057
+		om7_ship_bhili_language_058 om7_ship_bhili_language_059 om7_ship_bhili_language_060
+		om7_ship_bhili_language_061 om7_ship_bhili_language_062 om7_ship_bhili_language_063
+		om7_ship_bhili_language_064 om7_ship_bhili_language_065 om7_ship_bhili_language_066
+		om7_ship_bhili_language_067 om7_ship_bhili_language_068 om7_ship_bhili_language_069
+		om7_ship_bhili_language_070 om7_ship_bhili_language_071 om7_ship_bhili_language_072
+		om7_ship_bhili_language_073 om7_ship_bhili_language_074 om7_ship_bhili_language_075
+		om7_ship_bhili_language_076 om7_ship_bhili_language_077 om7_ship_bhili_language_078
+		om7_ship_bhili_language_079 om7_ship_bhili_language_080 om7_ship_bhili_language_081
+		om7_ship_bhili_language_082 om7_ship_bhili_language_083 om7_ship_bhili_language_084
+		om7_ship_bhili_language_085 om7_ship_bhili_language_086 om7_ship_bhili_language_087
+		om7_ship_bhili_language_088 om7_ship_bhili_language_089 om7_ship_bhili_language_090
+		om7_ship_bhili_language_091 om7_ship_bhili_language_092 om7_ship_bhili_language_093
+		om7_ship_bhili_language_094 om7_ship_bhili_language_095 om7_ship_bhili_language_096
+		om7_ship_bhili_language_097 om7_ship_bhili_language_098 om7_ship_bhili_language_099
+		om7_ship_bhili_language_100 om7_ship_bhili_language_101 om7_ship_bhili_language_102
+		om7_ship_bhili_language_103 om7_ship_bhili_language_104 om7_ship_bhili_language_105
+		om7_ship_bhili_language_106 om7_ship_bhili_language_107 om7_ship_bhili_language_108
+		om7_ship_bhili_language_109 om7_ship_bhili_language_110 om7_ship_bhili_language_111
+		om7_ship_bhili_language_112 om7_ship_bhili_language_113 om7_ship_bhili_language_114
+		om7_ship_bhili_language_115 om7_ship_bhili_language_116 om7_ship_bhili_language_117
+		om7_ship_bhili_language_118 om7_ship_bhili_language_119 om7_ship_bhili_language_120
+		om7_ship_bhili_language_121 om7_ship_bhili_language_122 om7_ship_bhili_language_123
+		om7_ship_bhili_language_124 om7_ship_bhili_language_125 om7_ship_bhili_language_126
+		om7_ship_bhili_language_127 om7_ship_bhili_language_128
+	}
+}
+
+pahari_language = {
+	color = map_pahari_language
+	family = indic_language_family
+	male_names = {
+		name_hansdeo name_sahaj name_balbhadra name_man name_shyam name_mahipat name_prithvi name_fateh name_upendra
+		name_pradip name_lalit name_jaikarat name_pradyuman name_sudarshan name_karam name_mandhata name_sobhang
+		name_budh name_mat name_hari name_vijay name_pratap name_kirat name_jagat name_dharam name_ratan name_megh
+		name_sansar name_narendra name_suvira name_ram prayag name_jai name_manika name_triloka name_chandarbhan
+		name_alam name_bhim name_ghamir name_ghamand name_abhay Angbo Ap Chemjong Chesbi Ekangso Emay Eme Galijunga
+		name_hang Honden Indhang Indhing Jarai Kambrang Kamphura Kanglaing Kapsang Khadi Khambek Khesiwa Khewa Khoya
+		Kiriti Kundungjapa Ladho Laraso Lendangba Lepmuhang Lilimhang Mabo Mainam Mang Manghang Mangja Mawrong
+		Mikhangba Mimiding Mingso Mirak Misam Misek Miseksammang Misum Mokwan Muda Muhikmang Muhing Muigum Muinam
+		Muing Mujoklungmang Mujoklung Muk Mukkum Mukkumasam Muksam Munammang Mundhum Mung name_murray name_na Nahang
+		Nagmok Nam Nambin Namdhingo Namnetti Namsang Namtimik Namyam Narayan Nasan Nembang Oisum Otti Padhum Pakkandi
+		Pangbo Papo Param Pathong Pennam Perung Perunghang Phaimo Phedap Phejikkum Phejiri Pheyamlung Phim Pho Phonan
+		Phung Poba Pongnisam Porokmi Posam Pungla Raya Sabat Sabhang Saiyok Sajum Sakma Saknim Samba Samlupi
+	}
+	female_names = {
+		name_gita name_uma name_krishna.name_devi name_karnavati Ajuni Akawama Akawanama Amla Angsi Anjiri Anjum
+		Chaitlungma Cherungma Chesung Chotlung Chunjun Dalima Ibu Ichap Iching Ikkisum Iklu Iksa Iksum Ila Imet Ina
+		Indha Indhangma Ingbhan Ingbho Ingdut Ingso Ingsum Injum Isri Itcham Itching Itla Ityang Ityangwa Jojiri
+		Kettak Kham Khambek Khama Khasam Khasing Khasuk Khem Khemsing Kudim Kujang Kumuk name_kumun Kusang Kusum
+		Laklungma Laikma Lajedangma Labherik Larak Lasang Lasari Lasemi Lingbit Mainam Mangenna Manghama Mangja Mik
+		Mikki Mikkiso Miksak Mikhangma Mingla Mim Mikiphung Mimiding Mingso Mirak Misam Misek Misum Mimma Muhing Mui
+		Muigum Muing Muinam Mujoklung Mukkumasam Muksam Muding Muyeng Murm Nadhim Nagmok Nahangma Nam Nambin Namdhingo
+		Namnetti Namnuma Namotti Namsari Namyam Nanuma Nasan Ningwa Ningwaphu Numa Oisum Omu Opma Otti Pakkandi Pennam
+		Phaimo Pheyamlungma Phokwama Phongma Phung Phungma Phungsama Pona Sabat Sabhang name_sangama Sapme Sarang
+		Suyen Tamsimma Tanam Tanchippa Tanchoppa Tangjum Tangsang Tiding Tiyen Usuru Yamsang Yamsese Yuma Yumasam
+		Yangwa
+	}
+	dynasty_names = {
+		katoch_dynasty name_bhangalia jadeja_dynasty chudasama_dynasty name_pahore name_thapa name_chhetri name_yadav
+		name_chand Kirata
+	}
+	lowborn = {
+		name_singh name_bhaal name_bais name_chattar name_minha name_pundir Lasahang Mewa Miklung Chethar Maiwa
+	}
+	ship_names = {
+		om7_ship_pahari_language_001 om7_ship_pahari_language_002 om7_ship_pahari_language_003
+		om7_ship_pahari_language_004 om7_ship_pahari_language_005 om7_ship_pahari_language_006
+		om7_ship_pahari_language_007 om7_ship_pahari_language_008 om7_ship_pahari_language_009
+		om7_ship_pahari_language_010 om7_ship_pahari_language_011 om7_ship_pahari_language_012
+		om7_ship_pahari_language_013 om7_ship_pahari_language_014 om7_ship_pahari_language_015
+		om7_ship_pahari_language_016 om7_ship_pahari_language_017 om7_ship_pahari_language_018
+		om7_ship_pahari_language_019 om7_ship_pahari_language_020 om7_ship_pahari_language_021
+		om7_ship_pahari_language_022 om7_ship_pahari_language_023 om7_ship_pahari_language_024
+		om7_ship_pahari_language_025 om7_ship_pahari_language_026 om7_ship_pahari_language_027
+		om7_ship_pahari_language_028 om7_ship_pahari_language_029 om7_ship_pahari_language_030
+		om7_ship_pahari_language_031 om7_ship_pahari_language_032 om7_ship_pahari_language_033
+		om7_ship_pahari_language_034 om7_ship_pahari_language_035 om7_ship_pahari_language_036
+		om7_ship_pahari_language_037 om7_ship_pahari_language_038 om7_ship_pahari_language_039
+		om7_ship_pahari_language_040 om7_ship_pahari_language_041 om7_ship_pahari_language_042
+		om7_ship_pahari_language_043 om7_ship_pahari_language_044 om7_ship_pahari_language_045
+		om7_ship_pahari_language_046 om7_ship_pahari_language_047 om7_ship_pahari_language_048
+		om7_ship_pahari_language_049 om7_ship_pahari_language_050 om7_ship_pahari_language_051
+		om7_ship_pahari_language_052 om7_ship_pahari_language_053 om7_ship_pahari_language_054
+		om7_ship_pahari_language_055 om7_ship_pahari_language_056 om7_ship_pahari_language_057
+		om7_ship_pahari_language_058 om7_ship_pahari_language_059 om7_ship_pahari_language_060
+		om7_ship_pahari_language_061 om7_ship_pahari_language_062 om7_ship_pahari_language_063
+		om7_ship_pahari_language_064 om7_ship_pahari_language_065 om7_ship_pahari_language_066
+		om7_ship_pahari_language_067 om7_ship_pahari_language_068 om7_ship_pahari_language_069
+		om7_ship_pahari_language_070 om7_ship_pahari_language_071 om7_ship_pahari_language_072
+		om7_ship_pahari_language_073 om7_ship_pahari_language_074 om7_ship_pahari_language_075
+		om7_ship_pahari_language_076 om7_ship_pahari_language_077 om7_ship_pahari_language_078
+		om7_ship_pahari_language_079 om7_ship_pahari_language_080 om7_ship_pahari_language_081
+		om7_ship_pahari_language_082 om7_ship_pahari_language_083 om7_ship_pahari_language_084
+		om7_ship_pahari_language_085 om7_ship_pahari_language_086 om7_ship_pahari_language_087
+		om7_ship_pahari_language_088 om7_ship_pahari_language_089 om7_ship_pahari_language_090
+		om7_ship_pahari_language_091 om7_ship_pahari_language_092 om7_ship_pahari_language_093
+		om7_ship_pahari_language_094 om7_ship_pahari_language_095 om7_ship_pahari_language_096
+		om7_ship_pahari_language_097 om7_ship_pahari_language_098 om7_ship_pahari_language_099
+		om7_ship_pahari_language_100 om7_ship_pahari_language_101 om7_ship_pahari_language_102
+		om7_ship_pahari_language_103 om7_ship_pahari_language_104 om7_ship_pahari_language_105
+		om7_ship_pahari_language_106 om7_ship_pahari_language_107 om7_ship_pahari_language_108
+		om7_ship_pahari_language_109 om7_ship_pahari_language_110 om7_ship_pahari_language_111
+		om7_ship_pahari_language_112 om7_ship_pahari_language_113 om7_ship_pahari_language_114
+		om7_ship_pahari_language_115 om7_ship_pahari_language_116 om7_ship_pahari_language_117
+		om7_ship_pahari_language_118 om7_ship_pahari_language_119 om7_ship_pahari_language_120
+		om7_ship_pahari_language_121 om7_ship_pahari_language_122 om7_ship_pahari_language_123
+		om7_ship_pahari_language_124 om7_ship_pahari_language_125 om7_ship_pahari_language_126
+		om7_ship_pahari_language_127 om7_ship_pahari_language_128
+	}
+}
+
+west_himalayic_language = {
+	color = map_west_himalayic_language
+	family = tibetic_language_family
+	male_names = {
+		name_phuntsog name_tensung name_chakdor name_gyurmed name_tenzing name_tsugphud name_sidkeong name_thutob
+		name_tashi name_palden
+	}
+	female_names = {
+		name_kunsang name_nyima name_sangye name_ritvija name_samdup name_thrisong name_shonnu name_shenden
+		name_amrita name_dekyi name_lhagyen name_lhamu name_wangchuck name_yangchen name_yangmo name_opame name_somba
+		name_thekchen name_trinle name_gyelyum name_dolma name_dohna
+	}
+	dynasty_names = {
+		name_sanglaing name_namgyal name_sen name_hang name_khewang name_ing Limbu name_yadav name_wangchuck
+	}
+	lowborn = {
+		Ajibungia Angbuhang Angbe Angbo Angbung Anchangbo Angdembe Anglabang Angthupo Arumhang Awajungo Bokhim Banta
+		Baphu Baragahri Begha Bengtak Bhotangwa Burra Burumba Changshu Chambang Kyak Charkhele Chebegu Chekphong
+		Chengsui Chenwaphu Chermali Chethare Chilikchan Chemjong Chilikehomba Chintung Chabeghu Chongbang Durombo
+		Eveng Edhingo Ehpheng Ekdem Espo Emsong Frekin Gnoyongba Hamphia Hanggam Hangbang Hangserung Hangun Hanserumba
+		Hembya Hellok Hinah Hingo Idingo Ijam Imusong Inemba Inglamphen Ingnam Ingwa Ingwarem Iringba Isbohang Iwaram
+		Iwahang Jabegu Jeyoh Jimbukang Khamdak Kadi Kambang Kanbonan Kandangwa Kanthak Karamba Kawepung Kebok Keiba
+		Kekluke Kerabare Kerumba Kerung Kerungma Keyung Khajum Khangwa Khapung Khewa Khimding Kobok Kochpongo Kodang
+		Koggeknamba Kogling Kohyang Koklung Kondongwa Kongliba Koyahang Koyohang Kudanamba Kugetnamba Kulunglong
+		Kungari Kurumbang Kyadapa Labang Labong Labyung Lahbung Lahoron Laksemba Lambeba Lawoti Lechharbo Lejenji
+		Lekhongwalong Lekhwa Lengwa Lewahang Lianmphe Libang Limkhim Lingdam Lingdom Lingjemba Lingka Lingkhim
+		Lingthep Lohringen Lakshamba Laksom Lokhsambo Lokpeba Loksong Loktam Loktong Loli Longwa Longwago Lua Lugumba
+		Luhimba Lung Lungkimba Lunkimba Luwa Laksam Yangwarak Mabo Madem Mademba Maden Madongya Magmu Mahbo Mahsuwa
+		Madenhang Maken Makkhim Makim Maksingbung Malahang Mangap Mangbo Mangdemba Mangden Mangea Manglak Manglap
+		Mangmo Mangmu Mangsrukha Mangthumbo Mangwayak Mangyeh Mangyunbgo Mangyung Manjia Mansingbung Mapejong Mardin
+		Marinda Maringdom Mauba Mayang Mayongba Mebek Meblak Mebok Mehokpa Mekending Menyangbo Meyongthegim Mikluke
+		Mingemba Miyongma Modengba Modengsomba Modenyak Moraba Moringlahang Moro Moyongba Muden Mudenchain Musuhang
+		Naidemba Naika Naklebu Nalbo Nalibe Nalutem Namdehang Namlakpa Nangen Nayamba Neyong Nembang Nembeke Neongoa
+		Neonwa Neshie Ninglekhu Nogo Nugedemma Nundehang Ogu Okhebu Okhrabo Ongba Onim Pabemba Padupling Pahim Pehim
+		Pahtangna Painger Pakpasomba Paksangwa Pakseng Pakserma Palahajum Palange Palghe Palungwa Pambokpa Pangyanggu
+		Pangba Phago Pangboma Pangenhang Pankemyang Panphoma Papalang Parangden Parangen Pahango Pataha Patare Pegwa
+		Pekim Pemba Pembasong Penchangwa Penjelam Penjetamlingba Pettehba Phaklecha Phakole Phalechuwa Phamphe Phedap
+		Pheguba Phegwaden Phejonba Phejong Phembu Phemsong Phewaden Phiyak Phombo Phonjela Phonpho Phonthak Phonyang
+		Phopra Photre Patangwa Phudunghang Phuglala Phungenahang Pichchowa Pobemba Podalung Poinyanggu Pomu Pongjange
+		Potangna Pothangehere Potro Punjemba Puradin Purumbo Purungbo Sabenhimba Sademba Sakwademba Sakwaden Samba
+		Samdangwa Sameakamba Samra Samsomba Samsong Samsohang Sangba Sangi Sangita Sangpanggye Sangsangbo Sangsangu
+		Sangwa Sanjung Sansoyang Tababung Takmademba Takwaden Tamba Tambe Tambedem Tamdem Tamling Tamorangba Tangba
+		Tangbhopa Tangdewa Tanjamba Tegela Tegim Tegoba Tegothopra Tengbung Teyung Tellok Tembeh Tengubumthupia Tentak
+		Terathar Thaksu Thakleng Thaklung Thangamba Theguba Thoglema Thoklen Thokpeba Thoksuba Thopra Thumba Thumsa
+		Thumyangba Thupukum Tigalla Tikapatti Tinglabe Tinkote Todopa Togleng Toklehang Toklengkya Tokphela Tokponden
+		name_tole Topetlagu Tubuk Tukimo Tukohang Tum Tumbahang Tumbang Tumbahangphe Tumbrok Tumsa Tumsangwa
+		Tumsengwate Tumsong Tumyang Tunesang Tungbanphe Tungkamphs Tunglung Tungohang Tupunge Sanyak Sapla Sapta
+		Sardaphe Saring Sawaden Sayorana Sendang Sedemba Selling Semhang Sene Senehang Sengsaugbo Sengwangyang Sere
+		Serangchongbang Settling Sewa Sialungma Siba Silingbo Sinehang Singak Singdaba Singgokhang name_singh
+		Singjango Singokua Singthape Singyemba Singu Skuwaba Sobegu Sodemba Sodung Sokiklumba name_song Songbamphe
+		Sambahangphe Songbo Songrungbang Songyokpa Subasong Suguwa Suhang Sukarengba Suknawab Sungwapak Sanyokp Umdeme
+		Unglingba Unjumba Ussuk Wabungia Wade Wahek Waji Wanem Warakpa Warupa Wayahnag-Kajum Wayam_Kajum Wegu Werniba
+		Wetupma Wobungia Wodokba Woyang Yakso Yakpaden Yambhota Yangboku Yangboten Yangdem Yangdemba Yanghimba Yangnam
+		Yangrokia Yangsata Yangseba Yangsoba Yangwago Yangya Yanroke Yanwabhu Yawa Yekten Yengdem Yengden Yengdemba
+		Yohimbang Yokippa Yokpangden Yoksoba Yoksuba Yoksuma Yongatemba Yongden Yongeywa Yonghang Yungsahang Yongy
+	}
+	ship_names = {
+		om7_ship_west_himalayic_language_001 om7_ship_west_himalayic_language_002 om7_ship_west_himalayic_language_003
+		om7_ship_west_himalayic_language_004 om7_ship_west_himalayic_language_005 om7_ship_west_himalayic_language_006
+		om7_ship_west_himalayic_language_007 om7_ship_west_himalayic_language_008 om7_ship_west_himalayic_language_009
+		om7_ship_west_himalayic_language_010
+	}
+}
+
+nepali_language = {
+	color = map_nepali_language
+	family = indic_language_family
+	male_names = {
+		Jayajyotimalla Jayayakshamalla Ratmamalla Suryamalla Amaramalla Narendramalla Mahendramalla Sadashivamalla
+		Shivasimhamalla Lakshminarasimhamalla Pratapamalla Jayanripendramalla Parthivendramalla Bhupendramalla
+		Bhaskaramalla Mahendrasimhamalla Jayaprakasamalla Bhimsen name_amar Ranjur Bhakti om_np_prithvi_narayan
+		om_np_rana_bahadur om_np_girvan_yuddha om_np_rajendra Surendra om_np_jang_bahadur
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 300
+		}
+		Jayajyotimalla
+		Jayayakshamalla
+		Ratmamalla
+		Suryamalla
+		Amaramalla
+		Mahendramalla
+		Pratapamalla
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 300
+		}
+		Bhupendramalla
+		Bhaskaramalla
+		Jayaprakasamalla
+		Bhimsen
+		Ranjur
+		Bhakti
+	}
+	male_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 300
+		}
+		om_np_prithvi_narayan
+		om_np_rana_bahadur
+		om_np_girvan_yuddha
+		om_np_rajendra
+		Surendra
+		om_np_jang_bahadur
+	}
+	female_names = {
+		Devaladevi Kaushalyawati Rajendralakshmi Maiya Nanu Nani Maya Pragya Anu Chameli Nirmala Anushka Sarmila Komal
+		name_rita Kamala Goma Srijana Bhawana Pramila Saraswati Laxmi Ganga Radha Radhika name_krishna Bishnu Sarita
+		Kalpana Shanti Aayusha Ramita name_gita Sita Sangita Mira Ranjita Ranju Manju Punam Maili Kaili Saili Jamuna
+		Shova Pratiksha Sanjila Anita Nilam Nira Urmila Kopila Pavitra Iswari Khusbhu Rina Junu Tika Kali Rasmi Rupa
+		Puja Aarati Mankumari Dhankumari Bechani Mangita Uru Lalita Rekha Prabha Shushila name_leyla Renu Muna
+		name_amrita Seti Gauri Kaushilya Rama Madhu Madhurima Renuka Chandrakala Fulkumari Indrakala Sabitri Archana
+		Kamana Puspa Putali Suntali Dipa Ambika Dipshika Sabita Suravi Ramabati Mainabati Kabita Champa Kusum Rampyari
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_1_traditions
+				birth_age = age:age_2_renaissance
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Devaladevi
+		Kaushalyawati
+		Rajendralakshmi
+		Mainabati
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_3_discovery
+				birth_age = age:age_4_reformation
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Mankumari
+		Dhankumari
+		Fulkumari
+		Indrakala
+		Ramabati
+	}
+	female_names = {
+		trigger = {
+			OR = {
+				birth_age = age:age_5_absolutism
+				birth_age = age:age_6_revolutions
+			}
+		}
+		weight = {
+			value = 260
+		}
+		Nirmala
+		Kamala
+		Gauri
+		Lalita
+		Saraswati
+		Rampyari
+	}
+	dynasty_names = {
+		Licchavi Khas_Malla Nuwakot Katyuri Suryavamsa Parmar Newari Gorkha Tamang Gurung Thakali name_yadav
+		name_chand
+	}
+	lowborn = {
+		Chantyal Ghale Kutan Kaike name_dev Limbu name_chand name_chhetri name_singh name_thapa name_bahadur Bikram
+		Chhettri Koirala Magar name_yadav Gurung name_rai Madhesi
+	}
+	ship_names = {
+		om7_ship_nepali_language_001 om7_ship_nepali_language_002 om7_ship_nepali_language_003
+		om7_ship_nepali_language_004 om7_ship_nepali_language_005 om7_ship_nepali_language_006
+		om7_ship_nepali_language_007 om7_ship_nepali_language_008 om7_ship_nepali_language_009
+		om7_ship_nepali_language_010 om7_ship_nepali_language_011 om7_ship_nepali_language_012
+		om7_ship_nepali_language_013 om7_ship_nepali_language_014 om7_ship_nepali_language_015
+		om7_ship_nepali_language_016 om7_ship_nepali_language_017 om7_ship_nepali_language_018
+		om7_ship_nepali_language_019 om7_ship_nepali_language_020 om7_ship_nepali_language_021
+		om7_ship_nepali_language_022 om7_ship_nepali_language_023 om7_ship_nepali_language_024
+		om7_ship_nepali_language_025 om7_ship_nepali_language_026 om7_ship_nepali_language_027
+	}
+}
