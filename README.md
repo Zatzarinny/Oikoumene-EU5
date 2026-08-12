@@ -4,7 +4,7 @@ Oikoumenē expands dynamic place names in EU5, so the same city or province can 
 
 **Current version:** v0.16 – “Jambūdvīpa”
 
-[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233) · [Latest release](GITHUB_LATEST_RELEASE_URL) · [Support Oikoumenē](https://ko-fi.com/oikoumene)
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233) · [Latest release](https://github.com/Zatzarinny/Oikoumene-EU5/releases/latest) · [Support Oikoumenē](https://ko-fi.com/oikoumene)
 
 ## Download
 
