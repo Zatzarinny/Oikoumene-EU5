@@ -2,7 +2,7 @@
 
 Oikoumenē expands dynamic place names in EU5, so the same city or province can appear under different historical or culturally adapted names during a campaign. As countries spread beyond their historical borders, the naming goes with them.
 
-**Current version:** v0.16 – “Jambūdvīpa”
+**Current version:** v0.17 – “Suvaṇṇabhūmi”
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3721193233) · [Latest release](https://github.com/Zatzarinny/Oikoumene-EU5/releases/latest) · [Support Oikoumenē](https://ko-fi.com/oikoumene)
 
