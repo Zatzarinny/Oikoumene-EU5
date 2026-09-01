@@ -1,0 +1,2321 @@
+﻿oik_sorbian_dialect_southern_vancouver_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:southern_vancouver_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_northern_vancouver_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:northern_vancouver_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kwakwala_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kwakwala_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tsimshian_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tsimshian_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_south_tlingit_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_tlingit_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_central_tlingit_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:central_tlingit_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_north_tlingit_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_tlingit_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_sugpiap_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sugpiap_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kaniagmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kaniagmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_unalaska_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:unalaska_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_attu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:attu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_ogulmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ogulmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_nushagagmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nushagagmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kuskokwagmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kuskokwagmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kaialigamiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kaialigamiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_unaligmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:unaligmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_malemiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:malemiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kavagmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kavagmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yupighyt_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yupighyt_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_dena_ina_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dena_ina_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_deg_xitan_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:deg_xitan_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_west_dennaakke_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:west_dennaakke_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_east_dennaakke_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:east_dennaakke_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_northern_tanana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:northern_tanana_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tananacross_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tananacross_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_southern_tanana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:southern_tanana_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_athna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:athna_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_nabesna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nabesna_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kugmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kugmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_south_tutchone_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_tutchone_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_north_tutchone_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_tutchone_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_han_hwechin_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:han_hwechin_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_pelly_river_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:pelly_river_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tlicho_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tlicho_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_south_sahtu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_sahtu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_north_sahtu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_sahtu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_mackenzie_sahtu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mackenzie_sahtu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_coppermine_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:coppermine_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_lower_mackenzie_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lower_mackenzie_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_gwichin_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:gwichin_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_river_dakelh_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:river_dakelh_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_lake_dakelh_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lake_dakelh_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_mountain_dakelh_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mountain_dakelh_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_wetsuweten_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wetsuweten_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_north_sekani_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_sekani_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_south_sekani_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_sekani_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_dunnneza_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dunnneza_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kaska_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kaska_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tsetsaut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tsetsaut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_dehcho_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dehcho_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_sakwatamau_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sakwatamau_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_thilane_hot_ine_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:thilane_hot_ine_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_athabasca_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:athabasca_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_mikkwa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mikkwa_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_amisk_sipi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:amisk_sipi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_namew_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:namew_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_sakitawahk_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sakitawahk_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_gani_koe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:gani_koe_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tu_nedhe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tu_nedhe_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_wecho_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wecho_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_thubun_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:thubun_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_dubawnt_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dubawnt_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_wardandi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wardandi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yoberrore_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yoberrore_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kaleap_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kaleap_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kalaako_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kalaako_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yuat_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yuat_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_mandurah_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mandurah_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_badimala_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:badimala_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_badimaya_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:badimaya_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yinggarda_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yinggarda_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_thalanyji_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:thalanyji_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_jaburrara_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:jaburrara_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kundal_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kundal_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yawuru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yawuru_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_warwa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:warwa_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_mangala_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mangala_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_ngarinyin_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ngarinyin_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_doolboong_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:doolboong_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_jaminjung_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:jaminjung_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tiwi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tiwi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_ongkakaringa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ongkakaringa_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_ngalakan_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ngalakan_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yangman_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yangman_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_wilingura_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wilingura_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_jingili_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:jingili_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yadhaigana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yadhaigana_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yupangathi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yupangathi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kukatj_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kukatj_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_umbindhamu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:umbindhamu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_djabuganjdji_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:djabuganjdji_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_mayi_kutuna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mayi_kutuna_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_wangkamana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wangkamana_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kabikabi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kabikabi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_bindal_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bindal_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_yirandali_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yirandali_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_iningai_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:iningai_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_darumbal_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:darumbal_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_barna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:barna_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_wakgun_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wakgun_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_turrbal_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:turrbal_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kamilaroi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kamilaroi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_burugardi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:burugardi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_wirrai_durhai_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wirrai_durhai_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_dharug_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dharug_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_bombala_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bombala_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_braiakalung_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:braiakalung_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_karta_pintingga_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:karta_pintingga_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_dadi_dadi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dadi_dadi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_wemba_wemba_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wemba_wemba_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_buandig_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:buandig_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tasmania_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tasmania_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_narangga_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:narangga_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_meru_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:meru_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_kooapudna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kooapudna_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_nawu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nawu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tidni_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tidni_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_northland_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:northland_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_bay_of_plenty_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:bay_of_plenty_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_waikato_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:waikato_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_whanganui_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:whanganui_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_whakatu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:whakatu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_waitaha_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:waitaha_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_murihiku_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:murihiku_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_tai_poutini_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tai_poutini_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_rekohu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:rekohu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_lord_howe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lord_howe_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_norfolk_nz_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:norfolk_nz_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_sorbian_dialect_motu_maha_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:sorbian_dialect
+            overlord ?= {
+                culture.dialect = dialect:sorbian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:motu_maha_province
+    }
+
+    location_trigger = {
+    }
+}

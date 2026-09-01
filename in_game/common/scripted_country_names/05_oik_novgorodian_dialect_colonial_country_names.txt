@@ -1,0 +1,1115 @@
+﻿oik_novgorodian_dialect_southern_vancouver_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:southern_vancouver_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_northern_vancouver_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:northern_vancouver_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_kwakwala_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kwakwala_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_tsimshian_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tsimshian_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_south_tlingit_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_tlingit_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_central_tlingit_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:central_tlingit_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_north_tlingit_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_tlingit_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_sugpiap_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sugpiap_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_kaniagmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kaniagmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_unalaska_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:unalaska_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_attu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:attu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_ogulmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:ogulmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_nushagagmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nushagagmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_kuskokwagmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kuskokwagmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_kaialigamiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kaialigamiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_unaligmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:unaligmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_malemiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:malemiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_kavagmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kavagmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_yupighyt_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:yupighyt_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_dena_ina_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dena_ina_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_deg_xitan_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:deg_xitan_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_west_dennaakke_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:west_dennaakke_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_east_dennaakke_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:east_dennaakke_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_northern_tanana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:northern_tanana_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_tananacross_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tananacross_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_southern_tanana_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:southern_tanana_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_athna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:athna_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_nabesna_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:nabesna_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_kugmiut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kugmiut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_south_tutchone_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_tutchone_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_north_tutchone_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_tutchone_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_han_hwechin_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:han_hwechin_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_pelly_river_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:pelly_river_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_tlicho_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tlicho_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_south_sahtu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_sahtu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_north_sahtu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_sahtu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_mackenzie_sahtu_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mackenzie_sahtu_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_coppermine_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:coppermine_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_lower_mackenzie_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lower_mackenzie_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_gwichin_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:gwichin_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_river_dakelh_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:river_dakelh_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_lake_dakelh_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:lake_dakelh_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_mountain_dakelh_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mountain_dakelh_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_wetsuweten_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wetsuweten_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_north_sekani_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:north_sekani_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_south_sekani_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:south_sekani_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_dunnneza_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dunnneza_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_kaska_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:kaska_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_tsetsaut_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tsetsaut_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_dehcho_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dehcho_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_sakwatamau_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sakwatamau_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_thilane_hot_ine_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:thilane_hot_ine_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_athabasca_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:athabasca_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_mikkwa_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:mikkwa_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_amisk_sipi_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:amisk_sipi_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_namew_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:namew_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_sakitawahk_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:sakitawahk_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_gani_koe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:gani_koe_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_tu_nedhe_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:tu_nedhe_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_wecho_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:wecho_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_thubun_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:thubun_province
+    }
+
+    location_trigger = {
+    }
+}
+
+oik_novgorodian_dialect_dubawnt_province_scripted_country_name = {
+    country_trigger = {
+        OR = {
+            culture.dialect = dialect:novgorodian_dialect
+            overlord ?= {
+                culture.dialect = dialect:novgorodian_dialect
+            }
+        }
+    }
+
+    capital_trigger = {
+        province_definition = province_definition:dubawnt_province
+    }
+
+    location_trigger = {
+    }
+}
